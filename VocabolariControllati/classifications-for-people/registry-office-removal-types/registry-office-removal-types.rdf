@@ -563,8 +563,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="en">CSV distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
         <dct:title xml:lang="it">Distribuzione CSV del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv"/>
     </NamedIndividual>
     
 
@@ -579,8 +579,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl"/>
     </NamedIndividual>
     
 
@@ -595,8 +595,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf"/>
     </NamedIndividual>
     
 

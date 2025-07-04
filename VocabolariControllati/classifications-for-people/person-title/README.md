@@ -6,7 +6,7 @@
 [Agid](http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid),
 [STLab](https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab)
 
-**Thread di discussione**: [Issue #58](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/58)
+**Thread di discussione**: [Issue #58](https://github.com/italia/dati-semantic-assets/issues/58)
 
 ### Scopo del Vocabolario
 Il vocabolario controllato *Titolo della Persona* ha lo scopo

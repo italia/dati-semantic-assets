@@ -666,10 +666,10 @@
     "@value" : "JSON-LD distribution of TE-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/te-RDF-TURTLE",
@@ -695,10 +695,10 @@
     "@value" : "RDF/Turtle distribution of TE-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.ttl"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/te-RDF-XML",
@@ -724,10 +724,10 @@
     "@value" : "RDF/XML distribution of TE-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.rdf"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/public-organization/KH5RHFCV",

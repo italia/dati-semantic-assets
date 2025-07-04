@@ -581,10 +581,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.jsonld"
       }
     },
     {
@@ -620,10 +620,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.ttl"
       }
     },
     {
@@ -659,10 +659,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.rdf"
       }
     },
     {

@@ -845,9 +845,9 @@ l0:Topic rdf:type owl:Class ;
 
                                                              dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
 
-                                                             dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PARK/latest> ;
+                                                             dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PARK/latest> ;
 
-                                                             dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.jsonld> ;
+                                                             dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.jsonld> ;
 
                                                              dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
 
@@ -868,9 +868,9 @@ l0:Topic rdf:type owl:Class ;
 
                                                                 dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 
-                                                                dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PARK/latest> ;
+                                                                dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PARK/latest> ;
 
-                                                                dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.ttl> ;
+                                                                dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.ttl> ;
 
                                                                 dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
 
@@ -891,9 +891,9 @@ l0:Topic rdf:type owl:Class ;
 
                                                              dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
 
-                                                             dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PARK/latest> ;
+                                                             dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PARK/latest> ;
 
-                                                             dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.rdf> ;
+                                                             dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.rdf> ;
 
                                                              dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> .
 

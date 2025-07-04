@@ -2778,16 +2778,16 @@
     "@id" : "_:genid95"
   } ]
 }, {
-  "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest",
+  "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld",
+  "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf",
+  "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl",
+  "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
@@ -2819,10 +2819,10 @@
     "@value" : "JSON-LD distribution of DCAT-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE",
@@ -2848,10 +2848,10 @@
     "@value" : "RDF/Turtle distribution of DCAT-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML",
@@ -2877,10 +2877,10 @@
     "@value" : "RDF/XML distribution of DCAT-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/project/datigovit",

@@ -37,8 +37,8 @@
                                      dc:description <https://github.com/italia/servizi-gov/raw/master/ontology/CPSV-AP_IT.png> ;
                                      rdfs:label "Ontologia dei Servizi Pubblici"@it ,
                                                 "Public Services Ontology"@en ;
-                                     owl:versionInfo "Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92"@en ,
-                                                     "Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92"@it ;
+                                     owl:versionInfo "Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/dati-semantic-assets/issues/92"@en ,
+                                                     "Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/dati-semantic-assets/issues/92"@it ;
                                      <http://www.w3.org/ns/dcat#contactPoint> <https://w3id.org/italia/data/contact-point/onto-agid> ;
                                      <http://www.w3.org/ns/dcat#keyword> "Canali di erogazione"@it ,
                                                                          "Servizio"@it ,
@@ -1397,8 +1397,8 @@ Per esempio: \"stato di gravidanza della madre\" è il nome dell'input al quale 
                                                              <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                              <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia CPSV-AP_IT"@it ,
                                                                                               "JSON-LD distribution of CPSV-AP_IT Ontology"@en ;
-                                                             <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPSV/latest> ;
-                                                             <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld> .
+                                                             <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPSV/latest> ;
+                                                             <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPSVAPIT-RDF-TURTLE
@@ -1410,8 +1410,8 @@ Per esempio: \"stato di gravidanza della madre\" è il nome dell'input al quale 
                                                                 <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                 <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia CPSV-AP_IT"@it ,
                                                                                                  "RDF/Turtle distribution of CPSV-AP_IT Ontology"@en ;
-                                                                <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPSV/latest> ;
-                                                                <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl> .
+                                                                <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPSV/latest> ;
+                                                                <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPSVAPIT-RDF-XML
@@ -1423,8 +1423,8 @@ Per esempio: \"stato di gravidanza della madre\" è il nome dell'input al quale 
                                                              <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                              <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia CPSV-AP_IT"@it ,
                                                                                               "RDF/XML distribution of CPSV-AP_IT Ontology"@en ;
-                                                             <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPSV/latest> ;
-                                                             <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf> .
+                                                             <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPSV/latest> ;
+                                                             <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab

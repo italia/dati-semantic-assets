@@ -219,8 +219,8 @@
     <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category.csv"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
   </dcatapit:Distribution>
   <dcatapit:Agent rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -235,8 +235,8 @@
     <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
   </dcatapit:Distribution>
   <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
   <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
@@ -258,8 +258,8 @@
     <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
   </dcatapit:Distribution>
   <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -274,8 +274,8 @@
     <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_JSON_LD">
     <dct:title xml:lang="it">Distribuzione JSON-LD vocabolario controllato categorie punti di interesse </dct:title>
@@ -284,8 +284,8 @@
     <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
   </dcatapit:Distribution>
   <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
   <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>

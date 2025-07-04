@@ -360,10 +360,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"
       },
       "dct:description": [
         {
@@ -1372,10 +1372,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"
       },
       "dct:description": [
         {
@@ -1670,10 +1670,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"
       },
       "dct:description": [
         {
@@ -2512,7 +2512,7 @@
       ],
       "admsapit:acronym": "AtlasOfPaths-AP_IT",
       "admsapit:depiction": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
       },
       "admsapit:hasContributor": {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
@@ -2638,7 +2638,7 @@
           "@value": "Questo è il profilo applicativo italiano dell'ontologia sull'atlante digitale dei cammini d'italia. I cammini possono essere storici, naturalistici, culturali e religiosi, attraversano il Paese da nord a sud e rappresentano una parte fondamentale nell’offerta del turismo lento. L'atlante digitale dei cammini non è altro che un contenitore di percorsi e vie pensato e realizzato sulle linee guida indicate dalla direttiva ministeriale e regolamentato – con la messa a punto degli opportuni criteri – nell’ambito del Comitato Cammini, coordinamento inter-istituzionale formato da MiBAC, Regioni e Provincie autonome"
         },
         {
-          "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
+          "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
         },
         {
           "@language": "en",

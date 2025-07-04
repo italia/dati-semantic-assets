@@ -453,10 +453,10 @@
     "@value" : "JSON-LD distribution of CPV-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE",
@@ -482,10 +482,10 @@
     "@value" : "RDF/Turtle distribution of CPV-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.ttl"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/CPVAPIT-RDF-XML",
@@ -511,10 +511,10 @@
     "@value" : "RDF/XML distribution of CPV-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.rdf"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab",

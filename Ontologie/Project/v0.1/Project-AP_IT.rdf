@@ -39,8 +39,8 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/Project"/>
         <rdfs:label xml:lang="it">Ontologia dei progetti (pubblici)</rdfs:label>
         <rdfs:label xml:lang="en">Project ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 0.1 - 14  May 2019 - creation of the ontology and preliminary modelling of requirements R1-R10 as identified in https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/59</owl:versionInfo>
-        <owl:versionInfo xml:lang="it">Versione 0.1 - 14 Maggio 2019 - creazione dell&apos;ontologia e modellazione preliminare dei requisiti R1-R10 come identificati in https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/59</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 0.1 - 14  May 2019 - creation of the ontology and preliminary modelling of requirements R1-R10 as identified in https://github.com/italia/dati-semantic-assets/issues/59</owl:versionInfo>
+        <owl:versionInfo xml:lang="it">Versione 0.1 - 14 Maggio 2019 - creazione dell&apos;ontologia e modellazione preliminare dei requisiti R1-R10 come identificati in https://github.com/italia/dati-semantic-assets/issues/59</owl:versionInfo>
         <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/onto-agid"/>
         <dcat:keyword xml:lang="it">cup</dcat:keyword>
         <dcat:keyword xml:lang="it">progetti</dcat:keyword>
@@ -536,8 +536,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia PRJ-AP_IT</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of PRJ-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.jsonld"/>
     </owl:NamedIndividual>
 
 
@@ -552,8 +552,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia PRJ-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of PRJ-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.ttl"/>
     </owl:NamedIndividual>
 
 
@@ -568,8 +568,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia PRJ-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of PRJ-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.rdf"/>
     </owl:NamedIndividual>
 
 

@@ -36,13 +36,13 @@ def test_vocab_url(fpath, url):
     # raise NotImplementedError
     if "deprecated" in fpath.lower():
         return
-    if "github.com/italia/daf-ontologie-vocabolari-controllati/issues" in url:
+    if "github.com/italia/dati-semantic-assets/issues" in url:
         return
 
     SKIP_URLS = [
         (
             ("cities.json", "cities.rdf"),
-            "https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/190",
+            "https://github.com/italia/dati-semantic-assets/issues/190",
         )
     ]
     for skip_urls, issue_url in SKIP_URLS:
@@ -52,7 +52,7 @@ def test_vocab_url(fpath, url):
     ret = request_rl(requests.head, url)
 
     # The file exists locally, so it will exist when a PR is merged
-    url_filename = url.replace("https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/", "")
+    url_filename = url.replace("https://raw.githubusercontent.com/italia/dati-semantic-assets/master/", "")
     if ret.status_code == 404 and os.path.exists(url_filename):
         return
 
@@ -63,7 +63,7 @@ def test_vocab_url(fpath, url):
 def test_onto_url(fpath, url):
     if "deprecated" in fpath.lower():
         return
-    if "github.com/italia/daf-ontologie-vocabolari-controllati/issues" in url:
+    if "github.com/italia/dati-semantic-assets/issues" in url:
         return
     if url.endswith((".png", ".jpg", ".gif", ".svg")):
         return
@@ -71,7 +71,7 @@ def test_onto_url(fpath, url):
     SKIP_URLS = [
         (
             ("AC-AP_IT",),
-            "https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/193",
+            "https://github.com/italia/dati-semantic-assets/issues/193",
         )
     ]
     for skip_urls, issue_url in SKIP_URLS:
@@ -81,7 +81,7 @@ def test_onto_url(fpath, url):
     ret = request_rl(requests.head, url)
 
     # The file exists locally, so it will exist when a PR is merged
-    url_filename = url.replace("https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/", "")
+    url_filename = url.replace("https://raw.githubusercontent.com/italia/dati-semantic-assets/master/", "")
     if ret.status_code == 404 and os.path.exists(url_filename):
         return
 

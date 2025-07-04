@@ -1606,10 +1606,10 @@
         "ADMS:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld"
       },
       "dcterms:description": [
         {
@@ -2570,10 +2570,10 @@
         "ADMS:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl"
       },
       "dcterms:description": [
         {
@@ -3585,11 +3585,11 @@
       "owl:versionInfo": [
         {
           "@language": "en",
-          "@value": "Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92"
+          "@value": "Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/dati-semantic-assets/issues/92"
         },
         {
           "@language": "it",
-          "@value": "Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92"
+          "@value": "Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/dati-semantic-assets/issues/92"
         }
       ],
       "prov:wasDerivedFrom": {
@@ -4765,10 +4765,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf"
       },
       "dcterms:description": [
         {

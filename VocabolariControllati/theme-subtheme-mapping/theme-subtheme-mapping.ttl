@@ -202,8 +202,8 @@ align:onto2
     dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della mappatura tra i temi per i dati ed eurovoc usata nel catalogo nazionale dei dati e nel profilo di metadatazione DCAT-AP_IT"@it , "This is the distribution in RDF/Turtle of the Linked Open Dataset of the mapping between the data themes and eurovoc used in the Italian national catalogue of data and in DCAT-AP_IT"@en ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL	<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.ttl> ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/theme-subtheme-mapping> .
+    dcat:downloadURL	<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.ttl> ;
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/theme-subtheme-mapping> .
 
 <http://dati.gov.it/data/resource/Distribution/mappingDTE_RDF_XML>
     a	dcatapit:Distribution  ;
@@ -211,8 +211,8 @@ align:onto2
     dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data della mappatura tra i temi per i dati ed eurovoc usata nel catalogo nazionale dei dati e nel profilo di metadatazione DCAT-AP_IT"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the mapping between the data themes and eurovoc used in the Italian national catalogue of data and in DCAT-AP_IT"@en ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.rdf> ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/theme-subtheme-mapping> .
+    dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.rdf> ;
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/theme-subtheme-mapping> .
 
 <http://dati.gov.it/data/resource/Distribution/mappingDTE_JSON_LD>
     a	dcatapit:Distribution  ;
@@ -220,8 +220,8 @@ align:onto2
     dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data della mappatura tra i temi per i dati ed eurovoc usata nel catalogo nazionale dei dati e nel profilo di metadatazione DCAT-AP_IT"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the mapping between the data themes and eurovoc used in the Italian national catalogue of data and in DCAT-AP_IT"@en ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.jsonld> ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/theme-subtheme-mapping> .
+    dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.jsonld> ;
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/theme-subtheme-mapping> .
 
 <http://dati.gov.it/data/resource/Distribution/mappingDTE_JSON>
     a	dcatapit:Distribution  ;
@@ -229,8 +229,8 @@ align:onto2
     dct:description	"Questa è la distribuzione JSON del dataset Linked Open Data della mappatura tra i temi per i dati ed eurovoc usata nel catalogo nazionale dei dati e nel profilo di metadatazione DCAT-AP_IT"@it , "This is the distribution in JSON of the Linked Open Dataset of the mapping between the data themes and eurovoc used in the Italian national catalogue of data and in DCAT-AP_IT"@en ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.json> ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/theme-subtheme-mapping> .
+    dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/theme-subtheme-mapping/theme-subtheme-mapping.json> ;
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/theme-subtheme-mapping> .
 
 #Definition of the mapping
 <http://publications.europa.eu/resource/authority/data-theme/AGRI> a skos:Concept ;

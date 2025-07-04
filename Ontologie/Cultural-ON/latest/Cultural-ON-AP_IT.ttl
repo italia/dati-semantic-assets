@@ -61,7 +61,7 @@ The alignment_xml.owl complements the ontology with the alignments with external
                                     rdfs:label "Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology"@en ,
                                                "Cultural-ON (Cultural ONtology): Ontologia dei Luoghi della Cultura e degli Eventi Culturali"@it ;
                                     owl:versionInfo "Version 3.2 -  27 May 2019 - Introduction of the inverse property \"is involved in cultural event\" used to directly connect a cultural entity with the cultural events where it is involved in. Versione 3.2 includes all those changes necessary to refactor the original ontology in order to be fully integrated in the OntoPiA network."@en ,
-                                                    "Versione 3.2 - 27 Maggio 2019 - Introduzione della proprietà inversa \"is involved in cultural event\" per collegare un'entità culturale all'evento in cui essa è coinvolta. Risponde al requisito emerso dall'issue https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/62. La versione 3.2 include tutta la rifattorizzazione dell'ontologia per la piena integrazione nella rete OntoPiA"@it ;
+                                                    "Versione 3.2 - 27 Maggio 2019 - Introduzione della proprietà inversa \"is involved in cultural event\" per collegare un'entità culturale all'evento in cui essa è coinvolta. Risponde al requisito emerso dall'issue https://github.com/italia/dati-semantic-assets/issues/62. La versione 3.2 include tutta la rifattorizzazione dell'ontologia per la piena integrazione nella rete OntoPiA"@it ;
                                     dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-mibac> ;
                                     dcat:keyword "Cultural events"@en ,
                                                  "Cultural sites"@en ,
@@ -2383,8 +2383,8 @@ l0:Topic rdf:type owl:Class .
                                                         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                         dct:title "Distribuzione JSON-LD ontologia Cultural-ON"@it ,
                                                                   "JSON-LD distribution of Cultural-ON Ontology"@en ;
-                                                        dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Cultural-ON/latest> ;
-                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.jsonld> .
+                                                        dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Cultural-ON/latest> ;
+                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/CIS-RDF-TURTLE
@@ -2396,8 +2396,8 @@ l0:Topic rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/Turtle ontologia Cultural-ON"@it ,
                                                                      "RDF/Turtle distribution of Cultural-ON Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Cultural-ON/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.ttl> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Cultural-ON/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/CIS-RDF-XML
@@ -2409,8 +2409,8 @@ l0:Topic rdf:type owl:Class .
                                                         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                         dct:title "Distribuzione RDF/XML ontologia Cultural-ON"@it ,
                                                                   "RDF/XML distribution of Cultural-ON Ontology"@en ;
-                                                        dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Cultural-ON/latest> ;
-                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.rdf> .
+                                                        dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Cultural-ON/latest> ;
+                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab

@@ -206,8 +206,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle del Vocabolario Controllato sulle tipologie di stati civili "@it ,
                                                                          "RDF/Turtle distribution of the Marital Status controlled vocabulary"@en ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
-															   dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.ttl> .	
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
+															   dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.ttl> .	
 
 	### https://w3id.org/italia/data/distribution/MaritalStatus_RDF_XML
 <https://w3id.org/italia/data/distribution/MaritalStatus_RDF_XML> rdf:type admsapit:SemanticAssetDistribution ;
@@ -217,8 +217,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/XML del Vocabolario Controllato sulle tipologie di stati civili "@it ,
                                                                          "RDF/XML distribution of the Marital Status controlled vocabulary"@en ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
-															   dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.rdf> .	
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
+															   dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.rdf> .	
 
 	### https://w3id.org/italia/data/distribution/MaritalStatus_CSV
 <https://w3id.org/italia/data/distribution/MaritalStatus_CSV> rdf:type admsapit:SemanticAssetDistribution ;
@@ -228,8 +228,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione CSV del Vocabolario Controllato sulle tipologie di stati civili "@it ,
                                                                          "CSV distribution of the Marital Status controlled vocabulary"@en ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
-															   dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.csv> .	
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/marital-status-types>;                                                                              
+															   dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/marital-status-types/marital-status-types.csv> .	
 	
 		
 <https://w3id.org/italia/data/public-organization/ISTAT> rdf:type dcatapit:Agent ,

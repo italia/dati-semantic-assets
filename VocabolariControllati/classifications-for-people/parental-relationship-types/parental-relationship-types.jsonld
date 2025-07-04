@@ -582,8 +582,8 @@
       "@language" : "it",
       "@value" : "Distribuzione CSV relazioni di parentela delle persone"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.csv"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.csv"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/PR_JSON_LD",
     "@type" : "dcatapit:Distribution",
@@ -603,8 +603,8 @@
       "@language" : "it",
       "@value" : "Distribuzione JSON_LD del vocabolario controllato sulle relazioni di parentela delle persone"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.jsonld"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.jsonld"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/PR_RDF_Turtle",
     "@type" : "dcatapit:Distribution",
@@ -624,8 +624,8 @@
       "@language" : "it",
       "@value" : "Distribuzione RDF/Turtle del vocabolario controllato sulle relazioni di parentela delle persone"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.ttl"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.ttl"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/PR_RDF_XML",
     "@type" : "dcatapit:Distribution",
@@ -645,8 +645,8 @@
       "@language" : "it",
       "@value" : "Distribuzione RDF/XML del vocabolario controllato sulle relazioni di parentela delle persone"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.rdf"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.rdf"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/PR_XLSX",
     "@type" : "dcatapit:Distribution",
@@ -666,8 +666,8 @@
       "@language" : "it",
       "@value" : "Distribuzione XLSX relazioni di parentela delle persone"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
-    "downloadURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.xlsx"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types",
+    "downloadURL" : "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.xlsx"
   }, {
     "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
     "@type" : [ "foaf:Agent", "dcatapit:Agent" ],

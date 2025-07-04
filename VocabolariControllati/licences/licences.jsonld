@@ -4374,10 +4374,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.csv"
       }
     },
     {
@@ -4410,10 +4410,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.jsonld"
       }
     },
     {
@@ -4446,10 +4446,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.ttl"
       }
     },
     {
@@ -4482,10 +4482,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.rdf"
       }
     },
     {
@@ -4518,10 +4518,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences"
       },
       "dcat:downloadURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/licences/licences.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/licences/licences.xlsx"
       }
     },
     {

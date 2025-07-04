@@ -815,8 +815,8 @@
     <dct:description xml:lang="en">This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.rdf</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.rdf"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/TransparencyObligation_CSV">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
@@ -826,8 +826,8 @@
     <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.csv.</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.csv"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation/180101">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/Transparency/TransparencyObligation"/>
@@ -1973,8 +1973,8 @@
     <dct:description xml:lang="en">This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.ttl</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.ttl"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation/100102">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/Transparency/TransparencyObligation"/>
@@ -2401,8 +2401,8 @@
     <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.xslx.</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.xlsx"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation/060301">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/Transparency/TransparencyObligation"/>
@@ -2651,8 +2651,8 @@
     <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.jsonld</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.jsonld"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation/210303">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/Transparency/TransparencyObligation"/>

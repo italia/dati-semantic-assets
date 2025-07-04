@@ -271,8 +271,8 @@
       "@language" : "it",
       "@value" : "Distribuzione CSV vocabolario controllato sul sesso"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.csv"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.csv"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD",
     "@type" : "dcatapit:Distribution",
@@ -292,8 +292,8 @@
       "@language" : "it",
       "@value" : "Distribuzione JSON_LD del vocabolario controllato sul sesso"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-Turtle",
     "@type" : "dcatapit:Distribution",
@@ -313,8 +313,8 @@
       "@language" : "it",
       "@value" : "Distribuzione RDF/Turtle del vocabolario controllato sul sesso"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-XML",
     "@type" : "dcatapit:Distribution",
@@ -334,8 +334,8 @@
       "@language" : "it",
       "@value" : "Distribuzione RDF/XML del vocabolario controllato sul sesso"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex",
-    "downloadURL" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"
   }, {
     "@id" : "https://w3id.org/italia/data/distribution/sex-XLSX",
     "@type" : "dcatapit:Distribution",
@@ -355,8 +355,8 @@
       "@language" : "it",
       "@value" : "Distribuzione XLSX vocabolario controllato sul sesso"
     } ],
-    "accessURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex",
-    "downloadURL" : "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"
   }, {
     "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
     "@type" : [ "foaf:Agent", "dcatapit:Agent" ],

@@ -25,7 +25,7 @@
                                       dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
                                       dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/m_bac> ,
                                                   <https://w3id.org/italia/data/support-unit/cnr-Z6HZEH/stlab> ;
-                                      dct:description <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png> ,
+                                      dct:description <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png> ,
                                                       "Questo il profilo applicativo italiano dell'ontologia sui percorsi. Essi sono i percorsi di transito che possono essere seguiti mediante l'uso di diversi mezzi di trasporto come per esempio i percorsi degli autobus, i percorsi della metro, i percorsi a piedi, i percorsi a cavallo."@it ,
                                                       "This is the Italian application profile of the routes. They are transit routes that can be followed using different means of transportation such as bus routes, metro routes, walking routes, hourseback routes, etc."@en ;
                                       dct:issued "2018-10-18"^^xsd:date ;
@@ -50,7 +50,7 @@
                                       dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ,
                                                  <http://publications.europa.eu/resource/authority/data-theme/TRAN> ;
                                       admsapit:acronym "Route-AP_IT" ;
-                                      admsapit:depiction <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png> ;
+                                      admsapit:depiction <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png> ;
                                       admsapit:hasContributor <http://spcdata.digitpa.gov.it/Amministrazione/agid> ;
                                       admsapit:hasFormalityLevel admsapit:Formal ;
                                       admsapit:hasKeyClass :Route ,
@@ -717,8 +717,8 @@ l0:Sequence rdf:type owl:Class ;
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione JSON-LD ontologia Route-AP_IT"@it ,
                                                                      "JSON-LD distribution of Route-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Route/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.jsonld> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Route/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/RTAPIT-RDF-TURTLE
@@ -730,8 +730,8 @@ l0:Sequence rdf:type owl:Class ;
                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                               dct:title "Distribuzione RDF/Turtle ontologia Route-AP_IT"@it ,
                                                                         "RDF/Turtle distribution of Route-AP_IT Ontology"@en ;
-                                                              dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Route/latest> ;
-                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.ttl> .
+                                                              dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Route/latest> ;
+                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/RTAPIT-RDF-XML
@@ -743,8 +743,8 @@ l0:Sequence rdf:type owl:Class ;
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/XML ontologia Route-AP_IT"@it ,
                                                                      "RDF/XML distribution of Route-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Route/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.rdf> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Route/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/project/AtlanteCammini

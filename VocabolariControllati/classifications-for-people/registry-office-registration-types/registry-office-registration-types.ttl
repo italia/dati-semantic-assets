@@ -214,8 +214,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
                                                                          "RDF/Turtle distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.ttl> ;
-                                                               dcat:accessURL   <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.ttl> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
 
 ### https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_XML
 <https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_XML> rdf:type admsapit:SemanticAssetDistribution ;
@@ -225,8 +225,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/XML del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
                                                                          "RDF/XML distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.rdf> ;
-                                                               dcat:accessURL   <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.rdf> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
 
 ### https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_CSV
 <https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_CSV> rdf:type admsapit:SemanticAssetDistribution ;
@@ -236,8 +236,8 @@ foaf:Agent rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione CSV del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
                                                                          "CSV distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.csv> ;
-                                                               dcat:accessURL   <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.csv> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
 
 
 

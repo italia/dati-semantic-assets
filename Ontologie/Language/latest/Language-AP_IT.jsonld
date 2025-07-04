@@ -121,13 +121,13 @@
 	"@id": "http://xmlns.com/foaf/0.1/name",
 	"@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
 }, {
-	"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest"
+	"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest"
 }, {
-	"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.jsonld"
+	"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.jsonld"
 }, {
-	"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.rdf"
+	"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.rdf"
 }, {
-	"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.ttl"
+	"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.ttl"
 }, {
 	"@id": "https://w3id.org/italia/data/distribution/LangAPIT-JSON-LD"
 }, {
@@ -169,10 +169,10 @@
 		"@language": "en"
 	}],
 	"http://www.w3.org/ns/dcat#accessURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest"
 	}],
 	"http://www.w3.org/ns/dcat#downloadURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.jsonld"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.jsonld"
 	}]
 }, {
 	"@id": "https://w3id.org/italia/data/distribution/LangAPIT-RDF-TURTLE",
@@ -198,10 +198,10 @@
 		"@language": "en"
 	}],
 	"http://www.w3.org/ns/dcat#accessURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest"
 	}],
 	"http://www.w3.org/ns/dcat#downloadURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.ttl"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.ttl"
 	}]
 }, {
 	"@id": "https://w3id.org/italia/data/distribution/LangAPIT-RDF-XML",
@@ -227,10 +227,10 @@
 		"@language": "en"
 	}],
 	"http://www.w3.org/ns/dcat#accessURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest"
 	}],
 	"http://www.w3.org/ns/dcat#downloadURL": [{
-		"@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Language/latest/Language-AP_IT.rdf"
+		"@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Language/latest/Language-AP_IT.rdf"
 	}]
 }, {
 	"@id": "https://w3id.org/italia/data/organization/public-organization/td",

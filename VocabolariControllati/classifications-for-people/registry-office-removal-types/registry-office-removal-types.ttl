@@ -218,8 +218,8 @@ dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
                                                                          "RDF/Turtle distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
-																dcat:downloadURL  <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl> ;
-																dcat:accessURL    <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
 
 ### https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML
 <https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML> rdf:type admsapit:SemanticAssetDistribution ;
@@ -229,8 +229,8 @@ dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/XML del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
                                                                          "RDF/XML distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
-																dcat:downloadURL  <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf> ;
-																dcat:accessURL    <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
 
 ### https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV
 <https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV> rdf:type admsapit:SemanticAssetDistribution ;
@@ -240,8 +240,8 @@ dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione CSV del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
                                                                          "CSV distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
-																dcat:downloadURL  <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv> ;
-																dcat:accessURL    <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
 
 
 ###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1

@@ -448,10 +448,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld"
       }
     },
     {
@@ -487,10 +487,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.ttl"
       }
     },
     {
@@ -526,10 +526,10 @@
         }
       ],
       "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.rdf"
       }
     },
     {

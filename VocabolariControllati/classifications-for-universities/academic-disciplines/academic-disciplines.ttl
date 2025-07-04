@@ -141,24 +141,24 @@ ndc:keyConcept a rdfs:Property .
     dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Settori scientifico-disciplinari"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.jsonld> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.jsonld> .
 
 <https://w3id.org/italia/data/distribution/academic-disciplines-RDF-Turtle> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sui settori scientifico-disciplinari delle Università italiane"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Settori scientifico-disciplinari"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.ttl> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.ttl> .
 
 <https://w3id.org/italia/data/distribution/academic-disciplines-RDF-XML> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sui settori scientifico-disciplinari delle Università italiane"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Settori scientifico-disciplinari"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.rdf> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/academic-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/academic-disciplines/academic-disciplines.rdf> .
 
 <https://w3id.org/italia/data/standard/SKOS> a dcatapit:Standard,
         dct:Standard ;

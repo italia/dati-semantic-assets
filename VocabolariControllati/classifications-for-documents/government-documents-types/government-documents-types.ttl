@@ -219,8 +219,8 @@ ndc:keyConcept
       	dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the Government Documents Types controlled vocabulary"@en ;
       	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       	dct:license  <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.ttl> ;
-      	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
+      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.ttl> ;
+      	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
 
 <https://w3id.org/italia/data/distribution/GDT-RDF-XML>
         a						dcatapit:Distribution  ;
@@ -228,8 +228,8 @@ ndc:keyConcept
         dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the Government Documents Types controlled vocabulary"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.rdf> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.rdf> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
 
 <https://w3id.org/italia/data/distribution/GDT-JSON-LD>
         a		dcatapit:Distribution  ;
@@ -237,8 +237,8 @@ ndc:keyConcept
         dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the Government Documents Types controlled vocabulary"@en ;
         dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.jsonld> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.jsonld> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
 
   <https://w3id.org/italia/data/distribution/GDT-CSV>
         a						dcatapit:Distribution  ;
@@ -246,8 +246,8 @@ ndc:keyConcept
         dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni"@it , "This is the distribution in CSV of the Linked Open Dataset of the Government Documents Types controlled vocabulary"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.csv> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.csv> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
 
 <https://w3id.org/italia/data/distribution/GDT-XLSX>
         a						dcatapit:Distribution  ;
@@ -255,8 +255,8 @@ ndc:keyConcept
         dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni"@it , "This is the distribution in XLSX of the Linked Open Dataset of the Government Documents Types controlled vocabulary"@en ;
         dct:format 		<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
         dct:license 	<https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.xlsx> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
+        dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.xlsx> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types> .
 
 #Definition of the controlled vocabulary
  <https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/1>

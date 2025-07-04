@@ -1508,8 +1508,8 @@
     <ns3:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian Provinces controlled vocabulary </ns3:description>
     <ns3:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <ns3:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.ttl"/>
-    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces"/>
+    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.ttl"/>
+    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/provinces-identifiers/vehicle-code/LE">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
@@ -2313,8 +2313,8 @@
     <ns3:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Italian Provinces controlled vocabulary </ns3:description>
     <ns3:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <ns3:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.rdf"/>
-    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces"/>
+    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.rdf"/>
+    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/provinces-identifiers/province-code/029">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
@@ -3039,8 +3039,8 @@
     <ns3:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of the Italian Provinces controlled vocabulary </ns3:description>
     <ns3:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <ns3:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.jsonld"/>
-    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces"/>
+    <ns8:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.jsonld"/>
+    <ns8:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/provinces-identifiers/province-code/053">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>

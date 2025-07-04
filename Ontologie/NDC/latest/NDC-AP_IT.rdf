@@ -70,8 +70,8 @@
     <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
     <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell'ontologia sul profilo applicativo italiano dell'NDC</dct:description>
     <dct:description xml:lang="en">This is the distribution in RDF/turtle of Italian application profile of the NDC project</dct:description>
     <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia NDC-AP_IT</dct:title>
@@ -184,7 +184,7 @@
     <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/Project"/>
     <l0:name xml:lang="it">OntoPiA - la rete di ontologie della pubblica amministrazione italiana</l0:name>
   </owl:NamedIndividual>
-  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest"/>
+  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest"/>
   <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
   <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/Project"/>
   <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
@@ -210,5 +210,5 @@
   <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
   <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
   <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/language/ITA"/>
-  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
+  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
 </rdf:RDF>

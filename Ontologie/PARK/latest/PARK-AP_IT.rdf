@@ -742,8 +742,8 @@
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia PARK-AP_IT</dct:title>
         <dct:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia dei Parcheggi</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.jsonld"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     </owl:NamedIndividual>
 
@@ -758,8 +758,8 @@
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia PARK-AP_IT</dct:title>
         <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia dei Parcheggi</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.ttl"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     </owl:NamedIndividual>
 
@@ -774,8 +774,8 @@
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia PARK-AP_IT</dct:title>
         <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia dei Parcheggi</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PARK/latest/PARK-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PARK/latest/PARK-AP_IT.rdf"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     </owl:NamedIndividual>
 

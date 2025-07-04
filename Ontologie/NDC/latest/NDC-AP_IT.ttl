@@ -252,12 +252,12 @@ admsapit:SemanticAssetDistribution rdf:type owl:Class .
 <http://publications.europa.eu/resource/authority/language/ITA> rdf:type owl:NamedIndividual .
 
 
-###  https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest
-<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/NDC/latest> rdf:type owl:NamedIndividual .
+###  https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest
+<https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/NDC/latest> rdf:type owl:NamedIndividual .
 
 
-###  https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest/NDC-AP_IT.ttl
-<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest/NDC-AP_IT.ttl> rdf:type owl:NamedIndividual .
+###  https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl
+<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl> rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40
@@ -277,8 +277,8 @@ admsapit:SemanticAssetDistribution rdf:type owl:Class .
                                                                             admsapit:SemanticAssetDistribution ;
                                                                    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
                                                                    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-                                                                   dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/NDC/latest> ;
-                                                                   dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/NDC/latest/NDC-AP_IT.ttl> ;
+                                                                   dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/NDC/latest> ;
+                                                                   dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl> ;
                                                                    dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia sul profilo applicativo italiano dell'NDC"@it ,
                                                                                    "This is the distribution in RDF/turtle of Italian application profile of the NDC project"@en ;
                                                                    dct:title "Distribuzione RDF/Turtle ontologia NDC-AP_IT"@it ,

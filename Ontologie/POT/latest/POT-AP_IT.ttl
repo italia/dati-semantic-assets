@@ -679,8 +679,8 @@ It is associated to a currency (e.g., Euro) and a currency value (i.e., a quanti
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione JSON-LD ontologia POT-AP_IT"@it ,
                                                                      "JSON-LD distribution of POT-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/POT/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest/POT-AP_IT.jsonld> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/POT/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/POT/latest/POT-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/POT-RDF-TURTLE
@@ -692,8 +692,8 @@ It is associated to a currency (e.g., Euro) and a currency value (i.e., a quanti
                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                               dct:title "Distribuzione RDF/Turtle ontologia POT-AP_IT"@it ,
                                                                         "RDF/Turtle distribution of POT-AP_IT Ontology"@en ;
-                                                              dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/POT/latest> ;
-                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest/POT-AP_IT.ttl> .
+                                                              dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/POT/latest> ;
+                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/POT/latest/POT-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/POT-RDF-XML
@@ -705,8 +705,8 @@ It is associated to a currency (e.g., Euro) and a currency value (i.e., a quanti
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/XML ontologia POT-AP_IT"@it ,
                                                                      "RDF/XML distribution of POT-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/POT/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/POT/latest/POT-AP_IT.rdf> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/POT/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/POT/latest/POT-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/contact-point/onto-agid

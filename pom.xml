@@ -2,11 +2,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.italia</groupId>
-	<artifactId>daf-ontologie-vocabolari-controllati</artifactId>
+	<artifactId>dati-semantic-assets</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1-SNAPSHOT</version>
-	<name>daf-ontologie-vocabolari-controllati</name>
-	<url>https://github.com/italia/daf-ontologie-vocabolari-controllati</url>
+	<name>dati-semantic-assets</name>
+	<url>https://github.com/italia/dati-semantic-assets</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

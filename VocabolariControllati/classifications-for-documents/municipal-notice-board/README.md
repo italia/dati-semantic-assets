@@ -22,7 +22,7 @@
 - Open Data Sicilia
 
 
-**Thread di discussione**: [Issue #66](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/66)
+**Thread di discussione**: [Issue #66](https://github.com/italia/dati-semantic-assets/issues/66)
 
 ### Scopo del Vocabolario
 L'obiettivo del vocabolario controllato "Albo pretorio" è definire una classificazione delle tipologie degli atti amministrativi comunali per l'albo pretorio online.  Il vocabolario vale anche per i siti web comunali e per tutti quegli atti dell'albo pretorio che devono essere pubblicati nella sezione "Aministrazione trasparente".

@@ -279,10 +279,10 @@
     "@value" : "JSON-LD distribution of TI-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/TI-AP_IT.jsonld"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/TI-AP_IT.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/TI-RDF-TURTLE",
@@ -308,10 +308,10 @@
     "@value" : "RDF/Turtle distribution of TI-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.ttl"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/TI-RDF-XML",
@@ -337,10 +337,10 @@
     "@value" : "RDF/XML distribution of TI-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.rdf"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/organization/public-organization/td",

@@ -45,8 +45,8 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CPSV"/>
         <rdfs:label xml:lang="it">Ontologia dei Servizi Pubblici</rdfs:label>
         <rdfs:label xml:lang="en">Public Services Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92</owl:versionInfo>
-        <owl:versionInfo xml:lang="it">Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/92</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1.1 - Modified on 30 September 2020 - Use of the definition of Public Service defined in the European application profile CPSV-AP. This emerged from users requests expressed in the following issue: https://github.com/italia/dati-semantic-assets/issues/92</owl:versionInfo>
+        <owl:versionInfo xml:lang="it">Versione 1.1 - Modificata il 30 Settembre 2020 - Uso della definizione di Servizio Pubblico come presentata nel profilo applicativo europeo CPSV-AP. Questa modifica si è resa necessaria per rispondere a richieste di utenti espresse in questo issue: https://github.com/italia/dati-semantic-assets/issues/92</owl:versionInfo>
         <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/onto-agid"/>
         <dcat:keyword xml:lang="it">Canali di erogazione</dcat:keyword>
         <dcat:keyword xml:lang="it">Servizio</dcat:keyword>
@@ -1844,8 +1844,8 @@ Per esempio: &quot;stato di gravidanza della madre&quot; è il nome dell&apos;in
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <terms:title xml:lang="it">Distribuzione JSON-LD ontologia CPSV-AP_IT</terms:title>
         <terms:title xml:lang="en">JSON-LD distribution of CPSV-AP_IT Ontology</terms:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.jsonld"/>
     </owl:NamedIndividual>
     
 
@@ -1860,8 +1860,8 @@ Per esempio: &quot;stato di gravidanza della madre&quot; è il nome dell&apos;in
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <terms:title xml:lang="it">Distribuzione RDF/Turtle ontologia CPSV-AP_IT</terms:title>
         <terms:title xml:lang="en">RDF/Turtle distribution of CPSV-AP_IT Ontology</terms:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.ttl"/>
     </owl:NamedIndividual>
     
 
@@ -1876,8 +1876,8 @@ Per esempio: &quot;stato di gravidanza della madre&quot; è il nome dell&apos;in
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <terms:title xml:lang="it">Distribuzione RDF/XML ontologia CPSV-AP_IT</terms:title>
         <terms:title xml:lang="en">RDF/XML distribution of CPSV-AP_IT Ontology</terms:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPSV/latest/CPSV-AP_IT.rdf"/>
     </owl:NamedIndividual>
     
 
