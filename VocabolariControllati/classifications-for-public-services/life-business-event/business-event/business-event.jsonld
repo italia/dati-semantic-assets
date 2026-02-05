@@ -60,12 +60,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.csv"
       }
     ]
   },
@@ -380,12 +380,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.xlsx"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.xlsx"
       }
     ]
   },
@@ -1394,12 +1394,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.jsonld"
       }
     ]
   },
@@ -1446,12 +1446,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.ttl"
       }
     ]
   },
@@ -1516,12 +1516,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.rdf"
       }
     ]
   },

@@ -80,8 +80,8 @@
         <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Route types controlled vocabulary</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types/route-types.ttl"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types/route-types.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/Route-Type-RDF-XML"/>
@@ -280,8 +280,8 @@
     <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Route types controlled vocabulary</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types/route-types.csv"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types/route-types.csv"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/resource/Distribution/RouteType-RDF-XML">
     <dct:title xml:lang="it">Distribuzione RDF/XML vocabolario controllato tipi di percorso</dct:title>
@@ -290,8 +290,8 @@
     <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Route types controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types/route-types.rdf"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types/route-types.rdf"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/resource/Distribution/RouteType-XLSX">
     <dct:title xml:lang="it">Distribuzione XLSX vocabolario controllato sui tipi di percorso</dct:title>
@@ -300,8 +300,8 @@
     <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Route types controlled vocabulary</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types/route-types.xlsx"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types/route-types.xlsx"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/resource/Distribution/RouteType-JSON-LD">
     <dct:title xml:lang="it">Distribuzione JSON-LD vocabolario controllato categorie tipi di percorso</dct:title>
@@ -310,8 +310,8 @@
     <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of the Route types controlled vocabulary </dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types/route-types.jsonld"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-routes/route-types"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types/route-types.jsonld"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-routes/route-types"/>
   </dcatapit:Distribution>
   <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
   <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>

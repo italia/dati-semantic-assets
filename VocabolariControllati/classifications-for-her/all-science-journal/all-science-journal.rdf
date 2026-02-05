@@ -3323,8 +3323,8 @@
     <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of all science journal classification</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.rdf"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/2735">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3386,8 +3386,8 @@
     <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of all science journal classification</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.ttl"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/3207">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3605,8 +3605,8 @@
     <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of all science journal classification</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.xlsx"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/2611">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -4840,8 +4840,8 @@
     <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of all science journal classification</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.jsonld"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/3305">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5402,8 +5402,8 @@
     <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of all science journal classification</dct:description>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.csv"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/1204">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

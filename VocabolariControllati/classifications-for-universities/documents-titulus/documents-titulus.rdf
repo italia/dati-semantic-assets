@@ -304,8 +304,8 @@ relativa voce attribuibile, desunta dal titolario e successivamente fascicolato 
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Titolario di Classificazione Titulus 2013</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.jsonld"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -314,8 +314,8 @@ relativa voce attribuibile, desunta dal titolario e successivamente fascicolato 
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Titolario di Classificazione Titulus 2013</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.ttl"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -324,8 +324,8 @@ relativa voce attribuibile, desunta dal titolario e successivamente fascicolato 
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Titolario di Classificazione Titulus 2013</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.rdf"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:keyword xml:lang="it">archivio</dcat:keyword>

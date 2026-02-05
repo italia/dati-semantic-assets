@@ -3056,10 +3056,10 @@
     "@value" : "JSON-LD distribution of PublicReseach-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.jsonld"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/HERAPIT-RDF-TURTLE",
@@ -3085,10 +3085,10 @@
     "@value" : "RDF/Turtle distribution of PublicReseach-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.ttl"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/HERAPIT-RDF-XML",
@@ -3114,10 +3114,10 @@
     "@value" : "RDF/XML distribution of PublicReseach-AP_IT Ontology"
   } ],
   "http://www.w3.org/ns/dcat#accessURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.rdf"
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/private-organization/03033080213",

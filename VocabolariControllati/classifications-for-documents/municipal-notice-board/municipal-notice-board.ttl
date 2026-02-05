@@ -133,24 +133,24 @@ ndc:keyConcept a rdfs:Property .
     dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld> .
 
 <https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-Turtle> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl> .
 
 <https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-XML> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/municipal-notice-board> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf> .
 
 <https://w3id.org/italia/data/standard/SKOS> a dcatapit:Standard,
         dct:Standard ;

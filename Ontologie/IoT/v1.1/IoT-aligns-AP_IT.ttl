@@ -286,7 +286,7 @@ sosa:madeObservation rdf:type owl:ObjectProperty ;
 
 <https://w3id.org/italia/onto/IoT/MeasurementQuality> rdf:type owl:Class ;
 
-                                                      rdfs:subClassOf ssn:SystemProperty .
+                                                      rdfs:subClassOf <http://www.w3.org/ns/ssn/systems/SystemProperty> .
 
 
 
@@ -318,7 +318,7 @@ sosa:madeObservation rdf:type owl:ObjectProperty ;
 
 <https://w3id.org/italia/onto/IoT/Sensor> rdf:type owl:Class ;
 
-                                         rdfs:subClassOf ssn:Sensor .
+                                         rdfs:subClassOf sosa:Sensor .
 
 
 

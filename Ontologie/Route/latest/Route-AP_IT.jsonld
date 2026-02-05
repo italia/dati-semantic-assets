@@ -361,10 +361,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.rdf"
       },
       "dcterms:description": [
         {
@@ -400,10 +400,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/Route-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/Route-AP_IT.jsonld"
       },
       "dcterms:description": [
         {
@@ -815,10 +815,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.ttl"
       },
       "dcterms:description": [
         {
@@ -1777,7 +1777,7 @@
       ],
       "admsapit:acronym": "Route-AP_IT",
       "admsapit:depiction": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png"
       },
       "admsapit:hasContributor": {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
@@ -1907,7 +1907,7 @@
           "@value": "Questo il profilo applicativo italiano dell'ontologia sui percorsi. Essi sono i percorsi di transito che possono essere seguiti mediante l'uso di diversi mezzi di trasporto come per esempio i percorsi degli autobus, i percorsi della metro, i percorsi a piedi, i percorsi a cavallo."
         },
         {
-          "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png"
+          "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png"
         }
       ],
       "dcterms:issued": {

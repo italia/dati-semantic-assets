@@ -128,24 +128,24 @@ ndc:keyConcept a rdfs:Property .
     dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Titolario di Classificazione Titulus 2013"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.jsonld> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.jsonld> .
 
 <http://dati.gov.it/data/resource/Distribution/documents-titulus-RDF-Turtle> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul titolario di classificazione degli archivi delle Università italiane"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Titolario di Classificazione Titulus 2013"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.ttl> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.ttl> .
 
 <http://dati.gov.it/data/resource/Distribution/documents-titulus-RDF-XML> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul titolario di classificazione degli archivi delle Università italiane"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Titolario di Classificazione Titulus 2013"@it ;
-    dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.rdf> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-universities/documents-titulus> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-universities/documents-titulus/documents-titulus.rdf> .
 
 <http://dati.gov.it/data/resource/Standard/SKOS> a dcatapit:Standard,
         dct:Standard ;

@@ -555,8 +555,8 @@ l0:EventOrSituation rdf:type owl:Class .
                                                        dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        dct:title "Distribuzione JSON-LD ontologia TI-AP_IT"@it ,
                                                                  "JSON-LD distribution of TI-AP_IT Ontology"@en ;
-                                                       dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest> ;
-                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/TI-AP_IT.jsonld> .
+                                                       dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/TI-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/TI-RDF-TURTLE
@@ -568,8 +568,8 @@ l0:EventOrSituation rdf:type owl:Class .
                                                           dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                           dct:title "Distribuzione RDF/Turtle ontologia TI-AP_IT"@it ,
                                                                     "RDF/Turtle distribution of TI-AP_IT Ontology"@en ;
-                                                          dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest> ;
-                                                          dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.ttl> .
+                                                          dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest> ;
+                                                          dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/TI-RDF-XML
@@ -581,8 +581,8 @@ l0:EventOrSituation rdf:type owl:Class .
                                                        dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        dct:title "Distribuzione RDF/XML ontologia TI-AP_IT"@it ,
                                                                  "RDF/XML distribution of TI-AP_IT Ontology"@en ;
-                                                       dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest> ;
-                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.rdf> .
+                                                       dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/public-organization/td

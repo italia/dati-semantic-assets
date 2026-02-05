@@ -561,7 +561,7 @@
         "@id": "admsapit:SupportOntology"
       },
       "dc:description": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.png"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.png"
       },
       "dcat:contactPoint": {
         "@id": "https://w3id.org/italia/data/contact-point/onto-agid"
@@ -1766,10 +1766,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.rdf"
       },
       "dcterms:description": [
         {
@@ -2031,10 +2031,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.ttl"
       },
       "dcterms:description": [
         {
@@ -2510,10 +2510,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.jsonld"
       },
       "dcterms:description": [
         {

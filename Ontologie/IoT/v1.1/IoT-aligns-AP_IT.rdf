@@ -96,7 +96,7 @@
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/onto/IoT/Sensor">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Sensor"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/onto/IoT/hasMeasurementQualityValue">
@@ -129,7 +129,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/onto/IoT/MeasurementQuality">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/SystemProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -153,7 +153,7 @@
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Sensor">
+  <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sensor">
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
@@ -162,7 +162,7 @@
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"/>
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/SystemProperty">
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
     <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>

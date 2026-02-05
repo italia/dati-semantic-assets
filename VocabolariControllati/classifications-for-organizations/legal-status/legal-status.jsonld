@@ -327,12 +327,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.xlsx"
       }
     ]
   },
@@ -1912,12 +1912,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.jsonld"
       }
     ]
   },
@@ -2030,12 +2030,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.csv"
       }
     ]
   },
@@ -3382,12 +3382,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.ttl"
       }
     ]
   },
@@ -3746,12 +3746,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/legal-status"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/legal-status/legal-status.rdf"
       }
     ]
   },

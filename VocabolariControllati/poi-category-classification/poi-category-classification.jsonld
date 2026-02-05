@@ -310,12 +310,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"
       }
     ]
   },
@@ -362,12 +362,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"
       }
     ]
   },
@@ -696,12 +696,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category.csv"
       }
     ]
   },
@@ -846,12 +846,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"
       }
     ]
   },
@@ -1234,12 +1234,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"
       }
     ]
   },

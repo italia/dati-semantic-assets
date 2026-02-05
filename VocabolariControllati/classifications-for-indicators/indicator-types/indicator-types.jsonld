@@ -120,12 +120,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.xlsx"
       }
     ]
   },
@@ -202,12 +202,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.rdf"
       }
     ]
   },
@@ -618,12 +618,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.csv"
       }
     ]
   },
@@ -670,12 +670,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.jsonld"
       }
     ]
   },
@@ -822,12 +822,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-indicators/indicator-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-indicators/indicator-types/indicator-types.ttl"
       }
     ]
   },

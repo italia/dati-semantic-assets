@@ -48,23 +48,23 @@
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
 
 <https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML> a <http://dati.gov.it/onto/dcatapit#Distribution> ;
 	<http://purl.org/dc/terms/title> "Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia"@it , "RDF/XML distribution of the Italian geographical-distribution controlled vocabulary"@en , "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"@it , "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"@en ;
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
 
 <https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution> ;
 	<http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"@it , "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"@en ;
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/geographical-distribution> .
 
 <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1> a <https://w3id.org/italia/onto/CLV/AdminUnitComponent> , <http://www.w3.org/2004/02/skos/core#Concept> , <https://w3id.org/italia/onto/CLV/GeographicalDistribution> , <https://w3id.org/italia/onto/CLV/Feature> ;
 	<http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution> ;

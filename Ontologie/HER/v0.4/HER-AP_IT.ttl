@@ -7704,8 +7704,8 @@ Un possibile lavoro futuro è quello di eliminare questo elemento nel modello (p
                                                             <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia PublicReseach-AP_IT"@it ,
                                                                                              "JSON-LD distribution of PublicReseach-AP_IT Ontology"@en ;
-                                                            <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/HER/latest> ;
-                                                            <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.jsonld> .
+                                                            <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/HER/latest> ;
+                                                            <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/HERAPIT-RDF-TURTLE
@@ -7717,8 +7717,8 @@ Un possibile lavoro futuro è quello di eliminare questo elemento nel modello (p
                                                                <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia PublicReseach-AP_IT"@it ,
                                                                                                 "RDF/Turtle distribution of PublicReseach-AP_IT Ontology"@en ;
-                                                               <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/HER/latest> ;
-                                                               <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.ttl> .
+                                                               <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/HER/latest> ;
+                                                               <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/HERAPIT-RDF-XML
@@ -7730,8 +7730,8 @@ Un possibile lavoro futuro è quello di eliminare questo elemento nel modello (p
                                                             <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia PublicReseach-AP_IT"@it ,
                                                                                              "RDF/XML distribution of PublicReseach-AP_IT Ontology"@en ;
-                                                            <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/HER/latest> ;
-                                                            <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.rdf> .
+                                                            <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/HER/latest> ;
+                                                            <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/private-organization/siris

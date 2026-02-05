@@ -226,8 +226,8 @@ ndc:keyConcept
   dct:description			"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul paese Italia"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of Italy controlled vocabulary "@en ;
   dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
   dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-  dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl> ;
-  dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
+  dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl> ;
+  dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
 
   <http://dati.gov.it/data/resource/Distribution/country_RDF_XML>
   a						dcatapit:Distribution  ;
@@ -235,8 +235,8 @@ ndc:keyConcept
   dct:description			"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul paese Italia"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of Italy controlled vocabulary "@en ;
   dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
   dct:license   <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-  dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf> ;
-  dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
+  dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf> ;
+  dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
 
   <http://dati.gov.it/data/resource/Distribution/country_JSON_LD>
   a						dcatapit:Distribution  ;
@@ -244,8 +244,8 @@ ndc:keyConcept
   dct:description			"Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sul paese Italia"@it , "This is the distribution in JSON-LD of the Linked Open Dataset of Italy controlled vocabulary "@en ;
   dct:format 				<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
   dct:license   <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-  dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld> ;
-  dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
+  dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld> ;
+  dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/countries/italy> .
 
 ## First level ##
 <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA>

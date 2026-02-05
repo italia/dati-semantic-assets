@@ -2016,27 +2016,27 @@ datiCatalogo:SPCDataCatalog
 
 
 
-    <!-- https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest -->
+    <!-- https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"/>
-
-
-
-    <!-- https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
+    <owl:NamedIndividual rdf:about="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
 
 
 
-    <!-- https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf -->
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
 
 
 
-    <!-- https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl -->
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
+
+
+
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
 
 
 
@@ -2058,8 +2058,8 @@ datiCatalogo:SPCDataCatalog
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
         <terms:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia DCAT-AP_IT</terms:description>
         <terms:description xml:lang="en">This is the distribution in JSON-LD of the DCAT-AP_IT ontology</terms:description>
         <terms:title xml:lang="it">Distribuzione JSON-LD ontologia DCAT-AP_IT</terms:title>
@@ -2074,8 +2074,8 @@ datiCatalogo:SPCDataCatalog
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
         <terms:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia DCAT-AP_IT</terms:description>
         <terms:description xml:lang="en">This is the distribution in RDF/turtle of the DCAT-AP_IT ontology</terms:description>
         <terms:title xml:lang="it">Distribuzione RDF/Turtle ontologia DCAT-AP_IT</terms:title>
@@ -2090,8 +2090,8 @@ datiCatalogo:SPCDataCatalog
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
         <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
         <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/DCAT/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
         <terms:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia DCAT-AP_IT</terms:description>
         <terms:description xml:lang="en">This is the distribution in RDF/XML of the DCAT-AP_IT ontology</terms:description>
         <terms:title xml:lang="it">Distribuzione RDF/XML ontologia DCAT-AP_IT</terms:title>

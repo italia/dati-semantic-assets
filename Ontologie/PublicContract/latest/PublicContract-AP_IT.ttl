@@ -23,12 +23,12 @@
                                                owl:imports <https://w3id.org/italia/onto/l0> ,
                                                            <https://w3id.org/italia/onto/RO> ;
                                                admsapit:prefix "pcapit" ;
-                                               dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/agid> ;
+                                               dct:creator <https://w3id.org/italia/data/public-organization/agid> ;
                                                admsapit:target "Cittadini"@it ;
-                                               dct:modified "2019-04-23"^^xsd:date ;
+                                               dct:modified "2024-09-20"^^xsd:date ;
                                                admsapit:hasTask admsapit:AnnotationTask ,
                                                                 admsapit:QueryFormulationTask ;
-                                               dct:creator <https://w3id.org/italia/data/organization/private-organization/IT11491360019> ;
+                                               dct:creator <https://w3id.org/italia/data/private-organization/IT11491360019> ;
                                                admsapit:hasTask admsapit:SearchTask ;
                                                admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/PCAPIT-RDF-TURTLE> ;
                                                admsapit:target "Pubbliche Amministrazioni"@it ;
@@ -40,21 +40,21 @@
                                                dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
                                                admsapit:hasFormalityLevel admsapit:Formal ;
                                                admsapit:last <https://w3id.org/italia/onto/PublicContract/0.4> ;
-                                               dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/csi_piem> ;
+                                               dct:creator <https://w3id.org/italia/data/public-organization/csi_piem> ;
                                                dct:title "Ontologia dei Contratti Pubblici - Profilo applicativo italiano"@it ;
                                                admsapit:hasKeyClass :Lot ;
                                                rdfs:isDefinedBy <https://w3id.org/italia/onto/PublicContract> ;
-                                               dct:publisher <http://spcdata.digitpa.gov.it/Amministrazione/agid> ;
-                                               dct:rightsHolder <http://spcdata.digitpa.gov.it/Amministrazione/cvtiap> ;
+                                               dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+                                               dct:rightsHolder <https://w3id.org/italia/data/public-organization/cvtiap> ;
                                                dct:description "Questo il profilo applicativo italiano dell'ontologia sui contratti pubblici"@it ;
-                                               owl:versionInfo "Versione 0.4- Modificata il 23 Aprile 2019 - rifattorizzazione di l0:Event in l0:EventOrSituation"@it , "Version 0.4- Modified on 23 April 2019 - Refactoring l0:Event in l0:EventOrSituation"@en;
+                                               owl:versionInfo "Versione 0.4 - rifattorizzazione di l0:Event in l0:EventOrSituation, aggiornati alcuni metadati"@it , "Version 0.4- Modified on 23 April 2019 - Refactoring l0:Event in l0:EventOrSituation. Updated some metadata"@en;
                                                dcat:keyword "Appalto"@it ;
                                                dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
-                                               admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/DAF> ,
+                                               admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ,
                                                                            <https://w3id.org/italia/data/project/OntoPiA> ;
                                                admsapit:hasKeyClass :Contract ;
                                                dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-                                               dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/cvtiap> ;
+                                               dct:creator <https://w3id.org/italia/data/public-organization/cvtiap> ;
                                                dcat:keyword "Gara"@it ,
                                                             "Procedura di realizzazione"@it ,
                                                             "Bando di gara"@it ;
@@ -64,7 +64,6 @@
                                                admsapit:acronym "PC-AP_IT" ;
                                                admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/PCAPIT-JSON-LD> ;
                                                dct:issued "2018-04-27"^^xsd:date ;
-                                               admsapit:hasContributor <https://w3id.org/italia/data/organization/public-organization/td> ;
                                                dct:description "This is the Italian application profile of the public contract ontology"@en ;
                                                rdfs:label "Italian public contracts ontology"@en ;
                                                dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
@@ -1869,24 +1868,24 @@ l0:Activity rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://spcdata.digitpa.gov.it/Amministrazione/csi_piem
-<http://spcdata.digitpa.gov.it/Amministrazione/csi_piem> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/csi_piem
+<https://w3id.org/italia/data/public-organization/csi_piem> rdf:type owl:NamedIndividual ,
                                                                   dcatapit:Agent ,
                                                                   foaf:Agent ;
                                                          dct:identifier "csi_piem" ;
                                                          foaf:name "Consorzio per il sistema informativo CSI-Piemonte"@it .
 
 
-###  http://spcdata.digitpa.gov.it/Amministrazione/cvtiap
-<http://spcdata.digitpa.gov.it/Amministrazione/cvtiap> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/cvtiap
+<https://w3id.org/italia/data/public-organization/cvtiap> rdf:type owl:NamedIndividual ,
                                                                 dcatapit:Agent ,
                                                                 foaf:Agent ;
                                                        dct:identifier "cvtiap" ;
-                                                       foaf:name "A.N.AC - Autorità Nazionale Anticorruzione"@it .
+                                                       foaf:name "A.N.AC. - Autorità Nazionale Anticorruzione"@it .
 
 
-###  http://spcdata.digitpa.gov.it/Amministrazione/agid
-<http://spcdata.digitpa.gov.it/Amministrazione/agid> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/agid
+<https://w3id.org/italia/data/public-organization/agid> rdf:type owl:NamedIndividual ,
                                                                           dcatapit:Agent ,
                                                                           foaf:Agent ;
                                                                  dct:identifier "agid" ;
@@ -1903,8 +1902,8 @@ l0:Activity rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione JSON-LD ontologia PC-AP_IT"@it ,
                                                                      "JSON-LD distribution of PC-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.jsonld> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/PCAPIT-RDF-TURTLE
@@ -1916,8 +1915,8 @@ l0:Activity rdf:type owl:Class .
                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                               dct:title "Distribuzione RDF/Turtle ontologia PC-AP_IT"@it ,
                                                                         "RDF/Turtle distribution of PC-AP_IT Ontology"@en ;
-                                                              dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest> ;
-                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.ttl> .
+                                                              dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest> ;
+                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/PCAPIT-RDF-XML
@@ -1929,8 +1928,8 @@ l0:Activity rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/XML ontologia PC-AP_IT"@it ,
                                                                      "RDF/XML distribution of PC-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.rdf> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/contact-point/onto-agid
@@ -1942,21 +1941,22 @@ l0:Activity rdf:type owl:Class .
                                                        vcard:hasEmail <mailto:info@dati.gov.it> .
 
 
-###  https://w3id.org/italia/data/organization/private-organization/IT11491360019
-<https://w3id.org/italia/data/organization/private-organization/IT11491360019> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/private-organization/IT11491360019
+<https://w3id.org/italia/data/private-organization/IT11491360019> rdf:type owl:NamedIndividual ,
                                                                                         dcatapit:Agent ,
                                                                                         foaf:Agent ;
                                                                                dct:identifier "IT11491360019" ;
                                                                                foaf:name "Synapta Srl"@it .
 
 
-###  https://w3id.org/italia/data/organization/public-organization/td
-<https://w3id.org/italia/data/organization/public-organization/td> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/PCM-1RSIZZ
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> rdf:type owl:NamedIndividual ,
                                                                             dcatapit:Agent ,
                                                                             foaf:Agent ;
-                                                                   dct:identifier "TD" ;
-                                                                   foaf:name "Digital Transformation Team"@en ,
-                                                                             "Team per la Trasformazione Digitale"@it .
+                                                                            dct:identifier "PCM-1RSIZZ" ;
+                                                                            foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+                                                                            "Digital Transformation Department of the Presidency of the Council of Ministers"@en .
+
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
@@ -1966,11 +1966,11 @@ l0:Activity rdf:type owl:Class .
                                                                                   "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"@it ;
                                                                           dct:identifier "cnr - Z6HZEH - STLab" .
 
-
-###  https://w3id.org/italia/data/project/DAF
-<https://w3id.org/italia/data/project/DAF> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/project/NDC
+<https://w3id.org/italia/data/project/NDC> rdf:type owl:NamedIndividual ,
                                                     admsapit:Project ;
-                                           l0:name "Data & Analytics Framework"@it .
+                                           l0:name "National Data Catalog - schema.gov.it"@it .
+
 
 
 ###  https://w3id.org/italia/data/project/OntoPiA

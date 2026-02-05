@@ -152,12 +152,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.rdf"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.rdf"
       }
     ]
   },
@@ -350,12 +350,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.ttl"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.ttl"
       }
     ]
   },
@@ -658,12 +658,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.xlsx"
       }
     ]
   },
@@ -1082,12 +1082,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.csv"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.csv"
       }
     ]
   },
@@ -1302,12 +1302,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.jsonld"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.jsonld"
       }
     ]
   }

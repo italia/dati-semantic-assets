@@ -211,8 +211,8 @@ Nell'Albo pretorio on line va a confluire tutta la documentazione prodotta
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -221,8 +221,8 @@ Nell'Albo pretorio on line va a confluire tutta la documentazione prodotta
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -231,8 +231,8 @@ Nell'Albo pretorio on line va a confluire tutta la documentazione prodotta
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:keyword xml:lang="it">albo pretorio</dcat:keyword>

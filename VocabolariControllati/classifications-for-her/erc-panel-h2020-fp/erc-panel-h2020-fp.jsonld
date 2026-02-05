@@ -4907,12 +4907,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.csv"
       }
     ]
   },
@@ -6901,12 +6901,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.ttl"
       }
     ]
   },
@@ -12097,12 +12097,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.xlsx"
       }
     ]
   },
@@ -13491,12 +13491,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.rdf"
       }
     ]
   },
@@ -22880,12 +22880,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.jsonld"
       }
     ]
   },

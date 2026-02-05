@@ -25,7 +25,7 @@
         <owl:imports rdf:resource="https://w3id.org/italia/onto/MU"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/TI"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.png"/>
+        <dc:description rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.png"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/department/dtd"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
@@ -1087,8 +1087,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia Indicator-AP_IT</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of Indicator-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.jsonld"/>
     </owl:NamedIndividual>
     
 
@@ -1103,8 +1103,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia Indicator-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of Indicator-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.ttl"/>
     </owl:NamedIndividual>
     
 
@@ -1119,8 +1119,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia Indicator-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of Indicator-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Indicator/latest/Indicator-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Indicator/latest/Indicator-AP_IT.rdf"/>
     </owl:NamedIndividual>
     
 

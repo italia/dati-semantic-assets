@@ -6121,12 +6121,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.csv"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.csv"
       }
     ]
   },
@@ -12608,12 +12608,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.rdf"
       }
     ]
   },
@@ -16551,12 +16551,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.jsonld"
       }
     ]
   },
@@ -17715,12 +17715,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.ttl"
       }
     ]
   },
@@ -18362,12 +18362,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/all-science-journal"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-her/all-science-journal/all-science-journal.xlsx"
       }
     ]
   },

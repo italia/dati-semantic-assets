@@ -73,8 +73,8 @@
     <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
     <ns2:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"/>
-    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
@@ -85,8 +85,8 @@
     <ns2:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:description>
     <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
     <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"/>
-    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
@@ -108,8 +108,8 @@
     <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
     <ns2:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"/>
-    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>

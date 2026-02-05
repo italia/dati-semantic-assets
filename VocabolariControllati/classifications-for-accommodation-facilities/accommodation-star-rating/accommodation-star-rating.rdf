@@ -79,8 +79,8 @@
         <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary related to the stars rating for accommodation facilities</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.ttl"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -91,8 +91,8 @@
         <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the stars rating for accommodation facilities</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.rdf"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -103,8 +103,8 @@
         <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the stars rating for accommodation facilities</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.jsonld"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -115,8 +115,8 @@
         <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the stars rating for accommodation facilities</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.csv"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.csv"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:distribution>
@@ -127,8 +127,8 @@
         <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the stars rating for accommodation facilities</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-        <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.xlsx"/>
-        <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating/accommodation-star-rating.xlsx"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-accommodation-facilities/accommodation-star-rating"/>
       </dcatapit:Distribution>
     </dcat:distribution>
     <dcat:contactPoint>

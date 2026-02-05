@@ -30,8 +30,8 @@ Il vocabolario nella sua versione 0.2 è stato allineato alla relativa ontologia
 ### Allineamento
 
 Il vocabolario controllato è inoltre allineato con i seguenti vocabolari:
-[subject-disciplines](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines)
-[fields-of-research-development](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/fields-of-research-development)
+[subject-disciplines](https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines)
+[fields-of-research-development](https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/fields-of-research-development)
 
 Il vocabolario è inoltre allineato con il vocabolario [ERC panel del framework programme Horizon2020](https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp). Gli allineamenti in questo caso sono da ritenersi tuttavia non ufficiali ma come lavoro nato nel contesto del progetto Toscana Open Research e portati a livello nazionale nei vari vocabolari controllati della rete OntoPiA.
 

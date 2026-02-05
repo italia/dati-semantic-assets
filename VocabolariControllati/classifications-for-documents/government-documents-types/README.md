@@ -5,8 +5,8 @@
 **Creator**:
 - Agid e Team per la Trasformazione Digitale
 
-**Thread di discussione**: In parte nell'[Issue #66](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/66)
-[Issue #78](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/78)
+**Thread di discussione**: In parte nell'[Issue #66](https://github.com/italia/dati-semantic-assets/issues/66)
+[Issue #78](https://github.com/italia/dati-semantic-assets/issues/78)
 
 ### Scopo del Vocabolario
 Il vocabolario nasce nel contesto del lavoro sul design dei siti web dei comuni. L'esigenza è quella di offrire una prima lista di macro tipologie di documenti che pubbliche amministrazioni, in particolare comuni in questo contesto, diffondono sui propri siti web istituzionali.

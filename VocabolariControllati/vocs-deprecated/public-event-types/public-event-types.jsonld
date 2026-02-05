@@ -564,12 +564,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.jsonld"
       }
     ]
   },
@@ -945,12 +945,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/public-event-types/public-event-types.csv"
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/public-event-types/public-event-types.csv"
       }
     ]
   },
@@ -1079,12 +1079,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.ttl"
       }
     ]
   },
@@ -1467,12 +1467,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.csv"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.csv"
       }
     ]
   },
@@ -1691,12 +1691,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types.xlsx"
       }
     ]
   },
@@ -2125,12 +2125,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.xlsx"
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.xlsx"
       }
     ]
   },
@@ -2563,12 +2563,12 @@
     ],
     "http://www.w3.org/ns/dcat#accessURL": [
       {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"
       }
     ],
     "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.rdf"
       }
     ]
   },

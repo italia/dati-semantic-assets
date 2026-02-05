@@ -54,7 +54,7 @@
                                              rdfs:comment "Questo è il profilo applicativo italiano dell'ontologia sull'atlante digitale dei cammini d'italia. I cammini possono essere storici, naturalistici, culturali e religiosi, attraversano il Paese da nord a sud e rappresentano una parte fondamentale nell’offerta del turismo lento. L'atlante digitale dei cammini non è altro che un contenitore di percorsi e vie pensato e realizzato sulle linee guida indicate dalla direttiva ministeriale e regolamentato – con la messa a punto degli opportuni criteri – nell’ambito del Comitato Cammini, coordinamento inter-istituzionale formato da MiBAC, Regioni e Provincie autonome"@it ;
                                              dcat:keyword "Vie"@it ;
                                              dct:title "Ontologia dell'Atlante dei Cammini - Profilo applicativo italiano"@it ;
-                                             dct:description <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png> ;
+                                             dct:description <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png> ;
                                              dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
                                              dct:modified "2018-11-15"^^xsd:date ;
                                              admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD> ;
@@ -66,7 +66,7 @@
                                              admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/AOPAPIT-RDF-XML> ;
                                              dcat:keyword "Atlante cammini"@it ;
                                              rdfs:comment "This is the Italian application profile of the ontology on the digital atlas of paths of Italy. The paths can be historical, naturalistic, cultural and religious, they cross the country from north to south and represent a fundamental part of the slow tourism offer. The digital atlas of paths is nothing more than a container of routes and ways designed and built on the guidelines indicated by the ministerial directive and regulated - with the development of appropriate criteria - within the related Committee, inter-institutional coordination formed by MiBAC, Regions and Autonomous Provinces"@en ;
-                                             admsapit:depiction <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png> ;
+                                             admsapit:depiction <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png> ;
                                              admsapit:last <https://w3id.org/italia/onto/AtlasOfPaths/0.2> ;
                                              dct:publisher <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> ;
                                              dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-dgt> ;
@@ -1100,8 +1100,8 @@ l0:Topic rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione JSON-LD ontologia AtlasOfPaths-AP_IT"@it ,
                                                                       "JSON-LD distribution of AtlasOfPaths-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld> .
+                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/AOPAPIT-RDF-TURTLE
@@ -1113,8 +1113,8 @@ l0:Topic rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle ontologia AtlasOfPaths-AP_IT"@it ,
                                                                          "RDF/Turtle distribution of AtlasOfPaths-AP_IT Ontology"@en ;
-                                                               dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl> .
+                                                               dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/AOPAPIT-RDF-XML
@@ -1126,8 +1126,8 @@ l0:Topic rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione RDF/XML ontologia AtlasOfPaths-AP_IT"@it ,
                                                                       "RDF/XML distribution of AtlasOfPaths-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf> .
+                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab

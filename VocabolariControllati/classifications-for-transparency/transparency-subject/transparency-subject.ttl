@@ -57,45 +57,48 @@
   skos:hasTopConcept  :175 , :172 , :086 , :017 , :104 , :083 , :094 , :193 , :153 , :013 , :026 , :110 , :163 , :160 , :071 , :181 , :121 , :001 , :171 , :103 , :178 , :168 , :079 , :099 , :012 , :231 , :189 , :089 , :199 , :156 , :067 , :177 , :077 , :128 , :167 , :187 , :098 , :184 , :095 , :230 , :088 , :085 , :019 , :116 , :027 , :195 , :142 , :155 , :137 , :076 , :127 , :162 , :073 , :007 , :183 , :130 , :123 , :217 , :173 , :031 , :084 , :018 , :141 , :014 , :111 , :205 , :161 , :072 , :006 , :158 , :069 , :215 , :002 , :179 , :169 , :232 , :118 , :157 , :144 , :055 , :068 , :220 , :129 , :065 , :078 , :190 , :009 , :124 , :229 , :132 , :043 , :096 , :219 , :033 , :053 , :117 , :015 , :112 , :143 , :140 , :207 , :064 , :021 , :150 , :061 , :074 , :008 , :227 , :003 , :131 , :218 , :032 , :233 , :042 , :206 , :060 , :020 , :226 , :221 , :159 , :108 , :146 , :057 , :216 , :211 , :138 , :126 , :039 , :134 , :045 , :204 , :149 , :035 , :106 , :119 , :114 , :091 , :145 , :056 , :081 , :210 , :066 , :209 , :063 , :023 , :191 , :125 , :005 , :133 , :044 , :034 , :054 , :105 , :235 , :051 , :016 , :100 , :113 , :090 , :041 , :080 , :208 , :022 , :151 , :062 , :228 , :223 , :004 , :059 , :196 , :213 , :050 , :234 , :040 , :047 , :164 , :201 , :037 , :174 , :222 , :029 , :058 , :093 , :147 , :109 , :212 , :192 , :152 , :139 , :025 , :135 , :046 , :200 , :180 , :036 , :120 , :107 , :170 , :102 , :115 , :092 , :028 , :082 , :011 , :024 , :188 , :225 , :198 , :070 , :052 , :101 , :176 , :049 , :166 , :186 , :097 , :203 , :010 , :148 , :087 , :224 , :197 , :030 , :214 , :194 , :154 , :136 , :075 , :048 , :165 , :202 , :185 , :182 , :038 , :122 ;
 
 	dcat:distribution
-		<http://w3id.org/italia/data/distribution/TransparencySubject_RDF_Turtle>,
-		<http://w3id.org/italia/data/distribution/TransparencySubject_RDF_XML>,
-		<http://w3id.org/italia/data/distribution/TransparencySubject_JSON_LD>,
-		<http://w3id.org/italia/data/distribution/TransparencySubject_CSV> ,
-		<http://w3id.org/italia/data/distribution/TransparencySubject_XLSX> ;
+		<https://w3id.org/italia/data/distribution/TransparencySubject_RDF_Turtle>,
+		<https://w3id.org/italia/data/distribution/TransparencySubject_RDF_XML>,
+		<https://w3id.org/italia/data/distribution/TransparencySubject_JSON_LD>,
+		<https://w3id.org/italia/data/distribution/TransparencySubject_CSV> ,
+		<https://w3id.org/italia/data/distribution/TransparencySubject_XLSX> ;
 
 
-	dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc-AgID> ;
+	dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
 	dct:rightsHolder <https://w3id.org/italia/data/public-organization/cvtiap> ;
-	dct:publisher <https://w3id.org/italia/data/public-organization/agid> ;
+	dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
     dct:creator <https://w3id.org/italia/data/public-organization/agid> ,
-                <https://w3id.org/italia/data/organization/private-organization/05481840964> ;
+                <https://w3id.org/italia/data/private-organization/05481840964> ;
 
 	dct:issued "2019-10-23"^^xsd:date ;
-	dct:modified "2019-10-23"^^xsd:date ;
-	owl:versionInfo "versione 1.0"@it, "version 1.0"@en ;
+	dct:modified "2024-09-20"^^xsd:date ;
+	owl:versionInfo "versione 1.0 - aggiornamento alcuni metadati"@it, "version 1.0 - updated some metadata"@en ;
 
 	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ;
 
 	.
 
 
+	<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent , foaf:Agent ;
+	dct:identifier "PCM-1RSIZZ" ;
+	foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+	"Digital Transformation Department of the Presidency of the Council of Ministers"@en .
 
 
 <https://w3id.org/italia/data/public-organization/agid> a dcatapit:Agent, foaf:Agent ;
 	dct:identifier "agid" ;
 	foaf:name "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en ;
 	.
-<https://w3id.org/italia/data/contact-point/voc-AgID>  a dcatapit:Organization , vcard:Organization, vcard:Kind ;
+<https://w3id.org/italia/data/contact-point/onto-agid>  a dcatapit:Organization , vcard:Organization, vcard:Kind ;
 	vcard:fn "banche dati e open data" ;
 	vcard:hasEmail <mailto:info@dati.gov.it> ;
 	.
 
 <https://w3id.org/italia/data/public-organization/cvtiap>  a dcatapit:Agent, foaf:Agent ;
-	dct:identifier "ANAC" ;
-	foaf:name "ANAC - Autorità nazionale anticorruzione"@it ;
-	.
+	dct:identifier "cvtiap" ;
+	foaf:name "A.N.AC. - Autorità Nazionale Anticorruzione"@it .
 
-<https://w3id.org/italia/data/organization/private-organization/05481840964> a dcatapit:Agent , foaf:Agent ;
+<https://w3id.org/italia/data/private-organization/05481840964> a dcatapit:Agent , foaf:Agent ;
                                                                              dct:identifier "05481840964" ;
                                                                              foaf:name "Almawave Srl"@it .
 
@@ -106,49 +109,49 @@
 	.
 
 
-<http://w3id.org/italia/data/distribution/TransparencySubject_RDF_Turtle> a dcatapit:Distribution  ;
+<https://w3id.org/italia/data/distribution/TransparencySubject_RDF_Turtle> a dcatapit:Distribution  ;
 	dct:title "Distribuzione RDF/Turtle classificazione della trasparenza per le pubbliche amministrazioni"@it , "RDF/Turtle Classification of transparency subjects for public administrations"@en ;
 	dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency subjects classification for public administrations"@en ;
 	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.ttl> ;
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.ttl> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
 	.
 
-<http://w3id.org/italia/data/distribution/TransparencySubject_RDF_XML> a dcatapit:Distribution  ;
+<https://w3id.org/italia/data/distribution/TransparencySubject_RDF_XML> a dcatapit:Distribution  ;
 	dct:title "Distribuzione RDF/XML dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "RDF/XML Classification of transparency subjects for public administrations"@en ;
 	dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency subjects classification for public administrations"@en ;
 	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
 	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.rdf> ;
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.rdf> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
 	.
 
-<http://w3id.org/italia/data/distribution/TransparencySubject_JSON_LD> a dcatapit:Distribution  ;
+<https://w3id.org/italia/data/distribution/TransparencySubject_JSON_LD> a dcatapit:Distribution  ;
 	dct:title "Distribuzione JSON_LD classificazione dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "JSON_LD Classification of transparency subjects for public administrations"@en ;
 	dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the Transparency subjects classification for public administrations"@en ;
 	dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
 	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.jsonld> ;
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.jsonld> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
 	.
 
-<http://w3id.org/italia/data/distribution/TransparencySubject_CSV> a dcatapit:Distribution  ;
+<https://w3id.org/italia/data/distribution/TransparencySubject_CSV> a dcatapit:Distribution  ;
 	dct:title "Distribuzione CSV classificazionedei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "CSV Classification of transparency subjects for public administrations"@en ;
 	dct:description "Questa è la distribuzione CSV del dataset Linked Open Data dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in CSV of the Linked Open Dataset of the Transparency subjects classification for public administrations"@en ;
 	dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
 	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.csv> ;
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.csv> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
 	.
 
-<http://w3id.org/italia/data/distribution/TransparencySubject_XLSX> a dcatapit:Distribution  ;
+<https://w3id.org/italia/data/distribution/TransparencySubject_XLSX> a dcatapit:Distribution  ;
 	dct:title "Distribuzione XLSX cclassificazione dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "XLSX Classification of transparency subjects for public administrations"@en ;
 	dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data dei temi degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in XLSX of the Linked Open Dataset of the Transparency subjects classification for public administrations"@en ;
 	dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
 	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	dcat:downloadURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.xlsx> ;
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	dcat:downloadURL <https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-transparency/transparency-subject/transparency-subject.xlsx> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
 	.
 
 

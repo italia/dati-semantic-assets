@@ -22,8 +22,8 @@
         <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/Route/0.1"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>
         <dct:description xml:lang="it">Questo il profilo applicativo italiano dell&apos;ontologia sui percorsi. Essi sono i percorsi di transito che possono essere seguiti mediante l&apos;uso di diversi mezzi di trasporto come per esempio i percorsi degli autobus, i percorsi della metro, i percorsi a piedi, i percorsi a cavallo.</dct:description>
-        <dct:description rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png"/>
-        <admsapit:depiction rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/v0.1/Route-AP_IT.png"/>
+        <dct:description rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png"/>
+        <admsapit:depiction rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/v0.1/Route-AP_IT.png"/>
         <admsapit:status>initial draft</admsapit:status>
         <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/AtlanteCammini"/>
         <dcat:keyword xml:lang="it">Percorso</dcat:keyword>
@@ -679,8 +679,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia Route-AP_IT</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of Route-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/Route-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/Route-AP_IT.jsonld"/>
     </owl:NamedIndividual>
 
 
@@ -695,8 +695,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia Route-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of Route-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.ttl"/>
     </owl:NamedIndividual>
 
 
@@ -711,8 +711,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia Route-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of Route-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Route/latest/Route-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Route/latest/Route-AP_IT.rdf"/>
     </owl:NamedIndividual>
 
 

@@ -227,8 +227,8 @@ ndc:keyConcept
       	dct:description			"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul sesso"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the sex controlled vocabulary "@en ;
       	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.ttl> ;
-      	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex> .
+      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.ttl> ;
+      	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex> .
 
 <https://w3id.org/italia/data/distribution/sex-RDF-XML>
         a						dcatapit:Distribution  ;
@@ -236,8 +236,8 @@ ndc:keyConcept
         dct:description			"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul sesso"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the sex controlled vocabulary "@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.rdf> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.rdf> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex> .
 
 <https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD>
         a						dcatapit:Distribution  ;
@@ -245,8 +245,8 @@ ndc:keyConcept
         dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul sesso"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the sex controlled vocabulary"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex> .
 
   <https://w3id.org/italia/data/distribution/sex-CSV>
         a						dcatapit:Distribution  ;
@@ -254,8 +254,8 @@ ndc:keyConcept
         dct:description			"Questa è la distribuzione CSV del vocabolario controllato sul sesso"@it , "This is the distribution in CSV of dataset on the sex controlled vocabulary"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40>;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.csv>;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.csv>;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex> .
 
 <https://w3id.org/italia/data/distribution/sex-XLSX>
         a						dcatapit:Distribution  ;
@@ -263,8 +263,8 @@ ndc:keyConcept
         dct:description			"Questa è la distribuzione XLSX del vocabolario controllato sul sesso"@it , "This is the distribution in XLSX of the sex controlled vocabulary "@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex> .
+        dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex> .
 
 #Definition of the controlled vocabulary
  <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M>

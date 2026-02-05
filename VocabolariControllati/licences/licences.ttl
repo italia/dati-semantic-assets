@@ -198,8 +198,8 @@ ndc:keyConcept
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc-AgID> ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/licences/A_OpenLicense> , <https://w3id.org/italia/controlled-vocabulary/licences/B_NonOpenLicense> , <https://w3id.org/italia/controlled-vocabulary/licences/C_Unknown> ;
       dct:issued "2018-01-16"^^xsd:date ;
-      dct:modified "2019-07-25"^^xsd:date ;
-      owl:versionInfo "1.1 - introduzione della proprietà skos:hasTopConcept e correzione di un typo in una proprietà (narrowerT diventato narrower); revisione degli URI per i metadati"@it .
+      dct:modified "2024-09-20"^^xsd:date ;
+      owl:versionInfo "revisione concetto per la licenza non aperta BCS del Ministero della Cultura"@it .
 
 <https://w3id.org/italia/data/public-organization/agid>
       a dcatapit:Agent, foaf:Agent ;
@@ -231,8 +231,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle licenze"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the license controlled vocabulary "@en ;
       dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.ttl> ;
-      dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.ttl> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences> .
 
   <https://w3id.org/italia/data/distribution/licence-RDF-XML>
       a						dcatapit:Distribution  ;
@@ -240,8 +240,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle licenze"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the license controlled vocabulary "@en ;
       dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.rdf> ;
-      dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.rdf> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences> .
 
   <https://w3id.org/italia/data/distribution/licence-JSON-LD>
       a						dcatapit:Distribution  ;
@@ -249,8 +249,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle licenze"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the license controlled vocabulary "@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.jsonld> ;
-      dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.jsonld> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences> .
 
   <https://w3id.org/italia/data/distribution/licence-CSV>
       a						dcatapit:Distribution  ;
@@ -258,8 +258,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle licenze"@it , "This is the distribution in CSV of the Linked Open Dataset of the license controlled vocabulary "@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/licences/licences.csv> ;
-      dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/licences/licences.csv> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences> .
 
   <https://w3id.org/italia/data/distribution/licence-XLSX>
       a						dcatapit:Distribution  ;
@@ -267,8 +267,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle licenze"@it , "This is the distribution in XLSX of the Linked Open Dataset of the license controlled vocabulary "@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/licences/licences.xlsx> ;
-      dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/licences> .
+      dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/licences/licences.xlsx> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/licences> .
 
 ## First level ##
 <https://w3id.org/italia/controlled-vocabulary/licences/A_OpenLicense>
@@ -343,7 +343,7 @@ ndc:keyConcept
     skos:narrowerTransitive <https://w3id.org/italia/controlled-vocabulary/licences/B27_CCBYND20IT> ;
     skos:narrowerTransitive <https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10> ;
     skos:narrowerTransitive <https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10> ;
-    skos:narrowerTransitive <https://w3id.org/italia/controlled-vocabulary/licenses/B117_BSC10> ;
+    skos:narrowerTransitive <https://w3id.org/italia/controlled-vocabulary/licenses/B117_BCS> ;
 	  skos:prefLabel "Licenza Non Aperta"@it ;
 	  skos:prefLabel "Non Open License"@en ;
     skos:prefLabel "Nicht offene Lizenz"@de ;
@@ -465,7 +465,7 @@ ndc:keyConcept
     skos:narrower <https://w3id.org/italia/controlled-vocabulary/licences/B114_CCBYNCSA20> ;
     skos:narrower <https://w3id.org/italia/controlled-vocabulary/licences/B115_CCBYNCSA20IT> ;
     skos:narrower <https://w3id.org/italia/controlled-vocabulary/licences/B116_CCBYNCSA10> ;
-    skos:narrower <https://w3id.org/italia/controlled-vocabulary/licenses/B117_BSC10> ;
+    skos:narrower <https://w3id.org/italia/controlled-vocabulary/licenses/B117_BCS> ;
     skos:exactMatch <http://purl.org/adms/licencetype/NonCommercialUseOnly> ;
     skos:prefLabel "Solo Uso non Commerciale"@it ;
     skos:prefLabel "Non Commercial Use Only"@en ;
@@ -1507,20 +1507,18 @@ ndc:keyConcept
         foaf:name "Unknown IPR"@de ;
         foaf:name "Droits de propriété intellectuelle inconnus"@fr .
 
-<https://w3id.org/italia/controlled-vocabulary/licenses/B117_BSC10>
+<https://w3id.org/italia/controlled-vocabulary/licenses/B117_BCS>
         a  	skos:Concept , dct:LicenseDocument , dcatapit:LicenseDocument ;
         skos:inScheme <https://w3id.org/italia/controlled-vocabulary/licences> ;
         skos:broader <https://w3id.org/italia/controlled-vocabulary/licences/B1_NonCommercial> ;
         skos:broaderTransitive <https://w3id.org/italia/controlled-vocabulary/licences/B_NonOpenLicense> ;
-        skos:broader <https://rightsstatements.org/page/NoC-OKLR/1.0/> ;
-        skos:notation "BCS 1.0" ;
-        dct:identifier "BCS 1.0" ;
+        skos:notation "BCS" ;
+        dct:identifier "BCS" ;
         dct:type <https://w3id.org/italia/controlled-vocabulary/licences/B1_NonCommercial> ;
-        dcatapit:referenceDoc "https://w3id.org/italia/controlled-vocabulary/licenses/B117_BSC10"^^xsd:anyURI ;
-        owl:versionInfo "1.0" ;
-        skos:prefLabel "Dichiarazioni di uso standard beni culturali (BCS 1.0)"@it ;
-        skos:prefLabel "Use statement of cultural heritage (BCS 1.0)"@en ;
-		    foaf:name "Dichiarazioni di uso standard beni culturali (BCS 1.0)"@it ;
-		    foaf:name "Use statement of cultural heritage (BCS 1.0)"@en ;
-	      skos:definition "L’etichetta Beni Culturali Standard (BCS) specifica i termini d’uso delle riproduzioni del patrimonio culturale italiano in pubblico dominio in conformità con quanto previsto dalla legislazione vigente."@it ;
+        dcatapit:referenceDoc "https://docs.italia.it/italia/icdp/icdp-pnd-circolazione-riuso-docs/it/v1.0-giugno-2022/testo-etichetta-BCS.html"^^xsd:anyURI ;
+        skos:prefLabel "Dichiarazioni di uso standard beni culturali (BCS)"@it ;
+        skos:prefLabel "Use statement of cultural heritage (BCS)"@en ;
+		    foaf:name "Dichiarazioni di uso standard beni culturali (BCS)"@it ;
+		    foaf:name "Use statement of cultural heritage (BCS)"@en ;
+	      skos:definition "L’etichetta Beni Culturali Standard (BCS) specifica i termini d’uso delle riproduzioni del patrimonio culturale italiano in pubblico dominio in conformità con quanto previsto dalla legislazione vigente. L’etichetta BCS è in linea con le dichiarazioni sui diritti del consorzio RightsStatements.org ed è conforme alla dichiarazione No-OKLR (No Copyright - Altre Restrizione Legali Note) il cui testo è disponibile all’indirizzo web http://rightsstatements.org/vocab/NoC-OKLR/1.0/​"@it ;
 		    dct:description "L’etichetta Beni Culturali Standard (BCS) specifica i termini d’uso delle riproduzioni del patrimonio culturale italiano in pubblico dominio in conformità con quanto previsto dalla legislazione vigente."@it .

@@ -17,7 +17,7 @@
                                                      <https://w3id.org/italia/onto/CPV> ,
                                                      <https://w3id.org/italia/onto/Language> ,
                                                      <https://w3id.org/italia/onto/RO> ;
-                                         <http://purl.org/dc/elements/1.1/description> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning.png> ;
+                                         <http://purl.org/dc/elements/1.1/description> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning.png> ;
                                          <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
                                          <http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> ,
                                                                             <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
@@ -1501,8 +1501,8 @@ Nel caso di istruzione superiore, ogni istituto che eroga corsi di istruzione su
                                                        <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        <http://purl.org/dc/terms/title> "Distribuzione JSON-LD ontologia LE-AP_IT"@it ,
                                                                                         "JSON-LD distribution of LE-AP_IT Ontology"@en ;
-                                                       <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest> ;
-                                                       <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld> .
+                                                       <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                       <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/le-RDF-TURTLE
@@ -1514,8 +1514,8 @@ Nel caso di istruzione superiore, ogni istituto che eroga corsi di istruzione su
                                                           <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                           <http://purl.org/dc/terms/title> "Distribuzione RDF/Turtle ontologia LE-AP_IT"@it ,
                                                                                            "RDF/Turtle distribution of LE-AP_IT Ontology"@en ;
-                                                          <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest> ;
-                                                          <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.ttl> .
+                                                          <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                          <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/le-RDF-XML
@@ -1527,8 +1527,8 @@ Nel caso di istruzione superiore, ogni istituto che eroga corsi di istruzione su
                                                        <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        <http://purl.org/dc/terms/title> "Distribuzione RDF/XML ontologia LE-AP_IT"@it ,
                                                                                         "RDF/XML distribution of LE-AP_IT Ontology"@en ;
-                                                       <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/Learning/latest> ;
-                                                       <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Learning/latest/Learning-AP_IT.rdf> .
+                                                       <http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                       <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/public-organization/KH5RHFCV

@@ -32,7 +32,7 @@
                                      owl:versionIRI <https://w3id.org/italia/onto/RPO/0.2> ;
                                      owl:imports <https://w3id.org/italia/onto/CLV> ,
                                                  <https://w3id.org/italia/onto/l0> ;
-								     <http://purl.org/dc/elements/1.1/description> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RPO/latest/RPO-AP_IT.png> ;
+								     <http://purl.org/dc/elements/1.1/description> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.png> ;
                                      dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
                                      dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ,
                                                  <https://w3id.org/italia/data/public-organization/m_it> ;
@@ -120,8 +120,8 @@
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle ontologia RPO"@it ,
                                                                          "RDF/Turtle distribution of RPO Ontology"@en ;                                                         
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/RPO/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RPO/latest/RPO-AP_IT.ttl> .
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.ttl> .
 
 ### https://w3id.org/italia/data/distribution/RPOAPIT-RDF-XML
 <https://w3id.org/italia/data/distribution/RPOAPIT-RDF-XML> rdf:type admsapit:SemanticAssetDistribution ;
@@ -131,8 +131,8 @@
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/XML ontologia RPO "@it ,
                                                                          "RDF/XML distribution of RPO  Ontology"@en ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/RPO/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RPO/latest/RPO-AP_IT.rdf> .
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.rdf> .
 
 ### https://w3id.org/italia/data/distribution/RPOAPIT-JSON-LD
 <https://w3id.org/italia/data/distribution/RPOAPIT-JSON-LD> rdf:type admsapit:SemanticAssetDistribution ;
@@ -142,8 +142,8 @@
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione JSON-LD ontologia RPO "@it ,
                                                                          "JSON-LD distribution of RPO  Ontology"@en ;
-                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/RPO/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/RPO/latest/RPO-AP_IT.jsonld> .
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.jsonld> .
 
 
 

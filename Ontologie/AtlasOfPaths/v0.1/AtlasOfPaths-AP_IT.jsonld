@@ -281,10 +281,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"
       },
       "dct:description": [
         {
@@ -385,10 +385,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"
       },
       "dct:description": [
         {
@@ -591,10 +591,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"
       },
       "dct:description": [
         {
@@ -1576,7 +1576,7 @@
       ],
       "admsapit:acronym": "AtlasOfPaths-AP_IT",
       "admsapit:depiction": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
       },
       "admsapit:hasContributor": {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
@@ -1698,7 +1698,7 @@
       ],
       "dct:description": [
         {
-          "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
+          "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"
         },
         {
           "@language": "en",

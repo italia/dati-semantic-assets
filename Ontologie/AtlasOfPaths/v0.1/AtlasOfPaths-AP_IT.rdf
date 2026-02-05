@@ -41,7 +41,7 @@
         <dct:creator rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
         <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
         <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/AtlasOfPaths</admsapit:officialURI>
-        <dct:description rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"/>
+        <dct:description rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"/>
         <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/AOPAPIT-RDF-TURTLE"/>
         <rdfs:label xml:lang="it">Ontologia del profilo italiano sull&apos;Atlante dei Cammini</rdfs:label>
         <rdfs:label xml:lang="en">Atlas of Paths Ontology - Italian Application Profile</rdfs:label>
@@ -58,7 +58,7 @@
         <dct:publisher rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-23</dct:modified>
         <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/AOPAPIT-JSON-LD"/>
-        <admsapit:depiction rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"/>
+        <admsapit:depiction rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/v0.1/AtlasOfPaths-AP_IT.png"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AtlasOfPaths"/>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/AtlasOfPaths/PathStage"/>
         <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/DAF"/>
@@ -967,8 +967,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia AtlasOfPaths-AP_IT</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of AtlasOfPaths-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.jsonld"/>
     </owl:NamedIndividual>
 
 
@@ -983,8 +983,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia AtlasOfPaths-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of AtlasOfPaths-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.ttl"/>
     </owl:NamedIndividual>
 
 
@@ -999,8 +999,8 @@
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia AtlasOfPaths-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of AtlasOfPaths-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AtlasOfPaths/latest/AtlasOfPaths-AP_IT.rdf"/>
     </owl:NamedIndividual>
 
 

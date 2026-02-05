@@ -128,8 +128,8 @@
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     <dct:title xml:lang="it">Distribuzione RDF/Turtle ambiti disciplinari</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.ttl"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.ttl"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/001-006">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3074,8 +3074,8 @@ Le competenze di questo settore riguardano anche la ricerca nei campi della fisi
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     <dct:title xml:lang="it">Distribuzione RDF/XML ambiti disciplinari</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.rdf"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.rdf"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/016-003-010">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -5320,8 +5320,8 @@ Le competenze di questo settore riguardano anche la ricerca nei campi della fisi
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
     <dct:title xml:lang="it">Distribuzione JSON-LD ambiti disciplinari</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.jsonld"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.jsonld"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/013-008-002">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

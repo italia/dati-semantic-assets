@@ -297,8 +297,8 @@ ndc:keyConcept a rdfs:Property .
 		dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione ufficiale Ateco 2007"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of Italian official classification Ateco 2007"@en ;
 		dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 		dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-		dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.ttl> ;
-		dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
+		dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.ttl> ;
+		dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
 
 <https://w3id.org/italia/data/distribution/Ateco2007-CSV>
 		a	dcatapit:Distribution  ;
@@ -306,8 +306,8 @@ ndc:keyConcept a rdfs:Property .
 		dct:description	"Questa è la distribuzione CSV del dataset Linked Open Data della classificazione ufficiale Ateco 2007"@it , "This is the distribution in CSV of the Linked Open Dataset of Italian official classification Ateco 2007"@en ;
 		dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
 		dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-		dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.csv> ;
-		dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
+		dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.csv> ;
+		dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
 
 <https://w3id.org/italia/data/distribution/Ateco2007-XLSX>
 		a	dcatapit:Distribution  ;
@@ -315,8 +315,8 @@ ndc:keyConcept a rdfs:Property .
 		dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione ufficiale Ateco 2007"@it , "This is the distribution in XLSX of the Linked Open Dataset of Italian official classification Ateco 2007"@en ;
 		dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
 		dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-		dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.xlsx> ;
-		dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
+		dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-organizations/ateco-2007/ateco-2007.xlsx> ;
+		dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-organizations/ateco-2007> .
 
 ##########################################
 ###########################################

@@ -219,8 +219,8 @@ ndc:keyConcept
     	dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
     	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     	dct:license  <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl> ;
-    	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+    	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl> ;
+    	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-RDF-XML>
       a						dcatapit:Distribution  ;
@@ -228,8 +228,8 @@ ndc:keyConcept
       dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-JSON-LD>
       a		dcatapit:Distribution  ;
@@ -237,8 +237,8 @@ ndc:keyConcept
       dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
   <https://w3id.org/italia/data/distribution/PS-CSV>
       a						dcatapit:Distribution  ;
@@ -246,8 +246,8 @@ ndc:keyConcept
       dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-XLSX>
       a						dcatapit:Distribution  ;
@@ -255,8 +255,8 @@ ndc:keyConcept
       dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 		<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license 	<https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 #Definition of the controlled vocabulary
  <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1>

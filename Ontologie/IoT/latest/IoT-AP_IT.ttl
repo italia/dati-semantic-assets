@@ -912,8 +912,8 @@ l0:Object rdf:type owl:Class .
                                                         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                         dct:title "Distribuzione JSON-LD ontologia IoT-AP_IT"@it ,
                                                                   "JSON-LD distribution of IoT-AP_IT Ontology"@en ;
-                                                        dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/IoT/latest> ;
-                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/IoT/latest/IoT-AP_IT.jsonld> .
+                                                        dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/IoT/latest> ;
+                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/IoT/latest/IoT-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/IOT-RDF-TURTLE
@@ -925,8 +925,8 @@ l0:Object rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/Turtle ontologia IoT-AP_IT"@it ,
                                                                      "RDF/Turtle distribution of IoT-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/IoT/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/IoT/latest/IoT-AP_IT.ttl> .
+                                                           dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/IoT/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/IoT/latest/IoT-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/IOT-RDF-XML
@@ -938,8 +938,8 @@ l0:Object rdf:type owl:Class .
                                                         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                         dct:title "Distribuzione RDF/XML ontologia IoT-AP_IT"@it ,
                                                                   "RDF/XML distribution of IoT-AP_IT Ontology"@en ;
-                                                        dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/IoT/latest> ;
-                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/IoT/latest/IoT-AP_IT.rdf> .
+                                                        dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/IoT/latest> ;
+                                                        dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/IoT/latest/IoT-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/public-organization/td
