@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:l0="https://dw3id.org/italia/onto/l0/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+>
+  <owl:Ontology rdf:about="https://w3id.org/italia/onto/NDC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
+    <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/NDC/0.1"/>
+    <owl:imports rdf:resource="http://dati.gov.it/onto/dcatapit/2.0"/>
+    <dct:description xml:lang="it">Questa è l'ontologia del profilo applicativo italiano per il catalogo nazionale dati (NDC)</dct:description>
+    <dct:description xml:lang="en">This is the ontology of the Italian Application Profile for the national data catalogue - NDC</dct:description>
+    <dct:modified>2021-11-19</dct:modified>
+    <dct:title xml:lang="en">Italian Application Profile for the national data catalogue (NDC).</dct:title>
+    <dct:title xml:lang="it">Profilo applicativo italiano per il catalogo nazionale dati (NDC).</dct:title>
+    <rdfs:comment xml:lang="it">Questa è l'ontologia del profilo applicativo italiano per il catalogo nazionale dati (NDC)</rdfs:comment>
+    <rdfs:comment xml:lang="en">This is the ontology of the Italian Application Profile for the national data catalogue (NDC)</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="en">Italian Application Profile for the national data catalogue (NDC).</rdfs:label>
+    <rdfs:label xml:lang="it">Profilo applicativo italiano per il catalogo nazionale dati (NDC)</rdfs:label>
+    <owl:versionInfo xml:lang="en">0.1 - 19 November 2021 - Creation of the profile</owl:versionInfo>
+    <owl:versionInfo xml:lang="it">0.1- 19 Novembre 2021 - Creazione del profilo</owl:versionInfo>
+    <prov:wasInfluencedBy rdf:resource="ttp://dati.gov.it/onto/dcatapit#"/>
+    <admsapit:acronym>NDC-AP_IT</admsapit:acronym>
+    <admsapit:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
+    <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
+    <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ndc-profile-RDF-TURTLE"/>
+    <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
+    <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
+    <admsapit:last rdf:resource="https://w3id.org/italia/onto/NDC/"/>
+    <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/NDC</admsapit:officialURI>
+    <admsapit:prefix>ndc</admsapit:prefix>
+    <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/OntoPiA"/>
+    <admsapit:target xml:lang="it">Developers</admsapit:target>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:publisher rdf:resource="https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2"/>
+    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2"/>
+    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/ndc"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-19</dct:issued>
+    <dcat:keyword xml:lang="it">catalogo vocabolari</dcat:keyword>
+  </owl:Ontology>
+  <owl:AnnotationProperty rdf:about="https://dw3id.org/italia/onto/l0/name"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/prefix"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/last"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/officialURI"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/NDC/name"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasFormalityLevel"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasTask"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/semanticAssetInUse"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/acronym"/>
+  <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/target"/>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ndc-profile-RDF-TURTLE">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell'ontologia sul profilo applicativo italiano dell'NDC</dct:description>
+    <dct:description xml:lang="en">This is the distribution in RDF/turtle of Italian application profile of the NDC project</dct:description>
+    <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia NDC-AP_IT</dct:title>
+    <dct:title xml:lang="en">RDF/Turtle distribution of NDC-AP_IT Ontology</dct:title>
+  </owl:NamedIndividual>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/NDC/keyConcept">
+    <rdfs:domain rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="it">Questa proprietà consente di specifcare un concetto chiave rappresentato dal dataset. Nell'ambito del profilo applicativo per il catalogo nazionale dati, il concetto chiave è associato ai vocabolari controllati, che sono dataset, per indicare il concetto chiave che rappresentano come vocabolari di riferimento. Esempio: il dataset https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type ha come concetto chiave "authentication type" o "tipo di autenticazione"</rdfs:comment>
+    <rdfs:comment xml:lang="en">This property allows a key concept of a dataset to be specified. Within the application profile for the national data catalogue, the key concept is associated with controlled vocabularies, which are datasets, to indicate the key concept they represent as reference vocabularies. Example: the dataset https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type has as key concept 'authentication type'.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="it">concetto chiave</rdfs:label>
+    <rdfs:label xml:lang="en">key concept</rdfs:label>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+    <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/NDC/hasDataService">
+    <owl:inverseOf rdf:resource="https://w3id.org/italia/onto/NDC/servesDataset"/>
+    <rdfs:domain rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:range rdf:resource="https://w3id.org/italia/onto/NDC/DataService"/>
+    <rdfs:comment xml:lang="en">Inverse property of 'serves dataset' used to specify the data services used for the datasets</rdfs:comment>
+    <rdfs:comment xml:lang="it">Proprietà inversa di 'supporta dataset' utilizzata per specificare i servizi di accesso ai dati per i dataset.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="it">ha servizio di accesso ai dati</rdfs:label>
+    <rdfs:label xml:lang="en">has data service</rdfs:label>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+    <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/NDC/endpointURL">
+    <rdfs:domain rdf:resource="https://w3id.org/italia/onto/NDC/DataService"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:comment xml:lang="it">L'URL primario dell'endpoint di erogazione dei dati (un IRI risolvibile via Web)</rdfs:comment>
+    <rdfs:comment xml:lang="en">The root location or primary endpoint of the service (a Web-resolvable IRI).</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="it">URL dell'endpoint</rdfs:label>
+    <rdfs:label xml:lang="en">endpoint URL</rdfs:label>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+    <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/NDC/DataService">
+    <rdfs:subClassOf>
+      <owl:Restriction rdf:nodeID="n65d822a3896d43d6ba4e086593046acdb3">
+        <owl:onProperty rdf:resource="https://w3id.org/italia/onto/NDC/endpointDescription"/>
+        <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction rdf:nodeID="n65d822a3896d43d6ba4e086593046acdb4">
+        <owl:onProperty rdf:resource="https://w3id.org/italia/onto/NDC/servesDataset"/>
+        <owl:allValuesFrom rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction rdf:nodeID="n65d822a3896d43d6ba4e086593046acdb5">
+        <owl:onProperty rdf:resource="https://w3id.org/italia/onto/NDC/endpointURL"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:onClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">A collection of operations that provides access to one or more datasets or data processing functions.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un servizio che fornisce l'accesso a uno o più insiemi di dati o funzioni di elaborazione dei dati.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="en">Data Service</rdfs:label>
+    <rdfs:label xml:lang="it">Servizio di Accesso ai Dati</rdfs:label>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+    <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/NDC/endpointDescription">
+    <rdfs:domain rdf:resource="https://w3id.org/italia/onto/NDC/DataService"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:comment xml:lang="en">A description of the services available via the endpoints, including their operations, parameters etc.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La descrizione dell'endpoint fornisce dettagli specifici sull'endpoint stesso. La descrizione potrebbe essere espressa in una forma leggibile da macchine (machine-readable). Per esempio, una descrizione OpenAPI (Swagger), un servizio di descrizione SPARQL, ecc.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="it">descrizione dell'endpoint</rdfs:label>
+    <rdfs:label xml:lang="en">endpoint description</rdfs:label>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+    <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>pcm-AA1D3A2</dct:identifier>
+    <foaf:name xml:lang="en">Department of Digital Transformation</foaf:name>
+    <foaf:name xml:lang="it">Dipartimento per la Trasformazione Digitale</foaf:name>
+  </owl:NamedIndividual>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/NDC/servesDataset">
+    <rdfs:domain rdf:resource="https://w3id.org/italia/onto/NDC/DataService"/>
+    <rdfs:range rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:comment xml:lang="en">A collection of data that the data service can distribute.</rdfs:comment>
+    <rdfs:comment xml:lang="it">L'insieme dei dati che il servizio di accesso ai dati distribuisce.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/NDC"/>
+    <rdfs:label xml:lang="en">serves dataset</rdfs:label>
+    <rdfs:label xml:lang="it">supporta dataset</rdfs:label>
+    <owl:versionInfo xml:lang="en">imstable</owl:versionInfo>
+    <owl:versionInfo xml:lang="it">provvisorio</owl:versionInfo>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/contact-point/ndc">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <vcard:hasEmail rdf:resource="mailto:segreteria.trasformazionedigitale@governo.it"/>
+    <vcard:fn>Contatti dipartimento per la trasformazione digitale</vcard:fn>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <dct:identifier>cnr - Z6HZEH - STLab</dct:identifier>
+    <foaf:name xml:lang="en">Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)</foaf:name>
+    <foaf:name xml:lang="it">Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)</foaf:name>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/project/OntoPiA">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/Project"/>
+    <l0:name xml:lang="it">OntoPiA - la rete di ontologie della pubblica amministrazione italiana</l0:name>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/Project"/>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+  <owl:NamedIndividual rdf:about="mailto:segreteria.trasformazionedigitale@governo.it"/>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
+    <rdfs:subClassOf>
+      <owl:Restriction rdf:nodeID="n65d822a3896d43d6ba4e086593046acdb1">
+        <owl:onProperty rdf:resource="https://w3id.org/italia/onto/NDC/hasDataService"/>
+        <owl:allValuesFrom rdf:resource="https://w3id.org/italia/onto/NDC/DataService"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction rdf:nodeID="n65d822a3896d43d6ba4e086593046acdb2">
+        <owl:onProperty rdf:resource="https://w3id.org/italia/onto/NDC/keyConcept"/>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </rdf:Description>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
+  <owl:NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+  <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/language/ITA"/>
+  <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"/>
+</rdf:RDF>

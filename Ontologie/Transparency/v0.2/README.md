@@ -73,7 +73,7 @@ Ai fini della definizione del modello è emerso come sia opportuno codificare qu
 
 ## Approfondimenti
 
-+ [OntoPiA - Ontologia dei Contratti Pubblici](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/PublicContract)
++ [OntoPiA - Ontologia dei Contratti Pubblici](https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/PublicContract)
 
 + [FAIR data principles](https://libereurope.eu/wp-content/uploads/2017/12/LIBER-FAIR-Data.pdf):
 	1. *Findable*

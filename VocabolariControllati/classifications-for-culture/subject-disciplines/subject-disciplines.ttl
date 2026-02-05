@@ -14,6 +14,7 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 dcatapit:Agent a rdfs:Class .
 
@@ -113,6 +114,8 @@ foaf:name a rdfs:Property .
 
 clvapit:hasRankOrder a rdfs:Property .
 
+ndc:keyConcept a rdfs:Property .
+
 <http://dati.gov.it/data/resource/ContactPoint/voc_AgID> a dcatapit:Organization,
         vcard:Kind,
         vcard:Organization ;
@@ -124,24 +127,24 @@ clvapit:hasRankOrder a rdfs:Property .
     dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Distribuzione JSON-LD ambiti disciplinari"@it ;
-    dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.jsonld> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.jsonld> .
 
 <http://dati.gov.it/data/resource/Distribution/subject-discipline-RDF-Turtle> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sugli ambiti disciplinari"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Distribuzione RDF/Turtle ambiti disciplinari"@it ;
-    dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.ttl> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.ttl> .
 
 <http://dati.gov.it/data/resource/Distribution/subject-discipline-RDF-XML> a dcatapit:Distribution ;
     dct:description "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sugli ambiti disciplinari"@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Distribuzione RDF/XML ambiti disciplinari"@it ;
-    dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.rdf> .
+    dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/subject-disciplines/subject-disciplines.rdf> .
 
 <http://dati.gov.it/data/resource/Standard/SKOS> a dcatapit:Standard,
         dct:Standard ;
@@ -5582,6 +5585,7 @@ In the automatic mapping process, out of a total of 447 entries of the controlle
     xkos:numberOfLevels "3" ;
     rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines> ;
     owl:versionInfo "0.1" ;
+    ndc:keyConcept "subject-disciplines" ;
     skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/001>,
         <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/002>,
         <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/003>,

@@ -17,7 +17,7 @@ Per ogni concetto sono state definite delle etichette ufficiali (riportate nella
 - etichetta alternativa "Vita lavorativa - lavoro, disoccupazione, pensione"
 
 ### Struttura del Vocabolario
-Il vocabolario è strutturato seguendo lo standard skos e le regole generale di OntoPiA.  
+Il vocabolario è strutturato seguendo lo standard skos e le regole generale di OntoPiA.
 
 La sua struttura attuale è la seguente:
 
@@ -29,15 +29,15 @@ La sua struttura attuale è la seguente:
 - Anagrafe e stato civile
 - Turismo
 - Giustizia e sicurezza pubblica
-- Tributi e finanze
+- Tributi, finanze e contravvenzioni
 - Cultura e tempo libero
 - Ambiente
-- Attività produttive e commercio
+- Impresa e commercio
 - Autorizzazioni
 - Appalti pubblici
-- Agrricoltura
+- Agricoltura e pesca
 
 ### Contatti
 Per maggiori informazioni riguardo questo vocabolario contattare
 
-Giorgia Lodi (Agid) giorgia.lodi@agid.gov.it
+Giorgia Lodi (ISTC-CNR) giorgia.lodi@istc.cnr.it

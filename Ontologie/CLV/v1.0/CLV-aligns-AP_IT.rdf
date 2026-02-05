@@ -1,244 +1,162 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/postCode">
-    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#postCode"/>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Feature">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.opengis.net/ont/geosparql#hasSerialization">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/StreetToponym">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#ThoroughfareName"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasSpatialCoverage">
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#location"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/CivicNumbering">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressLocator"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/SpatialObject">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subClassOf rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Address">
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#Address"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subClassOf rdf:resource="https://www.w3.org/ns/locn#Address"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Province">
-    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Feature">
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
     <owl:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#alt">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/fullAddress">
-    <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#fullAddress"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:subClassOf rdf:resource="http://www.geonames.org/ontology#Feature"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/prevAddress">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV-aligns">
-    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-25</dc:modified>
+    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#parentAddress"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/serialization">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:equivalentProperty rdf:resource="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+  </owl:DatatypeProperty>
+  <owl:Ontology rdf:about="https://w3id.org/italia/onto/CLV-aligns">
     <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/CLV-aligns/0.1"/>
-    <dc:creator xml:lang="en">Agency for Digital Italy - AgID</dc:creator>
-    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-25</dc:issued>
-    <dc:creator xml:lang="en">Italian Digital Transformation Team</dc:creator>
     <dc:creator xml:lang="en">Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)</dc:creator>
-    <dc:title>Questi sono gli allineamenti dell'ontologia sugli indirizzi/luoghi Core Location Vocabulary - Italian Application Profile  (CLV-AP_IT) verso ontologie esterne del Web semantico standard e ampiamente utilizzate.</dc:title>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:creator xml:lang="en">Agency for Digital Italy - AgID</dc:creator>
+    <dc:creator xml:lang="en">Italian Digital Transformation Team</dc:creator>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-25</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-25</dc:modified>
     <dc:title xml:lang="en">These are the alignments to external ontologies widely used and available at the state of the art</dc:title>
+    <dc:title>Questi sono gli allineamenti dell'ontologia sugli indirizzi/luoghi Core Location Vocabulary - Italian Application Profile  (CLV-AP_IT) verso ontologie esterne del Web semantico standard e ampiamente utilizzate.</dc:title>
     <owl:imports rdf:resource="https://w3id.org/italia/onto/CLV"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Region">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Ontology>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasSpatialCoverage">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/AdminUnitComponent">
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/au#AdministrativeUnit"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#Geometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasGeometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#location"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasGeometry">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
     <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/GeographicalDistribution">
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/City">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/AddressArea">
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressAreaName"/>
+    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Province">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasAddressComponent">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/StreetToponym">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#Address.component"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/situatedWithin">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#ThoroughfareName"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/situatedWithin">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
     <owl:equivalentProperty rdf:resource="http://inspire.ec.europa.eu/ont/ad#situatedWithin"/>
     <owl:equivalentProperty rdf:resource="http://www.opengis.net/ont/geosparql#ehInside"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/serialization">
-    <owl:equivalentProperty rdf:resource="http://www.opengis.net/ont/geosparql#hasSerialization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/AddressComponent">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Geometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressComponent"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/fullAddress">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subClassOf rdf:resource="https://www.w3.org/ns/locn#Geometry"/>
-    <owl:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#Address">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#long">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/lat">
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <owl:equivalentProperty rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#parentAddress">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/District">
-    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#lat">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.opengis.net/ont/geosparql#Feature">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasAddress">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#fullAddress"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasAddress">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
     <owl:subPropertyOf rdf:resource="https://www.w3.org/ns/locn#address"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Country">
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Geometry">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <owl:subClassOf rdf:resource="https://www.w3.org/ns/locn#Geometry"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasAddressComponent">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#Address.component"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/District">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
     <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/SpatialObject">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#Address">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/AddressComponent">
+    <owl:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <owl:subClassOf rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Address">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/prevAddress">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:subClassOf rdf:resource="https://www.w3.org/ns/locn#Address"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#Address"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/CivicNumbering">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#parentAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/long">
-    <owl:equivalentProperty rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressLocator"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/postCode">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/City">
-    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:subPropertyOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#postCode"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Identifier">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/Identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <owl:subClassOf rdf:resource="http://www.geonames.org/ontology#Code"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/GeographicalDistribution">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#component">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.geonames.org/ontology#Code">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#postCode">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.opengis.net/ont/geosparql#ehInside">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#location">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.opengis.net/ont/geosparql#Geometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#situatedWithin">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/alt">
+    <owl:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/AdminUnitComponent">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/au#AdministrativeUnit"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/lat">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:equivalentProperty rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://inspire.ec.europa.eu/ont/ad#component"/>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/alt">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
     <owl:equivalentProperty rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#alt"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Region">
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/au#AdministrativeUnit">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#AddressAreaName">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#address">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://inspire.ec.europa.eu/ont/ad#AddressComponent">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#fullAddress">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.w3.org/ns/locn#geometry">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.geonames.org/ontology#Feature">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
+    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/Country">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:subClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/long">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:equivalentProperty rdf:resource="https://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/AddressArea">
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CLV/"/>
+    <owl:subClassOf rdf:resource="http://inspire.ec.europa.eu/ont/ad#AddressAreaName"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:Class rdf:about="http://www.geonames.org/ontology#Feature"/>
+  <owl:Class rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+  <owl:ObjectProperty rdf:about="http://inspire.ec.europa.eu/ont/ad#parentAddress"/>
+  <owl:Class rdf:about="http://www.geonames.org/ontology#Code"/>
+  <owl:Class rdf:about="http://inspire.ec.europa.eu/ont/ad#Address"/>
+  <owl:Class rdf:about="https://www.w3.org/ns/locn#Address"/>
+  <owl:ObjectProperty rdf:about="https://www.w3.org/ns/locn#geometry"/>
+  <owl:ObjectProperty rdf:about="https://www.w3.org/ns/locn#location"/>
+  <owl:Class rdf:about="http://inspire.ec.europa.eu/ont/au#AdministrativeUnit"/>
+  <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature"/>
+  <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+  <owl:DatatypeProperty rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+  <owl:DatatypeProperty rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+  <owl:ObjectProperty rdf:about="http://inspire.ec.europa.eu/ont/ad#situatedWithin"/>
+  <owl:Class rdf:about="https://www.w3.org/ns/locn#Geometry"/>
+  <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+  <owl:DatatypeProperty rdf:about="https://www.w3.org/2003/01/geo/wgs84_pos#alt"/>
+  <owl:Class rdf:about="http://inspire.ec.europa.eu/ont/ad#AddressComponent"/>
+  <owl:DatatypeProperty rdf:about="http://inspire.ec.europa.eu/ont/ad#postCode"/>
+  <owl:ObjectProperty rdf:about="https://www.w3.org/ns/locn#address"/>
+  <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry"/>
+  <owl:DatatypeProperty rdf:about="https://www.w3.org/ns/locn#fullAddress"/>
+  <owl:Class rdf:about="http://inspire.ec.europa.eu/ont/ad#AddressAreaName"/>
+  <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#ehInside"/>
 </rdf:RDF>
-

@@ -657,8 +657,8 @@ l0:Concept rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione JSON-LD ontologia Transparency-AP_IT"@it ,
                                                                      "JSON-LD distribution of Transparency-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/Transparency-AP_IT.jsonld> .
+                                                           dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/Transparency-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/TRAPIT-RDF-TURTLE
@@ -670,8 +670,8 @@ l0:Concept rdf:type owl:Class .
                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                               dct:title "Distribuzione RDF/Turtle ontologia Transparency-AP_IT"@it ,
                                                                         "RDF/Turtle distribution of Transparency-AP_IT Ontology"@en ;
-                                                              dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/latest> ;
-                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/Transparency-AP_IT.ttl> .
+                                                              dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/latest> ;
+                                                              dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/Transparency-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/TRAPIT-RDF-XML
@@ -683,8 +683,8 @@ l0:Concept rdf:type owl:Class .
                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                            dct:title "Distribuzione RDF/XML ontologia Transparency-AP_IT"@it ,
                                                                      "RDF/XML distribution of Transparency-AP_IT Ontology"@en ;
-                                                           dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/latest> ;
-                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Transparency/Transparency-AP_IT.rdf> .
+                                                           dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/latest> ;
+                                                           dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Transparency/Transparency-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/private-organization/05481840964

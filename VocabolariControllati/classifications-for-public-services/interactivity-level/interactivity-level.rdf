@@ -1,358 +1,274 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cpsvapit="https://w3id.org/italia/onto/CPSV/"
 >
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_Turtle">
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle livelli di interattività servizi pubblici</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.ttl"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution interactivity levels for public services</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL4">
-    <skos:definition xml:lang="de">Der Benutzer kann den gewünschten Verwaltungsakt / Vorgang initiieren, indem er die erforderlichen Daten zur Verfügung stellt und die entsprechende Transaktion vollständig online durchführt, einschließlich der Zahlung der erwarteten Kosten.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Transaction</skos:prefLabel>
-    <dct:identifier>LEVEL 4</dct:identifier>
-    <skos:definition xml:lang="it">L'utente può avviare l'atto/procedimento amministrativo di interesse fornendo i dati necessari ed eseguire la transazione corrispondente interamente on line, incluso l'eventuale pagamento dei costi previsti.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <skos:prefLabel xml:lang="de">Transaktion</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Transazione</skos:prefLabel>
-    <skos:definition xml:lang="en">The user can start an administrative act of interest online by providing the necessary data. The user can then carry out the transaction entirely online, including the possible payment of costs related to the service.</skos:definition>
-    <skos:notation>LEVEL 4</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level">
-    <dct:title xml:lang="en">Controlled Vocabulary of the Service Interactivity Levels</dct:title>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level">
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:comment xml:lang="en">Controlled Vocabulary of the interactivity levels for public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
+    <rdfs:comment xml:lang="it">Vocabolario controllato dei livelli di interattività per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
     <rdfs:label xml:lang="en">Controlled Vocabulary of Service Interactivity Levels</rdfs:label>
     <rdfs:label xml:lang="it">VOcabolario controllato dei livelli di interattività di un servizio pubblico</rdfs:label>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <dcat:keyword xml:lang="it">livello interattività</dcat:keyword>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_XLSX"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL5"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_JSON_LD"/>
-    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL3"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_CSV"/>
-    <dcat:keyword xml:lang="en">interactivity level</dcat:keyword>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
-    <dcat:keyword xml:lang="it">interattività</dcat:keyword>
+    <dct:title xml:lang="en">Controlled Vocabulary of the Service Interactivity Levels</dct:title>
     <dct:title xml:lang="it">Vocabolario controllato dei livelli di interattività di un servizio pubblico</dct:title>
-    <dct:identifier>agid:D.8</dct:identifier>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <rdfs:comment xml:lang="en">Controlled Vocabulary of the interactivity levels for public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
-    <dcat:keyword xml:lang="en">interactivity</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dct:modified>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_XML"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL2"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdfs:comment xml:lang="it">Vocabolario controllato dei livelli di interattività per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_Turtle"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL4"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL1"/>
     <dct:description xml:lang="en">Controlled Vocabulary of the interactivity levels for public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="en">public service</dcat:keyword>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/NONE"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
     <dct:description xml:lang="it">Vocabolario controllato dei livelli di interattività per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL1">
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>LEVEL 1</skos:notation>
-    <skos:definition xml:lang="it">Sono fornite all'utente informazioni sul procedimento amministrativo (es. finalità, termini di richiesta, ecc.) ed eventualmente sulle modalità di espletamento (es. sedi, orari di sportello).</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Information</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-    <skos:definition xml:lang="de">Der Benutzer erhält Informationen über den administrativen Ablauf (z. B. Zweck, Bedingungen der Anfrage usw.) und eventuell über die Art und Weise, wie er zu erledigen ist (z. B. Stellen, Schalterzeiten).</skos:definition>
-    <dct:identifier>LEVEL 1</dct:identifier>
-    <skos:definition xml:lang="en">Users are informed about the administrative process that regards the service (e.g., objectives, how to require it, etc) and about the way in which the service can be used (e.g., opening hours of the information desk, location, etc)</skos:definition>
-    <skos:prefLabel xml:lang="de">Informationen</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <skos:prefLabel xml:lang="it">Informazione</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <dct:identifier>agid</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL3">
-    <skos:prefLabel xml:lang="it">Interazione a due vie</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bidirektionale Interaktion</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Bidirectional interaction</skos:prefLabel>
-    <skos:notation>LEVEL 3</skos:notation>
-    <skos:definition xml:lang="it">L'utente può avviare l'atto/procedimento amministrativo di interesse (es. il modulo può essere compilato e inviato on line) e viene garantita on line solo la presa in carico dei dati immessi dall'utente e non la loro contestuale elaborazione.</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>LEVEL 3</dct:identifier>
-    <skos:definition xml:lang="en">The user can start an administrative act of interest online (e.g., the form can be filled in and sent online) and it is guaranteed that the data is provided online, only; it is not guaranteed the concurrent online data processing.</skos:definition>
-    <skos:definition xml:lang="de">Der Benutzer kann den gewünschten Verwaltungsakt / Vorgang initiieren (z. B. das Formular kann online ausgefüllt und gesendet werden) und es werden online nur die Übernahme der vom Benutzer eingegebenen Daten garantiert, nicht aber deren kontextuelle Verarbeitung.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/NONE">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-    <skos:definition xml:lang="it">Servizio erogato offline, per il quale non esiste nemmeno una pagina web informativa.</skos:definition>
-    <dct:identifier>NONE</dct:identifier>
-    <skos:notation>NONE</skos:notation>
-    <skos:definition xml:lang="de">Offline bereitgestellter Dienst, für den es nicht einmal eine informative Webseite gibt.</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Non online</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Nicht online</skos:prefLabel>
-    <skos:definition xml:lang="en">Offline service for which it does not exist any informational web page</skos:definition>
-    <skos:prefLabel xml:lang="en">Not online</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_JSON_LD">
-    <dct:title xml:lang="en">JSON_LD distribution interactivity levels for public services</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.jsonld"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD livelli di interattività servizi pubblici</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_CSV">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">CSV distribution interactivity levels for public services</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione CSV livelli di interattività servizi pubblici</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.csv"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL5">
-    <skos:definition xml:lang="en">The user can carried out an entire administrative act online and (s)he can receive information according to his/her profile (e.g., it can receive information about deadlines, about the result of an administrative act, etc.) This is also called pro-active service.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">L'utente, oltre ad eseguire on line l'intero ciclo del procedimento amministrativo di interesse riceve informazioni (sono ricordate le scadenze, è restituito l'esito del procedimento, ecc.), che gli sono inviate preventivamente, sulla base del profilo collegato (c.d. pro-attività).</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Personalisierung</skos:prefLabel>
-    <skos:definition xml:lang="de">Zusätzlich zum gesamten Zyklus des Verwaltungsverfahrens von Interesse, den er selbst online ausführt, erhält der Benutzer Informationen (Erinnerung an die Fristen, Zurückgabe des Verfahrensergebnisses, etc.), die ihm auf der Besis des verknüpften Profils im Voraus gesendet werden (Pro-Aktivität)</skos:definition>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-    <skos:prefLabel xml:lang="it">Personalizzazione</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Customization</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <skos:notation>LEVEL 5</skos:notation>
-    <dct:identifier>LEVEL 5</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_XML">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">RDF/XML distribution interactivity levels for public services</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.rdf"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML livelli di interattività servizi pubblici</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_XLSX">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">XLSX distribution interactivity levels for public services</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.xlsx"/>
-    <dct:title xml:lang="it">Distribuzione XLSX livelli di interattività servizi pubblici</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL2">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
-    <skos:prefLabel xml:lang="it">Interazione a una via</skos:prefLabel>
-    <skos:definition xml:lang="de">Zusätzlich zu den Informationen werden dem Benutzer die Formulare zur Anforderung des gewünschten Verwaltungsaktes / des Verfahrens zur Verfügung gestellt, die dann über herkömmliche Kanäle weitergeleitet werden muss (z. B. Formular zur Änderung der Residenz oder Formulare zur Selbstbescheinigung).</skos:definition>
-    <dct:identifier>LEVEL 2</dct:identifier>
-    <skos:notation>LEVEL 2</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">One way interaction</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Einweg-Interaktion</skos:prefLabel>
-    <skos:definition xml:lang="it">Oltre alle informazioni, sono resi disponibili all'utente i moduli per la richiesta dell'atto/procedimento amministrativo di interesse che dovrà poi essere inoltrata attraverso canali tradizionali (es. modulo di variazione residenza o moduli di autocertificazione).</skos:definition>
-    <skos:definition xml:lang="en">In addition to the information, users can use online forms in order to start a request for an administrative act of interest. Afterwords, the user must send the forms via traditional channels</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPSV/InteractivityLevel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <ndc:keyConcept>interactivity-level</ndc:keyConcept>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>agid:D.8</dct:identifier>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:keyword xml:lang="it">livello interattività</dcat:keyword>
+    <dcat:keyword xml:lang="it">interattività</dcat:keyword>
+    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="en">interactivity level</dcat:keyword>
+    <dcat:keyword xml:lang="en">public service</dcat:keyword>
+    <dcat:keyword xml:lang="en">interactivity</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle livelli di interattività servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution interactivity levels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML livelli di interattività servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution interactivity levels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD livelli di interattività servizi pubblici</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution interactivity levels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_CSV">
+        <dct:title xml:lang="it">Distribuzione CSV livelli di interattività servizi pubblici</dct:title>
+        <dct:title xml:lang="en">CSV distribution interactivity levels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.csv"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/InteractivityLevel_XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX livelli di interattività servizi pubblici</dct:title>
+        <dct:title xml:lang="en">XLSX distribution interactivity levels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei livelli di interattività per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the interactivity levels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level/interactivity-level.xlsx"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/interactivity-level"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/NONE">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>NONE</skos:notation>
+        <dct:identifier>NONE</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Non online</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nicht online</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Not online</skos:prefLabel>
+        <skos:definition xml:lang="it">Servizio erogato offline, per il quale non esiste nemmeno una pagina web informativa.</skos:definition>
+        <skos:definition xml:lang="de">Offline bereitgestellter Dienst, für den es nicht einmal eine informative Webseite gibt.</skos:definition>
+        <skos:definition xml:lang="en">Offline service for which it does not exist any informational web page</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL1">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>LEVEL 1</skos:notation>
+        <dct:identifier>LEVEL 1</dct:identifier>
+        <skos:prefLabel xml:lang="it">Informazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Informationen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Information</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:definition xml:lang="it">Sono fornite all'utente informazioni sul procedimento amministrativo (es. finalità, termini di richiesta, ecc.) ed eventualmente sulle modalità di espletamento (es. sedi, orari di sportello).</skos:definition>
+        <skos:definition xml:lang="de">Der Benutzer erhält Informationen über den administrativen Ablauf (z. B. Zweck, Bedingungen der Anfrage usw.) und eventuell über die Art und Weise, wie er zu erledigen ist (z. B. Stellen, Schalterzeiten).</skos:definition>
+        <skos:definition xml:lang="en">Users are informed about the administrative process that regards the service (e.g., objectives, how to require it, etc) and about the way in which the service can be used (e.g., opening hours of the information desk, location, etc)</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL2">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>LEVEL 2</skos:notation>
+        <dct:identifier>LEVEL 2</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Interazione a una via</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Einweg-Interaktion</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">One way interaction</skos:prefLabel>
+        <skos:definition xml:lang="it">Oltre alle informazioni, sono resi disponibili all'utente i moduli per la richiesta dell'atto/procedimento amministrativo di interesse che dovrà poi essere inoltrata attraverso canali tradizionali (es. modulo di variazione residenza o moduli di autocertificazione).</skos:definition>
+        <skos:definition xml:lang="de">Zusätzlich zu den Informationen werden dem Benutzer die Formulare zur Anforderung des gewünschten Verwaltungsaktes / des Verfahrens zur Verfügung gestellt, die dann über herkömmliche Kanäle weitergeleitet werden muss (z. B. Formular zur Änderung der Residenz oder Formulare zur Selbstbescheinigung).</skos:definition>
+        <skos:definition xml:lang="en">In addition to the information, users can use online forms in order to start a request for an administrative act of interest. Afterwords, the user must send the forms via traditional channels</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL3">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>LEVEL 3</skos:notation>
+        <dct:identifier>LEVEL 3</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Interazione a due vie</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bidirektionale Interaktion</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bidirectional interaction</skos:prefLabel>
+        <skos:definition xml:lang="it">L'utente può avviare l'atto/procedimento amministrativo di interesse (es. il modulo può essere compilato e inviato on line) e viene garantita on line solo la presa in carico dei dati immessi dall'utente e non la loro contestuale elaborazione.</skos:definition>
+        <skos:definition xml:lang="de">Der Benutzer kann den gewünschten Verwaltungsakt / Vorgang initiieren (z. B. das Formular kann online ausgefüllt und gesendet werden) und es werden online nur die Übernahme der vom Benutzer eingegebenen Daten garantiert, nicht aber deren kontextuelle Verarbeitung.</skos:definition>
+        <skos:definition xml:lang="en">The user can start an administrative act of interest online (e.g., the form can be filled in and sent online) and it is guaranteed that the data is provided online, only; it is not guaranteed the concurrent online data processing.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL4">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>LEVEL 4</skos:notation>
+        <dct:identifier>LEVEL 4</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Transazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Transaktion</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Transaction</skos:prefLabel>
+        <skos:definition xml:lang="it">L'utente può avviare l'atto/procedimento amministrativo di interesse fornendo i dati necessari ed eseguire la transazione corrispondente interamente on line, incluso l'eventuale pagamento dei costi previsti.</skos:definition>
+        <skos:definition xml:lang="de">Der Benutzer kann den gewünschten Verwaltungsakt / Vorgang initiieren, indem er die erforderlichen Daten zur Verfügung stellt und die entsprechende Transaktion vollständig online durchführt, einschließlich der Zahlung der erwarteten Kosten.</skos:definition>
+        <skos:definition xml:lang="en">The user can start an administrative act of interest online by providing the necessary data. The user can then carry out the transaction entirely online, including the possible payment of costs related to the service.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL5">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level"/>
+        <skos:notation>LEVEL 5</skos:notation>
+        <dct:identifier>LEVEL 5</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Personalizzazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Personalisierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Customization</skos:prefLabel>
+        <skos:definition xml:lang="it">L'utente, oltre ad eseguire on line l'intero ciclo del procedimento amministrativo di interesse riceve informazioni (sono ricordate le scadenze, è restituito l'esito del procedimento, ecc.), che gli sono inviate preventivamente, sulla base del profilo collegato (c.d. pro-attività).</skos:definition>
+        <skos:definition xml:lang="de">Zusätzlich zum gesamten Zyklus des Verwaltungsverfahrens von Interesse, den er selbst online ausführt, erhält der Benutzer Informationen (Erinnerung an die Fristen, Zurückgabe des Verfahrensergebnisses, etc.), die ihm auf der Besis des verknüpften Profils im Voraus gesendet werden (Pro-Aktivität)</skos:definition>
+        <skos:definition xml:lang="en">The user can carried out an entire administrative act online and (s)he can receive information according to his/her profile (e.g., it can receive information about deadlines, about the result of an administrative act, etc.) This is also called pro-active service.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dct:modified>
+    <owl:versionInfo>0.1</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/CPSV/InteractivityLevel"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
 </rdf:RDF>

@@ -1,267 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03">
-    <dct:identifier>A.03</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:notation>A.03</skos:notation>
-    <skos:altLabel xml:lang="it">Determina</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Determinazione</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <dct:identifier>SKOS</dct:identifier>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06"/>
-    <skos:notation>A</skos:notation>
-    <dct:identifier>A</dct:identifier>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01"/>
-    <skos:prefLabel xml:lang="it">Atto amministrativo</skos:prefLabel>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01"/>
-    <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02">
-    <dct:identifier>A.02.02</dct:identifier>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Deliberazione della Giunta comunale</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>A.02.02</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="de">Beschluss des Gemeindeausschusses</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-    <skos:altLabel xml:lang="it">Deliberazione giuntale</skos:altLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dct:identifier>D.01.01</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Avviso di deposito in casa comunale</skos:prefLabel>
-    <skos:notation>D.01.01</skos:notation>
-    <skos:prefLabel xml:lang="de">Hinweis auf Aktenhinterlegung im Gemeindehaus</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01">
-    <dct:identifier>C.01</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Provvedimento di cancellazione per irreperibilità</skos:prefLabel>
-    <skos:notation>C.01</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02">
-    <skos:altLabel xml:lang="it">Delibera</skos:altLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Deliberazione</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04"/>
-    <dct:identifier>A.02</dct:identifier>
-    <skos:notation>A.02</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01">
-    <skos:prefLabel xml:lang="it">Pubblicazione di matrimonio</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="de">Eheaufgebot</skos:prefLabel>
-    <dct:identifier>C.03.01</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>C.03.01</skos:notation>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02">
-    <skos:altLabel xml:lang="it">Decreto sindacale</skos:altLabel>
-    <dct:identifier>A.01.02</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01"/>
-    <skos:notation>A.01.02</skos:notation>
-    <skos:prefLabel xml:lang="it">Decreto del Sindaco</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Dekret des Bürgermeisters</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04">
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <dct:identifier>A.02.04</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="it">Deliberazione del Consiglio circoscrizionale</skos:prefLabel>
-    <skos:notation>A.02.04</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04"/>
-    <skos:prefLabel xml:lang="it">Ordinanza del Dirigente</skos:prefLabel>
-    <dct:identifier>A.04.01</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:notation>A.04.01</skos:notation>
-    <skos:altLabel xml:lang="it">Ordinanza dirigenziale</skos:altLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>B.01</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B"/>
-    <dct:identifier>B.01</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="it">Permesso a costruire</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02"/>
-    <dct:identifier>D.02</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>D.02</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01"/>
-    <skos:prefLabel xml:lang="it">Bando</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02">
-    <skos:prefLabel xml:lang="it">Ordinanza del Sindaco</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Verordnung des Bürgermeisters</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dct:identifier>A.04.02</dct:identifier>
-    <skos:notation>A.04.02</skos:notation>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="it">Ordinanza sindacale</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01">
-    <skos:prefLabel xml:lang="de">Beschluss des Gemeinderates</skos:prefLabel>
-    <skos:notation>A.02.01</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:prefLabel xml:lang="it">Deliberazione del Consiglio comunale</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Deliberazione consiliare</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dct:identifier>A.02.01</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02">
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <dct:identifier>A.03.02</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="it">Determinazione sindacale</skos:altLabel>
-    <skos:notation>A.03.02</skos:notation>
-    <skos:prefLabel xml:lang="it">Determinazione del Sindaco</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01"/>
-    <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01"/>
-    <skos:prefLabel xml:lang="it">Pubblicazione esterna</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dct:identifier>E</dct:identifier>
-    <skos:notation>E</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01">
-    <dct:identifier>D.01</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02"/>
-    <skos:notation>D.01</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01"/>
-    <skos:prefLabel xml:lang="it">Avviso</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board">
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l065"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-22</dct:issued>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-22</dct:modified>
-    <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/Thesaurus"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/5501"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/units"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-Turtle"/>
-    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/voc-AgID"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-XML"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <dcat:keyword xml:lang="it">ente territoriale</dcat:keyword>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/municipal-notice-board-JSON-LD"/>
-    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
-    <dct:identifier>municipalboard.2019</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <dcatapit:Dataset rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/cnr"/>
-    <dcat:keyword xml:lang="it">ente locale</dcat:keyword>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_e098"/>
-    <dcat:keyword xml:lang="it">documenti</dcat:keyword>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/formezpa"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="https://w3id.org/italia/data/standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:creator>
+      <dcatapit:Agent rdf:about="http://opendatasicilia.it">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>ods</dct:identifier>
+        <foaf:name xml:lang="it">Open Data Sicilia</foaf:name>
+      </dcatapit:Agent>
+    </dct:creator>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_c758"/>
     <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_c817"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_e098"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_g273"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l065"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l424"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l483"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/cciaapu"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/cnr"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/formezpa"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/r_friuve"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/units"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/utismsm"/>
     <dct:description xml:lang="it"> L'Albo Pretorio è il luogo e lo spazio dove vengono affissi tutti quegli
 atti per i quali la legge impone la pubblicazione in quanto debbono essere
 portati a conoscenza del pubblico, come condizione necessaria per acquisire
@@ -305,447 +90,546 @@ Nell'Albo pretorio on line va a confluire tutta la documentazione prodotta
  Università di Trieste, CNR, Formez, Open Data Sicilia, Aziende private
  (Fonte: http://qualitapa.gov.it/sitoarcheologico/relazioni-con-i-cittadini/open-government/strumenti-della-pa-digitale/albo-pretorio-on-line/)
     </dct:description>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/27"/>
-    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l483"/>
+    <dct:identifier>municipalboard.2019</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-22</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-    <dct:creator rdf:resource="http://opendatasicilia.it"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-22</dct:modified>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="https://w3id.org/italia/data/public-organization/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/27"/>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/5217"/>
-    <xkos:numberOfLevels>3</xkos:numberOfLevels>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/utismsm"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/r_friuve"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_c758"/>
-    <dcat:keyword xml:lang="it">albo pretorio</dcat:keyword>
-    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <dcat:keyword xml:lang="it">atto amministrativo</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dcat:keyword xml:lang="it">comune</dcat:keyword>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_g273"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/cciaapu"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/c_l424"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02"/>
-    <skos:prefLabel xml:lang="it">Pubblicazione cambio nome</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>C.02.01</skos:notation>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-    <dct:identifier>C.02.01</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>D.01.02</skos:notation>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <skos:prefLabel xml:lang="it">Avviso/Manifesto</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <dct:identifier>D.01.02</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B">
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>B</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01"/>
-    <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:notation>B</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Atto autorizzativo</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02">
-    <dct:identifier>C.02</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>C.02</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="it">Pubblicazione cambio nome</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-JSON-LD">
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/5501"/>
     <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06">
-    <skos:prefLabel xml:lang="it">Deliberazione di altri Organi</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:notation>A.02.06</skos:notation>
-    <dct:identifier>A.02.06</dct:identifier>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01">
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01"/>
-    <skos:prefLabel xml:lang="de">Baugenehmigung</skos:prefLabel>
-    <dct:identifier>B.01.01</dct:identifier>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B"/>
-    <skos:prefLabel xml:lang="it">Permesso a costruire</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>B.01.01</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02"/>
-    <skos:prefLabel xml:lang="it">Ordinanza</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01"/>
-    <skos:notation>A.04</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>A.04</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
-    <skos:prefLabel xml:lang="it">Bando di contributi e vantaggi economici</skos:prefLabel>
-    <skos:notation>D.02.03</skos:notation>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>D.02.03</dct:identifier>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://opendatasicilia.it">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>ods</dct:identifier>
-    <foaf:name xml:lang="it">Open Data Sicilia</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/agid">
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <dct:identifier>agid</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01">
-    <skos:prefLabel xml:lang="it">Atto di terzi</skos:prefLabel>
-    <dct:identifier>E.01</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>E.01</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <dct:identifier>A.02.05</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-    <skos:notation>A.02.05</skos:notation>
-    <skos:prefLabel xml:lang="it">Deliberazione dell'Esecutivo circoscrizionale</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01">
-    <skos:prefLabel xml:lang="de">Dekret des leitenden Beamten</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Decreto del Dirigente</skos:prefLabel>
-    <skos:notation>A.01.01</skos:notation>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <dct:identifier>A.01.01</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02">
+    <dct:type rdf:resource="http://purl.org/adms/assettype/Thesaurus"/>
+    <xkos:numberOfLevels>3</xkos:numberOfLevels>
+    <ndc:keyConcept>municipal-notice-board</ndc:keyConcept>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <owl:versionInfo>0.1</owl:versionInfo>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A">
+        <dct:identifier>A</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02"/>
+        <skos:notation>A</skos:notation>
+        <skos:prefLabel xml:lang="it">Atto amministrativo</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B">
+        <dct:identifier>B</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01"/>
+        <skos:notation>B</skos:notation>
+        <skos:prefLabel xml:lang="it">Atto autorizzativo</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C">
+        <dct:identifier>C</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01"/>
+        <skos:notation>C</skos:notation>
+        <skos:prefLabel xml:lang="it">Atto dello stato civile</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D">
+        <dct:identifier>D</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03"/>
+        <skos:notation>D</skos:notation>
+        <skos:prefLabel xml:lang="it">Atto generico</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E">
+        <dct:identifier>E</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01"/>
+        <skos:notation>E</skos:notation>
+        <skos:prefLabel xml:lang="it">Pubblicazione esterna</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-JSON-LD">
+        <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.jsonld"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-Turtle">
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-XML">
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="it">albo pretorio</dcat:keyword>
+    <dcat:keyword xml:lang="it">atto amministrativo</dcat:keyword>
+    <dcat:keyword xml:lang="it">comune</dcat:keyword>
+    <dcat:keyword xml:lang="it">documenti</dcat:keyword>
+    <dcat:keyword xml:lang="it">ente locale</dcat:keyword>
+    <dcat:keyword xml:lang="it">ente territoriale</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+  </dcatapit:Dataset>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/COV/LegalStatus"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02">
     <dct:identifier>D.02.02</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02">
+        <dct:identifier>D.02</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03"/>
+        <skos:notation>D.02</skos:notation>
+        <skos:prefLabel xml:lang="it">Bando</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
     <skos:notation>D.02.02</skos:notation>
     <skos:prefLabel xml:lang="it">Bando di gara</skos:prefLabel>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01">
+    <dct:identifier>D.01</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01">
+        <dct:identifier>D.01.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:notation>D.01.01</skos:notation>
+        <skos:prefLabel xml:lang="de">Hinweis auf Aktenhinterlegung im Gemeindehaus</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Avviso di deposito in casa comunale</skos:prefLabel>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02">
+        <dct:identifier>D.01.02</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:notation>D.01.02</skos:notation>
+        <skos:prefLabel xml:lang="it">Avviso/Manifesto</skos:prefLabel>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:notation>D.01</skos:notation>
+    <skos:prefLabel xml:lang="it">Avviso</skos:prefLabel>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06">
+    <dct:identifier>A.02.06</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02">
+        <dct:identifier>A.02</dct:identifier>
+        <skos:altLabel xml:lang="it">Delibera</skos:altLabel>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06"/>
+        <skos:notation>A.02</skos:notation>
+        <skos:prefLabel xml:lang="it">Deliberazione</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.02.06</skos:notation>
+    <skos:prefLabel xml:lang="it">Deliberazione di altri Organi</skos:prefLabel>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>D.02.01</skos:notation>
-    <skos:prefLabel xml:lang="it">Bando di concorso</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01">
+    <dct:identifier>A.01.01</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01">
+        <dct:identifier>A.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02"/>
+        <skos:notation>A.01</skos:notation>
+        <skos:prefLabel xml:lang="it">Decreto</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.01.01</skos:notation>
+    <skos:prefLabel xml:lang="de">Dekret des leitenden Beamten</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Decreto del Dirigente</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02">
+    <dct:identifier>A.03.02</dct:identifier>
+    <skos:altLabel xml:lang="it">Determinazione sindacale</skos:altLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03">
+        <dct:identifier>A.03</dct:identifier>
+        <skos:altLabel xml:lang="it">Determina</skos:altLabel>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02"/>
+        <skos:notation>A.03</skos:notation>
+        <skos:prefLabel xml:lang="it">Determinazione</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.03.02</skos:notation>
+    <skos:prefLabel xml:lang="it">Determinazione del Sindaco</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03">
+    <dct:identifier>C.03</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01">
+        <dct:identifier>C.03.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:notation>C.03.01</skos:notation>
+        <skos:prefLabel xml:lang="de">Eheaufgebot</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pubblicazione di matrimonio</skos:prefLabel>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:notation>C.03</skos:notation>
+    <skos:prefLabel xml:lang="it">Pubblicazione di matrimonio</skos:prefLabel>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01">
+    <dct:identifier>A.02.01</dct:identifier>
+    <skos:altLabel xml:lang="it">Deliberazione consiliare</skos:altLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.02.01</skos:notation>
+    <skos:prefLabel xml:lang="de">Beschluss des Gemeinderates</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Deliberazione del Consiglio comunale</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02">
+    <dct:identifier>A.04.02</dct:identifier>
+    <skos:altLabel xml:lang="it">Ordinanza sindacale</skos:altLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04">
+        <dct:identifier>A.04</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02"/>
+        <skos:notation>A.04</skos:notation>
+        <skos:prefLabel xml:lang="it">Ordinanza</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.04.02</skos:notation>
+    <skos:prefLabel xml:lang="de">Verordnung des Bürgermeisters</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Ordinanza del Sindaco</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01">
+    <dct:identifier>C.02.01</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02">
+        <dct:identifier>C.02</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01"/>
+        <skos:notation>C.02</skos:notation>
+        <skos:prefLabel xml:lang="it">Pubblicazione cambio nome</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>C.02.01</skos:notation>
+    <skos:prefLabel xml:lang="it">Pubblicazione cambio nome</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03">
+    <dct:identifier>D.02.03</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
-    <skos:prefLabel xml:lang="de">Wettbewerbsausschreibung</skos:prefLabel>
-    <dct:identifier>D.02.01</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D">
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01"/>
-    <skos:prefLabel xml:lang="it">Atto generico</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01"/>
-    <skos:notation>D</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
-    <dct:identifier>D</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03"/>
-    <skos:altLabel xml:lang="it">Determinazione dirigenziale</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:notation>D.02.03</skos:notation>
+    <skos:prefLabel xml:lang="it">Bando di contributi e vantaggi economici</skos:prefLabel>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01">
+    <dct:identifier>C.01.01</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01">
+        <dct:identifier>C.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01"/>
+        <skos:notation>C.01</skos:notation>
+        <skos:prefLabel xml:lang="it">Provvedimento di cancellazione per irreperibilità</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>C.01.01</skos:notation>
+    <skos:prefLabel xml:lang="it">Provvedimento di cancellazione per irreperibilità</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04">
+    <dct:identifier>A.02.04</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.02.04</skos:notation>
+    <skos:prefLabel xml:lang="it">Deliberazione del Consiglio circoscrizionale</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02">
+    <dct:identifier>A.02.02</dct:identifier>
+    <skos:altLabel xml:lang="it">Deliberazione giuntale</skos:altLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.02.02</skos:notation>
+    <skos:prefLabel xml:lang="de">Beschluss des Gemeindeausschusses</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Deliberazione della Giunta comunale</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05">
+    <dct:identifier>A.02.05</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.02.05</skos:notation>
+    <skos:prefLabel xml:lang="it">Deliberazione dell'Esecutivo circoscrizionale</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01">
+    <dct:identifier>E.01.01</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01">
+        <dct:identifier>E.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01"/>
+        <skos:notation>E.01</skos:notation>
+        <skos:prefLabel xml:lang="it">Atto di terzi</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>E.01.01</skos:notation>
+    <skos:prefLabel xml:lang="it">Atto di terzi</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02">
+    <dct:identifier>A.01.02</dct:identifier>
+    <skos:altLabel xml:lang="it">Decreto sindacale</skos:altLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.01.02</skos:notation>
+    <skos:prefLabel xml:lang="de">Dekret des Bürgermeisters</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Decreto del Sindaco</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01">
+    <dct:identifier>B.01.01</dct:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01">
+        <dct:identifier>B.01</dct:identifier>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01"/>
+        <skos:notation>B.01</skos:notation>
+        <skos:prefLabel xml:lang="it">Permesso a costruire</skos:prefLabel>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>B.01.01</skos:notation>
+    <skos:prefLabel xml:lang="de">Baugenehmigung</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Permesso a costruire</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01">
+    <dct:identifier>A.04.01</dct:identifier>
+    <skos:altLabel xml:lang="it">Ordinanza dirigenziale</skos:altLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
+    <skos:notation>A.04.01</skos:notation>
+    <skos:prefLabel xml:lang="it">Ordinanza del Dirigente</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01">
     <dct:identifier>A.03.01</dct:identifier>
+    <skos:altLabel xml:lang="it">Determinazione dirigenziale</skos:altLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
     <skos:notation>A.03.01</skos:notation>
     <skos:prefLabel xml:lang="de">Verfügung des leitenden Beamten</skos:prefLabel>
     <skos:prefLabel xml:lang="it">Determinazione del Dirigente</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01"/>
-    <dct:identifier>C.01.01</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-    <skos:prefLabel xml:lang="it">Provvedimento di cancellazione per irreperibilità</skos:prefLabel>
-    <skos:notation>C.01.01</skos:notation>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03">
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01">
+    <dct:identifier>D.02.01</dct:identifier>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
-    <skos:prefLabel xml:lang="de">Beschluss des Kommissärs ad acta</skos:prefLabel>
+    <skos:notation>D.02.01</skos:notation>
+    <skos:prefLabel xml:lang="de">Wettbewerbsausschreibung</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Bando di concorso</skos:prefLabel>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03">
     <dct:identifier>A.02.03</dct:identifier>
-    <skos:notation>A.02.03</skos:notation>
-    <skos:prefLabel xml:lang="it">Deliberazione del Commissario ad acta</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02"/>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C">
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <dct:identifier>C</dct:identifier>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01"/>
-    <skos:notation>C</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01"/>
-    <skos:topConceptOf rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Atto dello stato civile</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:prefLabel xml:lang="it">Decreto</skos:prefLabel>
-    <skos:notation>A.01</skos:notation>
-    <dct:identifier>A.01</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-XML">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.rdf"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/municipal-notice-board-RDF-Turtle">
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Vocabolario Controllato degli Atti Amministrativi Comunali Italiani per l'Albo Pretorio</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board/municipal-notice-board.ttl"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato degli atti amministrativi comunali italiani per l'albo pretorio</dct:description>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01">
+    <skos:notation>A.02.03</skos:notation>
+    <skos:prefLabel xml:lang="de">Beschluss des Kommissärs ad acta</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Deliberazione del Commissario ad acta</skos:prefLabel>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>E.01.01</skos:notation>
-    <dct:identifier>E.01.01</dct:identifier>
-    <skos:prefLabel xml:lang="it">Atto di terzi</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/COV/LegalStatus">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03">
-    <skos:prefLabel xml:lang="it">Pubblicazione di matrimonio</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>C.03</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board"/>
-    <skos:notation>C.03</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

@@ -6,17 +6,17 @@ Il presente vocabolario controllato implementa la struttura della sezione "Ammin
 
 
 **NOTA**
-Questo vocabolario sarà utilizzato dall'ontologia della trasparenza per le pubbliche amministrazioni (attualmente in fase di sviluppo).
+Questo vocabolario è utilizzato dall'ontologia della trasparenza per le pubbliche amministrazioni.
 
 
 
 ### Fonti:
 
-+ Sul sito ANAC è disponibile il materiale di consultazione utilizzato: 
++ Sul sito ANAC è disponibile il materiale di consultazione utilizzato:
 https://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAutorita/_Atto?ca=6667.
 
 + riferimenti normativi
-	- [d.lgs. 33/2013](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33) 
+	- [d.lgs. 33/2013](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33)
 	- [d.lgs. 97/2016](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97)
 
 + traduzioni
@@ -26,18 +26,19 @@ https://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAut
 	- [CNR](https://www.cnr.it/en/amministrazione-trasparente)
 	- [Ministero Esteri](https://www.esteri.it/mae/en/trasparenza_comunicazioni_legali/)
 	- [SIAE](https://www.siae.it/en/transparent-siae/transparent-siae)
-	
+	- Uso di traduttori automatici con revisione di persone
+
 	Per la traduzione in Tedesco:
 	- [provincia bolzano](http://www.provinz.bz.it/de/default.asp)
 
 ----
-	
+
 ### query SPARQL
-	
+
 Il file `transparency-titulus.csv.sparql` allegato, contiene la query SPARQL utilizzata per produrre il file CSV, e può essere utilizzata come esempio per successive query mirate (ad esempio per produrre dei CSV contenenti solo una lingua specifica).
 La versione XLSX è derivata dalla versione CSV, ed entrambe propongono un sottoinsieme dei dati ritenuti di interesse: l'insieme completo dei dati è comunque disponibile in RDF.
 
-* * * 
+* * *
 
 ### preview
 
@@ -126,7 +127,7 @@ La versione XLSX è derivata dalla versione CSV, ed entrambe propongono un sotto
 	- `19.01` Strutture sanitarie private accreditate
 + `20` Interventi straordinari e di emergenza
 	- `20.01` Interventi straordinari e di emergenza
-+ `21` Altri contenuti	
++ `21` Altri contenuti
 	- `21.01` Prevenzione della Corruzione
 	- `21.02` Accesso civico
 	- `21.03` Accessibilità e Catalogo dei dati, metadati e banche dati

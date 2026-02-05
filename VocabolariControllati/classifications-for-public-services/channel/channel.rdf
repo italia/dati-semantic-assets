@@ -1,857 +1,743 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:cpsvapit="https://w3id.org/italia/onto/CPSV/"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/022"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/021"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/025"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>02</skos:notation>
-    <skos:prefLabel xml:lang="it">Applicativo</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/023"/>
-    <dct:identifier>02</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/024"/>
-    <skos:prefLabel xml:lang="de">Softwareapplikation</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/1"/>
-    <skos:prefLabel xml:lang="en">Application</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel">
-    <rdfs:label xml:lang="it">Vocabolario controllato dei canali di erogazione dei servizi</rdfs:label>
-    <owl:versionInfo xml:lang="it">versione 0.2 - in questa versione i seguenti cambiamenti anche negli URI sono stati apportati: 1) 'sito web' è stato trasformato in 'applicativo' , 2) 'app mobile' è stata inserita come voce dell'1applicativo' ed sono state inserite due nuove voci 'applicazione web' e 'applicazione desktop' 3) gli URI di tutti gli elementi del canale 'Altro telemantico' sono stati modificati per riflettere lo spostamento di 'app mobile' in altra voce del vocabolario controllato</owl:versionInfo>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Channel_RDF_Turtle"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Channel_CSV"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dcat:keyword xml:lang="it">pagopa</dcat:keyword>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <rdfs:label xml:lang="en">Controlled Vocabulary of the Channels for Public Services</rdfs:label>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
+    <dct:title xml:lang="en">Controlled Vocabulary of the Channels for Public Services</dct:title>
+    <dct:title xml:lang="it">Vocabolario controllato dei canali di erogazione dei servizi</dct:title>
     <dct:description xml:lang="en">Controlled Vocabulary on the classification of channels for public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
-    <dcat:keyword xml:lang="en">pagopa</dcat:keyword>
+    <dct:description xml:lang="it">Vocabolario controllato della classificazione dei canali di erogazione per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+    <rdfs:comment xml:lang="en">Controlled Vocabulary on the classification of channels for public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
+    <rdfs:comment xml:lang="it">Vocabolario controllato della classificazione dei canali di erogazione per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
+    <rdfs:label xml:lang="en">Controlled Vocabulary of the Channels for Public Services</rdfs:label>
+    <rdfs:label xml:lang="it">Vocabolario controllato dei canali di erogazione dei servizi</rdfs:label>
+    <xkos:numberOfLevels>3</xkos:numberOfLevels>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
+    <dct:identifier>agid:D.5</dct:identifier>
+    <ndc:keyConcept>channel</ndc:keyConcept>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:keyword xml:lang="it">canale erogazione</dcat:keyword>
+    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="it">pagopa</dcat:keyword>
     <dcat:keyword xml:lang="it">posta</dcat:keyword>
     <dcat:keyword xml:lang="it">email</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dct:identifier>agid:D.5</dct:identifier>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Channel_XLSX"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="en">email</dcat:keyword>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Channel_JSON_LD"/>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <dcat:keyword xml:lang="en">channel</dcat:keyword>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <xkos:numberOfLevels>3</xkos:numberOfLevels>
-    <dcat:keyword xml:lang="it">canale erogazione</dcat:keyword>
     <dcat:keyword xml:lang="it">sportello pa</dcat:keyword>
-    <dct:title xml:lang="it">Vocabolario controllato dei canali di erogazione dei servizi</dct:title>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdfs:comment xml:lang="en">Controlled Vocabulary on the classification of channels for public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
     <dcat:keyword xml:lang="it">sito web</dcat:keyword>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:title xml:lang="en">Controlled Vocabulary of the Channels for Public Services</dct:title>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Channel_RDF_XML"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
-    <dcat:keyword xml:lang="en">web site</dcat:keyword>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="en">mail service</dcat:keyword>
+    <dcat:keyword xml:lang="en">channel</dcat:keyword>
     <dcat:keyword xml:lang="en">public service</dcat:keyword>
-    <rdfs:comment xml:lang="it">Vocabolario controllato della classificazione dei canali di erogazione per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
-    <dct:description xml:lang="it">Vocabolario controllato della classificazione dei canali di erogazione per i servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="en">pagopa</dcat:keyword>
+    <dcat:keyword xml:lang="en">mail service</dcat:keyword>
+    <dcat:keyword xml:lang="en">email</dcat:keyword>
     <dcat:keyword xml:lang="en">information desk</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
+    <dcat:keyword xml:lang="en">web site</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle canali erogazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution channels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel/channel.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML canali erogazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution channels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel/channel.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD canali erogazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution channels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel/channel.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_CSV">
+        <dct:title xml:lang="it">Distribuzione CSV canali erogazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">CSV distribution channels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel/channel.csv"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX canali erogazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">XLSX distribution channels for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel/channel.xlsx"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/channel"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:notation>01</skos:notation>
+        <dct:identifier>01</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0111"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0112"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0113"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0121"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0122"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0123"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0124"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0125"/>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/5"/>
+        <skos:prefLabel xml:lang="it">Non Telematico</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nicht Telematisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Non-electronic</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:notation>02</skos:notation>
+        <dct:identifier>02</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/021"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/022"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/023"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/024"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/025"/>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/1"/>
+        <skos:prefLabel xml:lang="it">Applicativo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Softwareapplikation</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Application</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:notation>03</skos:notation>
+        <dct:identifier>03</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033"/>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/2"/>
+        <skos:prefLabel xml:lang="it">Telefono</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Telefon</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Telephone</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042"/>
+        <skos:notation>04</skos:notation>
+        <dct:identifier>04</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/10"/>
+        <skos:prefLabel xml:lang="it">Email</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">E-Mail</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Email</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:notation>05</skos:notation>
+        <dct:identifier>05</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/051"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/052"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/053"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0541"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0542"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0543"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555"/>
+        <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556"/>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/4"/>
+        <skos:prefLabel xml:lang="it">Altro telematico</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sonstige Telematik</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other electronic</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-19</dct:modified>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_CSV">
-    <dct:title xml:lang="en">CSV distribution channels for public services</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel/channel.csv"/>
-    <dct:title xml:lang="it">Distribuzione CSV canali erogazione servizi pubblici</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0123">
+    <owl:versionInfo xml:lang="it">versione 0.2 - in questa versione i seguenti cambiamenti anche negli URI sono stati apportati: 1) 'sito web' è stato trasformato in 'applicativo' , 2) 'app mobile' è stata inserita come voce dell'1applicativo' ed sono state inserite due nuove voci 'applicazione web' e 'applicazione desktop' 3) gli URI di tutti gli elementi del canale 'Altro telemantico' sono stati modificati per riflettere lo spostamento di 'app mobile' in altra voce del vocabolario controllato</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>01.2.3</skos:notation>
-    <skos:prefLabel xml:lang="it">GDO - Grande Distribuzione Organizzata</skos:prefLabel>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="de">Organisierter Großvertrieb</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>01.2.3</dct:identifier>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <skos:prefLabel xml:lang="en">Large scale distribution</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <dct:identifier>SKOS</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0542">
-    <skos:prefLabel xml:lang="de">Vorautorisierte Zahlung</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556"/>
+        <skos:notation>05.5</skos:notation>
+        <dct:identifier>05.5</dct:identifier>
+        <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/24"/>
+        <skos:prefLabel xml:lang="it">Pagamenti bancari automatici</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Automatische Banküberweisungen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Automated bank payment</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:prefLabel xml:lang="en">Pre-authorised payment</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Incasso preautorizzato</skos:prefLabel>
+    <skos:notation>05.5.4</skos:notation>
+    <dct:identifier>05.5.4</dct:identifier>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:definition xml:lang="en">Post-poned payment with respect to the provision of the service by the PA through its portal</skos:definition>
+    <skos:prefLabel xml:lang="it">MAV/RAV</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zahlung gegen Mahnung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Payment against notice</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/024">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:notation>05.4.2</skos:notation>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
-    <dct:identifier>05.4.2</dct:identifier>
-    <skos:definition xml:lang="it">Pagamento differito rispetto all’erogazione del servizio da parte della PA tramite il suo portale</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05">
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0541"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/053"/>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/4"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0542"/>
-    <skos:prefLabel xml:lang="en">Other electronic</skos:prefLabel>
-    <skos:notation>05</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-    <skos:prefLabel xml:lang="it">Altro telematico</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/052"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0543"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/051"/>
-    <skos:prefLabel xml:lang="de">Sonstige Telematik</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <dct:identifier>05</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0122"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0123"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0121"/>
-    <skos:prefLabel xml:lang="de">Nicht telematisch mit Vermittler</skos:prefLabel>
-    <skos:notation>01.2</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0124"/>
-    <dct:identifier>01.2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Non telematico con intermediario</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0125"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
+    <skos:notation>02.4</skos:notation>
+    <dct:identifier>02.4</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Direct non-electronic with mediator</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Applicazione Desktop</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Desktop-Applikation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Desktop Application</skos:prefLabel>
+    <skos:definition xml:lang="en">Any software application that can be installed on a computer</skos:definition>
+    <skos:definition xml:lang="it">Qualsiasi applicazione software che può essere installata su un computer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Certified Electronic Mail</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="de">Zertifizierte elektronische Post - PEC</skos:prefLabel>
-    <skos:notation>04.1</skos:notation>
-    <dct:identifier>04.1</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="it">Posta Elettronica Certificata - PEC</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04">
-    <skos:prefLabel xml:lang="en">Email</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/10"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:notation>04</skos:notation>
-    <skos:prefLabel xml:lang="it">Email</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="de">E-Mail</skos:prefLabel>
-    <dct:identifier>04</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0543">
-    <skos:definition xml:lang="en">Payment executed through the channel of the Service Payment Provider</skos:definition>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="it">Pagamento attivo presso PSP - Prestatore di Servizio di Pagamento</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <dct:identifier>05.4.3</dct:identifier>
-    <skos:definition xml:lang="it">Pagamento eseguito tramite il canale del prestatore del servizio di pagamento prescelto</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Payment carried out through Service Payment Provider</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:notation>05.4.3</skos:notation>
-    <skos:prefLabel xml:lang="de">Zahlung erfolgt über Service Payment Provider</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055">
-    <skos:prefLabel xml:lang="it">Pagamenti bancari automatici</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/24"/>
-    <skos:prefLabel xml:lang="en">Automated bank payment</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Automatische Banküberweisungen</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553"/>
-    <skos:notation>05.5</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <dct:identifier>05.5</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>04.2</skos:notation>
+    <dct:identifier>04.2</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/10"/>
+    <skos:prefLabel xml:lang="it">Email tradizionale</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">E-Mail</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">E-mail</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Ordine permanente</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0541">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+        <skos:notation>05.4.1</skos:notation>
+        <dct:identifier>05.4.1</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Pagamento in tempo reale</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Echtzeit-Zahlung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Real time payment</skos:prefLabel>
+        <skos:definition xml:lang="it">Pagamento contestuale all’erogazione del servizio da parte della PA tramite il suo portale</skos:definition>
+        <skos:definition xml:lang="en">Payment immediately executed when the service is used through the PA portal</skos:definition>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0542">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+        <skos:notation>05.4.2</skos:notation>
+        <dct:identifier>05.4.2</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Incasso preautorizzato</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Vorautorisierte Zahlung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pre-authorised payment</skos:prefLabel>
+        <skos:definition xml:lang="it">Pagamento differito rispetto all’erogazione del servizio da parte della PA tramite il suo portale</skos:definition>
+        <skos:definition xml:lang="en">Post-poned payment with respect to the provision of the service by the PA through its portal</skos:definition>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0543">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+        <skos:notation>05.4.3</skos:notation>
+        <dct:identifier>05.4.3</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Pagamento attivo presso PSP - Prestatore di Servizio di Pagamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zahlung erfolgt über Service Payment Provider</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Payment carried out through Service Payment Provider</skos:prefLabel>
+        <skos:definition xml:lang="it">Pagamento eseguito tramite il canale del prestatore del servizio di pagamento prescelto</skos:definition>
+        <skos:definition xml:lang="en">Payment executed through the channel of the Service Payment Provider</skos:definition>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:notation>05.4</skos:notation>
+    <dct:identifier>05.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Piattaforma PAGOPA</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">PagoPA-Plattform</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italian National Payment Platform PAGOPA</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0551">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <dct:identifier>05.5.1</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:notation>05.5.1</skos:notation>
+    <dct:identifier>05.5.1</dct:identifier>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/30"/>
+    <skos:prefLabel xml:lang="it">Ordine permanente</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Dauerauftrag</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Standing order</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/30"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0125">
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Other mediator</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:notation>01.2.5</skos:notation>
-    <skos:prefLabel xml:lang="de">Sonstiger Vermittler</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <skos:prefLabel xml:lang="it">Altro intermediario</skos:prefLabel>
-    <dct:identifier>01.2.5</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01">
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0112"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0113"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
-    <skos:notation>01</skos:notation>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0123"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0122"/>
-    <skos:prefLabel xml:lang="en">Non-electronic</skos:prefLabel>
-    <dct:identifier>01</dct:identifier>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0121"/>
-    <skos:prefLabel xml:lang="de">Nicht Telematisch</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Non Telematico</skos:prefLabel>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0124"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0125"/>
-    <skos:narrowerTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0111"/>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/5"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0554">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <dct:identifier>05.5.4</dct:identifier>
-    <skos:prefLabel xml:lang="it">MAV/RAV</skos:prefLabel>
-    <skos:notation>05.5.4</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:prefLabel xml:lang="de">Zahlung gegen Mahnung</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Payment against notice</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0121">
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/9"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Post</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <dct:identifier>01.2.1</dct:identifier>
-    <skos:prefLabel xml:lang="en">Post</skos:prefLabel>
-    <skos:notation>01.2.1</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <skos:prefLabel xml:lang="it">Posta</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032"/>
-    <dct:identifier>03</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="en">Telephone</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Telefono</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Telefon</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/2"/>
-    <skos:notation>03</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_JSON_LD">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel/channel.jsonld"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
-    <dct:title xml:lang="it">Distribuzione JSON_LD canali erogazione servizi pubblici</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">JSON_LD distribution channels for public services</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/022">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:notation>02.2</skos:notation>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+    <skos:notation>01.2</skos:notation>
+    <dct:identifier>01.2</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0121">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.2.1</skos:notation>
+        <dct:identifier>01.2.1</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/9"/>
+        <skos:prefLabel xml:lang="it">Posta</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Post</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0122">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.2.2</skos:notation>
+        <dct:identifier>01.2.2</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Tabaccaio - Ricevitoria</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tabakladen - Abendkasse</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Tobacco shop - box office</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0123">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.2.3</skos:notation>
+        <dct:identifier>01.2.3</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">GDO - Grande Distribuzione Organizzata</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Organisierter Großvertrieb</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Large scale distribution</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0124">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.2.4</skos:notation>
+        <dct:identifier>01.2.4</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">CAF/Patronato</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Assistenzzentrum</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Assistance Centre</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0125">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.2.5</skos:notation>
+        <dct:identifier>01.2.5</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Altro intermediario</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sonstiger Vermittler</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other mediator</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="it">Non telematico con intermediario</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nicht telematisch mit Vermittler</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Direct non-electronic with mediator</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/025">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="de">Vorkompiliertes Online-Modul</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>02.2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Applicazione con modulo precompilato</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Softwareapplikation mit vorkompiliertes Modul</skos:prefLabel>
-    <skos:definition xml:lang="en">Software application including an online module where at least one field is already filled in automatically without the need for the user to insert any value</skos:definition>
-    <skos:definition xml:lang="it">Applicazione software che include un modulo online che ha almeno un campo già compilato automaticamente, senza la necessità per l'utente di inserire un valore</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0124">
-    <skos:prefLabel xml:lang="en">Assistance Centre</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>01.2.4</skos:notation>
-    <skos:prefLabel xml:lang="de">Assistenzzentrum</skos:prefLabel>
-    <dct:identifier>01.2.4</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">CAF/Patronato</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/053">
-    <skos:prefLabel xml:lang="en">Video conferencing</skos:prefLabel>
-    <skos:notation>05.3</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/14"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <dct:identifier>05.3</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Video conferenza</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="de">Videokonferenz</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032">
-    <dct:identifier>03.2</dct:identifier>
-    <skos:prefLabel xml:lang="en">Call center</skos:prefLabel>
-    <skos:notation>03.2</skos:notation>
-    <skos:prefLabel xml:lang="de">Call Center</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Call center</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/15"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/052">
-    <skos:notation>05.2</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="it">Totem</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="de">Totem</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>05.2</dct:identifier>
-    <skos:prefLabel xml:lang="en">Computer kiosk</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/021">
-    <dct:identifier>02.1</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Applicazione con compilazione modulo libero</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Softwareapplikation mit formular nicht ausgefüllt</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Applicazione software che prevede la compilazione di un modulo online dove tutti i campi devono essere riempiti dall'utente. Nessun valore predefinito è disponibile.</skos:definition>
-    <skos:notation>02.1</skos:notation>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/19"/>
-    <skos:prefLabel xml:lang="en">Software application with free form</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:definition xml:lang="en">Software application where an online form is available and all the fields of the online form must be filled in by the user. No predefined value is available.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/023">
-    <skos:prefLabel xml:lang="en">Web Application</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:definition xml:lang="en">Any software application usable via web protocols</skos:definition>
-    <dct:identifier>02.3</dct:identifier>
-    <skos:definition xml:lang="it">Qualsiasi applicazione usabile attraverso protocolli web.</skos:definition>
-    <skos:prefLabel xml:lang="it">Applicazione Web</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
-    <skos:prefLabel xml:lang="de">Web-Applikation</skos:prefLabel>
-    <skos:notation>02.3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/024">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:notation>02.4</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:definition xml:lang="en">Any software application that can be installed on a computer</skos:definition>
-    <skos:prefLabel xml:lang="de">Desktop-Applikation</skos:prefLabel>
-    <skos:definition xml:lang="it">Qualsiasi applicazione software che può essere installata su un computer.</skos:definition>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>02.4</dct:identifier>
-    <skos:prefLabel xml:lang="it">Applicazione Desktop</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Desktop Application</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/025">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
     <skos:notation>02.5</skos:notation>
+    <dct:identifier>02.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">App mobile</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Mobile Anwendung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Mobile app</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>02.5</dct:identifier>
-    <skos:prefLabel xml:lang="it">App mobile</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
     <skos:definition xml:lang="en">Any software application that is installed on a mobile device</skos:definition>
     <skos:definition xml:lang="it">Qualsiasi applicazione software che può essere installata su un dispositivo mobile.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/051">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0541">
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">Payment immediately executed when the service is used through the PA portal</skos:definition>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054"/>
-    <skos:prefLabel xml:lang="en">Real time payment</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:notation>05.4.1</skos:notation>
-    <dct:identifier>05.4.1</dct:identifier>
-    <skos:prefLabel xml:lang="it">Pagamento in tempo reale</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Echtzeit-Zahlung</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Pagamento contestuale all’erogazione del servizio da parte della PA tramite il suo portale</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553">
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Banküberweisung</skos:prefLabel>
-    <skos:notation>05.5.3</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="en">Bank transfer</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Bonifico</skos:prefLabel>
-    <dct:identifier>05.5.3</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/051">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="de">TV auf Abruf</skos:prefLabel>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:notation>05.1</skos:notation>
     <dct:identifier>05.1</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>05.1</skos:notation>
     <skos:prefLabel xml:lang="it">TV on demand</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">TV auf Abruf</skos:prefLabel>
     <skos:prefLabel xml:lang="en">TV on demand</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555">
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="en">Payment form F24</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0111">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.1.1</skos:notation>
+        <dct:identifier>01.1.1</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Sportello Pubblica Amministrazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Informationsstelle der öffentlichen Verwaltung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Public Administration information desk</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0112">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.1.2</skos:notation>
+        <dct:identifier>01.1.2</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Domicilio del cittadino</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wohnsitz des Bürgers</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Citizen residence</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0113">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+        <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
+        <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+        <skos:notation>01.1.3</skos:notation>
+        <dct:identifier>01.1.3</dct:identifier>
+        <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Cassa automatica</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Automatische Kasse</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Payment machine</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:notation>01.1</skos:notation>
+    <dct:identifier>01.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Non telematico diretto</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nicht-direkte Telematik</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Direct non-electronic</skos:prefLabel>
+    <skos:definition xml:lang="it">Vi è un contatto diretto face-to-face tra utente finale e PA</skos:definition>
+    <skos:definition xml:lang="en">There is a direct face-to-face contact between the end-user and the PA</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/032">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
+    <skos:notation>03.2</skos:notation>
+    <dct:identifier>03.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/15"/>
+    <skos:prefLabel xml:lang="it">Call center</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Call Center</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Call center</skos:prefLabel>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
+    <skos:notation>03.1</skos:notation>
+    <dct:identifier>03.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/17"/>
+    <skos:prefLabel xml:lang="it">Numero dedicato - Voce</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dedizierte Nummer/Stimme</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Voice</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/053">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+    <skos:notation>05.3</skos:notation>
+    <dct:identifier>05.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/14"/>
+    <skos:prefLabel xml:lang="it">Video conferenza</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Videokonferenz</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Video conferencing</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/041">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04"/>
+    <skos:notation>04.1</skos:notation>
+    <dct:identifier>04.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Posta Elettronica Certificata - PEC</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zertifizierte elektronische Post - PEC</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Certified Electronic Mail</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0553">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-    <skos:notation>05.5.5</skos:notation>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <dct:identifier>05.5.5</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">F24</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Modello F24</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0111">
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:notation>01.1.1</skos:notation>
-    <skos:prefLabel xml:lang="de">Informationsstelle der öffentlichen Verwaltung</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
-    <dct:identifier>01.1.1</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Sportello Pubblica Amministrazione</skos:prefLabel>
+    <skos:notation>05.5.3</skos:notation>
+    <dct:identifier>05.5.3</dct:identifier>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Bonifico</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Banküberweisung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bank transfer</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="en">Public Administration information desk</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0122">
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/012"/>
-    <skos:prefLabel xml:lang="en">Tobacco shop - box office</skos:prefLabel>
-    <skos:notation>01.2.2</skos:notation>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <dct:identifier>01.2.2</dct:identifier>
-    <skos:prefLabel xml:lang="de">Tabakladen - Abendkasse</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Tabaccaio - Ricevitoria</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0556">
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+    <skos:notation>05.5.6</skos:notation>
     <dct:identifier>05.5.6</dct:identifier>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:prefLabel xml:lang="it">Modello F23</skos:prefLabel>
     <skos:prefLabel xml:lang="de">F23</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Payment form F23</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:notation>05.5.6</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0112">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>01.1.2</dct:identifier>
-    <skos:prefLabel xml:lang="en">Citizen residence</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="it">Domicilio del cittadino</skos:prefLabel>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:notation>01.1.2</skos:notation>
-    <skos:prefLabel xml:lang="de">Wohnsitz des Bürgers</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011">
-    <skos:prefLabel xml:lang="en">Direct non-electronic</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
-    <skos:prefLabel xml:lang="it">Non telematico diretto</skos:prefLabel>
-    <skos:definition xml:lang="en">There is a direct face-to-face contact between the end-user and the PA</skos:definition>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0112"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>01.1</dct:identifier>
-    <skos:definition xml:lang="it">Vi è un contatto diretto face-to-face tra utente finale e PA</skos:definition>
-    <skos:notation>01.1</skos:notation>
-    <skos:prefLabel xml:lang="de">Nicht-direkte Telematik</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0111"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0113"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/042">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/04"/>
-    <skos:prefLabel xml:lang="it">Email tradizionale</skos:prefLabel>
-    <dct:identifier>04.2</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <skos:prefLabel xml:lang="en">E-mail</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/10"/>
-    <skos:notation>04.2</skos:notation>
-    <skos:prefLabel xml:lang="de">E-Mail</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/054">
-    <skos:notation>05.4</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0543"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <skos:prefLabel xml:lang="de">PagoPA-Plattform</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0542"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0541"/>
-    <skos:prefLabel xml:lang="en">Italian National Payment Platform PAGOPA</skos:prefLabel>
-    <dct:identifier>05.4</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:prefLabel xml:lang="it">Piattaforma PAGOPA</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/033">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <dct:identifier>03.3</dct:identifier>
-    <skos:prefLabel xml:lang="it">Fax</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>03.3</skos:notation>
-    <skos:prefLabel xml:lang="de">Fax</skos:prefLabel>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
+    <skos:notation>03.3</skos:notation>
+    <dct:identifier>03.3</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
     <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/16"/>
+    <skos:prefLabel xml:lang="it">Fax</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Fax</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Fax</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/031">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:notation>03.1</skos:notation>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/17"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/021">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
+    <skos:notation>02.1</skos:notation>
+    <dct:identifier>02.1</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Numero dedicato - Voce</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Dedizierte Nummer/Stimme</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/03"/>
-    <dct:identifier>03.1</dct:identifier>
-    <skos:prefLabel xml:lang="en">Voice</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_XLSX">
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:title xml:lang="en">XLSX distribution channels for public services</dct:title>
-    <dct:title xml:lang="it">Distribuzione XLSX canali erogazione servizi pubblici</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel/channel.xlsx"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552">
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/19"/>
+    <skos:prefLabel xml:lang="it">Applicazione con compilazione modulo libero</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Softwareapplikation mit formular nicht ausgefüllt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Software application with free form</skos:prefLabel>
+    <skos:definition xml:lang="en">Software application where an online form is available and all the fields of the online form must be filled in by the user. No predefined value is available.</skos:definition>
+    <skos:definition xml:lang="it">Applicazione software che prevede la compilazione di un modulo online dove tutti i campi devono essere riempiti dall'utente. Nessun valore predefinito è disponibile.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/022">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:notation>05.5.2</skos:notation>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
+    <skos:notation>02.2</skos:notation>
+    <dct:identifier>02.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Applicazione con modulo precompilato</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Vorkompiliertes Online-Modul</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Softwareapplikation mit vorkompiliertes Modul</skos:prefLabel>
+    <skos:definition xml:lang="en">Software application including an online module where at least one field is already filled in automatically without the need for the user to insert any value</skos:definition>
+    <skos:definition xml:lang="it">Applicazione software che include un modulo online che ha almeno un campo già compilato automaticamente, senza la necessità per l'utente di inserire un valore</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0552">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
-    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:notation>05.5.2</skos:notation>
     <dct:identifier>05.5.2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Addebito diretto - SEPA</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/28"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Direct debit</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Direktabbuchung</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_RDF_XML">
-    <dct:title xml:lang="en">RDF/XML distribution channels for public services</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML canali erogazione servizi pubblici</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel/channel.rdf"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Channel_RDF_Turtle">
-    <dct:title xml:lang="en">RDF/Turtle distribution channels for public services</dct:title>
-    <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the channels for public services</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei canali di erogazione per i servizi pubblici</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel/channel.ttl"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle canali erogazione servizi pubblici</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/channel"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>agid</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0113">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Cassa automatica</skos:prefLabel>
-    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/01"/>
+    <skos:exactMatch rdf:resource="http://id.esd.org.uk/channel/28"/>
+    <skos:prefLabel xml:lang="it">Addebito diretto - SEPA</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Direktabbuchung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Direct debit</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/052">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
-    <skos:notation>01.1.3</skos:notation>
-    <skos:prefLabel xml:lang="en">Payment machine</skos:prefLabel>
-    <dct:identifier>01.1.3</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Automatische Kasse</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/011"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPSV/Channel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+    <skos:notation>05.2</skos:notation>
+    <dct:identifier>05.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Totem</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Totem</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Computer kiosk</skos:prefLabel>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/023">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/02"/>
+    <skos:notation>02.3</skos:notation>
+    <dct:identifier>02.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Applicazione Web</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Web-Applikation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Web Application</skos:prefLabel>
+    <skos:definition xml:lang="en">Any software application usable via web protocols</skos:definition>
+    <skos:definition xml:lang="it">Qualsiasi applicazione usabile attraverso protocolli web.</skos:definition>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/0555">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Channel"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/055"/>
+    <skos:broaderTransitive rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/channel/05"/>
+    <skos:notation>05.5.5</skos:notation>
+    <dct:identifier>05.5.5</dct:identifier>
+    <clvapit:hasRankOrder>3</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Modello F24</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">F24</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Payment form F24</skos:prefLabel>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/CPSV/Channel"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

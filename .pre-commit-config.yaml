@@ -1,0 +1,75 @@
+#
+# Run pre-commit hooks. You can run them without installing
+#  the hook with
+#
+# $ pre-commit run --all-files
+#
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    # -   id: trailing-whitespace
+    # -   id: end-of-file-fixer
+    -   id: check-yaml
+        args: [--allow-multiple-documents]
+    -   id: check-added-large-files
+        args:
+        - "--maxkb=4000"
+- repo: https://github.com/myint/autoflake
+  rev: v2.3.1
+  hooks:
+    - id: autoflake
+      args:
+        - --in-place
+        - --remove-unused-variables
+        - --remove-all-unused-imports
+-   repo: https://github.com/psf/black
+    rev: 24.10.0
+    hooks:
+    -   id: black
+- repo: https://github.com/pycqa/isort
+  rev: 5.13.2
+  hooks:
+    - id: isort
+      name: isort (python)
+      # Use black profile for isort to avoid conflicts
+      #   see https://github.com/PyCQA/isort/issues/1518
+      args: ["--profile", "black"]
+    - id: isort
+      name: isort (cython)
+      types: [cython]
+    - id: isort
+      name: isort (pyi)
+      types: [pyi]
+- repo: https://github.com/PyCQA/flake8
+  rev: 7.1.1
+  hooks:
+  - id: flake8
+- repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+  rev: v1.3.3
+  hooks:
+    - id: python-safety-dependencies-check
+- repo: https://github.com/teamdigitale/json-semantic-playground.git
+  rev: 30fef4df
+  hooks:
+  -   id: validate-csv
+      files: >-
+        ^VocabolariControllati/.*\.csv
+      exclude: >-
+        ^.*(scriptR2RML|vocs-deprecated).*
+  -   id: validate-directory-versioning
+      files: >-
+        ^Ontologie/.*/latest/.*\.ttl
+  -   id: validate-turtle
+      name: validate-turtle-ontologies
+      files: >-
+        ^Ontologie/.*/latest/.*\.ttl
+  -   id: validate-turtle
+      name: validate-turtle-vocabularies
+      files: >-
+        ^VocabolariControllati/.*\.ttl
+      exclude: >-
+        ^.*(scriptR2RML|vocs-deprecated).*
+  -   id: validate-oas-schema

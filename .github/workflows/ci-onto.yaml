@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ "master" ]
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.rdf"
+      - "**/*.jsonld"
+  pull_request:
+    branches: [ "master" ]
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.rdf"
+      - "**/*.jsonld"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  test-onto-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+      - name: Run a script
+        run: |-
+          pip install pre-commit
+          pre-commit run -a validate-turtle
+  test-onto-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+      - name: Run a script
+        run: |-
+          pip install pre-commit
+          pre-commit run -a validate-directory-versioning

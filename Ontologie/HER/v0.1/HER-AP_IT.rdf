@@ -5929,8 +5929,8 @@ https://docs.google.com/spreadsheets/d/1antNaO_MLT4Ft4LaYHaK-dDeDAyGhTtz3LqvuMzN
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione JSON-LD ontologia PublicReseach-AP_IT</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of PublicReseach-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.jsonld"/>
     </owl:NamedIndividual>
     
 
@@ -5945,8 +5945,8 @@ https://docs.google.com/spreadsheets/d/1antNaO_MLT4Ft4LaYHaK-dDeDAyGhTtz3LqvuMzN
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia PublicReseach-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of PublicReseach-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.ttl"/>
     </owl:NamedIndividual>
     
 
@@ -5961,8 +5961,8 @@ https://docs.google.com/spreadsheets/d/1antNaO_MLT4Ft4LaYHaK-dDeDAyGhTtz3LqvuMzN
         <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML ontologia PublicReseach-AP_IT</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of PublicReseach-AP_IT Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/HER/latest/HER-AP_IT.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/HER/latest/HER-AP_IT.rdf"/>
     </owl:NamedIndividual>
     
 

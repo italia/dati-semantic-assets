@@ -1,4 +1,3 @@
-Column 1,Column 2,Column 3,Column 4,Column 5
 codice_1_livello,label_ITA_1_livello,label_ENG_1_livello,definizione_ITA,definizione_ENG
 0.0,Metropolitana leggera-Tram,Light rail-tram,Qualsiasi sistema di metropolitana leggera o di livello stradale all'interno di un'area metropolitana.,Any light rail or street level system within a metropolitan area.
 1.0,Metropolitana,Metro-Subway,Qualsiasi sistema ferroviario sotterraneo all'interno di un'area metropolitana.,Any underground rail system within a metropolitan area.

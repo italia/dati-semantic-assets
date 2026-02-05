@@ -1,0 +1,400 @@
+@prefix l0: <https://w3id.org/italia/onto/l0/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix tiapit: <https://w3id.org/italia/onto/TI/> .
+@prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/accrualPeriodicity
+dct:accrualPeriodicity rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/conformsTo
+dct:conformsTo rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dct:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dct:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+dct:language rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dct:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+dct:rightsHolder rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dct:type rdf:type owl:AnnotationProperty .
+
+
+###  http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels
+<http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+skos:hasTopConcept rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+skos:inScheme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#notation
+skos:notation rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/adms#representationTechnique
+<http://www.w3.org/ns/adms#representationTechnique> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#contactPoint
+dcat:contactPoint rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#keyword
+dcat:keyword rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/NDC/keyConcept
+<https://w3id.org/italia/onto/NDC/keyConcept> rdf:type owl:AnnotationProperty .
+
+###  https://w3id.org/italia/onto/CLV/hasRankOrder
+clvapit:hasRankOrder rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dati.gov.it/onto/dcatapit#Dataset
+<http://dati.gov.it/onto/dcatapit#Dataset> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+skos:ConceptScheme rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/adms#Asset
+<http://www.w3.org/ns/adms#Asset> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation
+<https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> rdf:type owl:Class .
+
+###  http://dati.gov.it/onto/dcatapit#Agent
+dcatapit:Agent rdf:type owl:Class .
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> 
+			 rdf:type skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
+			dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;  
+			dct:conformsTo <http://dati.gov.it/data/resource/Standard/SKOS> ;  
+			dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ,
+                        <https://w3id.org/italia/data/public-organization/m_it> ; 
+			dct:description "Questo è il vocabolario controllato sulle tipologie di motivi di cancellazione in anagrafe."@it ,                                                                                                                   
+							"This is the Registry Office Removal Motivations controlled vocabulary."@en ;
+			dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types" ;
+			dct:issued "2022-12-15"^^xsd:date ;
+			dct:modified "2023-07-15"^^xsd:date ;
+			dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+			dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+			dct:rightsHolder <https://w3id.org/italia/data/public-organization/m_it> ;
+			dct:title "Registry Office Removal Motivations Controlled Vocabulary"@en ,
+					  "Vocabolario Controllato Motivi Cancellazione in Anagrafe"@it ;
+			dct:type <http://purl.org/adms/assettype/CodeList> ;
+			xkos:numberOfLevels "1" ;
+			rdfs:comment "Questo è il vocabolario controllato sulle tipologie di motivi di cancellazione in anagrafe."@it ;
+			rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+			rdfs:label "Registry Office Removal Motivations Controlled Vocabulary"@en ,
+					   "Vocabolario Controllato Motivi Cancellazione in Anagrafe"@it ;
+		   owl:versionInfo "First version."@en ,
+						   "Prima versione."@it ;    
+           admsapit:acronym "ROReM" ;						   
+									 
+skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8> ,
+			<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9> ;
+<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/adms/representationtechnique/SKOS> ;
+dcat:contactPoint <https://schema.gov.it/lodview/data/contact-point/ISTAT-NDC> ;
+dcat:distribution <https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle>, <https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML>, <https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV> ;
+dcat:keyword "Motivo cancellazione dall anagrafe"@it ;
+dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+<https://w3id.org/italia/onto/NDC/keyConcept> "registry-office-removal-types" .
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle
+<https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato dei motivi di cancellazione anagrafica"@it ,
+                                                                               "This is the distribution in RDF/turtle of the controlled vocabolary of the registry office removal motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
+                                                                         "RDF/Turtle distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML
+<https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione RDF/XML del vocabolario controllato dei motivi di cancellazione anagrafica"@it ,
+                                                                               "This is the distribution in RDF/XML of the controlled vocabolary of the registry office removal motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione RDF/XML del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
+                                                                         "RDF/XML distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV
+<https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione CSV del vocabolario controllato dei motivi di cancellazione anagrafica"@it ,
+                                                                               "This is the distribution in CSV of the controlled vocabolary of the registry office removal motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione CSV del Vocabolario Controllato Motivi Cancellazione in Anagrafe "@it ,
+                                                                         "CSV distribution of Registry Office Removal Motivations Controlled Vocabulary"@en ;
+																dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv> ;
+																dcat:accessURL    <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types> .	
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "1" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "1" ;
+                                                                                                           skos:prefLabel "Morte accertata"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "2" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "2" ;
+                                                                                                           skos:prefLabel "Morte presunta giudizialmente dichiarata"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+### https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3> rdf:type skos:Concept , 
+                   																									<https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+																									        dct:identifier  "3" ;
+																									        skos:inScheme   <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+																									        skos:notation   "3" ;
+																									        skos:prefLabel  "Trasferimento di residenza in comune non subentrato"@it ;
+																									        <italia/onto/CLV/hasRankOrder>  "1" ;
+																									        owl:deprecated "true"^^xsd:boolean.                                                                                                             
+
+### https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4> rdf:type skos:Concept ,  
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ; 
+																									        dct:identifier  "4" ;
+																									        skos:inScheme   <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+																									        skos:notation   "4" ;
+																									        skos:prefLabel  "Trasferimento di domicilio (senza fissa dimora)"@it ;
+																									        <italia/onto/CLV/hasRankOrder>  "1" ;
+																											owl:deprecated "true"^^xsd:boolean.  
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "5" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "5" ;
+                                                                                                           skos:prefLabel "Trasferimento di residenza all’estero di uno straniero"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "6" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "6" ;
+                                                                                                           skos:prefLabel "Irreperibilità"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "7" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "7" ;
+                                                                                                           skos:prefLabel "Mancato rinnovo dimora abituale/permesso di soggiorno"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+### https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8> rdf:type skos:Concept ,   
+																											        <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ; 
+																									        dct:identifier  "8" ;
+																									        skos:inScheme   <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+																									        skos:notation   "8" ;
+																									        skos:prefLabel  "Trasferimento di residenza (iscrizione AIRE)"@it ;
+																									        <italia/onto/CLV/hasRankOrder>  "1" ;
+																											owl:deprecated "true"^^xsd:boolean.  
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "9" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "9" ;
+                                                                                                           skos:prefLabel "Rettifiche post censuarie"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "10" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "10" ;
+                                                                                                           skos:prefLabel "Doppia iscrizione"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" ;
+																										   owl:deprecated "true"^^xsd:boolean.  
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11> rdf:type skos:Concept ,
+                                                                                                                     <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                            dct:identifier "11" ;
+                                                                                                            skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                            skos:notation "11" ;
+                                                                                                            skos:prefLabel "Perdita della cittadinanza italiana"@it ;
+                                                                                                            <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12> rdf:type skos:Concept ,
+                                                                                                                    <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                           dct:identifier "12" ;
+                                                                                                           skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                           skos:notation "12" ;
+                                                                                                           skos:prefLabel "Ripristino posizione precedente"@it ;
+                                                                                                           <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" ;
+																										   owl:deprecated "true"^^xsd:boolean.  
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13> rdf:type skos:Concept ,
+                                                                                                                     <https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation> ;
+                                                                                                            dct:identifier "13" ;
+                                                                                                            skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types> ;
+                                                                                                            skos:notation "13" ;
+                                                                                                            skos:prefLabel "Altro"@it ;
+                                                                                                            <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .                                                                                                           
+
+##<https://w3id.org/italia/data/public-organization/ISTAT>
+<https://w3id.org/italia/data/public-organization/ISTAT> rdf:type dcatapit:Agent ,
+		  foaf:Agent ;
+		 dct:identifier "ISTAT" ;
+		 foaf:name "Istituto Nazionale di Statistica - ISTAT"@it ,
+				   "Italian National Institute of Statistics - ISTAT"@en .
+
+##https://w3id.org/italia/data/public-organization/m_it
+<https://w3id.org/italia/data/public-organization/m_it> rdf:type  <http://dati.gov.it/onto/dcatapit#Agent> ,
+      foaf:Agent ;
+      dct:identifier "m_it" ;
+      foaf:name "Ministero dell'Interno - DAIT Direzione Centrale dei servizi demografici"@it,
+      "Ministry of the Interior - Central Directorate of Population Services"@en .
+	  
+
+###  https://w3id.org/italia/data/public-organization/PCM-1RSIZZ																		   
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> rdf:type owl:NamedIndividual ,
+      <http://dati.gov.it/onto/dcatapit#Agent> ,
+	  foaf:Agent ;
+      dct:identifier "PCM-1RSIZZ" ;
+      foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+	  "Digital Transformation Department of the Presidency of the Council of Ministers"@en .

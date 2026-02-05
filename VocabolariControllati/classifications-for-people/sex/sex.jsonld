@@ -1,711 +1,534 @@
 {
-  "@context": {
-    "adms": "http://www.w3.org/ns/adms#",
-    "clvapit": "https://w3id.org/italia/onto/CLV/",
-    "cpvapit": "https://w3id.org/italia/onto/CPV/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
-    "dct": "http://purl.org/dc/terms/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "dcatapit:Agent",
-      "@type": "rdfs:Class"
+  "@graph" : [ {
+    "@id" : "dcatapit:Agent",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dcatapit:Dataset",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dcatapit:Distribution",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dcatapit:Organization",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dcatapit:Standard",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dct:Standard",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "dct:accrualPeriodicity",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:conformsTo",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:creator",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:description",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:format",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:identifier",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:issued",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:language",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:license",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:modified",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:publisher",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:rightsHolder",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:subject",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:title",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dct:type",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "xkos:numberOfLevels",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "owl:versionInfo",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:Concept",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "skos:ConceptScheme",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "skos:broader",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:broaderTransitive",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:definition",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:inScheme",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:narrower",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:narrowerTransitive",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:notation",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "skos:prefLabel",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "vcard:Kind",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "vcard:Organization",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "vcard:fn",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "vcard:hasEmail",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "adms:representationTechnique",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:accessURL",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:contactPoint",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:distribution",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:downloadURL",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:keyword",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "dcat:theme",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "foaf:Agent",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "foaf:name",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex",
+    "@type" : [ "adms:Asset", "skos:ConceptScheme", "dcatapit:Dataset" ],
+    "accrualPeriodicity" : "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "conformsTo" : "https://w3id.org/italia/data/standard/SKOS",
+    "creator" : "https://w3id.org/italia/data/public-organization/ISTAT",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Questo è il vocabolario controllato sul sesso."
+    } ],
+    "identifier" : "ISTAT:D.1",
+    "issued" : "2018-01-16",
+    "language" : [ "http://publications.europa.eu/resource/authority/language/ENG", "http://publications.europa.eu/resource/authority/language/ITA" ],
+    "modified" : "2023-03-15",
+    "publisher" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+    "rightsHolder" : "https://w3id.org/italia/data/public-organization/ISTAT",
+    "subject" : [ "http://eurovoc.europa.eu/251539", "http://eurovoc.europa.eu/100210", "http://eurovoc.europa.eu/251540" ],
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "Sex Controlled Vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Vocabolario Controllato sul Sesso"
+    } ],
+    "type" : "http://purl.org/adms/assettype/CodeList",
+    "numberOfLevels" : "1",
+    "comment" : [ {
+      "@language" : "en",
+      "@value" : "This is the sex controlled vocabulary."
+    }, {
+      "@language" : "it",
+      "@value" : "Questo è il vocabolario controllato sul sesso."
+    } ],
+    "isDefinedBy" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex",
+    "label" : [ {
+      "@language" : "it",
+      "@value" : "Vocabolario Controllato Sesso"
+    }, {
+      "@language" : "en",
+      "@value" : "Sex Controlled Vocabulary"
+    } ],
+    "versionInfo" : [ {
+      "@language" : "it",
+      "@value" : "1.1 - Aggiunti gli allineamenti semantici al vocabolario europeo sul sesso di persone."
+    }, {
+      "@language" : "en",
+      "@value" : "1.1 - Introduced semantic alignments with the Human sex European controlled vocabulary"
+    } ],
+    "hasTopConcept" : [ "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F", "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M" ],
+    "representationTechnique" : "http://purl.org/adms/representationtechnique/SKOS",
+    "contactPoint" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+    "distribution" : [ "https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD", "https://w3id.org/italia/data/distribution/sex-XLSX", "https://w3id.org/italia/data/distribution/sex-RDF-Turtle", "https://w3id.org/italia/data/distribution/sex-RDF-XML", "https://w3id.org/italia/data/distribution/sex-CSV" ],
+    "keyword" : [ {
+      "@language" : "it",
+      "@value" : "Sesso"
+    }, {
+      "@language" : "en",
+      "@value" : "Sex"
+    } ],
+    "theme" : "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+    "keyConcept" : "sex"
+  }, {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F",
+    "@type" : [ "cpvapit:Sex", "skos:Concept" ],
+    "identifier" : "F",
+    "exactMatch" : "http://publications.europa.eu/resource/authority/human-sex/FEMALE",
+    "inScheme" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex",
+    "notation" : "F",
+    "prefLabel" : [ {
+      "@language" : "it",
+      "@value" : "Femmina"
+    }, {
+      "@language" : "en",
+      "@value" : "Female"
+    } ],
+    "hasRankOrder" : "1",
+    "sexDesc" : [ {
+      "@language" : "it",
+      "@value" : "Femmina"
+    }, {
+      "@language" : "en",
+      "@value" : "Female"
+    } ],
+    "sexID" : "F"
+  }, {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M",
+    "@type" : [ "skos:Concept", "cpvapit:Sex" ],
+    "identifier" : "M",
+    "exactMatch" : "http://publications.europa.eu/resource/authority/human-sex/MALE",
+    "inScheme" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex",
+    "notation" : "M",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Male"
+    }, {
+      "@language" : "it",
+      "@value" : "Maschio"
+    } ],
+    "hasRankOrder" : "1",
+    "sexDesc" : [ {
+      "@language" : "en",
+      "@value" : "Male"
+    }, {
+      "@language" : "it",
+      "@value" : "Maschio"
+    } ],
+    "sexID" : "M"
+  }, {
+    "@id" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+    "@type" : [ "vcard:Kind", "vcard:Organization", "dcatapit:Organization" ],
+    "fn" : "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog",
+    "hasEmail" : "mailto:ndc-segr-tec@istat.it"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/sex-CSV",
+    "@type" : "dcatapit:Distribution",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the distribution in CSV of dataset on the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Questa è la distribuzione CSV del vocabolario controllato sul sesso"
+    } ],
+    "format" : "http://publications.europa.eu/resource/authority/file-type/CSV",
+    "license" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "CSV distribution of sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Distribuzione CSV vocabolario controllato sul sesso"
+    } ],
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.csv"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD",
+    "@type" : "dcatapit:Distribution",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the distribution in JSON_LD of the Linked Open Dataset of the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul sesso"
+    } ],
+    "format" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+    "license" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "JSON_LD distribution of the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Distribuzione JSON_LD del vocabolario controllato sul sesso"
+    } ],
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-Turtle",
+    "@type" : "dcatapit:Distribution",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the distribution in RDF/turtle of the Linked Open Dataset of the sex controlled vocabulary "
+    }, {
+      "@language" : "it",
+      "@value" : "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul sesso"
+    } ],
+    "format" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+    "license" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "RDF/Turtle distribution of the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Distribuzione RDF/Turtle del vocabolario controllato sul sesso"
+    } ],
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/sex-RDF-XML",
+    "@type" : "dcatapit:Distribution",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the distribution in RDF/XML of the Linked Open Dataset of the sex controlled vocabulary "
+    }, {
+      "@language" : "it",
+      "@value" : "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul sesso"
+    } ],
+    "format" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML",
+    "license" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "RDF/XML distribution of the sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Distribuzione RDF/XML del vocabolario controllato sul sesso"
+    } ],
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/sex-XLSX",
+    "@type" : "dcatapit:Distribution",
+    "description" : [ {
+      "@language" : "en",
+      "@value" : "This is the distribution in XLSX of the sex controlled vocabulary "
+    }, {
+      "@language" : "it",
+      "@value" : "Questa è la distribuzione XLSX del vocabolario controllato sul sesso"
+    } ],
+    "format" : "http://publications.europa.eu/resource/authority/file-type/XLSX",
+    "license" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "title" : [ {
+      "@language" : "en",
+      "@value" : "XLSX distribution of sex controlled vocabulary"
+    }, {
+      "@language" : "it",
+      "@value" : "Distribuzione XLSX vocabolario controllato sul sesso"
+    } ],
+    "accessURL" : "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex",
+    "downloadURL" : "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"
+  }, {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
+    "@type" : [ "foaf:Agent", "dcatapit:Agent" ],
+    "identifier" : "ISTAT",
+    "name" : [ {
+      "@language" : "en",
+      "@value" : "Italian National Institute of Statistics - ISTAT"
+    }, {
+      "@language" : "it",
+      "@value" : "Istituto Nazionale di Statistica - ISTAT"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+    "@type" : [ "foaf:Agent", "dcatapit:Agent" ],
+    "identifier" : "PCM-1RSIZZ",
+    "name" : [ {
+      "@language" : "en",
+      "@value" : "Digital Transformation Department of the Presidency of the Council of Ministers"
+    }, {
+      "@language" : "it",
+      "@value" : "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+    } ]
+  }, {
+    "@id" : "https://w3id.org/italia/data/standard/SKOS",
+    "@type" : [ "dct:Standard", "dcatapit:Standard" ],
+    "description" : {
+      "@language" : "en",
+      "@value" : "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
     },
-    {
-      "@id": "skos:ConceptScheme",
-      "@type": "rdfs:Class"
+    "identifier" : "SKOS",
+    "title" : "Simple Knowledge Organization System - SKOS"
+  }, {
+    "@id" : "clvapit:hasRankOrder",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "cpvapit:Sex",
+    "@type" : "rdfs:Class"
+  }, {
+    "@id" : "cpvapit:sexDesc",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "cpvapit:sexID",
+    "@type" : "rdfs:Property"
+  }, {
+    "@id" : "ndc:keyConcept",
+    "@type" : "rdfs:Property"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "name" : "http://xmlns.com/foaf/0.1/name",
+    "identifier" : "http://purl.org/dc/terms/identifier",
+    "prefLabel" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "sexDesc" : "https://w3id.org/italia/onto/CPV/sexDesc",
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
     },
-    {
-      "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
+    "sexID" : "https://w3id.org/italia/onto/CPV/sexID",
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
     },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex",
-      "@type": [
-        "adms:Asset",
-        "skos:ConceptScheme",
-        "dcatapit:Dataset"
-      ],
-      "adms:representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
-      },
-      "dcat:contactPoint": {
-        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
-      },
-      "dcat:distribution": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_XML"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_CSV"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_Turtle"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_XLSX"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_JSON_LD"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@language": "it",
-          "@value": "Genere"
-        },
-        {
-          "@language": "it",
-          "@value": "Sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "Gender"
-        },
-        {
-          "@language": "en",
-          "@value": "Sex"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dct:conformsTo": {
-        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
-      },
-      "dct:creator": [
-        {
-          "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
-        }
-      ],
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questo è il vocabolario controllato sul sesso."
-        },
-        {
-          "@language": "en",
-          "@value": "This is the sex controlled vocabulary"
-        }
-      ],
-      "dct:identifier": "ISTAT:D.1",
-      "dct:issued": {
-        "@type": "xsd:date",
-        "@value": "2018-01-16"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-        }
-      ],
-      "dct:modified": {
-        "@type": "xsd:date",
-        "@value": "2018-06-06"
-      },
-      "dct:publisher": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:rightsHolder": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"
-      },
-      "dct:subject": [
-        {
-          "@id": "http://eurovoc.europa.eu/100210"
-        },
-        {
-          "@id": "http://eurovoc.europa.eu/251539"
-        },
-        {
-          "@id": "http://eurovoc.europa.eu/251540"
-        }
-      ],
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato sul Sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "Sex Controlled Vocabulary"
-        }
-      ],
-      "dct:type": {
-        "@id": "http://purl.org/adms/assettype/CodeList"
-      },
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "1.0 - il termine gender è stato sostituito con il termine sex; le versioni in tedesco e in francese del vocabolario sono state rimossa perché non rilasciate ufficialmente da ISTAT"
-        },
-        {
-          "@language": "en",
-          "@value": "1.0 - The term gender was replaced with the term sex; German and French versions of the vocabulary were removed since not officially released by ISTAT"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "it",
-          "@value": "Questo è il vocabolario controllato sul sesso."
-        },
-        {
-          "@language": "en",
-          "@value": "This is the sex controlled vocabulary."
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"
-      },
-      "rdfs:label": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato Sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "Sex Controlled Vocabulary"
-        }
-      ],
-      "skos:hasTopConcept": [
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M"
-        }
-      ],
-      "xkos:numberOfLevels": "1"
+    "notation" : "http://www.w3.org/2004/02/skos/core#notation",
+    "hasRankOrder" : "https://w3id.org/italia/onto/CLV/hasRankOrder",
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:conformsTo",
-      "@type": "rdfs:Property"
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:accrualPeriodicity",
-      "@type": "rdfs:Property"
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:license",
-      "@type": "rdfs:Property"
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:rightsHolder",
-      "@type": "rdfs:Property"
+    "description" : "http://purl.org/dc/terms/description",
+    "title" : "http://purl.org/dc/terms/title",
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+      "@type" : "@id"
     },
-    {
-      "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
+    "fn" : "http://www.w3.org/2006/vcard/ns#fn",
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:type",
-      "@type": "rdfs:Property"
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
     },
-    {
-      "@id": "vcard:Kind",
-      "@type": "rdfs:Class"
+    "label" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#distribution",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:modified",
-      "@type": "rdfs:Property"
+    "representationTechnique" : {
+      "@id" : "http://www.w3.org/ns/adms#representationTechnique",
+      "@type" : "@id"
     },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_XLSX",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in XLSX of the sex controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione XLSX del vocabolario controllato sul sesso"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione XLSX vocabolario controllato sul sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "XLSX distribution of sex controlled vocabulary"
-        }
-      ]
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
     },
-    {
-      "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
+    "keyword" : "http://www.w3.org/ns/dcat#keyword",
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+      "@type" : "@id"
     },
-    {
-      "@id": "dct:publisher",
-      "@type": "rdfs:Property"
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
     },
-    {
-      "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language",
+      "@type" : "@id"
     },
-    {
-      "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
+    "keyConcept" : "https://w3id.org/italia/onto/NDC/keyConcept",
+    "numberOfLevels" : "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
     },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_XML",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"
-      },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the sex controlled vocabulary "
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/XML distribution of the sex controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/XML del vocabolario controllato sul sesso"
-        }
-      ]
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
-    {
-      "@id": "skos:narrowerTransitive",
-      "@type": "rdfs:Property"
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder",
+      "@type" : "@id"
     },
-    {
-      "@id": "dcatapit:Organization",
-      "@type": "rdfs:Class"
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
-    {
-      "@id": "dcat:theme",
-      "@type": "rdfs:Property"
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
     },
-    {
-      "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
     },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:Sex"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:sexDesc": [
-        {
-          "@language": "it",
-          "@value": "Maschio"
-        },
-        {
-          "@language": "en",
-          "@value": "Male"
-        }
-      ],
-      "cpvapit:sexID": "M",
-      "dct:identifier": "M",
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"
-      },
-      "skos:notation": "M",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Maschio"
-        },
-        {
-          "@language": "en",
-          "@value": "Male"
-        }
-      ]
+    "versionInfo" : "http://www.w3.org/2002/07/owl#versionInfo",
+    "conformsTo" : {
+      "@id" : "http://purl.org/dc/terms/conformsTo",
+      "@type" : "@id"
     },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        },
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        }
-      ]
+    "comment" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
     },
-    {
-      "@id": "dcatapit:Distribution",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "dcatapit:Organization",
-        "vcard:Organization",
-        "vcard:Kind"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
-        "@id": "mailto:info@dati.gov.it"
-      }
-    },
-    {
-      "@id": "skos:Concept",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "foaf:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:prefLabel",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_CSV",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.csv"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in CSV of dataset on the sex controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione CSV del vocabolario controllato sul sesso"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "CSV distribution of sex controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione CSV vocabolario controllato sul sesso"
-        }
-      ]
-    },
-    {
-      "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:subject",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F",
-      "@type": [
-        "cpvapit:Sex",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:sexDesc": [
-        {
-          "@language": "it",
-          "@value": "Femmina"
-        },
-        {
-          "@language": "en",
-          "@value": "Female"
-        }
-      ],
-      "cpvapit:sexID": "F",
-      "dct:identifier": "F",
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"
-      },
-      "skos:notation": "F",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Femmina"
-        },
-        {
-          "@language": "en",
-          "@value": "Female"
-        }
-      ]
-    },
-    {
-      "@id": "vcard:fn",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:title",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:name",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:narrower",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broader",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
-      "@type": [
-        "dcatapit:Agent",
-        "foaf:Agent"
-      ],
-      "dct:identifier": "PCM",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Digital Transformation Team"
-        },
-        {
-          "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "dct:creator",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:description",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:language",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "cpvapit:sexID",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:keyword",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:issued",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
-      "@type": [
-        "dct:Standard",
-        "dcatapit:Standard"
-      ],
-      "dct:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dct:identifier": "SKOS",
-      "dct:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "dcatapit:Dataset",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT",
-      "@type": [
-        "dcatapit:Agent",
-        "foaf:Agent"
-      ],
-      "dct:identifier": "ISTAT",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Italian National Institute of Statistics - ISTAT"
-        },
-        {
-          "@language": "it",
-          "@value": "Istituto Nazionale di Statistica - ISTAT"
-        }
-      ]
-    },
-    {
-      "@id": "skos:definition",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_Turtle",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the sex controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul sesso"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the sex controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sul sesso"
-        }
-      ]
-    },
-    {
-      "@id": "cpvapit:Sex",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:accessURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/SexVoc_JSON_LD",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in JSON_LD of the Linked Open Dataset of the sex controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul sesso"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione JSON_LD del vocabolario controllato sul sesso"
-        },
-        {
-          "@language": "en",
-          "@value": "JSON_LD distribution of the sex controlled vocabulary"
-        }
-      ]
-    },
-    {
-      "@id": "skos:notation",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:identifier",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broaderTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:format",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "cpvapit:sexDesc",
-      "@type": "rdfs:Property"
-    }
-  ]
+    "adms" : "http://www.w3.org/ns/adms#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "clvapit" : "https://w3id.org/italia/onto/CLV/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard" : "http://www.w3.org/2006/vcard/ns#",
+    "ndc" : "https://w3id.org/italia/onto/NDC/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "dct" : "http://purl.org/dc/terms/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "cpvapit" : "https://w3id.org/italia/onto/CPV/",
+    "dcatapit" : "http://dati.gov.it/onto/dcatapit#",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
 }

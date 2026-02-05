@@ -1,32 +1,163 @@
 {
   "@context": {
-    "adms": "http://www.w3.org/ns/adms#",
-    "clvapit": "https://w3id.org/italia/onto/CLV/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
-    "dct": "http://purl.org/dc/terms/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "l0": "https://w3id.org/italia/onto/l0/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "adms": "http://www.w3.org/ns/adms#",
+    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
+    "clvapit": "https://w3id.org/italia/onto/CLV/",
+    "l0": "https://w3id.org/italia/onto/l0/",
+    "ndc": "https://w3id.org/italia/onto/NDC/"
   },
   "@graph": [
+    {
+      "@id": "dcatapit:Agent",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:Dataset",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:Distribution",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:LicenseDocument",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:Organization",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:Standard",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcatapit:referenceDoc",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:LicenseDocument",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcterms:Standard",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "dcterms:accrualPeriodicity",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:conformsTo",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:creator",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:description",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:format",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:identifier",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:issued",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:language",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:license",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:modified",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:publisher",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:rightsHolder",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:subject",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:title",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcterms:type",
+      "@type": [
+        "rdfs:Property",
+        "rdfs:Property"
+      ]
+    },
+    {
+      "@id": "xkos:numberOfLevels",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "owl:versionInfo",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:Concept",
+      "@type": "rdfs:Class"
+    },
     {
       "@id": "skos:ConceptScheme",
       "@type": "rdfs:Class"
     },
     {
-      "@id": "dct:modified",
+      "@id": "skos:broader",
       "@type": "rdfs:Property"
     },
     {
-      "@id": "dct:license",
+      "@id": "skos:broaderTransitive",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:definition",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:inScheme",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:narrower",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:narrowerTransitive",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "skos:notation",
       "@type": "rdfs:Property"
     },
     {
@@ -34,257 +165,23 @@
       "@type": "rdfs:Property"
     },
     {
-      "@id": "dct:type",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:theme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:conformsTo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "vcard:Organization",
-        "dcatapit:Organization",
-        "vcard:Kind"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
-        "@id": "mailto:info@dati.gov.it"
-      }
-    },
-    {
-      "@id": "vcard:fn",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-20",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "20"
-    },
-    {
-      "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:name",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions",
-      "@type": [
-        "skos:ConceptScheme",
-        "dcatapit:Dataset",
-        "adms:Asset"
-      ],
-      "adms:representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
-      },
-      "dcat:contactPoint": {
-        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
-      },
-      "dcat:distribution": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/regions_RDF_XML"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/regions_JSON_LD"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/regions_RDF_Turtle"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@language": "it",
-          "@value": "Regioni"
-        },
-        {
-          "@language": "it",
-          "@value": "Regione"
-        },
-        {
-          "@language": "en",
-          "@value": "Regions"
-        },
-        {
-          "@language": "en",
-          "@value": "Region"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dct:conformsTo": {
-        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
-      },
-      "dct:creator": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
-        },
-        {
-          "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-        }
-      ],
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for describing Italy as country"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato delle regioni d'Italia e relativo codice regione"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for describing Italy as country"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato delle regioni d'Italia e relativo codice regione"
-        }
-      ],
-      "dct:identifier": "agid:D.14",
-      "dct:issued": {
-        "@type": "xsd:date",
-        "@value": "2018-04-12"
-      },
-      "dct:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-      },
-      "dct:modified": {
-        "@type": "xsd:date",
-        "@value": "2018-04-12"
-      },
-      "dct:publisher": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:rightsHolder": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for Italian Regions"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato delle Regioni d'Italia"
-        }
-      ],
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for Italian Regions"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato delle Regioni d'Italia"
-        }
-      ],
-      "dct:type": {
-        "@id": "http://purl.org/adms/assettype/CodeList"
-      },
-      "owl:versionInfo": "1.0",
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"
-      },
-      "skos:hasTopConcept": [
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/04"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/20"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/02"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/05"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/10"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/06"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/18"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/07"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/09"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/03"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/12"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/11"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/19"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/16"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/14"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/15"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/01"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/08"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/13"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/17"
-        }
-      ],
-      "xkos:numberOfLevels": "1"
-    },
-    {
-      "@id": "skos:narrower",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:language",
-      "@type": "rdfs:Property"
+      "@id": "vcard:Kind",
+      "@type": "rdfs:Class"
     },
     {
       "@id": "vcard:Organization",
       "@type": "rdfs:Class"
     },
     {
-      "@id": "dcat:keyword",
+      "@id": "vcard:fn",
       "@type": "rdfs:Property"
     },
     {
-      "@id": "dct:issued",
+      "@id": "vcard:hasEmail",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "adms:representationTechnique",
       "@type": "rdfs:Property"
     },
     {
@@ -292,8 +189,38 @@
       "@type": "rdfs:Property"
     },
     {
-      "@id": "dct:identifier",
+      "@id": "dcat:contactPoint",
       "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcat:distribution",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcat:downloadURL",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcat:keyword",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "dcat:theme",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "foaf:Agent",
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "foaf:name",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-00",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "00"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-01",
@@ -302,22 +229,16 @@
       "l0:identifier": "01"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-03",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "03"
-    },
-    {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-02",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
       "l0:identifier": "02"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-05",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-03",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "05"
+      "l0:identifier": "03"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-04",
@@ -326,182 +247,10 @@
       "l0:identifier": "04"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/18",
-      "@type": [
-        "clvapit:Feature",
-        "clvapit:AddressComponent",
-        "clvapit:Region",
-        "clvapit:NamedAddressComponent",
-        "skos:Concept"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-18"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Calabria"
-      }
-    },
-    {
-      "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-09",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-05",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "09"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/17",
-      "@type": [
-        "skos:Concept",
-        "clvapit:AddressComponent",
-        "clvapit:Feature",
-        "clvapit:Region",
-        "clvapit:NamedAddressComponent"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-17"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Basilicata"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/14",
-      "@type": [
-        "skos:Concept",
-        "clvapit:NamedAddressComponent",
-        "clvapit:Region",
-        "clvapit:AddressComponent",
-        "clvapit:Feature"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-14"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Molise"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/15",
-      "@type": [
-        "clvapit:AddressComponent",
-        "clvapit:Feature",
-        "skos:Concept",
-        "clvapit:NamedAddressComponent",
-        "clvapit:Region"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-15"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Campania"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/12",
-      "@type": [
-        "clvapit:AddressComponent",
-        "skos:Concept",
-        "clvapit:Region",
-        "clvapit:Feature",
-        "clvapit:NamedAddressComponent"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-12"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Lazio"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/13",
-      "@type": [
-        "clvapit:Region",
-        "clvapit:Feature",
-        "clvapit:AddressComponent",
-        "skos:Concept",
-        "clvapit:NamedAddressComponent"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-13"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Abruzzo"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/10",
-      "@type": [
-        "clvapit:NamedAddressComponent",
-        "clvapit:Feature",
-        "skos:Concept",
-        "clvapit:AddressComponent",
-        "clvapit:Region"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-10"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Umbria"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/11",
-      "@type": [
-        "clvapit:NamedAddressComponent",
-        "clvapit:Region",
-        "skos:Concept",
-        "clvapit:Feature",
-        "clvapit:AddressComponent"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-11"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Marche"
-      }
-    },
-    {
-      "@id": "vcard:Kind",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
+      "l0:identifier": "05"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-06",
@@ -510,80 +259,22 @@
       "l0:identifier": "06"
     },
     {
-      "@id": "dcatapit:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        },
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "skos:Concept",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "foaf:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions/regions.ttl"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian Regions controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the Italian regions controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle regioni d'Italia"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-12",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-07",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "12"
+      "l0:identifier": "07"
     },
     {
-      "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-08",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "08"
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-09",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "09"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-10",
@@ -598,16 +289,16 @@
       "l0:identifier": "11"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-16",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-12",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "16"
+      "l0:identifier": "12"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-17",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-13",
       "@type": "clvapit:Identifier",
       "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "17"
+      "l0:identifier": "13"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-14",
@@ -622,8 +313,16 @@
       "l0:identifier": "15"
     },
     {
-      "@id": "dct:title",
-      "@type": "rdfs:Property"
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-16",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "16"
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-17",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "17"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-18",
@@ -632,302 +331,272 @@
       "l0:identifier": "18"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/20",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-19",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "19"
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-20",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice Regione",
+      "l0:identifier": "20"
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions",
       "@type": [
-        "clvapit:Feature",
-        "clvapit:Region",
-        "skos:Concept",
-        "clvapit:AddressComponent",
-        "clvapit:NamedAddressComponent"
+        "skos:ConceptScheme",
+        "adms:Asset",
+        "dcatapit:Dataset"
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-20"
+      "dcterms:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      "dcterms:conformsTo": {
+        "@id": "https://w3id.org/italia/data/standard/SKOS"
       },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Sardegna"
-      }
-    },
-    {
-      "@id": "skos:broader",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:notation",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:creator",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:definition",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:description",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broaderTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:format",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_JSON_LD",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions/regions.jsonld"
-      },
-      "dct:description": [
+      "dcterms:creator": [
         {
-          "@language": "en",
-          "@value": "This is the distribution in JSON-LD of the Linked Open Dataset of the Italian Regions controlled vocabulary "
+          "@id": "https://w3id.org/italia/data/public-organization/agid"
         },
         {
-          "@language": "it",
-          "@value": "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
+          "@id": "https://w3id.org/italia/data/public-organization/ISTAT"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
         }
       ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
+      "dcterms:description": [
         {
           "@language": "it",
-          "@value": "Distribuzione JSON-LD del vocabolario controllato sulle regioni d'Italia"
+          "@value": "Vocabolario controllato delle regioni d'Italia e relativo codice regione"
         },
         {
           "@language": "en",
-          "@value": "JSON-LD distribution of the Italian regions controlled vocabulary"
+          "@value": "Controlled Vocabulary for describing Italy as country"
         }
-      ]
-    },
-    {
-      "@id": "dct:accrualPeriodicity",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:rightsHolder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:publisher",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:narrowerTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-07",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "07"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/19",
-      "@type": [
-        "clvapit:Region",
-        "skos:Concept",
-        "clvapit:Feature",
-        "clvapit:AddressComponent",
-        "clvapit:NamedAddressComponent"
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-19"
+      "dcterms:identifier": "agid:D.14",
+      "dcterms:issued": {
+        "@type": "xsd:date",
+        "@value": "2018-04-12"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      "dcterms:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
       },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Sicilia"
-      }
-    },
-    {
-      "@id": "dcatapit:Distribution",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/16",
-      "@type": [
-        "clvapit:NamedAddressComponent",
-        "clvapit:AddressComponent",
-        "skos:Concept",
-        "clvapit:Region",
-        "clvapit:Feature"
+      "dcterms:modified": {
+        "@type": "xsd:date",
+        "@value": "2023-11-19"
+      },
+      "dcterms:publisher": {
+        "@id": "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+      },
+      "dcterms:rightsHolder": {
+        "@id": "https://w3id.org/italia/data/public-organization/agid"
+      },
+      "dcterms:title": [
+        {
+          "@language": "en",
+          "@value": "Controlled Vocabulary for Italian Regions"
+        },
+        {
+          "@language": "it",
+          "@value": "Vocabolario Controllato delle Regioni d'Italia"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-16"
+      "dcterms:type": {
+        "@id": "http://purl.org/adms/assettype/CodeList"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Puglia"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-08",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "08"
-    },
-    {
-      "@id": "dct:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:subject",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/09",
-      "@type": [
-        "clvapit:NamedAddressComponent",
-        "clvapit:Feature",
-        "clvapit:Region",
-        "skos:Concept",
-        "clvapit:AddressComponent"
+      "xkos:numberOfLevels": "1",
+      "rdfs:comment": [
+        {
+          "@language": "it",
+          "@value": "Vocabolario controllato delle regioni d'Italia e relativo codice regione"
+        },
+        {
+          "@language": "en",
+          "@value": "Controlled Vocabulary for describing Italy as country"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-09"
+      "rdfs:isDefinedBy": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Toscana"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/08",
-      "@type": [
-        "clvapit:NamedAddressComponent",
-        "clvapit:Feature",
-        "clvapit:Region",
-        "skos:Concept",
-        "clvapit:AddressComponent"
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "Controlled Vocabulary for Italian Regions"
+        },
+        {
+          "@language": "it",
+          "@value": "Vocabolario Controllato delle Regioni d'Italia"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-08"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
+      "owl:versionInfo": {
         "@language": "it",
-        "@value": "Emilia-Romagna"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/05",
-      "@type": [
-        "clvapit:Region",
-        "clvapit:Feature",
-        "clvapit:AddressComponent",
-        "skos:Concept",
-        "clvapit:NamedAddressComponent"
+        "@value": "1.1 - introdotta la Regione non esistente prima del 1948; introdotte le proprietà rdfs:label, skos:prefLabel, skos:notation, skos:inScheme per ciascun concetto del vocabolario controllato"
+      },
+      "skos:hasTopConcept": [
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/00"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/01"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/02"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/03"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/04"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/05"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/06"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/07"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/08"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/09"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/10"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/11"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/12"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/13"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/14"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/15"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/16"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/17"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/18"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/19"
+        },
+        {
+          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/20"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-05"
+      "adms:representationTechnique": {
+        "@id": "http://purl.org/adms/representationtechnique/SKOS"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      "dcat:contactPoint": {
+        "@id": "https://w3id.org/italia/data/contact-point/voc_AgID"
       },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Veneto"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/04",
-      "@type": [
-        "skos:Concept",
-        "clvapit:AddressComponent",
-        "clvapit:Feature",
-        "clvapit:Region",
-        "clvapit:NamedAddressComponent"
+      "dcat:distribution": [
+        {
+          "@id": "https://w3id.org/italia/data/distribution/regions_CSV"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/distribution/regions_RDF_Turtle"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/distribution/regions_RDF_XML"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/distribution/regions_JSON_LD"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-04"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Trentino-Alto Adige/Südtirol"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/07",
-      "@type": [
-        "clvapit:AddressComponent",
-        "skos:Concept",
-        "clvapit:Region",
-        "clvapit:Feature",
-        "clvapit:NamedAddressComponent"
+      "dcat:keyword": [
+        {
+          "@language": "it",
+          "@value": "Regione"
+        },
+        {
+          "@language": "it",
+          "@value": "Regioni"
+        },
+        {
+          "@language": "en",
+          "@value": "Region"
+        },
+        {
+          "@language": "en",
+          "@value": "Regions"
+        }
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-07"
+      "dcat:theme": {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Liguria"
-      }
+      "ndc:keyConcept": "regions"
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/06",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/00",
       "@type": [
         "clvapit:Feature",
-        "skos:Concept",
+        "clvapit:Region",
         "clvapit:AddressComponent",
         "clvapit:NamedAddressComponent",
-        "clvapit:Region"
+        "skos:Concept"
       ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-06"
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Regione non esistente prima del 1948"
       },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      "skos:definition": {
+        "@language": "it",
+        "@value": "L'introduzione di questa regione fittizia si è resa necessaria per la gestione dell'archivio storico dei comuni che comprende comuni istituti a partire dal 1861"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "00",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Regione non esistente prima del 1948"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-00"
       },
       "l0:name": {
         "@language": "it",
-        "@value": "Friuli-Venezia Giulia"
+        "@value": "Regione non esistente prima del 1948"
       }
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/01",
       "@type": [
-        "skos:Concept",
+        "clvapit:Feature",
         "clvapit:Region",
-        "clvapit:NamedAddressComponent",
         "clvapit:AddressComponent",
-        "clvapit:Feature"
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
       ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Piemonte"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "01",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Piemonte"
+      },
       "clvapit:hasIdentifier": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-01"
       },
@@ -940,34 +609,26 @@
       }
     },
     {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/03",
-      "@type": [
-        "skos:Concept",
-        "clvapit:AddressComponent",
-        "clvapit:Feature",
-        "clvapit:Region",
-        "clvapit:NamedAddressComponent"
-      ],
-      "clvapit:hasIdentifier": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-03"
-      },
-      "clvapit:situatedWithin": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
-      },
-      "l0:name": {
-        "@language": "it",
-        "@value": "Lombardia"
-      }
-    },
-    {
       "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/02",
       "@type": [
-        "clvapit:AddressComponent",
-        "clvapit:Region",
         "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
         "clvapit:NamedAddressComponent",
         "skos:Concept"
       ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Valle d'Aosta/Vallée d'Aoste"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "02",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Valle d'Aosta/Vallée d'Aoste"
+      },
       "clvapit:hasIdentifier": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-02"
       },
@@ -980,107 +641,725 @@
       }
     },
     {
-      "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/03",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Lombardia"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "03",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Lombardia"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-03"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Lombardia"
+      }
     },
     {
-      "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/04",
       "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
       ],
-      "dct:identifier": "PCM",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Digital Transformation Team"
-        },
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Trentino-Alto Adige/Südtirol"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "04",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Trentino-Alto Adige/Südtirol"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-04"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Trentino-Alto Adige/Südtirol"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/05",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Veneto"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "05",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Veneto"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-05"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Veneto"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/06",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Friuli-Venezia Giulia"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "06",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Friuli-Venezia Giulia"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-06"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Friuli-Venezia Giulia"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/07",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Liguria"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "07",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Liguria"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-07"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Liguria"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/08",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Emilia-Romagna"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "08",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Emilia-Romagna"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-08"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Emilia-Romagna"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/09",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Toscana"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "09",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Toscana"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-09"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Toscana"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/10",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Umbria"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "10",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Umbria"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-10"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Umbria"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/11",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Marche"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "11",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Marche"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-11"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Marche"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/12",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Lazio"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "12",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Lazio"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-12"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Lazio"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/13",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Abruzzo"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "13",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Abruzzo"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-13"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Abruzzo"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/14",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Molise"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "14",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Molise"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-14"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Molise"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/15",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Campania"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "15",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Campania"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-15"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Campania"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/16",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Puglia"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "16",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Puglia"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-16"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Puglia"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/17",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Basilicata"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "17",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Basilicata"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-17"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Basilicata"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/18",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Calabria"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "18",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Calabria"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-18"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Calabria"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/19",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Sicilia"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "19",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Sicilia"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-19"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Sicilia"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions/20",
+      "@type": [
+        "clvapit:Feature",
+        "clvapit:Region",
+        "clvapit:AddressComponent",
+        "clvapit:NamedAddressComponent",
+        "skos:Concept"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Sardegna"
+      },
+      "skos:inScheme": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/regions"
+      },
+      "skos:notation": "20",
+      "skos:prefLabel": {
+        "@language": "it",
+        "@value": "Sardegna"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-20"
+      },
+      "clvapit:situatedWithin": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      },
+      "l0:name": {
+        "@language": "it",
+        "@value": "Sardegna"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/contact-point/voc_AgID",
+      "@type": [
+        "dcatapit:Organization",
+        "vcard:Organization",
+        "vcard:Kind"
+      ],
+      "rdfs:label": {
+        "@language": "it",
+        "@value": "Punto di contatto AgID - banche dati e open data"
+      },
+      "vcard:fn": "banche dati e open data",
+      "vcard:hasEmail": {
+        "@id": "mailto:info@dati.gov.it"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/regions_CSV",
+      "@type": "dcatapit:Distribution",
+      "dcterms:description": [
         {
           "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "dcatapit:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
-      "@type": [
-        "dct:Standard",
-        "dcatapit:Standard"
-      ],
-      "dct:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dct:identifier": "SKOS",
-      "dct:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "dcatapit:Dataset",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-19",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "19"
-    },
-    {
-      "@id": "dcatapit:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:LicenseDocument",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcatapit:referenceDoc",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-13",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "Codice Regione",
-      "l0:identifier": "13"
-    },
-    {
-      "@id": "dcatapit:LicenseDocument",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_XML",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/regions/regions.rdf"
-      },
-      "dct:description": [
+          "@value": "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
+        },
         {
           "@language": "en",
-          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the Italian Regions controlled vocabulary "
+          "@value": "This is the distribution in CSV of the Linked Open Dataset of the Italian Regions controlled vocabulary "
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Distribuzione CSV del vocabolario controllato sulle regioni d'Italia"
         },
+        {
+          "@language": "en",
+          "@value": "CSV distribution of the Italian regions controlled vocabulary"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/regions"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/regions/regions.csv"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/regions_JSON_LD",
+      "@type": "dcatapit:Distribution",
+      "dcterms:description": [
+        {
+          "@language": "it",
+          "@value": "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in JSON-LD of the Linked Open Dataset of the Italian Regions controlled vocabulary "
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Distribuzione JSON-LD del vocabolario controllato sulle regioni d'Italia"
+        },
+        {
+          "@language": "en",
+          "@value": "JSON-LD distribution of the Italian regions controlled vocabulary"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/regions"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/regions/regions.jsonld"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/regions_RDF_Turtle",
+      "@type": "dcatapit:Distribution",
+      "dcterms:description": [
+        {
+          "@language": "it",
+          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian Regions controlled vocabulary "
+        }
+      ],
+      "dcterms:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      },
+      "dcterms:license": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      },
+      "dcterms:title": [
+        {
+          "@language": "it",
+          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle regioni d'Italia"
+        },
+        {
+          "@language": "en",
+          "@value": "RDF/Turtle distribution of the Italian regions controlled vocabulary"
+        }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/regions"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/regions/regions.ttl"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/distribution/regions_RDF_XML",
+      "@type": "dcatapit:Distribution",
+      "dcterms:description": [
         {
           "@language": "it",
           "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle regioni d'Italia"
+        },
+        {
+          "@language": "en",
+          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the Italian Regions controlled vocabulary "
         }
       ],
-      "dct:format": {
+      "dcterms:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
       },
-      "dct:license": {
+      "dcterms:license": {
         "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
       },
-      "dct:title": [
+      "dcterms:title": [
         {
           "@language": "it",
           "@value": "Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia"
@@ -1089,7 +1368,55 @@
           "@language": "en",
           "@value": "RDF/XML distribution of the Italian regions controlled vocabulary"
         }
+      ],
+      "dcat:accessURL": {
+        "@id": "https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/regions"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/regions/regions.rdf"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/public-organization/agid",
+      "@type": [
+        "dcatapit:Agent",
+        "foaf:Agent"
+      ],
+      "dcterms:identifier": "agid",
+      "foaf:name": [
+        {
+          "@language": "it",
+          "@value": "Agenzia per l'Italia Digitale"
+        },
+        {
+          "@language": "en",
+          "@value": "Italian Digital Agency"
+        }
       ]
+    },
+    {
+      "@id": "https://w3id.org/italia/data/standard/SKOS",
+      "@type": [
+        "dcatapit:Standard",
+        "dcterms:Standard"
+      ],
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+      },
+      "dcterms:identifier": "SKOS",
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Simple Knowledge Organization System - SKOS"
+      }
+    },
+    {
+      "@id": "clvapit:hasRankOrder",
+      "@type": "rdfs:Property"
+    },
+    {
+      "@id": "ndc:keyConcept",
+      "@type": "rdfs:Property"
     }
   ]
 }

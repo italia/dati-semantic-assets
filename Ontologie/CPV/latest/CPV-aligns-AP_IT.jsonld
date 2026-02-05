@@ -1,67 +1,48 @@
 {
-  "@context": {
-    "cpavit": "https://w3id.org/italia/onto/CPV/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "cpavit:ParentalRelationshipType",
-      "owl:subClassOf": {
-        "@id": "skos:Concept"
-      }
+  "@graph" : [ {
+    "@id" : "./",
+    "@type" : "owl:Ontology",
+    "imports" : [ "http://xmlns.com/foaf/0.1/", "http://www.w3.org/ns/person#", "../../CPV" ],
+    "versionIRI" : ":0.1"
+  }, {
+    "@id" : "cpavit:Person",
+    "subClassOf" : [ "person:Person", "http://xmlns.com/foaf/0.1/Person" ]
+  }, {
+    "@id" : "cpavit:familyName",
+    "equivalentProperty" : "http://xmlns.com/foaf/0.1/familyName"
+  }, {
+    "@id" : "cpavit:givenName",
+    "equivalentProperty" : "http://xmlns.com/foaf/0.1/givenName"
+  }, {
+    "@id" : "cpavit:knows",
+    "equivalentProperty" : "http://xmlns.com/foaf/0.1/knows"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "equivalentProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentProperty",
+      "@type" : "@id"
     },
-    {
-      "@id": "cpavit:knows",
-      "owl:equivalentProperty": {
-        "@id": "foaf:knows"
-      }
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
     },
-    {
-      "@id": "https://w3id.org/italia/onto/CPV-aligns",
-      "@type": "owl:Ontology",
-      "owl:imports": [
-        {
-          "@id": "skos:"
-        },
-        {
-          "@id": "https://w3id.org/italia/onto/CPV"
-        },
-        {
-          "@id": "foaf:"
-        }
-      ],
-      "owl:versionIRI": {
-        "@id": "https://w3id.org/italia/onto/CPV-aligns/0.1"
-      }
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
     },
-    {
-      "@id": "cpavit:name",
-      "owl:equivalentProperty": {
-        "@id": "foaf:name"
-      }
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+      "@type" : "@id"
     },
-    {
-      "@id": "cpavit:Person",
-      "owl:equivalentClass": {
-        "@id": "foaf:Person"
-      }
-    },
-    {
-      "@id": "cpavit:familyName",
-      "owl:equivalentProperty": {
-        "@id": "foaf:familyName"
-      }
-    },
-    {
-      "@id": "cpavit:givenName",
-      "owl:equivalentProperty": {
-        "@id": "foaf:givenName"
-      }
-    }
-  ]
+    "@base" : "https://w3id.org/italia/onto/CPV-aligns/",
+    "" : "https://w3id.org/italia/onto/CPV-aligns/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xml" : "http://www.w3.org/XML/1998/namespace",
+    "person" : "http://www.w3.org/ns/person#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "cpavit" : "https://w3id.org/italia/onto/CPV/"
+  }
 }

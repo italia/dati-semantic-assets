@@ -1,39 +1,63 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://dati.gov.it/onto/dcatapit"
+<rdf:RDF xmlns="http://dati.gov.it/onto/dcatapit#"
      xml:base="http://dati.gov.it/onto/dcatapit"
-     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:l0="https://w3id.org/italia/onto/l0/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-     xmlns:dct="http://purl.org/dc/elements/1.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="http://www.w3.org/ns/adms#"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:admsapit="https://w3id.org/italia/onto/ADMS/">
     <owl:Ontology rdf:about="http://dati.gov.it/onto/dcatapit">
         <owl:versionIRI rdf:resource="http://dati.gov.it/onto/dcatapit/2.0"/>
-        <dct:description xml:lang="en">This is version 2.0 (2016-03-18) of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT).</dct:description>
-        <dct:rights xml:lang="it">Attribuzione - http://creativecommons.org/licenses/by/3.0/it/legalcode</dct:rights>
-        <dct:title xml:lang="it">DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA</dct:title>
-        <dct:description rdf:resource="http://www.dati.gov.it/sites/default/files/DCAT-AP_IT_UML.png"/>
-        <dct:creator>AgID - Agenzia per l&apos;Italia Digitale</dct:creator>
-        <rdfs:comment xml:lang="it">Questa è la versione 2.0 dell&apos;ontologia  - Ultima modifica del 18 marzo 2016. L&apos;ontologia è definita sulla base del profilo DCAT-AP 1.1 rilasciato dalla Commissione Europea, nel contesto del programma ISA, lo scorso Novembre 2015.</rdfs:comment>
-        <dct:title xml:lang="en">DCAT-AP IT - The Italian application profile for metadata of datasets</dct:title>
-        <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/it/"/>
-        <dct:modified>2016-03-18</dct:modified>
-        <rdfs:comment xml:lang="en">This is 2.0 version  of the ontology - last update on 18th March 2016. The ontology is built upon DCAT-AP version 1.1 released by the European Commission, in the context of the ISA programme, on November 2015.</rdfs:comment>
-        <dct:description xml:lang="it">Versione 2.0 del 18-03-2016 dell&apos;ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT).</dct:description>
-        <dct:contributor xml:lang="en">Working Group on National metadata profile DCAT-AP IT - Regione Piemonte, Provincia Autonoma di Trento, CISIS, Protezione Civile and ISTAT</dct:contributor>
-        <dct:contributor xml:lang="it">Gruppo di lavoro su Profilo Nazionale Metadati - Regione Piemonte, Provincia autonoma di Trento, CISIS, Protezione Civile e Istat</dct:contributor>
-        <dct:rights xml:lang="en">Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode</dct:rights>
+        <dc:description rdf:resource="http://www.dati.gov.it/sites/default/files/DCAT-AP_IT_UML.png"/>
+        <terms:contributor xml:lang="it">Gruppo di lavoro su Profilo Nazionale Metadati - Regione Piemonte, Provincia autonoma di Trento, CISIS, Protezione Civile e Istat</terms:contributor>
+        <terms:contributor xml:lang="en">Working Group on National metadata profile DCAT-AP IT - Regione Piemonte, Provincia Autonoma di Trento, CISIS, Protezione Civile and ISTAT</terms:contributor>
+        <terms:description xml:lang="en">This is version 2.0 of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT).</terms:description>
+        <terms:description xml:lang="it">Versione 2.0 dell&apos;ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT).</terms:description>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-23</terms:modified>
+        <terms:title xml:lang="it">DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA</terms:title>
+        <terms:title xml:lang="en">DCAT-AP IT - The Italian application profile for metadata of datasets</terms:title>
+        <rdfs:comment xml:lang="en">This is version 2.0 of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Versione 2.0 dell&apos;ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://dati.gov.it/onto/dcatapit"/>
+        <rdfs:label xml:lang="it">DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA</rdfs:label>
+        <rdfs:label xml:lang="en">DCAT-AP IT - The Italian application profile for metadata of datasets</rdfs:label>
+        <owl:versionInfo xml:lang="en">Version 2.0 - updated on 23th June 2022 - Introduced ADMS-AP_IT metadata for schema.gov.it harvisting purposes and fixing some typo</owl:versionInfo>
+        <owl:versionInfo xml:lang="it">Versione 2.0 - aggiornata il 23 Giugno 2022 - corretti dei typo nelle descrizioni. Aggiunti i metadati conformi a ADMS-AP_IT per abilitare l&apos;harvesting in schema.gov.it</owl:versionInfo>
+        <admsapit:acronym>DCAT-AP_IT</admsapit:acronym>
+        <admsapit:hasKeyClass rdf:resource="http://dati.gov.it/onto/dcatapit#Catalog"/>
+        <admsapit:hasKeyClass rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <admsapit:hasKeyClass rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+        <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/DCATAPIT-JSON-LD"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML"/>
+        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
+        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
+        <admsapit:last rdf:resource="http://dati.gov.it/onto/dcatapit/2.0"/>
+        <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dati.gov.it/onto/dcatapit</admsapit:officialURI>
+        <admsapit:prefix>dcatapit</admsapit:prefix>
+        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/OntoPiA"/>
+        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/datigovit"/>
+        <admsapit:status>catalogued</admsapit:status>
+        <admsapit:status>published</admsapit:status>
+        <admsapit:target>Comunità Open Data</admsapit:target>
+        <admsapit:target>Imprese</admsapit:target>
+        <admsapit:target>Pubbliche Amministrazioni</admsapit:target>
+        <admsapit:type rdf:resource="https://w3id.org/italia/onto/ADMS/CoreOntology"/>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -41,25 +65,31 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
 
 
-    <!-- http://purl.org/dc/elements/1.1/author -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/author"/>
-    
+    <!-- http://purl.org/dc/elements/1.1/description -->
 
-
-    <!-- http://purl.org/dc/elements/1.1/contributor -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
 
 
-    <!-- http://purl.org/dc/elements/1.1/date -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
+    <!-- http://purl.org/dc/terms/author -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/author"/>
+
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+
 
 
     <!-- http://purl.org/dc/terms/description -->
@@ -68,19 +98,19 @@
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/modified -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified">
-        <rdfs:domain rdf:resource="_:genid13"/>
-        <rdfs:domain rdf:resource="_:genid147"/>
-        <rdfs:domain rdf:resource="_:genid16"/>
-        <rdfs:domain rdf:resource="_:genid20"/>
-        <rdfs:domain rdf:resource="_:genid238"/>
+        <rdfs:domain rdf:resource="_:genid-nodeid-genid-70764d6985494b3290b1ec03bc863307-genid13"/>
+        <rdfs:domain rdf:resource="_:genid-nodeid-genid-70764d6985494b3290b1ec03bc863307-genid147"/>
+        <rdfs:domain rdf:resource="_:genid-nodeid-genid-70764d6985494b3290b1ec03bc863307-genid16"/>
+        <rdfs:domain rdf:resource="_:genid-nodeid-genid-70764d6985494b3290b1ec03bc863307-genid20"/>
+        <rdfs:domain rdf:resource="_:genid-nodeid-genid-70764d6985494b3290b1ec03bc863307-genid238"/>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/title -->
@@ -89,31 +119,31 @@
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#versionInfo -->
@@ -122,10 +152,88 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:AnnotationProperty>
-    
 
 
-    <!-- 
+
+    <!-- https://w3id.org/italia/onto/ADMS/acronym -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/acronym"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasKeyClass -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasKeyClass"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasOntologyLanguage -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasTask -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasTask"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/last -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/last"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/officialURI -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/officialURI"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/prefix -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/prefix"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/semanticAssetInUse -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/semanticAssetInUse"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/status -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/status"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/target -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/target"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/type -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/type"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/l0/name -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/l0/name"/>
+
+
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -133,40 +241,40 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#dateTime -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#decimal -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -174,7 +282,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/terms/accrualPeriodicity -->
@@ -188,7 +296,7 @@
         <rdfs:label xml:lang="en">accrual periodicity</rdfs:label>
         <rdfs:label xml:lang="it">frequenza di aggiornamento</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/conformsTo -->
@@ -202,7 +310,7 @@
         <rdfs:label xml:lang="it">conformità</rdfs:label>
         <rdfs:label xml:lang="en">conforms to</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/creator -->
@@ -216,7 +324,7 @@
         <rdfs:label xml:lang="it">autore</rdfs:label>
         <rdfs:label xml:lang="en">creator</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/format -->
@@ -230,7 +338,7 @@
         <rdfs:label xml:lang="en">format</rdfs:label>
         <rdfs:label xml:lang="it">formato</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/isVersionOf -->
@@ -244,7 +352,7 @@
         <rdfs:label xml:lang="en">is version of</rdfs:label>
         <rdfs:label xml:lang="it">è versione di</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/language -->
@@ -266,7 +374,7 @@ Deve essere utilizzato il vocabolario http://publications.europa.eu/mdr/authorit
         <rdfs:label xml:lang="en">language</rdfs:label>
         <rdfs:label xml:lang="it">lingua</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/license -->
@@ -280,7 +388,7 @@ Deve essere utilizzato il vocabolario http://publications.europa.eu/mdr/authorit
         <rdfs:label xml:lang="en">license</rdfs:label>
         <rdfs:label xml:lang="it">licenza</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/publisher -->
@@ -301,7 +409,7 @@ Deve essere utilizzato il vocabolario http://publications.europa.eu/mdr/authorit
         <rdfs:label xml:lang="it">editore</rdfs:label>
         <rdfs:label xml:lang="en">publisher</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/rightsHolder -->
@@ -315,7 +423,7 @@ Deve essere utilizzato il vocabolario http://publications.europa.eu/mdr/authorit
         <rdfs:label xml:lang="en">rights holder</rdfs:label>
         <rdfs:label xml:lang="it">titolare</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/spatial -->
@@ -329,7 +437,7 @@ Deve essere utilizzato il vocabolario http://publications.europa.eu/mdr/authorit
         <rdfs:label xml:lang="it">copertura geografica</rdfs:label>
         <rdfs:label xml:lang="en">spatial coverage</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/subject -->
@@ -344,7 +452,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">sottotema</rdfs:label>
         <rdfs:label xml:lang="en">subtheme</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/temporal -->
@@ -358,7 +466,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">estensione temporale</rdfs:label>
         <rdfs:label xml:lang="en">temporal coverage</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/type -->
@@ -372,7 +480,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">tipo</rdfs:label>
         <rdfs:label xml:lang="en">type</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://sdati.gov.it/onto/dcatapit#startDate -->
@@ -388,7 +496,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
             </owl:Class>
         </rdfs:range>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
@@ -402,7 +510,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">ha email</rdfs:label>
         <rdfs:label xml:lang="en">has email</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasTelephone -->
@@ -416,7 +524,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">ha telefono</rdfs:label>
         <rdfs:label xml:lang="en">has telephone</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasURL -->
@@ -430,7 +538,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">sito</rdfs:label>
         <rdfs:label xml:lang="en">web site</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/adms#identifier -->
@@ -444,7 +552,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">altro identificativo</rdfs:label>
         <rdfs:label xml:lang="en">other identifier</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#accessURL -->
@@ -458,7 +566,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">URL di accesso</rdfs:label>
         <rdfs:label xml:lang="en">access URL</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#contactPoint -->
@@ -472,7 +580,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="en">contact point</rdfs:label>
         <rdfs:label xml:lang="it">punto di contatto</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#dataset -->
@@ -487,7 +595,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">dataset</rdfs:label>
         <owl:versionInfo xml:lang="en">1.2</owl:versionInfo>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#distribution -->
@@ -501,7 +609,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="en">distribution</rdfs:label>
         <rdfs:label xml:lang="it">distribuzione</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#downloadURL -->
@@ -517,7 +625,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <owl:versionInfo xml:lang="en">1.2</owl:versionInfo>
         <owl:versionInfo xml:lang="it">1.2</owl:versionInfo>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#landingPage -->
@@ -531,7 +639,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="en">landing page</rdfs:label>
         <rdfs:label xml:lang="it">pagina di accesso</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#theme -->
@@ -545,7 +653,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">tema</rdfs:label>
         <rdfs:label xml:lang="en">theme</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#themeTaxonomy -->
@@ -559,7 +667,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">tema del catalogo</rdfs:label>
         <rdfs:label xml:lang="en">theme taxonomy</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/locn#geographicName -->
@@ -573,7 +681,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="en">geographical name</rdfs:label>
         <rdfs:label xml:lang="it">nome geografico</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/homepage -->
@@ -587,7 +695,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="en">home page</rdfs:label>
         <rdfs:label xml:lang="it">home page</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://www.w3.org/ns/locn#geometry -->
@@ -601,10 +709,10 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">geometria</rdfs:label>
         <rdfs:label xml:lang="en">geometry</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -612,7 +720,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#endDate -->
@@ -634,7 +742,7 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <rdfs:label xml:lang="it">data fine</rdfs:label>
         <rdfs:label xml:lang="en">end date</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#referenceDoc -->
@@ -650,13 +758,13 @@ I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocab
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/identifier -->
@@ -681,7 +789,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="it">identificativo</rdfs:label>
         <rdfs:label xml:lang="en">identifier</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/issued -->
@@ -709,7 +817,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="it">data di rilascio</rdfs:label>
         <rdfs:label xml:lang="en">release date</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/modified -->
@@ -724,13 +832,13 @@ datiAmministrazione:agid
             </rdfs:Datatype>
         </rdfs:range>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
+
 
 
     <!-- http://schema.org/endDate -->
@@ -741,7 +849,7 @@ datiAmministrazione:agid
         <rdfs:comment xml:lang="en">This property is defined in schema.org and it has been added in order to guarantee the full alignment with the relative endDate (data fine) defined in the DCAT Italian application profile, DCAT-AP IT.</rdfs:comment>
         <rdfs:label>end date</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://schema.org/startDate -->
@@ -752,7 +860,7 @@ datiAmministrazione:agid
         <rdfs:isDefinedBy rdf:resource="http://schema.org/"/>
         <rdfs:label>start date</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://sdati.gov.it/onto/dcatapit#startDate -->
@@ -760,13 +868,13 @@ datiAmministrazione:agid
     <owl:DatatypeProperty rdf:about="http://sdati.gov.it/onto/dcatapit#startDate">
         <rdfs:subPropertyOf rdf:resource="http://schema.org/startDate"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#versionInfo -->
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
-    
+
 
 
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
@@ -780,7 +888,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">notation</rdfs:label>
         <rdfs:label xml:lang="it">notazione</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
@@ -794,7 +902,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="it">etichetta principale</rdfs:label>
         <rdfs:label xml:lang="en">preferred label</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#fn -->
@@ -808,7 +916,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">department name</rdfs:label>
         <rdfs:label xml:lang="it">nome dell&apos;ufficio/organizzazione</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#value -->
@@ -822,7 +930,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="it">valore</rdfs:label>
         <rdfs:label xml:lang="en">value</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#byteSize -->
@@ -836,7 +944,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">byte size</rdfs:label>
         <rdfs:label xml:lang="it">dimensione in byte</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.w3.org/ns/dcat#keyword -->
@@ -850,7 +958,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">keyword</rdfs:label>
         <rdfs:label xml:lang="it">parola chiave</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/name -->
@@ -864,10 +972,10 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">name</rdfs:label>
         <rdfs:label xml:lang="it">nome</rdfs:label>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -875,7 +983,7 @@ datiAmministrazione:agid
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#Agent -->
@@ -919,7 +1027,7 @@ datiAmministrazione:agid
         <rdfs:label xml:lang="en">Agent</rdfs:label>
         <rdfs:label xml:lang="it">Agente</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#Dataset -->
@@ -1092,7 +1200,7 @@ datiDataset:LinkedOpenIPA
    dcat:keyword  &quot;Unità Organizzativa&quot; ;
    dcat:keyword   &quot;Area Organizzativa Omogenea&quot; ;
    owl:versionOf  &quot;1.5&quot; ;
-   ct:rightsHolder 	&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
+   dct:rightsHolder 	&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dct:publisher 		&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dct:creator 		&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dcat:distribution 		&lt;http://dati.gov.it/resource/Distribuzione/LODIPA-Turtle&gt; ;
@@ -1125,7 +1233,7 @@ datiDataset:LinkedOpenIPA
    dcat:keyword  &quot;Unità Organizzativa&quot; ;
    dcat:keyword   &quot;Area Organizzativa Omogenea&quot; ;
    owl:versionOf  &quot;1.5&quot; ;
-   ct:rightsHolder 	&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
+   dct:rightsHolder 	&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dct:publisher 		&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dct:creator 		&lt;http://dati.gov.it/resource/Amministrazione/agid&gt; ;
    dcat:distribution 		&lt;http://dati.gov.it/resource/Distribuzione/LODIPA-Turtle&gt; ;
@@ -1139,7 +1247,7 @@ datiDataset:LinkedOpenIPA
         <rdfs:label xml:lang="en">Dataset</rdfs:label>
         <rdfs:label xml:lang="it">Dataset</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#Distribution -->
@@ -1216,7 +1324,7 @@ Un esempio in turtle è il seguente (dove datiDistribuzione potrebbe essere &lt;
 datiDistribuzione:LODIPA-Turtle
    a   dcatapit:Distribution , dcat:Distribution ;
    dct:title  &quot;Distribuzione Turtle di LOD IPA&quot; ;
-   dct:format  &lt;http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE&gt; ; 
+   dct:format  &lt;http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE&gt; ;
    dct:license  &lt;http://creativecommons.org/licenses/by/4.0/&gt; ;
    dcat:downloadURL  &lt;http://spcdata.digitpa.gov.it/data/ipa.ttl&gt; ;
    dcat:accessURL  &lt;http://http://spcdata.digitpa.gov.it:8899/sparql&gt; .</rdfs:comment>
@@ -1238,7 +1346,7 @@ datiDistribuzione:LODIPA-Turtle
         <rdfs:label xml:lang="en">Distribution</rdfs:label>
         <rdfs:label xml:lang="it">Distribuzione</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#LicenseDocument -->
@@ -1274,7 +1382,7 @@ La classe è definita nel contesto del profilo DCAT-AP IT come sottoclasse della
         <rdfs:label xml:lang="en">License Document</rdfs:label>
         <rdfs:label xml:lang="it">Licenza</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#Organization -->
@@ -1314,7 +1422,7 @@ La classe è definita nel contesto del profilo DCAT-AP IT come sottoclasse della
         <rdfs:label xml:lang="en">Organization</rdfs:label>
         <rdfs:label xml:lang="it">Organizzazione</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit#Standard -->
@@ -1378,7 +1486,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Standard</rdfs:label>
         <rdfs:label xml:lang="it">Standard</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/Frequency -->
@@ -1390,7 +1498,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Frequency</rdfs:label>
         <rdfs:label xml:lang="it">Frequenza</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/LicenseDocument -->
@@ -1401,7 +1509,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
         <rdfs:label>License Document</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/LinguisticSystem -->
@@ -1413,7 +1521,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Linguistic System</rdfs:label>
         <rdfs:label xml:lang="it">Sistema linguistico</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/Location -->
@@ -1439,7 +1547,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="it">Localizzazione geografica</rdfs:label>
         <rdfs:label xml:lang="en">Location</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/MediaTypeOrExtent -->
@@ -1451,7 +1559,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="it">Formato</rdfs:label>
         <rdfs:label xml:lang="en">Media Type or Extent</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/PeriodOfTime -->
@@ -1491,7 +1599,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Period of Time</rdfs:label>
         <rdfs:label xml:lang="it">Periodo Temporale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.org/dc/terms/Standard -->
@@ -1502,7 +1610,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:comment xml:lang="en">This class is defined in Dublin Core and it has been added in order to align it with the Standard class defined in DCAT.AP IT.</rdfs:comment>
         <rdfs:label>Standard</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
@@ -1514,13 +1622,13 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Resource</rdfs:label>
         <rdfs:label xml:lang="it">Risorsa</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
-    
+
 
 
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
@@ -1538,7 +1646,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="it">Categoria</rdfs:label>
         <rdfs:label xml:lang="en">Category</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
@@ -1556,7 +1664,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Category Schema</rdfs:label>
         <rdfs:label xml:lang="it">Schema Categoria</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#Email -->
@@ -1568,7 +1676,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Email</rdfs:label>
         <rdfs:label xml:lang="it">Email</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#Kind -->
@@ -1580,7 +1688,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Contact Point</rdfs:label>
         <rdfs:label xml:lang="it">Punto di contatto</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#Organization -->
@@ -1592,7 +1700,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:comment xml:lang="en">This class is defined in vCard and it has been added in order to guarantee the alignment with the vcard:Kind as required in DCAT.</rdfs:comment>
         <rdfs:label>Organization</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2006/vcard/ns#TelephoneType -->
@@ -1610,7 +1718,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Phone</rdfs:label>
         <rdfs:label xml:lang="it">Telefono</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/ns/adms#Identifier -->
@@ -1628,13 +1736,13 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="it">Identificatore</rdfs:label>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/ns/adms#SemanticAsset -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/adms#SemanticAsset"/>
-    
+
 
 
     <!-- http://www.w3.org/ns/locn#Geometry -->
@@ -1646,7 +1754,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="it">Geometria</rdfs:label>
         <rdfs:label xml:lang="en">Geometry</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Agent -->
@@ -1657,7 +1765,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:label>Agent</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Document -->
@@ -1669,7 +1777,7 @@ Un esempio in turtle è il seguente (dove datiStandard potrebbe essere &lt;http:
         <rdfs:label xml:lang="en">Document</rdfs:label>
         <rdfs:label xml:lang="it">Documento</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://dati.gov.it/onto/dcatapit#Catalog -->
@@ -1778,7 +1886,25 @@ datiCatalogo:SPCDataCatalog
         <rdfs:label xml:lang="it">Catalogo</rdfs:label>
         <rdfs:label xml:lang="en">Catalogue</rdfs:label>
     </owl:Class>
-    
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/Project -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/Project"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/SemanticAsset -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+
 
 
     <!-- https://www.w3.org/ns/dcat#Catalog -->
@@ -1789,7 +1915,7 @@ datiCatalogo:SPCDataCatalog
         <rdfs:isDefinedBy rdf:resource="https://www.w3.org/ns/dcat"/>
         <rdfs:label>Catalog</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://www.w3.org/ns/dcat#Dataset -->
@@ -1800,7 +1926,7 @@ datiCatalogo:SPCDataCatalog
         <rdfs:isDefinedBy rdf:resource="https://www.w3.org/ns/dcat"/>
         <rdfs:label>Dataset</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://www.w3.org/ns/dcat#Distribution -->
@@ -1811,10 +1937,10 @@ datiCatalogo:SPCDataCatalog
         <rdfs:isDefinedBy rdf:resource="https://www.w3.org/ns/dcat"/>
         <rdfs:label>Distribution</rdfs:label>
     </owl:Class>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -1822,18 +1948,181 @@ datiCatalogo:SPCDataCatalog
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://dati.gov.it/onto/dcatapit -->
 
     <owl:NamedIndividual rdf:about="http://dati.gov.it/onto/dcatapit">
-        <rdf:type rdf:resource="http://www.w3.org/ns/adms#SemanticAsset"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
+        <terms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <terms:creator rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <terms:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+        <terms:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+        <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/onto-agid"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <terms:identifier>http://dati.gov.it/onto/dcatapit</terms:identifier>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-18</terms:issued>
+        <dcat:keyword xml:lang="it">catalogo dati</dcat:keyword>
+        <dcat:keyword xml:lang="it">dataset</dcat:keyword>
+        <dcat:keyword xml:lang="it">dati aperti</dcat:keyword>
+        <dcat:keyword xml:lang="it">distribuzione</dcat:keyword>
+        <dcat:keyword xml:lang="it">distribuzione dataset</dcat:keyword>
     </owl:NamedIndividual>
-    
 
 
-    <!-- 
+
+    <!-- http://publications.europa.eu/resource/authority/data-theme/GOVE -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/file-type/JSON_LD -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/file-type/RDF_XML -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/frequency/IRREG -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/language/ENG -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+
+
+
+    <!-- http://publications.europa.eu/resource/authority/language/ITA -->
+
+    <owl:NamedIndividual rdf:about="http://publications.europa.eu/resource/authority/language/ITA"/>
+
+
+
+    <!-- https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+
+
+
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
+
+
+
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
+
+
+
+    <!-- https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
+
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+
+
+
+    <!-- https://w3id.org/italia/data/contact-point/onto-agid -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/contact-point/onto-agid"/>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/DCATAPIT-JSON-LD -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/DCATAPIT-JSON-LD">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld"/>
+        <terms:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia DCAT-AP_IT</terms:description>
+        <terms:description xml:lang="en">This is the distribution in JSON-LD of the DCAT-AP_IT ontology</terms:description>
+        <terms:title xml:lang="it">Distribuzione JSON-LD ontologia DCAT-AP_IT</terms:title>
+        <terms:title xml:lang="en">JSON-LD distribution of DCAT-AP_IT Ontology</terms:title>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl"/>
+        <terms:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia DCAT-AP_IT</terms:description>
+        <terms:description xml:lang="en">This is the distribution in RDF/turtle of the DCAT-AP_IT ontology</terms:description>
+        <terms:title xml:lang="it">Distribuzione RDF/Turtle ontologia DCAT-AP_IT</terms:title>
+        <terms:title xml:lang="en">RDF/Turtle distribution of DCAT-AP_IT Ontology</terms:title>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <terms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf"/>
+        <terms:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia DCAT-AP_IT</terms:description>
+        <terms:description xml:lang="en">This is the distribution in RDF/XML of the DCAT-AP_IT ontology</terms:description>
+        <terms:title xml:lang="it">Distribuzione RDF/XML ontologia DCAT-AP_IT</terms:title>
+        <terms:title xml:lang="en">RDF/XML distribution of DCAT-AP_IT Ontology</terms:title>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/project/datigovit -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/project/datigovit">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/Project"/>
+        <l0:name xml:lang="it">Dati.gov.it - Il catalogo nazionale dei dati aperti della pubblica amministrazione</l0:name>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/public-organization/agid -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <terms:identifier>agid</terms:identifier>
+        <foaf:name xml:lang="it">Agenzia per l&apos;Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+		<rdfs:label xml:lang="it">Agenzia per l&apos;Italia Digitale</rdfs:label>
+        <rdfs:label xml:lang="en">Italian Digital Agency</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotations
@@ -1880,5 +2169,4 @@ datiCatalogo:SPCDataCatalog
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

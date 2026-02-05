@@ -1,31 +1,31 @@
-Codice_1_livello,Label_ITA_1_livello
-1,Intestatario Scheda
-2,Marito / Moglie
-3,Figlio / Figlia
-4,Nipote (discendente)
-5,Pronipote (discendente)
-6,Padre / Madre
-7,Nonno / Nonna
-8,Bisnonno / Bisnonna
-9,Fratello / Sorella
-10,Nipote (collaterale)
-11,Zio / Zia (Collaterale)
-12,Cugino / Cugina
-13,Altro Parente
-14,Figliastro / Figliastra
-15,Patrigno / Matrigna
-16,Genero / Nuora
-17,Suocero / Suocera
-18,Cognato / Cognata
-19,Fratellastro / Sorellastra
-20,Nipote (Affine)
-21,Zio / Zia (Affine)
-22,Altro Affine
-23,Convivente (con vincoli di adozione o affettivi)
-24,Responsabile della convivenza non affettiva
-25,Convivente in convivenza non affettiva
-26,Tutore
-28,Unito civilmente
-80,Adottato
-81,Nipote
-99,Non definito/comunicato
+codice_1_livello,label_1_livello_it,note
+1,Intestatario della Scheda,
+2,Marito / Moglie,
+3,Figlio / Figlia,
+4,Nipote (discendente),
+5,Pronipote (discendente),
+6,Padre / Madre,
+7,Nonno / Nonna,
+8,Bisnonno / Bisnonna,
+9,Fratello / Sorella,
+10,Nipote (collaterale),
+11,Zio / Zia (collaterale),
+12,Cugino / Cugina,
+13,Altro Parente,
+14,Figliastro / Figliastra,Non Valido
+15,Patrigno / Matrigna,Non Valido
+16,Genero / Nuora,
+17,Suocero / Suocera,
+18,Cognato / Cognata,
+19,Fratellastro / Sorellastra,Non Valido
+20,Nipote (affine),
+21,Zio / Zia (affine),
+22,Altro Affine,
+23,Convivente (con vincoli di adozione o affettivi),
+24,Responsabile della convivenza non affettiva,
+25,Convivente in convivenza non affettiva,
+26,Tutore,Non Valido
+28,Unito civilmente,
+80,Adottato,Non Valido
+81,Nipote,Non Valido
+99,Non definito/comunicato,Non Valido

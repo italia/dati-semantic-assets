@@ -12,7 +12,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 skos:ConceptScheme
       a       rdfs:Class .
@@ -146,6 +146,9 @@ xkos:numberOfLevels
 clvapit:hasRankOrder
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
+
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
       rdfs:comment "Classification of the business events for the Italian catalogue of public services"@en , "Classificazione degli eventi business per il catalogo italiano dei servizi pubblici"@it ;
@@ -153,6 +156,7 @@ clvapit:hasRankOrder
       dct:title "Controlled Vocabulary of Business Events"@en , "Vocabolario controllato degli eventi di business (evento della vita di un'impresa)"@it ;
       dct:description "Controlled Vocabulary  of the business events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"@en , "Vocabolario controllato della classificazione degli eventi di business (eventi della vita di un'impresa) utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"@it ;
       xkos:numberOfLevels "1";
+      ndc:keyConcept "business-event" ;
       dct:type <http://purl.org/adms/assettype/CodeList> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "agid:D.9" ;
@@ -210,8 +214,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici"@it , "This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.ttl> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event> .
+      dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event/business-event.ttl> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event> .
 
 <http://dati.gov.it/data/resource/Distribution/BE_RDF_XML>
       a	dcatapit:Distribution  ;
@@ -219,8 +223,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.rdf> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event> .
+      dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event/business-event.rdf> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event> .
 
 <http://dati.gov.it/data/resource/Distribution/BE_JSON_LD>
       a	dcatapit:Distribution  ;
@@ -228,8 +232,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.jsonld> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event> .
+      dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event/business-event.jsonld> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event> .
 
 <http://dati.gov.it/data/resource/Distribution/BE_CSV>
       a	dcatapit:Distribution  ;
@@ -237,8 +241,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici"@it , "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.csv> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event> .
+      dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event/business-event.csv> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event> .
 
 
 <http://dati.gov.it/data/resource/Distribution/BE_XLSX>
@@ -247,8 +251,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici"@it , "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.xlsx> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event> .
+      dcat:downloadURL  <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event/business-event.xlsx> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/life-business-event/business-event> .
 
 
 #Definition of the controlled vocabulary

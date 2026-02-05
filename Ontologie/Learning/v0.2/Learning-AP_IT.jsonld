@@ -1,0 +1,3421 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/academicYear"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/isDegreeClassOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/isDegreeClassOf"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasDegreeClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/HER/AcademicDiscipline"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/HER/hasAcademicDisciplines"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/Language"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/hasLanguage"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasDegreeClass"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/hasMember"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/credit"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/identifier"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/SM/URL"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/hasLanguage"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/Language"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/definesDegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/definesProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasEOSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOfferingSite"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/Language"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Language/hasLanguage"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/definesDegreeCourse"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/definesProgrammeType"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOfferingSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasEOSite"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasAcademicYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/atInstitute"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/atInstitute"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasDegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EnrolmentStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasEnrolmentStatus"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasRegistrationYear"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/courseYear"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasGrade"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/leadsTo"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/GradingScale"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasGradingScale"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/gradeValue"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasMaximumGrade"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasMinimumGrade"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/InstituteType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasInstituteType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/instituteName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/instituteName"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/instituteCode"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/providedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Examination"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/includesExamination"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/providedBy"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/isMemberOf"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/credit"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/SM/URL"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/hasMember"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/hasMember"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/entitlesTo"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/Learning/Examination"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/identifier"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Profession"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/enablesProfession"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/QualificationLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasLevel"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/hasGrade"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/issuedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/achievedTitleName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/achievedTitleName"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "_:genid79"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/qualificationDate"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    } ]
+  } ]
+}, {
+  "@id" : "http://dati.gov.it/onto/dcatapit#Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rightsHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#accessURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#keyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#theme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasInfluencedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/le-JSON-LD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione JSON-LD dell'ontologia della (alta) Formazione (anche Artistica, Musicale e Coreutica - AFAM)"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in JSON-LD of the Learning ontology"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione JSON-LD ontologia LE-AP_IT"
+  }, {
+    "@language" : "en",
+    "@value" : "JSON-LD distribution of LE-AP_IT Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/le-RDF-TURTLE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/Turtle dell'ontologia della (alta) Formazione (anche Artistica, Musicale e Coreutica - AFAM)e"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/turtle of the Learning ontology"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/Turtle ontologia LE-AP_IT"
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/Turtle distribution of LE-AP_IT Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.ttl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/le-RDF-XML",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/XML dell'ontologia della (alta) Formazione (anche Artistica, Musicale e Coreutica - AFAM)"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/XML of the Learning ontology"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/XML ontologia LE-AP_IT"
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/XML distribution of LE-AP_IT Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.rdf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "cnr - Z6HZEH - STLab"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"
+  }, {
+    "@language" : "it",
+    "@value" : "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/project/NDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/Project" ],
+  "https://w3id.org/italia/onto/l0/name" : [ {
+    "@language" : "it",
+    "@value" : "National Data Catalog - schema.gov.it"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/project/OntoPiA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/Project" ],
+  "https://w3id.org/italia/onto/l0/name" : [ {
+    "@language" : "it",
+    "@value" : "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/KH5RHFCV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "KH5RHFCV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Ministero dell'Università e della Ricerca"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Ministero dell'Università e della Ricerca"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "PCM-1RSIZZ"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Digital Transformation Department of the Presidency of the Council of Ministers"
+  }, {
+    "@language" : "it",
+    "@value" : "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAsset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/acronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasFormalityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasKeyClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/last",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/officialURI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/prefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/semanticAssetInUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/hasSpatialCoverage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/COV/Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/COV/legalName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/HER/AcademicDiscipline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/HER/hasAcademicDisciplines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Language/Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Language/hasLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAsset" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning.png"
+  } ],
+  "http://purl.org/dc/terms/accrualPeriodicity" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+  }, {
+    "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia del profilo applicativo italiano sull'alta formazione e AFAM. L'ontologia modella informazioni come l'iscrizione a istituti AFAM - Alta Formazione Artistica, Musicale e Coreutica, il titolo di laurea ottenuto con la relativa votazione, l'offerta formativa di questi istituti. La modellazione è usata per definire le API della banca dati ANIS - Anagrafe Nazionale Istruzione Superiore"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the Italian application profile on higher education and AFAM. The ontology models information such as enrolment in AFAM - Alta Formazione Artistica, Musicale e Coreutica (Higher Education in Artistic, Musical and Choreographic Education) institutes, the degree obtained and its grade, and the educational offerings of these institutes. The modelling is used to define the API of the ANIS - Anagrafe Nazionale Istruzione Superiore (National Register of Higher Education) database."
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2023-07-27"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
+  }, {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ITA"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2023-11-06"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/KH5RHFCV"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Learning Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia della Formazione (inclusa Artistica, Musicale e Coreutica - AFAM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia del profilo applicativo italiano della (alta) formazione e AFAM. L'ontologia modella informazioni come l'iscrizione a istituti (e.g., AFAM - Alta Formazione Artistica, Musicale e Coreutica, Università, ITS), il titolo ottenuto con la relativa votazione, l'offerta formativa di questi istituti. La modellazione è usata per definire le API della banca dati ANIS - Anagrafe Nazionale Istruzione Superiore, nonché per mappare alcune evidenze nel contesto del Single Digital Gateway europeo.\n\nAl momento l'ontologia non modella le informazioni relative a periodi erasmus e alla mobilità di uno studente, nonché criteri di ammissione ai corsi. In successive revisioni dell'ontologia si raccoglieranno requisiti per modellare anche questi aspetti."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the Italian (higher) education and AFAM application profile. The ontology models information such as enrolment in institutes (e.g., AFAM - Alta Formazione Artistica, Musicale e Coreutica, Universities, ITS), the qualification obtained with the corresponding grade, and the educational offer of these institutes. The modelling is used to define the API of the ANIS - Anagrafe Nazionale Istruzione Superiore (National Higher Education Register) database, as well as to map some evidence in the context of the European Single Digital Gateway.\n\nAt the moment, the ontology does not model information about a student's Erasmus periods and mobility as well as course admission criteria. In subsequent revisions of the ontology, requirements will be gathered to also model these aspects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Learning Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia della Formazione (inclusa Artistica, Musicale e Coreutica - AFAM)"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/CPV"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/Language"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/RO"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/0.2"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 0.2 -  Introduction of some concepts such as Profession, QualificationLevel, credit. Better specification of the relations between learning and how this brings to the qualification."
+  }, {
+    "@language" : "it",
+    "@value" : "Versione 0.2 - Introduzione di nuovi concetti come la Professione, il livello della Qualifica (EQF e/o NQF), i crediti. Un miglior dettaglio nella modellazione che dagli insegnamenti consente di arrivare alla specifica della qualifica ottenuta."
+  } ],
+  "http://www.w3.org/ns/dcat#contactPoint" : [ {
+    "@id" : "https://w3id.org/italia/data/contact-point/stat-off-mur"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@language" : "it",
+    "@value" : "AFAM"
+  }, {
+    "@language" : "it",
+    "@value" : "alta formazione"
+  }, {
+    "@language" : "it",
+    "@value" : "formazione"
+  }, {
+    "@language" : "it",
+    "@value" : "iscrizione"
+  }, {
+    "@language" : "it",
+    "@value" : "titolo di studio"
+  }, {
+    "@language" : "it",
+    "@value" : "voto"
+  } ],
+  "http://www.w3.org/ns/dcat#theme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/acronym" : [ {
+    "@value" : "LE-AP_IT"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasFormalityLevel" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/Formal"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasKeyClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/OWL"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution" : [ {
+    "@id" : "https://w3id.org/italia/data/distribution/le-JSON-LD"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/le-RDF-TURTLE"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/le-RDF-XML"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasTask" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/AnnotationTask"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/ADMS/QueryFormulationTask"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/last" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/0.1"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/officialURI" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/prefix" : [ {
+    "@value" : "le"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/semanticAssetInUse" : [ {
+    "@id" : "https://w3id.org/italia/data/project/NDC"
+  }, {
+    "@id" : "https://w3id.org/italia/data/project/OntoPiA"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/status" : [ {
+    "@value" : "draft"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/target" : [ {
+    "@value" : "Imprese"
+  }, {
+    "@value" : "Pubbliche Amministrazioni"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/type" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/DomainOntology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A time frame (duration) for the training of students in an academic environment. Example: 2022/2023"
+  }, {
+    "@language" : "it",
+    "@value" : "Una durata temporale in cui si svolgono attività di formazione di studenti in ambito accademico. Esempio: 2022/2023"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Academic Year"
+  }, {
+    "@language" : "it",
+    "@value" : "Anno Accademico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/Duration"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Active",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/Learning/EnrolmentStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Active Enrolment"
+  }, {
+    "@language" : "it",
+    "@value" : "Iscrizione Attiva"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Le istanze di questa classe sono i concetti di un vocabolario controllato sulle classi di laurea (e.g., 06/S - Specialistiche in biologia, 05 - Lettere, ecc.). La classe di laurea è identificata da un codice univoco e da una denominazione (nome). Una classe di laurea è associata a uno o più corsi di laurea e a uno e un solo programma di studi."
+  }, {
+    "@language" : "en",
+    "@value" : "The instances of this class are the concepts of a controlled vocabulary of degree classes (e.g., 06/S - Specialisation in Biology, 05 - Humanities, etc.). The degree class is identified by a unique code and a designation (name). A degree class is associated with one or more degree courses and one and only one study programme."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Classe di Laurea"
+  }, {
+    "@language" : "en",
+    "@value" : "Degree Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Concept"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0/Topic"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  }, {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  }, {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The degree course chosen by the student. Its aim is to ensure that the student has an adequate knowledge of general scientific methods and content, even if it is oriented towards the acquisition of specific professional knowledge. (e.g. degree course in computer science, degree course in literature, etc.)."
+  }, {
+    "@value" : "Il percorso di studi scelto dallo studente. Ha l'obiettivo di assicurare allo studente un'adeguata padronanza di metodi e contenuti scientifici generali, anche nel caso in cui sia orientato all'acquisizione di specifiche conoscenze professionali. (e.g., corso di laurea in informatica, corso di laurea in lettere, ecc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Corso di Laurea"
+  }, {
+    "@language" : "en",
+    "@value" : "Degree Course"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Collection"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid27"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid29"
+  }, {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents the set of degree courses offered by institutes in Italy.\n\nThe educational offering is described by several elements. In the current version of the ontology, the educational offering is described by the academic year, the location of the institution, the programme type, the degree courses and the language of delivery."
+  }, {
+    "@language" : "it",
+    "@value" : "Rappresenta l’insieme dei corsi di studio che gli Istituti propongono sul territorio italiano.\n\nL'offerta formativa viene descritta da diversi elementi. Nell'attuale versione dell'ontologia, l'offerta formativa è descritta dall'anno accademico, dalla sede dell'istituto, dalla tipologia di corso di studi, dai corsi di laurea e dalla lingua di erogazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Offering"
+  }, {
+    "@language" : "it",
+    "@value" : "Offerta formativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Description"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  }, {
+    "@id" : "_:genid37"
+  }, {
+    "@id" : "_:genid38"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
+  }, {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/EducationalOfferingSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Il luogo o sede dell'istituto di (alta) formazione di erogazione di una specifica offerta formativa."
+  }, {
+    "@language" : "en",
+    "@value" : "The location or site of the (higher) education institution providing a specific educational offering."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Offering Site"
+  }, {
+    "@language" : "it",
+    "@value" : "Luogo Offerta Formativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Feature"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Enrolment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A situation in which a person formally registers with a (higher) education institution becoming a student.\n\nFrom a technical point of view, the enrolment class represents an n-ary that brings together several elements: academic year, a specific type of programme type (e.g. bachelor's degree, master's degree, etc.), a specific degree class and a specific degree course (e.g. Computer Engineering, Political Science, etc.).\n\nThe enrolment has a temporal validity."
+  }, {
+    "@language" : "it",
+    "@value" : "Una situazione che vede una persona registrarsi formalmente presso un istituto di istruzione (superiore) assumendo così il ruolo di studente.\n\nDa un punto di vista tecnico, la classe iscrizione rappresenta una n-ary che mette insieme diversi elementi: anno accademico, uno specifico tipo di corso di studi (e.g., laurea triennale, laurea magistrale, ecc.), una specifica classe di laurea e uno specifico corso di laurea (e.g., Ingegneria Informatica, Scienze Politiche, ecc.).\n\nL'iscrizione ha una validità temporale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Enrolment"
+  }, {
+    "@language" : "it",
+    "@value" : "Iscrizione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/EventOrSituation"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid46"
+  }, {
+    "@id" : "_:genid47"
+  }, {
+    "@id" : "_:genid48"
+  }, {
+    "@id" : "_:genid49"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/EnrolmentStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La classe che determina in che stato si trova l'iscrizione. Essa può essere infatti attiva, sospesa o terminata."
+  }, {
+    "@language" : "en",
+    "@value" : "The class determines what status the enrolment is in. It can in fact be active, suspended and terminated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Enrolment Status"
+  }, {
+    "@language" : "it",
+    "@value" : "Stato Iscrizione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Examination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A formal test of a person's knowledge or proficiency to be taken at a specific time in a specific subject or skill."
+  }, {
+    "@language" : "it",
+    "@value" : "Una prova formale di conoscenza o di abilità di una persona da sostenere in un momento specifico in una determinata materia."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Esame"
+  }, {
+    "@language" : "en",
+    "@value" : "Examination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  }, {
+    "@id" : "_:genid50"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/FinalExamination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A formal test planned at the end of a course of study leading to a qualification. This test may result in the preparation and discussion of a (dissertation) thesis."
+  }, {
+    "@language" : "it",
+    "@value" : "Una prova formale prevista al termine di un percorso di insegnamenti che permette di ottenere una qualifica. Tale prova può avere come risultato la preparazione e la discussione di una tesi (di laurea)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Esame Finale"
+  }, {
+    "@language" : "en",
+    "@value" : "Final Examination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Examination"
+  }, {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Il risultato (voto) conseguito dallo studente (riportato in rapporto al voto massimo  conseguibile)"
+  }, {
+    "@language" : "en",
+    "@value" : "The assigned mark for an achievement of a student"
+  }, {
+    "@language" : "en",
+    "@value" : "The class of the result (grade) achieved by the student (reported in relation to the maximum attainable grade)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grade"
+  }, {
+    "@language" : "it",
+    "@value" : "Voto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Concept"
+  }, {
+    "@id" : "_:genid52"
+  }, {
+    "@id" : "_:genid53"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/GradingScale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La classe rappresenta la scala dei voti. Attraverso questa classe è possibile specificare un voto minimo e un voto massimo"
+  }, {
+    "@language" : "en",
+    "@value" : "The class represents the grade range. Through this class it is possible to specify a minimum grade and a maximum grade."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Grading Scale"
+  }, {
+    "@language" : "it",
+    "@value" : "Scala di Valutazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+  }, {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://data.europa.eu/snb/model/elm/GradingScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Institute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any institution providing education courses capable of awarding degrees.\n\nIn the case of higher education, any institution providing higher education courses capable of awarding the qualifications referred to in Article 3 of Italian Ministerial Decree No 270 of 22 October 2004 and those referred to in Article 3 of Italian Presidential Decree No 212 of 8 July 2005."
+  }, {
+    "@language" : "it",
+    "@value" : "Ogni Istituto che eroga corsi di istruzione atto a rilasciare titoli.\n\nNel caso di istruzione superiore, ogni istituto che eroga corsi di istruzione superiore atto a rilasciare i titoli di cui all'art. 3 del decreto ministeriale 22 ottobre 2004, n. 270 del  2004 nonche' quelli di cui all'art. 3 del  decreto  del  Presidente  della Repubblica 8 luglio 2005, n. 212."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Institute"
+  }, {
+    "@language" : "it",
+    "@value" : "Istituto di (Alta) Formazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/Organization"
+  }, {
+    "@id" : "_:genid56"
+  }, {
+    "@id" : "_:genid57"
+  }, {
+    "@id" : "_:genid58"
+  }, {
+    "@id" : "_:genid59"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://data.europa.eu/snb/model/elm/Organisation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/InstituteType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La tipologia di istituto usata per indicare se l'istituto è privato oppure pubblico. Di solito la distinzione è tra istituto statale (pubblico) e non statale (privato)."
+  }, {
+    "@language" : "en",
+    "@value" : "The type of institution used to indicate whether the institution is private (non state) or public (state)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Institute Type"
+  }, {
+    "@language" : "it",
+    "@value" : "Tipo di Istituto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0/Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Learning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any event of training delivered by an organisation (institute) and attended by a person. It could include an examination. The event leads to the acquisition of knowledge, skills or responsibility and autonomy."
+  }, {
+    "@language" : "it",
+    "@value" : "Qualsiasi evento di formazione erogato da un'organizzazione (istituto) e frequentato da una persona. Può includere esami. L'evento porta all'acquisizione di conoscenze, competenze o responsabilità e autonomia."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Insegnamento"
+  }, {
+    "@language" : "en",
+    "@value" : "Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  }, {
+    "@id" : "_:genid60"
+  }, {
+    "@id" : "_:genid61"
+  }, {
+    "@id" : "_:genid62"
+  }, {
+    "@id" : "_:genid63"
+  }, {
+    "@id" : "_:genid64"
+  }, {
+    "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/ns/prov#wasInfluencedBy" : [ {
+    "@id" : "http://data.europa.eu/snb/model/elm/LearningActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/LearningAchievementSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A description of what a student (person) learnt expressed as learning outcomes."
+  }, {
+    "@language" : "it",
+    "@value" : "Una descrizione di ciò che uno studente (persona) ha appreso espressa come risultati degli insegnamenti."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Learning Achievement Specification"
+  }, {
+    "@language" : "it",
+    "@value" : "Specifica Risultati Insegnamenti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Collection"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0/Description"
+  }, {
+    "@id" : "_:genid66"
+  }, {
+    "@id" : "_:genid67"
+  }, {
+    "@id" : "_:genid68"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ],
+  "http://www.w3.org/ns/prov#wasInfluencedBy" : [ {
+    "@id" : "http://data.europa.eu/snb/model/elm/LearningAchievementSpecification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Private",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/Learning/InstituteType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Si intendono tutti gli istituti cosiddetti non statali"
+  }, {
+    "@language" : "en",
+    "@value" : "This means all the so-called non-state institutes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Private"
+  }, {
+    "@language" : "it",
+    "@value" : "Privato"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Profession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A profession is a field of work that has been successfully professionalized."
+  }, {
+    "@language" : "it",
+    "@value" : "Qualsiasi attività intellettuale o manuale esercitata in modo continuativo e a scopo di guadagno per cui è richiesta l'abilitazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Profession"
+  }, {
+    "@language" : "it",
+    "@value" : "Professione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RO/Role"
+  }, {
+    "@id" : "_:genid69"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ],
+  "http://www.w3.org/ns/prov#wasInfluencedBy" : [ {
+    "@id" : "http://data.europa.eu/snb/model/elm/LearningEntitlement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La classe delle categorie di programmi di studio (es. laurea triennale, laurea magistrale, dottorato di ricerca, ecc.)"
+  }, {
+    "@language" : "en",
+    "@value" : "The class of programme categories (e.g. Bachelor's degree, Master's degree, PhD, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Programme Type"
+  }, {
+    "@language" : "it",
+    "@value" : "Tipologia Corso di Studio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0/Concept"
+  }, {
+    "@id" : "_:genid70"
+  }, {
+    "@id" : "_:genid71"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/Learning/InstituteType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Si intendono tutti gli istituti cosiddetti statali"
+  }, {
+    "@language" : "en",
+    "@value" : "This means all so-called state institutes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Pubblico"
+  }, {
+    "@language" : "en",
+    "@value" : "Public"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Qualification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A formal certification issued by a competent authority at the end of a learning path as proof of having achieved learning outcomes to given standards as established by the national education system."
+  }, {
+    "@language" : "it",
+    "@value" : "Una certificazione formale rilasciata da un'autorità competente al termine di un percorso di studi come prova del raggiungimento di risultati di apprendimento secondo determinati standard stabiliti dal sistema educativo nazionale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Qualifica (Titolo di Studio)"
+  }, {
+    "@language" : "en",
+    "@value" : "Qualification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Object"
+  }, {
+    "@id" : "_:genid72"
+  }, {
+    "@id" : "_:genid73"
+  }, {
+    "@id" : "_:genid74"
+  }, {
+    "@id" : "_:genid75"
+  }, {
+    "@id" : "_:genid76"
+  }, {
+    "@id" : "_:genid77"
+  }, {
+    "@id" : "_:genid78"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://data.europa.eu/m8g/Evidence"
+  }, {
+    "@id" : "http://data.europa.eu/snb/model/elm/Qualification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/QualificationLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Il livello della qualifica secondo framework europei (European Qualification Framework) e nazionali. Gli individui della classe infatti potrebbero essere i concetti di uno specifico vocabolario controllato sia con valenza europea (i.e., EQF Level), sia con valenza italiana (i.e., PCN EQF a cura dell'ANPAL)."
+  }, {
+    "@language" : "en",
+    "@value" : "The qualification level according to European (European Qualification Framework) and national frameworks. The individuals of the class in fact could be the concepts of a specific controlled vocabulary both with European relevance (i.e., EQF Level) and with Italian relevance (i.e., PCN EQF by ANPAL)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Livello di Qualifica"
+  }, {
+    "@language" : "en",
+    "@value" : "Qualification Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Characteristic"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ],
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Student",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Quando una persona si iscrive a un istituto di (alta) formazione, assume il ruolo di studente"
+  }, {
+    "@language" : "en",
+    "@value" : "When a person enrols in an institution of (higher) education, he/she assumes the role of student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Student"
+  }, {
+    "@language" : "it",
+    "@value" : "Studente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RO/Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Suspended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/Learning/EnrolmentStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Iscrizione Sospesa"
+  }, {
+    "@language" : "en",
+    "@value" : "Suspended Enrolment"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Terminated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/Learning/EnrolmentStatus" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Iscrizione Terminata"
+  }, {
+    "@language" : "en",
+    "@value" : "Terminated Enrolment"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/academicYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A time period in which students are trained in academia. Example: 2022/2023.\n\nThe property is used with the related class 'Academic Year' to indicate its value."
+  }, {
+    "@language" : "it",
+    "@value" : "Un periodo temporale in cui si svolgono attività di formazione di studenti in ambito accademico. Esempio: 2022/2023.\n\nLa proprietà è usata con la relativa classe 'Anno Accademico' per indicare il suo valore (espresso come stringa alfanumerica)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "academic year"
+  }, {
+    "@language" : "it",
+    "@value" : "anno accademico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/time"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/achievedTitleName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La denominazione del titolo di studio conseguito."
+  }, {
+    "@language" : "en",
+    "@value" : "The name of the qualification obtained."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Nome titolo di studio"
+  }, {
+    "@language" : "en",
+    "@value" : "achieved title name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/name"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/atInstitute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to link a person's enrolment in a specific (higher) education institution."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per collegare l'iscrizione di una persona a uno specifico istituto di (alta) formazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "a istituto di (alta) formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "at institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/attends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent the attendance relationship of a person with respect to learning activities."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per rappresentare la relazione di frequenza di una persona rispetto ad attività di apprendimento/insegnamento."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "attends"
+  }, {
+    "@language" : "it",
+    "@value" : "frequenta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/courseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Last year in which the student is enrolled in the course (e.g., 1st year, 2nd year)"
+  }, {
+    "@language" : "it",
+    "@value" : "Ultimo anno in cui lo studente risulta iscritto al corso (es:, 1° anno, 2°anno)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "anno corso"
+  }, {
+    "@language" : "en",
+    "@value" : "course year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/time"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/credit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà rappresenta i crediti formativi universitari o accademici (CFU)"
+  }, {
+    "@language" : "en",
+    "@value" : "The property represents university or academic credits (CFU)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "credit"
+  }, {
+    "@language" : "it",
+    "@value" : "credito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/definesDegreeCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that makes it possible to represent the degree courses that define the educational offerings of a (higher) education institution."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di rappresentare i corsi di laurea che definiscono l'offerta formativa di un istituto di (alta) formazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines degree course"
+  }, {
+    "@language" : "it",
+    "@value" : "definisce corso di laurea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/definesProgrammeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà utilizzata per rappresentare la tipologia di corso di studio nell'offerta formativa di un istituto di (alta) formazione."
+  }, {
+    "@language" : "en",
+    "@value" : "The property used to represent the study programme type (e.g., Bachelor, PhD) in the educational offering of an institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines programme type"
+  }, {
+    "@language" : "it",
+    "@value" : "definisce tipologia di corso di studi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/enablesLearning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà che consente di rappresentare la relazione tra l'iscrizione che dà diritto alla partecipazione, da parte di una persona, a un percorso di insegnamenti."
+  }, {
+    "@language" : "en",
+    "@value" : "The property that makes it possible to represent the relationship between enrolment entitling a person to participate in a course of learning."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "abilita formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "enables learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/enablesProfession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows one to specify whether a qualification enables for one or more professions"
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare qualora una qualifica abilit a una o più professioni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "abilita professione"
+  }, {
+    "@language" : "en",
+    "@value" : "enables profession"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/entitlesTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that links the specification of all learning outcomes achieved in the learning followed by a person with the qualification that can be obtained through the achievement of the outcomes, according to the standards of the national education system."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che collega la specifica di tutti i risultati ottenuti negli insegnamenti seguiti da una persona con la qualifica che può essere ottenuta grazie al raggiungimento dei risultati, secondo standard del sistema educativo nazionale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/LearningAchievementSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "dà diritto a"
+  }, {
+    "@language" : "en",
+    "@value" : "entitles to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/gradeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Il valore numerico del risultato (voto) conseguito da uno studente. Esempio: 26 oppure anche 26/30."
+  }, {
+    "@language" : "en",
+    "@value" : "The numerical value of the result (grade) achieved by a student. Example: 26 or  26/30."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade value"
+  }, {
+    "@language" : "it",
+    "@value" : "valore voto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/MU/value"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasAcademicYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "General property used to specify an academic year for the enrolment and the educational offering."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà generale utilizzata per specificare un anno accademico per l'iscrizione e l'offerta formativa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha anno accademico"
+  }, {
+    "@language" : "en",
+    "@value" : "has academic year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/hasTemporalEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasAchievedTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà che consente di rappresentare che una certa iscrizione di una persona a un istituto di (alta) formazione ha portato al conseguimento di un titolo (qualifica)."
+  }, {
+    "@language" : "en",
+    "@value" : "The property that makes it possible to represent that a certain enrolment of a person at an institution of (higher) education has led to the attainment of a title (qualification)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha titolo ottenuto"
+  }, {
+    "@language" : "en",
+    "@value" : "has achieved title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasDegreeClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The property used to specify the degree classes both in enrolments and in the relationship with degree courses."
+  }, {
+    "@value" : "La proprietà utilizzata per specificare le classi di laurea sia nelle iscrizioni sia nel rapporto con i corsi di laurea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha classe di laurea"
+  }, {
+    "@language" : "en",
+    "@value" : "has degree class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/isDegreeClassOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasDegreeCourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà consente di rappresentare il corso di laurea che una persona sceglie quando si iscrive a un istituto di (alta) formazione."
+  }, {
+    "@language" : "en",
+    "@value" : "The property makes it possible to represent the degree course a person chooses when enrolling in an institution of (higher) education."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha corso di laurea"
+  }, {
+    "@language" : "en",
+    "@value" : "has degree course"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeCourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasEOSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to represent the location of the (higher) education institution in its educational offering."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà usata per rappresentare la sede dell'istituto di (alta) formazione nell'offerta formativa dello stesso."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha sede offerta formativa"
+  }, {
+    "@language" : "en",
+    "@value" : "has educational offering site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOfferingSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/hasSpatialCoverage"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasEducationalOffering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà che consente di specificare l'offerta formativa di un istituto di (alta) formazione."
+  }, {
+    "@language" : "en",
+    "@value" : "The property that allows one to specify the educational offering of a (higher) education institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha offerta formativa"
+  }, {
+    "@language" : "en",
+    "@value" : "has educational offering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EducationalOffering"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasEnrolment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows one to represent enrolment in a (higher) education institution for a person."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di rappresentare l'iscrizione a un istituto di (alta) formazione per una persona."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha iscrizione"
+  }, {
+    "@language" : "en",
+    "@value" : "has enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/isEnrolmentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasEnrolmentStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows an enrolment to be linked to its status (open, terminated, suspended)."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di collegare l'iscrizione a un suo stato (aperta, terminata, sospesa)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha stato iscrizione"
+  }, {
+    "@language" : "en",
+    "@value" : "has enrolment status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/EnrolmentStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasEnrolmentValidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La proprietà che consente di specificare la validità di un'iscrizione in termini temporali."
+  }, {
+    "@language" : "en",
+    "@value" : "The property that allows one to indicate the validity of an enrolment to be specified in terms of time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha periodo di validà iscrizione"
+  }, {
+    "@language" : "en",
+    "@value" : "has enrolment validity period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TemporalEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/hasTemporalEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasGrade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property allowing a grade to be specified in the  qualification obtained or in each examination taken."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare un voto nella qualifica finale ottenuto o in ciascun esame sostenuto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha voto"
+  }, {
+    "@language" : "en",
+    "@value" : "has grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasGradingScale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows a grade scale to be defined in the grade specification."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di definire una scala di voti nella specifica del voto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha scala di valutazione"
+  }, {
+    "@language" : "en",
+    "@value" : "has grading scale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/GradingScale"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasInstituteType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to specify the type of (higher) education institution."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per specificare la tipologia di istituto di (alta) formazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha tipo istituto"
+  }, {
+    "@language" : "en",
+    "@value" : "has institute type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/InstituteType"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasLastEnrolmentYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to indicate the last academic year in which the student was enrolled in the degree course."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà utilizzata per indicare nell'iscrizione l'ultimo anno accademico in cui lo studente risulta iscritto al corso."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha ultimo anno accademico iscrizione corso"
+  }, {
+    "@language" : "en",
+    "@value" : "has last enrolment year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Property allowing the qualification level to be specified according to the European Qualification Framework standards and its mapping to the national one."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare il livello della qualifica secondo gli standard dell'European Qualification Framework e relativi mapping su quello nazionale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha livello"
+  }, {
+    "@language" : "en",
+    "@value" : "has level"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasMaximumGrade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows one to specify the maximum grade on the grading scale."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare il voto massimo nella scala di valutazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/GradingScale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha voto massimo"
+  }, {
+    "@language" : "en",
+    "@value" : "has maximum grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasMinimumGrade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows one to specify the minimum grade on the grading scale."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare il voto minimo nella scala di valutazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/GradingScale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha voto minimo"
+  }, {
+    "@language" : "en",
+    "@value" : "has minimum grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasProgrammeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property used to specify the type of study programme. It is currently valued for enrolment and for linking degree classes to the relevant programme type."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà usata per specificare la tipologia di corso di studi. È attualmente valorizzata per l'iscrizione e per collegare le classi di laurea alla relativa tipologia di corsi di studi."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha tipologia di corso di studi"
+  }, {
+    "@language" : "en",
+    "@value" : "has programme type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/ProgrammeType"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/hasRegistrationYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that allows you to specify the academic year of a person's registration (i.e., the academic year in which the student was admitted to the (higher) education institution, the specified course of study)."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specifica l'anno accademico di immatricolazione di una persona (i.e.,l'anno accademico nel quale lo studente ha avuto accesso all'istituto di (alta) formazione, al corso di studi specificato)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha anno accademico di immatricolazione"
+  }, {
+    "@language" : "en",
+    "@value" : "has registration year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/AcademicYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/hasTemporalEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/includesExamination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that links a learning activity with its associated examinations."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che collega un insegnamento con gli esami ad esso associati."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "include esame"
+  }, {
+    "@language" : "en",
+    "@value" : "includes examination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Examination"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/instituteCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Identificativo univoco dell'istituto di formazione."
+  }, {
+    "@language" : "en",
+    "@value" : "Unique identifier of the educational institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice istituto"
+  }, {
+    "@language" : "en",
+    "@value" : "institute code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/instituteName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La denominazione (legale) dell'istituto"
+  }, {
+    "@language" : "en",
+    "@value" : "The legal name of the institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "institute name"
+  }, {
+    "@language" : "it",
+    "@value" : "nome istituto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/legalName"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/isDegreeClassOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of 'has degree class' that allows the degree class to be linked to the enrolment and degree courses to which they relate."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di 'ha classe di laurea' che consente di collegare la classe di laurea all'iscrizione e ai corso di laurea a cui si riferiscono."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/DegreeClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is degree class of"
+  }, {
+    "@language" : "it",
+    "@value" : "è classe di laurea di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/isEnrolmentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inverse property of 'has enrolment' which allows enrolments to be associated with the relevant persons."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà inversa di 'has enrolment' che consente di associare le iscrizioni alle relative persone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Enrolment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is enrolment of"
+  }, {
+    "@language" : "it",
+    "@value" : "è iscrizione di persona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/isVocational",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property allowing one to specify whether an educational offer or course is vocational or not."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di specificare se un'offerta formativa o un corso è professionalizzante o meno."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/l0/Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is vocational"
+  }, {
+    "@language" : "it",
+    "@value" : "è professionalizzante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "provvisoria"
+  }, {
+    "@language" : "en",
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/issuedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that links the qualification to the (higher) education institution that awarded it."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che lega la qualifica all'istituto di (alta) formazione che l'ha rilasciata."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "issued by"
+  }, {
+    "@language" : "it",
+    "@value" : "rilasciata da"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/leadsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that links the final examination of a course of learning, where a (degree) thesis may be discussed and presented, to the qualification/title."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che lega l'esame finale di un percorso di studi, dove può venire discussa e presentata una tesi (di laurea), alla qualifica/titolo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/FinalExamination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "conduce a"
+  }, {
+    "@language" : "en",
+    "@value" : "leads to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/providedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that links the learning to the institution that delivers it."
+  }, {
+    "@language" : "it",
+    "@value" : "Proprietà che consente di rappresentare il collegamento tra l'insegnamento e l'istituto che lo eroga."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "erogato da"
+  }, {
+    "@language" : "en",
+    "@value" : "provided by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/qualificationDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La data di conseguimento del titolo di studio"
+  }, {
+    "@language" : "en",
+    "@value" : "The date of graduation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Qualification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data titolo di studio"
+  }, {
+    "@language" : "en",
+    "@value" : "qualification date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/date"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "stabile"
+  }, {
+    "@language" : "en",
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/MU/value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RO/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/SM/URL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/TemporalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/hasTemporalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Characteristic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Collection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/EventOrSituation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/Topic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/hasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+} ]

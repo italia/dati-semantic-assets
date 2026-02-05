@@ -1,0 +1,357 @@
+@prefix l0: <https://w3id.org/italia/onto/l0/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix tiapit: <https://w3id.org/italia/onto/TI/> .
+@prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/accrualPeriodicity
+dct:accrualPeriodicity rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/conformsTo
+dct:conformsTo rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dct:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dct:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+dct:language rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dct:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+dct:rightsHolder rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dct:type rdf:type owl:AnnotationProperty .
+
+
+###  http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels
+<http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+skos:hasTopConcept rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+skos:inScheme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#notation
+skos:notation rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/adms#representationTechnique
+<http://www.w3.org/ns/adms#representationTechnique> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#contactPoint
+dcat:contactPoint rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#keyword
+dcat:keyword rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/NDC/keyConcept
+<https://w3id.org/italia/onto/NDC/keyConcept> rdf:type owl:AnnotationProperty .
+
+###  https://w3id.org/italia/onto/CLV/hasRankOrder
+clvapit:hasRankOrder rdf:type owl:AnnotationProperty .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dati.gov.it/onto/dcatapit#Dataset
+<http://dati.gov.it/onto/dcatapit#Dataset> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+skos:ConceptScheme rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/adms#Asset
+<http://www.w3.org/ns/adms#Asset> rdf:type owl:Class .
+
+###  http://dati.gov.it/onto/dcatapit#Agent
+dcatapit:Agent rdf:type owl:Class .
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation
+<https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> 
+                 rdf:type skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
+			dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;  
+			dct:conformsTo <http://dati.gov.it/data/resource/Standard/SKOS> ;  
+			dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ,
+                        <https://w3id.org/italia/data/public-organization/m_it> ;
+			dct:description "Questo è il vocabolario controllato sulle tipologie di motivi di registrazione in anagrafe."@it ,
+							  "This is the Registry Office Registration Motivations controlled vocabulary."@en ;
+			dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types" ;
+			dct:issued "2022-12-15"^^xsd:date ;
+			dct:modified "2023-07-15"^^xsd:date ;
+			dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+			dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+			dct:rightsHolder <https://w3id.org/italia/data/public-organization/m_it> ;
+			dct:title "Registry Office Registration Motivations Controlled Vocabulary"@en ,
+						"Vocabolario Controllato Motivi Iscrizione in Anagrafe"@it ;
+			dct:type <http://purl.org/adms/assettype/CodeList> ;
+			xkos:numberOfLevels "1" ;
+			rdfs:comment "Questo è il vocabolario controllato sulle tipologie di motivi di iscrizione in anagrafe."@it ;
+			rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+			rdfs:label "Registry Office Registration Motivations Controlled Vocabulary"@en ,
+					 "Vocabolario Controllato Motivi Iscrizione in Anagrafe"@it ;
+			owl:versionInfo "First version."@en ,
+						  "Prima versione."@it ;
+			admsapit:acronym "RORM" ;
+
+			skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/1> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/10> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/2> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/3> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/4> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/5> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/6> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/7> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/8> ,
+							 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/9> ;
+			<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/adms/representationtechnique/SKOS> ;
+			dcat:contactPoint <https://schema.gov.it/lodview/data/contact-point/ISTAT-NDC> ;
+			dcat:distribution <https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_Turtle>, <https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_XML>, <https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_CSV>  ;
+			dcat:keyword "Motivo iscrizione anagrafe"@it ;
+			dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+			<https://w3id.org/italia/onto/NDC/keyConcept> "registry-office-registration-types" .
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_Turtle
+<https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_Turtle> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato dei motivi di iscrizione anagrafica"@it ,
+                                                                               "This is the distribution in RDF/turtle of the controlled vocabolary of the registry office registration motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
+                                                                         "RDF/Turtle distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.ttl> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_XML
+<https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_RDF_XML> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione RDF/XML del vocabolario controllato dei motivi di iscrizione anagrafica"@it ,
+                                                                               "This is the distribution in RDF/XML of the controlled vocabolary of the registry office registration motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione RDF/XML del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
+                                                                         "RDF/XML distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.rdf> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+
+### https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_CSV
+<https://w3id.org/italia/data/distribution/RegistryOfficeRegistration_CSV> rdf:type admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione CSV del vocabolario controllato dei motivi di iscrizione anagrafica"@it ,
+                                                                               "This is the distribution in CSV of the controlled vocabolary of the registry office registration motivations"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione CSV del Vocabolario Controllato Motivi Iscrizione in Anagrafe "@it ,
+                                                                         "CSV distribution of Registry Office Registration Motivations Controlled Vocabulary"@en ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-registration-types/registry-office-registration-types.csv> ;
+                                                               dcat:accessURL   <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-registration-types> .			
+
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/1
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/1> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "1" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "1" ;
+                                                                                                                skos:prefLabel "Nascita"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/3
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/3> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "3" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "3" ;
+                                                                                                                skos:prefLabel "Immigrazione (da comune non subentrato)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1"  ;
+																									        	owl:deprecated "true"^^xsd:boolean.
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/2
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/2> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "2" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "2" ;
+                                                                                                                skos:prefLabel "Esistenza (giudizialmente riconosciuta)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/4
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/4> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "4" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "4" ;
+                                                                                                                skos:prefLabel "Immigrazione dall’estero"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/5
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/5> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "5" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "5" ;
+                                                                                                                skos:prefLabel "Ricomparsa (da irreperibilità)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/6
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/6> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "6" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "6" ;
+                                                                                                                skos:prefLabel "Rimpatrio (da AIRE)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/7
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/7> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "7" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "7" ;
+                                                                                                                skos:prefLabel "Rettifiche post censuarie"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/8
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/8> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "8" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "8" ;
+                                                                                                                skos:prefLabel "Trasferimento di domicilio di un senza fissa dimora (da comune non subentrato o nato da genitori senza fissa dimora)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" ;
+																												owl:deprecated "true"^^xsd:boolean.  
+
+
+###  https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/9
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types/9> rdf:type skos:Concept ,
+                                                                                                                         <https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation> ;
+                                                                                                                dct:identifier "9" ;
+                                                                                                                skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-registration-types> ;
+                                                                                                                skos:notation "9" ;
+                                                                                                                skos:prefLabel "Altri motivi (descrizione da fornire a cura del comune)"@it ;
+                                                                                                                <https://w3id.org/italia/onto/CLV/hasRankOrder> "1" .
+##<https://w3id.org/italia/data/public-organization/ISTAT> 
+<https://w3id.org/italia/data/public-organization/ISTAT> rdf:type dcatapit:Agent ,
+	  foaf:Agent ;
+	 dct:identifier "ISTAT" ;
+	 foaf:name "Istituto Nazionale di Statistica - ISTAT"@it ,
+     "Italian National Institute of Statistics - ISTAT"@en .
+
+##https://w3id.org/italia/data/public-organization/m_it
+<https://w3id.org/italia/data/public-organization/m_it> rdf:type  <http://dati.gov.it/onto/dcatapit#Agent> ,
+      foaf:Agent ;
+      dct:identifier "m_it" ;
+      foaf:name "Ministero dell'Interno - DAIT Direzione Centrale dei servizi demografici"@it,
+      "Ministry of the Interior - Central Directorate of Population Services"@en .
+
+
+###  https://w3id.org/italia/data/public-organization/PCM-1RSIZZ																		   
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> rdf:type owl:NamedIndividual ,
+      <http://dati.gov.it/onto/dcatapit#Agent> ,
+	  foaf:Agent ;
+      dct:identifier "PCM-1RSIZZ" ;
+      foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+	  "Digital Transformation Department of the Presidency of the Council of Ministers"@en .
+
+

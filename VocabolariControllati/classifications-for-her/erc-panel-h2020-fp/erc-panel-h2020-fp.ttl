@@ -14,7 +14,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 skos:ConceptScheme
       a       rdfs:Class .
@@ -172,6 +172,8 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
 
 #Metadata DCAT-AP_IT for the controlled vocabulary
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp>
@@ -183,6 +185,7 @@ vcard:hasEmail
       rdfs:label "2019 ERC EVALUATION PANELS AND KEYWORDS Controlled Vocabulary"@en , "Vocabolario Controllato 2019 ERC EVALUATION PANEL e KEYWORD"@it ;
       dct:type <http://purl.org/adms/assettype/Taxonomy> ;
       xkos:numberOfLevels "3";
+      ndc:keyConcept "erc-panel-h2020-fp" ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp";
       dct:rightsHolder <https://w3id.org/italia/data/private-organization/erc> ;
@@ -199,6 +202,7 @@ vcard:hasEmail
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc_AgID> ;
       dct:issued "2020-06-06"^^xsd:date ;
       dct:modified "2020-06-11"^^xsd:date ;
+      owl:versionInfo "0.1" ;
       skos:hasTopConcept  <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/PE> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/SH> .
 
 <https://w3id.org/italia/data/private-organization/erc>
@@ -244,8 +248,8 @@ vcard:hasEmail
       	dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato 2019 ERC EVALUATION PANELe e KEYWORD"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of 2019 ERC EVALUATION PANELS AND KEYWORDS"@en ;
       	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       	dct:license  <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.ttl> ;
-      	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
+      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.ttl> ;
+      	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
 
 <https://w3id.org/italia/data/distribution/ERC_RDF_XML>
         a						dcatapit:Distribution  ;
@@ -253,8 +257,8 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato 2019 ERC EVALUATION PANEL e KEYWORD"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of 2019 ERC EVALUATION PANELS AND KEYWORDS"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.rdf> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.rdf> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
 
 <https://w3id.org/italia/data/distribution/ERC_JSON_LD>
         a		dcatapit:Distribution  ;
@@ -262,8 +266,8 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato 2019 ERC EVALUATION PANEL e KEYWORD"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of 2019 ERC EVALUATION PANELS AND KEYWORDS"@en ;
         dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.jsonld> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.jsonld> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
 
   <https://w3id.org/italia/data/distribution/ERC_CSV>
         a						dcatapit:Distribution  ;
@@ -271,8 +275,8 @@ vcard:hasEmail
         dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato 2019 ERC EVALUATION PANEL e KEYWORD"@it , "This is the distribution in CSV of the Linked Open Dataset of 2019 ERC EVALUATION PANELS AND KEYWORDS"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.csv> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.csv> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
 
 <https://w3id.org/italia/data/distribution/ERC_XLSX>
         a						dcatapit:Distribution  ;
@@ -280,8 +284,8 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato 2019 ERC EVALUATION PANEL e KEYWORD"@it , "This is the distribution in XLSX of the Linked Open Dataset of 2019 ERC EVALUATION PANELS AND KEYWORDS"@en ;
         dct:format 		<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
         dct:license 	<https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.xlsx> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
+        dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp/erc-panel-h2020-fp.xlsx> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-her/erc-panel-h2020-fp> .
 
 #Definition of the controlled vocabulary - First level ERC Resaarch Domain
 
@@ -1089,7 +1093,7 @@ vcard:hasEmail
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-5> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-6> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-7> ,
-                    <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-8> .
+                    <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-8> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-9> ;
       skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS> ;
       skos:notation "LS5" ;

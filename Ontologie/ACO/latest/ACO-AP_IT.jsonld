@@ -1,0 +1,2012 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/deedTitle"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/deedYear"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/attestsBirth"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/referencesBirthDeed"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/certificateIssuedForApplication"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/certifies"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/providesEvidence"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/issueDate"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/typeOfUse"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/roleRelativeToApplication"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/outcome"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/providesEvidence"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CivilUnionDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/DeathDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/DivorceDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/MarriageDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/SeparationDeed"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CertificateOfFamilyStatus"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/ANPRProtocol"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/placeOfRegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/COV/PublicAdministration"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/CPV/Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/referencesBirthDeed"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/attestsBirth"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/hasBirth"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/dateOfRegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/certifiesResidence"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/roleRelativeToApplication"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid49"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/playsRole"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/residenceInAddress"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid53"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/placeOfRegistryEntryForBirth"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/depositedIn"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/issuedBy"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/hasBirth"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/Applicant"
+    }, {
+      "@id" : "_:genid61"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/roleRelativeToApplication"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid67"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid68"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/playsRole"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/COV/PublicAdministration"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/deedRegisteredIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid78"
+  } ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/ApplicationSubject"
+    }, {
+      "@id" : "_:genid73"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/roleRelativeToApplication"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid79"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/playsRole"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/depositedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RoleInApplication"
+  } ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/Applicant"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/ApplicationSubject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Evidence"
+  } ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/MaritalStatusCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/RegistrationCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CertificateOfFamilyStatus"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipCertificate"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/deedNumber"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/ACO/BirthDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/CivilUnionDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/DeathDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/DivorceDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/MarriageDeed"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/ACO/SeparationDeed"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#dateTime",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#integer",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#fn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#accessURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Organization", "http://www.w3.org/2006/vcard/ns#Kind", "http://www.w3.org/2006/vcard/ns#Organization" ],
+  "http://www.w3.org/2006/vcard/ns#fn" : [ {
+    "@value" : "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog "
+  } ],
+  "http://www.w3.org/2006/vcard/ns#hasEmail" : [ {
+    "@id" : "mailto:ndc-segr-tec@istat.it"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-JSON-LD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione JSON-LD dell'ontologia dei certificati anagrafici"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in JSON-LD of the administrative certifications"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione JSON-LD ontologia ACO_IT "
+  }, {
+    "@language" : "en",
+    "@value" : "JSON-LD distribution of ACO_IT  Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/ACO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/ACO/latest/ACO-AP_IT.jsonld"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-RDF-TURTLE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/Turtle dell'ontologia dei certificati anagrafici"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/turtle of the administrative certifications"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/Turtle ontologia ACO_IT "
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/Turtle distribution of ACO_IT  Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/ACO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/ACO/latest/ACO-AP_IT.ttl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-RDF-XML",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/XML dell'ontologia dei certificati anagrafici"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/XML of the administrative certifications"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/XML ontologia ACO_IT "
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/XML distribution of ACO_IT  Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/ACO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/ACO/latest/ACO-AP_IT.rdf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "ISTAT"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Istituto Nazionale di Statistica - ISTAT"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian National Institute of Statistics - ISTAT"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "PCM-1RSIZZ"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Digital Transformation Department of the Presidency of the Council of Ministers"
+  }, {
+    "@language" : "it",
+    "@value" : "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/agid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "agid"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Agenzia per l'Italia Digitale"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian Digital Agency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/m_it",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "m_it"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Ministero dell'Interno - DAIT Direzione Centrale dei servizi demografici"
+  }, {
+    "@language" : "en",
+    "@value" : "Ministry of the Interior - DAIT Central Directorate of Population Services"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/accrualPeriodicity" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia dei certificati anagrafici."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the administrative certifications."
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-12-15"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://publications.europa.eu/resource/authority/language/ITA"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2023-07-15"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/m_it"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Administrative Certification Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia dei Certificati Anagrafici"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia dei certificati anagrafici."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the administrative certification ontology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Admministrative Certification Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia dei Certificati Anagrafici"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "Versione 1.0"
+  } ],
+  "http://www.w3.org/ns/dcat#contactPoint" : [ {
+    "@id" : "https://schema.gov.it/lodview/data/contact-point/ISTAT-NDC"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@language" : "it",
+    "@value" : "Anagrafe"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato"
+  }, {
+    "@language" : "it",
+    "@value" : "Residente"
+  } ],
+  "http://www.w3.org/ns/dcat#theme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/acronym" : [ {
+    "@value" : "ACO-AP_IT"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasKeyClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+  }],
+  "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/OWL"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution" : [ {
+    "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-JSON-LD"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-RDF-TURTLE"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/ACOAPIT-RDF-XML"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/last" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/0.1"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/officialURI" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/prefix" : [ {
+    "@value" : "acoapit"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/status" : [ {
+    "@value" : "published"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/target" : [ {
+    "@value" : "Pubbliche Amministrazioni"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/type" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/DomainOntology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/ANPRProtocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Numero progressivo, unico e obbligatorio, che viene assegnato a ciascun documento registrato sul registro di protocollo, nel quale si classificano e annotano giornalmente i varî documenti e la corrispondenza ufficiale in partenza e in arrivo presso l'Anagrafe nazionale della popolazione residente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistrationCertificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ANPR protocol"
+  }, {
+    "@language" : "it",
+    "@value" : "protocollo ANPR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto giuridico posto in essere da un'autorità amministrativa nell'esercizio di una sua funzione amministrativa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative deed"
+  }, {
+    "@language" : "it",
+    "@value" : "Atto amministrativo"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/Applicant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo svolto dal soggetto che dà impulso al procedimento amministrativo (l. n. 241/1990)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Applicant"
+  }, {
+    "@language" : "it",
+    "@value" : "Richiedente"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/ApplicationSubject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/ApplicationSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo svolto dal soggetto interessato all’emissione di un determinato provvedimento da parte della Pubblica Amministrazione competente (art. 8, legge n. 241/1990)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Application subject"
+  }, {
+    "@language" : "it",
+    "@value" : "Interessato"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero dell’Interno o dal Comune in cui si attesta quanto risulta in anagrafe rispetto all’atto di nascita (artt. 5 e 100, DPR 396/00 ; Artt.12 e 33 del DPR n.223/1989). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Birth certificate"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato  anagrafico di  nascita"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/MaritalStatusCertificate"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/BirthDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto dell’ufficiale di stato civile in cui viene indicato il luogo, l'anno, il mese, il giorno e l'ora della nascita, il sesso del bambino e il nome che gli viene dato; sono inoltre indicate le generalità, la cittadinanza, la residenza dei genitori. L’atto di nascita è disciplinato dall’art. 29 DPR 396/00 e consegue alla presentazione della dichiarazione di nascita ai sensi dell’art. 30 DPR 396/00."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "Birth deed"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/Certificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Dichiarazione scritta rilasciata da ente o persona qualificata cui la legge affida un potere certificativo idoneo ad attestare l'effettiva esistenza e verità di un fatto, di una situazione o di una condizione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certificate"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CertificateApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Istanza volta a ottenere un certificato per se stesso ovvero per gli altri componenti inclusi nello stato di famiglia. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certificate application"
+  }, {
+    "@language" : "it",
+    "@value" : "Richiesta di  certificato"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CertificateExemptFromSecretarialFees",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato anagrafico rilasciato senza obbligo di versamento di un corrispettivo per l'attività svolta. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certificate exempt from secretarial fees"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato esente  da diritti di segreteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CertificateExemptFromStampDuty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato anagrafico rilasciato senza obbligo di pagamento di una imposta di bollo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certificate exempt from stamp duty"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato esente  da imposta di bollo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CertificateOfFamilyStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero dell’Interno o dal Comune in cui si attesta quanto risulta in anagrafe rispetto allo stato di famiglia e ai relativi dati di una persona. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certificate of family status"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato di  stato di famiglia"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero dell’Interno o dal Comune in cui si attesta quanto risulta in anagrafe rispetto alla cittadinanza e ai relativi dati di una persona. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Certificato di  cittadinanza"
+  }, {
+    "@language" : "en",
+    "@value" : "Citizenship certificate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CitizenshipDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto che formalizza la cittadinanza riconosciuta per beneficio di legge agli stranieri nati e residenti ininterrottamente in Italia fino al 18mo anno di età ovvero in casi particolari di discendenti in linea retta di cittadini per nascita e contenente la relativa dichiarazione per l’acquisto della cittadinanza resa all’Ufficiale di stato civile ovvero, in caso di residenza all'estero, davanti all'autorità diplomatica o consolare del luogo di residenza. [artt. 4 e 23, l. 91/92]."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di cittadinanza"
+  }, {
+    "@language" : "en",
+    "@value" : "Citizenship deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/CivilUnionDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto che costituisce l’unione civile di due persone dello stesso sesso mediante dichiarazione rilasciata all’ufficiale di stato civile ed alla presenza di due testimoni (art. 1 L. 76/2016; art. 70bis ss. DPR 396/2000)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di unione civile"
+  }, {
+    "@language" : "en",
+    "@value" : "Civil union deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/DeathDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto rilasciato dall'ufficio di stato civile contenente le informazioni sul decesso di una persona."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di morte"
+  }, {
+    "@language" : "en",
+    "@value" : "Death deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/DivorceDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto che formalizza lo scioglimento del vincolo matrimoniale tra i coniugi derivante dall’accordo degli stessi: - la sentenza del tribunale in caso di domanda congiunta dei coniugi di scioglimento [art. 4 L 898/1970, abrogato]; - l’atto dell’ufficiale di stato civile contenente la dichiarazione dei coniugi di volere ottenere lo scioglimento del matrimonio [art. 12 DL 132/2014]; - il nulla osta ovvero l’autorizzazione del procuratore della Repubblica dell’accordo raggiunto a seguito di convenzione di negoziazione assistita da avvocati [art. 6 DL 132/2014]. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di divorzio "
+  }, {
+    "@language" : "en",
+    "@value" : "Divorce deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/Evidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "per Evidenza, detta anche Prova, si intende “ogni documento o dato, compresi testi o registrazioni sonore, visive o audiovisive, su qualsiasi supporto, richiesto da un’autorità competente per dimostrare la veridicità dei fatti o il rispetto degli obblighi procedurali di cui all’articolo 2, paragrafo 2, lettera b)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Evidence"
+  }, {
+    "@language" : "it",
+    "@value" : "Evidenza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Evidence of birth certificate"
+  }, {
+    "@language" : "it",
+    "@value" : "Evidenza di  certificato anagrafico  di nascita"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Evidence of residence certificate"
+  }, {
+    "@language" : "it",
+    "@value" : "Evidenza di  certificato anagrafico  di residenza"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/MaritalStatusCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero dell’Interno o dal Comune in cui si attesta quanto risulta in anagrafe rispetto allo stato civile e ai relativi dati di una persona. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Certificato di  stato civile"
+  }, {
+    "@language" : "en",
+    "@value" : "Marital status certificate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/MaritalStatusDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto rilasciato dall'ufficio di stato civile contenente le informazioni sullo stato civile di una persona."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto dello stato civile"
+  }, {
+    "@language" : "en",
+    "@value" : "Marital status deed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/MarriageDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto che formalizza il matrimonio celebrato dinanzi all’ufficiale di stato civile tra gli sposi e contenente la dichiarazione fatta dall'ufficiale dello stato civile che gli sposi sono uniti in matrimonio. [art. 64 DPR 396/00]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di matrimonio"
+  }, {
+    "@language" : "en",
+    "@value" : "Marriage deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/RegistrationCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero dell’Interno in cui si attesta quanto risulta in anagrafe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Certificato anagrafico"
+  }, {
+    "@language" : "en",
+    "@value" : "Registration certificate"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid33"
+  }, {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto amministrativo mediante il quale una persona fisica viene registrata nell’anagrafe della popolazione residente (Art. 7 DPR 223/1989). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Iscrizione anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "Registry entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto amministrativo che determina la registrazione nell'anagrafe comunale dei nati da genitori iscritti nell’anagrafe della popolazione residente del comune, anche se la nascita è avvenuta in altro comune o all’estero purché siano pervenuti i relativi atti per la trascrizione. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Iscrizione  anagrafica  per nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "Registry entry for birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntry"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
+  }, {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Certificato rilasciato dal Ministero o dal Comune dell’Interno in cui si attesta quanto risulta in anagrafe rispetto alla residenza e ai relativi dati di una persona (art. 33 DPR 223/1989)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Certificato  anagrafico di  residenza"
+  }, {
+    "@language" : "en",
+    "@value" : "Residence certificate"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/RoleInApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo ricoperto da colui che richiede il certificato anagrafico: diretto interessato o semplice richiedente (delegato)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Role in application"
+  }, {
+    "@language" : "it",
+    "@value" : "Ruolo rispetto  a richiesta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RO/Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid47"
+  }, {
+    "@id" : "_:genid48"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/SecretarialFee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Versamento effettuato quale corrispettivo per il servizio svolto dalla pubblica amministrazione "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Diritti di segreteria"
+  }, {
+    "@language" : "en",
+    "@value" : "Secretarial fees"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/SeparationDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Atto che formalizza lo stato di separazione personale dei coniugi derivante dall’accordo degli stessi. L’atto di separazione consensuale può, alternativamente e ricorrendo i requisiti specifici per ciascuna fattispecie, configurarsi: – nell’atto dell’ufficiale di stato civile contenente l’accordo di separazione personale concluso innanzi a sé dai coniugi, da cui riceve personalmente la dichiarazione di volersi separare, laddove non vi siano figli minori, figli maggiorenni incapaci o portatori di handicap grave ovvero economicamente non autosufficienti [art. 12 DL 132/2014]; - nel decreto di omologazione del tribunale che rende efficace l’accordo raggiunto dai coniugi [art. 711 c.p.c.]; - nella convenzione di negoziazione assistita da avvocati. [art. 6 DL 132/2014] "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Atto di separazione "
+  }, {
+    "@language" : "en",
+    "@value" : "Separation deed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/StampDuty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Imposta indiretta cui sono soggetti gli atti, i documenti e i registri indicati nella tariffa annessa al DPR 26 ottobre 1972, n. 642. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Imposta di bollo"
+  }, {
+    "@language" : "en",
+    "@value" : "Stamp duty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/attests",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra atto amministrativo e iscrizione anagrafica per nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "attesta"
+  }, {
+    "@language" : "en",
+    "@value" : "attests"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/attestsBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra l’atto amministrativo e iscrizione anagrafica per l’evento nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/BirthCertificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "attesta nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "attests birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/certifies"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/certificateIssuedForApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e richiesta di certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "certificate issued for application"
+  }, {
+    "@language" : "it",
+    "@value" : "certificato per richiesta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/CertificateApplication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/certifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato ed evento registrato. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "certifica"
+  }, {
+    "@language" : "en",
+    "@value" : "certifies"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/certifiesResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e residenza."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/ResidenceCertificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "certifica residenza"
+  }, {
+    "@language" : "en",
+    "@value" : "certifies residence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/certifies"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/dateOfRegistryEntryForBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Data dell'iscrizione in anagrafe di una persona per nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data di iscrizione anagrafica per nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "dateo of registry entry for birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/deedNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Identificativo dell'atto amministrativo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "deed number"
+  }, {
+    "@language" : "it",
+    "@value" : "numero atto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/deedRegisteredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra atto amministrativo e unità amministrativa."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "atto registratoIn"
+  }, {
+    "@language" : "en",
+    "@value" : "deed registered in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/AdminUnitComponent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/deedTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Intestazione dell'atto amministrativo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "deed title"
+  }, {
+    "@language" : "it",
+    "@value" : "titolo atto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/deedYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Anno di iscrizione nel registro riportante l'atto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "anno atto"
+  }, {
+    "@language" : "en",
+    "@value" : "deed year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/depositedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra atto amministrativo e amministrazione pubblica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "depositato presso"
+  }, {
+    "@language" : "en",
+    "@value" : "deposited in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/PublicAdministration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/expiryDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Durata del certificato: 6 mesi (art. 41 dpr 445/00), 3 mesi (art. 33 d. lgs. 223/1989). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data di scadenza"
+  }, {
+    "@language" : "en",
+    "@value" : "expiry date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/hasBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra persona fisica e iscrizione anagrafica per nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "haNascita"
+  }, {
+    "@language" : "en",
+    "@value" : "has birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/issueDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data di emissione"
+  }, {
+    "@language" : "en",
+    "@value" : "issue date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/issuedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra atto amministrativo o un certificato e amministrazione pubblica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "issued by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/COV/PublicAdministration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/issuedWithSecretarialFees",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e diritti di segreteria."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "issued with secretarial fees"
+  }, {
+    "@language" : "it",
+    "@value" : "rilasciato con diritti di segreteria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/SecretarialFee"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/issuedWithStampDuty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e imposta di bollo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "issued with stamp duty"
+  }, {
+    "@language" : "it",
+    "@value" : "rilasciato con imposta di bollo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/StampDuty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/outcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "L'esito può essere di due tipi: accoglimento e rigetto della richiesta di certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/CertificateApplication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "esito"
+  }, {
+    "@language" : "en",
+    "@value" : "outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/outcomeMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Motivazione dell'esito negativo della richiesta di certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/CertificateApplication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "motivazione esito"
+  }, {
+    "@language" : "en",
+    "@value" : "outcome motivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/placeOfRegistryEntryForBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Dato che consente di stabilire, sotto il profilo spaziale, il Comune di iscrizione per nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "luogo di iscrizione anagrafica per nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "place of registry entry for birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/AdminUnitComponent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/playsRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra persona fisica e autorità che rilascia il certificato o l’atto e il ruolo ricoperto, oppure interessato o delegato. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "plays role"
+  }, {
+    "@language" : "it",
+    "@value" : "ricopre ruolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RoleInApplication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/providesEvidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "fornisceEvidenza"
+  }, {
+    "@language" : "en",
+    "@value" : "provides evidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Evidence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/referencesBirthDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra atto di nascita e iscrizione anagrafica per nascita."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RegistryEntryForBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "fa riferimento ad atto di nascita"
+  }, {
+    "@language" : "en",
+    "@value" : "references birth deed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/BirthDeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/attests"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/referencesDeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra certificato e atto amministrativo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "cita atto"
+  }, {
+    "@language" : "en",
+    "@value" : "references deed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/AdministrativeDeed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/residenceInAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Residenza stabilita in un indirizzo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "residence in address"
+  }, {
+    "@language" : "it",
+    "@value" : "residenza in indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Address"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/residenceInCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra residenza e comune. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "residence in city"
+  }, {
+    "@language" : "it",
+    "@value" : "residenza in comune"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/roleRelativeToApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Relazione tra ruolo rispetto a richiesta e richiesta di certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RoleInApplication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "rispetto a richiesta"
+  }, {
+    "@language" : "en",
+    "@value" : "role relative to application"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/CertificateApplication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/roleType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "il ruolo può essere di due tipi: richiedente e interessato alla richiesta di certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/RoleInApplication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "role type"
+  }, {
+    "@language" : "it",
+    "@value" : "tipo ruolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ACO/typeOfUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Tipo di utilizzo del certificato."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/ACO/Certificate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "tipologia utilizzo"
+  }, {
+    "@language" : "en",
+    "@value" : "type of use"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/Address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/COV/PublicAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Alive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/codiceFiscale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/dateOfBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/familyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/givenName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ACO/EvidenceOfBirthCertificate", "https://w3id.org/italia/onto/ACO/EvidenceOfResidenceCertificate" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RO/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasRegisteredResidenceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "currentlyHasRegisteredResidenceIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasRegisteredResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/controlledVocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

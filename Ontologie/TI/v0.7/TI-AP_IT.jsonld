@@ -821,10 +821,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/TI-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/TI-AP_IT.jsonld"
       },
       "dcterms:description": [
         {
@@ -1565,10 +1565,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.ttl"
       },
       "dcterms:description": [
         {
@@ -2052,10 +2052,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/TI/latest/TI-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/TI/latest/TI-AP_IT.rdf"
       },
       "dcterms:description": [
         {

@@ -1,0 +1,157 @@
+profile: tabular-data-package
+dialect:
+  delimiter: ","
+  header: true
+resources:
+  - name: transparency-obligation-organization
+    description: transparency obligation for organizations generated from RDF data.
+    mediatype: text/csv
+    path: transparency-obligation-organization.csv
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    encoding: utf-8
+    schema:
+      fields:
+        - type: integer
+          name: codice_1_livello
+        - type: string
+          name: label_ita_1_livello
+        - type: string
+          name: codice_2_livello
+        - type: string
+          name: label_ita_2_livello
+        - type: integer
+          name: id_obbligo
+        - type: string
+          name: label_ita_obbligo
+        - type: boolean
+          name: Presidenza del Consiglio dei Ministri
+        - type: boolean
+          name: Ministero degli Affari Esteri e della Cooperazione Internazionale
+        - type: boolean
+          name: Ministero del Lavoro e delle Politiche Sociali
+        - type: boolean
+          name: Ministero dell’Ambiente e della Tutela del Territorio e del Mare
+        - type: boolean
+          name: Ministero dell’Economia e delle Finanze
+        - type: boolean
+          name: Ministero dell’Interno
+        - type: boolean
+          name: Ministero dell’Istruzione dell’Università e della Ricerca
+        - type: boolean
+          name: Ministero della Difesa
+        - type: boolean
+          name: Ministero della Giustizia
+        - type: boolean
+          name: Ministero della Salute
+        - type: boolean
+          name: Ministero delle Infrastrutture e dei Trasporti
+        - type: boolean
+          name: Ministero delle Politiche Agricole Alimentari e Forestali
+        - type: boolean
+          name: Ministero dello Sviluppo Economico
+        - type: boolean
+          name: Ministero per i Beni e le Attività Culturali e per il Turismo
+        - type: boolean
+          name: Regione Autonoma Valle D'Aosta
+        - type: boolean
+          name: Regione Piemonte
+        - type: boolean
+          name: Regione Liguria
+        - type: boolean
+          name: Regione Lombardia
+        - type: boolean
+          name: Regione del Veneto
+        - type: boolean
+          name: Regione Autonoma Friuli-Venezia Giulia
+        - type: boolean
+          name: Regione Autonoma Trentino-Alto Adige/Suedtirol
+        - type: boolean
+          name: Provincia Autonoma di Trento
+        - type: boolean
+          name: Provincia Autonoma di Bolzano
+        - type: boolean
+          name: Regione Emilia-Romagna
+        - type: boolean
+          name: Regione Toscana
+        - type: boolean
+          name: Regione Marche
+        - type: boolean
+          name: Regione Umbria
+        - type: boolean
+          name: Regione Lazio
+        - type: boolean
+          name: Regione Abruzzo
+        - type: boolean
+          name: Regione Molise
+        - type: boolean
+          name: Regione Campania
+        - type: boolean
+          name: Regione Puglia
+        - type: boolean
+          name: Regione Basilicata
+        - type: boolean
+          name: Regione Calabria
+        - type: boolean
+          name: Regione Siciliana
+        - type: boolean
+          name: Regione Autonoma della Sardegna
+        - type: boolean
+          name: Comuni
+  - path: transparency-obligation.csv
+    name: transparency-obligation
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: sha256
+    encoding: utf-8
+    schema:
+      fields:
+        - type: string
+          name: id_obbligo
+        - type: string
+          name: id_sotto_obbligo
+        - type: string
+          name: id_transparency_titulus
+        - type: integer
+          name: rank_order
+        - type: string
+          name: label_ita_obbligo
+        - type: string
+          name: label_eng_obbligo
+        - type: integer
+          name: id_subject
+        - type: string
+          name: rif_normativo
+        - type: string
+          name: descrizione_ita
+        - type: string
+          name: frequenza_aggiornamento
+        - type: string
+          name: status
+        - type: date
+          name: data_inizio_validita
+        - name: data_fine_validita
+          type: any
+        - type: string
+          name: note
+  - path: transparency-obligation-administration.csv
+    name: transparency-obligation-administration
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: sha256
+    encoding: utf-8
+    schema:
+      fields:
+        - type: string
+          name: id_obbligo
+        - type: string
+          name: label_ita_obbligo
+        - type: string
+          name: organizzazione_nome
+        - type: string
+          name: organizzazione_ipa
+        - type: integer
+          name: classificazione_S13_codice

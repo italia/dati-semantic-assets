@@ -1,31 +1,31 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT ?codice_1_livello ?codice_2_livello ?label_ITA_1_livello ?label_ENG_1_livello ?label_ITA_2_livello ?label_ENG_2_livello ?references 
-  
-FROM <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus> 
+SELECT ?codice_1_livello ?codice_2_livello ?label_ITA_1_livello ?label_ENG_1_livello ?label_ITA_2_livello ?label_ENG_2_livello ?references
+
+FROM <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus>
 
 WHERE {
-  
+
   ?level02_uri skos:notation ?codice_2_livello ;
-  
+
 {
-  ?level02_uri skos:prefLabel ?label_ITA_2_livello ; 
+  ?level02_uri skos:prefLabel ?label_ITA_2_livello ;
   FILTER(LANG(?label_ITA_2_livello) = 'it')
 }
 {
-  ?level02_uri skos:prefLabel ?label_ENG_2_livello ; 
+  ?level02_uri skos:prefLabel ?label_ENG_2_livello ;
   FILTER(LANG(?label_ENG_2_livello) = 'en')
 }
 
-# parent details   
+# parent details
 {
 SELECT DISTINCT *  {
-  
+
   ?level02_uri skos:broader ?level01_uri .
   ?level01_uri a skos:Concept .
   ?level01_uri skos:notation ?codice_1_livello ;
   {
-    ?level01_uri skos:prefLabel ?label_ITA_1_livello ; 
+    ?level01_uri skos:prefLabel ?label_ITA_1_livello ;
     FILTER(LANG(?label_ITA_1_livello) = 'it')
   }
   {
@@ -34,11 +34,11 @@ SELECT DISTINCT *  {
   }
 }
 }
-  
+
 # legal references
 {
 SELECT DISTINCT ?level02_uri (GROUP_CONCAT(?level02_references;separator=" | ") as ?references)  {
-  	?level02_uri a skos:Concept .  
+  	?level02_uri a skos:Concept .
   	?level02_uri skos:scopeNote ?level02_references .
 	?level02_uri skos:broader ?level01_uri .
 }
@@ -47,5 +47,4 @@ GROUP BY ?level02_uri
 
 
 }
-ORDER BY ?codice_1_livello ?codice_2_livello 
-
+ORDER BY ?codice_1_livello ?codice_2_livello

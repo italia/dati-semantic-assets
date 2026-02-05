@@ -6,6 +6,7 @@
    xmlns:dct="http://purl.org/dc/terms/"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:gsim="http://www.datiopen.istat.it/Ontologie/meta/gsim/"
+   xmlns:ndc="https://w3id.org/italia/onto/NDC/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:prov="http://www.w3.org/ns/prov#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -14,1027 +15,1031 @@
    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
    xmlns:xkos="http://purl.org/linked-data/xkos#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">AZIENDE OSPEDALIERE PUBBLICHE</skos:altLabel>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
-    <skos:altLabel xml:lang="it">Aziende Ospedaliere, Aziende Ospedaliere Universitarie, Policlinici e Istituti di Ricovero e Cura a Carattere Scientifico Pubblici</skos:altLabel>
-    <skos:notation>03.5</skos:notation>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:prefLabel xml:lang="it">Aziende ospedaliere, aziende ospedaliero-universitarie, policlinici e istituti di ricovero e cura a carattere scientifico pubblici</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_RDF_XML">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.rdf"/>
-    <dct:title xml:lang="it">Distribuzione RDF/XML classificazione S13 Amministrazioni Pubbliche</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2">
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
-    <skos:prefLabel xml:lang="it">Amministrazioni locali</skos:prefLabel>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
-    <skos:notation>2</skos:notation>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>206</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2450"/>
+    <skos:prefLabel xml:lang="it">Unioni di comuni</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Unioni di Comuni e loro Consorzi e Associazioni</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>SKOS</dct:identifier>
+    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201">
-    <skos:prefLabel>Regioni</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2410"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
     <skos:notation>201</skos:notation>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:prefLabel xml:lang="it">Regioni, Province Autonome e loro Consorzi e Associazioni</skos:prefLabel>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211">
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2720"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:altLabel xml:lang="it">Camere di Commercio, Industria, Artigianato e Agricoltura e loro Unioni Regionali</skos:altLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>211</skos:notation>
-    <skos:prefLabel xml:lang="it">Camere di commercio, industria, artigianato e agricoltura e unioni regionali</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2410"/>
+    <skos:prefLabel>Regioni</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Regioni, Province Autonome e loro Consorzi e Associazioni</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:altLabel xml:lang="it">Aziende ed Amministrazioni dello Stato ad Ordinamento Autonomo</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Enti di regolazione dell'attività economica</skos:prefLabel>
+    <skos:notation>234</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Teatri nazionali e di rilevante interesse culturale</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Teatri Stabili ad Iniziativa Pubblica</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>107</skos:notation>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:notation>103</skos:notation>
+    <skos:prefLabel xml:lang="it">Enti produttori di servizi assistenziali, ricreativi e culturali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Enti Pubblici Produttori di Servizi Assistenziali, Ricreativi e Culturali</skos:altLabel>
+    <skos:altLabel xml:lang="it">Federazioni Nazionali, Ordini, Collegi e Consigli Professionali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208">
     <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>03.5</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
+    <skos:prefLabel xml:lang="it">Aziende ospedaliere, aziende ospedaliero-universitarie, policlinici e istituti di ricovero e cura a carattere scientifico pubblici</skos:prefLabel>
+    <skos:altLabel xml:lang="it">AZIENDE OSPEDALIERE PUBBLICHE</skos:altLabel>
+    <skos:altLabel xml:lang="it">Aziende Ospedaliere, Aziende Ospedaliere Universitarie, Policlinici e Istituti di Ricovero e Cura a Carattere Scientifico Pubblici</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_RDF_Turtle">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione RDF/Turtle classificazione S13 Amministrazioni Pubbliche</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>1</skos:notation>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Amministrazioni centrali</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>2</skos:notation>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Amministrazioni locali</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
     <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Organi costituzionali e di rilievo costituzionale</skos:prefLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/21"/>
     <skos:notation>102</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/21"/>
+    <skos:prefLabel xml:lang="it">Organi costituzionali e di rilievo costituzionale</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>101</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2210"/>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2220"/>
+    <skos:prefLabel xml:lang="it">Presidenza del Consiglio dei Ministri e Ministeri</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Presidenza del Consiglio dei Ministri, Ministeri e Avvocatura dello Stato</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:altLabel xml:lang="it">Agenzie ed Enti per il Turismo</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Agenzie ed enti per il turismo</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">ENTI ED AGENZIE PER IL TURISMO</skos:altLabel>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2754"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
     <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
     <skos:notation>212</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2754"/>
+    <skos:prefLabel xml:lang="it">Agenzie ed enti per il turismo</skos:prefLabel>
+    <skos:altLabel xml:lang="it">ENTI ED AGENZIE PER IL TURISMO</skos:altLabel>
+    <skos:altLabel xml:lang="it">Agenzie ed Enti per il Turismo</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220">
-    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali e provinciali per la formazione, la ricerca e l'ambiente</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali per la Formazione, la Ricerca e l'Ambiente</skos:altLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
     <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:notation>220</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>220</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali e provinciali per la formazione, la ricerca e l'ambiente</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali per la Formazione, la Ricerca e l'Ambiente</skos:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/activity/generationS13">
-    <rdfs:label>Generazione S13</rdfs:label>
-    <dct:description>Attività di generazione della classificazione S13</dct:description>
-    <prov:wasAssociatedWith rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
-    <prov:wasAssociatedWith rdf:resource="http://spcdata.digitpa.gov.it/UnitaOrganizzativa/ISTAT_UfficioRSTB"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_XLSX">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione XLSX classificazione S13 Amministrazioni Pubbliche</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>203</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2420"/>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2460"/>
+    <skos:prefLabel xml:lang="it">Province e Città Metropolitane</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Province e loro Consorzi e Associazioni</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>108</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2230"/>
+    <skos:prefLabel xml:lang="it">Agenzie fiscali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie Fiscali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>239</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Fondazioni lirico-sinfoniche</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Fondazioni Lirico, Sinfoniche</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>205</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2440"/>
+    <skos:prefLabel xml:lang="it">Comunità montane</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Comunita' Montane e loro Consorzi e Associazioni</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>217</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2753"/>
+    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali di sviluppo agricolo</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali di Sviluppo Agricolo</skos:altLabel>
+    <skos:altLabel xml:lang="it">ENTI REGIONALI DI SVILUPPO AGRICOLO</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level2">
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/xkos#ClassificationLevel"/>
     <xkos:depth>2</xkos:depth>
-    <gsim:level_name xml:lang="it">Livello 2</gsim:level_name>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
     <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
     <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
     <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
     <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
     <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/208"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/220"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205"/>
-    <gsim:number_of_items>38</gsim:number_of_items>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/212"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/xkos#ClassificationLevel"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/201"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233"/>
     <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
+    <gsim:level_name xml:lang="it">Livello 2</gsim:level_name>
+    <gsim:number_of_items>38</gsim:number_of_items>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>105</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2300"/>
+    <skos:prefLabel xml:lang="it">Autorità amministrative indipendenti</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Autorita' Amministrative Indipendenti</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/204">
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2430"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:altLabel xml:lang="it">Comuni e loro Consorzi e Associazioni</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
     <skos:notation>204</skos:notation>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2430"/>
     <skos:prefLabel xml:lang="it">Comuni</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:prefLabel xml:lang="it">Enti e Istituzioni di ricerca</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:altLabel xml:lang="it">Enti e Istituzioni di Ricerca Pubblici</skos:altLabel>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2756"/>
-    <skos:notation>110</skos:notation>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13">
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_RDF_XML"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dct:description xml:lang="it">Versione Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013). Il vocabolario è collegato a quello delle forme giuridiche.</dct:description>
-    <dct:description xml:lang="en">Linked Open Data version of the classification ISTAT S13 - the list of institutional units that are part of the Public Administrations sector (Sector S13 in the SEC - European System of Accounts, defined by Regulation (EU) of the European Parliament and of the Council, no. 549/2013). The vocabulary is linked to legal status vocabulary.</dct:description>
-    <rdfs:comment xml:lang="it">Versione Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013). Il vocabolario è collegato a quello delle forme giuridiche.</rdfs:comment>
-    <rdfs:comment xml:lang="en">Linked Open Data version of the classification ISTAT S13 - the list of institutional units that are part of the Public Administrations sector (Sector S13 in the SEC - European System of Accounts, defined by Regulation (EU) of the European Parliament and of the Council, no. 549/2013). The vocabulary is linked to legal status vocabulary.</rdfs:comment>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_XLSX"/>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/StatisticalClassification"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:title xml:lang="it">Classificazione ISTAT S13 - elenco unità istituzionali del settore delle Amministrazioni Pubbliche</dct:title>
-    <dct:title xml:lang="en">ISTAT Classification S13 - list of institutional units of the Public Administrations sector</dct:title>
-    <rdfs:label xml:lang="it">Classificazione ISTAT S13 - elenco unità istituzionali del settore delle Amministrazioni Pubbliche</rdfs:label>
-    <rdfs:label xml:lang="en">ISTAT Classification S13 - list of institutional units of the Public Administrations sector</rdfs:label>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-22</dct:issued>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_RDF_Turtle"/>
-    <owl:versionInfo xml:lang="it">1.0 - è necessario prestare attenzione ai codici indicati che potrebbero subire modifiche a seguito di una revisione da parte di ISTAT della classificazione</owl:versionInfo>
-    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_JSON_LD"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-10</dct:modified>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <xkos:numberOfLevels>2</xkos:numberOfLevels>
-    <dcat:keyword xml:lang="it">S13</dcat:keyword>
-    <gsim:has rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level1"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
-    <dct:identifier>ISTAT:D.7</dct:identifier>
-    <dcat:keyword>Amministrazioni</dcat:keyword>
-    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/GSIM"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_CSV"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/organization/public-organization/td_PCM"/>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
-    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/voc_AgID"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:keyword>Amministrazioni Pubbliche</dcat:keyword>
-    <dcat:keyword>classificazione</dcat:keyword>
-    <gsim:has rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level2"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <prov:wasGeneratedBy rdf:resource="https://w3id.org/italia/data/activity/generationS13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level1">
-    <rdf:type rdf:resource="http://purl.org/linked-data/xkos#ClassificationLevel"/>
-    <gsim:level_name xml:lang="it">Livello 1</gsim:level_name>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <xkos:depth>1</xkos:depth>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level"/>
-    <gsim:number_of_items>3</gsim:number_of_items>
-    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/205">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2440"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Comunità montane</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Comunita' Montane e loro Consorzi e Associazioni</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:notation>205</skos:notation>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
-    <skos:notation>3</skos:notation>
-    <skos:prefLabel xml:lang="it">Enti nazionali di previdenza e assistenza</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>221</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Agenzie regionali sanitarie e aziende ed enti di supporto al SSN</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
-    <skos:altLabel xml:lang="it">Agenzie Regionali Sanitarie</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_CSV">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione CSV classificazione S13 Amministrazioni Pubbliche</dct:title>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.csv"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216">
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Agenzie, enti e consorzi per il diritto allo studio universitario</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Agenzie, Enti e Consorzi Pubblici per il Diritto allo Studio Universitario</skos:altLabel>
-    <skos:notation>216</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_RDF_Turtle">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle classificazione S13 Amministrazioni Pubbliche</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.ttl"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:altLabel xml:lang="it">Autorita' Amministrative Indipendenti</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2300"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>105</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Autorità amministrative indipendenti</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/203">
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">Province e loro Consorzi e Associazioni</skos:altLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2460"/>
-    <skos:notation>203</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2420"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:prefLabel xml:lang="it">Province e Città Metropolitane</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1">
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
-    <skos:prefLabel xml:lang="it">Amministrazioni centrali</skos:prefLabel>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
-    <skos:notation>1</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/105"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/102"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
-    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>202</skos:notation>
-    <skos:prefLabel xml:lang="it">Province autonome</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Regioni, Province Autonome e loro Consorzi e Associazion</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/107">
-    <skos:altLabel xml:lang="it">Federazioni Nazionali, Ordini, Collegi e Consigli Professionali</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:notation>107</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:prefLabel xml:lang="it">Enti produttori di servizi assistenziali, ricreativi e culturali</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Enti Pubblici Produttori di Servizi Assistenziali, Ricreativi e Culturali</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#generalizes">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/217">
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:altLabel xml:lang="it">ENTI REGIONALI DI SVILUPPO AGRICOLO</skos:altLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2753"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>217</skos:notation>
-    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali di sviluppo agricolo</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali di Sviluppo Agricolo</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224">
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:notation>224</skos:notation>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:altLabel xml:lang="it">Consorzi di Bacino Imbrifero Montano</skos:altLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Consorzi di bacino imbrifero montano</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>207</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:altLabel xml:lang="it">Aziende Sanitarie Locali</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Aziende sanitarie locali</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300">
-    <skos:notation>300</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:altLabel xml:lang="it">ENTI NAZIONALI DI PREVIDENZA E ASSISTENZA</skos:altLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:altLabel xml:lang="it">Enti Nazionali di Previdenza ed Assistenza Sociale in Conto Economico Consolidato</skos:altLabel>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
-    <skos:prefLabel xml:lang="it">Enti nazionali di previdenza e assistenza sociale</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2751"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:altLabel xml:lang="it">CONSORZI E ENTI GESTORI DI PARCHI E AREE NATURALI PROTETTE</skos:altLabel>
-    <skos:notation>219</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:altLabel xml:lang="it">Parchi Nazionali, Consorzi e Enti Gestori di Parchi e Aree Naturali Protette</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Parchi nazionali, consorzi ed enti gestori di parchi e aree naturali protette</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
-    <skos:altLabel xml:lang="it">Consorzi Interuniversitari di Ricerca</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Consorzi interuniversitari di ricerca</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2711"/>
-    <skos:notation>230</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232">
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2753"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Agenzie regionali per le erogazioni in agricoltura</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>232</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">Agenzie Regionali per le Erogazioni in Agricoltura</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:notation>222</skos:notation>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali del Lavoro</skos:altLabel>
-    <skos:altLabel xml:lang="it">AGENZIE REGIONALI DEL LAVORO</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali del lavoro</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/covapit#PublicOrganizationCategory">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:prefLabel xml:lang="it">Consorzi tra amministrazioni locali</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Consorzi tra Amministrazioni Locali</skos:altLabel>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:notation>237</skos:notation>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/234">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">Teatri Stabili ad Iniziativa Pubblica</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>234</skos:notation>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Teatri nazionali e di rilevante interesse culturale</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_JSON_LD">
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
-    <dct:title xml:lang="it">Distribuzione JSON_LD classificazione S13 Amministrazioni Pubbliche</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.jsonld"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_XLSX">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
-    <dct:title xml:lang="it">Distribuzione XLSX classificazione S13 Amministrazioni Pubbliche</dct:title>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.xlsx"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:prefLabel xml:lang="it">Altre amministrazioni locali</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:notation>223</skos:notation>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">ALTRI ENTI E ISTITUZIONI PUBBLICHE LOCALI</skos:altLabel>
-    <skos:altLabel xml:lang="it">Altri Enti Locali</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/GSIM">
-    <dct:identifier>GSIM</dct:identifier>
-    <dct:description xml:lang="en">GSIM is a reference framework of internationally agreed definitions, attributes and relationships that describe the  pieces of information that are used in the production of  official statistics (information objects).  This framework enables generic descriptions of the definition, management and use of data and metadata throughout the statistical production process.</dct:description>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:title>Generic Statistical Information Model - GSIM</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>218</skos:notation>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2752"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Autorità portuali/Autorità di Sistema Portuale</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Autorita' portuali</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233">
-    <skos:altLabel xml:lang="it">AGENZIE REGIONALI PER LE RELAZIONI SINDACALI</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Agenzie regionali per la rappresentanza negoziale</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:notation>233</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:altLabel xml:lang="it">Agenzie regionali per la rappresentanza negoziale</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#depth">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/101">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>101</skos:notation>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Presidenza del Consiglio dei Ministri e Ministeri</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2210"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2220"/>
-    <skos:altLabel xml:lang="it">Presidenza del Consiglio dei Ministri, Ministeri e Avvocatura dello Stato</skos:altLabel>
+    <skos:altLabel xml:lang="it">Comuni e loro Consorzi e Associazioni</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/225">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Enti di governo dei servizi idrici e/o dei rifiuti (ex AATO)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
     <skos:notation>225</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Enti di governo dei servizi idrici e/o dei rifiuti (ex AATO)</skos:prefLabel>
     <skos:altLabel xml:lang="it">Enti di Regolazione dei Servizi Idrici e o dei Rifiuti</skos:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2620"/>
-    <skos:altLabel xml:lang="it">Universita' e Istituti di Istruzione Universitaria Pubblici</skos:altLabel>
-    <skos:altLabel>UNIVERSITA' PUBBLICHE</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Università e istituti di istruzione universitaria pubblici</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:notation>213</skos:notation>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_JSON_LD">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione JSON_LD classificazione S13 Amministrazioni Pubbliche</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/206">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2450"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:altLabel xml:lang="it">Unioni di Comuni e loro Consorzi e Associazioni</skos:altLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Unioni di comuni</skos:prefLabel>
-    <skos:notation>206</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>ISTAT</dct:identifier>
-    <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
-    <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/agid">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104">
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:altLabel xml:lang="it">Aziende ed Amministrazioni dello Stato ad Ordinamento Autonomo</skos:altLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:prefLabel>Enti produttori di servizi economici</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>104</skos:notation>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/239">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Fondazioni lirico-sinfoniche</skos:prefLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:notation>239</skos:notation>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
-    <skos:prefLabel xml:lang="it">Fondazioni Lirico, Sinfoniche</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112">
-    <skos:altLabel xml:lang="it">Istituti Zooprofilattici Sperimentali</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <skos:prefLabel xml:lang="it">Istituti zooprofilattici sperimentali</skos:prefLabel>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:notation>112</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/108">
-    <skos:prefLabel xml:lang="it">Agenzie fiscali</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:altLabel xml:lang="it">Agenzie Fiscali</skos:altLabel>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2230"/>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-    <skos:notation>108</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
-    <dct:identifier>SKOS</dct:identifier>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <skos:prefLabel xml:lang="it">Enti a struttura associativa</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
-    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>106</skos:notation>
-    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/organization/public-organization/td_PCM">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <dct:identifier>PCM</dct:identifier>
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#numberOfLevels">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/number_of_items">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_RDF_XML">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione RDF/XML classificazione S13 Amministrazioni Pubbliche</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#ClassificationLevel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#Asset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/voc_AgID">
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/organization/public-organization/td_PCM">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dct:identifier>PCM</dct:identifier>
+    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/activity/generationS13">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <rdfs:label>Generazione S13</rdfs:label>
+    <dct:description>Attività di generazione della classificazione S13</dct:description>
+    <prov:wasAssociatedWith rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
+    <prov:wasAssociatedWith rdf:resource="http://spcdata.digitpa.gov.it/UnitaOrganizzativa/ISTAT_UfficioRSTB"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#member">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/219">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>219</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2751"/>
+    <skos:prefLabel xml:lang="it">Parchi nazionali, consorzi ed enti gestori di parchi e aree naturali protette</skos:prefLabel>
+    <skos:altLabel xml:lang="it">CONSORZI E ENTI GESTORI DI PARCHI E AREE NATURALI PROTETTE</skos:altLabel>
+    <skos:altLabel xml:lang="it">Parchi Nazionali, Consorzi e Enti Gestori di Parchi e Aree Naturali Protette</skos:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/218">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>218</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2752"/>
+    <skos:prefLabel xml:lang="it">Autorità portuali/Autorità di Sistema Portuale</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Autorita' portuali</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/106">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>106</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Enti a struttura associativa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/StatisticalClassification"/>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/organization/public-organization/td_PCM"/>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
+    <dct:description xml:lang="it">Versione Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013). Il vocabolario è collegato a quello delle forme giuridiche.</dct:description>
+    <dct:description xml:lang="en">Linked Open Data version of the classification ISTAT S13 - the list of institutional units that are part of the Public Administrations sector (Sector S13 in the SEC - European System of Accounts, defined by Regulation (EU) of the European Parliament and of the Council, no. 549/2013). The vocabulary is linked to legal status vocabulary.</dct:description>
+    <rdfs:comment xml:lang="it">Versione Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013). Il vocabolario è collegato a quello delle forme giuridiche.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Linked Open Data version of the classification ISTAT S13 - the list of institutional units that are part of the Public Administrations sector (Sector S13 in the SEC - European System of Accounts, defined by Regulation (EU) of the European Parliament and of the Council, no. 549/2013). The vocabulary is linked to legal status vocabulary.</rdfs:comment>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
+    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/GSIM"/>
+    <dct:identifier>ISTAT:D.7</dct:identifier>
+    <ndc:keyConcept>S13</ndc:keyConcept>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-22</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-10</dct:modified>
+    <dct:title xml:lang="it">Classificazione ISTAT S13 - elenco unità istituzionali del settore delle Amministrazioni Pubbliche</dct:title>
+    <dct:title xml:lang="en">ISTAT Classification S13 - list of institutional units of the Public Administrations sector</dct:title>
+    <rdfs:label xml:lang="it">Classificazione ISTAT S13 - elenco unità istituzionali del settore delle Amministrazioni Pubbliche</rdfs:label>
+    <rdfs:label xml:lang="en">ISTAT Classification S13 - list of institutional units of the Public Administrations sector</rdfs:label>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
+    <xkos:numberOfLevels>2</xkos:numberOfLevels>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:keyword xml:lang="it">S13</dcat:keyword>
+    <dcat:keyword xml:lang="it">Amministrazioni</dcat:keyword>
+    <dcat:keyword xml:lang="it">Amministrazioni Pubbliche</dcat:keyword>
+    <dcat:keyword xml:lang="it">classificazione</dcat:keyword>
+    <owl:versionInfo xml:lang="it">1.0 - è necessario prestare attenzione ai codici indicati che potrebbero subire modifiche a seguito di una revisione da parte di ISTAT della classificazione</owl:versionInfo>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_RDF_Turtle"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_RDF_XML"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_JSON_LD"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_CSV"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/S13_XLSX"/>
+    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/voc_AgID"/>
+    <gsim:has rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level1"/>
+    <gsim:has rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level2"/>
+    <prov:wasGeneratedBy rdf:resource="https://w3id.org/italia/data/activity/generationS13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/103">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>103</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Enti di regolazione dell'attività economica</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Aziende ed Amministrazioni dello Stato ad Ordinamento Autonomo</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/number_of_items">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/233">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>233</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Agenzie regionali per la rappresentanza negoziale</skos:prefLabel>
+    <skos:altLabel xml:lang="it">AGENZIE REGIONALI PER LE RELAZIONI SINDACALI</skos:altLabel>
+    <skos:altLabel xml:lang="it">Agenzie regionali per la rappresentanza negoziale</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/112">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>112</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Istituti zooprofilattici sperimentali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Istituti Zooprofilattici Sperimentali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/221">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>221</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
+    <skos:prefLabel xml:lang="it">Agenzie regionali sanitarie e aziende ed enti di supporto al SSN</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie Regionali Sanitarie</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/Level1">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/xkos#ClassificationLevel"/>
+    <xkos:depth>1</xkos:depth>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <gsim:groups rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:member rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
+    <gsim:level_name xml:lang="it">Livello 1</gsim:level_name>
+    <gsim:number_of_items>3</gsim:number_of_items>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>300</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Enti nazionali di previdenza e assistenza sociale</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Enti Nazionali di Previdenza ed Assistenza Sociale in Conto Economico Consolidato</skos:altLabel>
+    <skos:altLabel xml:lang="it">ENTI NAZIONALI DI PREVIDENZA E ASSISTENZA</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/232">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>232</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2753"/>
+    <skos:prefLabel xml:lang="it">Agenzie regionali per le erogazioni in agricoltura</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie Regionali per le Erogazioni in Agricoltura</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/211">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>211</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2720"/>
+    <skos:prefLabel xml:lang="it">Camere di commercio, industria, artigianato e agricoltura e unioni regionali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Camere di Commercio, Industria, Artigianato e Agricoltura e loro Unioni Regionali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/213">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>213</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:exactMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2620"/>
+    <skos:prefLabel xml:lang="it">Università e istituti di istruzione universitaria pubblici</skos:prefLabel>
+    <skos:altLabel>UNIVERSITA' PUBBLICHE</skos:altLabel>
+    <skos:altLabel xml:lang="it">Universita' e Istituti di Istruzione Universitaria Pubblici</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/agid">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dct:identifier>agid</dct:identifier>
+    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/3">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:generalizes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/300"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>3</skos:notation>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Enti nazionali di previdenza e assistenza</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/207">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>207</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2500"/>
+    <skos:prefLabel xml:lang="it">Aziende sanitarie locali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Aziende Sanitarie Locali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/222">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>222</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Agenzie ed enti regionali del lavoro</skos:prefLabel>
+    <skos:altLabel xml:lang="it">AGENZIE REGIONALI DEL LAVORO</skos:altLabel>
+    <skos:altLabel xml:lang="it">Agenzie ed Enti Regionali del Lavoro</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/has">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#ObjectProperty"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/224">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>224</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
+    <skos:prefLabel xml:lang="it">Consorzi di bacino imbrifero montano</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Consorzi di Bacino Imbrifero Montano</skos:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/GSIM">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>GSIM</dct:identifier>
+    <dct:title>Generic Statistical Information Model - GSIM</dct:title>
+    <dct:description xml:lang="en">GSIM is a reference framework of internationally agreed definitions, attributes and relationships that describe the  pieces of information that are used in the production of  official statistics (information objects).  This framework enables generic descriptions of the definition, management and use of data and metadata throughout the statistical production process.</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/110">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>110</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2756"/>
+    <skos:prefLabel xml:lang="it">Enti e Istituzioni di ricerca</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Enti e Istituzioni di Ricerca Pubblici</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/S13_CSV">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione CSV classificazione S13 Amministrazioni Pubbliche</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013).</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/Level">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/202">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>202</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Province autonome</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Regioni, Province Autonome e loro Consorzi e Associazion</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/230">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>230</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2711"/>
+    <skos:prefLabel xml:lang="it">Consorzi interuniversitari di ricerca</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Consorzi Interuniversitari di Ricerca</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/237">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>237</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:relatedMatch rdf:resource="http://dati.gov.it/onto/controlledvocabulary/OrgLegalStatus/2740"/>
+    <skos:prefLabel xml:lang="it">Consorzi tra amministrazioni locali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Consorzi tra Amministrazioni Locali</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#ClassificationLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/216">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>216</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Agenzie, enti e consorzi per il diritto allo studio universitario</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Agenzie, Enti e Consorzi Pubblici per il Diritto allo Studio Universitario</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/104">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/1"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>104</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel>Enti produttori di servizi economici</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Aziende ed Amministrazioni dello Stato ad Ordinamento Autonomo</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/groups">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dct:identifier>ISTAT</dct:identifier>
+    <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
+    <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/223">
+    <rdf:type rdf:resource="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/covapit#PublicOrganizationCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <xkos:specializes rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13/2"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13"/>
+    <skos:notation>223</skos:notation>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Altre amministrazioni locali</skos:prefLabel>
+    <skos:altLabel xml:lang="it">Altri Enti Locali</skos:altLabel>
+    <skos:altLabel xml:lang="it">ALTRI ENTI E ISTITUZIONI PUBBLICHE LOCALI</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#depth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linked-data/xkos#specializes">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/StatisticalClassification">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/groups">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#ObjectProperty"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/voc_AgID">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>banche dati e open data</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/ClassificationItem">
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/covapit#PublicOrganizationCategory">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/NDC/keyConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#member">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#numberOfLevels">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linked-data/xkos#generalizes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/StatisticalClassification">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.datiopen.istat.it/Ontologie/meta/gsim/has">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#Asset">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,480 +1,396 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:cpsvapit="https://w3id.org/italia/onto/CPSV/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6">
-    <skos:prefLabel xml:lang="en">Financing a company</skos:prefLabel>
-    <skos:definition xml:lang="en">This business event groups public services related to different types of funding, grants, loans, subsidies that help to finance the business.</skos:definition>
-    <skos:notation>6</skos:notation>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla concessione di diversi tipi di finanziamento per un'impresa.</skos:definition>
-    <skos:prefLabel xml:lang="it">Finanziamento impresa</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <dct:identifier>6</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Finanzierung eines Unternehmens</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/BE_JSON_LD">
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
-    <dct:title xml:lang="en">JSON_LD distribution business events</dct:title>
-    <dct:title xml:lang="it">Distribuzione JSON_LD eventi di business</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.jsonld"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8">
-    <dct:identifier>8</dct:identifier>
-    <skos:prefLabel xml:lang="en">Paying taxes (VAT and customs)</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:notation>8</skos:notation>
-    <skos:prefLabel xml:lang="it">Pagamento tasse, iva e dogane</skos:prefLabel>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla dichiarazione del profitto di un'impresa e quindi relativi al pagamento delle relative tasse (incluse iva e dogane).</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Zahlung von Steuern (MwSt. und Zölle)</skos:prefLabel>
-    <skos:definition xml:lang="en">This business event groups public services related to declaring the profit of a company (and thus paying taxes, including VAT and customs). </skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event">
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/BE_RDF_Turtle"/>
-    <dcat:keyword xml:lang="en">business event</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2"/>
-    <dcat:keyword xml:lang="it">evento</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/BE_CSV"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <rdfs:label xml:lang="it">Vocabolario controllato degli eventi di business (evento della vita di un'impresa)</rdfs:label>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6"/>
-    <dct:title xml:lang="it">Vocabolario controllato degli eventi di business (evento della vita di un'impresa)</dct:title>
-    <dct:description xml:lang="it">Vocabolario controllato degli eventi di business (eventi della vita di un'impresa) utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
-    <rdfs:label xml:lang="en">Controlled Vocabulary of Business Events</rdfs:label>
-    <rdfs:comment xml:lang="en">Controlled Vocabulary of the business events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <dcat:keyword xml:lang="it">evento della vita</dcat:keyword>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <rdfs:comment xml:lang="it">Vocabolario controllato degli eventi di business (eventi della vita di un'impresa) utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13"/>
-    <dct:identifier>agid:D.9</dct:identifier>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7"/>
-    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8"/>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/BE_XLSX"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/BE_JSON_LD"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3"/>
-    <dcat:keyword xml:lang="it">evento di business</dcat:keyword>
-    <dcat:keyword xml:lang="en">event</dcat:keyword>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:comment xml:lang="en">Classification of the business events for the Italian catalogue of public services</rdfs:comment>
+    <rdfs:comment xml:lang="it">Classificazione degli eventi business per il catalogo italiano dei servizi pubblici</rdfs:comment>
+    <rdfs:label xml:lang="en">Controlled Vocabulary of Business Events</rdfs:label>
+    <rdfs:label xml:lang="it">Vocabolario controllato degli eventi di business (evento della vita di un'impresa)</rdfs:label>
+    <dct:title xml:lang="en">Controlled Vocabulary of Business Events</dct:title>
+    <dct:title xml:lang="it">Vocabolario controllato degli eventi di business (evento della vita di un'impresa)</dct:title>
+    <dct:description xml:lang="en">Controlled Vocabulary  of the business events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
+    <dct:description xml:lang="it">Vocabolario controllato della classificazione degli eventi di business (eventi della vita di un'impresa) utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <ndc:keyConcept>business-event</ndc:keyConcept>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
     <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11"/>
+    <dct:identifier>agid:D.9</dct:identifier>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:keyword xml:lang="it">evento</dcat:keyword>
+    <dcat:keyword xml:lang="it">evento della vita</dcat:keyword>
+    <dcat:keyword xml:lang="it">evento di business</dcat:keyword>
+    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="en">event</dcat:keyword>
     <dcat:keyword xml:lang="en">life event</dcat:keyword>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <dcat:keyword xml:lang="en">business event</dcat:keyword>
     <dcat:keyword xml:lang="en">public service</dcat:keyword>
-    <dct:description xml:lang="en">Controlled Vocabulary of the business events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/BE_RDF_XML"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dct:title xml:lang="en">Controlled Vocabulary of Business Events</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9">
-    <skos:prefLabel xml:lang="en">Reporting and notifying authorities</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <dct:identifier>9</dct:identifier>
-    <skos:definition xml:lang="en">This business event groups public services related to notifying authorities about different type of activities, for instance environmental information, annual reports, accounting procedures, registration of inventions, patents, trademarks, copyrights, etc.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Notifiche autorità</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:notation>9</skos:notation>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alle notifiche alle autorità di diversi tipi di attività, ad esempio informazioni ambientali, relazioni annuali, procedure contabili, registrazioni di invenzioni, brevetti, ecc.</skos:definition>
-    <skos:prefLabel xml:lang="de">Melde- und Notifizierungsbehörden</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2">
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:prefLabel xml:lang="de">Neue berufliche Tätigkeit aufnehmen</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Avvio nuova attività professionale</skos:prefLabel>
-    <skos:notation>2</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:prefLabel xml:lang="en">Starting a new activity </skos:prefLabel>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa racchiude nello specifico servizi pubblici relativi all'avvio di una nuova attività di business per singoli professionisti.</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>2</dct:identifier>
-    <skos:definition xml:lang="en">This business event groups public services related to the starting of a new business activity for single professionals </skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4">
-    <dct:identifier>4</dct:identifier>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla registrazione di un'impresa all'estero.</skos:definition>
-    <skos:prefLabel xml:lang="de">Registrierung eines grenzüberschreitenden Unternehmens</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">This business event groups public services that result in starting an international operations.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:prefLabel xml:lang="en">Registering a cross-border business</skos:prefLabel>
-    <skos:notation>4</skos:notation>
-    <skos:prefLabel xml:lang="it">Registrazione impresa transfrontaliera</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/BE_CSV">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
-    <dct:title xml:lang="en">CSV distribution business events</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.csv"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione CSV eventi di business</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:prefLabel xml:lang="en">Starting a company</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Unternehmensgründung</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>1</dct:identifier>
-    <skos:definition xml:lang="en">This business event groups public services related to the starting of a company</skos:definition>
-    <skos:prefLabel xml:lang="it">Avvio impresa</skos:prefLabel>
-    <skos:notation>1</skos:notation>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa racchiude nello specifico servizi pubblici relativi all'avvio di un'azienda</skos:definition>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14">
-    <skos:prefLabel xml:lang="de">Bankrott</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Bankruptcy</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>14</skos:notation>
-    <skos:prefLabel xml:lang="it">Bancarotta</skos:prefLabel>
-    <skos:definition xml:lang="en">This business event groups public services that relate to declaration of bankruptcy of a company.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>14</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla dichiarazione di stato di bancarotta per un'impresa</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13">
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla vendita di un'impresa</skos:definition>
-    <skos:definition xml:lang="en">This business event groups public services related to the selling of a company…</skos:definition>
-    <dct:identifier>13</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:prefLabel xml:lang="en">Selling company</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Verkaufende Gesellschaft</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>13</skos:notation>
-    <skos:prefLabel xml:lang="it">Vendita impresa</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/BE_RDF_XML">
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML eventi di business</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.rdf"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">RDF/XML distribution business events</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/BE_XLSX">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.xlsx"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">XLSX distribution business events</dct:title>
-    <dct:title xml:lang="it">Distribuzione XLSX eventi di business</dct:title>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/BE_RDF_Turtle">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.ttl"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution bisiness events</dct:title>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle eventi di business</dct:title>
-    <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11">
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla chiusura di una filiale di un'impresa.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:notation>11</skos:notation>
-    <skos:prefLabel xml:lang="en">Closing a branch</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Chiusura filiale</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Filiale schließen</skos:prefLabel>
-    <dct:identifier>11</dct:identifier>
-    <skos:definition xml:lang="en">This business event groups public services related to the closing of a branch of a company.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla chiusura di un'impresa o di una attività professionale svolta da singoli professionisti.</skos:definition>
-    <skos:prefLabel xml:lang="de">Schließung eines Unternehmens / einer beruflichen Tätigkeit</skos:prefLabel>
-    <skos:notation>10</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:definition xml:lang="en">This business event groups public services that relate to the closing, deregistration, discontinuation, of a company or business activity carried out by a single professional.</skos:definition>
-    <skos:prefLabel xml:lang="it">Chiusura impresa e attività professionale</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:prefLabel xml:lang="en">Closing a company/a professional activity</skos:prefLabel>
-    <dct:identifier>10</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12">
-    <skos:prefLabel xml:lang="de">Umstrukturierung eines Unternehmens</skos:prefLabel>
-    <dct:identifier>12</dct:identifier>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla riorganizzazione, fusione, acquisizione e qualsiasi cambiamento dello stato legale di un'impresa.</skos:definition>
-    <skos:prefLabel xml:lang="it">Ristrutturazione impresa</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">This business event groups public services related to the reorganisation, merger, acquisition, any change on the legal status of the business.</skos:definition>
-    <skos:notation>12</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Restructuring company</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPSV/BusinessEvent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:prefLabel xml:lang="it">Richiesta licenze/permessi/certificati</skos:prefLabel>
-    <skos:notation>3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alle richieste di licenze, permessi, certificati o altri documenti ufficiali necessari prima di iniziare un'attività di business.</skos:definition>
-    <skos:prefLabel xml:lang="en">Applying for licenses, permits and certificates</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>3</dct:identifier>
-    <skos:prefLabel xml:lang="de">Beantragung von Lizenzen, Genehmigungen und Zertifikaten</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:definition xml:lang="en">This business event groups public services related to the request of a licence, permit, certificate or other official document that have to be acquired before starting to execute a certain business activity.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="en">This business event groups public services related to the recruiting and management of employees of a company. </skos:definition>
-    <skos:prefLabel xml:lang="it">Gestione personale</skos:prefLabel>
-    <skos:notation>7</skos:notation>
-    <skos:prefLabel xml:lang="de">Personalbesetzung</skos:prefLabel>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi al reclutamento e alla gestione del personale di un'impresa.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:prefLabel xml:lang="en">Staffing</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>7</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5">
-    <dct:identifier>5</dct:identifier>
-    <skos:prefLabel xml:lang="en">Starting/Registering a branch</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi all'avvio di una nuova filiale di un'impresa.</skos:definition>
-    <skos:notation>5</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Avvio/registrazione filiale</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:definition xml:lang="en">This business event groups public services related to starting of a new branch of a company.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Starten/Registrieren einer Filiale</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
-    <dct:identifier>15</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Partecipazione ad appalti pubblici nazionali e trasfrontalieri</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla partecipazione in appalti pubblici (nazionali e transfrontalieri) o alla vendita diretta di servizi/prodotti a pubbliche amministrazioni.</skos:definition>
-    <skos:definition xml:lang="en">This business event groups public services related to participating in a public tender (national and cross-border), or directly selling services/products to public administrations.</skos:definition>
-    <skos:notation>15</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
-    <skos:prefLabel xml:lang="en">Participating in public procurement (national and cross-border)</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Teilnahme am öffentlichen Beschaffungswesen (national und grenzüberschreitend)</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:identifier>SKOS</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/BE_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle eventi di business</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution bisiness events</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/BE_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML eventi di business</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution business events</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/BE_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD eventi di business</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution business events</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/BE_CSV">
+        <dct:title xml:lang="it">Distribuzione CSV eventi di business</dct:title>
+        <dct:title xml:lang="en">CSV distribution business events</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.csv"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/BE_XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX eventi di business</dct:title>
+        <dct:title xml:lang="en">XLSX distribution business events</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi di business (eventi della vita di un'impresa) usati nel catalogo nazionale per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the business events used in the Italian national catalogue of public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event/business-event.xlsx"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/business-event"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>1</skos:notation>
+        <dct:identifier>1</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Avvio impresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Unternehmensgründung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Starting a company</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa racchiude nello specifico servizi pubblici relativi all'avvio di un'azienda</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the starting of a company</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>2</skos:notation>
+        <dct:identifier>2</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Avvio nuova attività professionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Starting a new activity </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Neue berufliche Tätigkeit aufnehmen</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa racchiude nello specifico servizi pubblici relativi all'avvio di una nuova attività di business per singoli professionisti.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the starting of a new business activity for single professionals </skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>3</skos:notation>
+        <dct:identifier>3</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Richiesta licenze/permessi/certificati</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Beantragung von Lizenzen, Genehmigungen und Zertifikaten</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Applying for licenses, permits and certificates</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alle richieste di licenze, permessi, certificati o altri documenti ufficiali necessari prima di iniziare un'attività di business.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the request of a licence, permit, certificate or other official document that have to be acquired before starting to execute a certain business activity.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>4</skos:notation>
+        <dct:identifier>4</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Registrazione impresa transfrontaliera</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Registrierung eines grenzüberschreitenden Unternehmens</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Registering a cross-border business</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla registrazione di un'impresa all'estero.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services that result in starting an international operations.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>5</skos:notation>
+        <dct:identifier>5</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Avvio/registrazione filiale</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Starten/Registrieren einer Filiale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Starting/Registering a branch</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi all'avvio di una nuova filiale di un'impresa.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to starting of a new branch of a company.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>6</skos:notation>
+        <dct:identifier>6</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Finanziamento impresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Finanzierung eines Unternehmens</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Financing a company</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla concessione di diversi tipi di finanziamento per un'impresa.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to different types of funding, grants, loans, subsidies that help to finance the business.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>7</skos:notation>
+        <dct:identifier>7</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Gestione personale</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Personalbesetzung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Staffing</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi al reclutamento e alla gestione del personale di un'impresa.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the recruiting and management of employees of a company. </skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>8</skos:notation>
+        <dct:identifier>8</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Pagamento tasse, iva e dogane</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zahlung von Steuern (MwSt. und Zölle)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Paying taxes (VAT and customs)</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla dichiarazione del profitto di un'impresa e quindi relativi al pagamento delle relative tasse (incluse iva e dogane).</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to declaring the profit of a company (and thus paying taxes, including VAT and customs). </skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>9</skos:notation>
+        <dct:identifier>9</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Notifiche autorità</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Melde- und Notifizierungsbehörden</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Reporting and notifying authorities</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alle notifiche alle autorità di diversi tipi di attività, ad esempio informazioni ambientali, relazioni annuali, procedure contabili, registrazioni di invenzioni, brevetti, ecc.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to notifying authorities about different type of activities, for instance environmental information, annual reports, accounting procedures, registration of inventions, patents, trademarks, copyrights, etc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>10</skos:notation>
+        <dct:identifier>10</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Chiusura impresa e attività professionale</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schließung eines Unternehmens / einer beruflichen Tätigkeit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Closing a company/a professional activity</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla chiusura di un'impresa o di una attività professionale svolta da singoli professionisti.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services that relate to the closing, deregistration, discontinuation, of a company or business activity carried out by a single professional.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>11</skos:notation>
+        <dct:identifier>11</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Chiusura filiale</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Filiale schließen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Closing a branch</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla chiusura di una filiale di un'impresa.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the closing of a branch of a company.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>12</skos:notation>
+        <dct:identifier>12</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Ristrutturazione impresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Umstrukturierung eines Unternehmens</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Restructuring company</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla riorganizzazione, fusione, acquisizione e qualsiasi cambiamento dello stato legale di un'impresa.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the reorganisation, merger, acquisition, any change on the legal status of the business.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>13</skos:notation>
+        <dct:identifier>13</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Vendita impresa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Verkaufende Gesellschaft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Selling company</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla vendita di un'impresa</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to the selling of a company…</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>14</skos:notation>
+        <dct:identifier>14</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Bancarotta</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bankrott</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bankruptcy</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla dichiarazione di stato di bancarotta per un'impresa</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services that relate to declaration of bankruptcy of a company.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
+        <skos:notation>15</skos:notation>
+        <dct:identifier>15</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Partecipazione ad appalti pubblici nazionali e trasfrontalieri</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Teilnahme am öffentlichen Beschaffungswesen (national und grenzüberschreitend)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Participating in public procurement (national and cross-border)</skos:prefLabel>
+        <skos:definition xml:lang="it">Questo evento della vita di un'impresa raggruppa servizi pubblici relativi alla partecipazione in appalti pubblici (nazionali e transfrontalieri) o alla vendita diretta di servizi/prodotti a pubbliche amministrazioni.</skos:definition>
+        <skos:definition xml:lang="en">This business event groups public services related to participating in a public tender (national and cross-border), or directly selling services/products to public administrations.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
+    <owl:versionInfo>0.1</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/CPSV/BusinessEvent"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

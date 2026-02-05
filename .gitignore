@@ -1,3 +1,11 @@
 .DS_Store
 .DS_Store
 *.xml
+target/
+.project
+.settings
+.classpath
+.~*
+
+*.jar
+

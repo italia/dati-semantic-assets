@@ -13,7 +13,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 skos:ConceptScheme
       a       rdfs:Class .
@@ -157,6 +157,8 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
 
 #Metadata DCAT-AP_IT for the controlled vocabulary
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters>
@@ -166,6 +168,7 @@ vcard:hasEmail
       rdfs:comment "his is the controlled vocabulary of the subject matters for public services of Public Administrations. The vocabulary can be used especially in a web-based context in order to better classify public services an thus facilitate their discoverability by citizens and enterprises. The vocabulary is in relationship with the European controlled vocabulary on Data Theme and with the Italian controlled vocabularies on life and business events used in the context of the catalogue of services"@en , "Questo è il vocabolario controllato sulle materie (o tematiche) per i servizi pubblici. Il vocabolario è nato nel constesto del lavoro si design dei siti web comunali per poter classificare meglio i servizi pubblici offerti ai cittadini e alle imprese. Il vocabolario è in relazione al vocabolario europeo Data theme utilizzato nella specifica CPSV-AP_IT per catalogare i temi dei servizi pubblici. E'inoltre in relazione con i vocabolari controllati italiani sugli eventi della vita di cittadini (life event) e imprese (business event). Si fornisce infatti un vero e proprio mapping in RDF tra questo vocabolario e questi menzionati."@it ;
       dct:type <http://purl.org/adms/assettype/CodeList> ;
       xkos:numberOfLevels "1";
+      ndc:keyConcept "public-services-subject-matters" ;
       dct:relation <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event> , <http://publications.europa.eu/resource/authority/data-theme> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters";
@@ -182,9 +185,9 @@ vcard:hasEmail
       <https://w3id.org/italia/data/distribution/PS-XLSX> ;
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc-AgID> ;
       dct:issued "2019-07-30"^^xsd:date ;
-      dct:modified "2019-07-31"^^xsd:date ;
+      dct:modified "2022-04-12"^^xsd:date ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15> ;
-      owl:versionInfo "versione 0.1"@it .
+      owl:versionInfo "versione 0.2 - implementazione richiesta variazione etichette secondo issue #177"@it .
 
 <https://w3id.org/italia/data/public-organization/td-PCM>
       a dcatapit:Agent, foaf:Agent ;
@@ -216,8 +219,8 @@ vcard:hasEmail
     	dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
     	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     	dct:license  <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl> ;
-    	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+    	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl> ;
+    	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-RDF-XML>
       a						dcatapit:Distribution  ;
@@ -225,8 +228,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-JSON-LD>
       a		dcatapit:Distribution  ;
@@ -234,8 +237,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
   <https://w3id.org/italia/data/distribution/PS-CSV>
       a						dcatapit:Distribution  ;
@@ -243,8 +246,8 @@ vcard:hasEmail
       dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 <https://w3id.org/italia/data/distribution/PS-XLSX>
       a						dcatapit:Distribution  ;
@@ -252,8 +255,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici"@it , "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services"@en ;
       dct:format 		<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license 	<https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
+      dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters> .
 
 #Definition of the controlled vocabulary
  <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1>
@@ -355,9 +358,9 @@ vcard:hasEmail
       clvapit:hasRankOrder "1" ;
       skos:notation "9" ;
       dct:identifier "9" ;
-      skos:prefLabel "Tributi e finanze"@it ;
+      skos:prefLabel "Tributi, finanze e contravvenzioni"@it ;
       skos:relatedMatch <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8> ;
-      skos:altLabel "Tributi e finanze -  dichiarazione redditi, contributi, contravvenzioni"@it ;
+      skos:altLabel "Tributi, finanze e contravvenzioni -  dichiarazione redditi, contributi"@it ;
       skos:definition "Questa materia include tutti quei servizi legati alle tasse e alla finanza. Rientrano i servizi per la dichiarazione dei redditi, per il pagamento di contributi e contravvenzioni, ecc."@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10>
@@ -388,8 +391,8 @@ vcard:hasEmail
       clvapit:hasRankOrder "1" ;
       skos:notation "12" ;
       dct:identifier "12" ;
-      skos:prefLabel "Attività produttive e commercio"@it ;
-      skos:altLabel "Attività produttive e commercio - impresa nazionale/estera, notifiche, bancarotta, risorse umane"@it ;
+      skos:prefLabel "Impresa e commercio"@it ;
+      skos:altLabel "Impresa e commercio - attività produttive, impresa nazionale/estera, notifiche, bancarotta, risorse umane"@it ;
       skos:relatedMatch <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5> ,  <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14> ;
       skos:definition "Questa materia include tutti quei servizi di business legati alla vita dell'impresa e delle attività commerciali. Esempi includono la gestione dell'avvio e chiusura di un'azienda sia italiana che europea, la gestione del personale, la gestione di eventi quali la bancarotta"@it .
 
@@ -423,7 +426,7 @@ vcard:hasEmail
       clvapit:hasRankOrder "1" ;
       skos:notation "15" ;
       dct:identifier "15" ;
-      skos:prefLabel "Agricoltura"@it ;
+      skos:prefLabel "Agricoltura e pesca"@it ;
       skos:exactMatch <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
-      skos:altLabel "Agricoltura - pesca, politiche agricole e alimentari"@it ;
+      skos:altLabel "Agricoltura e pesca - politiche agricole e alimentari"@it ;
       skos:definition "Questa materia include tutti quei servizi pertinenti al contesto agricolo, della pesca e alimentare"@it .

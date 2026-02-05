@@ -1,414 +1,301 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:poiapit="https://w3id.org/italia/onto/POI/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:poiapit="https://w3id.org/italia/onto/POI/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_7_geographical">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al settore geografico quali incroci, strade, aree residenziali, aree industriali, isole, siti naturalistici, ecc.</skos:definition>
-    <poiapit:POIcategoryName xml:lang="it">Settore geografico</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="de">Geographischer Sektor</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Settore geografico</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Geographical</skos:prefLabel>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_5_automotive">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-    <poiapit:POIcategoryName xml:lang="en">Geographical</poiapit:POIcategoryName>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <poiapit:POIcategoryIdentifier>cat_7</poiapit:POIcategoryIdentifier>
-    <skos:notation>cat_7</skos:notation>
-    <dct:identifier>cat_7</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_5_automotive">
-    <poiapit:POIcategoryName xml:lang="en">Automotive</poiapit:POIcategoryName>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification">
+        <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title xml:lang="en">Point of Interest Category Controlled Vocabulary</dct:title>
+        <dct:title xml:lang="it">Vocabolario Controllato sulle categorie dei punti di interesse</dct:title>
+        <dct:description xml:lang="en">Classification of the categories of the point of interest. The classification is based on the first level of the classification proposed by Open Street Map. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
+        <dct:description xml:lang="it">Classificazione delle categorie dei punti di interesse. La classificazione è basata sul primo livello della classificazione proposta da Open Street Map. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+        <rdfs:comment xml:lang="en">Classification of the categories of the point of interest. The classification is based on the first level of the classification proposed by Open Street Map. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Classificazione delle categorie dei punti di interesse. La classificazione è basata su sul primo livello della classificazione proposta da Open Street Map. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
+        <rdfs:label xml:lang="en">Point of Interest Category Classification</rdfs:label>
+        <rdfs:label xml:lang="it">Classificazione delle categorie dei punti di interesse</rdfs:label>
+        <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+        <xkos:numberOfLevels>1</xkos:numberOfLevels>
+        <ndc:keyConcept>poi-category-classification</ndc:keyConcept>
+        <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+        <dct:identifier>agid:D.1</dct:identifier>
+        <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
+        <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:subject rdf:resource="http://eurovoc.europa.eu/251915"/>
+        <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+        <dcat:keyword xml:lang="it">Punti di Interesse</dcat:keyword>
+        <dcat:keyword xml:lang="it">Categoria</dcat:keyword>
+        <dcat:keyword xml:lang="it">Settore</dcat:keyword>
+        <dcat:keyword xml:lang="en">Point of Interest</dcat:keyword>
+        <dcat:keyword xml:lang="en">Category</dcat:keyword>
+        <dcat:keyword xml:lang="en">Sector</dcat:keyword>
+        <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_RDF_Turtle"/>
+        <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_RDF_XML"/>
+        <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_JSON_LD"/>
+        <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_CSV"/>
+        <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_XLSX"/>
+        <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dct:modified>
+        <owl:versionInfo xml:lang="it">versione 0.2</owl:versionInfo>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:notation>cat_5</skos:notation>
     <dct:identifier>cat_5</dct:identifier>
-    <skos:prefLabel xml:lang="en">Automotive</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Settore automobilistico</skos:prefLabel>
     <poiapit:POIcategoryIdentifier>cat_5</poiapit:POIcategoryIdentifier>
     <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <poiapit:POIcategoryName xml:lang="it">Settore automobilistico</poiapit:POIcategoryName>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <skos:notation>cat_5</skos:notation>
+    <skos:prefLabel xml:lang="it">Settore automobilistico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Automotive</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Automobilsektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore automobilistico</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Automotive</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientra in questa categoria tutti i punti di interesse connessi al settore automobilistico quali per esempio, saloni automobilistici, benzinai, parcheggi, centri per il lavaggio auto, stazioni per ricariche elettriche auto, ecc.</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_6_travel">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_JSON_LD"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251915"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdfs:label xml:lang="it">Classificazione delle categorie dei punti di interesse</rdfs:label>
-    <dcat:keyword xml:lang="it">Categoria</dcat:keyword>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="it">Punti di Interesse</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_RDF_Turtle"/>
-    <dct:description xml:lang="it">Classificazione delle categorie dei punti di interesse. La classificazione è basata sul primo livello della classificazione proposta da Open Street Map. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
-    <rdfs:comment xml:lang="en">Classification of the categories of the point of interest. The classification is based on the first level of the classification proposed by Open Street Map. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano.</rdfs:comment>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dct:modified>
-    <dct:identifier>agid:D.1</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <owl:versionInfo xml:lang="it">versione 0.2</owl:versionInfo>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_XLSX"/>
-    <dcat:keyword xml:lang="en">Sector</dcat:keyword>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
-    <dcat:keyword xml:lang="en">Point of Interest</dcat:keyword>
-    <rdfs:label xml:lang="en">Point of Interest Category Classification</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:title xml:lang="en">Point of Interest Category Controlled Vocabulary</dct:title>
-    <rdfs:comment xml:lang="it">Classificazione delle categorie dei punti di interesse. La classificazione è basata su sul primo livello della classificazione proposta da Open Street Map. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_RDF_XML"/>
-    <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
-    <dcat:keyword xml:lang="it">Settore</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dcat:keyword xml:lang="en">Category</dcat:keyword>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:title xml:lang="it">Vocabolario Controllato sulle categorie dei punti di interesse</dct:title>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/POICat_CSV"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:description xml:lang="en">Classification of the categories of the point of interest. The classification is based on the first level of the classification proposed by Open Street Map. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_1_entertainment">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-    <dct:identifier>cat_1</dct:identifier>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <poiapit:POIcategoryName xml:lang="it">Settore intrattenimento</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="en">Entertainment</skos:prefLabel>
-    <poiapit:POIcategoryIdentifier>cat_1</poiapit:POIcategoryIdentifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>cat_1</skos:notation>
-    <skos:prefLabel xml:lang="it">Settore intrattenimento</skos:prefLabel>
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi all'intrattenimento come zoo, discoteche, pub, teatri, acquari, stadi, casino, parchi divertimenti, ecc.</skos:definition>
-    <poiapit:POIcategoryName xml:lang="en">Entertainment</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="de">Unterhaltungssektor</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_CSV">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
-    <dct:title xml:lang="it">Distribuzione CSV vocabolario controllato categorie punti di interesse </dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category.csv"/>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
-    <dct:title xml:lang="en">CSV distribution of the Point of Interest Categories controlled vocabulary</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_2_recreation">
-    <skos:prefLabel xml:lang="en">Leisure</skos:prefLabel>
-    <skos:notation>cat_2</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <skos:prefLabel xml:lang="it">Settore svago</skos:prefLabel>
-    <poiapit:POIcategoryName xml:lang="it">Settore svago</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="de">Freizeitssektor</skos:prefLabel>
-    <poiapit:POIcategoryIdentifier>cat_2</poiapit:POIcategoryIdentifier>
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo svago quali centri sportivi, giardini, parchi, centri benessere, ecc,</skos:definition>
-    <dct:identifier>cat_2</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-    <poiapit:POIcategoryName xml:lang="en">Leisure</poiapit:POIcategoryName>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_4_shopping">
-    <poiapit:POIcategoryIdentifier>cat_4</poiapit:POIcategoryIdentifier>
-    <skos:prefLabel xml:lang="en">Shopping</skos:prefLabel>
-    <dct:identifier>cat_4</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <poiapit:POIcategoryName xml:lang="it">Settore shopping/acquisti</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="de">Einkaufssektor</skos:prefLabel>
-    <skos:notation>cat_4</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo shopping quali per esempio, grande distribuzione, piccola distribuzione, mercati,  farmacie, agenzie immobiliari, ecc.</skos:definition>
-    <skos:prefLabel xml:lang="it">Settore shopping/acquisti</skos:prefLabel>
-    <poiapit:POIcategoryName xml:lang="en">Shopping</poiapit:POIcategoryName>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <dct:identifier>agid</dct:identifier>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_8_publicservice">
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti quei punti di interesse che sono connessi a generici servizi pubblici quali per esempio trasporti pubblici, bagni pubblici, bancomat, filiali di banche, sportelli postali, cestini della spazzatura, centri di raccolta rifiuti, ospedali, veterinari, ecc.</skos:definition>
-    <skos:prefLabel xml:lang="it">Settore altri servizi pubblici</skos:prefLabel>
-    <dct:identifier>cat_8</dct:identifier>
-    <poiapit:POIcategoryName xml:lang="it">Settore altri servizi pubblici</poiapit:POIcategoryName>
-    <poiapit:POIcategoryIdentifier>cat_8</poiapit:POIcategoryIdentifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Sonstige öffentliche Dienstleistungen</skos:prefLabel>
-    <skos:notation>cat_8</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <poiapit:POIcategoryName xml:lang="en">Other public services</poiapit:POIcategoryName>
-    <skos:prefLabel xml:lang="en">Other public services</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_JSON_LD">
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">JSON-LD distribution of the Point of Interest Categories controlled vocabulary</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
-    <dct:title xml:lang="it">Distribuzione JSON-LD vocabolario controllato categorie punti di interesse </dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_RDF_XML">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"/>
-    <dct:title xml:lang="en">RDF/XML distribution of the Point of Interest Categories controlled vocabulary</dct:title>
-    <dct:title xml:lang="it">Distribuzione RDF/XML vocabolario controllato categorie punti di interesse </dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_XLSX">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:title xml:lang="en">CSV distribution of the Point of Interest Categories controlled vocabulary</dct:title>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione XLSX vocabolario controllato categorie punti di interesse </dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_6_travel">
+    <skos:notation>cat_6</skos:notation>
     <dct:identifier>cat_6</dct:identifier>
     <poiapit:POIcategoryIdentifier>cat_6</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore viaggi/turismo</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Travel/Tourism</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Reise-/Tourismussektor</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <poiapit:POIcategoryName xml:lang="en">Travel/Tourism</poiapit:POIcategoryName>
     <poiapit:POIcategoryName xml:lang="it">Settore viaggi/turismo</poiapit:POIcategoryName>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <skos:prefLabel xml:lang="it">Settore viaggi/turismo</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="en">Travel/Tourism</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al settore dei viaggi e del turismo quali per esempio agenzie viaggi, strutture ricettive, centri di cambio valuta, info point per turisti, luoghi della cultura, luoghi freschi, ecc.</skos:definition>
-    <skos:notation>cat_6</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_3_food">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_3_food">
-    <poiapit:POIcategoryName xml:lang="it">Settore cibo</poiapit:POIcategoryName>
-    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al cibo quali per esempio ristoranti, fast food, bar, caffetterie, pizzerie, ecc.</skos:definition>
-    <dct:identifier>cat_3</dct:identifier>
-    <skos:prefLabel xml:lang="de">Lebensmittelsektor</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Food</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <poiapit:POIcategoryName xml:lang="en">Food</poiapit:POIcategoryName>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
-    <skos:prefLabel xml:lang="it">Settore cibo</skos:prefLabel>
     <skos:notation>cat_3</skos:notation>
+    <dct:identifier>cat_3</dct:identifier>
     <poiapit:POIcategoryIdentifier>cat_3</poiapit:POIcategoryIdentifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_RDF_Turtle">
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution of the Point of Interest Categories controlled vocabulary</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle vocabolario controllato categorie punti di interesse </dct:title>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore cibo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Food</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Lebensmittelsektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore cibo</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Food</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al cibo quali per esempio ristoranti, fast food, bar, caffetterie, pizzerie, ecc.</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_2_recreation">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+    <skos:notation>cat_2</skos:notation>
+    <dct:identifier>cat_2</dct:identifier>
+    <poiapit:POIcategoryIdentifier>cat_2</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore svago</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Leisure</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Freizeitssektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore svago</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Leisure</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo svago quali centri sportivi, giardini, parchi, centri benessere, ecc,</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryName"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_8_publicservice">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+    <skos:notation>cat_8</skos:notation>
+    <dct:identifier>cat_8</dct:identifier>
+    <poiapit:POIcategoryIdentifier>cat_8</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore altri servizi pubblici</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other public services</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Sonstige öffentliche Dienstleistungen</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore altri servizi pubblici</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Other public services</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti quei punti di interesse che sono connessi a generici servizi pubblici quali per esempio trasporti pubblici, bagni pubblici, bancomat, filiali di banche, sportelli postali, cestini della spazzatura, centri di raccolta rifiuti, ospedali, veterinari, ecc.</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_7_geographical">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+    <skos:notation>cat_7</skos:notation>
+    <dct:identifier>cat_7</dct:identifier>
+    <poiapit:POIcategoryIdentifier>cat_7</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore geografico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geographical</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Geographischer Sektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore geografico</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Geographical</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al settore geografico quali incroci, strade, aree residenziali, aree industriali, isole, siti naturalistici, ecc.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_1_entertainment">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+    <skos:notation>cat_1</skos:notation>
+    <dct:identifier>cat_1</dct:identifier>
+    <poiapit:POIcategoryIdentifier>cat_1</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore intrattenimento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Entertainment</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Unterhaltungssektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore intrattenimento</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Entertainment</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi all'intrattenimento come zoo, discoteche, pub, teatri, acquari, stadi, casino, parchi divertimenti, ecc.</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_4_shopping">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
+    <skos:notation>cat_4</skos:notation>
+    <dct:identifier>cat_4</dct:identifier>
+    <poiapit:POIcategoryIdentifier>cat_4</poiapit:POIcategoryIdentifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Settore shopping/acquisti</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Shopping</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Einkaufssektor</skos:prefLabel>
+    <poiapit:POIcategoryName xml:lang="it">Settore shopping/acquisti</poiapit:POIcategoryName>
+    <poiapit:POIcategoryName xml:lang="en">Shopping</poiapit:POIcategoryName>
+    <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo shopping quali per esempio, grande distribuzione, piccola distribuzione, mercati,  farmacie, agenzie immobiliari, ecc.</skos:definition>
+  </skos:Concept>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryIdentifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_CSV">
+    <dct:title xml:lang="it">Distribuzione CSV vocabolario controllato categorie punti di interesse </dct:title>
+    <dct:title xml:lang="en">CSV distribution of the Point of Interest Categories controlled vocabulary</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
+    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/poi-category-classification"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:identifier>SKOS</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
-    <dct:identifier>PCM</dct:identifier>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
+  </dcatapit:Distribution>
+  <dcatapit:Agent rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>PCM</dct:identifier>
     <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
     <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/POI/PointOfInterestCategory">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/POI/POIcategoryName">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/POI/POIcategoryIdentifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+  </dcatapit:Agent>
+  <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_XLSX">
+    <dct:title xml:lang="it">Distribuzione XLSX vocabolario controllato categorie punti di interesse </dct:title>
+    <dct:title xml:lang="en">CSV distribution of the Point of Interest Categories controlled vocabulary</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
+    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/poi-category-classification/poi-category.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
+  </dcatapit:Distribution>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>banche dati e open data</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+  </dcatapit:Organization>
+  <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>SKOS</dct:identifier>
+    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+  </dcatapit:Standard>
+  <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_RDF_Turtle">
+    <dct:title xml:lang="it">Distribuzione RDF/Turtle vocabolario controllato categorie punti di interesse </dct:title>
+    <dct:title xml:lang="en">RDF/Turtle distribution of the Point of Interest Categories controlled vocabulary</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
+    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
+  </dcatapit:Distribution>
+  <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>agid</dct:identifier>
+    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+  </dcatapit:Agent>
+  <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_RDF_XML">
+    <dct:title xml:lang="it">Distribuzione RDF/XML vocabolario controllato categorie punti di interesse </dct:title>
+    <dct:title xml:lang="en">RDF/XML distribution of the Point of Interest Categories controlled vocabulary</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
+    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_JSON_LD">
+    <dct:title xml:lang="it">Distribuzione JSON-LD vocabolario controllato categorie punti di interesse </dct:title>
+    <dct:title xml:lang="en">JSON-LD distribution of the Point of Interest Categories controlled vocabulary</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sulle categorie dei punti di interesse</dct:description>
+    <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of the Point Of Interest Categories controlled vocabulary </dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/poi-category-classification/poi-category-classification.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/poi-category-classification"/>
+  </dcatapit:Distribution>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

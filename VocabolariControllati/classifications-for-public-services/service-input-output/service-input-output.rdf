@@ -1,362 +1,281 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_XML">
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML input/output servizi pubblici</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
-    <dct:title xml:lang="en">RDF/XML distribution input/output for public services</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.rdf"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_CSV">
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
-    <dct:title xml:lang="en">CSV distribution input/output for public services</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.csv"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione CSV input/output servizi pubblici</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CODE">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:prefLabel xml:lang="de">Kode</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Codice</skos:prefLabel>
-    <dct:identifier>CODE</dct:identifier>
-    <skos:notation>CODE</skos:notation>
-    <skos:prefLabel xml:lang="en">Code</skos:prefLabel>
-    <skos:definition xml:lang="it">E.g., un codice microchip, ogni altro tipo di codice</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">E.g. a microchip code or any other code</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/OTHDOC">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Altra documentazione</skos:prefLabel>
-    <skos:notation>OTHDOC</skos:notation>
-    <skos:prefLabel xml:lang="de">Sonstige Dokumentation</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>OTHDOC</dct:identifier>
-    <skos:prefLabel xml:lang="en">Other documents</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_Turtle">
-    <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution input/output for public services</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle input/output servizi pubblici</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.ttl"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/IDDEC">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Identitätsnachweis</skos:prefLabel>
-    <skos:notation>IDDEC</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Identity Declaration</skos:prefLabel>
-    <dct:identifier>IDDEC</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:definition xml:lang="it">Per esempio la carta di identità, la tessera sanitaria, il codice fiscale</skos:definition>
-    <skos:prefLabel xml:lang="it">Attestazione di Identità</skos:prefLabel>
-    <skos:definition xml:lang="en">For instance identity card, health card, tax code</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/PAYMENTDEC">
-    <skos:prefLabel xml:lang="it">Attestazione di pagamento</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Payment declaration</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Zahlungsbestätigung</skos:prefLabel>
-    <skos:notation>PAYMENTDEC</skos:notation>
-    <dct:identifier>PAYMENTDEC</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_Turtle"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <dct:identifier>agid:D.7</dct:identifier>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <dcat:keyword xml:lang="en">certification</dcat:keyword>
-    <dcat:keyword xml:lang="it">documento d'identità</dcat:keyword>
-    <dct:description xml:lang="it">Classificazione dei tipi di input e output per i servizi. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <rdfs:label xml:lang="en">Controlled Vocabulary of Service Input and Output</rdfs:label>
-    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
-    <dct:title xml:lang="it">Vocabolario controllato degi input e output dei servizi</dct:title>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_XML"/>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <rdfs:label xml:lang="it">Vocabolario controllato degi input e output dei servizi</rdfs:label>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_CSV"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CODE"/>
-    <dcat:keyword xml:lang="it">output</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/OTHDOC"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/ADMINDOC"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
-    <dcat:keyword xml:lang="it">codice</dcat:keyword>
-    <dcat:keyword xml:lang="en">identity document</dcat:keyword>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <dcat:keyword xml:lang="en">output</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_XLSX"/>
-    <dcat:keyword xml:lang="en">input</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/PAYMENTDEC"/>
-    <dcat:keyword xml:lang="it">certificazione</dcat:keyword>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/REQ"/>
-    <rdfs:comment xml:lang="it">Classificazione dei tipi di input e output per i servizi. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <dct:description xml:lang="en">Classification of Public Service Input and Output. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
     <rdfs:comment xml:lang="en">Classification of Public Service Input and Output. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CERT"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/IDDEC"/>
+    <rdfs:comment xml:lang="it">Classificazione dei tipi di input e output per i servizi. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
     <dct:title xml:lang="en">Controlled Vocabulary of Service Input and Output</dct:title>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/AUTHACT"/>
-    <dcat:keyword xml:lang="en">code</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_JSON_LD"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dcat:keyword xml:lang="en">public service</dcat:keyword>
+    <dct:title xml:lang="it">Vocabolario controllato degi input e output dei servizi</dct:title>
+    <dct:description xml:lang="en">Classification of Public Service Input and Output. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
+    <dct:description xml:lang="it">Classificazione dei tipi di input e output per i servizi. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+    <rdfs:label xml:lang="en">Controlled Vocabulary of Service Input and Output</rdfs:label>
+    <rdfs:label xml:lang="it">Vocabolario controllato degi input e output dei servizi</rdfs:label>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <ndc:keyConcept>service-input-output</ndc:keyConcept>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>agid:D.7</dct:identifier>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
     <dcat:keyword xml:lang="it">input</dcat:keyword>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_JSON_LD">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.jsonld"/>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:title xml:lang="en">JSON_LD distribution input/output for public services</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD input/output servizi pubblici</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_XLSX">
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:title xml:lang="it">Distribuzione XLSX input/output servizi pubblici</dct:title>
-    <dct:title xml:lang="en">XLSX distribution input/output for public services</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.xlsx"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/AUTHACT">
-    <dct:identifier>AUTHACT</dct:identifier>
-    <skos:notation>AUTHACT</skos:notation>
-    <skos:prefLabel xml:lang="it">Atto autorizzativo</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Authorization Act</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:prefLabel xml:lang="de">Bewilligungsurkunde</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/REQ">
-    <dct:identifier>REQ</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:notation>REQ</skos:notation>
-    <skos:prefLabel xml:lang="en">Request/application</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Gesuch/Anfrage</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Istanza/Richiesta</skos:prefLabel>
-    <skos:definition xml:lang="en">This is the only item of the classification that cannot be used for the output of the service</skos:definition>
-    <skos:definition xml:lang="it">Questo è il solo elemento della classificazione che non può essere utilizzato come output del servizio</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/ADMINDOC">
-    <dct:identifier>ADMINDOC</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Administrative documentation</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:prefLabel xml:lang="de">Verwaltungsdokumentation</skos:prefLabel>
-    <skos:notation>ADMINDOC</skos:notation>
-    <skos:prefLabel xml:lang="it">Documentazione Amministrativa</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CERT">
-    <dct:identifier>CERT</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
-    <skos:notation>CERT</skos:notation>
-    <skos:prefLabel xml:lang="en">Certification</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Certificazione</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Bescheinigung</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
+    <dcat:keyword xml:lang="it">output</dcat:keyword>
+    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="it">documento d'identità</dcat:keyword>
+    <dcat:keyword xml:lang="it">codice</dcat:keyword>
+    <dcat:keyword xml:lang="it">certificazione</dcat:keyword>
+    <dcat:keyword xml:lang="en">input</dcat:keyword>
+    <dcat:keyword xml:lang="en">output</dcat:keyword>
+    <dcat:keyword xml:lang="en">public service</dcat:keyword>
+    <dcat:keyword xml:lang="en">identity document</dcat:keyword>
+    <dcat:keyword xml:lang="en">code</dcat:keyword>
+    <dcat:keyword xml:lang="en">certification</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle input/output servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution input/output for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML input/output servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution input/output for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD input/output servizi pubblici</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution input/output for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_CSV">
+        <dct:title xml:lang="it">Distribuzione CSV input/output servizi pubblici</dct:title>
+        <dct:title xml:lang="en">CSV distribution input/output for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.csv"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX input/output servizi pubblici</dct:title>
+        <dct:title xml:lang="en">XLSX distribution input/output for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to input/output for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.xlsx"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CODE">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>CODE</skos:notation>
+        <dct:identifier>CODE</dct:identifier>
+        <skos:prefLabel xml:lang="it">Codice</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Code</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kode</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:definition xml:lang="en">E.g. a microchip code or any other code</skos:definition>
+        <skos:definition xml:lang="it">E.g., un codice microchip, ogni altro tipo di codice</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/REQ">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>REQ</skos:notation>
+        <dct:identifier>REQ</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Istanza/Richiesta</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gesuch/Anfrage</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Request/application</skos:prefLabel>
+        <skos:definition xml:lang="en">This is the only item of the classification that cannot be used for the output of the service</skos:definition>
+        <skos:definition xml:lang="it">Questo è il solo elemento della classificazione che non può essere utilizzato come output del servizio</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/OTHDOC">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>OTHDOC</skos:notation>
+        <dct:identifier>OTHDOC</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Altra documentazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sonstige Dokumentation</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other documents</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/PAYMENTDEC">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>PAYMENTDEC</skos:notation>
+        <dct:identifier>PAYMENTDEC</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Attestazione di pagamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zahlungsbestätigung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Payment declaration</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/AUTHACT">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>AUTHACT</skos:notation>
+        <dct:identifier>AUTHACT</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Atto autorizzativo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bewilligungsurkunde</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Authorization Act</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/IDDEC">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>IDDEC</skos:notation>
+        <dct:identifier>IDDEC</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Attestazione di Identità</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Identitätsnachweis</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Identity Declaration</skos:prefLabel>
+        <skos:definition xml:lang="en">For instance identity card, health card, tax code</skos:definition>
+        <skos:definition xml:lang="it">Per esempio la carta di identità, la tessera sanitaria, il codice fiscale</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/ADMINDOC">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>ADMINDOC</skos:notation>
+        <dct:identifier>ADMINDOC</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Documentazione Amministrativa</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Verwaltungsdokumentation</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Administrative documentation</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CERT">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output"/>
+        <skos:notation>CERT</skos:notation>
+        <dct:identifier>CERT</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Certificazione</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bescheinigung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Certification</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
+    <owl:versionInfo>0.1</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
 </rdf:RDF>

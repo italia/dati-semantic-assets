@@ -1,1313 +1,1767 @@
-{
-  "@context": {
-    "adms": "http://www.w3.org/ns/adms#",
-    "clvapit": "https://w3id.org/italia/onto/CLV/",
-    "cpsvapit": "https://w3id.org/italia/onto/CPSV/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
-    "dct": "http://purl.org/dc/terms/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+[
+  {
+    "@id": "http://purl.org/dc/terms/subject",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
   },
-  "@graph": [
-    {
-      "@id": "dct:subject",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/LE_JSON_LD",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/format",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#downloadURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#theme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/adms#representationTechnique",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa qualsiasi servizio pubblico relativo all'educazione, per esempio l'educazione pre-scolastica, la scuola elementare, la scuola media e la scuola superiore, l'università, la borsa di studio, ..."
       },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.jsonld"
+      {
+        "@language": "en",
+        "@value": "This life event groups any public service related to education, for example pre-school education, elementary school, higher education and university, a study grant, ..."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Iscrizione Scuola/Università e/o richiesta borsa di studio"
       },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      {
+        "@language": "de",
+        "@value": "Einschreibung in die Schule/Universität und/oder Bewerbung um ein Studienstipendium"
       },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      {
+        "@language": "en",
+        "@value": "Enrolling in school/university and/or applying for a study grant"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi all'accesso al trasporto pubblico come per esempio il rinnovo di un abbonamento, l'acquisto di un biglietto singolo per l'autobus, ecc. "
       },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "JSON_LD distribution life events"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione JSON_LD eventi della vita"
-        }
-      ]
-    },
-    {
-      "@id": "skos:ConceptScheme",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
-      "@type": [
-        "dct:Standard",
-        "dcatapit:Standard"
-      ],
-      "dct:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dct:identifier": "SKOS",
-      "dct:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "dct:modified",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:accrualPeriodicity",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Distribution",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:license",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:rightsHolder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:type",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:Kind",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcatapit:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_Turtle",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to the access to the public transportation such as for instance the renewal of a subscription, the purchase of a single bus ticket, etc."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Accesso al trasporto pubblico"
       },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.ttl"
+      {
+        "@language": "de",
+        "@value": "Zugang zu öffentlichen Verkehrsmitteln"
       },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
-        }
-      ],
-      "dct:format": {
+      {
+        "@language": "en",
+        "@value": "Access to public transportation"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi alla guida di un veicolo per esempio una macchina, una moto"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to driving a vehicle, for instance car, motorcycle."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Richiesta o rinnovo patente"
+      },
+      {
+        "@language": "de",
+        "@value": "Beantragung eines Führerscheins (oder Erneuerung eines bestehenden Führerscheins)"
+      },
+      {
+        "@language": "en",
+        "@value": "Applying to a driver's licence (or renewing an existing one)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Standard",
+      "http://purl.org/dc/terms/Standard"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Simple Knowledge Organization System - SKOS"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_Turtle",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
         "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dct:license": {
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle eventi della vita"
       },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle eventi della vita"
-        },
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution life events"
-        }
-      ]
-    },
-    {
-      "@id": "dct:publisher",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/LE_CSV",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution life events"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "14"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici necessari quando una persona muore (per esempio notifica alle autorità, gestione del funerale, ecc.) e quelli relativi all'eredità e alle donazioni"
       },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.csv"
+      {
+        "@language": "en",
+        "@value": "This life event groups public services that relate to when a relative passes a way, and cover the public services directly related to the decease of that person (for instance notifying the authorities, arranging the funeral…), as well as related to settling inheritance and donations."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "14"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Morte ed eredità"
       },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      {
+        "@language": "de",
+        "@value": "Tod eines nahen Verwandten und/oder Einleitung eines Erbschaftsverfahrens"
       },
-      "dct:license": {
+      {
+        "@language": "en",
+        "@value": "Death of a close relative and/or starting an inheritance procedure"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "10"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi a quando qualcuno espatria (per diversi motivi che possono riguardare: il lavoro, lo studio, il pensionamento)"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services that relate to when someone moves from one country to another."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "10"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Espatrio per lavoro, studio, pensionamento"
+      },
+      {
+        "@language": "de",
+        "@value": "Umzug oder Vorbereitung auf den Umzug in ein anderes Land (z. B. um zu studieren, arbeiten, in Rente gehen, ...)"
+      },
+      {
+        "@language": "en",
+        "@value": "Moving or preparing to move to another country (e.g., to study, work, retire, ..)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Dataset",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#hasEmail",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/title",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "12"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi alla nascita di un bambino, all'adozione di un bambino, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to becoming a caretaker for a child, for instance in case of giving birth, adopting, receiving a foster child…"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "12"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Nascita di un bambino, richiesta adozioni"
+      },
+      {
+        "@language": "de",
+        "@value": "Die Geburt eines Kindes erklären und / oder einen Geburtszuschuss beantragen"
+      },
+      {
+        "@language": "en",
+        "@value": "Declaring the birth of a child and/or applying for a birth grand"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "18"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi all'accesso ai luoghi della cultura pubblici come per esempio il pagamento di un biglietto di entrata, o l'uso di una biblioteca pubblica"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to the access to public cultural sites such as the payment of a ticket or the use of public library"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "18"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Accesso luoghi della cultura"
+      },
+      {
+        "@language": "de",
+        "@value": "Zugang zu öffentlichen Kulturstätten"
+      },
+      {
+        "@language": "en",
+        "@value": "Access to public cultural sites"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/LE_JSON_LD",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione JSON_LD eventi della vita"
       },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione CSV eventi della vita"
-        },
-        {
-          "@language": "en",
-          "@value": "CSV distribution life events"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "15",
-      "skos:inScheme": {
+      {
+        "@language": "en",
+        "@value": "JSON_LD distribution life events"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi a seri problemi di salute come per esempio diventare disabile"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to a severe health problem, for instance getting disabled."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Invalidità"
       },
-      "skos:notation": "15",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Prenotazione e disdetta visite/esami"
-        },
-        {
-          "@language": "en",
-          "@value": "Making/cancelling a doctor's appointment"
-        },
-        {
-          "@language": "de",
-          "@value": "Einen Arzttermin vereinbaren / absagen"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "14",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services that relate to when a relative passes a way, and cover the public services directly related to the decease of that person (for instance notifying the authorities, arranging the funeral…), as well as related to settling inheritance and donations."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici necessari quando una persona muore (per esempio notifica alle autorità, gestione del funerale, ecc.) e quelli relativi all'eredità e alle donazioni"
-        }
-      ],
-      "skos:inScheme": {
+      {
+        "@language": "de",
+        "@value": "Behinderung / Unfähigkeit"
+      },
+      {
+        "@language": "en",
+        "@value": "Disability"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#fn",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici utili a quelli che cercano un nuovo lavoro, iniziano un nuovo lavoro, lasciano un lavoro spontaneamente o perdono il lavoro"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services for when someone looks for a new job, starts a new job, leaves or quits a particular job on his own, or when someone loses his job "
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Ricerca di lavoro, avvio nuovo lavoro, disoccupazione"
       },
-      "skos:notation": "14",
-      "skos:prefLabel": [
-        {
-          "@language": "de",
-          "@value": "Tod eines nahen Verwandten und/oder Einleitung eines Erbschaftsverfahrens"
-        },
-        {
-          "@language": "en",
-          "@value": "Death of a close relative and/or starting an inheritance procedure"
-        },
-        {
-          "@language": "it",
-          "@value": "Morte ed eredità"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "17",
-      "skos:inScheme": {
+      {
+        "@language": "de",
+        "@value": "Arbeit suchen, einen neuen Job beginnen, arbeitslos werden"
+      },
+      {
+        "@language": "en",
+        "@value": "Looking for a job, starting a new job, becoming unemployed"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/license",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/keyConcept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "17"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "17"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Dichiarazione dei redditi, versamento e riscossione tributi/imposte e contributi"
       },
-      "skos:notation": "17",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Dichiarazione dei redditi, versamento e riscossione tributi/imposte e contributi"
-        },
-        {
-          "@language": "en",
-          "@value": "Declaring income taxes, paying contributions"
-        },
-        {
-          "@language": "de",
-          "@value": "Einkommenssteuer erklären, Beiträge bezahlen"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "16",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to a crime, for instance in case you are the committer of that crime, or the victim or witness of a particular crime."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi a un crimine, per esempio nel caso in cui una persona è vittima o testimone di uno specifico crimine, ecc."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      {
+        "@language": "de",
+        "@value": "Einkommenssteuer erklären, Beiträge bezahlen"
       },
-      "skos:notation": "16",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Reporting a crime (smaller offences, e.g., theft, burglary, etc)"
-        },
-        {
-          "@language": "it",
-          "@value": "Denuncia crimini"
-        },
-        {
-          "@language": "de",
-          "@value": "Meldung einer Straftat (kleinere Straftaten, z.B. Diebstahl, Einbruchdiebstahl, usw.)"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "11",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi alle necessità di una persona nel caso di viaggi all'estero. Per esempio: ottenere un passaporto, un visto, una vaccinazione, ecc."
-        },
-        {
-          "@language": "en",
-          "@value": "This life events groups public services related to what you need to do when travelling abroad, for instance getting an international passport or driving license, getting a visa, getting vaccination…"
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      {
+        "@language": "en",
+        "@value": "Declaring income taxes, paying contributions"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CPSV/LifeEvent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Agenzia per l'Italia Digitale"
       },
-      "skos:notation": "11",
-      "skos:prefLabel": [
-        {
-          "@language": "de",
-          "@value": "Benötigung eines Reisepasses / Visums oder Unterstützung bei der Reise in ein anderes Land"
-        },
-        {
-          "@language": "it",
-          "@value": "Richiesta passaporto, visto e assistenza viaggi internazionali"
-        },
-        {
-          "@language": "en",
-          "@value": "Needing a passport/visa or assistance to travel to another country"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "10",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services that relate to when someone moves from one country to another."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi a quando qualcuno espatria (per diversi motivi che possono riguardare: il lavoro, lo studio, il pensionamento)"
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      {
+        "@language": "en",
+        "@value": "Italian Digital Agency"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#keyword",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_XML",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
       },
-      "skos:notation": "10",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Espatrio per lavoro, studio, pensionamento"
-        },
-        {
-          "@language": "de",
-          "@value": "Umzug oder Vorbereitung auf den Umzug in ein anderes Land (z. B. um zu studieren, arbeiten, in Rente gehen, ...)"
-        },
-        {
-          "@language": "en",
-          "@value": "Moving or preparing to move to another country (e.g., to study, work, retire, ..)"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "13",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi a una relazione ufficiale di una persona, come per esempio il matrimonio, l'unione civile, il divorzio,..."
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to a person’s official relationship, for instance marriage, registered partnership, divorce…"
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "13",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Marrying and/or changing martal status"
-        },
-        {
-          "@language": "de",
-          "@value": "Heirat und/oder Änderung des Familienstandes"
-        },
-        {
-          "@language": "it",
-          "@value": "Matrimonio e/o cambio stato civile"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "12",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to becoming a caretaker for a child, for instance in case of giving birth, adopting, receiving a foster child…"
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi alla nascita di un bambino, all'adozione di un bambino, ecc."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "12",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Declaring the birth of a child and/or applying for a birth grand"
-        },
-        {
-          "@language": "it",
-          "@value": "Nascita di un bambino, richiesta adozioni"
-        },
-        {
-          "@language": "de",
-          "@value": "Die Geburt eines Kindes erklären und / oder einen Geburtszuschuss beantragen"
-        }
-      ]
-    },
-    {
-      "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "19",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life groups public services related to the people who owns a pet. Examples include: communicate the transfer of a dog to another, the death of a dog, etc."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubbici che possono essere utilizzati dalle persone che hanno un animale da compagnia. Esempi includono: comunicazione di cessione di un cane ad un altro, decesso di un cane, ecc."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "19",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Possesso, cura, smarrimento animale da compagnia"
-        },
-        {
-          "@language": "de",
-          "@value": "Besitz, Pflege, Verlust von Haustieren"
-        },
-        {
-          "@language": "en",
-          "@value": "Owning, taking care, losing pets"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "18",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to the access to public cultural sites such as the payment of a ticket or the use of public library"
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi all'accesso ai luoghi della cultura pubblici come per esempio il pagamento di un biglietto di entrata, o l'uso di una biblioteca pubblica"
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "18",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Accesso luoghi della cultura"
-        },
-        {
-          "@language": "en",
-          "@value": "Access to public cultural sites"
-        },
-        {
-          "@language": "de",
-          "@value": "Zugang zu öffentlichen Kulturstätten"
-        }
-      ]
-    },
-    {
-      "@id": "skos:Concept",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "6",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppo servizi pubblici relativi alla registrazione e al possesso di un veicolo come una macchina, una moto, ecc."
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to the registration or the ownership of a vehicle such as a car, a motorcycle, etc."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "6",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Registrazione/possesso veicolo"
-        },
-        {
-          "@language": "de",
-          "@value": "Fahrzeugregistrierung/-besitz"
-        },
-        {
-          "@language": "en",
-          "@value": "Registering/owning a vehicle"
-        }
-      ]
-    },
-    {
-      "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_XML",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.rdf"
-      },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
-        }
-      ],
-      "dct:format": {
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
         "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
-      },
-      "dct:license": {
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/XML eventi della vita"
       },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/XML distribution life events"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/XML eventi della vita"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "7",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi all'accesso al trasporto pubblico come per esempio il rinnovo di un abbonamento, l'acquisto di un biglietto singolo per l'autobus, ecc. "
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to the access to the public transportation such as for instance the renewal of a subscription, the purchase of a single bus ticket, etc."
-        }
-      ],
-      "skos:inScheme": {
+      {
+        "@language": "en",
+        "@value": "RDF/XML distribution life events"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.rdf"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi al pensionamento di una persona"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to when someone retires from his job or becomes a senior."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Pensionamento"
       },
-      "skos:notation": "7",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Access to public transportation"
-        },
-        {
-          "@language": "it",
-          "@value": "Accesso al trasporto pubblico"
-        },
-        {
-          "@language": "de",
-          "@value": "Zugang zu öffentlichen Verkehrsmitteln"
-        }
-      ]
-    },
-    {
-      "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "5",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to driving a vehicle, for instance car, motorcycle."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi alla guida di un veicolo per esempio una macchina, una moto"
-        }
-      ],
-      "skos:inScheme": {
+      {
+        "@language": "de",
+        "@value": "Pensionierung"
+      },
+      {
+        "@language": "en",
+        "@value": "Retirement"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "13"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi a una relazione ufficiale di una persona, come per esempio il matrimonio, l'unione civile, il divorzio,..."
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to a person’s official relationship, for instance marriage, registered partnership, divorce…"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "13"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Matrimonio e/o cambio stato civile"
       },
-      "skos:notation": "5",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Richiesta o rinnovo patente"
-        },
-        {
-          "@language": "de",
-          "@value": "Beantragung eines Führerscheins (oder Erneuerung eines bestehenden Führerscheins)"
-        },
-        {
-          "@language": "en",
-          "@value": "Applying to a driver's licence (or renewing an existing one)"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "4",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to when someone retires from his job or becomes a senior."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi al pensionamento di una persona"
-        }
-      ],
-      "skos:inScheme": {
+      {
+        "@language": "de",
+        "@value": "Heirat und/oder Änderung des Familienstandes"
+      },
+      {
+        "@language": "en",
+        "@value": "Marrying and/or changing martal status"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CLV/hasRankOrder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Kind",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/conformsTo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "19"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubbici che possono essere utilizzati dalle persone che hanno un animale da compagnia. Esempi includono: comunicazione di cessione di un cane ad un altro, decesso di un cane, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life groups public services related to the people who owns a pet. Examples include: communicate the transfer of a dog to another, the death of a dog, etc."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "19"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Possesso, cura, smarrimento animale da compagnia"
       },
-      "skos:notation": "4",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Pensionamento"
-        },
-        {
-          "@language": "de",
-          "@value": "Pensionierung"
-        },
-        {
-          "@language": "en",
-          "@value": "Retirement"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "3",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services for when someone looks for a new job, starts a new job, leaves or quits a particular job on his own, or when someone loses his job "
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici utili a quelli che cercano un nuovo lavoro, iniziano un nuovo lavoro, lasciano un lavoro spontaneamente o perdono il lavoro"
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      {
+        "@language": "de",
+        "@value": "Besitz, Pflege, Verlust von Haustieren"
       },
-      "skos:notation": "3",
-      "skos:prefLabel": [
-        {
-          "@language": "de",
-          "@value": "Arbeit suchen, einen neuen Job beginnen, arbeitslos werden"
-        },
-        {
-          "@language": "en",
-          "@value": "Looking for a job, starting a new job, becoming unemployed"
-        },
-        {
-          "@language": "it",
-          "@value": "Ricerca di lavoro, avvio nuovo lavoro, disoccupazione"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "2",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi a seri problemi di salute come per esempio diventare disabile"
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to a severe health problem, for instance getting disabled."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "2",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Disability"
-        },
-        {
-          "@language": "it",
-          "@value": "Invalidità"
-        },
-        {
-          "@language": "de",
-          "@value": "Behinderung / Unfähigkeit"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "1",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa qualsiasi servizio pubblico relativo all'educazione, per esempio l'educazione pre-scolastica, la scuola elementare, la scuola media e la scuola superiore, l'università, la borsa di studio, ..."
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups any public service related to education, for example pre-school education, elementary school, higher education and university, a study grant, ..."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "skos:notation": "1",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Iscrizione Scuola/Università e/o richiesta borsa di studio"
-        },
-        {
-          "@language": "de",
-          "@value": "Einschreibung in die Schule/Universität und/oder Bewerbung um ein Studienstipendium"
-        },
-        {
-          "@language": "en",
-          "@value": "Enrolling in school/university and/or applying for a study grant"
-        }
-      ]
-    },
-    {
-      "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:title",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:name",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "vcard:Kind",
-        "dcatapit:Organization",
-        "vcard:Organization"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
+      {
+        "@language": "en",
+        "@value": "Owning, taking care, losing pets"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Organization",
+      "http://www.w3.org/2006/vcard/ns#Organization",
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "banche dati e open data"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
         "@id": "mailto:info@dati.gov.it"
       }
-    },
-    {
-      "@id": "dcatapit:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9",
-      "@type": [
-        "skos:Concept",
-        "cpsvapit:LifeEvent"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "9",
-      "skos:definition": [
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi al cambio di residenza o di domicilio sia per cittadini italiani sia per cittadini stranieri presenti nel territorio"
-        },
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to moving or changing address both for Italian citizens and foreigns who are in the country"
-        }
-      ],
-      "skos:inScheme": {
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "8"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi a un posto dove una persona vive: Esempi di servizi pubblici includono: comprare una casa o una parte di terreno, costruire o ristrutturare un appartamento/casa, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to a person’s place of living, for instance, buying a house or a piece of land, building, renting a house or apartment…"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "8"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio"
       },
-      "skos:notation": "9",
-      "skos:prefLabel": [
-        {
-          "@language": "de",
-          "@value": "Wohnortwechsel/Domizilwechsel innerhalb eines Landes"
-        },
-        {
-          "@language": "en",
-          "@value": "Moving and changing address within one country"
-        },
-        {
-          "@language": "it",
-          "@value": "Cambio di residenza/domicilio"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8",
-      "@type": [
-        "cpsvapit:LifeEvent",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "dct:identifier": "8",
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "This life event groups public services related to a person’s place of living, for instance, buying a house or a piece of land, building, renting a house or apartment…"
-        },
-        {
-          "@language": "it",
-          "@value": "Questo evento della vita raggruppa servizi pubblici relativi a un posto dove una persona vive: Esempi di servizi pubblici includono: comprare una casa o una parte di terreno, costruire o ristrutturare un appartamento/casa, ecc."
-        }
-      ],
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      {
+        "@language": "de",
+        "@value": "Kaufen/Mieten eines Hauses/Gebäudes/Grundstücks, Bauen, Renovieren eines Hauses/Gebäudes"
       },
-      "skos:notation": "8",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Buying/renting a house/building/land, building, renovating a house/building"
-        },
-        {
-          "@language": "de",
-          "@value": "Kaufen/Mieten eines Hauses/Gebäudes/Grundstücks, Bauen, Renovieren eines Hauses/Gebäudes"
-        },
-        {
-          "@language": "it",
-          "@value": "Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio"
-        }
-      ]
-    },
-    {
-      "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:notation",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:creator",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "cpsvapit:LifeEvent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:prefLabel",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
-      "@type": [
-        "dcatapit:Agent",
-        "foaf:Agent"
-      ],
-      "dct:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        },
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        }
-      ]
-    },
-    {
-      "@id": "dct:conformsTo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:keyword",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:issued",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Dataset",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event",
-      "@type": [
-        "dcatapit:Dataset",
-        "skos:ConceptScheme",
-        "adms:Asset"
-      ],
-      "adms:representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+      {
+        "@language": "en",
+        "@value": "Buying/renting a house/building/land, building, renovating a house/building"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/LE_CSV",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
       },
-      "dcat:contactPoint": {
-        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
-      },
-      "dcat:distribution": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_Turtle"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_XML"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/LE_XLSX"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/LE_CSV"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/LE_JSON_LD"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@language": "it",
-          "@value": "servizio pubblico"
-        },
-        {
-          "@language": "en",
-          "@value": "event"
-        },
-        {
-          "@language": "en",
-          "@value": "public service"
-        },
-        {
-          "@language": "en",
-          "@value": "life event"
-        },
-        {
-          "@language": "it",
-          "@value": "evento"
-        },
-        {
-          "@language": "it",
-          "@value": "evento della vita"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dct:conformsTo": {
-        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
-      },
-      "dct:creator": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary of the life events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato degli eventi della vita delle persone: E' utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"
-        }
-      ],
-      "dct:identifier": "agid:D.8",
-      "dct:issued": {
-        "@type": "xsd:date",
-        "@value": "2017-10-20"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/DEU"
-        }
-      ],
-      "dct:modified": {
-        "@type": "xsd:date",
-        "@value": "2018-03-14"
-      },
-      "dct:publisher": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:rightsHolder": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:subject": [
-        {
-          "@id": "http://eurovoc.europa.eu/246051"
-        },
-        {
-          "@id": "http://eurovoc.europa.eu/100169"
-        },
-        {
-          "@id": "http://eurovoc.europa.eu/246146"
-        }
-      ],
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato degli eventi della vita delle persone"
-        },
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary of Life Events"
-        }
-      ],
-      "dct:type": {
-        "@id": "http://purl.org/adms/assettype/CodeList"
-      },
-      "owl:versionInfo": "0.1",
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary of the life events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato degli eventi della vita delle persone: E' utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
-      },
-      "rdfs:label": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato degli eventi della vita delle persone"
-        },
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary of Life Events"
-        }
-      ],
-      "skos:hasTopConcept": [
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12"
-        }
-      ],
-      "xkos:numberOfLevels": "1"
-    },
-    {
-      "@id": "skos:definition",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:theme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:fn",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:accessURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:description",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:identifier",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/LE_XLSX",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.xlsx"
-      },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
-        }
-      ],
-      "dct:format": {
+      {
+        "@language": "en",
+        "@value": "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
         "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione CSV eventi della vita"
       },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione XLSX eventi della vita"
-        },
-        {
-          "@language": "en",
-          "@value": "XLSX distribution life events"
-        }
-      ]
-    },
-    {
-      "@id": "dct:format",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:language",
-      "@type": "rdfs:Property"
-    }
-  ]
-}
+      {
+        "@language": "en",
+        "@value": "CSV distribution life events"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.csv"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#accessURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/type",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/language",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "15"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "15"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Prenotazione e disdetta visite/esami"
+      },
+      {
+        "@language": "de",
+        "@value": "Einen Arzttermin vereinbaren / absagen"
+      },
+      {
+        "@language": "en",
+        "@value": "Making/cancelling a doctor's appointment"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/rightsHolder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "9"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi al cambio di residenza o di domicilio sia per cittadini italiani sia per cittadini stranieri presenti nel territorio"
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to moving or changing address both for Italian citizens and foreigns who are in the country"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "9"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Cambio di residenza/domicilio"
+      },
+      {
+        "@language": "de",
+        "@value": "Wohnortwechsel/Domizilwechsel innerhalb eines Landes"
+      },
+      {
+        "@language": "en",
+        "@value": "Moving and changing address within one country"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "6"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppo servizi pubblici relativi alla registrazione e al possesso di un veicolo come una macchina, una moto, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to the registration or the ownership of a vehicle such as a car, a motorcycle, etc."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "6"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Registrazione/possesso veicolo"
+      },
+      {
+        "@language": "de",
+        "@value": "Fahrzeugregistrierung/-besitz"
+      },
+      {
+        "@language": "en",
+        "@value": "Registering/owning a vehicle"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/LE_XLSX",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli eventi della vita usati nel catalogo nazionale per i servizi pubblici"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the life events used in the Italian national catalogue of public services"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione XLSX eventi della vita"
+      },
+      {
+        "@language": "en",
+        "@value": "XLSX distribution life events"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/life-busines-event/life-event/life-event.xlsx"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "11"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi alle necessità di una persona nel caso di viaggi all'estero. Per esempio: ottenere un passaporto, un visto, una vaccinazione, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life events groups public services related to what you need to do when travelling abroad, for instance getting an international passport or driving license, getting a visa, getting vaccination…"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "11"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Richiesta passaporto, visto e assistenza viaggi internazionali"
+      },
+      {
+        "@language": "de",
+        "@value": "Benötigung eines Reisepasses / Visums oder Unterstützung bei der Reise in ein anderes Land"
+      },
+      {
+        "@language": "en",
+        "@value": "Needing a passport/visa or assistance to travel to another country"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPSV/LifeEvent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "16"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Questo evento della vita raggruppa servizi pubblici relativi a un crimine, per esempio nel caso in cui una persona è vittima o testimone di uno specifico crimine, ecc."
+      },
+      {
+        "@language": "en",
+        "@value": "This life event groups public services related to a crime, for instance in case you are the committer of that crime, or the victim or witness of a particular crime."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "16"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Denuncia crimini"
+      },
+      {
+        "@language": "de",
+        "@value": "Meldung einer Straftat (kleinere Straftaten, z.B. Diebstahl, Einbruchdiebstahl, usw.)"
+      },
+      {
+        "@language": "en",
+        "@value": "Reporting a crime (smaller offences, e.g., theft, burglary, etc)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://www.w3.org/ns/adms#Asset",
+      "http://dati.gov.it/onto/dcatapit#Dataset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary of the life events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato degli eventi della vita delle persone: E' utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid:D.8"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-10-20"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-03-14"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      }
+    ],
+    "http://purl.org/dc/terms/rightsHolder": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://eurovoc.europa.eu/246051"
+      },
+      {
+        "@id": "http://eurovoc.europa.eu/246146"
+      },
+      {
+        "@id": "http://eurovoc.europa.eu/100169"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary of Life Events"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato degli eventi della vita delle persone"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://purl.org/adms/assettype/CodeList"
+      }
+    ],
+    "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary of the life events for the Italian catalogue of public services. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato degli eventi della vita delle persone: E' utilizzato nel catalogo nazionale dei servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary of Life Events"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato degli eventi della vita delle persone"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19"
+      }
+    ],
+    "http://www.w3.org/ns/adms#representationTechnique": [
+      {
+        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_Turtle"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/LE_RDF_XML"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/LE_JSON_LD"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/LE_CSV"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/LE_XLSX"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "it",
+        "@value": "evento"
+      },
+      {
+        "@language": "it",
+        "@value": "evento della vita"
+      },
+      {
+        "@language": "it",
+        "@value": "servizio pubblico"
+      },
+      {
+        "@language": "en",
+        "@value": "event"
+      },
+      {
+        "@language": "en",
+        "@value": "life event"
+      },
+      {
+        "@language": "en",
+        "@value": "public service"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+      }
+    ],
+    "https://w3id.org/italia/onto/NDC/keyConcept": [
+      {
+        "@value": "life-event"
+      }
+    ]
+  }
+]

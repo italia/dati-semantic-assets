@@ -1,206 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:ns1="https://w3id.org/italia/onto/CLV/"
-   xmlns:ns2="https://w3id.org/italia/onto/l0/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+   xmlns:ns10="http://www.w3.org/2002/07/owl#"
+   xmlns:ns11="http://rdf-vocabulary.ddialliance.org/xkos#"
+   xmlns:ns2="http://purl.org/dc/terms/"
+   xmlns:ns3="https://w3id.org/italia/onto/l0/"
+   xmlns:ns4="https://w3id.org/italia/onto/NDC/"
+   xmlns:ns5="http://www.w3.org/ns/adms#"
+   xmlns:ns6="http://www.w3.org/ns/dcat#"
+   xmlns:ns7="https://w3id.org/italia/onto/CLV/"
+   xmlns:ns8="http://xmlns.com/foaf/0.1/"
+   xmlns:ns9="http://www.w3.org/2006/vcard/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
 >
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution">
-    <dcat:keyword xml:lang="en">Geographical Distributions</dcat:keyword>
-    <dcterms:description xml:lang="it">Vocabolario controllato delle ripartizioni geografiche d'Italia</dcterms:description>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1"/>
-    <dcterms:description xml:lang="en">Controlled Vocabulary for describing Italy's Geographical Distributions</dcterms:description>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle"/>
-    <dcterms:title xml:lang="en">Controlled Vocabulary for Italian Geographical Distributions</dcterms:title>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/resource/ContactPoint/voc_AgID"/>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-03</dcterms:modified>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5"/>
-    <dcterms:conformsTo rdf:resource="https://w3id.org/italia/data/resource/Standard/SKOS"/>
-    <dcterms:publisher rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
-    <dcterms:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
-    <dcterms:creator rdf:resource="https://w3id.org/italia/data/resource/Amministrazione/td_PCM"/>
-    <owl:versionInfo xml:lang="it">2.0 - aggiornato URI del vocabolario e i suoi contenuti</owl:versionInfo>
-    <dcterms:identifier>https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution</dcterms:identifier>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4"/>
-    <dcat:keyword xml:lang="it">Ripartizioni Geografiche</dcat:keyword>
-    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-    <dcterms:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/istat"/>
-    <dcterms:title xml:lang="it">Vocabolario Controllato delle ripartizioni geografiche d'Italia</dcterms:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dcterms:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-19</dcterms:issued>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML">
-    <dcterms:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </dcterms:description>
-    <dcterms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcterms:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:description>
-    <dcterms:title xml:lang="en">RDF/XML distribution of the Italian geographical-distribution controlled vocabulary</dcterms:title>
-    <dcterms:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</dcterms:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"/>
-    <dcterms:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:title>
-    <dcterms:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia</dcterms:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-    <skos:prefLabel xml:lang="it">Nord-est</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <skos:notation>2</skos:notation>
-    <ns1:hasRankOrder>1</ns1:hasRankOrder>
-    <ns2:name xml:lang="it">Nord-est</ns2:name>
-    <ns1:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1">
-    <ns1:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1"/>
-    <ns2:name xml:lang="it">Nord-ovest</ns2:name>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Nord-ovest</skos:prefLabel>
-    <skos:notation>1</skos:notation>
-    <ns1:hasRankOrder>1</ns1:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD">
-    <dcterms:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </dcterms:description>
-    <dcterms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"/>
-    <dcterms:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:title>
-    <dcterms:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:description>
-    <dcterms:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <ns2:title xml:lang="en">Controlled Vocabulary for Italian Geographical Distributions</ns2:title>
+    <ns2:title xml:lang="it">Vocabolario Controllato delle ripartizioni geografiche d'Italia</ns2:title>
+    <ns2:description xml:lang="it">Vocabolario controllato delle ripartizioni geografiche d'Italia</ns2:description>
+    <ns2:description xml:lang="en">Controlled Vocabulary for describing Italy's Geographical Distributions</ns2:description>
+    <ns11:numberOfLevels>1</ns11:numberOfLevels>
+    <ns4:keyConcept>geographical-distribution</ns4:keyConcept>
+    <ns2:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <ns5:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <ns2:identifier>https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution</ns2:identifier>
+    <ns2:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/istat"/>
+    <ns2:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
+    <ns2:creator rdf:resource="https://w3id.org/italia/data/resource/Amministrazione/td_PCM"/>
+    <ns2:publisher rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
+    <ns6:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <ns2:conformsTo rdf:resource="https://w3id.org/italia/data/resource/Standard/SKOS"/>
+    <ns2:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <ns2:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns6:keyword xml:lang="it">Ripartizioni Geografiche</ns6:keyword>
+    <ns6:keyword xml:lang="en">Geographical Distributions</ns6:keyword>
+    <ns6:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle"/>
+    <ns6:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML"/>
+    <ns6:distribution rdf:resource="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD"/>
+    <ns6:contactPoint rdf:resource="https://w3id.org/italia/data/resource/ContactPoint/voc_AgID"/>
+    <ns2:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-19</ns2:issued>
+    <ns2:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-03</ns2:modified>
+    <ns10:versionInfo xml:lang="it">2.0 - aggiornato URI del vocabolario e i suoi contenuti</ns10:versionInfo>
+    <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2"/>
+    <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3"/>
+    <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5"/>
+    <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1"/>
+    <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/istat">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dcterms:identifier>istat</dcterms:identifier>
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Italian National Institute of Statistics</foaf:name>
-    <foaf:name xml:lang="it">Istituto Nazionale di Statistica</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <ns1:hasRankOrder>1</ns1:hasRankOrder>
-    <ns1:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5"/>
-    <ns2:name xml:lang="it">Isole</ns2:name>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Isole</skos:prefLabel>
-    <skos:notation>5</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <ns2:identifier>5</ns2:identifier>
-    <ns1:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns1:identifierType>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle">
-    <dcterms:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</dcterms:title>
-    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dcterms:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcterms:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</dcterms:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"/>
-    <dcterms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcterms:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-    <skos:notation>3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <ns2:name xml:lang="it">Centro</ns2:name>
-    <ns1:hasRankOrder>1</ns1:hasRankOrder>
-    <ns1:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3"/>
-    <skos:prefLabel xml:lang="it">Centro</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <ns1:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns1:identifierType>
-    <ns2:identifier>3</ns2:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dcterms:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dcterms:description>
-    <dcterms:identifier>SKOS</dcterms:identifier>
-    <dcterms:title>Simple Knowledge Organization System - SKOS</dcterms:title>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <ns2:identifier>istat</ns2:identifier>
+    <ns8:name xml:lang="it">Istituto Nazionale di Statistica</ns8:name>
+    <ns8:name xml:lang="en">Italian National Institute of Statistics</ns8:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Amministrazione/td_PCM">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <dcterms:identifier>PCM</dcterms:identifier>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+    <ns2:identifier>PCM</ns2:identifier>
+    <ns8:name xml:lang="it">Team per la Trasformazione Digitale</ns8:name>
+    <ns8:name xml:lang="en">Digital Transformation Team</ns8:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/agid">
-    <dcterms:identifier>agid</dcterms:identifier>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <ns2:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:title>
+    <ns2:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</ns2:title>
+    <ns2:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:description>
+    <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
+    <ns2:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4">
-    <skos:notation>4</skos:notation>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <ns2:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia</ns2:title>
+    <ns2:title xml:lang="en">RDF/XML distribution of the Italian geographical-distribution controlled vocabulary</ns2:title>
+    <ns2:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:title>
+    <ns2:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</ns2:title>
+    <ns2:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:description>
+    <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
+    <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-    <ns2:name xml:lang="it">Sud</ns2:name>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
-    <ns1:hasRankOrder>1</ns1:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Sud</skos:prefLabel>
-    <ns1:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4"/>
+    <ns1:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns1:notation>3</ns1:notation>
+    <ns1:prefLabel xml:lang="it">Centro</ns1:prefLabel>
+    <ns7:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3"/>
+    <ns7:hasRankOrder>1</ns7:hasRankOrder>
+    <ns3:name xml:lang="it">Centro</ns3:name>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4">
-    <ns1:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns1:identifierType>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <ns2:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:title>
+    <ns2:title xml:lang="en">RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary</ns2:title>
+    <ns2:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia</ns2:description>
+    <ns2:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary </ns2:description>
+    <ns2:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <ns2:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <ns6:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"/>
+    <ns6:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <ns2:identifier>4</ns2:identifier>
+    <ns7:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns7:identifierType>
+    <ns3:identifier>5</ns3:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
+    <ns1:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns1:notation>1</ns1:notation>
+    <ns1:prefLabel xml:lang="it">Nord-ovest</ns1:prefLabel>
+    <ns7:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1"/>
+    <ns7:hasRankOrder>1</ns7:hasRankOrder>
+    <ns3:name xml:lang="it">Nord-ovest</ns3:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Standard/SKOS">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <ns2:identifier>SKOS</ns2:identifier>
+    <ns2:title>Simple Knowledge Organization System - SKOS</ns2:title>
+    <ns2:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</ns2:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
+    <ns1:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns1:notation>2</ns1:notation>
+    <ns1:prefLabel xml:lang="it">Nord-est</ns1:prefLabel>
+    <ns7:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2"/>
+    <ns7:hasRankOrder>1</ns7:hasRankOrder>
+    <ns3:name xml:lang="it">Nord-est</ns3:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
+    <ns1:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns1:notation>5</ns1:notation>
+    <ns1:prefLabel xml:lang="it">Isole</ns1:prefLabel>
+    <ns7:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5"/>
+    <ns7:hasRankOrder>1</ns7:hasRankOrder>
+    <ns3:name xml:lang="it">Isole</ns3:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/GeographicalDistribution"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
+    <ns1:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"/>
+    <ns1:notation>4</ns1:notation>
+    <ns1:prefLabel xml:lang="it">Sud</ns1:prefLabel>
+    <ns7:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4"/>
+    <ns7:hasRankOrder>1</ns7:hasRankOrder>
+    <ns3:name xml:lang="it">Sud</ns3:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <ns7:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns7:identifierType>
+    <ns3:identifier>3</ns3:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/resource/ContactPoint/voc_AgID">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <ns9:fn>banche dati e open data</ns9:fn>
+    <ns9:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/agid">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <ns2:identifier>agid</ns2:identifier>
+    <ns8:name xml:lang="it">Agenzia per l'Italia Digitale</ns8:name>
+    <ns8:name xml:lang="en">Italian Digital Agency</ns8:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1">
-    <ns2:identifier>1</ns2:identifier>
-    <ns1:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns1:identifierType>
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <ns7:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns7:identifierType>
+    <ns3:identifier>1</ns3:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <ns7:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns7:identifierType>
+    <ns3:identifier>4</ns3:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2">
-    <ns1:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns1:identifierType>
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <ns2:identifier>2</ns2:identifier>
+    <ns7:identifierType xml:lang="it">Identificativo della ripartizione geografica</ns7:identifierType>
+    <ns3:identifier>2</ns3:identifier>
   </rdf:Description>
 </rdf:RDF>

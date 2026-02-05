@@ -36,7 +36,7 @@ Select  id_obbligo AS id_obbligo,
         organizzazione_ipa AS organizzazione_ipa,
         classificazione_s13_codice AS classificazione_s13_codice
 FROM trasparenza.transparency_obligation_administration
-		
+
 	""" ;
 .
 
@@ -49,7 +49,7 @@ Select  id_obbligo AS id_obbligo,
         categoria_amministrazione AS categoria_amministrazione,
         classificazione_s13_codice AS classificazione_s13_codice
 FROM trasparenza.transparency_obligation_administration_category
-		
+
 	""" ;
 .
 
@@ -140,6 +140,3 @@ FROM trasparenza.transparency_obligation_administration_category
     ];
 
 .
-
-
-

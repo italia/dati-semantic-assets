@@ -110,8 +110,8 @@
                                                                       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                       dct:title "Distribuzione JSON-LD ontologia FULL-AP_IT"@it ,
                                                                                 "JSON-LD distribution of FULL-AP_IT Ontology"@en ;
-                                                                      dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest> ;
-                                                                      dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest/FULL-AP_IT.jsonld> .
+                                                                      dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest> ;
+                                                                      dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest/FULL-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/FULLAPIT-RDF-TURTLE
@@ -123,8 +123,8 @@
                                                                 dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                 dct:title "Distribuzione RDF/Turtle ontologia FULL-AP_IT"@it ,
                                                                           "RDF/Turtle distribution of FULL-AP_IT Ontology"@en ;
-                                                                dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest> ;
-                                                                dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest/FULL-AP_IT.ttl> .
+                                                                dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest> ;
+                                                                dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest/FULL-AP_IT.ttl> .
 
 ###  https://w3id.org/italia/data/distribution/FULLAPIT-RDF-XML
 <https://w3id.org/italia/data/distribution/FULLAPIT-RDF-XML> rdf:type owl:NamedIndividual ,
@@ -135,8 +135,8 @@
                                                              dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                              dct:title "Distribuzione RDF/XML ontologia FULL-AP_IT"@it ,
                                                                        "RDF/XML distribution of FULL-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/FULL/latest/FULL-AP_IT.rdf> .
+                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/FULL/latest/FULL-AP_IT.rdf> .
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
 <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> rdf:type owl:NamedIndividual ,

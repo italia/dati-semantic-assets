@@ -1,0 +1,1816 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasCurrentMaritalStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyCitizen"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/CPV/Dead"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/bornInCity"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/bornInCountry"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasDomicile"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/citizenshipCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/citizenshipDenomination"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasDomicileIn"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/domicileInAddress"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/domicileInCity"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasDomicile"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/maritalStatusCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/maritalStatusDenomination"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamily"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/inRegisteredFamily"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasParentalRelationshipType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipInRegisteredFamily"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasRegisteredParentalRelationship"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasParentalRelationshipType"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipTypeCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipTypeDenomination"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/cohabitanceCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/numberOfCohabitants"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasRegisteredResidenceIn"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipInRegisteredFamily"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/numberOfComponentsOfRegisteredFamily"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/registeredFamilyCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/hasRegisteredResidence"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/registeredResidenceEventTypeCode"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/registeredResidenceEventTypeDenomination"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamily"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamilyOrCohabitance"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasRegisteredResidenceIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/residentPersonID"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegisteredCohabitance"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid59"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamilyOrCohabitance"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/residenceInCityAtTimeOfDeath"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/italia/onto/RPO/PersonWithoutRegisteredResidence"
+    }, {
+      "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#dateTime",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#integer",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Organization", "http://www.w3.org/2006/vcard/ns#Kind", "http://www.w3.org/2006/vcard/ns#Organization" ],
+  "http://www.w3.org/2006/vcard/ns#fn" : [ {
+    "@value" : "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog "
+  } ],
+  "http://www.w3.org/2006/vcard/ns#hasEmail" : [ {
+    "@id" : "mailto:ndc-segr-tec@istat.it"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-JSON-LD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione JSON-LD dell'ontologia della popolazione residente registrata in anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in JSON-LD of the ontology of the population registered in the registry office"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione JSON-LD ontologia RPO "
+  }, {
+    "@language" : "en",
+    "@value" : "JSON-LD distribution of RPO  Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.jsonld"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-RDF-TURTLE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/Turtle dell'ontologia della popolazione residente registrata in anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/turtle of the ontology of the population registered in the registry office"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/Turtle ontologia RPO"
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/Turtle distribution of RPO Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.ttl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-RDF-XML",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/XML dell'ontologia della popolazione residente registrata in anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/XML of the ontology of the population registered in the registry office"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/XML ontologia RPO "
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/XML distribution of RPO  Ontology"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/RPO/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.rdf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "ISTAT"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Istituto Nazionale di Statistica - ISTAT"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian National Institute of Statistics - ISTAT"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "PCM-1RSIZZ"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Digital Transformation Department of the Presidency of the Council of Ministers"
+  }, {
+    "@language" : "it",
+    "@value" : "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/agid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "agid"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Agenzia per l'Italia Digitale"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian Digital Agency"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/m_it",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "m_it"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Ministero dell'Interno - DAIT Direzione Centrale dei servizi demografici"
+  }, {
+    "@language" : "en",
+    "@value" : "Ministry of the Interior - DAIT Central Directorate of Population Services"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/Address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CLV/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Stato"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Alive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Dead"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Dead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/ResidenceInTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/hasBirthPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/hasResidenceInTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/personID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/residenceInLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/residentIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/RPO/latest/RPO-AP_IT.png"
+  } ],
+  "http://purl.org/dc/terms/accrualPeriodicity" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
+  }, {
+    "@id" : "https://w3id.org/italia/data/public-organization/m_it"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia della popolazione residente registrata in anagrafe."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the population registered in the registry office."
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-12-31"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://publications.europa.eu/resource/authority/language/ITA"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-06-10"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/m_it"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Ontologia della Popolazione Residente Registrata in Anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "Registered Residence Person Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa è l'ontologia della popolazione residente registrata in anagrafe."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the population registered in the registry office."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Ontologia della Popolazione Residente Registrata in Anagrafe."
+  }, {
+    "@language" : "en",
+    "@value" : "Registered Residence Person Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/l0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/0.2"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "it",
+    "@value" : "Versione 0.2 - Inserita la proprietà, residentPersonID, che descrive il codice identificativo univoco attribuito dall'Anagrafe Nazionale delle Persone Residenti (ANPR) "
+  } ],
+  "http://www.w3.org/ns/dcat#contactPoint" : [ {
+    "@id" : "https://schema.gov.it/lodview/data/contact-point/ISTAT-NDC"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@language" : "it",
+    "@value" : "Anagrafe"
+  }, {
+    "@language" : "it",
+    "@value" : "Residente"
+  } ],
+  "http://www.w3.org/ns/dcat#theme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/acronym" : [ {
+    "@value" : "RPO-AP_IT"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasKeyClass" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/OWL"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution" : [ {
+    "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-JSON-LD"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-RDF-TURTLE"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/RPOAPIT-RDF-XML"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/last" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/0.1"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/officialURI" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/prefix" : [ {
+    "@value" : "rpoapit"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/status" : [ {
+    "@value" : "published"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/target" : [ {
+    "@language" : "en",
+    "@value" : "Citizens"
+  }, {
+    "@language" : "it",
+    "@value" : "Cittadini"
+  }, {
+    "@language" : "it",
+    "@value" : "Pubbliche Amministrazioni"
+  }, {
+    "@language" : "en",
+    "@value" : "Public Organization"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/type" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/DomainOntology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/Citizenship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Situazione giuridica soggettiva (complesso di diritti e di doveri) di una persona fisica nei suoi rapporti con uno Stato, il cui ordinamento giuridico ne regola fattispecie e modalità di acquisizione e perdita.La cittadinanza italiana si acquisisce di diritto (automaticamente):-per nascita (art. 1, l. n. 91/1992): a) il figlio di padre o di madre cittadini; b) chi è nato nel territorio della Repubblica se entrambi i genitori sono ignoti o apolidi, ovvero se il figlio non segue la cittadinanza dei genitori secondo la legge dello Stato al quale questi appartengono. È considerato cittadino per nascita il figlio di ignoti trovato nel territorio della Repubblica, se non venga provato il possesso di altra cittadinanza;-da parte di un minorenne straniero adottato da cittadino italiano (art. 3, l. n.91/92).Può essere riconosciuta per beneficio di legge agli stranieri nati e residenti ininterrottamente in Italia fino al 18mo anno di età ovvero in casi particolari di discendenti in linea retta di cittadini per nascita con dichiarazione resa all’Ufficiale di stato civile (artt. 4 e 23, l. 91/92).Può essere concessa:per naturalizzazione in caso di residenza legale (iscrizione all’anagrafe della popolazione residente, art. 1 DPR n.572/1993 e la cui durata varia in funzione della ricorrenza di altri requisiti previsti dall’art. 9 l. n. 91/1992), con decreto del Presidente della Repubblica, sentito il Consiglio di Stato, su proposta del Ministro dell'interno;-per matrimonio (art. 5, l. n. 91/1992): a istanza dell’interessato, con provvedimento del Prefetto ovvero con decreto del Ministro dell’interno (art. 7 l. n. 91/1992 e Direttiva ministeriale 7.3.2012)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Citizenship"
+  }, {
+    "@language" : "it",
+    "@value" : "Cittadinanza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/Domicile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Luogo in cui la persona ha stabilito la sede principale dei suoi affari e interessi (art. 43 c.c.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Domicile"
+  }, {
+    "@language" : "it",
+    "@value" : "Domicilio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/HomelessPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Persona che non ha in alcun comune la dimora abituale e che è registrata in anagrafe sulla base del requisito del domicilio. In mancanza del domicilio, si considera residente nel comune di nascita. (art.2 Legge anagrafica n.1228/1954)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Homeless person"
+  }, {
+    "@language" : "it",
+    "@value" : "Persona senza fissa dimora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/MaritalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Complesso delle singole posizioni giuridiche spettanti alla persona nella famiglia, nello Stato e nella comunità giuridica. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Marital status"
+  }, {
+    "@language" : "it",
+    "@value" : "Stato civile"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/MembershipInRegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Registrazione della persona in una famiglia anagrafica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Appartenenza in famiglia Anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "Membership in registered family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Il legame di ciascun membro della famiglia anagrafica con una persona di riferimento all'interno della famiglia stessa. Le relazioni di parentela consentono di ricostruire la composizione e dimensione delle famiglie, le relazioni tra i diversi componenti, le relazioni di coppia de iure (matrimonio/unione civile/) o de facto (convivenza di fatto, art. 1, commi 6ss, L. 20 maggio 2016, 76) e la condizione genitoriale. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parental relationship"
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione parentale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationshipType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classificazione dei legami parentali che sussistono tra ciascun membro della famiglia e una persona di riferimento all'interno della famiglia stessa (in questo caso l'intestatario della scheda). È una classificazione ad un livello composta delle seguenti categorie: intestatario della scheda; marito/moglie; figlio/figlia; nipote (discendente); pronipote (discendente); padre/madre; nonno/nonna; fratello/sorella; nipote (collaterale); zio/zia (collaterale); cugino/cugina; altro parente; genero/nuora; suocero/suocera; cognato/cognata; nipote (affine); zio/zia (affine); altro affine; convivente (con vincoli di adozione o affettivi); responsabile della convivenza non affettiva; convivente in convivenza non affettiva; adottato; unito civilmente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parental relationship type"
+  }, {
+    "@language" : "it",
+    "@value" : "Tipo relazione parentale"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid36"
+  }, {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/PersonWithoutRegisteredResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Persona fisica non registrata nell’anagrafe della popolazione residente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person without registered residence"
+  }, {
+    "@language" : "it",
+    "@value" : "Persona anagraficamente non residente"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredCohabitance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Insieme di persone che, senza essere legate da vincoli di matrimonio, parentela, afﬁnità e simili, conducono vita in comune per motivi religiosi, di cura, di assistenza, militari, di pena e simili. Le persone addette alla convivenza per ragioni di lavoro, se vi convivono abitualmente, sono considerate componenti residenti della convivenza purché non costituiscano famiglia a sé stante. I principali tipi di convivenza sono: istituti d’istruzione, istituti assistenziali, istituti penitenziari, convivenze ecclesiastiche, convivenze militari e di altri corpi accasermati, navi mercantili, altre convivenze (ad esempio, case dello studente, dormitori per lavoratori eccetera). Le persone ospitate anche abitualmente in alberghi, locande, pensioni e simili non costituiscono convivenza anagrafica (art. 5 DPR 223/1989). Le case degli studenti e gli istituti di cura difficilmente possono costituire convivenza anagrafica per la temporaneità della presenza (art. 3, comma 2, e art. 10bis DPR 223/1989)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Convivenza Anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "Registered cohabitance"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid38"
+  }, {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Insieme di persone legate da vincoli di matrimonio, parentela, affinità, adozione, tutela o vincoli affettivi, coabitanti e residenti anagraficamente nello stesso comune. Una famiglia anagrafica può essere costituita anche da una sola persona (famiglia monocomponente). (art. 4 DPR 223/1989) "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Famiglia anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "Registered family"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid40"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Luogo di residenza di una persona (43 c.c.) registrato nell’Anagrafe nazionale della popolazione residente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Registered residence"
+  }, {
+    "@language" : "it",
+    "@value" : "Residenza anagrafica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/ResidenceInTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidenceEventType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La registrazione in anagrafe può consistere nell'iscrizione o nella cancellazione."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Registered residence event type"
+  }, {
+    "@language" : "it",
+    "@value" : "Tipo evento registrazione anagrafe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid46"
+  }, {
+    "@id" : "_:genid49"
+  }, {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Persona fisica avente dimora abituale in un determinato Comune come risultante nell'anagrafe della popolazione residente (artt. 3 e 7 DPR n. 223/1989; art. 43 cc). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Persona anagraficamente residente"
+  }, {
+    "@language" : "en",
+    "@value" : "Registered resident person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid51"
+  }, {
+    "@id" : "_:genid52"
+  }, {
+    "@id" : "_:genid53"
+  }, {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classificazione degli eventi di iscrizione anagrafica secondo i possibili motivi: nascita; esistenza (giudizialmente riconosciuta); immigrazione dall’estero; ricomparsa (da irreperibilità); rimpatrio (da AIRE); rettifiche post censuarie; altri motivi (descrizione da fornire a cura del comune."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Motivo iscrizione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "Registry office registration motivation"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classificazione degli eventi di cancellazione anagrafica secondo i possibili motivi: morte accertata; morte presunta giudizialmente dichiarata; trasferimento di residenza all’estero di uno straniero; irreperibilità; mancato rinnovo dimora abituale/permesso di soggiorno; rettifiche post censuarie; perdita della cittadinanza italiana (AIRE); altro motivo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Motivo cancellazione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "Registry office removal motivation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/ResidentAbroad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cittadino italiano che fissa all’estero la dimora abituale o che già vi risiede (perché nato all’estero o per successivo acquisto della cittadinanza italiana), iscritto all’Anagrafe degli Italiani Residenti all’Estero (A.I.R.E.), istituita con legge 27 ottobre 1988, n. 470. Le casistiche previste sono: a) per trasferimento della residenza da un comune italiano all'estero, dichiarato o accertato a norma del regolamento di esecuzione della legge 24 dicembre 1954, n. 1228, sull'ordinamento delle anagrafi della popolazione residente, approvato con decreto del Presidente della Repubblica 31 gennaio 1958, n. 136, e successive modificazioni;b) a seguito della registrazione dell'atto di nascita pervenuto ai sensi degli articoli 51 e 52 del regio decreto 9 luglio 1939, n. 1238, e dell'articolo 73, ultimo comma, del decreto del Presidente della Repubblica 5 gennaio 1967, n. 200;c) per acquisizione della cittadinanza italiana da parte di persona residente all'estero;d) per esistenza di cittadino all'estero giudizialmente dichiarata."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resident abroad"
+  }, {
+    "@language" : "it",
+    "@value" : "Residente all'estero o temporaneamente all’estero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "appartiene a famiglia anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "belongs to registered family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MembershipInRegisteredFamily"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/belongsToRegisteredFamilyOrCohabitance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "appartiene a famiglia o convivenza"
+  }, {
+    "@language" : "en",
+    "@value" : "belongs to registered family or cohabitance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/bornInCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "born in city"
+  }, {
+    "@language" : "it",
+    "@value" : "nato in comune"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/hasBirthPlace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/bornInCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "born in country"
+  }, {
+    "@language" : "it",
+    "@value" : "nato in stato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/hasBirthPlace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/citizenshipAtTimeOfDeath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Dead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Citizenship at time of death"
+  }, {
+    "@language" : "it",
+    "@value" : "Cittadinanza al decesso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Citizenship"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/citizenshipCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Citizenship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "citizenship code"
+  }, {
+    "@language" : "it",
+    "@value" : "codice cittadinanza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/citizenshipDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Citizenship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "citizenship denomination"
+  }, {
+    "@language" : "it",
+    "@value" : "denominazione cittadinanza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/cohabitanceCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredCohabitance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice convivenza"
+  }, {
+    "@language" : "en",
+    "@value" : "cohabitance code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/cohabitanceDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredCohabitance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cohabitance denomination"
+  }, {
+    "@language" : "it",
+    "@value" : "denominazione convivenza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/currentMaritalStatusStartDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "current marital status start date"
+  }, {
+    "@language" : "it",
+    "@value" : "data inizio stato civile attuale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasDomicileIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "currently has domicile in"
+  }, {
+    "@language" : "it",
+    "@value" : "ha domicilio attualmente in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/currentlyHasRegisteredResidenceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "currently has registered residence in"
+  }, {
+    "@language" : "it",
+    "@value" : "risiede anagraficamente attualmente in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/residentIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/domicileInAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Domicile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "domicile in address"
+  }, {
+    "@language" : "it",
+    "@value" : "domicilio in indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Address"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/domicileInCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Domicile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "domicile in city"
+  }, {
+    "@language" : "it",
+    "@value" : "domicilio in comune"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasCurrentDomicileAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha indirizzo di domicilio attuale"
+  }, {
+    "@language" : "en",
+    "@value" : "has current domicile address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Address"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasCurrentMaritalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha stato civile attuale"
+  }, {
+    "@language" : "en",
+    "@value" : "has current marital status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MaritalStatus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasDomicile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha domicilio"
+  }, {
+    "@language" : "en",
+    "@value" : "has domicile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Domicile"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasParentalRelationshipType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha tipo relazione parentale"
+  }, {
+    "@language" : "en",
+    "@value" : "has parental relationship type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationshipType"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasRegisteredParentalRelationship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha relazione parentale anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "has registered parental relationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationship"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasRegisteredResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha residenza anagrafica"
+  }, {
+    "@language" : "en",
+    "@value" : "has registered residence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/hasResidenceInTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasRegistryOfficeRegistrationMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha motivo iscrizione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "has registry office registration motivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRegistrationMotivation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/hasRegistryOfficeRemovalMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha motivo cancellazione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "has registry office removal motivation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/immediatelyPrecedes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "immediately precedes"
+  }, {
+    "@language" : "it",
+    "@value" : "precede immediatamente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/inRegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "in famiglia"
+  }, {
+    "@language" : "en",
+    "@value" : "in registered family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MembershipInRegisteredFamily"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyAcquiredCitizen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is currently acquired citizen"
+  }, {
+    "@language" : "it",
+    "@value" : "è attualmente cittadino acquisito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyCitizen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyCitizen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Alive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is currently citizen"
+  }, {
+    "@language" : "it",
+    "@value" : "è attualmente cittadino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/Citizenship"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyPredominantlyCitizen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La persona nei cui confronti è riconosciuta la cittadinanza da parte di più Stati è sottoposta alle rispettive leggi di ciascuno Stato di appartenenza. Nell'ordinamento italiano, nei rapporti di diritto internazionale privato, se la persona ha più cittadinanze, si applica la legge di quello tra gli Stati di appartenenza con il quale essa ha il collegamento più stretto. Se tra le cittadinanze vi è quella italiana, questa prevale (art. 19 legge 218/1995)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is currently predominantly citizen"
+  }, {
+    "@language" : "it",
+    "@value" : "è attualmente prevalentemente cittadino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/isCurrentlyCitizen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/maritalStatusAtTimeOfDeath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Dead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "marital status at time of death"
+  }, {
+    "@language" : "it",
+    "@value" : "stato civile al decesso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MaritalStatus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/maritalStatusCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MaritalStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice stato civile"
+  }, {
+    "@language" : "en",
+    "@value" : "marital status code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/maritalStatusDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/MaritalStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "denominazione stato civile"
+  }, {
+    "@language" : "en",
+    "@value" : "marital status denomination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/numberOfCohabitants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredCohabitance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of cohabitants"
+  }, {
+    "@language" : "it",
+    "@value" : "numero componenti convivenza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/numberOfComponentsOfRegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of components of registered family"
+  }, {
+    "@language" : "it",
+    "@value" : "numero componenti famiglia anagrafica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipInRegisteredFamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "parental relationship in registered family"
+  }, {
+    "@language" : "it",
+    "@value" : "relazione parentale in famiglia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipTypeCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationshipType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice tipo relazione parentale"
+  }, {
+    "@language" : "en",
+    "@value" : "parental relationship type code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/parentalRelationshipTypeDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/ParentalRelationshipType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "denominazione tipo relazione parentale"
+  }, {
+    "@language" : "en",
+    "@value" : "parental relationship type denomination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/registeredFamilyCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredFamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice famiglia"
+  }, {
+    "@language" : "en",
+    "@value" : "registered family code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/registeredResidenceEventTypeCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidenceEventType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "codice tipo evento registrazione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "registered residence event type code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/registeredResidenceEventTypeDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidenceEventType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "denominazione tipo evento registrazione anagrafe"
+  }, {
+    "@language" : "en",
+    "@value" : "registered residence event type denomination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/registeredResidenceInCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "registerd residence in city"
+  }, {
+    "@language" : "it",
+    "@value" : "residenza anagrafica in comune"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/residenceInLocation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/residenceInAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "residence in address"
+  }, {
+    "@language" : "it",
+    "@value" : "residenza in indirizzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/Address"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/residenceInCityAtTimeOfDeath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Dead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "comune di residenza al decesso"
+  }, {
+    "@language" : "en",
+    "@value" : "residence in city at time of death"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CLV/City"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/residentPersonID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Codice identificativo univoco attribuito dall'Anagrafe Nazionale delle Persone Residenti (ANPR) a ciascun cittadino per garantire la circolarità dei dati anagrafici e l'interoperabilità con le altre banche dati delle pubbliche amministrazioni e dei gestori di servizi pubblici. L’ID ANPR è attribuito ad ogni individuo all’atto della sua iscrizione in anagrafe e conseguente registrazione in ANPR. L’ID ANPR si contraddistingue per le seguenti caratteristiche: a. è alfanumerico con lunghezza di 9 caratteri compreso il check digit; b. è attribuito e associato univocamente ad ogni individuo già registrato in ANPR ovvero ad ogni individuo in fase di registrazione nell’ANPR; c. può essere generato soltanto dal sistema ANPR; d. non è ricavato dai dati anagrafici della persona a cui è attribuito; e. non contiene elementi identificativi dei dati anagrafici della persona a cui è attribuito; f. non può essere riassegnato; g. garantisce l’associazione immutabile al soggetto cui è attribuito; h. non fornisce evidenza di alcuna sequenzialità, tantomeno temporale; i. è dotato di check digit (il check digit è l’ultimo carattere dell’ID ANPR calcolato tramite uno specifico algoritmo per consentire di verificare la validità dei numeri che lo precedono); j. è possibile la ricostruzione del check digit\". [art. 62, c.3, ultimo periodo, CAD; DM Ministero Interno 18.4.2023; artt. 7 e 17 DPR 223/1989]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/RPO/RegisteredResidentPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Identificativo persona residente"
+  }, {
+    "@language" : "en",
+    "@value" : "Resident person identifier "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/personID"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/RPO/weddingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Data di matrimonio"
+  }, {
+    "@language" : "en",
+    "@value" : "Wedding date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

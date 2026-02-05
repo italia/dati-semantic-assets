@@ -41,7 +41,7 @@ Il gruppo di lavoro ha elaborato anche le  istruzioni per facilitare l'iter di p
     1.	Rettore
     2.	Direttore generale
     3.	Prorettori e delegati
-    4.	Direttore   
+    4.	Direttore
     5.	Presidente
     6.	Senato accademico
     7.	Consiglio di amministrazione

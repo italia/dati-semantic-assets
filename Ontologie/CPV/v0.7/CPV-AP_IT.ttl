@@ -20,17 +20,17 @@
                                                 <https://w3id.org/italia/onto/TI> ,
                                                 <https://w3id.org/italia/onto/l0> ;
                                     dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-                                    dct:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> ,
-                                                <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
+                                    dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ,
+                                                <https://w3id.org/italia/data/public-organization/agid> ;
                                     dct:description "Questa è l'ontologia del profilo applicativo italiano sulle persone."@it ,
                                                     "This is the ontology of the Italian application profile for Persons"@en ;
                                     dct:identifier "https://w3id.org/italia/onto/CPV" ;
                                     dct:issued "2017-07-19"^^xsd:date ;
                                     dct:language <http://publications.europa.eu/resource/authority/language/ENG> ,
                                                  <http://publications.europa.eu/resource/authority/language/ITA> ;
-                                    dct:modified "2020-04-27"^^xsd:date ;
-                                    dct:publisher <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
-                                    dct:rightsHolder <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> ;
+                                    dct:modified "2022-06-23"^^xsd:date ;
+                                    dct:publisher <https://w3id.org/italia/data/public-organization/agid> ;
+                                    dct:rightsHolder <https://w3id.org/italia/data/public-organization/ISTAT> ;
                                     dct:title "CPV-AP_IT - Core Person Vocabulary Italian Application Profile - Person Ontology"@en ,
                                               "CPV-AP_IT: Core Person Vocabulary - profilo applicativo italiano - Ontologia delle persone"@it ;
                                     rdfs:comment "Questa è l'ontologia del profilo applicativo italiano sulle persone."@it ,
@@ -38,8 +38,8 @@
                                     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                                     rdfs:label "Ontologia delle persone (individui)"@it ,
                                                "Person ontology"@en ;
-                                    owl:versionInfo "Version 0.7 - updated on 27th April 2020 - fixed a few typo in the lang it for two classes 'Education Level' and 'Family' and in a word fogio instead of foglio; updated on 17th of July - deleted subclassOf ParentalRelationship for FamilySheetHolder and added the reference to the controlled vocabulary for ParentalRelationshipType. Renamed ParentalRelationship in ParentalRelationshipType"@en ,
-                                                    "Versione 0.7 - aggiornata il 27 Aprile 2020 - corretti due typo sulla lingua it per due classi 'Grado di Istruzione' e a'Famiglia' e nella parola 'fogio'; aggiornata il 17 Luglio 2019 - tolto il riferimento di sotto classe di Relazione Parentale per l'Intestatario di foglio di famiglia. Aggiunto il riferimento al vocabolario controllato relativo per il concetto di ParentalRelationshipType ( Tipo Relazione Parentale). Rinominata classe ParentalRelationship in ParentalRelationshipType"@it ;
+                                    owl:versionInfo "Version 0.7 - updated on 23th June 2022 - fixed a few typo in the lang it for two classes 'Education Level' and 'Family' and in a word fogio instead of foglio; updated on 17th of July - deleted subclassOf ParentalRelationship for FamilySheetHolder and added the reference to the controlled vocabulary for ParentalRelationshipType. Renamed ParentalRelationship in ParentalRelationshipType. Revised the italian description for isParentOf. Fixed some metadata of the ontology"@en ,
+                                                    "Versione 0.7 - aggiornata il 23 Giugno 2022 - corretti due typo sulla lingua it per due classi 'Grado di Istruzione' e a'Famiglia' e nella parola 'fogio'; aggiornata il 17 Luglio 2019 - tolto il riferimento di sotto classe di Relazione Parentale per l'Intestatario di foglio di famiglia. Aggiunto il riferimento al vocabolario controllato relativo per il concetto di ParentalRelationshipType ( Tipo Relazione Parentale). Rinominata classe ParentalRelationship in ParentalRelationshipType. Rivista la descrizione della proprietà 'isParentOf' e corretti alcuni metadati"@it ;
                                     dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
                                     dcat:keyword "famiglia"@it ,
                                                  "persona"@it ,
@@ -1103,8 +1103,8 @@ CLV:Address rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT
-<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/ISTAT
+<https://w3id.org/italia/data/public-organization/ISTAT> rdf:type owl:NamedIndividual ,
                                                                            <http://dati.gov.it/onto/dcatapit#Agent> ,
                                                                            foaf:Agent ;
                                                                   dct:identifier "ISTAT" ;
@@ -1112,8 +1112,8 @@ CLV:Address rdf:type owl:Class .
                                                                             "Italian National Institute of Statistics - ISTAT"@en .
 
 
-###  http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid
-<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> rdf:type owl:NamedIndividual ,
+###  https://w3id.org/italia/data/public-organization/agid
+<https://w3id.org/italia/data/public-organization/agid> rdf:type owl:NamedIndividual ,
                                                                           <http://dati.gov.it/onto/dcatapit#Agent> ,
                                                                           foaf:Agent ;
                                                                  dct:identifier "agid" ;
@@ -1178,8 +1178,8 @@ CLV:Address rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione JSON-LD ontologia CPV-AP_IT"@it ,
                                                                       "JSON-LD distribution of CPV-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld> .
+                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE
@@ -1191,8 +1191,8 @@ CLV:Address rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle ontologia CPV-AP_IT"@it ,
                                                                          "RDF/Turtle distribution of CPV-AP_IT Ontology"@en ;
-                                                               dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.ttl> .
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPVAPIT-RDF-XML
@@ -1204,8 +1204,8 @@ CLV:Address rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione RDF/XML ontologia CPV-AP_IT"@it ,
                                                                       "RDF/XML distribution of CPV-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.rdf> .
+                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
@@ -1321,7 +1321,7 @@ CLV:Address rdf:type owl:Class .
             rdfs:label "is nephew of"@en .
 
 
-:isParentOf rdfs:comment "La relazione padre-figlio."@it ;
+:isParentOf rdfs:comment "La relazione genitore-figlia/o."@it ;
             owl:versionInfo "stable"@en ;
             rdfs:comment "The parent-child relationship."@en ;
             rdfs:label "is parent of"@en ;

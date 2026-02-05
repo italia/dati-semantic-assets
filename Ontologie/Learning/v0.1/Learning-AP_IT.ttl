@@ -1,0 +1,1060 @@
+@prefix : <https://w3id.org/italia/onto/Learning/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@base <https://w3id.org/italia/onto/Learning/> .
+
+<https://w3id.org/italia/onto/Learning> rdf:type owl:Ontology ;
+                                         owl:imports <https://w3id.org/italia/onto/COV> ,
+                                                     <https://w3id.org/italia/onto/CPV> ,
+                                                     <https://w3id.org/italia/onto/Language> ,
+                                                     <https://w3id.org/italia/onto/RO> ;
+                                         dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+                                         dct:creator <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> ,
+                                                     <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+                                         dct:description "Questa è l'ontologia del profilo applicativo italiano sull'alta formazione e AFAM. L'ontologia modella informazioni come l'iscrizione a istituti AFAM - Alta Formazione Artistica, Musicale e Coreutica, il titolo di laurea ottenuto con la relativa votazione, l'offerta formativa di questi istituti. La modellazione è usata per definire le API della banca dati ANIS - Anagrafe Nazionale Istruzione Superiore"@it ,
+                                                         "This is the ontology of the Italian application profile on higher education and AFAM. The ontology models information such as enrolment in AFAM - Alta Formazione Artistica, Musicale e Coreutica (Higher Education in Artistic, Musical and Choreographic Education) institutes, the degree obtained and its grade, and the educational offerings of these institutes. The modelling is used to define the API of the ANIS - Anagrafe Nazionale Istruzione Superiore (National Register of Higher Education) database."@en ;
+                                         dct:identifier "https://w3id.org/italia/onto/Learning" ;
+                                         dct:issued "2023-07-27"^^xsd:date ;
+                                         dct:language <http://publications.europa.eu/resource/authority/language/ENG> ,
+                                                      <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                         dct:modified "2024-10-23"^^xsd:date ;
+                                         dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+                                         dct:rightsHolder <https://w3id.org/italia/data/public-organization/KH5RHFCV> ;
+                                         dct:title "Learning Ontology"@en ,
+                                                   "Ontologia della (Alta) Formazione (inclusa Artistica, Musicale e Coreutica - AFAM)"@it ;
+                                         rdfs:comment "Questa è l'ontologia del profilo applicativo italiano della (alta) formazione e AFAM. L'ontologia modella informazioni come l'iscrizione a istituti (e.g., AFAM - Alta Formazione Artistica, Musicale e Coreutica, Università, ITS), il titolo ottenuto con la relativa votazione, l'offerta formativa di questi istituti. La modellazione è usata per definire le API della banca dati ANIS - Anagrafe Nazionale Istruzione Superiore, nonché per mappare alcune evidenze nel contesto del Single Digital Gateway europeo."@it ,
+                                                      "This is the ontology of the Italian (higher) education and AFAM application profile. The ontology models information such as enrolment in institutes (e.g., AFAM - Alta Formazione Artistica, Musicale e Coreutica, Universities, ITS), the qualification obtained with the corresponding grade, and the educational offer of these institutes. The modelling is used to define the API of the ANIS - Anagrafe Nazionale Istruzione Superiore (National Higher Education Register) database, as well as to map some evidence in the context of the European Single Digital Gateway."@en ;
+                                         rdfs:isDefinedBy <https://w3id.org/italia/onto/Learning> ;
+                                         rdfs:label "Learning Ontology"@en ,
+                                                    "Ontologia della (Alta) Formazione (inclusa Artistica, Musicale e Coreutica - AFAM)"@it ;
+                                         owl:versionInfo "Version 0.1 -  ontology creation"@en ,
+                                                         "Versione 0.1 - creazione dell'ontologia"@it ;
+                                         dcat:contactPoint <https://w3id.org/italia/data/contact-point/stat-off-mur> ;
+                                         dcat:keyword "AFAM"@it ,
+                                                      "alta formazione"@it ,
+                                                      "formazione"@it ,
+                                                      "iscrizione"@it ,
+                                                      "titolo di studio"@it ,
+                                                      "votazione"@it ;
+                                         dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+                                         admsapit:acronym "LE-AP_IT" ;
+                                         admsapit:hasFormalityLevel admsapit:Formal ;
+                                         admsapit:hasKeyClass :AcademicQualification ,
+                                                              :DegreeClass ,
+                                                              :DegreeCourse ,
+                                                              :EducationalOffering ,
+                                                              :Enrolment ;
+                                         admsapit:hasOntologyLanguage admsapit:OWL ;
+                                         admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/te-JSON-LD> ,
+                                                                               <https://w3id.org/italia/data/distribution/te-RDF-TURTLE> ,
+                                                                               <https://w3id.org/italia/data/distribution/te-RDF-XML> ;
+                                         admsapit:hasTask admsapit:AnnotationTask ,
+                                                          admsapit:QueryFormulationTask ;
+                                         admsapit:last <https://w3id.org/italia/onto/Learning/0.1> ;
+                                         admsapit:officialURI "https://w3id.org/italia/onto/Learning"^^xsd:anyURI ;
+                                         admsapit:prefix "le" ;
+                                         admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ,
+                                                                     <https://w3id.org/italia/data/project/OntoPiA> ;
+                                         admsapit:status "draft" ;
+                                         admsapit:target "Imprese" ,
+                                                         "Pubbliche Amministrazioni" ;
+                                         admsapit:type admsapit:DomainOntology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/accrualPeriodicity
+dct:accrualPeriodicity rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dct:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dct:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dct:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+dct:language rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dct:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dct:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dct:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+dct:rightsHolder rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#contactPoint
+dcat:contactPoint rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#keyword
+dcat:keyword rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/acronym
+admsapit:acronym rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/hasFormalityLevel
+admsapit:hasFormalityLevel rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/hasKeyClass
+admsapit:hasKeyClass rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/hasOntologyLanguage
+admsapit:hasOntologyLanguage rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution
+admsapit:hasSemanticAssetDistribution rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/hasTask
+admsapit:hasTask rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/last
+admsapit:last rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/officialURI
+admsapit:officialURI rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/prefix
+admsapit:prefix rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/semanticAssetInUse
+admsapit:semanticAssetInUse rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/status
+admsapit:status rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/target
+admsapit:target rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/italia/onto/ADMS/type
+admsapit:type rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/italia/onto/CLV/hasSpatialCoverage
+<https://w3id.org/italia/onto/CLV/hasSpatialCoverage> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/italia/onto/Language/hasLanguage
+<https://w3id.org/italia/onto/Language/hasLanguage> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/italia/onto/Learning/atInstitute
+:atInstitute rdf:type owl:ObjectProperty ;
+             rdfs:domain :Enrolment ;
+             rdfs:range :LearningInstitute ;
+             rdfs:label "a istituto di alta formazione"@it ,
+                        "at tertiary education institute"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/attends
+:attends rdf:type owl:ObjectProperty ;
+         rdfs:domain <https://w3id.org/italia/onto/CPV/Person> ;
+         rdfs:range :Learning ;
+         rdfs:label "attends"@en ,
+                    "frequenta"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/definesCourseType
+:definesCourseType rdf:type owl:ObjectProperty ;
+                   rdfs:domain :EducationalOffering ;
+                   rdfs:range :CourseType ;
+                   rdfs:label "defines course type"@en ,
+                              "definisce tipologia di laurea"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/definesDegreeCourse
+:definesDegreeCourse rdf:type owl:ObjectProperty ;
+                     rdfs:domain :EducationalOffering ;
+                     rdfs:range :DegreeCourse ;
+                     rdfs:label "defines degree course"@en ,
+                                "definisce corso di laurea"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/enablesLearning
+:enablesLearning rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Enrolment ;
+                 rdfs:range :Learning ;
+                 rdfs:label "abilita formazione"@it ,
+                            "enables learning"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasAcademicQualification
+:hasAcademicQualification rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Learning ;
+                          rdfs:range :AcademicQualification ;
+                          rdfs:label "ha qualifica accademica"@it ,
+                                     "has academic qualification"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasAcademicYear
+:hasAcademicYear rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf <https://w3id.org/italia/onto/TI/hasTemporalEntity> ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :EducationalOffering
+                                             :Enrolment
+                                           )
+                             ] ;
+                 rdfs:range :AcademicYear ;
+                 rdfs:label "ha anno accademico"@it ,
+                            "has academic year"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasAchievedTitle
+:hasAchievedTitle rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Enrolment ;
+                  rdfs:range :AcademicQualification ;
+                  rdfs:label "ha titolo ottenuto"@it ,
+                             "has achieved title"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasCourseType
+:hasCourseType rdf:type owl:ObjectProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( :DegreeClass
+                                           :Enrolment
+                                         )
+                           ] ;
+               rdfs:range :CourseType ;
+               rdfs:label "ha tipologia di laurea"@it ,
+                          "has course type"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasDegreeClass
+:hasDegreeClass rdf:type owl:ObjectProperty ;
+                owl:inverseOf :isDegreeClassOf ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :DegreeCourse
+                                            :Enrolment
+                                          )
+                            ] ;
+                rdfs:range :DegreeClass ;
+                rdfs:label "ha classe di laurea"@it ,
+                           "has degree class"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasDegreeCourse
+:hasDegreeCourse rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Enrolment ;
+                 rdfs:range :DegreeCourse ;
+                 rdfs:label "ha corso di laurea"@it ,
+                            "has degree course"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasEOSite
+:hasEOSite rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf <https://w3id.org/italia/onto/CLV/hasSpatialCoverage> ;
+           rdfs:domain :EducationalOffering ;
+           rdfs:range :EducationalOfferingSite .
+
+
+###  https://w3id.org/italia/onto/Learning/hasEducationalOffering
+:hasEducationalOffering rdf:type owl:ObjectProperty ;
+                        rdfs:domain :LearningInstitute ;
+                        rdfs:range :EducationalOffering ;
+                        rdfs:label "ha offerta formativa"@it ,
+                                   "has educational offering"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasEnrolment
+:hasEnrolment rdf:type owl:ObjectProperty ;
+              owl:inverseOf :isEnrolmentOf ;
+              rdfs:domain <https://w3id.org/italia/onto/CPV/Person> ;
+              rdfs:range :Enrolment ;
+              rdfs:label "ha iscrizione"@it ,
+                         "has enrolment"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasEnrolmentStatus
+:hasEnrolmentStatus rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Enrolment ;
+                    rdfs:range :EnrolmentStatus ;
+                    rdfs:label "ha stato iscrizione"@it ,
+                               "has enrolment status"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasEnrolmentValidity
+:hasEnrolmentValidity rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Enrolment ;
+                      rdfs:range <https://w3id.org/italia/onto/TI/TemporalEntity> ;
+                      rdfs:label "ha periodo di validà iscrizione"@it ,
+                                 "has enrolment validity period"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasGrade
+:hasGrade rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :AcademicQualification
+                                      :Examination
+                                    )
+                      ] ;
+          rdfs:range :Grade ;
+          rdfs:label "ha voto"@it ,
+                     "has grade"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasGradingScale
+:hasGradingScale rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Grade ;
+                 rdfs:range :GradingScale ;
+                 rdfs:label "ha scala di valutazione"@it ,
+                            "has grading scale"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasInstituteType
+:hasInstituteType rdf:type owl:ObjectProperty ;
+                  rdfs:domain :LearningInstitute ;
+                  rdfs:range :InstituteType ;
+                  rdfs:label "ha tipo istituto"@it ,
+                             "has institute type"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasLastEnrolmentYear
+:hasLastEnrolmentYear rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Enrolment ;
+                      rdfs:range :AcademicYear ;
+                      rdfs:label "ha ultimo anno accademico iscrizione corso"@it ,
+                                 "has last enrolment year"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasMaximumGrade
+:hasMaximumGrade rdf:type owl:ObjectProperty ;
+                 rdfs:domain :GradingScale ;
+                 rdfs:range :Grade ;
+                 rdfs:label "ha voto massimo"@it ,
+                            "has maximum grade"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasMinimumGrade
+:hasMinimumGrade rdf:type owl:ObjectProperty ;
+                 rdfs:domain :GradingScale ;
+                 rdfs:range :Grade ;
+                 rdfs:label "ha voto minimo"@it ,
+                            "has minimum grade"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/hasRegistrationYear
+:hasRegistrationYear rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf <https://w3id.org/italia/onto/TI/hasTemporalEntity> ;
+                     rdfs:domain :Enrolment ;
+                     rdfs:range :AcademicYear ;
+                     rdfs:label "ha anno accademico di immatricolazione"@it ,
+                                "has registration year"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/includesExamination
+:includesExamination rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Learning ;
+                     rdfs:range :Examination ;
+                     rdfs:label "include esame"@it ,
+                                "includes examination"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/isDegreeClassOf
+:isDegreeClassOf rdf:type owl:ObjectProperty ;
+                 rdfs:domain :DegreeClass ;
+                 rdfs:range [ rdf:type owl:Class ;
+                              owl:unionOf ( :DegreeCourse
+                                            :Enrolment
+                                          )
+                            ] ;
+                 rdfs:label "is degree class of"@en ,
+                            "è classe di laurea di"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/isEnrolmentOf
+:isEnrolmentOf rdf:type owl:ObjectProperty ;
+               rdfs:domain :Enrolment ;
+               rdfs:range <https://w3id.org/italia/onto/CPV/Person> ;
+               rdfs:label "is enrolment of"@en ,
+                          "è iscrizione di persona"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/issuedBy
+:issuedBy rdf:type owl:ObjectProperty ;
+          rdfs:domain :AcademicQualification ;
+          rdfs:range :LearningInstitute ;
+          rdfs:label "issued by"@en ,
+                     "rilasciata da"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/leadsTo
+:leadsTo rdf:type owl:ObjectProperty ;
+         rdfs:domain :FinalExamination ;
+         rdfs:range :AcademicQualification ;
+         rdfs:label "conduce a"@it ,
+                    "leads to"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/providedBy
+:providedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Learning ;
+            rdfs:range :LearningInstitute .
+
+
+###  https://w3id.org/italia/onto/TI/hasTemporalEntity
+<https://w3id.org/italia/onto/TI/hasTemporalEntity> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/italia/onto/COV/legalName
+<https://w3id.org/italia/onto/COV/legalName> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/italia/onto/Learning/academicQualificationDate
+:academicQualificationDate rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf <https://w3id.org/italia/onto/TI/date> ;
+                           rdfs:domain :AcademicQualification ;
+                           rdfs:range [ rdf:type rdfs:Datatype ;
+                                        owl:unionOf ( xsd:date
+                                                      xsd:dateTime
+                                                    )
+                                      ] ;
+                           rdfs:label "academic qualification date"@en ,
+                                      "data conseguimento titolo di studio"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/academicYear
+:academicYear rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf <https://w3id.org/italia/onto/TI/time> ;
+              rdfs:domain :AcademicYear ;
+              rdfs:range rdfs:Literal ;
+              rdfs:label "academic year"@en ,
+                         "anno accademico"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/achievedTitleName
+:achievedTitleName rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf <https://w3id.org/italia/onto/l0/name> ;
+                   rdfs:domain :AcademicQualification ;
+                   rdfs:range rdf:PlainLiteral ;
+                   rdfs:label "achieved title name"@en ,
+                              "denominazione titolo di studio ottenuto"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/courseYear
+:courseYear rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf <https://w3id.org/italia/onto/TI/time> ;
+            rdfs:domain :Enrolment ;
+            rdfs:range rdfs:Literal ;
+            rdfs:label "course year"@en ,
+                       "ultimo anno iscrizione corso"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/gradeValue
+:gradeValue rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf <https://w3id.org/italia/onto/MU/value> ;
+            rdfs:domain :Grade ;
+            rdfs:range rdfs:Literal ;
+            rdfs:label "grade value"@en ,
+                       "valore voto"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/instituteCode
+:instituteCode rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf <https://w3id.org/italia/onto/l0/identifier> ;
+               rdfs:domain :LearningInstitute ;
+               rdfs:range rdfs:Literal ;
+               rdfs:label "codice istituto"@it ,
+                          "institute code"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/instituteName
+:instituteName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf <https://w3id.org/italia/onto/COV/legalName> ;
+               rdfs:domain :LearningInstitute ;
+               rdfs:range rdf:PlainLiteral ;
+               rdfs:label "institute name"@en ,
+                          "nome istituto"@it .
+
+
+###  https://w3id.org/italia/onto/MU/value
+<https://w3id.org/italia/onto/MU/value> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/italia/onto/TI/date
+<https://w3id.org/italia/onto/TI/date> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/italia/onto/TI/time
+<https://w3id.org/italia/onto/TI/time> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/italia/onto/l0/identifier
+<https://w3id.org/italia/onto/l0/identifier> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/italia/onto/l0/name
+<https://w3id.org/italia/onto/l0/name> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dati.gov.it/onto/dcatapit#Agent
+dcatapit:Agent rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/ADMS/SemanticAsset
+admsapit:SemanticAsset rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution
+admsapit:SemanticAssetDistribution rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/CLV/Feature
+<https://w3id.org/italia/onto/CLV/Feature> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/COV/Organization
+<https://w3id.org/italia/onto/COV/Organization> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/CPV/Person
+<https://w3id.org/italia/onto/CPV/Person> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/Language/Language
+<https://w3id.org/italia/onto/Language/Language> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/Learning/AcademicQualification
+:AcademicQualification rdf:type owl:Class ;
+                       rdfs:subClassOf <https://w3id.org/italia/onto/l0/EventOrSituation> ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasGrade ;
+                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                         owl:onClass :Grade
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :issuedBy ;
+                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                         owl:onClass :LearningInstitute
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :achievedTitleName ;
+                                         owl:someValuesFrom rdfs:Literal
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :achievedTitleName ;
+                                         owl:allValuesFrom rdfs:Literal
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :academicQualificationDate ;
+                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                         owl:onDataRange [ rdf:type rdfs:Datatype ;
+                                                           owl:unionOf ( xsd:date
+                                                                         xsd:dateTime
+                                                                       )
+                                                         ]
+                                       ] ;
+                       rdfs:label "Academic qualification"@en ,
+                                  "Qualifica Accademica"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/AcademicYear
+:AcademicYear rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/italia/onto/TI/Duration> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :academicYear ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+              rdfs:label "Academic Year"@en ,
+                         "Anno Accademico"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/CourseType
+:CourseType rdf:type owl:Class ;
+            rdfs:subClassOf <https://w3id.org/italia/onto/l0/Characteristic> ,
+                            <https://w3id.org/italia/onto/l0/Concept> ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty <https://w3id.org/italia/onto/l0/name> ;
+                              owl:someValuesFrom rdfs:Literal
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty <https://w3id.org/italia/onto/l0/identifier> ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            rdfs:label "Course Type"@en ,
+                       "Tipologia Corso di Studio"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/DegreeClass
+:DegreeClass rdf:type owl:Class ;
+             rdfs:subClassOf <https://w3id.org/italia/onto/l0/Concept> ,
+                             <https://w3id.org/italia/onto/l0/Topic> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :isDegreeClassOf ;
+                               owl:someValuesFrom :DegreeCourse
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :isDegreeClassOf ;
+                               owl:allValuesFrom :DegreeCourse
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasCourseType ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :CourseType
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <https://w3id.org/italia/onto/l0/identifier> ;
+                               owl:someValuesFrom rdfs:Literal
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <https://w3id.org/italia/onto/l0/name> ;
+                               owl:someValuesFrom rdfs:Literal
+                             ] ;
+             rdfs:label "Classe di Laurea"@it ,
+                        "Degree Class"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/DegreeCourse
+:DegreeCourse rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/italia/onto/l0/Concept> ,
+                              <https://w3id.org/italia/onto/l0/Topic> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasDegreeClass ;
+                                owl:someValuesFrom :DegreeClass
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <https://w3id.org/italia/onto/Language/hasLanguage> ;
+                                owl:allValuesFrom <https://w3id.org/italia/onto/Language/Language>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasDegreeClass ;
+                                owl:allValuesFrom :DegreeClass
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <https://w3id.org/italia/onto/l0/name> ;
+                                owl:someValuesFrom rdfs:Literal
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <https://w3id.org/italia/onto/l0/identifier> ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+              rdfs:label "Corso di Laurea"@it ,
+                         "Degree Course"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/EducationalOffering
+:EducationalOffering rdf:type owl:Class ;
+                     rdfs:subClassOf <https://w3id.org/italia/onto/l0/Description> ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <https://w3id.org/italia/onto/Language/hasLanguage> ;
+                                       owl:someValuesFrom <https://w3id.org/italia/onto/Language/Language>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :definesCourseType ;
+                                       owl:someValuesFrom :CourseType
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :definesDegreeCourse ;
+                                       owl:someValuesFrom :DegreeCourse
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :hasEOSite ;
+                                       owl:someValuesFrom :EducationalOfferingSite
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <https://w3id.org/italia/onto/Language/hasLanguage> ;
+                                       owl:allValuesFrom <https://w3id.org/italia/onto/Language/Language>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :definesCourseType ;
+                                       owl:allValuesFrom :CourseType
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :definesDegreeCourse ;
+                                       owl:allValuesFrom :DegreeCourse
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :hasEOSite ;
+                                       owl:allValuesFrom :EducationalOfferingSite
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :hasAcademicYear ;
+                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :AcademicYear
+                                     ] ;
+                     rdfs:label "Educational Offering"@en ,
+                                "Offerta formativa"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/EducationalOfferingSite
+:EducationalOfferingSite rdf:type owl:Class ;
+                         rdfs:subClassOf <https://w3id.org/italia/onto/CLV/Feature> ;
+                         rdfs:label "Educational Offering Site"@en ,
+                                    "Luogo Offerta Formativa"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/Enrolment
+:Enrolment rdf:type owl:Class ;
+           rdfs:subClassOf <https://w3id.org/italia/onto/l0/EventOrSituation> ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :atInstitute ;
+                             owl:someValuesFrom :LearningInstitute
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :atInstitute ;
+                             owl:allValuesFrom :LearningInstitute
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasAcademicYear ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :AcademicYear
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasCourseType ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :CourseType
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasDegreeCourse ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :DegreeCourse
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasEnrolmentStatus ;
+                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :EnrolmentStatus
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasRegistrationYear ;
+                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :AcademicYear
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :courseYear ;
+                             owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                           ] ;
+           rdfs:label "Enrolment"@en ,
+                      "Iscrizione"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/EnrolmentStatus
+:EnrolmentStatus rdf:type owl:Class ;
+                 rdfs:subClassOf <https://w3id.org/italia/onto/l0/Characteristic> ;
+                 rdfs:label "Enrolment Status"@en ,
+                            "Stato Iscrizione"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/Examination
+:Examination rdf:type owl:Class ;
+             rdfs:subClassOf <https://w3id.org/italia/onto/TI/TimeIndexedEvent> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasGrade ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Grade
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :leadsTo ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :AcademicQualification
+                             ] ;
+             rdfs:label "Esame"@it ,
+                        "Examination"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/FinalExamination
+:FinalExamination rdf:type owl:Class ;
+                  rdfs:subClassOf :Examination ;
+                  rdfs:label "Esame Finale"@it ,
+                             "Final Examination"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/Grade
+:Grade rdf:type owl:Class ;
+       rdfs:subClassOf <https://w3id.org/italia/onto/l0/Concept> ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasGradingScale ;
+                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :GradingScale
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :gradeValue ;
+                         owl:cardinality "1"^^xsd:nonNegativeInteger
+                       ] ;
+       rdfs:label "Grade"@en ,
+                  "Voto"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/GradingScale
+:GradingScale rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/italia/onto/l0/Characteristic> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasMaximumGrade ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :Grade
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasMinimumGrade ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :Grade
+                              ] ;
+              rdfs:label "Grading Scale"@en ,
+                         "Scala di Valutazione"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/InstituteType
+:InstituteType rdf:type owl:Class ;
+               rdfs:subClassOf <https://w3id.org/italia/onto/l0/Characteristic> ,
+                               <https://w3id.org/italia/onto/l0/Concept> ;
+               rdfs:label "Institute Type"@en ,
+                          "Tipo di Istituto"@it .
+
+
+###  https://w3id.org/italia/onto/Learning/Learning
+:Learning rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/italia/onto/l0/EventOrSituation> ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :providedBy ;
+                            owl:someValuesFrom :LearningInstitute
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAcademicQualification ;
+                            owl:allValuesFrom :AcademicQualification
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :includesExamination ;
+                            owl:allValuesFrom :Examination
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :providedBy ;
+                            owl:allValuesFrom :LearningInstitute
+                          ] ;
+          rdfs:label "Insegnamento"@it ,
+                     "Learning"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/LearningInstitute
+:LearningInstitute rdf:type owl:Class ;
+                   rdfs:subClassOf <https://w3id.org/italia/onto/COV/Organization> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasInstituteType ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :InstituteType
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :instituteName ;
+                                     owl:someValuesFrom rdf:PlainLiteral
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :instituteName ;
+                                     owl:allValuesFrom rdf:PlainLiteral
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :instituteCode ;
+                                     owl:cardinality "1"^^xsd:nonNegativeInteger
+                                   ] ;
+                   rdfs:label "Istituto di Alta Formazione"@it ,
+                              "Tertiary Education Institute"@en .
+
+
+###  https://w3id.org/italia/onto/Learning/Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/italia/onto/RO/Role> ;
+         rdfs:label "Student"@en ,
+                    "Studente"@it .
+
+
+###  https://w3id.org/italia/onto/RO/Role
+<https://w3id.org/italia/onto/RO/Role> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/TI/Duration
+<https://w3id.org/italia/onto/TI/Duration> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/TI/TemporalEntity
+<https://w3id.org/italia/onto/TI/TemporalEntity> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/TI/TimeIndexedEvent
+<https://w3id.org/italia/onto/TI/TimeIndexedEvent> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/l0/Characteristic
+<https://w3id.org/italia/onto/l0/Characteristic> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/l0/Concept
+<https://w3id.org/italia/onto/l0/Concept> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/l0/Description
+<https://w3id.org/italia/onto/l0/Description> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/l0/EventOrSituation
+<https://w3id.org/italia/onto/l0/EventOrSituation> rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/l0/Topic
+<https://w3id.org/italia/onto/l0/Topic> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/italia/data/distribution/te-JSON-LD
+<https://w3id.org/italia/data/distribution/te-JSON-LD> rdf:type owl:NamedIndividual ,
+                                                                admsapit:SemanticAssetDistribution ;
+                                                       dct:description "Questa è la distribuzione JSON-LD dell'ontologia dell'Alta Formazione (Artistica, Musicale e Coreutica - AFAM)"@it ,
+                                                                       "This is the distribution in JSON-LD of the tertiary education ontology"@en ;
+                                                       dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+                                                       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                       dct:title "Distribuzione JSON-LD ontologia TE-AP_IT"@it ,
+                                                                 "JSON-LD distribution of TE-AP_IT Ontology"@en ;
+                                                       dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.jsonld> .
+
+
+###  https://w3id.org/italia/data/distribution/te-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/te-RDF-TURTLE> rdf:type owl:NamedIndividual ,
+                                                                   admsapit:SemanticAssetDistribution ;
+                                                          dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia dell'Alta Formazione (Artistica, Musicale e Coreutica - AFAM)e"@it ,
+                                                                          "This is the distribution in RDF/turtle of the tertiary education ontology"@en ;
+                                                          dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+                                                          dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                          dct:title "Distribuzione RDF/Turtle ontologia TE-AP_IT"@it ,
+                                                                    "RDF/Turtle distribution of TE-AP_IT Ontology"@en ;
+                                                          dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                          dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.ttl> .
+
+
+###  https://w3id.org/italia/data/distribution/te-RDF-XML
+<https://w3id.org/italia/data/distribution/te-RDF-XML> rdf:type owl:NamedIndividual ,
+                                                                admsapit:SemanticAssetDistribution ;
+                                                       dct:description "Questa è la distribuzione RDF/XML dell'ontologia dell'Alta Formazione (Artistica, Musicale e Coreutica - AFAM)"@it ,
+                                                                       "This is the distribution in RDF/XML of the tertiary ontology"@en ;
+                                                       dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+                                                       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                       dct:title "Distribuzione RDF/XML ontologia TE-AP_IT"@it ,
+                                                                 "RDF/XML distribution of TE-AP_IT Ontology"@en ;
+                                                       dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/Learning/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Learning/latest/Learning-AP_IT.rdf> .
+
+
+###  https://w3id.org/italia/data/public-organization/KH5RHFCV
+<https://w3id.org/italia/data/public-organization/KH5RHFCV> rdf:type owl:NamedIndividual ,
+                                                                     dcatapit:Agent ,
+                                                                     foaf:Agent ;
+                                                            dct:identifier "KH5RHFCV" ;
+                                                            rdfs:label "Ministero dell'Università e della Ricerca"@it ;
+                                                            foaf:name "Ministero dell'Università e della Ricerca"@it .
+
+
+###  https://w3id.org/italia/onto/Learning
+<https://w3id.org/italia/onto/Learning> rdf:type owl:NamedIndividual ,
+                                                 admsapit:SemanticAsset .
+
+
+###  https://w3id.org/italia/onto/Learning/Active
+:Active rdf:type owl:NamedIndividual ,
+                 :EnrolmentStatus .
+
+
+###  https://w3id.org/italia/onto/Learning/Private
+:Private rdf:type owl:NamedIndividual ,
+                  :InstituteType .
+
+
+###  https://w3id.org/italia/onto/Learning/Public
+:Public rdf:type owl:NamedIndividual ,
+                 :InstituteType .
+
+
+###  https://w3id.org/italia/onto/Learning/Terminated
+:Terminated rdf:type owl:NamedIndividual ,
+                     :EnrolmentStatus .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

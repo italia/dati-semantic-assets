@@ -1,85 +1,69 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY dct "http://purl.org/dc/terms/" >
-    <!ENTITY prov "http://www.w3.org/ns/prov#" >
-    <!ENTITY dcat "http://www.w3.org/ns/dcat#" >
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY vcard "http://www.w3.org/2006/vcard/ns#" >
-    <!ENTITY l0 "https://w3id.org/italia/onto/l0/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY admsapit "https://w3id.org/italia/onto/ADMS/" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <rdf:RDF xmlns="https://w3id.org/italia/onto/AccessCondition/"
      xml:base="https://w3id.org/italia/onto/AccessCondition/"
      xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
-     xmlns:dct="http://purl.org/dc/terms/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/AccessCondition">
-        <rdfs:label xml:lang="en">Access Conditions Ontology</rdfs:label>
-        <rdfs:label xml:lang="it">Ontologia delle Condizioni di accesso</rdfs:label>
-        <dct:modified rdf:datatype="&xsd;date">2018-06-18</dct:modified>
-        <dct:issued rdf:datatype="&xsd;date">2018-06-18</dct:issued>
-        <admsapit:officialURI rdf:datatype="&xsd;anyURI">https://w3id.org/italia/onto/AccessCondition</admsapit:officialURI>
-        <admsapit:status>initial draft</admsapit:status>
-        <admsapit:acronym>AC-AP_IT</admsapit:acronym>
-        <dcat:keyword xml:lang="en">Access Condition</dcat:keyword>
-        <dct:title xml:lang="en">Access Condition Ontology - Italian Application Profile</dct:title>
-        <admsapit:target>Imprese</admsapit:target>
+        <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/AccessCondition/0.1"/>
+        <owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>
+        <owl:imports rdf:resource="https://w3id.org/italia/onto/TI"/>
         <dct:title xml:lang="it">Ontologia delle Condizioni di Accesso - Profilo applicativo italiano</dct:title>
-        <admsapit:target>Pubbliche Amministrazioni</admsapit:target>
-        <dct:description xml:lang="en">This is the ontology of the Italian application profile for Access Conditions (Access Conditions - Italian Application Profile - AC-AP_IT). It can be used to model the access conditions to public locations.</dct:description>
-        <rdfs:comment xml:lang="en">This is the ontology of the Italian application profile for access conditions including opening hours specifications. It can be used to model all the access conditions to public locations.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">Version 0.1 - 18 June 2018 - Creation of the first version of the ontology</owl:versionInfo>
-        <dcat:keyword xml:lang="it">Condizioni d&apos;accesso</dcat:keyword>
-        <dcat:keyword xml:lang="it">Orari di apertura</dcat:keyword>
-        <dct:description xml:lang="it">Questa è l&apos;ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici.</dct:description>
-        <rdfs:comment xml:lang="it">Questa è l&apos;ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici.</rdfs:comment>
+        <admsapit:status>initial draft</admsapit:status>
+        <dct:title xml:lang="en">Access Condition Ontology - Italian Application Profile</dct:title>
+        <admsapit:acronym>AC-AP_IT</admsapit:acronym>
         <owl:versionInfo xml:lang="it">Versione 0.1 - 18 Giugno 2018 - Creazione della prima versione dell&apos;ontologia</owl:versionInfo>
-        <admsapit:prefix>acapit</admsapit:prefix>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
         <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
         <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE"/>
-        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML"/>
-        <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/onto-agid"/>
-        <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/organization/public-organization/td"/>
-        <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
-        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/DAF"/>
-        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/OntoPiA"/>
-        <owl:imports rdf:resource="https://w3id.org/italia/onto/TI"/>
-        <owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>
-        <admsapit:hasTask rdf:resource="&admsapit;AnnotationTask"/>
-        <admsapit:hasFormalityLevel rdf:resource="&admsapit;Formal"/>
-        <admsapit:hasOntologyLanguage rdf:resource="&admsapit;OWL"/>
-        <admsapit:hasTask rdf:resource="&admsapit;QueryFormulationTask"/>
-        <admsapit:hasTask rdf:resource="&admsapit;SearchTask"/>
-        <admsapit:type rdf:resource="&admsapit;ServiceOntology"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition/"/>
-        <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-18</dct:issued>
+        <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
+        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
+        <rdfs:label xml:lang="en">Access Conditions Ontology</rdfs:label>
+        <admsapit:target>Imprese</admsapit:target>
+        <rdfs:label xml:lang="it">Ontologia delle Condizioni di accesso</rdfs:label>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification"/>
+        <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/onto-agid"/>
+        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/DAF"/>
+        <rdfs:comment xml:lang="it">Questa è l&apos;ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici.</rdfs:comment>
+        <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:keyword xml:lang="en">Access Condition</dcat:keyword>
+        <admsapit:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/OntoPiA"/>
+        <owl:versionInfo xml:lang="en">Version 0.1 - 18 June 2018 - Creation of the first version of the ontology</owl:versionInfo>
+        <admsapit:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition/"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML"/>
+        <admsapit:target>Pubbliche Amministrazioni</admsapit:target>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-18</dct:modified>
+        <admsapit:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
+        <dct:description xml:lang="en">This is the ontology of the Italian application profile for Access Conditions (Access Conditions - Italian Application Profile - AC-AP_IT). It can be used to model the access conditions to public locations.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
+        <admsapit:hasContributor rdf:resource="https://w3id.org/italia/data/organization/public-organization/td"/>
         <admsapit:hasKeyClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure"/>
-        <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/AccessCondition/0.1"/>
+        <admsapit:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <rdfs:comment xml:lang="en">This is the ontology of the Italian application profile for access conditions including opening hours specifications. It can be used to model all the access conditions to public locations.</rdfs:comment>
+        <dct:description xml:lang="it">Questa è l&apos;ontologia del profilo di italiano sulle condizioni di accesso, inclusi gli orari di apertura (Access Condition Ontology - Italian Application Profile  - AccessCondition-AP_IT). Essa può essere utilizzata per modellare tutte le condizioni di accesso a luoghi pubblici.</dct:description>
         <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+        <admsapit:prefix>acapit</admsapit:prefix>
+        <admsapit:type rdf:resource="https://w3id.org/italia/onto/ADMS/ServiceOntology"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <admsapit:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
+        <dcat:keyword xml:lang="it">Condizioni d&apos;accesso</dcat:keyword>
+        <dcat:keyword xml:lang="it">Orari di apertura</dcat:keyword>
+        <admsapit:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/AccessCondition</admsapit:officialURI>
     </owl:Ontology>
 
 
@@ -97,79 +81,79 @@
 
     <!-- http://purl.org/dc/terms/description -->
 
-    <owl:AnnotationProperty rdf:about="&dct;description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
 
 
 
     <!-- http://purl.org/dc/terms/format -->
 
-    <owl:AnnotationProperty rdf:about="&dct;format"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/format"/>
 
 
 
     <!-- http://purl.org/dc/terms/identifier -->
 
-    <owl:AnnotationProperty rdf:about="&dct;identifier"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
 
 
 
     <!-- http://purl.org/dc/terms/license -->
 
-    <owl:AnnotationProperty rdf:about="&dct;license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
 
 
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:AnnotationProperty rdf:about="&dct;title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
 
 
 
     <!-- http://www.w3.org/2006/vcard/ns#fn -->
 
-    <owl:AnnotationProperty rdf:about="&vcard;fn"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
 
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
 
-    <owl:AnnotationProperty rdf:about="&vcard;hasEmail"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
 
 
 
     <!-- http://www.w3.org/ns/dcat#accessURL -->
 
-    <owl:AnnotationProperty rdf:about="&dcat;accessURL"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
 
 
 
     <!-- http://www.w3.org/ns/dcat#downloadURL -->
 
-    <owl:AnnotationProperty rdf:about="&dcat;downloadURL"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
 
 
 
     <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
 
-    <owl:AnnotationProperty rdf:about="&prov;wasDerivedFrom"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
 
 
 
     <!-- http://www.w3.org/ns/prov#wasInfluencedBy -->
 
-    <owl:AnnotationProperty rdf:about="&prov;wasInfluencedBy"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy"/>
 
 
 
     <!-- http://xmlns.com/foaf/0.1/name -->
 
-    <owl:AnnotationProperty rdf:about="&foaf;name"/>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
 
 
 
     <!-- https://w3id.org/italia/onto/l0/controlledVocabulary -->
 
-    <owl:AnnotationProperty rdf:about="&l0;controlledVocabulary"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/l0/controlledVocabulary"/>
 
 
 
@@ -186,7 +170,7 @@
 
     <!-- http://www.w3.org/2001/XMLSchema#time -->
 
-    <rdfs:Datatype rdf:about="&xsd;time"/>
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
 
 
 
@@ -204,15 +188,16 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/hasAccessCondition -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/hasAccessCondition">
-        <rdfs:label xml:lang="en">has access condition</rdfs:label>
-        <rdfs:label xml:lang="it">ha condizione d&apos;accesso</rdfs:label>
-        <rdfs:comment xml:lang="en">Property that links a thing of the modelled domain to access conditions that may apply.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà che collega qualcosa del dominio modellato alle condizioni di accesso che si potrebbero applicare a quella cosa. Per esempio, si potrebbe utilizzare la proprietà per collegare un punto di interesse, un luogo della cultura, un evento pubblico, un ufficio della pubblica amministrazione, un servizio pubblico a condizioni per accedervi</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:domain rdf:resource="&owl;Thing"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
+        <rdfs:comment xml:lang="en">Property that links a thing of the modelled domain to access conditions that may apply.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà che collega qualcosa del dominio modellato alle condizioni di accesso che si potrebbero applicare a quella cosa. Per esempio, si potrebbe utilizzare la proprietà per collegare un punto di interesse, un luogo della cultura, un evento pubblico, un ufficio della pubblica amministrazione, un servizio pubblico a condizioni per accedervi</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="it">ha condizione d&apos;accesso</rdfs:label>
+        <rdfs:label xml:lang="en">has access condition</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:ObjectProperty>
 
 
@@ -220,16 +205,16 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/hasAdmissionType -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType">
-        <rdfs:label xml:lang="en">has admission type</rdfs:label>
-        <rdfs:label xml:lang="it">ha tipo di apertura</rdfs:label>
-        <rdfs:comment xml:lang="en">Property that links the opening hours specificatin to the admission type (weekly, daily, etc.)</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà che lega gli orari di apertura al tipo di apertura (settimanale, giornaliera, ecc.)</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
-        <rdfs:range rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
-        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification"/>
         <owl:inverseOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification"/>
+        <rdfs:range rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
+        <rdfs:comment xml:lang="en">Property that links the opening hours specificatin to the admission type (weekly, daily, etc.)</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà che lega gli orari di apertura al tipo di apertura (settimanale, giornaliera, ecc.)</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="it">ha tipo di apertura</rdfs:label>
+        <rdfs:label xml:lang="en">has admission type</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:ObjectProperty>
 
 
@@ -237,16 +222,15 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/isAccessConditionOf">
+        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Inverse property of &quot;has access condition&quot;</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà inversa di &quot;ha condizione d&apos;accesso&quot;</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
         <rdfs:label xml:lang="en">is access condition of</rdfs:label>
         <rdfs:label xml:lang="it">è condizione di accesso di</rdfs:label>
-        <rdfs:comment xml:lang="en">Inverse property of &quot;has access condition&quot;</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà inversa di &quot;ha condizione d&apos;accesso&quot;</rdfs:comment>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:range rdf:resource="&owl;Thing"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
-        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
-        <owl:inverseOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/hasAccessCondition"/>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:ObjectProperty>
 
 
@@ -254,15 +238,15 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/isAdmissionTypeOf">
+        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Inverse property of &quot;has admission type&quot;</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà inversa di &quot;ha tipo di apertura&quot;</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
         <rdfs:label xml:lang="en">is admission type of</rdfs:label>
         <rdfs:label xml:lang="it">è tipo di apertura di</rdfs:label>
-        <rdfs:comment xml:lang="en">Inverse property of &quot;has admission type&quot;</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà inversa di &quot;ha tipo di apertura&quot;</rdfs:comment>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:range rdf:resource="&owl;Thing"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
-        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:ObjectProperty>
 
 
@@ -293,14 +277,6 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/closes -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/closes">
-        <rdfs:label xml:lang="en">closes</rdfs:label>
-        <rdfs:label xml:lang="it">orario di chiusura</rdfs:label>
-        <rdfs:comment xml:lang="en">Property that represents the closing hour or the hour on which the temporary closure terminates. Example: if the temporary closure is on Tuesday from 10:00am to 13:00am, closes is used to model &quot;13:00am&quot;.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà che rappresenta l&apos;orario di chiusura o l&apos;ora in cui una chiusura temporanea cessa di valere. Esempio: se la chiusura temporanea è Martedì dalle 10:00 alle 13:00 la proprietà modella &quot;13:00&quot;</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:range rdf:resource="&xsd;time"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -309,6 +285,14 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment xml:lang="en">Property that represents the closing hour or the hour on which the temporary closure terminates. Example: if the temporary closure is on Tuesday from 10:00am to 13:00am, closes is used to model &quot;13:00am&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà che rappresenta l&apos;orario di chiusura o l&apos;ora in cui una chiusura temporanea cessa di valere. Esempio: se la chiusura temporanea è Martedì dalle 10:00 alle 13:00 la proprietà modella &quot;13:00&quot;</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="en">closes</rdfs:label>
+        <rdfs:label xml:lang="it">orario di chiusura</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:DatatypeProperty>
 
 
@@ -316,14 +300,6 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/opens -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/opens">
-        <rdfs:label xml:lang="en">opens</rdfs:label>
-        <rdfs:label xml:lang="it">orario apertura</rdfs:label>
-        <rdfs:comment xml:lang="en">Property used to indicate the opening hour or the hour in which starts a possible temporary closure. If a public event can be accessed every Monday from 9:00am to 12:00am, the property is used to model &quot;9:00am&quot;.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Proprietà utilizzata per indicare l&apos;orario di apertura o l&apos;orario in cui inizia una chiusura temporanea. Se l&apos;evento pubblico ha come condizioni di accesso ogni lunedì dalle 9:00 alle 12:00, la proprietà è utilizzata per modellare &quot;9:00&quot;.</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:range rdf:resource="&xsd;time"/>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -332,6 +308,14 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment xml:lang="en">Property used to indicate the opening hour or the hour in which starts a possible temporary closure. If a public event can be accessed every Monday from 9:00am to 12:00am, the property is used to model &quot;9:00am&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà utilizzata per indicare l&apos;orario di apertura o l&apos;orario in cui inizia una chiusura temporanea. Se l&apos;evento pubblico ha come condizioni di accesso ogni lunedì dalle 9:00 alle 12:00, la proprietà è utilizzata per modellare &quot;9:00&quot;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="en">opens</rdfs:label>
+        <rdfs:label xml:lang="it">orario apertura</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:DatatypeProperty>
 
 
@@ -339,30 +323,30 @@
     <!-- https://w3id.org/italia/onto/AccessCondition/reasonClosure -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/AccessCondition/reasonClosure">
-        <rdfs:label xml:lang="en">reason for closure</rdfs:label>
-        <rdfs:label xml:lang="it">motivazione di chiusura</rdfs:label>
+        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment xml:lang="en">Property that allows one to specify the reason for the closure of a location or event for instance.
 Examples include: closed for location renovation; closed for summer holidays, etc.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:comment xml:lang="it">Proprietà che consente di specificare la motivazione di chiusura per esempio di un luogo o evento.
 Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusura per restauro, ecc.</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:range rdf:resource="&rdfs;Literal"/>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
-        <rdfs:domain rdf:resource="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure"/>
+        <rdfs:label xml:lang="it">motivazione di chiusura</rdfs:label>
+        <rdfs:label xml:lang="en">reason for closure</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:DatatypeProperty>
 
 
 
     <!-- https://w3id.org/italia/onto/l0/description -->
 
-    <owl:DatatypeProperty rdf:about="&l0;description"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/l0/description"/>
 
 
 
     <!-- https://w3id.org/italia/onto/l0/name -->
 
-    <owl:DatatypeProperty rdf:about="&l0;name"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/l0/name"/>
 
 
 
@@ -391,57 +375,57 @@ Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusu
 
     <!-- http://www.w3.org/2006/vcard/ns#Kind -->
 
-    <owl:Class rdf:about="&vcard;Kind"/>
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
 
 
 
     <!-- http://www.w3.org/2006/vcard/ns#Organization -->
 
-    <owl:Class rdf:about="&vcard;Organization"/>
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
 
 
 
     <!-- http://xmlns.com/foaf/0.1/Agent -->
 
-    <owl:Class rdf:about="&foaf;Agent"/>
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
 
 
 
     <!-- https://w3id.org/italia/onto/ADMS/Project -->
 
-    <owl:Class rdf:about="&admsapit;Project"/>
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/Project"/>
 
 
 
     <!-- https://w3id.org/italia/onto/ADMS/SemanticAsset -->
 
-    <owl:Class rdf:about="&admsapit;SemanticAsset"/>
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
 
 
 
     <!-- https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution -->
 
-    <owl:Class rdf:about="&admsapit;SemanticAssetDistribution"/>
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
 
 
 
     <!-- https://w3id.org/italia/onto/AccessCondition/AccessCondition -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/AccessCondition/AccessCondition">
-        <rdfs:label xml:lang="en">Access Condition</rdfs:label>
-        <rdfs:label xml:lang="it">Accesso</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&l0;Characteristic"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Characteristic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&l0;description"/>
-                <owl:allValuesFrom rdf:resource="&rdfs;Literal"/>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/description"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">This class represents the access conditions. Typically, access conditions are specified to communicate how to access public places. This includes information on bookings, opening hours and extraordinary/temporary closures.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:comment xml:lang="it">Questa classe rappresenta le condizioni di accesso. Tipicamente le condizioni di accesso sono specificate per comunicare come accedere a luoghi pubblici. Esse includono informazioni su prenotazioni, su orari di apertura e chiusure straordinarie.</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <rdfs:comment xml:lang="en">This class represents the access conditions. Typically, access conditions are specified to communicate how to access public places. This includes information on bookings, opening hours and extraordinary/temporary closures.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="en">Access Condition</rdfs:label>
+        <rdfs:label xml:lang="it">Accesso</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:Class>
 
 
@@ -449,26 +433,26 @@ Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusu
     <!-- https://w3id.org/italia/onto/AccessCondition/AdmissionType -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/AccessCondition/AdmissionType">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Characteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/description"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="it">Individui di questa classe identificano i possibili tipi di politiche di accesso che possono essere applicate agli orari di apertura di un luogo.</rdfs:comment>
+        <rdfs:comment xml:lang="en">It represents the type of admission. Examples are: weekly, monthly, daily, etc.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
         <rdfs:label xml:lang="en">Admission Type</rdfs:label>
         <rdfs:label xml:lang="it">Tipi di apertura</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&l0;Characteristic"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&l0;name"/>
-                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&l0;description"/>
-                <owl:allValuesFrom rdf:resource="&rdfs;Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">It represents the type of admission. Examples are: weekly, monthly, daily, etc.</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="it">Individui di questa classe identificano i possibili tipi di politiche di accesso che possono essere applicate agli orari di apertura di un luogo.</rdfs:comment>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:Class>
 
 
@@ -476,20 +460,20 @@ Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusu
     <!-- https://w3id.org/italia/onto/AccessCondition/Booking -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/AccessCondition/Booking">
-        <rdfs:label xml:lang="en">Booking</rdfs:label>
-        <rdfs:label xml:lang="it">Prenotazione</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&l0;name"/>
-                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/l0/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">It represents the  type of booking for a location/event for instance. Examples can be: Mandatory, Optional, None (free access).</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:comment xml:lang="it">Rappresenta la tipologia di prenotazione per l&apos;accesso a un luogo/evento. Esempi possono essere: Obbligatoria, Facoltativa, Nessuna (ingresso libero).</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="en">Booking</rdfs:label>
+        <rdfs:label xml:lang="it">Prenotazione</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:Class>
 
 
@@ -497,26 +481,11 @@ Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusu
     <!-- https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/AccessCondition/OpeningHoursSpecification">
-        <rdfs:label xml:lang="en">Opening Hours Specification</rdfs:label>
-        <rdfs:label xml:lang="it">Orario di Apertura</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/italia/onto/TI/atTime"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/italia/onto/TI/TimeInterval"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType"/>
-                <owl:onClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
-                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/opens"/>
-                <owl:allValuesFrom rdf:resource="&xsd;time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -527,8 +496,21 @@ Esempi includono: chiusura per rinnovo locali, chiusura per ferie estive, chiusu
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/hasAdmissionType"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/italia/onto/AccessCondition/AdmissionType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/closes"/>
-                <owl:allValuesFrom rdf:resource="&xsd;time"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/opens"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Individuals of this class specify opening hours specifications for locations/events for instance.
@@ -538,7 +520,6 @@ The opening hours specifications are expressed in terms of
 * closure time
 * the day of the week to which the opening hours specification refer
 * the type of admission (daily, weekly, etc.)</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:comment xml:lang="it">Individui di questa classe specificano gli orari di apertura (specifiche condizioni di accesso) a luoghi o eventi
 
 Gli orari di apertura sono espressi in termini di
@@ -548,8 +529,11 @@ Gli orari di apertura sono espressi in termini di
  * il tipo di apertura (settimanale, mensile, giornaliera, ecc)
 
 Con questa classe è possibile modellare dati di questo tipo &quot;Orari di apertura (03/05 - 30/05/2018) lu - sa: 11:00 - 13:00 / 15:00 - 19:00&quot;.</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="en">Opening Hours Specification</rdfs:label>
+        <rdfs:label xml:lang="it">Orario di Apertura</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:Class>
 
 
@@ -557,15 +541,7 @@ Con questa classe è possibile modellare dati di questo tipo &quot;Orari di aper
     <!-- https://w3id.org/italia/onto/AccessCondition/TemporaryClosure -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/AccessCondition/TemporaryClosure">
-        <rdfs:label xml:lang="en">Temporary Closure</rdfs:label>
-        <rdfs:label xml:lang="it">Chiusura Temporanea</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/AccessCondition/AccessCondition"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/closes"/>
-                <owl:allValuesFrom rdf:resource="&xsd;time"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/italia/onto/TI/atTime"/>
@@ -581,13 +557,19 @@ Con questa classe è possibile modellare dati di questo tipo &quot;Orari di aper
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/reasonClosure"/>
-                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/closes"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/italia/onto/AccessCondition/opens"/>
-                <owl:allValuesFrom rdf:resource="&xsd;time"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A temporary closure is a subclass of &apos;AccessCondition&apos; whose individuals provide information about a temporary closure.
@@ -598,7 +580,6 @@ These individuals are described in terms of:
  * the dayOfWeek of the closure
 
 In this way we are able to model something like &quot;the location will be closed Tuesday 19 June 2018 from 10:00 to 13:00 for internal meetings</rdfs:comment>
-        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:comment xml:lang="it">La chiusura temporanea è una sottoclasse di Condizioni di accesso i cui individui forniscono informazioni sulla chiusura temporanea, tipicamente di un luogo.
 
 Gli individui sono descritti in termini di:
@@ -610,8 +591,11 @@ Gli individui sono descritti in termini di:
 
 Questa classe ci consente di modellare dati di questo tipo:
 Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne oppure modellare situazioni quali &quot;Domenica chiuso&quot;, &quot;La Galleria Civica rimarrà chiusa al pubblico lunedì 21/05/2018 (Lunedì di Pentecoste)&quot;</rdfs:comment>
-        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
+        <rdfs:label xml:lang="it">Chiusura Temporanea</rdfs:label>
+        <rdfs:label xml:lang="en">Temporary Closure</rdfs:label>
+        <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
     </owl:Class>
 
 
@@ -630,13 +614,13 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
 
     <!-- https://w3id.org/italia/onto/l0/Agent -->
 
-    <owl:Class rdf:about="&l0;Agent"/>
+    <owl:Class rdf:about="https://w3id.org/italia/onto/l0/Agent"/>
 
 
 
     <!-- https://w3id.org/italia/onto/l0/Characteristic -->
 
-    <owl:Class rdf:about="&l0;Characteristic"/>
+    <owl:Class rdf:about="https://w3id.org/italia/onto/l0/Characteristic"/>
 
 
 
@@ -655,58 +639,10 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
 
     <owl:NamedIndividual rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-        <rdf:type rdf:resource="&foaf;Agent"/>
-        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>agid</dct:identifier>
         <foaf:name xml:lang="it">Agenzia per l&apos;Italia Digitale</foaf:name>
-    </owl:NamedIndividual>
-
-
-
-    <!-- https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD">
-        <rdf:type rdf:resource="&admsapit;SemanticAssetDistribution"/>
-        <dct:title xml:lang="en">JSON-LD distribution of AC-AP_IT Ontology</dct:title>
-        <dct:description xml:lang="en">This is the distribution in JSON-LD of Access Condition ontology</dct:description>
-        <dct:title xml:lang="it">Distribuzione JSON-LD ontologia AC-AP_IT</dct:title>
-        <dct:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.jsonld"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    </owl:NamedIndividual>
-
-
-
-    <!-- https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE">
-        <rdf:type rdf:resource="&admsapit;SemanticAssetDistribution"/>
-        <dct:title xml:lang="en">RDF/Turtle distribution of AC-AP_IT Ontology</dct:title>
-        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the access condition ontology</dct:description>
-        <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia AC-AP_IT</dct:title>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.ttl"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    </owl:NamedIndividual>
-
-
-
-    <!-- https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML">
-        <rdf:type rdf:resource="&admsapit;SemanticAssetDistribution"/>
-        <dct:title xml:lang="en">RDF/XML distribution of AC-AP_IT Ontology</dct:title>
-        <dct:description xml:lang="en">This is the distribution in RDF/XML of the access condition ontology</dct:description>
-        <dct:title xml:lang="it">Distribuzione RDF/XML ontologia AC-AP_IT</dct:title>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/AccessCondition/latest/AC-AP_IT.rdf"/>
-        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
     </owl:NamedIndividual>
 
 
@@ -714,11 +650,58 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
     <!-- https://w3id.org/italia/data/contact-point/onto-agid -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/contact-point/onto-agid">
-        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-        <rdf:type rdf:resource="&vcard;Kind"/>
-        <rdf:type rdf:resource="&vcard;Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
         <vcard:fn>banche dati e open data</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON-LD dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON-LD of Access Condition ontology</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Distribuzione JSON-LD ontologia AC-AP_IT</dct:title>
+        <dct:title xml:lang="en">JSON-LD distribution of AC-AP_IT Ontology</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest/AccessCondition-AP_IT.jsonld"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-RDF-TURTLE">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the access condition ontology</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle ontologia AC-AP_IT</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of AC-AP_IT Ontology</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest/AccessCondition-AP_IT.ttl"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/ACAPIT-RDF-XML">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia delle condizioni d&apos;accesso</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the access condition ontology</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Distribuzione RDF/XML ontologia AC-AP_IT</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of AC-AP_IT Ontology</dct:title>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/AccessCondition/latest/AccessCondition-AP_IT.rdf"/>
     </owl:NamedIndividual>
 
 
@@ -727,9 +710,9 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/organization/public-organization/td">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-        <rdf:type rdf:resource="&foaf;Agent"/>
-        <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier>TD</dct:identifier>
+        <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
         <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
     </owl:NamedIndividual>
 
@@ -738,10 +721,9 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
     <!-- https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab">
-        <rdf:type rdf:resource="&l0;Agent"/>
-        <dct:identifier>cnr - Z6HZEH - STLab</dct:identifier>
         <l0:name xml:lang="en">Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)</l0:name>
         <l0:name xml:lang="it">Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)</l0:name>
+        <dct:identifier>cnr - Z6HZEH - STLab</dct:identifier>
     </owl:NamedIndividual>
 
 
@@ -749,7 +731,7 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
     <!-- https://w3id.org/italia/data/project/DAF -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/project/DAF">
-        <rdf:type rdf:resource="&admsapit;Project"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/Project"/>
         <l0:name xml:lang="it">Data &amp; Analytics Framework</l0:name>
     </owl:NamedIndividual>
 
@@ -758,7 +740,7 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
     <!-- https://w3id.org/italia/data/project/OntoPiA -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/project/OntoPiA">
-        <rdf:type rdf:resource="&admsapit;Project"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/Project"/>
         <l0:name xml:lang="it">OntoPiA - la rete di ontologie della pubblica amministrazione italiana</l0:name>
     </owl:NamedIndividual>
 
@@ -767,10 +749,10 @@ Il luogo rimarrà chiuso Martedì 19 dalle 12:00 alle 13:00 per riunioni interne
     <!-- https://w3id.org/italia/onto/AccessCondition -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/onto/AccessCondition">
-        <rdf:type rdf:resource="&admsapit;SemanticAsset"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAsset"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->

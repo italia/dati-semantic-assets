@@ -11,10 +11,9 @@
 @prefix clonp: <http://www.ontologydesignpatterns.org/ont/clo/NormativePositions.owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
 
 
 @base <https://w3id.org/italia/onto/Transparency-aligns> .

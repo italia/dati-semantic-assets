@@ -1,4 +1,4 @@
-codice _1_livello,label_ITA_1_livello,label_ENG_1_livello,label_DEU_1_livello
+codice_1_livello,label_ITA_1_livello,label_ENG_1_livello,label_DEU_1_livello
 REQ,Istanza/richiesta,Request/application,Gesuch / Anfrage
 OTHDOC,Altra documentazione ,Other documents,Sonstige Dokumentation
 PAYMENTDEC,Attestazione di pagamento,Payment declaration,Zahlungsbestätigung

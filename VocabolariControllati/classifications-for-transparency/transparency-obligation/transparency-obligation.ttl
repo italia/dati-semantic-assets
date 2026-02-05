@@ -17,137 +17,140 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix trapit: <https://w3id.org/italia/onto/Transparency/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix ndc:    <https://w3id.org/italia/onto/NDC/> .
 
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation> a skos:ConceptScheme, adms:Asset, dcatapit:Dataset ; 
-	
-	dct:title "Controlled Vocabulary for trasparency obligations PA"@en , 
-		"Vocabolario Controllato Obblighi della Trasparenza PA"@it ; 
-	rdfs:label "Controlled Vocabulary for trasparency obligations PA"@en , 
-		"Vocabolario Controllato Obblighi della Trasparenza PA"@it ; 
-	
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation> a skos:ConceptScheme, adms:Asset, dcatapit:Dataset ;
+
+	dct:title "Controlled Vocabulary for trasparency obligations PA"@en ,
+		"Vocabolario Controllato Obblighi della Trasparenza PA"@it ;
+	rdfs:label "Controlled Vocabulary for trasparency obligations PA"@en ,
+		"Vocabolario Controllato Obblighi della Trasparenza PA"@it ;
+
 	dct:description "Vocabolario controllato sulla classificazione degli obblighi della trasparenza per le pubbliche amministrazioni. Il contenuto implementa la struttura della sezione \"Amministrazione Trasparente\" del sito istituzionale delle pubbliche amministrazioni, così come previsto dal Dlgs. n.33/2013 aggiornato dal Dlgs. n.97/2016 e descritto nel dettaglio dalla delibera ANAC 1310/2016. Questo vocabolario è utilizzato dall'ontologia della trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.ttl (e le diverse serializzazioni)."@it ,
 		"Controlled vocabulary on the classification of obligations for pubblic administration trasparency. The content implements the structure of the \"Transparent Administration\" section of the official public administrations' website as expected according to Dlgs. n.33/2013, Dlgs. n.97/2016 and ANAC guideline. This vocabulary is used by the ontology for public administration transparency. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.ttl (and its serializations)."@en ;
-	rdfs:comment "Classification of transparency obligations for public administrations"@en , 
-		"Classificazione degli obblighi di trasparenza per le pubbliche amministrazioni"@it ; 
-	
-	skos:prefLabel "Controlled Vocabulary for trasparency obligations PA"@en , 
-		"Vocabolario Controllato degli Obblighi di Trasparenza PA"@it ; 
-	
-	xkos:numberOfLevels "3" ; 
-	dct:identifier "ANAC:transparency-obligation" ;
-	dct:type <http://purl.org/adms/assettype/Taxonomy> ; 
-	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ; 
-	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TECH> ; 
-	dct:subject  <http://eurovoc.europa.eu/5936>, <http://eurovoc.europa.eu/5937> ; 
-	dct:conformsTo  <http://w3id.org/italia/data/resource/Standard/SKOS> ; 
-	dct:language <http://publications.europa.eu/resource/authority/language/ITA> , 
-		<http://publications.europa.eu/resource/authority/language/ENG> , 
-		<http://publications.europa.eu/resource/authority/language/DEU> ; 
+	rdfs:comment "Classification of transparency obligations for public administrations"@en ,
+		"Classificazione degli obblighi di trasparenza per le pubbliche amministrazioni"@it ;
 
-	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ; 
-	dcat:keyword 
+	skos:prefLabel "Controlled Vocabulary for trasparency obligations PA"@en ,
+		"Vocabolario Controllato degli Obblighi di Trasparenza PA"@it ;
+
+	xkos:numberOfLevels "3" ;
+	dct:identifier "ANAC:transparency-obligation" ;
+	dct:type <http://purl.org/adms/assettype/Taxonomy> ;
+	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+	dct:subject  <http://eurovoc.europa.eu/5936>, <http://eurovoc.europa.eu/5937> ;
+	dct:conformsTo  <https://w3id.org/italia/data/standard/SKOS> ;
+	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ,
+		<http://publications.europa.eu/resource/authority/language/ENG> ,
+		<http://publications.europa.eu/resource/authority/language/DEU> ;
+
+	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+	dcat:keyword
 		"trasparenza"@it, "trasparenza pubblica amministrazione"@it, "trasparenza PA"@it, "trasparenza pa"@it, "obblighi trasparenza"@it,
 		"transparency"@en, "transparency for public administration"@en, "transparency obligation"@en ;
-	
+
 
         skos:hasTopConcept  :160101 , :020501 , :040202 , :190101 , :150201 , :150901 , :210201 , :010202 , :210105 , :150701 , :040101 , :150101 , :040901 , :140101 , :100102 , :010203 , :040701 , :160301 , :080101 , :050101 , :060301 , :030201 , :110101 , :100206 , :090101 , :080201 , :110201 , :120201 , :150301 , :020302 , :020102 , :090201 , :020106 , :130101 , :010201 , :041101 , :150401 , :100101 , :210104 , :070401 , :120101 , :120102 , :140201 , :100201 , :130201 , :100204 , :100205 , :070201 , :210303 , :210203 , :210103 , :160201 , :040301 , :060201 , :140301 , :060101 , :010301 , :150802 , :180101 , :010101 , :200101 , :020107 , :020301 , :020201 , :040801 , :170101 , :020101 , :150801 , :060401 , :150601 , :041001 , :040203 , :150501 , :210202 , :210302 , :010205 , :210102 , :020401 , :210106 , :040102 , :040501 , :100202 , :100203 , :030101 , :041201 , :210301 , :010204 , :040601 , :070301 , :070101 , :060501 ;
 
 
-
-	dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ; 
-	dct:rightsHolder <http://w3id.org/italia/data/public-organization/cvtiap> ; 
-	dct:publisher <http://w3id.org/italia/data/public-organization/agid> ; 
-        dct:creator <http://w3id.org/italia/data/public-organization/agid>,
-                    <https://w3id.org/italia/data/organization/private-organization/05481840964>;
+        ndc:keyConcept "transparency-obligation" ;
+	dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
+	dct:rightsHolder <https://w3id.org/italia/data/public-organization/cvtiap> ;
+	dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+        dct:creator <https://w3id.org/italia/data/public-organization/agid>,
+                    <https://w3id.org/italia/data/private-organization/05481840964>;
 
     dcat:distribution
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_RDF_Turtle>,
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_RDF_XML>,
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_JSON_LD>,
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_CSV> ,
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_XLSX> ;
-	
-	dct:issued "2019-07-25"^^xsd:date ; 
-	dct:modified "2020-05-12"^^xsd:date ; 
-	owl:versionInfo "versione 1.0"@it, "version 1.0"@en ;
-	
-	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ; 
-	
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_RDF_Turtle>,
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_RDF_XML>,
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_JSON_LD>,
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_CSV> ,
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_XLSX> ;
+
+	dct:issued "2019-07-25"^^xsd:date ;
+	dct:modified "2024-09-20"^^xsd:date ;
+	owl:versionInfo "versione 1.0 - aggiornati alcuni metadati"@it, "version 1.0 - updateed some metadata"@en ;
+
+	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ;
+
 	.
 
-   <http://w3id.org/italia/data/distribution/TransparencyObligation_RDF_Turtle> a dcatapit:Distribution  ;
+   <https://w3id.org/italia/data/distribution/TransparencyObligation_RDF_Turtle> a dcatapit:Distribution  ;
     	dct:title "Distribuzione RDF/Turtle degli obblighi della trasparenza per le pubbliche amministrazioni"@it , "RDF/Turtle Classification of transparency obligations for public administrations"@en ;
     	dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.ttl."@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.ttl"@en ;
     	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.ttl> ;
-    	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+    	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.ttl> ;
+    	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
     	.
 
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_RDF_XML> a dcatapit:Distribution  ;
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_RDF_XML> a dcatapit:Distribution  ;
     	dct:title "Distribuzione RDF/XML degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "RDF/XML Classification of transparency obligations for public administrations"@en ;
     	dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data degli obblighi di trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.rdf."@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.rdf"@en ;
     	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.rdf> ;
-    	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+    	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.rdf> ;
+    	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
     	.
 
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_JSON_LD> a dcatapit:Distribution  ;
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_JSON_LD> a dcatapit:Distribution  ;
     	dct:title "Distribuzione JSON_LD degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "JSON_LD Classification of transparency obligations for public administrations"@en ;
     	dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data degli obblighi di trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.jsonld."@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.jsonld"@en ;
     	dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.jsonld> ;
-    	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+    	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.jsonld> ;
+    	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
     	.
 
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_CSV> a dcatapit:Distribution  ;
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_CSV> a dcatapit:Distribution  ;
     	dct:title "Distribuzione CSV degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "CSV Classification of transparency obligations for public administrations"@en ;
     	dct:description "Questa è la distribuzione CSV del dataset Linked Open Data degli obblighi di trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.csv."@it , "This is the distribution in CSV of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.csv."@en ;
     	dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.csv> ;
-    	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+    	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.csv> ;
+    	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
     	.
 
-    <http://w3id.org/italia/data/distribution/TransparencyObligation_XLSX> a dcatapit:Distribution  ;
+    <https://w3id.org/italia/data/distribution/TransparencyObligation_XLSX> a dcatapit:Distribution  ;
     	dct:title "Distribuzione XLSX degli obblighi di trasparenza per le pubbliche amministrazioni"@it , "XLSX Classification of transparency obligations for public administrations"@en ;
     	dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data degli obblighi di trasparenza per le pubbliche amministrazioni. Le corrispondenze tra obblighi di trasparenza e le diverse organizzazioni o tipologie di amministrazioni a cui si applicano sono state materializzate nel file transparency-obligation-organization.xslx."@it , "This is the distribution in XLSX of the Linked Open Dataset of the Transparency obligations classification for public administrations. The corrispondences among the tansparency obligations and the organizations or the adminitration categories are materialized in a dedicated file transparency-obligation-organization.xslx."@en ;
     	dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
     	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    	dcat:downloadURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.xlsx> ;
-    	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ;
+    	dcat:downloadURL <https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-transparency/transparency-obligation/transparency-obligation.xlsx> ;
+    	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
     	.
 
 
 
-<http://w3id.org/italia/data/public-organization/agid> a dcatapit:Agent, foaf:Agent ; 
-	dct:identifier "agid" ; 
-	foaf:name "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en ; 
-	. 
-<https://w3id.org/italia/data/contact-point/onto-agid> a dcatapit:Organization , vcard:Organization, vcard:Kind ; 
-	vcard:fn "banche dati e open data" ; 
-	vcard:hasEmail <mailto:info@dati.gov.it> ; 
-	. 
-	
-<http://w3id.org/italia/data/public-organization/cvtiap> a dcatapit:Agent, foaf:Agent ; 
-	dct:identifier "ANAC" ; 
-	foaf:name "ANAC - Autorità nazionale anticorruzione"@it ; 
-	.
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent , foaf:Agent ;
+dct:identifier "PCM-1RSIZZ" ;
+foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+"Digital Transformation Department of the Presidency of the Council of Ministers"@en .
 
-<https://w3id.org/italia/data/organization/private-organization/05481840964> rdf:type owl:NamedIndividual, dcatapit:Agent, foaf:Agent ;
+
+<https://w3id.org/italia/data/public-organization/agid> a dcatapit:Agent, foaf:Agent ;
+	dct:identifier "agid" ;
+	foaf:name "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en .
+
+<https://w3id.org/italia/data/contact-point/onto-agid> a dcatapit:Organization , vcard:Organization, vcard:Kind ;
+	vcard:fn "banche dati e open data" ;
+	vcard:hasEmail <mailto:info@dati.gov.it> .
+
+	<https://w3id.org/italia/data/public-organization/cvtiap>  a dcatapit:Agent, foaf:Agent ;
+		dct:identifier "cvtiap" ;
+		foaf:name "A.N.AC. - Autorità Nazionale Anticorruzione"@it .
+
+<https://w3id.org/italia/data/private-organization/05481840964> a dcatapit:Agent, foaf:Agent ;
 	dct:identifier "05481840964" ;
-	foaf:name "Almawave Srl"@it ;
-	.         
- 
-<http://w3id.org/italia/data/resource/Standard/SKOS> a dcatapit:Standard, dct:Standard ; 
-	dct:identifier "SKOS" ; 
-	dct:title "Simple Knowledge Organization System - SKOS" ; 
-	dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ; 
-	. 
+	foaf:name "Almawave Srl"@it .
 
-	
+<https://w3id.org/italia/data/standard/SKOS> a dcatapit:Standard, dct:Standard ;
+	dct:identifier "SKOS" ;
+	dct:title "Simple Knowledge Organization System - SKOS" ;
+	dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+
+
 :160201  a                             skos:Concept , trapit:TransparencyObligation ;
         dct:identifier                 "160201" ;
         skos:inScheme                  <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-obligation> ;

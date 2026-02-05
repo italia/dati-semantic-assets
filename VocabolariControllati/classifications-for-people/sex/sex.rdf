@@ -1,223 +1,258 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:cpvapit="https://w3id.org/italia/onto/CPV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
->
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_XML">
-    <dct:title xml:lang="en">RDF/XML distribution of the sex controlled vocabulary</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the sex controlled vocabulary </dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sul sesso</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"/>
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+    xmlns:cpvapit="https://w3id.org/italia/onto/CPV/"
+    xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" >
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/NDC/keyConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M">
-    <skos:prefLabel xml:lang="it">Maschio</skos:prefLabel>
-    <cpvapit:sexDesc xml:lang="it">Maschio</cpvapit:sexDesc>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPV/Sex"/>
-    <skos:notation>M</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>M</dct:identifier>
-    <skos:prefLabel xml:lang="en">Male</skos:prefLabel>
-    <cpvapit:sexDesc xml:lang="en">Male</cpvapit:sexDesc>
-    <cpvapit:sexID>M</cpvapit:sexID>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dct:title xml:lang="en">Sex Controlled Vocabulary</dct:title>
-    <rdfs:comment xml:lang="en">This is the sex controlled vocabulary.</rdfs:comment>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dcat:keyword xml:lang="en">Gender</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/SexVoc_JSON_LD"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:description xml:lang="en">This is the sex controlled vocabulary</dct:description>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
-    <rdfs:label xml:lang="it">Vocabolario Controllato Sesso</rdfs:label>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/SexVoc_CSV"/>
-    <dct:title xml:lang="it">Vocabolario Controllato sul Sesso</dct:title>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_Turtle"/>
-    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sul sesso.</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dcat:keyword xml:lang="it">Sesso</dcat:keyword>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-06</dct:modified>
-    <owl:versionInfo xml:lang="en">1.0 - The term gender was replaced with the term sex; German and French versions of the vocabulary were removed since not officially released by ISTAT</owl:versionInfo>
-    <dct:description xml:lang="it">Questo è il vocabolario controllato sul sesso.</dct:description>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_XML"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:identifier>ISTAT:D.1</dct:identifier>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F"/>
-    <owl:versionInfo xml:lang="it">1.0 - il termine gender è stato sostituito con il termine sex; le versioni in tedesco e in francese del vocabolario sono state rimossa perché non rilasciate ufficialmente da ISTAT</owl:versionInfo>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <dcat:keyword xml:lang="it">Genere</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/SexVoc_XLSX"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251539"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251540"/>
-    <rdfs:label xml:lang="en">Sex Controlled Vocabulary</rdfs:label>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-16</dct:issued>
-    <dcat:keyword xml:lang="en">Sex</dcat:keyword>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/SexVoc_JSON_LD">
-    <dct:title xml:lang="en">JSON_LD distribution of the sex controlled vocabulary</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sul sesso</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the sex controlled vocabulary</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/SexVoc_CSV">
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del vocabolario controllato sul sesso</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">CSV distribution of sex controlled vocabulary</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dct:description xml:lang="en">This is the distribution in CSV of dataset on the sex controlled vocabulary</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione CSV vocabolario controllato sul sesso</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.csv"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
-    <dct:identifier>ISTAT</dct:identifier>
-    <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/SexVoc_XLSX">
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"/>
-    <dct:title xml:lang="en">XLSX distribution of sex controlled vocabulary</dct:title>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"/>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the sex controlled vocabulary </dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione XLSX vocabolario controllato sul sesso</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del vocabolario controllato sul sesso</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/SexVoc_RDF_Turtle">
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the sex controlled vocabulary </dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sul sesso</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution of the sex controlled vocabulary</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/sex"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>PCM</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/sexID">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/sex-RDF-XML">
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.rdf"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the sex controlled vocabulary </dct:description>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
+    <dct:title xml:lang="en">RDF/XML distribution of the sex controlled vocabulary</dct:title>
+    <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sul sesso</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/sex-XLSX">
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/sex/sex.xlsx"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:description xml:lang="en">This is the distribution in XLSX of the sex controlled vocabulary </dct:description>
+    <dct:description xml:lang="it">Questa è la distribuzione XLSX del vocabolario controllato sul sesso</dct:description>
+    <dct:title xml:lang="en">XLSX distribution of sex controlled vocabulary</dct:title>
+    <dct:title xml:lang="it">Distribuzione XLSX vocabolario controllato sul sesso</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/Sex">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
+    <dct:description xml:lang="en">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+    <dct:identifier>SKOS</dct:identifier>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD">
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.jsonld"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the sex controlled vocabulary</dct:description>
+    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
+    <dct:title xml:lang="en">JSON_LD distribution of the sex controlled vocabulary</dct:title>
+    <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sul sesso</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M">
+    <cpvapit:sexDesc xml:lang="en">Male</cpvapit:sexDesc>
+    <skos:prefLabel xml:lang="en">Male</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/human-sex/MALE"/>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <dct:identifier>M</dct:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cpvapit:sexID>M</cpvapit:sexID>
+    <skos:notation>M</skos:notation>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPV/Sex"/>
+    <cpvapit:sexDesc xml:lang="it">Maschio</cpvapit:sexDesc>
+    <skos:prefLabel xml:lang="it">Maschio</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/PCM-1RSIZZ">
+    <foaf:name xml:lang="en">Digital Transformation Department of the Presidency of the Council of Ministers</foaf:name>
+    <foaf:name xml:lang="it">Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri</foaf:name>
+    <dct:identifier>PCM-1RSIZZ</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/Sex">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex">
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+    <rdfs:label xml:lang="it">Vocabolario Controllato Sesso</rdfs:label>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/sex-RDF-JSON-LD"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
+    <dcat:keyword xml:lang="it">Sesso</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:identifier>ISTAT:D.1</dct:identifier>
+    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/ISTAT-NDC"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/251539"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:title xml:lang="en">Sex Controlled Vocabulary</dct:title>
+    <ndc:keyConcept>sex</ndc:keyConcept>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/M"/>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/sex-XLSX"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-16</dct:issued>
+    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/sex-RDF-Turtle"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-15</dct:modified>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
+    <dct:title xml:lang="it">Vocabolario Controllato sul Sesso</dct:title>
+    <dct:description xml:lang="en">This is the sex controlled vocabulary</dct:description>
+    <rdfs:label xml:lang="en">Sex Controlled Vocabulary</rdfs:label>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <dcat:keyword xml:lang="en">Sex</dcat:keyword>
+    <owl:versionInfo xml:lang="it">1.1 - Aggiunti gli allineamenti semantici al vocabolario europeo sul sesso di persone.</owl:versionInfo>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/sex-RDF-XML"/>
+    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:comment xml:lang="en">This is the sex controlled vocabulary.</rdfs:comment>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/251540"/>
+    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sul sesso.</rdfs:comment>
+    <dct:description xml:lang="it">Questo è il vocabolario controllato sul sesso.</dct:description>
+    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"/>
+    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/sex-CSV"/>
+    <owl:versionInfo xml:lang="en">1.1 - Introduced semantic alignments with the Human sex European controlled vocabulary</owl:versionInfo>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex/F">
-    <skos:notation>F</skos:notation>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
-    <cpvapit:sexID>F</cpvapit:sexID>
-    <cpvapit:sexDesc xml:lang="en">Female</cpvapit:sexDesc>
-    <skos:prefLabel xml:lang="en">Female</skos:prefLabel>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPV/Sex"/>
     <skos:prefLabel xml:lang="it">Femmina</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <cpvapit:sexDesc xml:lang="it">Femmina</cpvapit:sexDesc>
     <dct:identifier>F</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPV/Sex"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/sex"/>
+    <skos:prefLabel xml:lang="en">Female</skos:prefLabel>
+    <cpvapit:sexID>F</cpvapit:sexID>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cpvapit:sexDesc xml:lang="en">Female</cpvapit:sexDesc>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/human-sex/FEMALE"/>
+    <skos:notation>F</skos:notation>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/sexDesc">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/sexID">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -225,104 +260,67 @@
   <rdf:Description rdf:about="http://purl.org/dc/terms/language">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/sex-CSV">
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.csv"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dct:description xml:lang="en">This is the distribution in CSV of dataset on the sex controlled vocabulary</dct:description>
+    <dct:description xml:lang="it">Questa è la distribuzione CSV del vocabolario controllato sul sesso</dct:description>
+    <dct:title xml:lang="en">CSV distribution of sex controlled vocabulary</dct:title>
+    <dct:title xml:lang="it">Distribuzione CSV vocabolario controllato sul sesso</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/ISTAT">
+    <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
+    <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
+    <dct:identifier>ISTAT</dct:identifier>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/sex-RDF-Turtle">
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/sex"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/sex/sex.ttl"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the sex controlled vocabulary </dct:description>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul sesso</dct:description>
+    <dct:title xml:lang="en">RDF/Turtle distribution of the sex controlled vocabulary</dct:title>
+    <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sul sesso</dct:title>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/sexDesc">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/ISTAT-NDC">
+    <vcard:hasEmail rdf:resource="mailto:ndc-segr-tec@istat.it"/>
+    <vcard:fn>Segreteria Tecnica Istat - Progetto PNRR National Data Catalog</vcard:fn>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
   </rdf:Description>
 </rdf:RDF>

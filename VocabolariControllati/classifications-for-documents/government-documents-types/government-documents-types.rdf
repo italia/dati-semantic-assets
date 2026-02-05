@@ -1,384 +1,293 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/2">
-    <skos:prefLabel xml:lang="it">Modulistica</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>2</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/ADMINDOC"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Rientrano in questo concetto l'insieme dei moduli in uso presso gli uffici della pubblica amministrazione. Esempi includono, modulo primario,  moduli allegati, ecc.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <dct:identifier>2</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/7">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Documento (tecnico) di supporto</skos:prefLabel>
-    <skos:altLabel xml:lang="en">Documenti (tecnici) di supporto</skos:altLabel>
-    <skos:notation>7</skos:notation>
-    <dct:identifier>7</dct:identifier>
-    <skos:definition xml:lang="it">Qualunque documento, anche di natura tecnica, pubblicato dall'amministrazione  (e.g., slide, pubblicazioni generiche, rapporti tecnici, documenti di progetto, linee guida diverse da quelle dell'articolo 71 del Codice dell'Amministrazione Digitale)</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/td-PCM">
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-    <dct:identifier>PCM</dct:identifier>
-    <rdfs:label xml:lang="it">Team per la Trasformazione Digitale</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/GDT-JSON-LD">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.jsonld"/>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
-    <dct:title xml:lang="en">JSON_LD distribution of the Government Documents Types controlled vocabulary</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types">
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <owl:versionInfo xml:lang="it">versione 0.2 - revisione delle definizioni di Atto normativo, Documento di funzionamento interno e aggiunta della voce 9 - Documento di programmazione e rendicontazione</owl:versionInfo>
-    <dct:identifier>https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types</dct:identifier>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/3"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/GDT-CSV"/>
-    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
-    <rdfs:comment xml:lang="en">This is the controlled vocabulary on the different types of government documents such as documents included into the Minicipal Notice Board, Laws, Technical documents, documents regarding the internal functioning of a public administration,etc</rdfs:comment>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-09</dct:modified>
-    <dct:title xml:lang="en">Types of Government Documents Controlled Vocabulary</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dct:description xml:lang="en">This is the controlled vocabulary on the different types of government documents such as documents included into the Minicipal Notice Board, Laws, Technical documents, documents regarding the internal functioning of a public administration,etc.</dct:description>
-    <dcat:keyword xml:lang="it">Atto</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/9"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/GDT-RDF-XML"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/7"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <dcat:keyword xml:lang="it">Documentazione</dcat:keyword>
-    <dcat:keyword xml:lang="it">Documento</dcat:keyword>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcat:keyword xml:lang="it">Atti</dcat:keyword>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/4"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/5"/>
-    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni quali per esempio i documenti dell'albo pretorio dei comuni, gli atti normativi, i documenti di funzionamento interno, ecc. Il vocabolario è nato per rispondere a esigenze di definizione dell'architettura dell'informazione per il progetto di design dei siti dei comuni.</rdfs:comment>
-    <dcat:keyword xml:lang="it">Documenti</dcat:keyword>
-    <dct:relation rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-board-notice"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-26</dct:issued>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/6"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/1"/>
-    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <dcat:keyword xml:lang="it">Tipi di documenti</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/8"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/GDT-RDF-Turtle"/>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/td-PCM"/>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:title xml:lang="en">Types of Government Documents Controlled Vocabulary</dct:title>
     <dct:title xml:lang="it">Vocabolario Controllato Tipi di Documenti delle Pubbliche Amministrazioni</dct:title>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/2"/>
-    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/voc-AgID"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/GDT-JSON-LD"/>
+    <dct:description xml:lang="en">This is the controlled vocabulary on the different types of government documents such as documents included into the Minicipal Notice Board, Laws, Technical documents, documents regarding the internal functioning of a public administration,etc.</dct:description>
     <dct:description xml:lang="it">Questo è il vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni quali per esempio i documenti dell'albo pretorio dei comuni, gli atti normativi, i documenti di funzionamento interno, ecc. Il vocabolario è nato per rispondere a esigenze di definizione dell'architettura dell'informazione per il progetto di design dei siti dei comuni.</dct:description>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/GDT-XLSX"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/3">
-    <dct:identifier>3</dct:identifier>
-    <skos:notation>3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="it">Documenti funzionamento interno</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:prefLabel xml:lang="it">Documento funzionamento interno</skos:prefLabel>
-    <skos:definition xml:lang="it">Rientrano in questo concetto tutti i documenti relativi al mero funzionamento interno come per esempio regolamento gestione uffici, note varie attinenti al funzionamento interno dell'ente</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/GDT-XLSX">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
-    <dct:title xml:lang="en">XLSX distribution of the Government Documents Types controlled vocabulary</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione XLSX sui tipi di documenti delle pubbliche amministrazioni</dct:title>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.xlsx"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/9">
-    <skos:altLabel xml:lang="it">Documenti di programmazione e rendicontazione</skos:altLabel>
-    <dct:identifier>9</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Rientrano in questo concetto tutte quelle tipologie di documenti relativi alle attività di programmazione e rendicontazione. A titolo d'esempio rientrano documenti quali: bilanci, programma lavori pubblici, documento unico di programmazione, relazione annuale responsbaile anticorruzione, documenti del ciclo della performance, ecc.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>9</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:prefLabel xml:lang="it">Documento di programmazione e rendicontazione</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/4">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:notation>4</skos:notation>
-    <dct:identifier>4</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Rientrano in questo concetto tutte le tipologie di atti normativi quali per esempio la costituzione, il decreto legislativo, il decreto legge, il decreto reale, il regio decreto ma anche regolamento dei contratti, regolamento per i referendum consultiv, ecc.</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Atto normativo</skos:prefLabel>
-    <skos:altLabel xml:lang="it">Atti normativi</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/agid">
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <rdfs:label xml:lang="en">Italian Digital Agency</rdfs:label>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <dct:identifier>agid</dct:identifier>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <rdfs:label xml:lang="it">Agenzia per l'Italia Digitale</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/GDT-CSV">
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione CSV sui tipi di documenti delle pubbliche amministrazioni</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.csv"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
-    <dct:title xml:lang="en">CSV distribution of the Government Documents Types controlled vocabulary</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/GDT-RDF-Turtle">
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution of the Government Documents Types controlled vocabulary</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.ttl"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/6">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <dct:identifier>6</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="it">Documenti attività politica</skos:altLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>6</skos:notation>
-    <skos:definition xml:lang="it">Rientrano in questa categoria documenti quali ordine del giorno, interpellanza, mozione, ecc.</skos:definition>
-    <skos:prefLabel xml:lang="it">Documento attività politica</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/1">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:altLabel xml:lang="it">Documenti albo pretorio</skos:altLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>1</dct:identifier>
-    <skos:definition xml:lang="it">Rientrano in questo concetto tutti quei documenti che devono essere pubblicati nell'albo pretorio nel caso di amministrazioni comunali. Tale concetto è oggetto a sua volta di un vocabolario controllato dedicato già disponibile a questo URI https://w3id.org/italia/controlled-vocabulary/municipal-board-notice</skos:definition>
-    <skos:prefLabel xml:lang="it">Documento albo pretorio</skos:prefLabel>
-    <skos:notation>1</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/AUTHACT"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/GDT-RDF-XML">
-    <dct:title xml:lang="en">RDF/XML distribution of the Government Documents Types controlled vocabulary</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.rdf"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <rdfs:label xml:lang="it">banche dati e open data</rdfs:label>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <vcard:fn xml:lang="it">banche dati e open data</vcard:fn>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:description xml:lang="it">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-    <dct:title xml:lang="it">Simple Knowledge Organization System - SKOS</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/8">
-    <skos:definition xml:lang="it">Richieste scritte fatte pervenire a una pubblica amministrazione da un privato, che portano ad avviare un procedimento</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:altLabel xml:lang="it">Istanze</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Istanza</skos:prefLabel>
-    <skos:notation>8</skos:notation>
-    <skos:exactMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/REQ"/>
-    <dct:identifier>8</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/5">
-    <skos:prefLabel xml:lang="it">Accordo tra enti</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>5</dct:identifier>
-    <skos:altLabel xml:lang="it">Accordi tra enti</skos:altLabel>
-    <skos:notation>5</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
-    <skos:definition xml:lang="it">In questa concetto si possono ricomprendere tutti quei documenti che consentono di instaurare un rapporto di collaborazione tra enti. Esempi includono convenzione, accordo generico, partnership, sponsorship</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+    <rdfs:comment xml:lang="en">This is the controlled vocabulary on the different types of government documents such as documents included into the Minicipal Notice Board, Laws, Technical documents, documents regarding the internal functioning of a public administration,etc</rdfs:comment>
+    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni quali per esempio i documenti dell'albo pretorio dei comuni, gli atti normativi, i documenti di funzionamento interno, ecc. Il vocabolario è nato per rispondere a esigenze di definizione dell'architettura dell'informazione per il progetto di design dei siti dei comuni.</rdfs:comment>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <ndc:keyConcept>government-documents-types</ndc:keyConcept>
+    <dct:relation rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-board-notice"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types</dct:identifier>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="https://w3id.org/italia/data/public-organization/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <rdfs:label xml:lang="it">Agenzia per l'Italia Digitale</rdfs:label>
+        <rdfs:label xml:lang="en">Italian Digital Agency</rdfs:label>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+    <dct:creator>
+      <dcatapit:Agent rdf:about="https://w3id.org/italia/data/public-organization/td-PCM">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>PCM</dct:identifier>
+        <rdfs:label xml:lang="it">Team per la Trasformazione Digitale</rdfs:label>
+        <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+        <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+      </dcatapit:Agent>
+    </dct:creator>
+    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="https://w3id.org/italia/data/standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title xml:lang="it">Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description xml:lang="it">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+    <dcat:keyword xml:lang="it">Tipi di documenti</dcat:keyword>
+    <dcat:keyword xml:lang="it">Documenti</dcat:keyword>
+    <dcat:keyword xml:lang="it">Documentazione</dcat:keyword>
+    <dcat:keyword xml:lang="it">Atti</dcat:keyword>
+    <dcat:keyword xml:lang="it">Atto</dcat:keyword>
+    <dcat:keyword xml:lang="it">Documento</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/GDT-RDF-Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of the Government Documents Types controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/GDT-RDF-XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of the Government Documents Types controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/GDT-JSON-LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution of the Government Documents Types controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/GDT-CSV">
+        <dct:title xml:lang="it">Distribuzione CSV sui tipi di documenti delle pubbliche amministrazioni</dct:title>
+        <dct:title xml:lang="en">CSV distribution of the Government Documents Types controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.csv"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/GDT-XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX sui tipi di documenti delle pubbliche amministrazioni</dct:title>
+        <dct:title xml:lang="en">XLSX distribution of the Government Documents Types controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sui tipi di documenti delle pubbliche amministrazioni</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the Government Documents Types controlled vocabulary</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-documents/government-documents-types/government-documents-types.xlsx"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-documents/government-documents-types"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn xml:lang="it">banche dati e open data</vcard:fn>
+        <rdfs:label xml:lang="it">banche dati e open data</rdfs:label>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-26</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-09</dct:modified>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/1">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>1</skos:notation>
+        <dct:identifier>1</dct:identifier>
+        <skos:prefLabel xml:lang="it">Documento albo pretorio</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Documenti albo pretorio</skos:altLabel>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/AUTHACT"/>
+        <skos:definition xml:lang="it">Rientrano in questo concetto tutti quei documenti che devono essere pubblicati nell'albo pretorio nel caso di amministrazioni comunali. Tale concetto è oggetto a sua volta di un vocabolario controllato dedicato già disponibile a questo URI https://w3id.org/italia/controlled-vocabulary/municipal-board-notice</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/2">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>2</skos:notation>
+        <dct:identifier>2</dct:identifier>
+        <skos:prefLabel xml:lang="it">Modulistica</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/ADMINDOC"/>
+        <skos:definition xml:lang="it">Rientrano in questo concetto l'insieme dei moduli in uso presso gli uffici della pubblica amministrazione. Esempi includono, modulo primario,  moduli allegati, ecc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/3">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>3</skos:notation>
+        <dct:identifier>3</dct:identifier>
+        <skos:prefLabel xml:lang="it">Documento funzionamento interno</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Documenti funzionamento interno</skos:altLabel>
+        <skos:definition xml:lang="it">Rientrano in questo concetto tutti i documenti relativi al mero funzionamento interno come per esempio regolamento gestione uffici, note varie attinenti al funzionamento interno dell'ente</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/4">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>4</skos:notation>
+        <dct:identifier>4</dct:identifier>
+        <skos:prefLabel xml:lang="it">Atto normativo</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Atti normativi</skos:altLabel>
+        <skos:definition xml:lang="it">Rientrano in questo concetto tutte le tipologie di atti normativi quali per esempio la costituzione, il decreto legislativo, il decreto legge, il decreto reale, il regio decreto ma anche regolamento dei contratti, regolamento per i referendum consultiv, ecc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/5">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>5</skos:notation>
+        <dct:identifier>5</dct:identifier>
+        <skos:prefLabel xml:lang="it">Accordo tra enti</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Accordi tra enti</skos:altLabel>
+        <skos:definition xml:lang="it">In questa concetto si possono ricomprendere tutti quei documenti che consentono di instaurare un rapporto di collaborazione tra enti. Esempi includono convenzione, accordo generico, partnership, sponsorship</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/6">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>6</skos:notation>
+        <dct:identifier>6</dct:identifier>
+        <skos:prefLabel xml:lang="it">Documento attività politica</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Documenti attività politica</skos:altLabel>
+        <skos:definition xml:lang="it">Rientrano in questa categoria documenti quali ordine del giorno, interpellanza, mozione, ecc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/7">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>7</skos:notation>
+        <dct:identifier>7</dct:identifier>
+        <skos:prefLabel xml:lang="it">Documento (tecnico) di supporto</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Documenti (tecnici) di supporto</skos:altLabel>
+        <skos:definition xml:lang="it">Qualunque documento, anche di natura tecnica, pubblicato dall'amministrazione  (e.g., slide, pubblicazioni generiche, rapporti tecnici, documenti di progetto, linee guida diverse da quelle dell'articolo 71 del Codice dell'Amministrazione Digitale)</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/8">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>8</skos:notation>
+        <dct:identifier>8</dct:identifier>
+        <skos:prefLabel xml:lang="it">Istanza</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Istanze</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/REQ"/>
+        <skos:definition xml:lang="it">Richieste scritte fatte pervenire a una pubblica amministrazione da un privato, che portano ad avviare un procedimento</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/9">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>9</skos:notation>
+        <dct:identifier>9</dct:identifier>
+        <skos:prefLabel xml:lang="it">Documento di programmazione e rendicontazione</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Documenti di programmazione e rendicontazione</skos:altLabel>
+        <skos:definition xml:lang="it">Rientrano in questo concetto tutte quelle tipologie di documenti relativi alle attività di programmazione e rendicontazione. A titolo d'esempio rientrano documenti quali: bilanci, programma lavori pubblici, documento unico di programmazione, relazione annuale responsbaile anticorruzione, documenti del ciclo della performance, ecc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <owl:versionInfo xml:lang="it">versione 0.2 - revisione delle definizioni di Atto normativo, Documento di funzionamento interno e aggiunta della voce 9 - Documento di programmazione e rendicontazione</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
 </rdf:RDF>

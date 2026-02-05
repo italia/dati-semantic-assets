@@ -6,9 +6,10 @@
 	<http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/CodeList> ;
 	<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/adms/representationtechnique/SKOS> ;
 	<http://purl.org/dc/terms/identifier> "agid:D.14" ;
-	<http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
-	<http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> , <https://w3id.org/italia/data/resource/Amministrazione/td_PCM> ;
-	<http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> ;
+	<https://w3id.org/italia/onto/NDC/keyConcept> "provinces" ;
+	<http://purl.org/dc/terms/rightsHolder> <https://w3id.org/italia/data/public-organization/agid> ;
+	<http://purl.org/dc/terms/creator> <https://w3id.org/italia/data/public-organization/agid> , <https://w3id.org/italia/data/resource/Amministrazione/td_PCM> ;
+	<http://purl.org/dc/terms/publisher> <https://w3id.org/italia/data/public-organization/agid> ;
 	<http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
 	<http://purl.org/dc/terms/conformsTo> <https://w3id.org/italia/data/resource/Standard/SKOS> ;
 	<http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ITA> ;
@@ -21,7 +22,7 @@
 	<http://purl.org/dc/terms/modified> "2019-04-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	<http://www.w3.org/2002/07/owl#versionInfo> "2.0 - allineamento all'ontologia e alle pratiche di gestione dei vocabolari controllati di OntoPiA"@it .
 
-<http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid> a <http://dati.gov.it/onto/dcatapit#Agent> , <http://xmlns.com/foaf/0.1/Agent> ;
+<https://w3id.org/italia/data/public-organization/agid> a <http://dati.gov.it/onto/dcatapit#Agent> , <http://xmlns.com/foaf/0.1/Agent> ;
 	<http://purl.org/dc/terms/identifier> "agid" ;
 	<http://xmlns.com/foaf/0.1/name> "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en .
 
@@ -43,24 +44,24 @@
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle province d'Italia"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian Provinces controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.ttl> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.ttl> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/provinces> .
 
 <https://w3id.org/italia/data/resource/Distribution/provinces_RDF_XML> a <http://dati.gov.it/onto/dcatapit#Distribution> ;
 	<http://purl.org/dc/terms/title> "Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia"@it , "RDF/XML distribution of the Italian provinces controlled vocabulary"@en ;
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle province d'Italia"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the Italian Provinces controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.rdf> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.rdf> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/provinces> .
 
 <https://w3id.org/italia/data/resource/Distribution/provinces_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution> ;
 	<http://purl.org/dc/terms/title> "Distribuzione JSON-LD del vocabolario controllato sulle regioni d'Italia"@it , "JSON-LD distribution of the Italian provinces controlled vocabulary"@en ;
 	<http://purl.org/dc/terms/description> "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sulle province d'Italia"@it , "This is the distribution in JSON-LD of the Linked Open Dataset of the Italian Provinces controlled vocabulary "@en ;
 	<http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
 	<http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces/provinces.jsonld> ;
-	<http://www.w3.org/ns/dcat#accessURL> <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/provinces> .
+	<http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/provinces/provinces.jsonld> ;
+	<http://www.w3.org/ns/dcat#accessURL> <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/territorial-classifications/provinces> .
 
 <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/001> a <https://w3id.org/italia/onto/CLV/Province> , <https://w3id.org/italia/onto/CLV/AdminUnitComponent> , <http://www.w3.org/2004/02/skos/core#Concept> , <https://w3id.org/italia/onto/CLV/Feature> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "Torino"@it ;

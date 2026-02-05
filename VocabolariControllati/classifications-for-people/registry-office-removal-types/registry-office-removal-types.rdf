@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:l0="https://w3id.org/italia/onto/l0/"
+     xmlns:ql="http://semweb.mmlab.be/ns/ql#"
+     xmlns:rr="http://www.w3.org/ns/r2rml#"
+     xmlns:CLV="http://www.w3.org/2002/07/italia/onto/CLV/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:d2rq="http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:tiapit="https://w3id.org/italia/onto/TI/"
+     xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+     xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
+     xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/accrualPeriodicity -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/format"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rightsHolder -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/type"/>
+    
+
+
+    <!-- http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels -->
+
+    <AnnotationProperty rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/italia/onto/CLV/hasRankOrder -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2002/07/italia/onto/CLV/hasRankOrder"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/ns/adms#representationTechnique -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#contactPoint -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#distribution -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadURL -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#keyword -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#theme -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#theme"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/acronym -->
+
+    <AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/acronym"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/CLV/hasRankOrder -->
+
+    <AnnotationProperty rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/NDC/keyConcept -->
+
+    <AnnotationProperty rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dati.gov.it/onto/dcatapit#Agent -->
+
+    <Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+    
+
+
+    <!-- http://dati.gov.it/onto/dcatapit#Dataset -->
+
+    <Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- http://www.w3.org/ns/adms#Asset -->
+
+    <Class rdf:about="http://www.w3.org/ns/adms#Asset"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution -->
+
+    <Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+    
+
+
+    <!-- https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation -->
+
+    <Class rdf:about="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
+        <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
+        <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/m_it"/>
+        <dct:description xml:lang="it">Questo è il vocabolario controllato sulle tipologie di motivi di cancellazione in anagrafe.</dct:description>
+        <dct:description xml:lang="en">This is the Registry Office Removal Motivations controlled vocabulary.</dct:description>
+        <dct:identifier>https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-12-15</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-15</dct:modified>
+        <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"/>
+        <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/m_it"/>
+        <dct:title xml:lang="en">Registry Office Removal Motivations Controlled Vocabulary</dct:title>
+        <dct:title xml:lang="it">Vocabolario Controllato Motivi Cancellazione in Anagrafe</dct:title>
+        <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+        <xkos:numberOfLevels>1</xkos:numberOfLevels>
+        <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sulle tipologie di motivi di cancellazione in anagrafe.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <rdfs:label xml:lang="en">Registry Office Removal Motivations Controlled Vocabulary</rdfs:label>
+        <rdfs:label xml:lang="it">Vocabolario Controllato Motivi Cancellazione in Anagrafe</rdfs:label>
+        <versionInfo xml:lang="en">First version.</versionInfo>
+        <versionInfo xml:lang="it">Prima versione.</versionInfo>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9"/>
+        <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+        <dcat:contactPoint rdf:resource="https://schema.gov.it/lodview/data/contact-point/ISTAT-NDC"/>
+        <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV"/>
+        <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle"/>
+        <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML"/>
+        <dcat:keyword xml:lang="it">Motivo cancellazione dall anagrafe</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <admsapit:acronym>ROReM</admsapit:acronym>
+        <ndc:keyConcept>registry-office-removal-types</ndc:keyConcept>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/1">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>1</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>1</skos:notation>
+        <skos:prefLabel xml:lang="it">Morte accertata</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/10">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>10</dct:identifier>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>10</skos:notation>
+        <skos:prefLabel xml:lang="it">Doppia iscrizione</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/11">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>11</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>11</skos:notation>
+        <skos:prefLabel xml:lang="it">Perdita della cittadinanza italiana</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/12">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>12</dct:identifier>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>12</skos:notation>
+        <skos:prefLabel xml:lang="it">Ripristino posizione precedente</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/13">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>13</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>13</skos:notation>
+        <skos:prefLabel xml:lang="it">Altro</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/2">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>2</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>2</skos:notation>
+        <skos:prefLabel xml:lang="it">Morte presunta giudizialmente dichiarata</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/3">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>3</dct:identifier>
+        <CLV:hasRankOrder>1</CLV:hasRankOrder>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>3</skos:notation>
+        <skos:prefLabel xml:lang="it">Trasferimento di residenza in comune non subentrato</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/4">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>4</dct:identifier>
+        <CLV:hasRankOrder>1</CLV:hasRankOrder>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>4</skos:notation>
+        <skos:prefLabel xml:lang="it">Trasferimento di domicilio (senza fissa dimora)</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/5">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>5</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>5</skos:notation>
+        <skos:prefLabel xml:lang="it">Trasferimento di residenza all’estero di uno straniero</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/6">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>6</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>6</skos:notation>
+        <skos:prefLabel xml:lang="it">Irreperibilità</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/7">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>7</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>7</skos:notation>
+        <skos:prefLabel xml:lang="it">Mancato rinnovo dimora abituale/permesso di soggiorno</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/8">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>8</dct:identifier>
+        <CLV:hasRankOrder>1</CLV:hasRankOrder>
+        <deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>8</skos:notation>
+        <skos:prefLabel xml:lang="it">Trasferimento di residenza (iscrizione AIRE)</skos:prefLabel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9 -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types/9">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/RPO/RegistryOfficeRemovalMotivation"/>
+        <dct:identifier>9</dct:identifier>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/registry-office-removal-types"/>
+        <skos:notation>9</skos:notation>
+        <skos:prefLabel xml:lang="it">Rettifiche post censuarie</skos:prefLabel>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_CSV">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del vocabolario controllato dei motivi di cancellazione anagrafica</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the controlled vocabolary of the registry office removal motivations</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="en">CSV distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
+        <dct:title xml:lang="it">Distribuzione CSV del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.csv"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_Turtle">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del vocabolario controllato dei motivi di cancellazione anagrafica</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the controlled vocabolary of the registry office removal motivations</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.ttl"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/distribution/RegistryOfficeRemoval_RDF_XML">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del vocabolario controllato dei motivi di cancellazione anagrafica</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the controlled vocabolary of the registry office removal motivations</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dct:title xml:lang="it">Distribuzione RDF/XML del Vocabolario Controllato Motivi Cancellazione in Anagrafe </dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of Registry Office Removal Motivations Controlled Vocabulary</dct:title>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/registry-office-removal-types"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/registry-office-removal-types/registry-office-removal-types.rdf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/public-organization/ISTAT -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/ISTAT">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>ISTAT</dct:identifier>
+        <foaf:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</foaf:name>
+        <foaf:name xml:lang="en">Italian National Institute of Statistics - ISTAT</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/public-organization/PCM-1RSIZZ -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/PCM-1RSIZZ">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>PCM-1RSIZZ</dct:identifier>
+        <foaf:name xml:lang="en">Digital Transformation Department of the Presidency of the Council of Ministers</foaf:name>
+        <foaf:name xml:lang="it">Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri</foaf:name>
+    </NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/italia/data/public-organization/m_it -->
+
+    <NamedIndividual rdf:about="https://w3id.org/italia/data/public-organization/m_it">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>m_it</dct:identifier>
+        <foaf:name xml:lang="it">Ministero dell&apos;Interno - DAIT Direzione Centrale dei servizi demografici</foaf:name>
+        <foaf:name xml:lang="en">Ministry of the Interior - Central Directorate of Population Services</foaf:name>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

@@ -11,6 +11,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 skos:ConceptScheme
       a       rdfs:Class .
@@ -139,6 +140,8 @@ xkos:numberOfLevels
 clvapit:hasRankOrder
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
@@ -147,6 +150,7 @@ clvapit:hasRankOrder
       dct:description "Classification of Public Service Input and Output. The translations in German were provided by Ivo Planoetscher of the Autonomous Province of Bolzano"@en , "Classificazione dei tipi di input e output per i servizi. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano"@it ;
       rdfs:label "Controlled Vocabulary of Service Input and Output"@en , "Vocabolario controllato degi input e output dei servizi"@it ;
       xkos:numberOfLevels "1" ;
+      ndc:keyConcept "service-input-output" ;
       dct:type <http://purl.org/adms/assettype/CodeList> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "agid:D.7" ;
@@ -198,8 +202,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici"@it , "This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to input/output for public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.ttl> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.ttl> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/service-input-output> .
 
   <http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_RDF_XML>
       a	dcatapit:Distribution  ;
@@ -207,8 +211,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to input/output for public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.rdf> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.rdf> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
 
 <http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_JSON_LD>
       a	dcatapit:Distribution  ;
@@ -216,8 +220,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to input/output for public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.jsonld>  ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.jsonld>  ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
 
   <http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_CSV>
       a	dcatapit:Distribution  ;
@@ -225,8 +229,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici"@it , "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to input/output for public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.csv>  ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.csv>  ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
 
 <http://dati.gov.it/data/resource/Distribution/ServiceInputOutput_XLSX>
       a	dcatapit:Distribution  ;
@@ -234,8 +238,8 @@ clvapit:hasRankOrder
       dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione degli input e output per i servizi pubblici"@it , "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to input/output for public services"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.xlsx> ;
-      dcat:accessURL 			<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/service-input-output/service-input-output.xlsx> ;
+      dcat:accessURL <https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-public-services/service-input-output>  .
 
 #Definition of the controlled vocabulary - fist level
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/service-input-output/CODE>

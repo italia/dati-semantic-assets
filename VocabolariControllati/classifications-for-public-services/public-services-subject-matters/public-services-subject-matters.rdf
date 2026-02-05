@@ -1,499 +1,408 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters">
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/PS-XLSX"/>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/PS-CSV"/>
-    <owl:versionInfo xml:lang="it">versione 0.1</owl:versionInfo>
-    <dct:conformsTo rdf:resource="https://w3id.org/italia/data/standard/SKOS"/>
-    <dcat:contactPoint rdf:resource="https://w3id.org/italia/data/contact-point/voc-AgID"/>
-    <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-31</dct:modified>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/PS-RDF-Turtle"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/PS-JSON-LD"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <rdfs:comment xml:lang="en">his is the controlled vocabulary of the subject matters for public services of Public Administrations. The vocabulary can be used especially in a web-based context in order to better classify public services an thus facilitate their discoverability by citizens and enterprises. The vocabulary is in relationship with the European controlled vocabulary on Data Theme and with the Italian controlled vocabularies on life and business events used in the context of the catalogue of services</rdfs:comment>
-    <dct:title xml:lang="it">Vocabolario Controllato sulle Materie dei Servizi Pubblici</dct:title>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dct:identifier>https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters</dct:identifier>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12"/>
-    <dct:description xml:lang="en">This is the controlled vocabulary of the subject matters for public services of Public Administrations. The vocabulary can be used especially in a web-based context in order to better classify public services an thus facilitate their discoverability by citizens and enterprises. The vocabulary is in relationship with the European controlled vocabulary on Data Theme and with the Italian controlled vocabularies on life and business events used in the context of the catalogue of services</dct:description>
-    <dcat:keyword xml:lang="it">Tematiche</dcat:keyword>
     <dct:title xml:lang="en">Subject Matters of Public Services Controlled Vocabulary</dct:title>
+    <dct:title xml:lang="it">Vocabolario Controllato sulle Materie dei Servizi Pubblici</dct:title>
+    <dct:description xml:lang="en">This is the controlled vocabulary of the subject matters for public services of Public Administrations. The vocabulary can be used especially in a web-based context in order to better classify public services an thus facilitate their discoverability by citizens and enterprises. The vocabulary is in relationship with the European controlled vocabulary on Data Theme and with the Italian controlled vocabularies on life and business events used in the context of the catalogue of services</dct:description>
+    <dct:description xml:lang="it">Questo è il vocabolario controllato sulle materie (o tematiche) per i servizi pubblici. Il vocabolario è nato nel constesto del lavoro si design dei siti web comunali per poter classificare meglio i servizi pubblici offerti ai cittadini e alle imprese. Il vocabolario è in relazione al vocabolario europeo Data theme utilizzato nella specifica CPSV-AP_IT per catalogare i temi dei servizi pubblici. E'inoltre in relazione con i vocabolari controllati italiani sugli eventi della vita di cittadini (life event) e imprese (business event). Si fornisce infatti un vero e proprio mapping in RDF tra questo vocabolario e questi menzionati mediante opportuni costrutti dello standard skos come per esempio skos:exactMtch, skos:closeMatch, skos:relatedMatch.</dct:description>
+    <rdfs:comment xml:lang="en">his is the controlled vocabulary of the subject matters for public services of Public Administrations. The vocabulary can be used especially in a web-based context in order to better classify public services an thus facilitate their discoverability by citizens and enterprises. The vocabulary is in relationship with the European controlled vocabulary on Data Theme and with the Italian controlled vocabularies on life and business events used in the context of the catalogue of services</rdfs:comment>
+    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sulle materie (o tematiche) per i servizi pubblici. Il vocabolario è nato nel constesto del lavoro si design dei siti web comunali per poter classificare meglio i servizi pubblici offerti ai cittadini e alle imprese. Il vocabolario è in relazione al vocabolario europeo Data theme utilizzato nella specifica CPSV-AP_IT per catalogare i temi dei servizi pubblici. E'inoltre in relazione con i vocabolari controllati italiani sugli eventi della vita di cittadini (life event) e imprese (business event). Si fornisce infatti un vero e proprio mapping in RDF tra questo vocabolario e questi menzionati.</rdfs:comment>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <ndc:keyConcept>public-services-subject-matters</ndc:keyConcept>
     <dct:relation rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event"/>
     <dct:relation rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1"/>
-    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3"/>
-    <dcat:distribution rdf:resource="https://w3id.org/italia/data/distribution/PS-RDF-XML"/>
     <dct:relation rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dcat:keyword xml:lang="it">Temi servizi pubblici</dcat:keyword>
-    <dct:description xml:lang="it">Questo è il vocabolario controllato sulle materie (o tematiche) per i servizi pubblici. Il vocabolario è nato nel constesto del lavoro si design dei siti web comunali per poter classificare meglio i servizi pubblici offerti ai cittadini e alle imprese. Il vocabolario è in relazione al vocabolario europeo Data theme utilizzato nella specifica CPSV-AP_IT per catalogare i temi dei servizi pubblici. E'inoltre in relazione con i vocabolari controllati italiani sugli eventi della vita di cittadini (life event) e imprese (business event). Si fornisce infatti un vero e proprio mapping in RDF tra questo vocabolario e questi menzionati mediante opportuni costrutti dello standard skos come per esempio skos:exactMtch, skos:closeMatch, skos:relatedMatch.</dct:description>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14"/>
-    <rdfs:comment xml:lang="it">Questo è il vocabolario controllato sulle materie (o tematiche) per i servizi pubblici. Il vocabolario è nato nel constesto del lavoro si design dei siti web comunali per poter classificare meglio i servizi pubblici offerti ai cittadini e alle imprese. Il vocabolario è in relazione al vocabolario europeo Data theme utilizzato nella specifica CPSV-AP_IT per catalogare i temi dei servizi pubblici. E'inoltre in relazione con i vocabolari controllati italiani sugli eventi della vita di cittadini (life event) e imprese (business event). Si fornisce infatti un vero e proprio mapping in RDF tra questo vocabolario e questi menzionati.</rdfs:comment>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters</dct:identifier>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="https://w3id.org/italia/data/public-organization/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <rdfs:label xml:lang="it">Agenzia per l'Italia Digitale</rdfs:label>
+        <rdfs:label xml:lang="en">Italian Digital Agency</rdfs:label>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
     <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4"/>
+    <dct:creator>
+      <dcatapit:Agent rdf:about="https://w3id.org/italia/data/public-organization/td-PCM">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>PCM</dct:identifier>
+        <rdfs:label xml:lang="it">Team per la Trasformazione Digitale</rdfs:label>
+        <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+        <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+      </dcatapit:Agent>
+    </dct:creator>
+    <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="https://w3id.org/italia/data/standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title xml:lang="it">Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description xml:lang="it">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+    <dcat:keyword xml:lang="it">Temi servizi pubblici</dcat:keyword>
     <dcat:keyword xml:lang="it">Servizi pubblici</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15"/>
+    <dcat:keyword xml:lang="it">Tematiche</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/PS-RDF-Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/PS-RDF-XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/PS-JSON-LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/PS-CSV">
+        <dct:title xml:lang="it">Distribuzione CSV sulle materie (tematiche) dei servizi pubblicii</dct:title>
+        <dct:title xml:lang="en">CSV distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://w3id.org/italia/data/distribution/PS-XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX sulle materie (tematiche) dei servizi pubblici</dct:title>
+        <dct:title xml:lang="en">XLSX distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx"/>
+        <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn xml:lang="it">banche dati e open data</vcard:fn>
+        <rdfs:label xml:lang="it">banche dati e open data</rdfs:label>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-30</dct:issued>
-    <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/td-PCM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>13</skos:notation>
-    <skos:prefLabel xml:lang="it">Autorizzazioni</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:altLabel xml:lang="it">Autorizzazioni - permessi, licenze, finanziamenti</skos:altLabel>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alle imprese per richiedere permessi, licenze e finanziamenti</skos:definition>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>13</dct:identifier>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2">
-    <skos:prefLabel xml:lang="it">Salute, benessere e assistenza</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>2</dct:identifier>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi alla salute degli individui (e.g., prenotazione esami) ma anche tutti i servizi che riguardano l'assistenza e il benessere dei cittadini (e.g., servizi per invalidi, per anziani, per minori). Questo concetto include anche i servizi relativi agli animali</skos:definition>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>2</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2"/>
-    <skos:altLabel xml:lang="it">Salute, benessere e assistenza - animali, invalidità, esami sanitari, anziani</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:notation>5</skos:notation>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
-    <skos:prefLabel xml:lang="it">Catasto e urbanistica</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8"/>
-    <dct:identifier>5</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi l catasto (case, terreni, edifici), all'urbanistica ed edilizia</skos:definition>
-    <skos:altLabel xml:lang="it">Catasto e urbanistica - case, terreni, edifici</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/PS-RDF-Turtle">
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.ttl"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alla cultura e al tempo libero come per esempio i servizi di accesso ai luoghi della cultura e ogni altro luogo pubblico di carattere culturale ma anche accesso a luoghi dello sport o ogni altro servizi per le attività ricreative</skos:definition>
-    <skos:notation>10</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:altLabel xml:lang="it">Cultura e tempo libero - luoghi della cultura, impianti sportivi</skos:altLabel>
-    <dct:identifier>10</dct:identifier>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18"/>
-    <skos:prefLabel xml:lang="it">Cultura e tempo libero</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:altLabel xml:lang="it">Vita lavorativa - lavoro, disoccupazione, pensione</skos:altLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3"/>
-    <skos:prefLabel xml:lang="it">Vita lavorativa</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <dct:identifier>3</dct:identifier>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati a tutti gli eventi relativi alla vita lavorativa di cittadini, che possono riguardare il lavoro la disoccupazione e il pensionamento</skos:definition>
-    <skos:notation>3</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/PS-JSON-LD">
-    <dct:title xml:lang="en">JSON_LD distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.jsonld"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14">
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6"/>
-    <dct:identifier>14</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:notation>14</skos:notation>
-    <skos:prefLabel xml:lang="it">Appalti pubblici</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15"/>
-    <skos:altLabel xml:lang="it">Appalti pubblici - gare nazionali/estere, bandi</skos:altLabel>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati agli appalti e bandi a cui le imprese possono partecipare, sia italiani che transfrontalieri</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6">
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-    <skos:prefLabel xml:lang="it">Anagrafe e stato civile</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13"/>
-    <dct:identifier>6</dct:identifier>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14"/>
-    <skos:altLabel xml:lang="it">Anagrafe e stato civile - residenza, matrimonio, nascita, morte, espatrio, elezioni</skos:altLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>6</skos:notation>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi dell'anagrafe e dello stato civile (per esempio, certificati anagrafici, matrimonio, residenza, domicilio, elezioni, espatrio)</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9">
-    <dct:identifier>9</dct:identifier>
-    <skos:prefLabel xml:lang="it">Tributi e finanze</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-    <skos:notation>9</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17"/>
-    <skos:altLabel xml:lang="it">Tributi e finanze -  dichiarazione redditi, contributi, contravvenzioni</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alle tasse e alla finanza. Rientrano i servizi per la dichiarazione dei redditi, per il pagamento di contributi e contravvenzioni, ecc.</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1">
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>1</dct:identifier>
-    <skos:altLabel xml:lang="it">Educazione e formazione -  nido, scuola, università</skos:altLabel>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi all'educazione di ogni livello e formazione anche universitaria</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-    <skos:prefLabel xml:lang="it">Educazione e formazione</skos:prefLabel>
-    <skos:notation>1</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:notation>7</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi alle attività turistiche e quindi principalmente ai viaggi e all'occorrente per effettuare un viaggio (e.g., visto)</skos:definition>
-    <skos:altLabel xml:lang="en">Turismo - viaggi, passaporto, visto</skos:altLabel>
-    <skos:prefLabel xml:lang="it">Turismo</skos:prefLabel>
-    <dct:identifier>7</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8">
-    <dct:identifier>8</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:prefLabel xml:lang="it">Giustizia e sicurezza pubblica</skos:prefLabel>
-    <skos:notation>8</skos:notation>
-    <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16"/>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alla sicurezza pubblica come per esempio i servizi della protezione civile o i servizi di denuncia di crimi</skos:definition>
-    <skos:altLabel xml:lang="it">Giustizia e sicurezza pubblica - crimini, protezione civile</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5"/>
-    <skos:notation>12</skos:notation>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi di business legati alla vita dell'impresa e delle attività commerciali. Esempi includono la gestione dell'avvio e chiusura di un'azienda sia italiana che europea, la gestione del personale, la gestione di eventi quali la bancarotta</skos:definition>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10"/>
-    <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12"/>
-    <skos:prefLabel xml:lang="it">Attività produttive e commercio</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2"/>
-    <skos:altLabel xml:lang="it">Attività produttive e commercio - impresa nazionale/estera, notifiche, bancarotta, risorse umane</skos:altLabel>
-    <dct:identifier>12</dct:identifier>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/PS-RDF-XML">
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:title>
-    <dct:title xml:lang="en">RDF/XML distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.rdf"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/PS-CSV">
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.csv"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dct:title xml:lang="it">Distribuzione CSV sulle materie (tematiche) dei servizi pubblicii</dct:title>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="en">CSV distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11">
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati all'ambiente come per esempio gestione riufiuti, e verde urbano, denuncia di incendi e altri crimini contro il paesaggio</skos:definition>
-    <skos:altLabel xml:lang="it">Ambiente - rifiuti, verde urbano, incendi</skos:altLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <dct:identifier>11</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Ambiente</skos:prefLabel>
-    <skos:notation>11</skos:notation>
-    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/distribution/PS-XLSX">
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-public-services/public-services-subject-matters/public-services-subject-matters.xlsx"/>
-    <dct:title xml:lang="it">Distribuzione XLSX sulle materie (tematiche) dei servizi pubblici</dct:title>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary on the Subject Matters for Public Services</dct:description>
-    <dct:title xml:lang="en">XLSX distribution of the controlled vocabulary on the Subject Matters for Public Services</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle materie (tematiche) dei servizi pubblici</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4">
-    <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>4</dct:identifier>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6"/>
-    <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7"/>
-    <skos:prefLabel xml:lang="it">Mobilità e trasporti</skos:prefLabel>
-    <skos:notation>4</skos:notation>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi sulla mobilità e sui trasporti, di ogni tipo.</skos:definition>
-    <skos:altLabel xml:lang="it">Mobilità e trasporti - parcheggi, automobile, patente, trasporto pubblico</skos:altLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/agid">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:label xml:lang="en">Italian Digital Agency</rdfs:label>
-    <rdfs:label xml:lang="it">Agenzia per l'Italia Digitale</rdfs:label>
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>15</skos:notation>
-    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
-    <skos:prefLabel xml:lang="it">Agricoltura</skos:prefLabel>
-    <dct:identifier>15</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:altLabel xml:lang="it">Agricoltura - pesca, politiche agricole e alimentari</skos:altLabel>
-    <skos:definition xml:lang="it">Questa materia include tutti quei servizi pertinenti al contesto agricolo, della pesca e alimentare</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:title xml:lang="it">Simple Knowledge Organization System - SKOS</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:description xml:lang="it">The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:identifier>SKOS</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/td-PCM">
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:label xml:lang="it">Team per la Trasformazione Digitale</rdfs:label>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <dct:identifier>PCM</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/contact-point/voc-AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:fn xml:lang="it">banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdfs:label xml:lang="it">banche dati e open data</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-12</dct:modified>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>1</skos:notation>
+        <dct:identifier>1</dct:identifier>
+        <skos:prefLabel xml:lang="it">Educazione e formazione</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1"/>
+        <skos:altLabel xml:lang="it">Educazione e formazione -  nido, scuola, università</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi all'educazione di ogni livello e formazione anche universitaria</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>2</skos:notation>
+        <dct:identifier>2</dct:identifier>
+        <skos:prefLabel xml:lang="it">Salute, benessere e assistenza</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19"/>
+        <skos:altLabel xml:lang="it">Salute, benessere e assistenza - animali, invalidità, esami sanitari, anziani</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi alla salute degli individui (e.g., prenotazione esami) ma anche tutti i servizi che riguardano l'assistenza e il benessere dei cittadini (e.g., servizi per invalidi, per anziani, per minori). Questo concetto include anche i servizi relativi agli animali</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>3</skos:notation>
+        <dct:identifier>3</dct:identifier>
+        <skos:prefLabel xml:lang="it">Vita lavorativa</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Vita lavorativa - lavoro, disoccupazione, pensione</skos:altLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7"/>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati a tutti gli eventi relativi alla vita lavorativa di cittadini, che possono riguardare il lavoro la disoccupazione e il pensionamento</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>4</skos:notation>
+        <dct:identifier>4</dct:identifier>
+        <skos:prefLabel xml:lang="it">Mobilità e trasporti</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7"/>
+        <skos:altLabel xml:lang="it">Mobilità e trasporti - parcheggi, automobile, patente, trasporto pubblico</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi sulla mobilità e sui trasporti, di ogni tipo.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>5</skos:notation>
+        <dct:identifier>5</dct:identifier>
+        <skos:prefLabel xml:lang="it">Catasto e urbanistica</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8"/>
+        <skos:altLabel xml:lang="it">Catasto e urbanistica - case, terreni, edifici</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi l catasto (case, terreni, edifici), all'urbanistica ed edilizia</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>6</skos:notation>
+        <dct:identifier>6</dct:identifier>
+        <skos:prefLabel xml:lang="it">Anagrafe e stato civile</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14"/>
+        <skos:altLabel xml:lang="it">Anagrafe e stato civile - residenza, matrimonio, nascita, morte, espatrio, elezioni</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi dell'anagrafe e dello stato civile (per esempio, certificati anagrafici, matrimonio, residenza, domicilio, elezioni, espatrio)</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>7</skos:notation>
+        <dct:identifier>7</dct:identifier>
+        <skos:prefLabel xml:lang="it">Turismo</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Turismo - viaggi, passaporto, visto</skos:altLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11"/>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi relativi alle attività turistiche e quindi principalmente ai viaggi e all'occorrente per effettuare un viaggio (e.g., visto)</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>8</skos:notation>
+        <dct:identifier>8</dct:identifier>
+        <skos:prefLabel xml:lang="it">Giustizia e sicurezza pubblica</skos:prefLabel>
+        <skos:closeMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16"/>
+        <skos:altLabel xml:lang="it">Giustizia e sicurezza pubblica - crimini, protezione civile</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alla sicurezza pubblica come per esempio i servizi della protezione civile o i servizi di denuncia di crimi</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>9</skos:notation>
+        <dct:identifier>9</dct:identifier>
+        <skos:prefLabel xml:lang="it">Tributi, finanze e contravvenzioni</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8"/>
+        <skos:altLabel xml:lang="it">Tributi, finanze e contravvenzioni - dichiarazione redditi, contributi</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alle tasse e alla finanza. Rientrano i servizi per la dichiarazione dei redditi, per il pagamento di contributi e contravvenzioni, ecc.</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>10</skos:notation>
+        <dct:identifier>10</dct:identifier>
+        <skos:prefLabel xml:lang="it">Cultura e tempo libero</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18"/>
+        <skos:altLabel xml:lang="it">Cultura e tempo libero - luoghi della cultura, impianti sportivi</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alla cultura e al tempo libero come per esempio i servizi di accesso ai luoghi della cultura e ogni altro luogo pubblico di carattere culturale ma anche accesso a luoghi dello sport o ogni altro servizi per le attività ricreative</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>11</skos:notation>
+        <dct:identifier>11</dct:identifier>
+        <skos:prefLabel xml:lang="it">Ambiente</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <skos:altLabel xml:lang="it">Ambiente - rifiuti, verde urbano, incendi</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati all'ambiente come per esempio gestione riufiuti, e verde urbano, denuncia di incendi e altri crimini contro il paesaggio</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>12</skos:notation>
+        <dct:identifier>12</dct:identifier>
+        <skos:prefLabel xml:lang="it">Impresa e commercio</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Impresa e commercio - attività produttive, impresa nazionale/estera, notifiche, bancarotta, risorse umane</skos:altLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14"/>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi di business legati alla vita dell'impresa e delle attività commerciali. Esempi includono la gestione dell'avvio e chiusura di un'azienda sia italiana che europea, la gestione del personale, la gestione di eventi quali la bancarotta</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>13</skos:notation>
+        <dct:identifier>13</dct:identifier>
+        <skos:prefLabel xml:lang="it">Autorizzazioni</skos:prefLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3"/>
+        <skos:altLabel xml:lang="it">Autorizzazioni - permessi, licenze, finanziamenti</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati alle imprese per richiedere permessi, licenze e finanziamenti</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>14</skos:notation>
+        <dct:identifier>14</dct:identifier>
+        <skos:prefLabel xml:lang="it">Appalti pubblici</skos:prefLabel>
+        <skos:altLabel xml:lang="it">Appalti pubblici - gare nazionali/estere, bandi</skos:altLabel>
+        <skos:relatedMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15"/>
+        <skos:relatedMatch rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6"/>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi legati agli appalti e bandi a cui le imprese possono partecipare, sia italiani che transfrontalieri</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15">
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters"/>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:notation>15</skos:notation>
+        <dct:identifier>15</dct:identifier>
+        <skos:prefLabel xml:lang="it">Agricoltura e pesca</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <skos:altLabel xml:lang="it">Agricoltura e pesca - politiche agricole e alimentari</skos:altLabel>
+        <skos:definition xml:lang="it">Questa materia include tutti quei servizi pertinenti al contesto agricolo, della pesca e alimentare</skos:definition>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <owl:versionInfo xml:lang="it">versione 0.2 - implementazione richiesta variazione etichette secondo issue #177</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

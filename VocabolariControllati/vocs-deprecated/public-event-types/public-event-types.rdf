@@ -12,957 +12,957 @@
    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
 >
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/55_ReligiousDialogue">
-    <skos:notation>5.5</skos:notation>
-    <dct:identifier>5.5</dct:identifier>
-    <skos:prefLabel xml:lang="en">Religious Dialogue</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="it">Dialogo Religioso</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/112_Course">
-    <dct:identifier>1.12</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:prefLabel xml:lang="it">Corso</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="http://schema.org/CourseInstance"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Course</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>1.12</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types">
-    <xkos:numberOfLevels>2</xkos:numberOfLevels>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <rdfs:comment xml:lang="it">Classificazione degli eventi pubblici</rdfs:comment>
-    <dcat:keyword xml:lang="en">public event</dcat:keyword>
-    <dct:description xml:lang="en">Classification of the types of Public Events. The classification is aligned with schema.org.</dct:description>
-    <rdf:type rdf:resource="http://www.w3.org/ns/adms#SemanticAsset"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251915"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="en">spare time</dcat:keyword>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_JSON_LD"/>
-    <dct:title xml:lang="en">Types of Public Events</dct:title>
-    <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-12</dct:modified>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
-    <rdfs:label xml:lang="en">Public Event</rdfs:label>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_XLSX"/>
-    <rdfs:label xml:lang="it">Evento Pubblico</rdfs:label>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_XLSX"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-17</dct:issued>
-    <dct:description xml:lang="it">Classificazione dei tipi di eventi pubblici. La classificazione è allineata a schema.org</dct:description>
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#SemanticAsset"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251889"/>
-    <dcat:keyword xml:lang="en">turismo</dcat:keyword>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <dcat:keyword xml:lang="en">tourism</dcat:keyword>
-    <dcat:keyword xml:lang="it">evento</dcat:keyword>
     <rdfs:comment xml:lang="en">Classification of the public events</rdfs:comment>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_Turtle"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/251794"/>
+    <rdfs:comment xml:lang="it">Classificazione degli eventi pubblici</rdfs:comment>
+    <rdfs:label xml:lang="en">Public Event</rdfs:label>
+    <rdfs:label xml:lang="it">Evento Pubblico</rdfs:label>
+    <dct:title xml:lang="en">Types of Public Events</dct:title>
     <dct:title xml:lang="it">Classificazione dei tipi di eventi pubblici</dct:title>
-    <dcat:keyword xml:lang="it">evento pubblico</dcat:keyword>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dcat:keyword xml:lang="it">tempo libero</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_CSV"/>
-    <dcat:keyword xml:lang="en">event</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_CSV"/>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_XML"/>
+    <dct:description xml:lang="en">Classification of the types of Public Events. The classification is aligned with schema.org.</dct:description>
+    <dct:description xml:lang="it">Classificazione dei tipi di eventi pubblici. La classificazione è allineata a schema.org</dct:description>
+    <xkos:numberOfLevels>2</xkos:numberOfLevels>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
     <dct:identifier>agid:D.11</dct:identifier>
+    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/251915"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/251794"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/251889"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:keyword xml:lang="it">evento pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="it">evento</dcat:keyword>
+    <dcat:keyword xml:lang="en">turismo</dcat:keyword>
+    <dcat:keyword xml:lang="it">tempo libero</dcat:keyword>
+    <dcat:keyword xml:lang="en">public event</dcat:keyword>
+    <dcat:keyword xml:lang="en">event</dcat:keyword>
+    <dcat:keyword xml:lang="en">tourism</dcat:keyword>
+    <dcat:keyword xml:lang="en">spare time</dcat:keyword>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_Turtle"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_XML"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_JSON_LD"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_CSV"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEvent_XLSX"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_XLSX"/>
+    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_CSV"/>
+    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-17</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-12</dct:modified>
+    <owl:versionInfo>0.1</owl:versionInfo>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent">
-    <dct:identifier>7</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/73_MusicTour"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/72_Concert"/>
-    <skos:notation>7</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="it">Evento Musicale</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/74_MusicGala"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/71_MusicFestival"/>
-    <skos:closeMatch rdf:resource="http://schema.org/MusicEvent"/>
-    <skos:prefLabel xml:lang="en">Musical Event</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/75_MusicAudition"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/12_BookPresentation">
-    <skos:prefLabel xml:lang="en">Book Presentation</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Prensentazione libro</skos:prefLabel>
-    <dct:identifier>1.2</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://schema.org/LiteraryEvent"/>
-    <skos:notation>1.2</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/12_BookPresentation"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/15_TheathralShow"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/17_CinemaProjection"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/16_DanceShow"/>
-    <skos:prefLabel xml:lang="it">Evento Culturale</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/13_Conference"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/19_Festival"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/11_Exposure"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/110_GuidedTour"/>
-    <skos:prefLabel xml:lang="en">Cultural Event</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/111_FreeTour"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/18_CulturalCelebration"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/112_Course"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/114_Award"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/113_Review"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/14_PublicLeReading"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/116_Contest"/>
-    <dct:identifier>1</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>1</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/52_EcumenicalCelebration">
-    <skos:notation>5.2</skos:notation>
-    <skos:prefLabel xml:lang="it">Celebrazione Ecumenica</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Ecumenical Celebration</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>5.2</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/41_Summit">
-    <skos:prefLabel xml:lang="en">Summit / G7 / G20</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>4.1</skos:notation>
-    <skos:prefLabel xml:lang="it">Summit / G7 / G20</skos:prefLabel>
-    <dct:identifier>4.1</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/111_FreeTour">
-    <skos:notation>1.11</skos:notation>
-    <skos:prefLabel xml:lang="en">Free Tour</skos:prefLabel>
-    <dct:identifier>1.11</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="it">Visita Libera</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/74_MusicGala">
-    <skos:prefLabel xml:lang="en">Music Gala</skos:prefLabel>
-    <skos:notation>7.4</skos:notation>
-    <dct:identifier>7.4</dct:identifier>
-    <skos:prefLabel xml:lang="it">Galà Musicale</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/113_Review">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Review</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Rassegna</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>1.13</dct:identifier>
-    <skos:notation>1.13</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_CSV">
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the mapping between the types of public events and schema.org</dct:description>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla mappatura tra i tipi di eventi pubblici e schema.org</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione CSV della mappatura tra tipi di eventi pubblici e schema.org </dct:title>
-    <dct:title xml:lang="en">CSV distribution of the mapping between  types of public events - schema.org</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.csv"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/38_Parade">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>3.8</dct:identifier>
-    <skos:definition xml:lang="en">For instance, the parade of the Italian carnival wagons</skos:definition>
-    <skos:notation>3.8</skos:notation>
-    <skos:prefLabel xml:lang="en">Parade</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:definition xml:lang="it">Per esempio la sfilata dei carri di carnevale</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Sfilata</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_CSV">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">CSV distribution for the types of public events</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/public-event-types/public-event-types.csv"/>
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
-    <dct:title xml:lang="it">Distribuzione CSV per classificazione tipi di eventi pubblici </dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/115_Contest">
-    <skos:notation>1.15</skos:notation>
-    <skos:prefLabel xml:lang="it">Concorso</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>1.15</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="en">Contest</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/61_BusinessMeeting">
-    <skos:relatedMatch rdf:resource="http://schema.org/DeliveryEvent"/>
-    <skos:notation>6.1</skos:notation>
-    <dct:identifier>6.1</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Business Meeting</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <skos:prefLabel xml:lang="it">Meeting d'affari</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/18_CulturalCelebration">
-    <skos:prefLabel xml:lang="en">Cultural Celebration</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Celebrazione Culturale</skos:prefLabel>
-    <skos:definition xml:lang="it">Per esempio, celebrazione della nascita di Dante, celebrazione del centenario dell'unità di Italia</skos:definition>
-    <skos:notation>1.8</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>1.8</dct:identifier>
-    <skos:definition xml:lang="en">For instance, the celebration of Dante's birth , the celebration of centenary of Italian national unity</skos:definition>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/114_Award">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/14_PublicLeReading">
-    <dct:identifier>1.4</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.14</skos:notation>
+    <dct:identifier>1.14</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Lettura Pubblica</skos:prefLabel>
-    <skos:notation>1.4</skos:notation>
-    <skos:prefLabel xml:lang="en">Public Reading</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/53_JubileeAudience">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Udienza Giubilare</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>5.3</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <skos:notation>5.3</skos:notation>
-    <skos:prefLabel xml:lang="en">Jubilee Audience</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/22_Race">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
-    <skos:prefLabel xml:lang="en">Race</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Corsa</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>2.2</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>2.2</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/13_Conference">
-    <skos:prefLabel xml:lang="en">Seminar / Conference / Workshop / Webinar /Symposium</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:relatedMatch rdf:resource="http://schema.org/EducationEvent"/>
-    <skos:relatedMatch rdf:resource="http://schema.org/PublicationEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:notation>1.3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>1.3</dct:identifier>
-    <skos:prefLabel xml:lang="it">Seminario / Conferenza /Workshop / Webinar / Simposio</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/11_Exposure">
-    <skos:relatedMatch rdf:resource="http://schema.org/VisualArtsEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>1.1</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:prefLabel xml:lang="en">Exposure</skos:prefLabel>
-    <skos:definition xml:lang="it">Può indicare qualunque mostra d'arte</skos:definition>
-    <skos:notation>1.1</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Mostra</skos:prefLabel>
-    <skos:definition xml:lang="en">It can be used to indicate any art exposure</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/54_Jubilee"/>
-    <skos:prefLabel xml:lang="it">Evento Religioso</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/53_JubileeAudience"/>
-    <skos:notation>5</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/51_SaintFeast"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/58_ReligiousGathering"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/56_Procession"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>5</dct:identifier>
-    <skos:prefLabel xml:lang="en">Religious Event</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/55_ReligiousDialogue"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/59_Sanctification"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/52_EcumenicalCelebration"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/57_ReligiousReading"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent">
-    <skos:prefLabel xml:lang="en">Sport Event</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/22_Race"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/21_Match"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/26_SportsAward"/>
-    <dct:identifier>2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Evento Sportivo</skos:prefLabel>
-    <skos:notation>2</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/25_SportGathering"/>
-    <skos:closeMatch rdf:resource="http://schema.org/SportsEvent"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/23_Competition"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/24_SportGala"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>agid</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/19_Festival">
-    <skos:notation>1.9</skos:notation>
-    <dct:identifier>1.9</dct:identifier>
-    <skos:prefLabel xml:lang="it">Festival</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Festival</skos:prefLabel>
-    <skos:closeMatch rdf:resource="http://schema.org/Festival"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Assegnazione Premio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Award</skos:prefLabel>
+    <skos:definition xml:lang="it">Per esempio, David Di Donatello, Premio Letterario, Premio Giornalistico</skos:definition>
+    <skos:definition xml:lang="en">For instance, 'David di Donatello',  Literary prize, Journalism prize</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/23_Competition">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
     <skos:notation>2.3</skos:notation>
     <dct:identifier>2.3</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
     <skos:prefLabel xml:lang="it">Gara / Competizione / Torneo</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Competition</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/72_Concert">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>7.2</skos:notation>
-    <dct:identifier>7.2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Concerto</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Concert</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/26_SportsAward">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>2.6</skos:notation>
-    <skos:prefLabel xml:lang="en">Sports Awerd</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>2.6</dct:identifier>
-    <skos:prefLabel xml:lang="it">Assegnazione Premio Sportivo</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/15_TheathralShow">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>1.5</skos:notation>
-    <skos:prefLabel xml:lang="en">Theathral Show</skos:prefLabel>
-    <dct:identifier>1.5</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="it">Spettacolo Teatrale</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:closeMatch rdf:resource="http://schema.org/TheaterEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/25_SportGathering">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="en">Sport Gathering</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
-    <dct:identifier>2.5</dct:identifier>
-    <skos:prefLabel xml:lang="it">Raduno Sportivo</skos:prefLabel>
-    <skos:notation>2.5</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/51_SaintFeast">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>5.1</dct:identifier>
-    <skos:prefLabel xml:lang="it">Festa di un Santo / Festa Patronale</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>5.1</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <skos:prefLabel xml:lang="en">Saint Feast</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/66_Market">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:relatedMatch rdf:resource="http://schema.org/FoodEvent"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <skos:prefLabel xml:lang="en">Market</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:relatedMatch rdf:resource="http://schema.org/SaleEvent"/>
-    <skos:prefLabel xml:lang="it">Mercato / Mercatino</skos:prefLabel>
-    <dct:identifier>6.6</dct:identifier>
-    <skos:notation>6.6</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_XLSX">
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the mapping between the types of public events and schema.org</dct:description>
-    <dct:title xml:lang="it">Distribuzione XLSX della mappatura tra tipi di eventi pubblici e schema.org </dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla mappatura tra i tipi di eventi pubblici e schema.org</dct:description>
-    <dct:title xml:lang="en">XLSX distribution of the mapping between  types of public events - schema.org</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.xlsx"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/42_Forum">
-    <skos:notation>4.2</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent"/>
-    <skos:prefLabel xml:lang="it">Forum</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Forum</skos:prefLabel>
-    <dct:identifier>4.2</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/62_Convention"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>6</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/61_BusinessMeeting"/>
-    <dct:identifier>6</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/66_Market"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/65_PanelDiscussion"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/64_Exhibition"/>
-    <skos:prefLabel xml:lang="it">Evento di affari-commerciale</skos:prefLabel>
-    <skos:closeMatch rdf:resource="http://schema.org/BusinessEvent"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/63_Expo"/>
-    <skos:prefLabel xml:lang="en">Business Event</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/36_HistoricalTournament">
-    <skos:prefLabel xml:lang="it">Torneo Storico / Palio</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Historical Tournament</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-    <dct:identifier>3.6</dct:identifier>
-    <skos:notation>3.6</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/57_ReligiousReading">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <dct:identifier>5.7</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>5.7</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Religious Reading</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Lettura Religiosa</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/24_SportGala">
-    <skos:prefLabel xml:lang="it">Galà Sportivo</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>2.4</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>2.4</dct:identifier>
-    <skos:prefLabel xml:lang="en">Sport Gala</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/37_SocialCelebration">
-    <skos:notation>3.7</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Social Celebration</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:definition xml:lang="en">For instance, the celebration of the Italian republic</skos:definition>
-    <dct:identifier>3.7</dct:identifier>
-    <skos:definition xml:lang="it">Per esempio la festa della repubblica</skos:definition>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Celebrazione Sociale</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/21_Match">
-    <skos:prefLabel xml:lang="en">Match</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>2.1</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>2.1</dct:identifier>
-    <skos:prefLabel xml:lang="it">Partita</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/63_Expo">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <skos:notation>6.3</skos:notation>
-    <skos:prefLabel xml:lang="en">Global Expo</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>6.3</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Esposizione / Esposizione Globale</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/56_Procession">
-    <skos:prefLabel xml:lang="it">Processione</skos:prefLabel>
-    <skos:notation>5.6</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <dct:identifier>5.6</dct:identifier>
-    <skos:prefLabel xml:lang="en">Procession</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/35_Commemoration"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/37_SocialCelebration"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/34_Inauguration"/>
-    <skos:prefLabel xml:lang="it">Evento Sociale</skos:prefLabel>
-    <skos:relatedMatch rdf:resource="http://schema.org/ChildrenEvent"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/38_Parade"/>
-    <skos:prefLabel xml:lang="en">Social Event</skos:prefLabel>
-    <skos:notation>3</skos:notation>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/32_DebateMeeting"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:cloaseMatch rdf:resource="http://schema.org/SocialEvent"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/33_Demonstration"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/31_LocalFestival"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/36_HistoricalTournament"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>3</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/114_Award">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:prefLabel xml:lang="en">Award</skos:prefLabel>
-    <skos:definition xml:lang="en">For instance, 'David di Donatello',  Literary prize, Journalism prize</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Assegnazione Premio</skos:prefLabel>
-    <skos:definition xml:lang="it">Per esempio, David Di Donatello, Premio Letterario, Premio Giornalistico</skos:definition>
-    <skos:notation>1.14</skos:notation>
-    <dct:identifier>1.14</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/16_DanceShow">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>1.6</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:prefLabel xml:lang="it">Spettacolo di Danza</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Dance Show</skos:prefLabel>
-    <skos:closeMatch rdf:resource="http://schema.org/DanceEvent"/>
-    <skos:notation>1.6</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/32_DebateMeeting">
-    <skos:prefLabel xml:lang="en">Debate / Meeting</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Dibattito / Incontro</skos:prefLabel>
-    <skos:notation>3.2</skos:notation>
-    <dct:identifier>3.2</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/71_MusicFestival">
-    <skos:prefLabel xml:lang="en">Music Festival</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Festival Musicale</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>7.1</dct:identifier>
-    <skos:notation>7.1</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/58_ReligiousGathering">
-    <skos:prefLabel xml:lang="it">Raduno Religioso</skos:prefLabel>
-    <dct:identifier>5.8</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>5.8</skos:notation>
-    <skos:definition xml:lang="en">For instance the gathering of youth</skos:definition>
-    <skos:prefLabel xml:lang="en">Religious Gathering</skos:prefLabel>
-    <skos:definition xml:lang="it">Per esempio il raduno della gioventù cattolica</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/33_Demonstration">
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-    <skos:prefLabel xml:lang="it">Manifestazione</skos:prefLabel>
-    <skos:notation>3.3</skos:notation>
-    <dct:identifier>3.3</dct:identifier>
-    <skos:prefLabel xml:lang="en">Demonstration</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent">
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/42_Forum"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>4</dct:identifier>
-    <skos:notation>4</skos:notation>
-    <skos:prefLabel xml:lang="it">Evento Politico</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/41_Summit"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Political Event</skos:prefLabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/75_MusicAudition">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>7.5</dct:identifier>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
     <skos:notation>7.5</skos:notation>
+    <dct:identifier>7.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
     <skos:prefLabel xml:lang="it">Audizione Musicale</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
     <skos:prefLabel xml:lang="en">Music Audition</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/64_Exhibition">
-    <skos:closeMarch rdf:resource="http://schema.org/ExhibitionEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:notation>6.4</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Fiera / Salone</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <dct:identifier>6.4</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Exhibition</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/65_PanelDiscussion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>6.5</dct:identifier>
-    <skos:prefLabel xml:lang="it">Tavola Rotonda</skos:prefLabel>
-    <skos:notation>6.5</skos:notation>
-    <skos:prefLabel xml:lang="en">Panel Discussion</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/62_Convention">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>6.2</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <dct:identifier>6.2</dct:identifier>
-    <skos:prefLabel xml:lang="it">Convention</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Convention</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/73_MusicTour">
-    <dct:identifier>7.3</dct:identifier>
-    <skos:prefLabel xml:lang="it">Tour Musicale</skos:prefLabel>
-    <skos:notation>7.3</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="en">Music Tour</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/31_LocalFestival">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>3.1</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>3.1</skos:notation>
-    <skos:prefLabel xml:lang="it">Sagra</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-    <skos:prefLabel xml:lang="en">Local Festival</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_XLSX">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:downloadURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/public-event-types/public-event-types.xlsx"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
-    <dct:title xml:lang="en">XLSX distribution for the types of public events</dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-    <dct:title xml:lang="it">Distribuzione XLSX per classificazione tipi di eventi pubblici </dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_XML">
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML per classificazione tipi di eventi pubblici </dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.rdf"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
-    <dct:title xml:lang="en">RDF/XML distribution for the types of public events</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/17_CinemaProjection">
-    <skos:closeMatch rdf:resource="http://schema.org/ComedyEvent"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Cinema Projection</skos:prefLabel>
-    <skos:closeMatch rdf:resource="http://schema.org/ScreeningEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Proiezione Cinematografica</skos:prefLabel>
-    <dct:identifier>1.7</dct:identifier>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <skos:notation>1.7</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_JSON_LD">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">JSON_LD distribution for the types of public events</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.jsonld"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD per classificazione tipi di eventi pubblici </dct:title>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-    <dct:identifier>PCM</dct:identifier>
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>agid</dct:identifier>
+    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/35_Commemoration">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>3.5</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <dct:identifier>3.5</dct:identifier>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Commemoration</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Commemorazione</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_Turtle">
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_CSV">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution for the types of public events</dct:title>
+    <dct:title xml:lang="it">Distribuzione CSV della mappatura tra tipi di eventi pubblici e schema.org </dct:title>
+    <dct:title xml:lang="en">CSV distribution of the mapping between  types of public events - schema.org</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla mappatura tra i tipi di eventi pubblici e schema.org</dct:description>
+    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the mapping between the types of public events and schema.org</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
     <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle per classificazione tipi di eventi pubblici </dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/public-event-types/public-event-types.ttl"/>
-    <dcat:accessURL rdf:resource="https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/public-event-types"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_XML">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione RDF/XML per classificazione tipi di eventi pubblici </dct:title>
+    <dct:title xml:lang="en">RDF/XML distribution for the types of public events</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
+    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.rdf"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>3</skos:notation>
+    <dct:identifier>3</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/31_LocalFestival"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/32_DebateMeeting"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/33_Demonstration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/34_Inauguration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/35_Commemoration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/36_HistoricalTournament"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/37_SocialCelebration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/38_Parade"/>
+    <skos:cloaseMatch rdf:resource="http://schema.org/SocialEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/ChildrenEvent"/>
+    <skos:prefLabel xml:lang="it">Evento Sociale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Social Event</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/34_Inauguration">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.4</skos:notation>
     <dct:identifier>3.4</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:notation>3.4</skos:notation>
     <skos:prefLabel xml:lang="it">Inaugurazione</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Inauguration</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/59_Sanctification">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/18_CulturalCelebration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="en">Sanctification</skos:prefLabel>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.8</skos:notation>
+    <dct:identifier>1.8</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Celebrazione Culturale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cultural Celebration</skos:prefLabel>
+    <skos:definition xml:lang="it">Per esempio, celebrazione della nascita di Dante, celebrazione del centenario dell'unità di Italia</skos:definition>
+    <skos:definition xml:lang="en">For instance, the celebration of Dante's birth , the celebration of centenary of Italian national unity</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/54_Jubilee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.4</skos:notation>
+    <dct:identifier>5.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Giubileo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jubilee</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/110_GuidedTour">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.10</skos:notation>
+    <dct:identifier>1.10</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Visita Guidata</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guided Tour</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/41_Summit"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/42_Forum"/>
+    <skos:notation>4</skos:notation>
+    <dct:identifier>4</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Evento Politico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Political Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/59_Sanctification">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
     <skos:notation>5.9</skos:notation>
     <dct:identifier>5.9</dct:identifier>
     <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
     <skos:prefLabel xml:lang="it">Santificazione</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Sanctification</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>1</skos:notation>
+    <dct:identifier>1</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/11_Exposure"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/12_BookPresentation"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/13_Conference"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/14_PublicLeReading"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/15_TheathralShow"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/16_DanceShow"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/17_CinemaProjection"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/18_CulturalCelebration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/19_Festival"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/110_GuidedTour"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/111_FreeTour"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/112_Course"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/113_Review"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/114_Award"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/116_Contest"/>
+    <skos:prefLabel xml:lang="it">Evento Culturale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cultural Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/57_ReligiousReading">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.7</skos:notation>
+    <dct:identifier>5.7</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Lettura Religiosa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Religious Reading</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/32_DebateMeeting">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.2</skos:notation>
+    <dct:identifier>3.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Dibattito / Incontro</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Debate / Meeting</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/37_SocialCelebration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.7</skos:notation>
+    <dct:identifier>3.7</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Celebrazione Sociale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Social Celebration</skos:prefLabel>
+    <skos:definition xml:lang="it">Per esempio la festa della repubblica</skos:definition>
+    <skos:definition xml:lang="en">For instance, the celebration of the Italian republic</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>2</skos:notation>
+    <dct:identifier>2</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/21_Match"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/22_Race"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/23_Competition"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/24_SportGala"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/25_SportGathering"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/26_SportsAward"/>
+    <skos:closeMatch rdf:resource="http://schema.org/SportsEvent"/>
+    <skos:prefLabel xml:lang="it">Evento Sportivo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sport Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/51_SaintFeast">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.1</skos:notation>
+    <dct:identifier>5.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Festa di un Santo / Festa Patronale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Saint Feast</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/25_SportGathering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
+    <skos:notation>2.5</skos:notation>
+    <dct:identifier>2.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Raduno Sportivo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sport Gathering</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/26_SportsAward">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
+    <skos:notation>2.6</skos:notation>
+    <dct:identifier>2.6</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Assegnazione Premio Sportivo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sports Awerd</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/17_CinemaProjection">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:closeMatch rdf:resource="http://schema.org/ComedyEvent"/>
+    <skos:closeMatch rdf:resource="http://schema.org/ScreeningEvent"/>
+    <skos:notation>1.7</skos:notation>
+    <dct:identifier>1.7</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Proiezione Cinematografica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cinema Projection</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/110_GuidedTour">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/58_ReligiousGathering">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>1.10</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">Guided Tour</skos:prefLabel>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
-    <skos:prefLabel xml:lang="it">Visita Guidata</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
-    <dct:identifier>1.10</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/54_Jubilee">
-    <skos:notation>5.4</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Giubileo</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Jubilee</skos:prefLabel>
     <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
-    <dct:identifier>5.4</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>5.8</skos:notation>
+    <dct:identifier>5.8</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Raduno Religioso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Religious Gathering</skos:prefLabel>
+    <skos:definition xml:lang="it">Per esempio il raduno della gioventù cattolica</skos:definition>
+    <skos:definition xml:lang="en">For instance the gathering of youth</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/56_Procession">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.6</skos:notation>
+    <dct:identifier>5.6</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Processione</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Procession</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/71_MusicFestival">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
+    <skos:notation>7.1</skos:notation>
+    <dct:identifier>7.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Festival Musicale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Music Festival</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEventMapping_XLSX">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione XLSX della mappatura tra tipi di eventi pubblici e schema.org </dct:title>
+    <dct:title xml:lang="en">XLSX distribution of the mapping between  types of public events - schema.org</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla mappatura tra i tipi di eventi pubblici e schema.org</dct:description>
+    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the mapping between the types of public events and schema.org</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types-alignment-schemaorg.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>6</skos:notation>
+    <dct:identifier>6</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/61_BusinessMeeting"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/62_Convention"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/63_Expo"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/64_Exhibition"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/65_PanelDiscussion"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/66_Market"/>
+    <skos:closeMatch rdf:resource="http://schema.org/BusinessEvent"/>
+    <skos:prefLabel xml:lang="it">Evento di affari-commerciale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Business Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/115_Contest">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.15</skos:notation>
+    <dct:identifier>1.15</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Concorso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contest</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/14_PublicLeReading">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.4</skos:notation>
+    <dct:identifier>1.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Lettura Pubblica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Public Reading</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/112_Course">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/CourseInstance"/>
+    <skos:notation>1.12</skos:notation>
+    <dct:identifier>1.12</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Corso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Course</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/65_PanelDiscussion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:notation>6.5</skos:notation>
+    <dct:identifier>6.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Tavola Rotonda</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Panel Discussion</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/33_Demonstration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.3</skos:notation>
+    <dct:identifier>3.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Manifestazione</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Demonstration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>7</skos:notation>
+    <dct:identifier>7</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/71_MusicFestival"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/72_Concert"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/73_MusicTour"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/74_MusicGala"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/75_MusicAudition"/>
+    <skos:closeMatch rdf:resource="http://schema.org/MusicEvent"/>
+    <skos:prefLabel xml:lang="it">Evento Musicale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Musical Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/111_FreeTour">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.11</skos:notation>
+    <dct:identifier>1.11</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Visita Libera</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Free Tour</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/11_Exposure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/VisualArtsEvent"/>
+    <skos:notation>1.1</skos:notation>
+    <dct:identifier>1.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Mostra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Exposure</skos:prefLabel>
+    <skos:definition xml:lang="it">Può indicare qualunque mostra d'arte</skos:definition>
+    <skos:definition xml:lang="en">It can be used to indicate any art exposure</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_RDF_Turtle">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione RDF/Turtle per classificazione tipi di eventi pubblici </dct:title>
+    <dct:title xml:lang="en">RDF/Turtle distribution for the types of public events</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
+    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.ttl"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/52_EcumenicalCelebration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.2</skos:notation>
+    <dct:identifier>5.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Celebrazione Ecumenica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ecumenical Celebration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/38_Parade">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.8</skos:notation>
+    <dct:identifier>3.8</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Sfilata</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Parade</skos:prefLabel>
+    <skos:definition xml:lang="it">Per esempio la sfilata dei carri di carnevale</skos:definition>
+    <skos:definition xml:lang="en">For instance, the parade of the Italian carnival wagons</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/66_Market">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/SaleEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/FoodEvent"/>
+    <skos:notation>6.6</skos:notation>
+    <dct:identifier>6.6</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Mercato / Mercatino</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Market</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/15_TheathralShow">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:closeMatch rdf:resource="http://schema.org/TheaterEvent"/>
+    <skos:notation>1.5</skos:notation>
+    <dct:identifier>1.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Spettacolo Teatrale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Theathral Show</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/22_Race">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
+    <skos:notation>2.2</skos:notation>
+    <dct:identifier>2.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Corsa</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Race</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/16_DanceShow">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:closeMatch rdf:resource="http://schema.org/DanceEvent"/>
+    <skos:notation>1.6</skos:notation>
+    <dct:identifier>1.6</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Spettacolo di Danza</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dance Show</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/61_BusinessMeeting">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/DeliveryEvent"/>
+    <skos:notation>6.1</skos:notation>
+    <dct:identifier>6.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Meeting d'affari</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Business Meeting</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/21_Match">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
+    <skos:notation>2.1</skos:notation>
+    <dct:identifier>2.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Partita</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Match</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/19_Festival">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:closeMatch rdf:resource="http://schema.org/Festival"/>
+    <skos:notation>1.9</skos:notation>
+    <dct:identifier>1.9</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Festival</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Festival</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>banche dati e open data</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_CSV">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione CSV per classificazione tipi di eventi pubblici </dct:title>
+    <dct:title xml:lang="en">CSV distribution for the types of public events</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
+    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/public-event-types/public-event-types.csv"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/36_HistoricalTournament">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.6</skos:notation>
+    <dct:identifier>3.6</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Torneo Storico / Palio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Historical Tournament</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/13_Conference">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/EducationEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/PublicationEvent"/>
+    <skos:notation>1.3</skos:notation>
+    <dct:identifier>1.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Seminario / Conferenza /Workshop / Webinar / Simposio</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Seminar / Conference / Workshop / Webinar /Symposium</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/31_LocalFestival">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.1</skos:notation>
+    <dct:identifier>3.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Sagra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Local Festival</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>PCM</dct:identifier>
+    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/72_Concert">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
+    <skos:notation>7.2</skos:notation>
+    <dct:identifier>7.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Concerto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Concert</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/41_Summit">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent"/>
+    <skos:notation>4.1</skos:notation>
+    <dct:identifier>4.1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Summit / G7 / G20</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Summit / G7 / G20</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/24_SportGala">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/2_SportEvent"/>
+    <skos:notation>2.4</skos:notation>
+    <dct:identifier>2.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Galà Sportivo</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sport Gala</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/113_Review">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:notation>1.13</skos:notation>
+    <dct:identifier>1.13</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Rassegna</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Review</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/12_BookPresentation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/1_CulturalEvent"/>
+    <skos:relatedMatch rdf:resource="http://schema.org/LiteraryEvent"/>
+    <skos:notation>1.2</skos:notation>
+    <dct:identifier>1.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Prensentazione libro</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Book Presentation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/42_Forum">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/4_PoliticalEvent"/>
+    <skos:notation>4.2</skos:notation>
+    <dct:identifier>4.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Forum</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Forum</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/64_Exhibition">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:closeMarch rdf:resource="http://schema.org/ExhibitionEvent"/>
+    <skos:notation>6.4</skos:notation>
+    <dct:identifier>6.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Fiera / Salone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Exhibition</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:notation>5</skos:notation>
+    <dct:identifier>5</dct:identifier>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/51_SaintFeast"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/52_EcumenicalCelebration"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/53_JubileeAudience"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/54_Jubilee"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/55_ReligiousDialogue"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/56_Procession"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/57_ReligiousReading"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/58_ReligiousGathering"/>
+    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/59_Sanctification"/>
+    <skos:prefLabel xml:lang="it">Evento Religioso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Religious Event</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_JSON_LD">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione JSON_LD per classificazione tipi di eventi pubblici </dct:title>
+    <dct:title xml:lang="en">JSON_LD distribution for the types of public events</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
+    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/public-event-types/public-event-types.jsonld"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/53_JubileeAudience">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.3</skos:notation>
+    <dct:identifier>5.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Udienza Giubilare</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jubilee Audience</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/74_MusicGala">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
+    <skos:notation>7.4</skos:notation>
+    <dct:identifier>7.4</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Galà Musicale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Music Gala</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/PublicEvent_XLSX">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title xml:lang="it">Distribuzione XLSX per classificazione tipi di eventi pubblici </dct:title>
+    <dct:title xml:lang="en">XLSX distribution for the types of public events</dct:title>
+    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di eventi pubblici</dct:description>
+    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to types of public events</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+    <dcat:downloadURL rdf:resource="https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/public-event-types/public-event-types.xlsx"/>
+    <dcat:accessURL rdf:resource="https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/public-event-types"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+    <dct:identifier>SKOS</dct:identifier>
+    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/55_ReligiousDialogue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/5_ReligiousEvent"/>
+    <skos:notation>5.5</skos:notation>
+    <dct:identifier>5.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Dialogo Religioso</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Religious Dialogue</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/35_Commemoration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/3_SocialEvent"/>
+    <skos:notation>3.5</skos:notation>
+    <dct:identifier>3.5</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Commemorazione</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Commemoration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/62_Convention">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:notation>6.2</skos:notation>
+    <dct:identifier>6.2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Convention</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Convention</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/73_MusicTour">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/7_MusicEvent"/>
+    <skos:notation>7.3</skos:notation>
+    <dct:identifier>7.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Tour Musicale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Music Tour</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/public-event-types/63_Expo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/public-event-types/6_BusinessEvent"/>
+    <skos:notation>6.3</skos:notation>
+    <dct:identifier>6.3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Esposizione / Esposizione Globale</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Global Expo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
   </rdf:Description>
 </rdf:RDF>

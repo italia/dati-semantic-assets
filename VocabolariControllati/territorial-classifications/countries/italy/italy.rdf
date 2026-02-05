@@ -1,297 +1,198 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:l0="https://w3id.org/italia/onto/l0/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:l0="https://w3id.org/italia/onto/l0/"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle">
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
-    <dct:title xml:lang="en">RDF/Turtle distribution of the Italy controlled vocabulary</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"/>
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sul paese italia</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/country_JSON_LD">
-    <dct:title xml:lang="it">Distribuzione JSON-LD del vocabolario controllato sul paese italia</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">JSON-LD distribution of the Italy controlled vocabulary</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-    <dct:identifier>SKOS</dct:identifier>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>PCM</dct:identifier>
-    <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/country_RDF_XML">
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sul paese italia</dct:title>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf"/>
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
-    <dct:title xml:lang="en">RDF/XML distribution of the Italy controlled vocabulary</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <dct:identifier>agid</dct:identifier>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA">
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <clvapit:identifierType>ISO 3166-1 alpha-3</clvapit:identifierType>
-    <l0:identifier>ITA</l0:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <vcard:fn>banche dati e open data</vcard:fn>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy">
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/country_RDF_XML"/>
-    <dcat:keyword xml:lang="en">Italy</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <rdfs:label xml:lang="en">Controlled Vocabulary for Italy</rdfs:label>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <dct:description xml:lang="en">Controlled Vocabulary for describing Italy as country</dct:description>
-    <dct:title xml:lang="en">Controlled Vocabulary for Italy</dct:title>
-    <dct:identifier>agid:D.13</dct:identifier>
-    <dct:title xml:lang="it">Vocabolario Controllato Paese Italia</dct:title>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
-    <rdfs:isDefinedBy rdf:resource="http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"/>
-    <dcat:keyword xml:lang="it">Paese</dcat:keyword>
-    <dct:description xml:lang="it">Vocabolario controllato per descrivere il paese italia</dct:description>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:title xml:lang="en">Controlled Vocabulary for Italy</dct:title>
+    <dct:title xml:lang="it">Vocabolario Controllato Paese Italia</dct:title>
+    <rdfs:label xml:lang="en">Controlled Vocabulary for Italy</rdfs:label>
+    <rdfs:label xml:lang="it">Vocabolario Controllato Paese Italia</rdfs:label>
+    <dct:description xml:lang="it">Vocabolario controllato per descrivere il paese italia</dct:description>
+    <dct:description xml:lang="en">Controlled Vocabulary for describing Italy as country</dct:description>
+    <rdfs:comment xml:lang="it">Vocabolario controllato per descrivere il paese italia</rdfs:comment>
+    <rdfs:comment xml:lang="en">Controlled Vocabulary for describing Italy as country</rdfs:comment>
+    <xkos:numberOfLevels>1</xkos:numberOfLevels>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>agid:D.13</dct:identifier>
+    <ndc:keyConcept>italy</ndc:keyConcept>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:creator>
+      <dcatapit:Agent rdf:about="http://dati.gov.it/data/resource/Amministrazione/td_PCM">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>PCM</dct:identifier>
+        <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
+        <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
+      </dcatapit:Agent>
+    </dct:creator>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <rdfs:isDefinedBy rdf:resource="http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"/>
+    <dcat:keyword xml:lang="it">Italia</dcat:keyword>
+    <dcat:keyword xml:lang="it">Paese</dcat:keyword>
+    <dcat:keyword xml:lang="en">Italy</dcat:keyword>
+    <dcat:keyword xml:lang="en">Country</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle del vocabolario controllato sul paese italia</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of the Italy controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/turtle of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/country_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML del vocabolario controllato sul paese italia</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of the Italy controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/country_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON-LD del vocabolario controllato sul paese italia</dct:title>
+        <dct:title xml:lang="en">JSON-LD distribution of the Italy controlled vocabulary</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sul paese Italia</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON-LD of the Linked Open Dataset of Italy controlled vocabulary </dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-12</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-03</dct:modified>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
-    <rdfs:comment xml:lang="it">Vocabolario controllato per descrivere il paese italia</rdfs:comment>
-    <xkos:numberOfLevels>1</xkos:numberOfLevels>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/country_JSON_LD"/>
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="it">Italia</dcat:keyword>
-    <dct:creator rdf:resource="http://dati.gov.it/data/resource/Amministrazione/td_PCM"/>
-    <dcat:keyword xml:lang="en">Country</dcat:keyword>
-    <rdfs:label xml:lang="it">Vocabolario Controllato Paese Italia</rdfs:label>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-    <rdfs:comment xml:lang="en">Controlled Vocabulary for describing Italy as country</rdfs:comment>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
     <owl:versionInfo xml:lang="it">2.0 - allineamento con l'ontologia CLV</owl:versionInfo>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA">
-    <l0:name xml:lang="de">Italien</l0:name>
-    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
-    <l0:name xml:lang="fr">Italie</l0:name>
-    <skos:prefLabel xml:lang="fr">Italie</skos:prefLabel>
-    <l0:name xml:lang="en">Italy</l0:name>
-    <skos:notation>ITA</skos:notation>
-    <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
-    <l0:name xml:lang="it">Italia</l0:name>
-    <skos:prefLabel xml:lang="de">Italien</skos:prefLabel>
-    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Italia</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitomponent"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#LicenseDocument">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/LicenseDocument">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT">
-    <l0:identifier>IT</l0:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
-    <clvapit:identifierType>ISO 3166-1 alpha-2</clvapit:identifierType>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#referenceDoc">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Feature"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AdminUnitomponent"/>
+    <skos:notation>ITA</skos:notation>
+    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+    <clvapit:hasIdentifier>
+      <clvapit:Identifier rdf:about="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA">
+        <clvapit:identifierType>ISO 3166-1 alpha-3</clvapit:identifierType>
+        <l0:identifier>ITA</l0:identifier>
+      </clvapit:Identifier>
+    </clvapit:hasIdentifier>
+    <clvapit:hasIdentifier>
+      <clvapit:Identifier rdf:about="https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT">
+        <clvapit:identifierType>ISO 3166-1 alpha-2</clvapit:identifierType>
+        <l0:identifier>IT</l0:identifier>
+      </clvapit:Identifier>
+    </clvapit:hasIdentifier>
+    <l0:name xml:lang="it">Italia</l0:name>
+    <l0:name xml:lang="en">Italy</l0:name>
+    <l0:name xml:lang="fr">Italie</l0:name>
+    <l0:name xml:lang="de">Italien</l0:name>
+    <skos:prefLabel xml:lang="it">Italia</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Italie</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Italien</skos:prefLabel>
+  </skos:Concept>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#LicenseDocument"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <rdfs:Property rdf:about="http://dati.gov.it/onto/dcatapit#referenceDoc"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
 </rdf:RDF>
-

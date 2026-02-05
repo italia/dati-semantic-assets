@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix cpavit: <https://w3id.org/italia/onto/CPV/> .
+@prefix person: <http://www.w3.org/ns/person#> .
 @base <https://w3id.org/italia/onto/CPV-aligns> .
 
 <https://w3id.org/italia/onto/CPV-aligns> rdf:type owl:Ontology ;
@@ -12,7 +13,7 @@
                                          owl:versionIRI <https://w3id.org/italia/onto/CPV-aligns/0.1> ;
 
                                          owl:imports <https://w3id.org/italia/onto/CPV> ,
-                                                     <http://www.w3.org/2004/02/skos/core#> ,
+                                                     <http://www.w3.org/ns/person#> ,
                                                      <http://xmlns.com/foaf/0.1/> .
 
 
@@ -55,23 +56,12 @@
 
 
 
-###  https://w3id.org/italia/onto/CPV/name
-
-<https://w3id.org/italia/onto/CPV/name> owl:equivalentProperty <http://xmlns.com/foaf/0.1/name> .
-
-
-
 ###  http://xmlns.com/foaf/0.1/familyName
 
 
 
 
 ###  http://xmlns.com/foaf/0.1/givenName
-
-
-
-
-###  http://xmlns.com/foaf/0.1/name
 
 
 
@@ -87,12 +77,8 @@
 
 ###  https://w3id.org/italia/onto/CPV/Person
 
-<https://w3id.org/italia/onto/CPV/Person> owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> .
-
-
-###  https://w3id.org/italia/onto/CPV/ParentalRelationshipType
-
-<https://w3id.org/italia/onto/CPV/ParentalRelationshipType> owl:subClassOf <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/italia/onto/CPV/Person> rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+<https://w3id.org/italia/onto/CPV/Person> rdfs:subClassOf <http://www.w3.org/ns/person#Person> .
 
 
 

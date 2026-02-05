@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/> .
+@prefix : <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/> .
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -13,15 +13,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> . 
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 @prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
 @prefix l0: <https://w3id.org/italia/onto/l0/> .
 @prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
 @prefix covapit: <https://w3id.org/italia/onto/COV/> .
 @prefix trapit: <https://w3id.org/italia/onto/Transparency/> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
-@base <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus/> .
+@base <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/> .
 
 
 
@@ -96,183 +97,195 @@ dct:identifier a rdfs:Property .
 covapit:LegalStatus a rdfs:Class .
 clvapit:hasRankOrder a rdfs:Property .
 
+ndc:keyConcept a rdfs:Property .
 
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus> a skos:ConceptScheme, adms:Asset, dcatapit:Dataset ; 
-	
-	dct:title "Controlled Vocabulary for trasparency PA"@en , 
-		"Vocabolario Controllato Trasparenza PA"@it ; 
-	rdfs:label "Controlled Vocabulary for trasparency PA"@en , 
-		"Vocabolario Controllato Trasparenza PA"@it ; 
-	
+
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> a skos:ConceptScheme, adms:Asset, dcatapit:Dataset ;
+
+	dct:title "Controlled Vocabulary for transparency PA"@en ,
+		"Vocabolario Controllato Trasparenza PA"@it ;
+	rdfs:label "Controlled Vocabulary for transparency PA"@en ,
+		"Vocabolario Controllato Trasparenza PA"@it ;
+
 	dct:description "Vocabolario controllato sulla classificazione della trasparenza per le pubbliche amministrazioni. Il contenuto implementa la struttura della sezione \"Amministrazione Trasparente\" del sito istituzionale delle pubbliche amministrazioni, così come previsto dal Dlgs. n.33/2013 aggiornato dal Dlgs. n.97/2016 e descritto nel dettaglio dalla delibera ANAC 1310/2016. Questo vocabolario è utilizzato dall'ontologia della trasparenza per le pubbliche amministrazioni."@it ,
-		"Controlled vocabulary on the classification for pubblic administration trasparency. The content implements the structure of the \"Transparent Administration\" section of the official public administrations' website as expected according to Dlgs. n.33/2013, Dlgs. n.97/2016 and ANAC guideline. This vocabulary is used by the ontology for public administration transparency."@en ;
-	rdfs:comment "Classification of transparency for public administrations"@en , 
-		"Classificazione della trasparenza per le pubbliche amministrazioni"@it ; 
-	
-	skos:prefLabel "Controlled Vocabulary for trasparency PA"@en , 
-		"Vocabolario Controllato Trasparenza PA"@it ; 
-	
-	xkos:numberOfLevels "2" ; 
-	dct:identifier "ANAC:transparency-titulus" ; 
-	dct:type <http://purl.org/adms/assettype/Taxonomy> ; 
-	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ; 
-	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TECH> ; 
-	dct:subject  <http://eurovoc.europa.eu/5936>, <http://eurovoc.europa.eu/5937> ; 
-	dct:conformsTo  <http://dati.gov.it/data/resource/Standard/SKOS> ; 
-	dct:language <http://publications.europa.eu/resource/authority/language/ITA> , 
-		<http://publications.europa.eu/resource/authority/language/ENG> , 
-		<http://publications.europa.eu/resource/authority/language/DEU> ; 
+		"Controlled vocabulary on the classification for pubblic administration transparency. The content implements the structure of the \"Transparent Administration\" section of the official public administrations' website as expected according to Dlgs. n.33/2013, Dlgs. n.97/2016 and ANAC guideline. This vocabulary is used by the ontology for public administration transparency."@en ;
+	rdfs:comment "Classification of transparency for public administrations"@en ,
+		"Classificazione della trasparenza per le pubbliche amministrazioni"@it ;
 
-	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ; 
-	dcat:keyword 
+	skos:prefLabel "Controlled Vocabulary for transparency PA"@en ,
+		"Vocabolario Controllato Trasparenza PA"@it ;
+
+	xkos:numberOfLevels "2" ;
+	ndc:keyConcept "transparency-titulus" ;
+	dct:identifier "ANAC:transparency-titulus" ;
+	dct:type <http://purl.org/adms/assettype/Taxonomy> ;
+	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+	dct:subject  <http://eurovoc.europa.eu/5936>, <http://eurovoc.europa.eu/5937> ;
+	dct:conformsTo  <https://w3id.org/italia/data/standard/SKOS> ;
+	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ,
+		<http://publications.europa.eu/resource/authority/language/ENG> ,
+		<http://publications.europa.eu/resource/authority/language/DEU> ;
+
+	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+	dcat:keyword
 		"trasparenza"@it, "trasparenza pubblica amministrazione"@it, "trasparenza PA"@it, "trasparenza pa"@it,
 		"transparency"@en, "transparency for public administration"@en ;
-	
-	dcat:contactPoint <http://dati.gov.it/data/resource/ContactPoint/voc_AgID> ; 
-	dct:rightsHolder <http://spcdata.digitpa.gov.it/Amministrazione/cvtiap> ; 
-	dct:publisher <http://spcdata.digitpa.gov.it/Amministrazione/agid> ; 
-	
-	dct:issued "2018-12-13"^^xsd:date ; 
-	dct:modified "2020-04-08"^^xsd:date ; 
-	owl:versionInfo "versione 1.0"@it, "version 1.0"@en ;
-	
-	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ; 
-	
+
+	dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
+	dct:rightsHolder <https://w3id.org/italia/data/public-organization/cvtiap> ;
+	dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+	dct:creator <https://w3id.org/italia/data/public-organization/agid> ;
+
+	dct:issued "2018-12-13"^^xsd:date ;
+	dct:modified "2024-09-20"^^xsd:date ;
+	owl:versionInfo "versione 1.0 - metadati aggiornati"@it, "version 1.0 - updated metadata"@en ;
+
+	rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency> ;
+
 	skos:editorialNote """
-	
+
 		Il presente vocabolario fa riferimento alle linee guida recanti indicazioni sull’attuazione degli obblighi di pubblicità, trasparenza e diffusione di informazioni contenute nel d.lgs. 33/2013 come modificato dal d.lgs. 97/2016, reperibili sul sito ANAC all'indirizzo: https://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAutorita/_Atto?ca=6667.
-		
+
 		IL vocabolario formalizza l'architettura di informazione proposta per i siti della Pubblica Amministrazione, sezione \"Amministrazione Trasparente\", nell'allegato al Decreto Legislativo 14 marzo 2013, n. 33 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33), tenendo conto delle successive modifiche introdotte con Decreto Legislativo 25 maggio 2016, n. 97 (http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97).
-		
+
 		Per le traduzioni si sono riutilizzati ove possibile lavori precedenti, integrando voci pre-esistenti nei siti citati di seguito.
-	
+
 		Per la traduzione in Inglese:
 	    - [CNR](https://www.cnr.it/en/amministrazione-trasparente)
 		- [Ministero Esteri](https://www.esteri.it/mae/en/trasparenza_comunicazioni_legali/)
 		- [SIAE](https://www.siae.it/en/transparent-siae/transparent-siae)
-		
+
 		Per la traduzione in Tedesco:
 		- [provincia bolzano](http://www.provinz.bz.it/de/default.asp)
-		
+
 	"""@it ;
-	
-	dcat:distribution 
-		<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_RDF_Turtle>, 
-		<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_RDF_XML>, 
-		<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_JSON_LD>, 
-		<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_CSV> , 
-		<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_XLSX> ; 
-	
-	skos:hasTopConcept 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/01>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/02>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/03>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/04>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/05>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/06>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/07>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/08>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/09>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/10>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/11>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/12>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/13>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/14>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/15>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/16>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/17>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/18>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/19>, 
-		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/20>, 
+
+	dcat:distribution
+		<https://w3id.org/italia/data/distribution/TransparencyClassification_RDF_Turtle>,
+		<https://w3id.org/italia/data/distribution/TransparencyClassification_RDF_XML>,
+		<https://w3id.org/italia/data/distribution/TransparencyClassification_JSON_LD>,
+		<https://w3id.org/italia/data/distribution/TransparencyClassification_CSV> ,
+		<https://w3id.org/italia/data/distribution/TransparencyClassification_XLSX> ;
+
+	skos:hasTopConcept
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/01>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/02>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/03>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/04>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/05>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/06>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/07>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/08>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/09>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/10>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/11>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/12>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/13>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/14>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/15>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/16>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/17>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/18>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/19>,
+		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/20>,
 		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/21>,
 		<https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus/22> ;
-	
+
 	.
 
 
-<http://spcdata.digitpa.gov.it/Amministrazione/agid> a dcatapit:Agent, foaf:Agent ; 
-	dct:identifier "agid" ;  
-	foaf:name "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en ; 
-	. 
-<http://dati.gov.it/data/resource/ContactPoint/voc_AgID> a dcatapit:Organization , vcard:Organization, vcard:Kind ; 
-	vcard:fn "banche dati e open data" ; 
-	vcard:hasEmail <mailto:info@dati.gov.it> ; 
-	. 
-	
-<http://spcdata.digitpa.gov.it/Amministrazione/cvtiap> a dcatapit:Agent, foaf:Agent ; 
-	dct:identifier "ANAC" ;  
-	foaf:name "ANAC - Autorità nazionale anticorruzione"@it ; 
-	. 
- 
-<http://dati.gov.it/data/resource/Standard/SKOS> a dcatapit:Standard, dct:Standard ; 
-	dct:identifier "SKOS" ;  
-	dct:title "Simple Knowledge Organization System - SKOS" ; 
-	dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ; 
-	. 
+<https://w3id.org/italia/data/public-organization/agid>  a dcatapit:Agent , foaf:Agent ;
+		dct:identifier "agid" ;
+		foaf:name "Agenzia per l'Italia Digitale"@it ,
+			 				"Italian Digital Agency"@en .
+
+<https://w3id.org/italia/data/contact-point/onto-agid> a dcatapit:Organization ,
+                                                                vcard:Kind ,
+                                                                vcard:Organization ;
+                                                       vcard:fn "banche dati e open data" ;
+                                                       vcard:hasEmail <mailto:info@dati.gov.it> .
 
 
-<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_RDF_Turtle> a dcatapit:Distribution  ; 
-	dct:title "Distribuzione RDF/Turtle classificazione della trasparenza per le pubbliche amministrazioni"@it , "RDF/Turtle Classification of transparency for public administrations"@en ; 
-	dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency classification for public administrations"@en ; 
-	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ; 
-	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ; 
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.ttl> ; 
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ; 
-	. 
-  
-<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_RDF_XML> a dcatapit:Distribution  ; 
-	dct:title "Distribuzione RDF/XML classificazione della trasparenza per le pubbliche amministrazioni"@it , "RDF/XML Classification of transparency for public administrations"@en ; 
-	dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency classification for public administrations"@en ; 
-	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ; 
-	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ; 
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.rdf> ; 
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ; 
-	. 
 
-<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_JSON_LD> a dcatapit:Distribution  ; 
-	dct:title "Distribuzione JSON_LD classificazione della trasparenza per le pubbliche amministrazioni"@it , "JSON_LD Classification of transparency for public administrations"@en ; 
-	dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the Transparency classification for public administrations"@en ; 
-	dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ; 
-	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ; 
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.jsonld> ; 
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ; 
-	. 
+<https://w3id.org/italia/data/public-organization/cvtiap> a dcatapit:Agent , foaf:Agent ;
+		dct:identifier "cvtiap" ;
+		foaf:name "A.N.AC. - Autorità Nazionale Anticorruzione"@it .
 
-<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_CSV> a dcatapit:Distribution  ; 
-	dct:title "Distribuzione CSV classificazione della trasparenza per le pubbliche amministrazioni"@it , "CSV Classification of transparency for public administrations"@en ; 
-	dct:description "Questa è la distribuzione CSV del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in CSV of the Linked Open Dataset of the Transparency classification for public administrations"@en ; 
-	dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ; 
-	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ; 
-	dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.csv> ; 
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ; 
-	. 
- 
-<http://dati.gov.it/data/resource/Distribution/TransparencyClassification_XLSX> a dcatapit:Distribution  ; 
-	dct:title "Distribuzione XLSX cclassificazione della trasparenza per le pubbliche amministrazioni"@it , "XLSX Classification of transparency for public administrations"@en ; 
-	dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in XLSX of the Linked Open Dataset of the Transparency classification for public administrations"@en ; 
-	dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ; 
-	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ; 	
-	dcat:downloadURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.xlsx> ; 
-	dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-transparency> ; 
-	. 
-	
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent , foaf:Agent ;
+dct:identifier "PCM-1RSIZZ" ;
+foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+"Digital Transformation Department of the Presidency of the Council of Ministers"@en .
+
+
+<https://w3id.org/italia/data/standard/SKOS> a dcatapit:Standard, dct:Standard ;
+	dct:identifier "SKOS" ;
+	dct:title "Simple Knowledge Organization System - SKOS" ;
+	dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+
+
+<https://w3id.org/italia/data/distribution/TransparencyClassification_RDF_Turtle> a dcatapit:Distribution  ;
+	dct:title "Distribuzione RDF/Turtle classificazione della trasparenza per le pubbliche amministrazioni"@it , "RDF/Turtle Classification of transparency for public administrations"@en ;
+	dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency classification for public administrations"@en ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.ttl> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	.
+
+<hhttps://w3id.org/italia/data/distribution/TransparencyClassification_RDF_XML> a dcatapit:Distribution  ;
+	dct:title "Distribuzione RDF/XML classificazione della trasparenza per le pubbliche amministrazioni"@it , "RDF/XML Classification of transparency for public administrations"@en ;
+	dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the RDF/Turtle distribution of the Linked Open Data dataset of the Transparency classification for public administrations"@en ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.rdf> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	.
+
+<https://w3id.org/italia/data/distribution/TransparencyClassification_JSON_LD> a dcatapit:Distribution  ;
+	dct:title "Distribuzione JSON_LD classificazione della trasparenza per le pubbliche amministrazioni"@it , "JSON_LD Classification of transparency for public administrations"@en ;
+	dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the Transparency classification for public administrations"@en ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.jsonld> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	.
+
+<https://w3id.org/italia/data/distribution/TransparencyClassification_CSV> a dcatapit:Distribution  ;
+	dct:title "Distribuzione CSV classificazione della trasparenza per le pubbliche amministrazioni"@it , "CSV Classification of transparency for public administrations"@en ;
+	dct:description "Questa è la distribuzione CSV del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in CSV of the Linked Open Dataset of the Transparency classification for public administrations"@en ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+	dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.csv> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	.
+
+<https://w3id.org/italia/data/distribution/TransparencyClassification_XLSX> a dcatapit:Distribution  ;
+	dct:title "Distribuzione XLSX cclassificazione della trasparenza per le pubbliche amministrazioni"@it , "XLSX Classification of transparency for public administrations"@en ;
+	dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione della trasparenza per le pubbliche amministrazioni"@it , "This is the distribution in XLSX of the Linked Open Dataset of the Transparency classification for public administrations"@en ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
+	dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+	dcat:downloadURL <https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-transparency/transparency-titulus/transparency-titulus.xlsx> ;
+	dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-transparency> ;
+	.
+
 
 
 :01 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "01" ;
-	dct:identifier "01" ; 
+	dct:identifier "01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:narrower :0101, :0102, :0103;
 	skos:prefLabel 	"Disposizioni generali"@it ,
 					"General provisions"@en ,
 					"Allgemeine bestimmungen"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0101 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "01.01" ;
-	dct:identifier "01.01" ; 
+	dct:identifier "01.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :01  ;
 	skos:prefLabel 	 "Piano triennale per la prevenzione della corruzione e della trasparenza"@it ,
@@ -280,11 +293,11 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Dreijahresplan für die Vorbeugung der Korruption und die Transparenz"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. a"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 :0102 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "01.02" ;
-	dct:identifier "01.02" ; 
+	dct:identifier "01.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :01  ;
 	skos:prefLabel 	 "Atti generali"@it ,
@@ -292,12 +305,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Allgemeine Akten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 12, c. 1,2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0103 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "01.03" ;
-	dct:identifier "01.03" ; 
+	dct:identifier "01.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :01  ;
 	skos:prefLabel 	 "Oneri informativi per cittadini e imprese"@it ,
@@ -305,24 +318,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Informationspflichten für Bürgerinnen und Bürger und Unternehmen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 34, c. 1,2,"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :02 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02" ;
-	dct:identifier "02" ; 
+	dct:identifier "02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:narrower :0201, :0202, :0203, :0204, :0205;
 	skos:prefLabel 	 "Organizzazione"@it ,
 					 "Organization"@en ,
 					 "Organisation"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0201 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02.01" ;
-	dct:identifier "02.01" ; 
+	dct:identifier "02.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :02  ;
 	skos:prefLabel 	 "Titolari di incarichi politici, di amministrazione, di direzione o di governo"@it ,
@@ -331,12 +344,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 13, c. 1, lett. a"@it,
 					"D.lgs. n. 33/2013, Art. 14"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0202 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02.02" ;
-	dct:identifier "02.02" ; 
+	dct:identifier "02.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :02  ;
 	skos:prefLabel 	 "Sanzioni per mancata comunicazione dei dati"@it ,
@@ -344,12 +357,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Strafen für die fehlende Mitteilung von Daten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 47"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0203 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02.03" ;
-	dct:identifier "02.03" ; 
+	dct:identifier "02.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :02  ;
 	skos:prefLabel 	 "Rendiconti gruppi consiliari regionali/provinciali"@it ,
@@ -357,13 +370,13 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Rechnungslegung der Fraktionen Region/Landtag"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 28, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 
 :0204 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02.04" ;
-	dct:identifier "02.04" ; 
+	dct:identifier "02.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :02  ;
 	skos:prefLabel 	 "Articolazione degli uffici"@it ,
@@ -371,12 +384,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Gliederung der Ämter"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 13, c. 1, lett. b,c"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0205 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "02.05" ;
-	dct:identifier "02.05" ; 
+	dct:identifier "02.05" ;
 	l0:positionInSequence "5"^^xsd:int;
 	skos:broader :02  ;
 	skos:prefLabel 	 "Telefono o posta elettronica"@it ,
@@ -384,25 +397,25 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Telefon und elektronische Post"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 13, c. 1, lett. d"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :03 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "03" ;
-	dct:identifier "03" ; 
+	dct:identifier "03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:narrower :0301;
 	skos:prefLabel 	 "Consulenti e collaboratori"@it ,
 					 "Consultants and collaborators"@en ,
-					 "Aufträge für Beratung und Mitarbeit"@de ;	
+					 "Aufträge für Beratung und Mitarbeit"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 15, c. 1,2"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0301 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "03.01" ;
-	dct:identifier "03.01" ; 
+	dct:identifier "03.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :03  ;
 	skos:prefLabel 	 "Titolari di incarichi di collaborazione o consulenza"@it ,
@@ -410,12 +423,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Inhaber von Aufträgen zur Zusammenarbeit und Beratung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 15, c. 1, lett. c"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0302 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "03.02" ;
-	dct:identifier "03.02" ; 
+	dct:identifier "03.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :03  ;
 	skos:prefLabel 	 "Amministratori ed esperti"@it ,
@@ -423,12 +436,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Administratoren und Experten"@de ;
 	skos:scopeNote "D.lgs. n. 97/2016, Art. 14, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0303 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "03.03" ;
-	dct:identifier "03.03" ; 
+	dct:identifier "03.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :03  ;
 	skos:prefLabel 	 "Amministratori ed esperti ex art. 32 d.l. 90/2014"@it ,
@@ -436,24 +449,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Administratoren und Experten ex art. 32 d.l. 90/2014"@de ;
 	skos:scopeNote "D.lgs. n. 97/2016, Art. 14, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :04 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04" ;
-	dct:identifier "04" ; 
+	dct:identifier "04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:narrower :0401, :0402, :0403, :0404, :0405, :0406, :0407, :0408, :0409, :0410, :0411, :0412;
-	skos:prefLabel 	 "Personale"@it ,	
-					 "Personnel"@en ,	
+	skos:prefLabel 	 "Personale"@it ,
+					 "Personnel"@en ,
 					 "Personal"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0401 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.01" ;
-	dct:identifier "04.01" ; 
+	dct:identifier "04.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Titolari di incarichi dirigenziali amministrativi di vertice"@it ,
@@ -462,12 +475,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 15, c. 1,2"@it ,
 					"D.lgs. n. 33/2013, Art. 41, c. 2,3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0402 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.02" ;
-	dct:identifier "04.02" ; 
+	dct:identifier "04.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Titolari di incarichi dirigenziali (dirigenti non generali)"@it ,
@@ -477,12 +490,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 20, c. 3"@it ,
 					"D.lgs. n. 33/2013, Art. 14, c. 1ter"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0403 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.03" ;
-	dct:identifier "04.03" ; 
+	dct:identifier "04.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Dirigenti cessati"@it ,
@@ -490,12 +503,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Ausgeschiedene Führungskräfte"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. a,b,c,d,e,f"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0404 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.04" ;
-	dct:identifier "04.04" ; 
+	dct:identifier "04.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Sanzioni per mancata comunicazione dei dati"@it ,
@@ -503,12 +516,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Sanziuns ajache al n’é nia gnü lascé alsavëi i dac"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 47, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0405 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.05" ;
-	dct:identifier "04.05" ; 
+	dct:identifier "04.05" ;
 	l0:positionInSequence "5"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Posizioni organizzative"@it ,
@@ -516,12 +529,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Organisatorische Positionen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. d"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0406 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.06" ;
-	dct:identifier "04.06" ; 
+	dct:identifier "04.06" ;
 	l0:positionInSequence "6"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Dotazione organica"@it ,
@@ -529,12 +542,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Stellenplan"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 16, c. 1,2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0407 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.07" ;
-	dct:identifier "04.07" ; 
+	dct:identifier "04.07" ;
 	l0:positionInSequence "7"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Personale non a tempo indeterminato"@it ,
@@ -542,12 +555,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Personal mit nicht unbefristetem Arbeitsvertrag"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 17, c. 1,2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0408 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.08" ;
-	dct:identifier "04.08" ; 
+	dct:identifier "04.08" ;
 	l0:positionInSequence "8"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Tassi di assenza"@it ,
@@ -555,12 +568,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Abwesenheitsquoten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 16, c. 3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0409 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.09" ;
-	dct:identifier "04.09" ; 
+	dct:identifier "04.09" ;
 	l0:positionInSequence "9"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Incarichi conferiti e autorizzati ai dipendenti (dirigenti e non dirigenti)"@it ,
@@ -568,12 +581,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "An die Bediensteten erteilte und ermächtigte Aufträge"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 18, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0410 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.10" ;
-	dct:identifier "04.10" ; 
+	dct:identifier "04.10" ;
 	l0:positionInSequence "10"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Contrattazione collettiva"@it ,
@@ -581,12 +594,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Kollektivvertragsverhandlungen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 21, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0411 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.11" ;
-	dct:identifier "04.11" ; 
+	dct:identifier "04.11" ;
 	l0:positionInSequence "11"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "Contrattazione integrativa"@it ,
@@ -594,12 +607,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Ergänzende Kollektivvertragsverhandlungen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 21, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0412 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "04.12" ;
-	dct:identifier "04.12" ; 
+	dct:identifier "04.12" ;
 	l0:positionInSequence "12"^^xsd:int;
 	skos:broader :04  ;
 	skos:prefLabel 	 "OIV (Organismo Indipendente di Valutazione)"@it ,
@@ -607,52 +620,52 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Unabhängige Kontrollorgane"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. c"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
-	
+
 :05 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "05" ;
-	dct:identifier "05" ; 
+	dct:identifier "05" ;
 	l0:positionInSequence "5"^^xsd:int;
 	skos:narrower :0501  ;
-	skos:prefLabel 	 "Bandi di concorso"@it ,	
+	skos:prefLabel 	 "Bandi di concorso"@it ,
 					 "Competition announcements"@en ,
-					 "Wettbewerbe"@de ;	
+					 "Wettbewerbe"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 19"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0501 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "05.01" ;
-	dct:identifier "05.01" ; 
+	dct:identifier "05.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :05  ;
-	skos:prefLabel 	 "Bandi di concorso"@it ,	
+	skos:prefLabel 	 "Bandi di concorso"@it ,
 					 "Competition announcements"@en ,
-					 "Wettbewerbe"@de ;	
+					 "Wettbewerbe"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 19"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 
 :06 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06" ;
-	dct:identifier "06" ; 
+	dct:identifier "06" ;
 	l0:positionInSequence "6"^^xsd:int;
 	skos:narrower :0601, :0602, :0603, :0604, :0605;
 	skos:prefLabel 	 "Performance"@it ,
 					 "Performance"@en ,
 					 "Performance"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0601 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06.01" ;
-	dct:identifier "06.01" ; 
+	dct:identifier "06.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :06  ;
 	skos:prefLabel 	 "Sistema di misurazione e valutazione delle performance"@it ,
@@ -660,12 +673,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "System zur Messung und Bewertung der Performance"@de ;
 	skos:scopeNote "Par. 1, delib. CIVIT n.104/2010"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0602 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06.02" ;
-	dct:identifier "06.02" ; 
+	dct:identifier "06.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :06  ;
 	skos:prefLabel 	 "Piano delle Performance"@it ,
@@ -673,12 +686,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Performance Plan"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. b"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0603 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06.03" ;
-	dct:identifier "06.03" ; 
+	dct:identifier "06.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :06  ;
 	skos:prefLabel 	 "Relazioni sulle Performance"@it ,
@@ -686,12 +699,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Performance Bericht"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 10, c. 8, lett. b"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0604 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06.04" ;
-	dct:identifier "06.04" ; 
+	dct:identifier "06.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :06  ;
 	skos:prefLabel 	 "Ammontare complessivo dei premi"@it ,
@@ -699,12 +712,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Gesamtbetrag der Prämien"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 20, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0605 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "06.05" ;
-	dct:identifier "06.05" ; 
+	dct:identifier "06.05" ;
 	l0:positionInSequence "5"^^xsd:int;
 	skos:broader :06  ;
 	skos:prefLabel 	 "Dati relativi ai premi"@it ,
@@ -712,25 +725,25 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Daten zu den Prämien"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 20, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 
 :07 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "07" ;
-	dct:identifier "07" ; 
+	dct:identifier "07" ;
 	l0:positionInSequence "7"^^xsd:int;
 	skos:narrower :0701, :0702, :0703, :0704;
 	skos:prefLabel 	 "Enti controllati"@it ,
 					 "Controlled Institutions"@en ,
 					 "Kontrollierte Körperschaften"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0701 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "07.01" ;
-	dct:identifier "07.01" ; 
+	dct:identifier "07.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :07  ;
 	skos:prefLabel 	 "Enti pubblici vigilati"@it ,
@@ -739,12 +752,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 22, c. 1, lett. a"@it ,
 					"D.lgs. n. 33/2013, Art. 22, c. 2,3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :0702 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "07.02" ;
-	dct:identifier "07.02" ; 
+	dct:identifier "07.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :07  ;
 	skos:prefLabel 	 "Società partecipate"@it ,
@@ -753,12 +766,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 22, c. 1, lett. b"@it ,
 					"D.lgs. n. 33/2013, Art. 22, c. 2,3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0703 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "07.03" ;
-	dct:identifier "07.03" ; 
+	dct:identifier "07.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :07  ;
 	skos:prefLabel 	 "Enti di diritto privato controllati"@it ,
@@ -767,12 +780,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 22, c. 1, lett. c"@it ,
 					"D.lgs. n. 33/2013, Art. 22, c. 2,3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0704 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "07.04" ;
-	dct:identifier "07.04" ; 
+	dct:identifier "07.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :07  ;
 	skos:prefLabel 	 "Rappresentazione grafica"@it ,
@@ -780,24 +793,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Grafische Darstellung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 22, c. 1, lett. d"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :08 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "08" ;
-	dct:identifier "08" ; 
+	dct:identifier "08" ;
 	l0:positionInSequence "8"^^xsd:int;
 	skos:narrower :0801, :0802;
 	skos:prefLabel 	 "Attività e procedimenti"@it ,
 					 "Activity and procedures"@en ,
 					 "Verwaltungstätigkeiten und Verfahren"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0801 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "08.01" ;
-	dct:identifier "08.01" ; 
+	dct:identifier "08.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :08  ;
 	skos:prefLabel 	 "Tipologie di procedimento"@it ,
@@ -805,12 +818,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Verfahrensarten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 35, c. 1,2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :0802 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "08.02" ;
-	dct:identifier "08.02" ; 
+	dct:identifier "08.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :08  ;
 	skos:prefLabel 	 "Dichiarazioni sostitutive e acquisizione d'ufficio dei dati"@it ,
@@ -818,24 +831,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Ersatzerklärungen und Einholen der Daten von Amts wegen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 35, c. 3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :09 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "09" ;
-	dct:identifier "09" ; 
+	dct:identifier "09" ;
 	l0:positionInSequence "9"^^xsd:int;
 	skos:narrower :0901, :0902;
 	skos:prefLabel 	 "Provvedimenti"@it ,
 					 "Measures"@en ,
 					 "Maßnahmen"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :0901 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "09.01" ;
-	dct:identifier "09.01" ; 
+	dct:identifier "09.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :09  ;
 	skos:prefLabel 	 "Provvedimenti organi indirizzo politico"@it ,
@@ -843,12 +856,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Maßnahmen der politischen Organe"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 23, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :0902 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "09.02" ;
-	dct:identifier "09.02" ; 
+	dct:identifier "09.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :09  ;
 	skos:prefLabel 	 "Provvedimenti dirigenti amministrativi"@it ,
@@ -856,24 +869,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Maßnahmen der Führungskräfte"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 23, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :10 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "10" ;
-	dct:identifier "10" ; 
+	dct:identifier "10" ;
 	l0:positionInSequence "10"^^xsd:int;
 	skos:narrower :1001, :1002;
 	skos:prefLabel 	 "Bandi di gara e contratti"@it ,
 					 "Competition announcements and contracts"@en ,
 					 "Ausschreibungen und Verträge"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1001 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "10.01" ;
-	dct:identifier "10.01" ; 
+	dct:identifier "10.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :10  ;
 	skos:prefLabel 	 "Informazioni sulle singole procedure in formato tabellare"@it ,
@@ -883,37 +896,37 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 1, c. 32"@it ,
 					"D.lgs. n. 33/2013, Art. 37, c. 1, lett. a"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1002 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "10.02" ;
-	dct:identifier "10.02" ; 
+	dct:identifier "10.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :10  ;
 	skos:prefLabel 	 "Atti delle amministrazioni aggiudicatrici e degli enti aggiudicatori distintamente per ogni procedura"@it ,
-					 "Acts of contracting authorities and contracting entities separately for each procedure"@en , 
+					 "Acts of contracting authorities and contracting entities separately for each procedure"@en ,
 					 "Unterlagen der öffentlichen Auftraggeber und der auftraggebenden Körperschaften getrennt für jedes Verfahren"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 37, c. 1, lett. b"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :11 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "11" ;
-	dct:identifier "11" ; 
+	dct:identifier "11" ;
 	l0:positionInSequence "11"^^xsd:int;
 	skos:narrower :1101, :1102;
 	skos:prefLabel 	 "Sovvenzioni, contributi, sussidi, vantaggi economici"@it ,
 					 "Subsidies, contributions, grants, economic advantages"@en ,
 					 "Subventionen, Beiträge, Zuschüsse und wirtschaftliche Vergünstigungen"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1101 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "11.01" ;
-	dct:identifier "11.01" ; 
+	dct:identifier "11.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :11  ;
 	skos:prefLabel 	 "Criteri e modalità"@it ,
@@ -921,12 +934,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Kriterien und Modalitäten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 26, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1102 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "11.02" ;
-	dct:identifier "11.02" ; 
+	dct:identifier "11.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :11  ;
 	skos:prefLabel 	 "Atti di concessione"@it ,
@@ -935,24 +948,24 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 26, c. 2"@it ,
 					"D.lgs. n. 33/2013, Art. 27"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :12 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "12" ;
-	dct:identifier "12" ; 
+	dct:identifier "12" ;
 	l0:positionInSequence "12"^^xsd:int;
 	skos:narrower :1201, :1202;
 	skos:prefLabel 	 "Bilanci"@it ,
 					 "Budgets"@en ,
 					 "Bilanzen"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1201 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "12.01" ;
-	dct:identifier "12.01" ; 
+	dct:identifier "12.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :12  ;
 	skos:prefLabel 	 "Bilancio preventivo e consuntivo"@it ,
@@ -960,12 +973,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Haushaltsvoranschlag und Rechnungslegung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 29, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1202 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "12.02" ;
-	dct:identifier "12.02" ; 
+	dct:identifier "12.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :12  ;
 	skos:prefLabel 	 "Piano degli indicatori e dei risultati attesi di bilancio"@it ,
@@ -973,24 +986,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Kennzahlenplan und zu erwartende Haushaltsergebnisse"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 29, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :13 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "13" ;
-	dct:identifier "13" ; 
+	dct:identifier "13" ;
 	l0:positionInSequence "13"^^xsd:int;
 	skos:narrower :1301, :1302;
 	skos:prefLabel 	 "Beni immobili e gestione patrimonio"@it ,
 					 "Real estate and capital treatment"@en ,
 					 "Immobilien und Vermögensverwaltung"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1301 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "13.01" ;
-	dct:identifier "13.01" ; 
+	dct:identifier "13.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :13  ;
 	skos:prefLabel 	 "Patrimonio immobiliare"@it ,
@@ -998,12 +1011,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Immobilienvermögen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 30"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1302 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "13.02" ;
-	dct:identifier "13.02" ; 
+	dct:identifier "13.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :13  ;
 	skos:prefLabel 	 "Canoni di locazione o affitto"@it ,
@@ -1011,24 +1024,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Miet und Pachtzinse"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 30"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :14 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "14" ;
-	dct:identifier "14" ; 
+	dct:identifier "14" ;
 	l0:positionInSequence "14"^^xsd:int;
 	skos:narrower :1401, :1402, :1403;
 	skos:prefLabel 	 "Controlli e rilievi sull'amministrazione"@it ,
 					 "Checks and measurements about administration"@en ,
 					 "Kontrollen und Erhebungen über die Verwaltung"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :1401 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "14.01" ;
-	dct:identifier "14.01" ; 
+	dct:identifier "14.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :14  ;
 	skos:prefLabel 	 "Organismi dipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe"@it ,
@@ -1036,12 +1049,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Unabhängige Bewertungsstellen, Bewertungsgruppen oder andere Stellen mit ähnlichen Funktionen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 31"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1402 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "14.02" ;
-	dct:identifier "14.02" ; 
+	dct:identifier "14.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :14  ;
 	skos:prefLabel 	 "Organi di revisione amministrativa e contabile"@it ,
@@ -1049,12 +1062,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Verwaltungs und Rechnungsprüfungsstellen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 31"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1403 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "14.03" ;
-	dct:identifier "14.03" ; 
+	dct:identifier "14.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :14  ;
 	skos:prefLabel 	 "Corte dei conti"@it ,
@@ -1062,24 +1075,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Rechnungshof"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 31"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :15 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15" ;
-	dct:identifier "15" ; 
+	dct:identifier "15" ;
 	l0:positionInSequence "15"^^xsd:int;
 	skos:narrower :1501, :1502, :1503, :1504, :1505;
 	skos:prefLabel 	 "Servizi erogati"@it ,
 					 "Services provided"@en ,
 					 "Dienste und Leistungen der Verwaltung"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :1501 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.01" ;
-	dct:identifier "15.01" ; 
+	dct:identifier "15.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :15  ;
 	skos:prefLabel 	 "Carta dei servizi e standard di qualità"@it ,
@@ -1087,12 +1100,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Dienstcharta und Qualitätsstandards"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 32, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1502 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.02" ;
-	dct:identifier "15.02" ; 
+	dct:identifier "15.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :15  ;
 	skos:prefLabel 	 "Class action"@it ,
@@ -1101,12 +1114,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 198/2009, Art. 1, c. 2"@it ,
 					"D.lgs. n. 198/2009, Art. 4, c. 2,6"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :1503 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.03" ;
-	dct:identifier "15.03" ; 
+	dct:identifier "15.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :15  ;
 	skos:prefLabel 	 "Costi contabilizzati"@it ,
@@ -1115,12 +1128,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 32, c. 2, lett. a"@it ,
 					"D.lgs. n. 33/2013, Art. 10, c. 5"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1504 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.04" ;
-	dct:identifier "15.04" ; 
+	dct:identifier "15.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :15  ;
 	skos:prefLabel 	 "Liste di attesa"@it ,
@@ -1128,12 +1141,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Wartelisten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 41, c. 6,"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1505 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.05" ;
-	dct:identifier "15.05" ; 
+	dct:identifier "15.05" ;
 	l0:positionInSequence "5"^^xsd:int;
 	skos:broader :15  ;
 	skos:prefLabel 	 "Servizi in rete"@it ,
@@ -1141,12 +1154,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Online Dienste"@de ;
 	skos:scopeNote "D.lgs. n. 179/2016, Art. 8, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.		
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1506 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.06" ;
-	dct:identifier "15.06" ; 
+	dct:identifier "15.06" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :22  ;
 	skos:prefLabel 	 "Dati sui pagamenti"@it ,
@@ -1154,12 +1167,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Daten zu den Zahlungen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 4bis, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1507 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.07" ;
-	dct:identifier "15.07" ; 
+	dct:identifier "15.07" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :22  ;
 	skos:prefLabel 	 "Dati sui pagamenti del servizio sanitario nazionale"@it ,
@@ -1167,12 +1180,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Daten zu Zahlungen des nationalen Gesundheitsdienstes"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 36"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :1508 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.08" ;
-	dct:identifier "15.08" ; 
+	dct:identifier "15.08" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :22  ;
 	skos:prefLabel 	 "Indicatore di tempestività dei pagamenti"@it ,
@@ -1180,12 +1193,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Indikator zum Zahlungsverhalten der Verwaltung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 33"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :1509 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "15.09" ;
-	dct:identifier "15.09" ; 
+	dct:identifier "15.09" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :22  ;
 	skos:prefLabel 	 "Pagamenti informatici"@it ,
@@ -1193,27 +1206,27 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Elektronische Zahlungen"@de ;
 	skos:altLabel 	 "IBAN e pagamenti informatici"@it ,
 					 "IBAN and electronic payments"@en ,
-					 "IBAN und elektronische Zahlungen"@de ;					 
+					 "IBAN und elektronische Zahlungen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 36"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :16 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "16" ;
-	dct:identifier "16" ; 
+	dct:identifier "16" ;
 	l0:positionInSequence "17"^^xsd:int;
 	skos:narrower :1601, :1602, :1603;
 	skos:prefLabel 	 "Opere pubbliche"@it ,
 					 "Public works"@en ,
 					 "Öffentliche Bauten"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1601 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "16.01" ;
-	dct:identifier "16.01" ; 
+	dct:identifier "16.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :16  ;
 	skos:prefLabel 	 "Nuclei di valutazione e verifica degli investimenti pubblici"@it ,
@@ -1221,12 +1234,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Gruppe für die Evaluierung und Prüfung von öffentlichen Investitionen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 38, c. 1"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1602 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "16.02" ;
-	dct:identifier "16.02" ; 
+	dct:identifier "16.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :16  ;
 	skos:prefLabel 	 "Atti di programmazione delle opere pubbliche"@it ,
@@ -1234,12 +1247,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Planungsakte der öffentlichen Bauten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 38, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :1603 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "16.03" ;
-	dct:identifier "16.03" ; 
+	dct:identifier "16.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :16  ;
 	skos:prefLabel 	 "Tempi costi e indicatori di realizzazione delle opere pubbliche"@it ,
@@ -1247,12 +1260,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Zeiten Kosten und Kennzahlen für die Ausführung der öffentlichen Arbeiten"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 38, c. 2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :17 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "17" ;
-	dct:identifier "17" ; 
+	dct:identifier "17" ;
 	l0:positionInSequence "18"^^xsd:int;
 	skos:narrower :1701 ;
 	skos:prefLabel 	 "Pianificazione e governo del territorio"@it ,
@@ -1260,12 +1273,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Planung und Raumordnung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 39"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :1701 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "17.01" ;
-	dct:identifier "17.01" ; 
+	dct:identifier "17.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :17 ;
 	skos:prefLabel 	 "Pianificazione e governo del territorio"@it ,
@@ -1273,12 +1286,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Planung und Raumordnung"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 39"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :18 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "18" ;
-	dct:identifier "18" ; 
+	dct:identifier "18" ;
 	l0:positionInSequence "19"^^xsd:int;
 	skos:narrower :1801 ;
 	skos:prefLabel 	 "Informazioni ambientali"@it ,
@@ -1286,12 +1299,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Umweltinformationen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 40"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :1801 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "18.01" ;
-	dct:identifier "18.01" ; 
+	dct:identifier "18.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :18 ;
 	skos:prefLabel 	 "Informazioni ambientali"@it ,
@@ -1299,12 +1312,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Umweltinformationen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 40"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :19 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "19" ;
-	dct:identifier "19" ; 
+	dct:identifier "19" ;
 	l0:positionInSequence "20"^^xsd:int;
 	skos:narrower :1901 ;
 	skos:prefLabel 	 "Strutture sanitarie private accreditate"@it ,
@@ -1312,12 +1325,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Private akkreditierte Sanitätsstrukturen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 41, c. 4"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :1901 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "19.01" ;
-	dct:identifier "19.01" ; 
+	dct:identifier "19.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :19 ;
 	skos:prefLabel 	 "Strutture sanitarie private accreditate"@it ,
@@ -1325,12 +1338,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Private akkreditierte Sanitätsstrukturen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 41, c. 4"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :20 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "20" ;
-	dct:identifier "20" ; 
+	dct:identifier "20" ;
 	l0:positionInSequence "21"^^xsd:int;
 	skos:narrower :2001 ;
 	skos:prefLabel 	 "Interventi straordinari e di emergenza"@it ,
@@ -1338,12 +1351,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Außerordentliche Maßnahmen und Notfälle"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 42"@it ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :2001 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "20.01" ;
-	dct:identifier "20.01" ; 
+	dct:identifier "20.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :20 ;
 	skos:prefLabel 	 "Interventi straordinari e di emergenza"@it ,
@@ -1351,24 +1364,24 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Außerordentliche Maßnahmen und Notfälle"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 42"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :21 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "21" ;
-	dct:identifier "21" ; 
+	dct:identifier "21" ;
 	l0:positionInSequence "22"^^xsd:int;
 	skos:narrower :2101, :2102, :2103, :2104;
 	skos:prefLabel 	 "Altri contenuti"@it ,
 					 "Other contents"@en ,
 					 "Weitere Inhalte"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :2101 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "21.01" ;
-	dct:identifier "21.01" ; 
+	dct:identifier "21.01" ;
 	l0:positionInSequence "1"^^xsd:int;
 	skos:broader :21  ;
 	skos:prefLabel 	 "Prevenzione della Corruzione"@it ,
@@ -1378,12 +1391,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					"D.lgs. n. 33/2013, Art. 10, c. 8, lett. a"@it ,
 					"D.lgs. n. 33/2013, Art. 18, c. 5"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
-	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
+
 :2102 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "21.02" ;
-	dct:identifier "21.02" ; 
+	dct:identifier "21.02" ;
 	l0:positionInSequence "2"^^xsd:int;
 	skos:broader :21  ;
 	skos:prefLabel 	 "Accesso civico"@it ,
@@ -1391,12 +1404,12 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Vorbeugung der Korruption"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 5, c. 1,2"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
-	
+
 :2103 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "21.03" ;
-	dct:identifier "21.03" ; 
+	dct:identifier "21.03" ;
 	l0:positionInSequence "3"^^xsd:int;
 	skos:broader :21  ;
 	skos:prefLabel 	 "Accessibilità e Catalogo dei dati, metadati e banche dati"@it ,
@@ -1405,12 +1418,12 @@ clvapit:hasRankOrder a rdfs:Property .
 	skos:scopeNote 	"D.lgs. n. 33/2013, Art. 9, c. 7"@it ,
 					"D.lgs. n. 33/2013, Art. 53, c. 1bis"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
-.	
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
+.
 
 :2104 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "21.04" ;
-	dct:identifier "21.04" ; 
+	dct:identifier "21.04" ;
 	l0:positionInSequence "4"^^xsd:int;
 	skos:broader :21  ;
 	skos:prefLabel 	 "Dati ulteriori"@it ,
@@ -1418,17 +1431,17 @@ clvapit:hasRankOrder a rdfs:Property .
 					 "Zusätzliche Informationen"@de ;
 	skos:scopeNote "D.lgs. n. 33/2013, Art. 7bis, c. 3"@it ;
 	clvapit:hasRankOrder 2 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .
 
 :22 a skos:Concept, trapit:TransparencyDataTypology ;
 	skos:notation "22" ;
-	dct:identifier "22" ; 
+	dct:identifier "22" ;
 	l0:positionInSequence "16"^^xsd:int;
 	skos:narrower :1506, :1507, :1508, :1509;
 	skos:prefLabel 	 "Pagamenti dell'amministrazione"@it ,
 					 "Payments administration"@en ,
 					 "Zahlungen Der Verwaltung"@de ;
 	clvapit:hasRankOrder 1 ;
-	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> 
+	skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus>
 .

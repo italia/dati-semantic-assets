@@ -1,448 +1,352 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:adms="http://www.w3.org/ns/adms#"
-   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
-   xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-   xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ndc="https://w3id.org/italia/onto/NDC/"
+  xmlns:cpsvapit="https://w3id.org/italia/onto/CPSV/"
+  xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+  xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_JSON_LD">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
-    <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="en">JSON_LD distribution types of authentication for public services</dct:title>
-    <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.jsonld"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dct:title xml:lang="it">Distribuzione JSON_LD tipi autenticazione servizi pubblici</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/NONE">
-    <skos:prefLabel xml:lang="de">Keine - freier Zugang</skos:prefLabel>
-    <skos:prefLabel xml:lang="it">Nessuna - accesso libero</skos:prefLabel>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="en">None - free access</skos:prefLabel>
-    <skos:notation>NONE</skos:notation>
-    <dct:identifier>NONE</dct:identifier>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/MFA"/>
-    <skos:notation>USERID OTP BIO</skos:notation>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="de">Benutzer-ID, Einmalpasswort und biometrische Daten</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="it">Combinazione di più fattori: userid, one time password e strumenti di biometria</skos:definition>
-    <dct:identifier>USERID OTP BIO</dct:identifier>
-    <skos:definition xml:lang="en">Combination of different factors: userid,  one time password and biometric mechanisms</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:prefLabel xml:lang="it">User ID, One Time Password e Biometria</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">User ID, One Time Password and Biometric</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type">
-    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:keyword xml:lang="en">spid</dcat:keyword>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Authentication_XLSX"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dcat:contactPoint rdf:resource="http://dati.gov.it/data/resource/ContactPoint/voc_AgID"/>
+  <skos:ConceptScheme rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type">
     <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
-    <xkos:numberOfLevels>2</xkos:numberOfLevels>
-    <dcat:keyword xml:lang="it">spid</dcat:keyword>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_Turtle"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/NONE"/>
-    <rdfs:label xml:lang="en">Authentication Controlled Vocabulary</rdfs:label>
-    <dcat:keyword xml:lang="en">password</dcat:keyword>
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <rdfs:comment xml:lang="en">Controlled Vocabulary on the classification of the types of authentication. Currently, the vocabulary is used in the catalogue of public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
+    <rdfs:comment xml:lang="it">Vocabolario controllato della classificazione dei tipi di autenticazione. Attualmente il vocabolario è utilizzato nell'ambito dello sviluppo del catalogo servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
+    <dct:title xml:lang="en">Authentication Controlled Vocabulary</dct:title>
+    <dct:title xml:lang="it">Vocabolario Controllato sui tipi di autenticazione</dct:title>
     <dct:description xml:lang="en">Controlled Vocabulary on the classification of the types of authentication. Currently, the vocabulary is used in the catalogue of public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</dct:description>
+    <dct:description xml:lang="it">Vocabolario controllato della classificazione dei tipi di autenticazione. Attualmente il vocabolario è utilizzato nell'ambito dello sviluppo del catalogo servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
+    <rdfs:label xml:lang="en">Authentication Controlled Vocabulary</rdfs:label>
+    <rdfs:label xml:lang="it">Vocabolario Controllato sui tipi di autenticazione</rdfs:label>
+    <xkos:numberOfLevels>2</xkos:numberOfLevels>
+    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
+    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
+    <dct:identifier>agid:D.6</dct:identifier>
+    <ndc:keyConcept>authentication-type</ndc:keyConcept>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+        <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dct:publisher rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246051"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <dct:conformsTo>
+      <dcatapit:Standard rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <dct:identifier>SKOS</dct:identifier>
+        <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
+        <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
+      </dcatapit:Standard>
+    </dct:conformsTo>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-    <rdfs:comment xml:lang="en">Controlled Vocabulary on the classification of the types of authentication. Currently, the vocabulary is used in the catalogue of public services. The translations in Germany were provided by Ivo Planoetscher of the Autonomous Province of Bolzano</rdfs:comment>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:identifier>agid:D.6</dct:identifier>
-    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
-    <dct:type rdf:resource="http://purl.org/adms/assettype/Taxonomy"/>
-    <rdfs:comment xml:lang="it">Vocabolario controllato della classificazione dei tipi di autenticazione. Attualmente il vocabolario è utilizzato nell'ambito dello sviluppo del catalogo servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</rdfs:comment>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
-    <dcat:keyword xml:lang="it">password</dcat:keyword>
-    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Authentication_JSON_LD"/>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/246146"/>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Authentication_CSV"/>
     <dcat:keyword xml:lang="it">autenticazione</dcat:keyword>
-    <dct:subject rdf:resource="http://eurovoc.europa.eu/100169"/>
-    <adms:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/MFA"/>
-    <dct:title xml:lang="it">Vocabolario Controllato sui tipi di autenticazione</dct:title>
-    <dcat:distribution rdf:resource="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_XML"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA"/>
+    <dcat:keyword xml:lang="it">servizio pubblico</dcat:keyword>
+    <dcat:keyword xml:lang="it">spid</dcat:keyword>
+    <dcat:keyword xml:lang="it">password</dcat:keyword>
     <dcat:keyword xml:lang="it">carta nazionale servizi</dcat:keyword>
-    <dct:conformsTo rdf:resource="http://dati.gov.it/data/resource/Standard/SKOS"/>
-    <dct:title xml:lang="en">Authentication Controlled Vocabulary</dct:title>
-    <dct:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
-    <dct:description xml:lang="it">Vocabolario controllato della classificazione dei tipi di autenticazione. Attualmente il vocabolario è utilizzato nell'ambito dello sviluppo del catalogo servizi pubblici. Le traduzioni in tedesco sono state fornite da Ivo Planoetscher della Pronvicia Autonoma di Bolzano</dct:description>
-    <owl:versionInfo>0.1</owl:versionInfo>
-    <dcat:keyword xml:lang="en">public service</dcat:keyword>
-    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/22FAHW"/>
-    <rdfs:label xml:lang="it">Vocabolario Controllato sui tipi di autenticazione</rdfs:label>
-    <dcat:keyword xml:lang="en">national service card</dcat:keyword>
     <dcat:keyword xml:lang="en">authentication</dcat:keyword>
+    <dcat:keyword xml:lang="en">public service</dcat:keyword>
+    <dcat:keyword xml:lang="en">spid</dcat:keyword>
+    <dcat:keyword xml:lang="en">password</dcat:keyword>
+    <dcat:keyword xml:lang="en">national service card</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_Turtle">
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle tipi autenticazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution types of authentication for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.ttl"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_XML">
+        <dct:title xml:lang="it">Distribuzione RDF/XML tipi autenticazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution types of authentication for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.rdf"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_JSON_LD">
+        <dct:title xml:lang="it">Distribuzione JSON_LD tipi autenticazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">JSON_LD distribution types of authentication for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.jsonld"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_CSV">
+        <dct:title xml:lang="it">Distribuzione CSV tipi autenticazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">CSV distribution types of authentication for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.csv"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_XLSX">
+        <dct:title xml:lang="it">Distribuzione XLSX tipi autenticazione servizi pubblici</dct:title>
+        <dct:title xml:lang="en">XLSX distribution types of authentication for public services</dct:title>
+        <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
+        <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+        <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.xlsx"/>
+        <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <vcard:fn>banche dati e open data</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/NONE">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+        <skos:notation>NONE</skos:notation>
+        <dct:identifier>NONE</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:prefLabel xml:lang="it">Nessuna - accesso libero</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Keine - freier Zugang</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">None - free access</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+        <skos:notation>SFA</skos:notation>
+        <dct:identifier>SFA</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDPWD"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1"/>
+        <skos:prefLabel xml:lang="it">Autenticazione Singolo Fattore</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Single-Faktor-Authentifizierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Single Factor Authentication</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+        <skos:notation>2FA</skos:notation>
+        <dct:identifier>2FA</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP"/>
+        <skos:prefLabel xml:lang="it">Autenticazione a due fattori</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zwei-Faktor-Authentifizierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Two Factor authentication</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/22FAHW"/>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/MFA">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+        <skos:notation>MFA</skos:notation>
+        <dct:identifier>MFA</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO"/>
+        <skos:prefLabel xml:lang="it">Autenticazione multi-fattore</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Multi-Faktor-Authentifizierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Multi-factor authentication</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-20</dct:issued>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_XLSX">
-    <dct:title xml:lang="en">XLSX distribution types of authentication for public services</dct:title>
-    <dct:description xml:lang="en">This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:title xml:lang="it">Distribuzione XLSX tipi autenticazione servizi pubblici</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
-    <dct:description xml:lang="it">Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.xlsx"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA">
-    <skos:notation>SFA</skos:notation>
-    <dct:identifier>SFA</dct:identifier>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDPWD"/>
-    <skos:prefLabel xml:lang="en">Single Factor Authentication</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Single-Faktor-Authentifizierung</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-14</dct:modified>
+    <owl:versionInfo>0.1</owl:versionInfo>
+  </skos:ConceptScheme>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <skos:prefLabel xml:lang="it">Autenticazione Singolo Fattore</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_CSV">
-    <dct:description xml:lang="en">This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dct:title xml:lang="en">CSV distribution types of authentication for public services</dct:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.csv"/>
-    <dct:title xml:lang="it">Distribuzione CSV tipi autenticazione servizi pubblici</dct:title>
-    <dct:description xml:lang="it">Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_Turtle">
-    <dct:title xml:lang="it">Distribuzione RDF/Turtle tipi autenticazione servizi pubblici</dct:title>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.ttl"/>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
-    <dct:title xml:lang="en">RDF/Turtle distribution types of authentication for public services</dct:title>
-    <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA">
-    <dct:identifier>2FA</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Autenticazione a due fattori</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:notation>CNS</skos:notation>
+    <dct:identifier>CNS</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW">
+        <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+        <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+        <skos:notation>2FAHW</skos:notation>
+        <dct:identifier>2FAHW</dct:identifier>
+        <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS"/>
+        <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE"/>
+        <skos:prefLabel xml:lang="it">Autenticazione a due fattori hardware</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Zwei-Faktor-Hardware-Authentifizierung</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Two Factor Authentication hardware</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="it">Carta nazionale dei servizi (CNS)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nationale Servicekarte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">National service card</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <skos:prefLabel xml:lang="de">Zwei-Faktor-Authentifizierung</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:notation>2FA</skos:notation>
-    <skos:prefLabel xml:lang="en">Two Factor authentication</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDPWD">
-    <skos:definition xml:lang="en">Simple credential consisting in username and password. Access to online Italian systems such as NoiPA and Fiscoonline and any other system that requires username and password fall into this category</skos:definition>
+    <skos:notation>CIE</skos:notation>
+    <dct:identifier>CIE</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW"/>
+    <skos:prefLabel xml:lang="it">Carta d'identità elettronica (CIE)</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Elektronischer Personalausweis (CIE)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Electronic identity card</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:notation>ID OTP</skos:notation>
+    <dct:identifier>ID OTP</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA"/>
+    <skos:prefLabel xml:lang="it">User ID e One Time Password</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Benutzer-ID und Einmal-Passwort</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">User ID and One Time Password</skos:prefLabel>
+    <skos:definition xml:lang="it">Combinazione di due fattori: userid e one time password</skos:definition>
+    <skos:definition xml:lang="en">Combination of two factors: userid and one time password</skos:definition>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:notation>SPIDL2</skos:notation>
+    <dct:identifier>SPIDL2</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA"/>
+    <skos:prefLabel xml:lang="it">SPID Livello 2</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Stufe 2</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Level 2</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:notation>USERID OTP BIO</skos:notation>
+    <dct:identifier>USERID OTP BIO</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/MFA"/>
+    <skos:prefLabel xml:lang="it">User ID, One Time Password e Biometria</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">User ID, One Time Password and Biometric</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Benutzer-ID, Einmalpasswort und biometrische Daten</skos:prefLabel>
+    <skos:definition xml:lang="it">Combinazione di più fattori: userid, one time password e strumenti di biometria</skos:definition>
+    <skos:definition xml:lang="en">Combination of different factors: userid,  one time password and biometric mechanisms</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA"/>
+    <skos:notation>SPIDL1</skos:notation>
+    <dct:identifier>SPIDL1</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">Credenziale SPID Livello 1</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Berechtigungsnachweis Stufe 1</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Credential Level 1</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:notation>SPIDL3</skos:notation>
+    <dct:identifier>SPIDL3</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW"/>
+    <skos:prefLabel xml:lang="it">SPID Livello 3</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Stufe 3</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Level 3</skos:prefLabel>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Dataset"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDPWD">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
+    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
+    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA"/>
+    <skos:notation>IDPWD</skos:notation>
+    <dct:identifier>IDPWD</dct:identifier>
+    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
+    <skos:prefLabel xml:lang="it">User ID e password</skos:prefLabel>
     <skos:prefLabel xml:lang="de">Benutzer-ID und Passwort</skos:prefLabel>
     <skos:prefLabel xml:lang="en">User ID and password</skos:prefLabel>
     <skos:definition xml:lang="it">Credenziale semplice basata sull'uso di username e password. Accesso tramite sistemi quali NoiPA, FiscoOnline e ogni altro sistema che richiede solo credenziali di tipo usernname e password ricadono in questa categoria</skos:definition>
-    <skos:prefLabel xml:lang="it">User ID e password</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>IDPWD</dct:identifier>
-    <skos:notation>IDPWD</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/ContactPoint/voc_AgID">
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-    <vcard:hasEmail rdf:resource="mailto:info@dati.gov.it"/>
-    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-    <vcard:fn>banche dati e open data</vcard:fn>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/MFA">
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:notation>MFA</skos:notation>
-    <skos:prefLabel xml:lang="it">Autenticazione multi-fattore</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Multi-factor authentication</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Multi-Faktor-Authentifizierung</skos:prefLabel>
-    <dct:identifier>MFA</dct:identifier>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Standard/SKOS">
-    <rdf:type rdf:resource="http://purl.org/dc/terms/Standard"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
-    <dct:identifier>SKOS</dct:identifier>
-    <dct:description>The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web</dct:description>
-    <dct:title>Simple Knowledge Organization System - SKOS</dct:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/data/resource/Distribution/Authentication_RDF_XML">
-    <dct:description xml:lang="en">This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to the types of authentication for public services</dct:description>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type/authentication-type.rdf"/>
-    <dct:title xml:lang="en">RDF/XML distribution types of authentication for public services</dct:title>
-    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
-    <dct:description xml:lang="it">Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi di autenticazione per i servizi pubblici</dct:description>
-    <dct:title xml:lang="it">Distribuzione RDF/XML tipi autenticazione servizi pubblici</dct:title>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-public-services/authentication-type"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE">
-    <skos:prefLabel xml:lang="it">Carta d'identità elettronica (CIE)</skos:prefLabel>
-    <skos:notation>CIE</skos:notation>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:prefLabel xml:lang="en">Electronic identity card</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW"/>
-    <skos:prefLabel xml:lang="de">Elektronischer Personalausweis (CIE)</skos:prefLabel>
-    <dct:identifier>CIE</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP">
-    <skos:prefLabel xml:lang="de">Benutzer-ID und Einmal-Passwort</skos:prefLabel>
-    <skos:notation>ID OTP</skos:notation>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA"/>
-    <dct:identifier>ID OTP</dct:identifier>
-    <skos:prefLabel xml:lang="en">User ID and One Time Password</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:definition xml:lang="en">Combination of two factors: userid and one time password</skos:definition>
-    <skos:prefLabel xml:lang="it">User ID e One Time Password</skos:prefLabel>
-    <skos:definition xml:lang="it">Combinazione di due fattori: userid e one time password</skos:definition>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1">
-    <dct:identifier>SPIDL1</dct:identifier>
-    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Berechtigungsnachweis Stufe 1</skos:prefLabel>
-    <skos:notation>SPIDL1</skos:notation>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Credenziale SPID Livello 1</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SFA"/>
-    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Credential Level 1</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW">
-    <dct:identifier>2FAHW</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">Autenticazione a due fattori hardware</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE"/>
-    <skos:notation>2FAHW</skos:notation>
-    <skos:prefLabel xml:lang="de">Zwei-Faktor-Hardware-Authentifizierung</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Two Factor Authentication hardware</skos:prefLabel>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3"/>
-    <clvapit:hasRankOrder>1</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <skos:narrower rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="it">SPID Livello 3</skos:prefLabel>
-    <skos:notation>SPIDL3</skos:notation>
-    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Stufe 3</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW"/>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Level 3</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <dct:identifier>SPIDL3</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS">
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FAHW"/>
-    <skos:notation>CNS</skos:notation>
-    <skos:prefLabel xml:lang="de">Nationale Servicekarte</skos:prefLabel>
-    <dct:identifier>CNS</dct:identifier>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:prefLabel xml:lang="it">Carta nazionale dei servizi (CNS)</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">National service card</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid">
-    <dct:identifier>agid</dct:identifier>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
-    <foaf:name xml:lang="en">Italian Digital Agency</foaf:name>
-    <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2">
-    <skos:prefLabel xml:lang="it">SPID Livello 2</skos:prefLabel>
-    <clvapit:hasRankOrder>2</clvapit:hasRankOrder>
-    <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type"/>
-    <skos:notation>SPIDL2</skos:notation>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:identifier>SPIDL2</dct:identifier>
-    <rdf:type rdf:resource="https://w3id.org/italia/onto/CPSV/Authentication"/>
-    <skos:prefLabel xml:lang="en">SPID (National public system of e-ID) Level 2</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">SPID (Nationales öffentliches System der e-ID) Stufe 2</skos:prefLabel>
-    <skos:broader rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/2FA"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/subject">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPSV/Authentication">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#representationTechnique">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Standard">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Distribution">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#fn">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dati.gov.it/onto/dcatapit#Agent">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
+    <skos:definition xml:lang="en">Simple credential consisting in username and password. Access to online Italian systems such as NoiPA and Fiscoonline and any other system that requires username and password fall into this category</skos:definition>
+  </skos:Concept>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Standard"/>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdfs:Class rdf:about="https://w3id.org/italia/onto/CPSV/Authentication"/>
+  <rdfs:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdfs:Class rdf:about="http://purl.org/dc/terms/Standard"/>
 </rdf:RDF>

@@ -1,598 +1,807 @@
-{
-  "@context": {
-    "adms": "http://www.w3.org/ns/adms#",
-    "clvapit": "https://w3id.org/italia/onto/CLV/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
-    "dct": "http://purl.org/dc/terms/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "l0": "https://w3id.org/italia/onto/l0/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "dcatapit:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:ConceptScheme",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:LicenseDocument",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:modified",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:accrualPeriodicity",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:license",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:rightsHolder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:prefLabel",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:type",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:Kind",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcatapit:referenceDoc",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "ISO 3166-1 alpha-3",
-      "l0:identifier": "ITA"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_JSON_LD",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"
+[
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/country_JSON_LD",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sul paese Italia"
       },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in JSON-LD of the Linked Open Dataset of Italy controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato sul paese Italia"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "JSON-LD distribution of the Italy controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione JSON-LD del vocabolario controllato sul paese italia"
-        }
-      ]
-    },
-    {
-      "@id": "dct:publisher",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:LicenseDocument",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "PCM",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Digital Transformation Team"
-        },
-        {
-          "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "skos:narrowerTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:theme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of Italy controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul paese Italia"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sul paese italia"
-        },
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the Italy controlled vocabulary"
-        }
-      ]
-    },
-    {
-      "@id": "dcatapit:Distribution",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:fn",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        },
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "vcard:Organization",
-        "dcatapit:Organization",
-        "vcard:Kind"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
-        "@id": "mailto:info@dati.gov.it"
+      {
+        "@language": "en",
+        "@value": "This is the distribution in JSON-LD of the Linked Open Dataset of Italy controlled vocabulary "
       }
-    },
-    {
-      "@id": "dct:subject",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy",
-      "@type": [
-        "skos:ConceptScheme",
-        "adms:Asset",
-        "dcatapit:Dataset"
-      ],
-      "adms:representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione JSON-LD del vocabolario controllato sul paese italia"
       },
-      "dcat:contactPoint": {
-        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
+      {
+        "@language": "en",
+        "@value": "JSON-LD distribution of the Italy controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/Country",
+      "https://w3id.org/italia/onto/CLV/Feature",
+      "https://w3id.org/italia/onto/CLV/AdminUnitomponent"
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ITA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Italia"
       },
-      "dcat:distribution": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/country_JSON_LD"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_XML"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@language": "en",
-          "@value": "Country"
-        },
-        {
-          "@language": "it",
-          "@value": "Paese"
-        },
-        {
-          "@language": "it",
-          "@value": "Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "Italy"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+      {
+        "@language": "en",
+        "@value": "Italy"
       },
-      "dct:accrualPeriodicity": {
+      {
+        "@language": "fr",
+        "@value": "Italie"
+      },
+      {
+        "@language": "de",
+        "@value": "Italien"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA"
+      },
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "Italy"
+      },
+      {
+        "@language": "fr",
+        "@value": "Italie"
+      },
+      {
+        "@language": "de",
+        "@value": "Italien"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#LicenseDocument",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/subject",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/format",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#downloadURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#theme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/adms#representationTechnique",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Standard",
+      "http://purl.org/dc/terms/Standard"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Simple Knowledge Organization System - SKOS"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Dataset",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#hasEmail",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/title",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_XML",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul paese Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of Italy controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/XML del vocabolario controllato sul paese italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/XML distribution of the Italy controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#fn",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/license",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/keyConcept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@value": "ISO 3166-1 alpha-2"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "IT"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul paese Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of Italy controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle del vocabolario controllato sul paese italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of the Italy controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/countries/italy/italy.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://www.w3.org/ns/adms#Asset",
+      "http://dati.gov.it/onto/dcatapit#Dataset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
         "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dct:conformsTo": {
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
         "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
       },
-      "dct:creator": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
-        },
-        {
-          "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-        }
-      ],
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato per descrivere il paese italia"
-        },
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for describing Italy as country"
-        }
-      ],
-      "dct:identifier": "agid:D.13",
-      "dct:issued": {
-        "@type": "xsd:date",
+      {
+        "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato per descrivere il paese italia"
+      },
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for describing Italy as country"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid:D.13"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
         "@value": "2018-04-12"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
       },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/FRA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/DEU"
-        }
-      ],
-      "dct:modified": {
-        "@type": "xsd:date",
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/FRA"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
         "@value": "2019-04-03"
-      },
-      "dct:publisher": {
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
         "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-      },
-      "dct:rightsHolder": {
+      }
+    ],
+    "http://purl.org/dc/terms/rightsHolder": [
+      {
         "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for Italy"
       },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for Italy"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato Paese Italia"
-        }
-      ],
-      "dct:type": {
+      {
+        "@language": "it",
+        "@value": "Vocabolario Controllato Paese Italia"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
         "@id": "http://purl.org/adms/assettype/CodeList"
+      }
+    ],
+    "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato per descrivere il paese italia"
       },
-      "owl:versionInfo": {
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for describing Italy as country"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for Italy"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario Controllato Paese Italia"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
         "@language": "it",
         "@value": "2.0 - allineamento con l'ontologia CLV"
-      },
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for describing Italy as country"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato per descrivere il paese italia"
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"
-      },
-      "rdfs:label": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato Paese Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for Italy"
-        }
-      ],
-      "skos:hasTopConcept": {
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
         "@id": "http://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA"
+      }
+    ],
+    "http://www.w3.org/ns/adms#representationTechnique": [
+      {
+        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_Turtle"
       },
-      "xkos:numberOfLevels": "1"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_XML",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy"
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/country_RDF_XML"
       },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/countries/italy/italy.rdf"
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/country_JSON_LD"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "it",
+        "@value": "Italia"
       },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of Italy controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul paese Italia"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+      {
+        "@language": "it",
+        "@value": "Paese"
       },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      {
+        "@language": "en",
+        "@value": "Italy"
       },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/XML del vocabolario controllato sul paese italia"
-        },
-        {
-          "@language": "en",
-          "@value": "RDF/XML distribution of the Italy controlled vocabulary"
-        }
-      ]
-    },
-    {
-      "@id": "skos:Concept",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:title",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "foaf:name",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:narrower",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broader",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:notation",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT",
-      "@type": "clvapit:Identifier",
-      "clvapit:identifierType": "ISO 3166-1 alpha-2",
-      "l0:identifier": "IT"
-    },
-    {
-      "@id": "dct:creator",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:language",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA",
-      "@type": [
-        "clvapit:Country",
-        "clvapit:Feature",
-        "skos:Concept",
-        "clvapit:AdminUnitomponent"
-      ],
-      "clvapit:hasIdentifier": [
-        {
-          "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT"
-        },
-        {
-          "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA"
-        }
-      ],
-      "clvapit:hasRankOrder": "1",
-      "l0:name": [
-        {
-          "@language": "de",
-          "@value": "Italien"
-        },
-        {
-          "@language": "it",
-          "@value": "Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "Italy"
-        },
-        {
-          "@language": "fr",
-          "@value": "Italie"
-        }
-      ],
-      "skos:notation": "ITA",
-      "skos:prefLabel": [
-        {
-          "@language": "de",
-          "@value": "Italien"
-        },
-        {
-          "@language": "it",
-          "@value": "Italia"
-        },
-        {
-          "@language": "fr",
-          "@value": "Italie"
-        },
-        {
-          "@language": "en",
-          "@value": "Italy"
-        }
-      ]
-    },
-    {
-      "@id": "dcatapit:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:conformsTo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:keyword",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:issued",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Dataset",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:definition",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:accessURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:description",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
-      "@type": [
-        "dcatapit:Standard",
-        "dct:Standard"
-      ],
-      "dct:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dct:identifier": "SKOS",
-      "dct:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "dct:identifier",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broaderTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:format",
-      "@type": "rdfs:Property"
-    }
-  ]
-}
-
+      {
+        "@language": "en",
+        "@value": "Country"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+      }
+    ],
+    "https://w3id.org/italia/onto/NDC/keyConcept": [
+      {
+        "@value": "italy"
+      }
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Agenzia per l'Italia Digitale"
+      },
+      {
+        "@language": "en",
+        "@value": "Italian Digital Agency"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#keyword",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CLV/hasRankOrder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Kind",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/conformsTo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/LicenseDocument",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#referenceDoc",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Organization",
+      "http://www.w3.org/2006/vcard/ns#Organization",
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "banche dati e open data"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:info@dati.gov.it"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#accessURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "PCM"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Team per la Trasformazione Digitale"
+      },
+      {
+        "@language": "en",
+        "@value": "Digital Transformation Team"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/type",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/language",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@value": "ISO 3166-1 alpha-3"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "ITA"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/rightsHolder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  }
+]

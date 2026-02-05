@@ -1,31 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV-aligns">
-    <owl:imports rdf:resource="https://w3id.org/italia/onto/CPV"/>
-    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/CPV-aligns/0.1"/>
-    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/ParentalRelationshipType">
-    <owl:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:person="http://www.w3.org/ns/person#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cpavit="https://w3id.org/italia/onto/CPV/"
+    xmlns="https://w3id.org/italia/onto/CPV-aligns/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" >
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/knows">
+    <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/Person">
-    <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/name">
-    <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/givenName">
-    <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/givenName"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/person#Person"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/familyName">
     <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/familyName"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/knows">
-    <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV/givenName">
+    <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/givenName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/onto/CPV-aligns">
+    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/person#"/>
+    <owl:imports rdf:resource="https://w3id.org/italia/onto/CPV"/>
+    <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/CPV-aligns/0.1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>
 </rdf:RDF>

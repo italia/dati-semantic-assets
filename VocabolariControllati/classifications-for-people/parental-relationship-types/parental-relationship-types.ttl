@@ -5,7 +5,7 @@
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dc:      <http://purl.org/dc/elements/1.1/> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
-@prefix cpvapit: <https://w3id.org/italia/onto/CPV/> .
+@prefix cpco:    <https://w3id.org/italia/onto/CPCO/> .
 @prefix xkos:    <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
 @prefix l0:       <https://w3id.org/italia/onto/l0/> .
@@ -14,7 +14,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 skos:ConceptScheme
       a       rdfs:Class .
@@ -22,7 +22,7 @@ skos:ConceptScheme
 skos:Concept
       a       rdfs:Class .
 
-cpvapit:ParentalRelationshipType
+cpco:ParentalRelationshipType
       a       rdfs:Class .
 
 dcatapit:Dataset
@@ -149,7 +149,7 @@ dcat:downloadURL
     a     rdfs:Property .
 
 owl:versionInfo
-    a     rdfs:Property .
+    a     owl:AnnotationProperty .
 
 adms:representationTechnique
     a     rdfs:Property .
@@ -160,21 +160,28 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
+
+owl:deprecated
+    a owl:AnnotationProperty .
+
 
 #Metadata DCAT-AP_IT for the controlled vocabulary
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
-      dct:title "Parental Relationships Controlled Vocabulary"@en , "Vocabolario Controllato Relazioni di Parentela"@it ;
-      dct:description "This is the Parental Relationships controlled vocabulary"@en , "Questo è il vocabolario controllato sulle relazioni di parentela delle persone. Il vocabolario nella sua versione attuale è ricavato dalla documentazione pubblicata da ISTAT (http://demografiche.istat.it/fileadmin/DCIS/TRACCIATO_E_REGOLE_CONTROLLO_01.pdf) e ripreso anche nel contesto ANPR. Si noti che il vocabolario controllato non è completo; è necessario attendere infatti il raccordo complessivo sulle voci del vocabolario da parte di ISTAT in base a quanto indicato nei regolamenti europei di competenza."@it ;
-      rdfs:comment "This is the Parental Relationships controlled vocabulary"@en , "Questo è il vocabolario controllato sulle relazioni di parentela delle persone. Il vocabolario nella sua versione attuale è ricavato dalla documentazione pubblicata da ISTAT (http://demografiche.istat.it/fileadmin/DCIS/TRACCIATO_E_REGOLE_CONTROLLO_01.pdf) e ripreso anche nel contesto ANPR. Si noti che il vocabolario controllato non è completo; è necessario attendere infatti il raccordo complessivo sulle voci del vocabolario da parte di ISTAT in base a quanto indicato nei regolamenti europei di competenza."@it ;
-      rdfs:label "Parental Relationships Controlled Vocabulary"@en , "Vocabolario Controllato Relazioni di Parentela"@it ;
+      dct:title "Parental Relationships Controlled Vocabulary"@en , "Vocabolario Controllato delle Relazioni di Parentela"@it ;
+      dct:description "This is the controlled vocabulary relating to the classification of parental relations that exist between each member of the household and a reference person within the household (in this case the family sheet holder). The vocabulary is derived from the ANPR base registry of the Ministry of the Interior and has been agreed between the Ministry itself and ISTAT."@en , "Questo è il vocabolario controllato relativo alla classificazione dei legami parentali che sussistono tra ciascun membro della famiglia e una persona di riferimento all'interno della famiglia stessa (in questo caso l'intestatario della scheda). Il vocabolario deriva dal contesto ANPR del Ministero dell'Interno ed è stato concordato tra il Ministero stesso e l'ISTAT."@it ;
+      rdfs:comment "This is the controlled vocabulary relating to the classification of parental relations that exist between each member of the household and a reference person within the household (in this case the family sheet holder). The vocabulary is derived from the ANPR base registry of the Ministry of the Interior and has been agreed between the Ministry itself and ISTAT."@en , "Questo è il vocabolario controllato relativo alla classificazione dei legami parentali che sussistono tra ciascun membro della famiglia e una persona di riferimento all'interno della famiglia stessa (in questo caso l'intestatario della scheda). Il vocabolario deriva dal contesto ANPR del Ministero dell'Interno ed è stato concordato tra il Ministero stesso e l'ISTAT."@it ;
+      rdfs:label "Parental Relationships Controlled Vocabulary"@en , "Vocabolario Controllato delle Relazioni di Parentela"@it ;
       dct:type <http://purl.org/adms/assettype/CodeList> ;
       xkos:numberOfLevels "1";
+      ndc:keyConcept "parental-relationship-types" ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types";
       dct:rightsHolder <https://w3id.org/italia/data/public-organization/ISTAT> ;
-      dct:creator <https://w3id.org/italia/data/public-organization/agid> , <https://w3id.org/italia/data/public-organization/ISTAT> ;
-      dct:publisher <https://w3id.org/italia/data/public-organization/agid> ;
+      dct:creator <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> , <https://w3id.org/italia/data/public-organization/ISTAT> ;
+      dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
       dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
       dct:conformsTo  <https://w3id.org/italia/data/standard/SKOS> ;
       dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
@@ -183,25 +190,27 @@ vcard:hasEmail
       dcat:keyword "Relazione parentale"@it, "Relazione di parentela"@it , "Intestatario scheda anagrafica"@it , "Anagrafe"@it, "Famiglia"@it , "Persona"@it , "Persone"@it , "Intestatario foglio di famiglia"@it ;
       dcat:distribution <https://w3id.org/italia/data/distribution/PR_RDF_Turtle> , <https://w3id.org/italia/data/distribution/PR_RDF_XML> , <https://w3id.org/italia/data/distribution/PR_JSON_LD> , <https://w3id.org/italia/data/distribution/PR_CSV> ,
       <https://w3id.org/italia/data/distribution/PR_XLSX> ;
-      dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc_AgID> ;
+      dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
       dct:issued "2019-07-17"^^xsd:date ;
-      dct:modified "2019-07-18"^^xsd:date ;
+      dct:modified "2023-03-20"^^xsd:date ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/1> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/2> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/3> ,
       <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/4> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/5> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/6> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/7> ,
       <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/8> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/9> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/10> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/11> ,
-      <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/12> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/13> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/14> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/15> ,
-      <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/16> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/17> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/18> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/19> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/20> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/21> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/22> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/23> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/24>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/25> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/26> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/28> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/80> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/81> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/99>;
-      owl:versionInfo "Current available version specifically used in the Italina Civil Registry (ANPR)."@en, "E' l'attuale versione disponibile presso alcuni documenti pubblici di ISTAT e presso l'ANPR. Il vocabolario è tuttavia non completo. Per una versione più completa si dovrà attendere un passaggio di ISTAT di raccordo con i regolamenti europei di competenza."@it .
+      <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/12> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/13> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/16> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/17> ,
+      <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/18> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/20> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/21> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/22> ,
+      <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/23> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/24>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/25> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/28> ;
+      owl:versionInfo "Current available version specifically used in the Italian Civil Population Registry (ANPR). The following items of the vocabulary have been deprecated as no longer used: 14, 15, 19, 26, 80, 81, 99"@en, "E' l'attuale versione disponibile presso documenti pubblici dell'ANPR. Alcune voci del vocabolario sono marcate come deprecate perché non più utilizzate. In particolare i codici deprecati sono: 14, 15, 19, 26, 80, 81, 99"@it .
 
 <https://w3id.org/italia/data/public-organization/ISTAT>
       a dcatapit:Agent , foaf:Agent ;
       dct:identifier "ISTAT" ;
       foaf:name "Istituto Nazionale di Statistica - ISTAT"@it , "Italian National Institute of Statistics - ISTAT"@en .
 
-<https://w3id.org/italia/data/public-organization/agid>
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ>
       a dcatapit:Agent, foaf:Agent ;
-      dct:identifier "agid" ;
-      foaf:name "Agenzia per l'Italia Digitale"@it , "Italian Digital Agency"@en .
+      dct:identifier "PCM-1RSIZZ" ;
+      foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it, "Digital Transformation Department of the Presidency of the Council of Ministers"@en .
+
 
 <https://w3id.org/italia/data/standard/SKOS>
       a dcatapit:Standard , dct:Standard ;
@@ -209,10 +218,10 @@ vcard:hasEmail
       dct:title "Simple Knowledge Organization System - SKOS" ;
       dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
 
-<https://w3id.org/italia/data/contact-point/voc_AgID>
+<https://w3id.org/italia/data/contact-point/ISTAT-NDC>
       a						dcatapit:Organization , vcard:Organization, vcard:Kind ;
-    	vcard:fn		"banche dati e open data" ;
-    	vcard:hasEmail <mailto:info@dati.gov.it> .
+      vcard:fn		"Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
+      vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
 <https://w3id.org/italia/data/distribution/PR_RDF_Turtle>
       	a						dcatapit:Distribution  ;
@@ -220,8 +229,8 @@ vcard:hasEmail
       	dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle relazioni di parentela delle persone"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the parental relationship controlled vocabulary"@en ;
       	dct:format 				<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       	dct:license  <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.ttl> ;
-      	dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
+      	dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.ttl> ;
+      	dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
 
 <https://w3id.org/italia/data/distribution/PR_RDF_XML>
         a						dcatapit:Distribution  ;
@@ -229,8 +238,8 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulle relazioni parentali delle persone"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the parental relationship controlled vocabulary"@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.rdf> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.rdf> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
 
 <https://w3id.org/italia/data/distribution/PR_JSON_LD>
         a		dcatapit:Distribution  ;
@@ -238,8 +247,8 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulle relazioni di parentela delle persone"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the parental relationship controlled vocabulary"@en ;
         dct:format  <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.jsonld> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.jsonld> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
 
   <https://w3id.org/italia/data/distribution/PR_CSV>
         a						dcatapit:Distribution  ;
@@ -247,8 +256,8 @@ vcard:hasEmail
         dct:description			"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulle relazioni parentali delle persone"@it , "This is the distribution in CSV of the Linked Open Dataset of the parental relationship controlled vocabulary "@en ;
         dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
         dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.csv> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
+        dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.csv> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
 
 <https://w3id.org/italia/data/distribution/PR_XLSX>
         a						dcatapit:Distribution  ;
@@ -256,20 +265,20 @@ vcard:hasEmail
         dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulle relazioni di parentela delle persone"@it , "This is the distribution in XLSX of the Linked Open Dataset of the parental relationship controlled vocabulary"@en ;
         dct:format 		<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
         dct:license 	<https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-        dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.xlsx> ;
-        dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
+        dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/parental-relationship-types/parental-relationship-types.xlsx> ;
+        dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/parental-relationship-types> .
 
 #Definition of the controlled vocabulary
  <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/1>
- 	    a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+ 	    a  	skos:Concept , cpco:ParentalRelationshipType ;
  	    skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
  	    skos:notation "1" ;
  	    dct:identifier "1" ;
- 	    skos:prefLabel "Intestatario Scheda"@it .
+ 	    skos:prefLabel "Intestatario della scheda"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/2>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "2" ;
@@ -279,7 +288,7 @@ vcard:hasEmail
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/3>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "3" ;
@@ -288,7 +297,7 @@ vcard:hasEmail
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/4>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "4" ;
@@ -296,7 +305,7 @@ vcard:hasEmail
       skos:prefLabel "Nipote (discendente)"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/5>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "5" ;
@@ -304,7 +313,7 @@ vcard:hasEmail
       skos:prefLabel "Pronipote (discendente)"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/6>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "6" ;
@@ -312,7 +321,7 @@ vcard:hasEmail
       skos:prefLabel "Padre / Madre"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/7>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "7" ;
@@ -320,7 +329,7 @@ vcard:hasEmail
       skos:prefLabel "Nonno / Nonna"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/8>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "8" ;
@@ -328,7 +337,7 @@ vcard:hasEmail
       skos:prefLabel "Bisnonno / Bisnonna"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/9>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "9" ;
@@ -336,7 +345,7 @@ vcard:hasEmail
       skos:prefLabel "Fratello / Sorella"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/10>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "10" ;
@@ -344,15 +353,15 @@ vcard:hasEmail
       skos:prefLabel "Nipote (collaterale)"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/11>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "11" ;
       dct:identifier "11" ;
-      skos:prefLabel "Zio / Zia (Collaterale)"@it .
+      skos:prefLabel "Zio / Zia (collaterale)"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/12>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "12" ;
@@ -360,7 +369,7 @@ vcard:hasEmail
       skos:prefLabel "Cugino / Cugina"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/13>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "13" ;
@@ -368,24 +377,26 @@ vcard:hasEmail
       skos:prefLabel "Altro Parente"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/14>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "14" ;
       dct:identifier "14" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Figliastro / Figliastra"@it .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/15>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "15" ;
       dct:identifier "15" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Patrigno / Matrigna"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/16>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "16" ;
@@ -393,7 +404,7 @@ vcard:hasEmail
       skos:prefLabel "Genero / Nuora"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/17>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "17" ;
@@ -401,7 +412,7 @@ vcard:hasEmail
       skos:prefLabel "Suocero / Suocera"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/18>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "18" ;
@@ -410,34 +421,35 @@ vcard:hasEmail
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/19>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "19" ;
       dct:identifier "19" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Fratellastro / Sorellastra"@it .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/20>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "20" ;
       dct:identifier "20" ;
-      skos:prefLabel "Nipote (Affine)"@it .
+      skos:prefLabel "Nipote (affine)"@it .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/21>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "21" ;
       dct:identifier "21" ;
-      skos:prefLabel "Zio / Zia (Affine)"@it .
+      skos:prefLabel "Zio / Zia (affine)"@it .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/22>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "22" ;
@@ -445,7 +457,7 @@ vcard:hasEmail
       skos:prefLabel "Altro Affine"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/23>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "23" ;
@@ -453,7 +465,7 @@ vcard:hasEmail
       skos:prefLabel "Convivente (con vincoli di adozione o affettivi)"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/24>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "24" ;
@@ -461,7 +473,7 @@ vcard:hasEmail
       skos:prefLabel "Responsabile della convivenza non affettiva"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/25>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "25" ;
@@ -469,15 +481,16 @@ vcard:hasEmail
       skos:prefLabel "Convivente in convivenza non affettiva"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/26>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "26" ;
       dct:identifier "26" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Tutore"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/28>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "28" ;
@@ -485,25 +498,28 @@ vcard:hasEmail
       skos:prefLabel "Unito civilmente"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/80>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "80" ;
       dct:identifier "80" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Adottato"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/81>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "81" ;
       dct:identifier "81" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Nipote"@it .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types/99>
-      a  	skos:Concept , cpvapit:ParentalRelationshipType ;
+      a  	skos:Concept , cpco:ParentalRelationshipType ;
       skos:inScheme <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types> ;
       clvapit:hasRankOrder "1" ;
       skos:notation "99" ;
       dct:identifier "99" ;
+      owl:deprecated "true"^^xsd:boolean ;
       skos:prefLabel "Non definito/comunicato"@it .

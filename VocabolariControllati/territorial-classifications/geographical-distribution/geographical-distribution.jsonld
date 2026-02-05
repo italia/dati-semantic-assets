@@ -1,496 +1,696 @@
-{
-  "@context": {
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD",
-      "@type": "http://dati.gov.it/onto/dcatapit#Distribution",
-      "dcterms:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        }
-      ],
-      "dcterms:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "dcterms:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dcterms:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        }
-      ],
-      "http://www.w3.org/ns/dcat#accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"
-      },
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"
+[
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
+      "https://w3id.org/italia/onto/CLV/Feature"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
       }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "vcard:Kind",
-        "vcard:Organization",
-        "http://dati.gov.it/onto/dcatapit#Organization"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Nord-ovest"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Nord-ovest"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@language": "it",
+        "@value": "Identificativo della ripartizione geografica"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "4"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
+      "https://w3id.org/italia/onto/CLV/Feature"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "5"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Isole"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Isole"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/XML distribution of the Italian geographical-distribution controlled vocabulary"
+      },
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"
+      }
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Agenzia per l'Italia Digitale"
+      },
+      {
+        "@language": "en",
+        "@value": "Italian Digital Agency"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/ContactPoint/voc_AgID",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Organization",
+      "http://www.w3.org/2006/vcard/ns#Organization",
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "banche dati e open data"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
         "@id": "mailto:info@dati.gov.it"
       }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2",
-      "@type": [
-        "https://w3id.org/italia/onto/CLV/Feature",
-        "skos:Concept",
-        "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
-        "https://w3id.org/italia/onto/CLV/AdminUnitComponent"
-      ],
-      "https://w3id.org/italia/onto/CLV/hasIdentifier": {
-        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2"
-      },
-      "https://w3id.org/italia/onto/CLV/hasRankOrder": "1",
-      "https://w3id.org/italia/onto/l0/name": {
-        "@language": "it",
-        "@value": "Nord-est"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
-      },
-      "skos:notation": "2",
-      "skos:prefLabel": {
-        "@language": "it",
-        "@value": "Nord-est"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3",
-      "@type": [
-        "skos:Concept",
-        "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
-        "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
-        "https://w3id.org/italia/onto/CLV/Feature"
-      ],
-      "https://w3id.org/italia/onto/CLV/hasIdentifier": {
-        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3"
-      },
-      "https://w3id.org/italia/onto/CLV/hasRankOrder": "1",
-      "https://w3id.org/italia/onto/l0/name": {
-        "@language": "it",
-        "@value": "Centro"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
-      },
-      "skos:notation": "3",
-      "skos:prefLabel": {
-        "@language": "it",
-        "@value": "Centro"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/resource/Standard/SKOS",
-      "@type": [
-        "http://dati.gov.it/onto/dcatapit#Standard",
-        "dcterms:Standard"
-      ],
-      "dcterms:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dcterms:identifier": "SKOS",
-      "dcterms:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1",
-      "@type": [
-        "skos:Concept",
-        "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
-        "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
-        "https://w3id.org/italia/onto/CLV/Feature"
-      ],
-      "https://w3id.org/italia/onto/CLV/hasIdentifier": {
-        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1"
-      },
-      "https://w3id.org/italia/onto/CLV/hasRankOrder": "1",
-      "https://w3id.org/italia/onto/l0/name": {
-        "@language": "it",
-        "@value": "Nord-ovest"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
-      },
-      "skos:notation": "1",
-      "skos:prefLabel": {
-        "@language": "it",
-        "@value": "Nord-ovest"
-      }
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/Amministrazione/istat",
-      "@type": [
-        "foaf:Agent",
-        "http://dati.gov.it/onto/dcatapit#Agent"
-      ],
-      "dcterms:identifier": "istat",
-      "foaf:name": [
-        {
-          "@language": "it",
-          "@value": "Istituto Nazionale di Statistica"
-        },
-        {
-          "@language": "en",
-          "@value": "Italian National Institute of Statistics"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML",
-      "@type": "http://dati.gov.it/onto/dcatapit#Distribution",
-      "dcterms:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        }
-      ],
-      "dcterms:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dcterms:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/XML del vocabolario controllato sulle regioni d'Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "RDF/XML distribution of the Italian geographical-distribution controlled vocabulary"
-        }
-      ],
-      "http://www.w3.org/ns/dcat#accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"
-      },
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.rdf"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/resource/Amministrazione/td_PCM",
-      "@type": [
-        "foaf:Agent",
-        "http://dati.gov.it/onto/dcatapit#Agent"
-      ],
-      "dcterms:identifier": "PCM",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Digital Transformation Team"
-        },
-        {
-          "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2",
-      "@type": "https://w3id.org/italia/onto/CLV/Identifier",
-      "https://w3id.org/italia/onto/CLV/identifierType":
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
       {
         "@language": "it",
         "@value": "Identificativo della ripartizione geografica"
-      },
-      "https://w3id.org/italia/onto/l0/identifier": "2"
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5",
-      "@type": "https://w3id.org/italia/onto/CLV/Identifier",
-      "https://w3id.org/italia/onto/CLV/identifierType":
-      {
-        "@language": "it",
-        "@value": "Identificativo della ripartizione geografica"
-      },
-      "https://w3id.org/italia/onto/l0/identifier": "5"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid",
-      "@type": [
-        "http://dati.gov.it/onto/dcatapit#Agent",
-        "foaf:Agent"
-      ],
-      "dcterms:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        },
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4",
-      "@type": [
-        "https://w3id.org/italia/onto/CLV/Feature",
-        "skos:Concept",
-        "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
-        "https://w3id.org/italia/onto/CLV/AdminUnitComponent"
-      ],
-      "https://w3id.org/italia/onto/CLV/hasIdentifier": {
-        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4"
-      },
-      "https://w3id.org/italia/onto/CLV/hasRankOrder": "1",
-      "https://w3id.org/italia/onto/l0/name": {
-        "@language": "it",
-        "@value": "Sud"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
-      },
-      "skos:notation": "4",
-      "skos:prefLabel": {
-        "@language": "it",
-        "@value": "Sud"
       }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle",
-      "@type": "http://dati.gov.it/onto/dcatapit#Distribution",
-      "dcterms:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
-        }
-      ],
-      "dcterms:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dcterms:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dcterms:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
-        }
-      ],
-      "http://www.w3.org/ns/dcat#accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution"
-      },
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "2"
       }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3",
-      "@type": "https://w3id.org/italia/onto/CLV/Identifier",
-      "https://w3id.org/italia/onto/CLV/identifierType":
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://www.w3.org/ns/adms#Asset",
+      "http://dati.gov.it/onto/dcatapit#Dataset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
       {
-        "@language": "it",
-        "@value": "Identificativo della ripartizione geografica"
-      },
-      "https://w3id.org/italia/onto/l0/identifier": "3"
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1",
-      "@type": "https://w3id.org/italia/onto/CLV/Identifier",
-      "https://w3id.org/italia/onto/CLV/identifierType":
-      {
-        "@language": "it",
-        "@value": "Identificativo della ripartizione geografica"
-      },
-      "https://w3id.org/italia/onto/l0/identifier": "1"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5",
-      "@type": [
-        "https://w3id.org/italia/onto/CLV/Feature",
-        "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
-        "skos:Concept",
-        "https://w3id.org/italia/onto/CLV/GeographicalDistribution"
-      ],
-      "https://w3id.org/italia/onto/CLV/hasIdentifier": {
-        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5"
-      },
-      "https://w3id.org/italia/onto/CLV/hasRankOrder": "1",
-      "https://w3id.org/italia/onto/l0/name": {
-        "@language": "it",
-        "@value": "Isole"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
-      },
-      "skos:notation": "5",
-      "skos:prefLabel": {
-        "@language": "it",
-        "@value": "Isole"
-      }
-    },
-    {
-      "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4",
-      "@type": "https://w3id.org/italia/onto/CLV/Identifier",
-      "https://w3id.org/italia/onto/CLV/identifierType":
-      {
-        "@language": "it",
-        "@value": "Identificativo della ripartizione geografica"
-      },
-      "https://w3id.org/italia/onto/l0/identifier": "4"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution",
-      "@type": [
-        "http://dati.gov.it/onto/dcatapit#Dataset",
-        "http://www.w3.org/ns/adms#Asset",
-        "skos:ConceptScheme"
-      ],
-      "dcterms:accrualPeriodicity": {
         "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dcterms:conformsTo": {
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
         "@id": "https://w3id.org/italia/data/resource/Standard/SKOS"
-      },
-      "dcterms:creator": [
-        {
-          "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
-        },
-        {
-          "@id": "https://w3id.org/italia/data/resource/Amministrazione/td_PCM"
-        }
-      ],
-      "dcterms:description": [
-        {
-          "@language": "it",
-          "@value": "Vocabolario controllato delle ripartizioni geografiche d'Italia"
-        },
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for describing Italy's Geographical Distributions"
-        }
-      ],
-      "dcterms:identifier": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution",
-      "dcterms:issued": {
-        "@type": "xsd:date",
-        "@value": "2018-06-19"
-      },
-      "dcterms:language": {
-        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-      },
-      "dcterms:modified": {
-        "@type": "xsd:date",
-        "@value": "2019-04-03"
-      },
-      "dcterms:publisher": {
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
       },
-      "dcterms:rightsHolder": {
+      {
+        "@id": "https://w3id.org/italia/data/resource/Amministrazione/td_PCM"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Vocabolario controllato delle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for describing Italy's Geographical Distributions"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-06-19"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-04-03"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/Amministrazione/agid"
+      }
+    ],
+    "http://purl.org/dc/terms/rightsHolder": [
+      {
         "@id": "http://spcdata.digitpa.gov.it/Amministrazione/istat"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Controlled Vocabulary for Italian Geographical Distributions"
       },
-      "dcterms:title": [
-        {
-          "@language": "en",
-          "@value": "Controlled Vocabulary for Italian Geographical Distributions"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato delle ripartizioni geografiche d'Italia"
-        }
-      ],
-      "dcterms:type": {
+      {
+        "@language": "it",
+        "@value": "Vocabolario Controllato delle ripartizioni geografiche d'Italia"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
         "@id": "http://purl.org/adms/assettype/CodeList"
-      },
-      "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels": "1",
-      "http://www.w3.org/ns/adms#representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
-      },
-      "http://www.w3.org/ns/dcat#contactPoint": {
-        "@id": "https://w3id.org/italia/data/resource/ContactPoint/voc_AgID"
-      },
-      "http://www.w3.org/ns/dcat#distribution": [
-        {
-          "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML"
-        },
-        {
-          "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle"
-        },
-        {
-          "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD"
-        }
-      ],
-      "http://www.w3.org/ns/dcat#keyword": [
-        {
-          "@language": "it",
-          "@value": "Ripartizioni Geografiche"
-        },
-        {
-          "@language": "en",
-          "@value": "Geographical Distributions"
-        }
-      ],
-      "http://www.w3.org/ns/dcat#theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
-      },
-      "owl:versionInfo": {
+      }
+    ],
+    "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
         "@language": "it",
         "@value": "2.0 - aggiornato URI del vocabolario e i suoi contenuti"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2"
       },
-      "rdfs:isDefinedBy": {
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4"
+      }
+    ],
+    "http://www.w3.org/ns/adms#representationTechnique": [
+      {
+        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "https://w3id.org/italia/data/resource/ContactPoint/voc_AgID"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle"
+      },
+      {
+        "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_XML"
+      },
+      {
+        "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "it",
+        "@value": "Ripartizioni Geografiche"
+      },
+      {
+        "@language": "en",
+        "@value": "Geographical Distributions"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+      }
+    ],
+    "https://w3id.org/italia/onto/NDC/keyConcept": [
+      {
+        "@value": "geographical-distribution"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_RDF_Turtle",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@language": "it",
+        "@value": "Identificativo della ripartizione geografica"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
+      "https://w3id.org/italia/onto/CLV/Feature"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Nord-est"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/2"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Nord-est"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
+      "https://w3id.org/italia/onto/CLV/Feature"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Sud"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/4"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Sud"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/5",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@language": "it",
+        "@value": "Identificativo della ripartizione geografica"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "5"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/Amministrazione/td_PCM",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "PCM"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Team per la Trasformazione Digitale"
       },
-      "skos:hasTopConcept": [
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/2"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/5"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1"
-        }
-      ]
-    }
-  ]
-}
+      {
+        "@language": "en",
+        "@value": "Digital Transformation Team"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/Standard/SKOS",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Standard",
+      "http://purl.org/dc/terms/Standard"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Simple Knowledge Organization System - SKOS"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/1",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/Identifier"
+    ],
+    "https://w3id.org/italia/onto/CLV/identifierType": [
+      {
+        "@language": "it",
+        "@value": "Identificativo della ripartizione geografica"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/identifier": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/resource/Distribution/geographical-distribution_JSON_LD",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the Italian geographical distributions controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle del vocabolario controllato sulle ripartizioni geografiche d'Italia"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of the Italian geographical distributions controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/territorial-classifications/geographical-distribution/geographical-distribution.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/3",
+    "@type": [
+      "https://w3id.org/italia/onto/CLV/AdminUnitComponent",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CLV/GeographicalDistribution",
+      "https://w3id.org/italia/onto/CLV/Feature"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Centro"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasIdentifier": [
+      {
+        "@id": "https://w3id.org/italia/data/identifiers/geographical-distribution-identifiers/3"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "Centro"
+      }
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/Amministrazione/istat",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "istat"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Istituto Nazionale di Statistica"
+      },
+      {
+        "@language": "en",
+        "@value": "Italian National Institute of Statistics"
+      }
+    ]
+  }
+]

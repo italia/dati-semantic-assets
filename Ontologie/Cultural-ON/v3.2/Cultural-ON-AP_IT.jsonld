@@ -2372,10 +2372,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.ttl"
       },
       "dct:description": [
         {
@@ -3487,7 +3487,7 @@
       "owl:versionInfo": [
         {
           "@language": "it",
-          "@value": "Versione 3.2 - 27 Maggio 2019 - Introduzione della proprietà inversa \"is involved in cultural event\" per collegare un'entità culturale all'evento in cui essa è coinvolta. Risponde al requisito emerso dall'issue https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/62. La versione 3.2 include tutta la rifattorizzazione dell'ontologia per la piena integrazione nella rete OntoPiA"
+          "@value": "Versione 3.2 - 27 Maggio 2019 - Introduzione della proprietà inversa \"is involved in cultural event\" per collegare un'entità culturale all'evento in cui essa è coinvolta. Risponde al requisito emerso dall'issue https://github.com/italia/dati-semantic-assets/issues/62. La versione 3.2 include tutta la rifattorizzazione dell'ontologia per la piena integrazione nella rete OntoPiA"
         },
         {
           "@language": "en",
@@ -3578,10 +3578,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.rdf"
       },
       "dct:description": [
         {
@@ -3866,10 +3866,10 @@
         "owl:NamedIndividual"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Cultural-ON/latest/Cultural-ON-AP_IT.jsonld"
       },
       "dct:description": [
         {

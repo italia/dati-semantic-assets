@@ -1,0 +1,38 @@
+{
+  "profile": "tabular-data-package",
+  "dialect": {
+    "delimiter": ",",
+    "header": true
+  },
+  "resources": [
+    {
+      "name": "ateco-2007",
+      "path": "ateco-2007.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Codice Ateco 2007",
+            "type": "string"
+          },
+          {
+            "name": "Descrizione",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Aggiornamento",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}

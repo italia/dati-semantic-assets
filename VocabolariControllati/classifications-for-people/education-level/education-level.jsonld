@@ -1,1294 +1,1815 @@
-{
-  "@context": {
-    "adms": "http://www.w3.org/ns/adms#",
-    "clvapit": "https://w3id.org/italia/onto/CLV/",
-    "cpvapit": "https://w3id.org/italia/onto/CPV/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dcatapit": "http://dati.gov.it/onto/dcatapit#",
-    "dct": "http://purl.org/dc/terms/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_Turtle",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/education-level"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/education-level/education-level.ttl"
-      },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the education level controlled vocabulary"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/Turtle distribution of the education level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/Turtle del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/FLA",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di I livello"
-        },
-        {
-          "@language": "en",
-          "@value": "Fine Arts, Drama, Dance and Music First level academic diploma (Bachelor's degree)"
-        }
-      ],
-      "cpvapit:educationLevelID": "FLA",
-      "dct:identifier": "FLA",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Diploma conseguito con il nuovo ordinamento sui Corsi di Alta Formazione Artistica e Musicale (legge 508 del 1999 e successivo Decreto 212 del 2002). Questo Diploma è conseguito al termine di un Corso di Alta Formazione artistica, musicale e coreutica di I livello di durata triennale, a cui si accede di norma con il diploma di scuola secondaria superiore o altro titolo di studio conseguito all’estero, riconosciuto idoneo."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "FLA",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Fine Arts, Drama, Dance and Music First level academic diploma (Bachelor's degree)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di I livello"
-        }
-      ]
-    },
-    {
-      "@id": "skos:ConceptScheme",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:modified",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:accrualPeriodicity",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LD",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Laurea specialistica/magistrale a ciclo unico o diploma di laurea di 4-6 anni"
-        },
-        {
-          "@language": "en",
-          "@value": "Master’s degree"
-        }
-      ],
-      "cpvapit:educationLevelID": "LD",
-      "dct:identifier": "LD",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Titolo di studio rilasciato dopo un corso di studi universitari della durata di almeno 4 anni. E’ inclusa sia la tradizionale laurea conseguita con il vecchio ordinamento universitario, sia la laurea specialistica a ciclo unico conseguita con il nuovo ordinamento. Per accedere a tali corsi è necessario essere in possesso del diploma di scuola secondaria superiore (corso di 4 o 5 anni). Il Diploma in Restauro è equiparato al titolo di Laurea magistrale a ciclo unico."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "LD",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Laurea specialistica/magistrale a ciclo unico o diploma di laurea di 4-6 anni"
-        },
-        {
-          "@language": "en",
-          "@value": "Master’s degree"
-        }
-      ]
-    },
-    {
-      "@id": "dct:license",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:rightsHolder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:prefLabel",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "cpvapit:educationLevelDesc",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_CSV",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/education-level"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/education-level/education-level.csv"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in CSV of the Linked Open Dataset of the education level controlled vocabulary "
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "it",
-          "@value": "Distribuzione CSV grado istruzione/titoli di studio delle persone"
-        },
-        {
-          "@language": "en",
-          "@value": "CSV distribution of education level controlled vocabulary"
-        }
-      ]
-    },
-    {
-      "@id": "vcard:Kind",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dcatapit:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_XML",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/education-level"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/education-level/education-level.rdf"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the education level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "RDF/XML distribution of the education level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione RDF/XML del vocabolario controllato sul grado istruzione/titoli di studio delle persone"
-        }
-      ]
-    },
-    {
-      "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ITS",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Diploma di tecnico superiore ITS (corsi biennali) (dal 2013)"
-        },
-        {
-          "@language": "en",
-          "@value": "Diploma of Higher Technical"
-        }
-      ],
-      "cpvapit:educationLevelID": "ITS",
-      "dct:identifier": "ITS",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Il titolo di studio è rilasciato dagli Istituti Tecnici Superiori (ITS). I corsi durano generalmente due anni (raramente estendibili a tre) e si accede dopo il conseguimento di un diploma di scuola secondaria di II grado (di 5 anni)."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "ITS",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Diploma of Higher Technical"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di tecnico superiore ITS (corsi biennali) (dal 2013)"
-        }
-      ]
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_JSON_LD",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/education-level"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-people/education-level/education-level.jsonld"
-      },
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the distribution in JSON_LD of the Linked Open Dataset of the grado di istruzione controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "JSON_LD distribution of the education level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione JSON_LD del vocabolario controllato sul grado istruzione/titoli di studio delle persone"
-        }
-      ]
-    },
-    {
-      "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/L",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Bachelor’s degree"
-        },
-        {
-          "@language": "it",
-          "@value": "Laurea di primo livello"
-        }
-      ],
-      "cpvapit:educationLevelID": "L",
-      "dct:identifier": "L",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Titolo di studio rilasciato dopo un corso di laurea triennale (o di primo livello) conseguita nell’ambito del nuovo ordinamento delle università (D.M. 509 del 3 novembre 1999 “Regolamento recante norme concernenti l’autonomia didattica degli Atenei”). Il Diploma di mediatore linguistico è equiparato al titolo di Laurea triennale."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "L",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Bachelor’s degree"
-        },
-        {
-          "@language": "it",
-          "@value": "Laurea di primo livello "
-        }
-      ]
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "ISTAT",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Italian National Institute of Statistics - ISTAT"
-        },
-        {
-          "@language": "it",
-          "@value": "Istituto Nazionale di Statistica - ISTAT"
-        }
-      ]
-    },
-    {
-      "@id": "skos:narrowerTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LS",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Master’s degree"
-        },
-        {
-          "@language": "it",
-          "@value": "Laurea specialistica/magistrale biennale"
-        }
-      ],
-      "cpvapit:educationLevelID": "LS",
-      "dct:identifier": "LS",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Titolo di studio rilasciato dopo un corso di studi universitari della durata di 2 anni (primo livello), cui si può accedere solo dopo avere conseguito una laurea di primo livello."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "LS",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Master’s degree"
-        },
-        {
-          "@language": "it",
-          "@value": "Laurea specialistica/magistrale biennale"
-        }
-      ]
-    },
-    {
-      "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:theme",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "agid",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Italian Digital Agency"
-        },
-        {
-          "@language": "it",
-          "@value": "Agenzia per l'Italia Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "dcatapit:Distribution",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
-      "@type": [
-        "dcatapit:Organization",
-        "vcard:Organization",
-        "vcard:Kind"
-      ],
-      "vcard:fn": "banche dati e open data",
-      "vcard:hasEmail": {
-        "@id": "mailto:info@dati.gov.it"
+[
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/RDD",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "RDD"
       }
-    },
-    {
-      "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ACO",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Academy Conservatory old programme"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di Accademia di Belle Arti, Danza, Arte Drammatica, ISIA, ecc. Conservatorio (vecchio ordinamento)"
-        }
-      ],
-      "cpvapit:educationLevelID": "ACO",
-      "dct:identifier": "ACO",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Diploma conseguito con l’ordinamento precedente alla Riforma delle Accademie di belle arti, dell’Accademia nazionale di danza, dell’Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti di musica pareggiati (legge 508 del 1999 e successivo Decreto 212 del 2002)."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "ACO",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Diploma di Accademia di Belle Arti, Danza, Arte Drammatica, ISIA, ecc. Conservatorio (vecchio ordinamento)"
-        },
-        {
-          "@language": "en",
-          "@value": "Academy Conservatory old programme"
-        }
-      ]
-    },
-    {
-      "@id": "skos:Concept",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "foaf:Agent",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USV",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Diploma of upper secondary education (2-3 years)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di qualifica professionale di scuola secondaria di II grado di 2-3 anni (che non permette l’iscrizione all’Università)"
-        }
-      ],
-      "cpvapit:educationLevelID": "USV",
-      "dct:identifier": "USV",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Conseguito al termine di un ciclo di studi secondari superiori, effettuato negli Istituti professionali o nell’Istituto d’arte, di durata di soli 2 o 3 anni, e che non permette l’iscrizione ad un corso di studi universitario. Per l’ammissione ai corsi è richiesta la licenza di scuola media inferiore o di avviamento professionale."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "USV",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Diploma of upper secondary education (2-3 years)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di qualifica professionale di scuola secondaria di II grado di 2-3 anni (che non permette l’iscrizione all’Università)"
-        }
-      ]
-    },
-    {
-      "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LSE",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Diploma of lower secondary education"
-        },
-        {
-          "@language": "it",
-          "@value": "Licenza media o avviamento professionale (conseguito non oltre l'anno 1965) /Diploma di Istruzione secondaria di I grado"
-        }
-      ],
-      "cpvapit:educationLevelID": "LSE",
-      "dct:identifier": "LSE",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "La licenza media è conseguita al completamento del secondo livello dell’istruzione di base (il Diploma di Istruzione secondaria di I grado è il nuovo nome che ha assunto il titolo Licenza media a partire dall’anno 2007). Prima dell’istituzione della scuola media unificata veniva conseguito il titolo di avviamento professionale (questo può essere stato conseguito fino al 1965, dopo tale data il percorso dell’Avviamento professionale è stato soppresso). Per l’ammissione ai corsi è sempre stato necessario il possesso della licenza elementare. È importante sottolineare che l’avviamento professionale - in quanto corrisponde (come livello di istruzione) alla Licenza media - non va assolutamente confuso con le qualifiche professionali dell’istruzione/formazione secondaria superiore che vengono conseguite dopo la Licenza media."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "LSE",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Licenza media o avviamento professionale (conseguito non oltre l'anno 1965) /Diploma di Istruzione secondaria di I grado"
-        },
-        {
-          "@language": "en",
-          "@value": "Diploma of lower secondary education"
-        }
-      ]
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_XLSX",
-      "@type": "dcatapit:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-people/education-level"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-people/education-level/education-level.xlsx"
-      },
-      "dct:description": [
-        {
-          "@language": "it",
-          "@value": "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
-        },
-        {
-          "@language": "en",
-          "@value": "This is the distribution in XLSX of the Linked Open Dataset of the education level controlled vocabulary"
-        }
-      ],
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "XLSX distribution of education level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Distribuzione XLSX grado istruzione/titoli di studio delle persone"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level",
-      "@type": [
-        "adms:Asset",
-        "dcatapit:Dataset",
-        "skos:ConceptScheme"
-      ],
-      "adms:representationTechnique": {
-        "@id": "http://purl.org/adms/representationtechnique/SKOS"
-      },
-      "dcat:contactPoint": {
-        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
-      },
-      "dcat:distribution": [
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_Turtle"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_JSON_LD"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_XLSX"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_CSV"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_XML"
-        }
-      ],
-      "dcat:keyword": [
-        {
-          "@language": "it",
-          "@value": "Istruzione"
-        },
-        {
-          "@language": "en",
-          "@value": "Education Level"
-        },
-        {
-          "@language": "it",
-          "@value": "Titolo di studio"
-        },
-        {
-          "@language": "en",
-          "@value": "Education"
-        },
-        {
-          "@language": "it",
-          "@value": "Grado Istruzione"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
-      },
-      "dct:accrualPeriodicity": {
-        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
-      },
-      "dct:conformsTo": {
-        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
-      },
-      "dct:creator": [
-        {
-          "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
-        }
-      ],
-      "dct:description": [
-        {
-          "@language": "en",
-          "@value": "This is the Education Level controlled vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Questo è il vocabolario controllato sul grado di istruzione/titoli di studio delle persone."
-        }
-      ],
-      "dct:identifier": "ISTAT:D.2",
-      "dct:issued": {
-        "@type": "xsd:date",
-        "@value": "2018-01-23"
-      },
-      "dct:language": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ITA"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/language/ENG"
-        }
-      ],
-      "dct:modified": {
-        "@type": "xsd:date",
-        "@value": "2018-06-05"
-      },
-      "dct:publisher": [
-        {
-          "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
-        },
-        {
-          "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
-        }
-      ],
-      "dct:rightsHolder": {
-        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"
-      },
-      "dct:subject": {
-        "@id": "http://eurovoc.europa.eu/100217"
-      },
-      "dct:title": [
-        {
-          "@language": "en",
-          "@value": "Education Level Controlled Vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato Grado di Istruzione/Titoli di Studio"
-        }
-      ],
-      "dct:type": {
-        "@id": "http://purl.org/adms/assettype/CodeList"
-      },
-      "owl:versionInfo": [
-        {
-          "@language": "it",
-          "@value": "E' l'attuale versione disponibile presso ISTAT - una nuova versione della classificazione è attualmente in fase di definizione da parte di ISTAT. In questa versione i codici sono stati modificati eliminando il prefisso ZZ_"
-        },
-        {
-          "@language": "en",
-          "@value": "Current available version - a new version of the classification is under definition by the Italian National Institute of Statistics - ISTAT. In this version the codes have been updated deleting previous ZZ_ prefix"
-        }
-      ],
-      "rdfs:comment": [
-        {
-          "@language": "en",
-          "@value": "This is the Education Level controlled vocabulary."
-        },
-        {
-          "@language": "it",
-          "@value": "Questo è il vocabolario controllato sul grado di istruzione/titoli di studio delle persone."
-        }
-      ],
-      "rdfs:isDefinedBy": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Education Level Controlled Vocabulary"
-        },
-        {
-          "@language": "it",
-          "@value": "Vocabolario Controllato Grado di Istruzione/Titoli di Studio"
-        }
-      ],
-      "skos:hasTopConcept": [
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/NED"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/PSE"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ITS"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/L"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USG"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ACO"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFP"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LD"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFTS"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USV"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/RDD"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/CDU"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LSE"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LS"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/SLA"
-        },
-        {
-          "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/FLA"
-        }
-      ],
-      "xkos:numberOfLevels": "1"
-    },
-    {
-      "@id": "dct:subject",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFP",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Attestato IFP di qualifica professionale triennale (operatore)/Diploma professionale IFP di tecnico (quarto anno) (dal 2005)"
-        },
-        {
-          "@language": "en",
-          "@value": "Vocational training qualification (three-year courses)/ Professional diploma (fourth year)"
-        }
-      ],
-      "cpvapit:educationLevelID": "IFP",
-      "dct:identifier": "IFP",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Conseguito al termine dei Percorsi triennali/quadriennali di istruzione e formazione (IFP). Gli IFP, messi a regime con la riforma degli studi secondari superiori di II grado nell’anno scolastico 2010/2011, sono percorsi di istruzione e formazione professionale gestiti dai sistemi regionali. Rilasciano qualifiche triennali o diplomi quadriennali."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "IFP",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Attestato IFP di qualifica professionale triennale (operatore)/Diploma professionale IFP di tecnico (quarto anno) (dal 2005)"
-        },
-        {
-          "@language": "en",
-          "@value": "Vocational training qualification (three-year courses)/ Professional diploma (fourth year)"
-        }
-      ]
-    },
-    {
-      "@id": "cpvapit:educationLevelID",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "vcard:fn",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:title",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/SLA",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Fine Arts, Drama, Dance and Music Second level academic diploma (Master's degree)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di II livello"
-        }
-      ],
-      "cpvapit:educationLevelID": "SLA",
-      "dct:identifier": "SLA",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Diploma conseguito con il nuovo ordinamento sui Corsi di Alta Formazione Artistica e Musicale (legge 508 del 1999 e successivo Decreto 212 del 2002). Questo Diploma è conseguito al termine di un Corso di Alta Formazione artistica, musicale e coreutica di II livello di durata biennale, a cui si accede di norma con il Diploma accademico di I livello o con un diploma del vecchio ordinamento o con altro titolo di studio conseguito all’estero, riconosciuto idoneo. Al completamento si consegue il Diploma accademico di II livello."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "SLA",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di II livello"
-        },
-        {
-          "@language": "en",
-          "@value": "Fine Arts, Drama, Dance and Music Second level academic diploma (Master's degree)"
-        }
-      ]
-    },
-    {
-      "@id": "foaf:name",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:narrower",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:broader",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
-      "@type": [
-        "foaf:Agent",
-        "dcatapit:Agent"
-      ],
-      "dct:identifier": "PCM",
-      "foaf:name": [
-        {
-          "@language": "en",
-          "@value": "Digital Transformation Team"
-        },
-        {
-          "@language": "it",
-          "@value": "Team per la Trasformazione Digitale"
-        }
-      ]
-    },
-    {
-      "@id": "dct:creator",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFTS",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Certificato di specializzazione tecnica superiore IFTS (dal 2000)"
-        },
-        {
-          "@language": "en",
-          "@value": "Certification of higher technical specialisation"
-        }
-      ],
-      "cpvapit:educationLevelID": "IFTS",
-      "dct:identifier": "IFTS",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Il Certificato è conseguito alla fine del Percorsi di istruzione e formazione tecnica superiore (IFTS). I Percorsi di istruzione e formazione tecnica superiore sono corsi regionali di livello post-secondario generalmente della durata di 1 anno. Si accede dopo il conseguimento di un diploma di scuola secondaria di II grado (di 5 anni) o del diploma professionale di tecnico, conseguito a conclusione di percorsi quadriennali di formazione professionale (gli IFP IV anno). Rilasciano il Certificato di specializzazione tecnica superiore."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "IFTS",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Certificato di specializzazione tecnica superiore IFTS (dal 2000)"
-        },
-        {
-          "@language": "en",
-          "@value": "Certification of higher technical specialisation"
-        }
-      ]
-    },
-    {
-      "@id": "dct:language",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:conformsTo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcatapit:Standard",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "vcard:Organization",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/NED",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Nessun titolo di studio"
-        },
-        {
-          "@language": "en",
-          "@value": "No educational degree"
-        }
-      ],
-      "cpvapit:educationLevelID": "NED",
-      "dct:identifier": "NED",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Non è stato conseguito alcun titolo di studio"
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "NED",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Nessun titolo di studio"
-        },
-        {
-          "@language": "en",
-          "@value": "No educational degree"
-        }
-      ]
-    },
-    {
-      "@id": "dcat:keyword",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:issued",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
-      "@type": [
-        "dct:Standard",
-        "dcatapit:Standard"
-      ],
-      "dct:description": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web",
-      "dct:identifier": "SKOS",
-      "dct:title": "Simple Knowledge Organization System - SKOS"
-    },
-    {
-      "@id": "dcatapit:Dataset",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "dct:type",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:definition",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dcat:accessURL",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/PSE",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Final assessment (Primary school)"
-        },
-        {
-          "@language": "it",
-          "@value": "Licenza elementare/ Attestato di valutazione finale"
-        }
-      ],
-      "cpvapit:educationLevelID": "PSE",
-      "dct:identifier": "PSE",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Conseguito al completamento del primo livello dell’istruzione di base. Comprende anche coloro che sono in possesso di un certificato rilasciato dopo un corso di scuola popolare di livello equivalente alla licenza elementare."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "PSE",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Licenza elementare/ Attestato di valutazione finale"
-        },
-        {
-          "@language": "en",
-          "@value": "Final assessment (Primary school)"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USG",
-      "@type": [
-        "skos:Concept",
-        "cpvapit:EducationLevel"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "en",
-          "@value": "Diploma of upper secondary education (4-5 years)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di maturità / diploma di istruzione secondaria di II grado di 4-5 anni (che permette l’iscrizione all’università)"
-        }
-      ],
-      "cpvapit:educationLevelID": "USG",
-      "dct:identifier": "USG",
-      "skos:definition": {
-        "@language": "it",
-        "@value": "Il Diploma di maturità / Diploma di istruzione secondaria superiore è conseguito al termine di un ciclo di studi secondari superiori della durata di 4 o 5 anni (detto anche diploma di maturità) che permette l’iscrizione ad un corso di studi universitari. Per l’ammissione ai corsi è richiesta la licenza di scuola media inferiore (o di avviamento professionale) è compreso anche il diploma conseguito dopo la frequenza dell’anno integrativo (per esempio dopo il 5° anno dell’istituto magistrale) o del secondo ciclo di studi secondari (per esempio dopo il 4° e 5° anno dell’Istituto professionale)."
-      },
-      "skos:inScheme": {
-        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
-      },
-      "skos:notation": "USG",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Diploma of upper secondary education (4-5 years)"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma di maturità / diploma di istruzione secondaria di II grado di 4-5 anni (che permette l’iscrizione all’università)"
-        }
-      ]
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/RDD",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Dottorato di ricerca/Diploma accademico di formazione alla ricerca "
-        },
-        {
-          "@language": "en",
-          "@value": "Research Doctorate (PhD)/ Advanced research academic diploma"
-        }
-      ],
-      "cpvapit:educationLevelID": "RDD",
-      "dct:identifier": "RDD",
-      "skos:definition": {
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
         "@language": "it",
         "@value": "Il Dottorato di ricerca è Conseguito da coloro che sono già in possesso di una laurea di oltre 3 anni, cioè di una laurea magistrale/specialistica. La durata del dottorato supera in genere i due anni e il titolo conseguito è riconosciuto a tutti gli effetti come titolo di studio. Il dottorato è finalizzato all’approfondimento dell’indagine scientifica e della metodologia di ricerca nel rispettivo settore. Il Diploma accademico di formazione alla ricerca dell’Alta Formazione Artistica e Musicale è conseguito alla fine del Corso accademico di formazione alla ricerca dell’Alta Formazione Artistica e Musicale di durata minima 3 anni e istituiti a partire dall’ dall’a.a. 2012/13. Si accede con il Diploma accademico di secondo livello o altro titolo di studio conseguito all’estero, riconosciuto idoneo."
-      },
-      "skos:inScheme": {
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "RDD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Dottorato di ricerca/Diploma accademico di formazione alla ricerca "
       },
-      "skos:notation": "RDD",
-      "skos:prefLabel": [
-        {
-          "@language": "it",
-          "@value": "Dottorato di ricerca/Diploma accademico di formazione alla ricerca "
-        },
-        {
-          "@language": "en",
-          "@value": "Research Doctorate (PhD)/ Advanced research academic diploma"
-        }
-      ]
-    },
-    {
-      "@id": "dct:description",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/CDU",
-      "@type": [
-        "cpvapit:EducationLevel",
-        "skos:Concept"
-      ],
-      "clvapit:hasRankOrder": "1",
-      "cpvapit:educationLevelDesc": [
-        {
-          "@language": "it",
-          "@value": "Diploma universitario di due/tre anni, Scuola diretta a fini speciali, altro diploma terziario non universitario"
-        },
-        {
-          "@language": "en",
-          "@value": "University diploma"
-        }
-      ],
-      "cpvapit:educationLevelID": "CDU",
-      "dct:identifier": "CDU",
-      "skos:definition": {
+      {
+        "@language": "en",
+        "@value": "Research Doctorate (PhD)/ Advanced research academic diploma"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Dottorato di ricerca/Diploma accademico di formazione alla ricerca "
+      },
+      {
+        "@language": "en",
+        "@value": "Research Doctorate (PhD)/ Advanced research academic diploma"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "RDD"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/adms#representationTechnique",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://www.w3.org/ns/adms#Asset",
+      "http://dati.gov.it/onto/dcatapit#Dataset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      }
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+        "@id": "http://dati.gov.it/data/resource/Standard/SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "This is the Education Level controlled vocabulary"
+      },
+      {
+        "@language": "it",
+        "@value": "Questo è il vocabolario controllato sul grado di istruzione/titoli di studio delle persone."
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "ISTAT:D.2"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-01-23"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-06-05"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM"
+      }
+    ],
+    "http://purl.org/dc/terms/rightsHolder": [
+      {
+        "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://eurovoc.europa.eu/100217"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Education Level Controlled Vocabulary"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario Controllato Grado di Istruzione/Titoli di Studio"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@id": "http://purl.org/adms/assettype/CodeList"
+      }
+    ],
+    "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "This is the Education Level controlled vocabulary."
+      },
+      {
+        "@language": "it",
+        "@value": "Questo è il vocabolario controllato sul grado di istruzione/titoli di studio delle persone."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Education Level Controlled Vocabulary"
+      },
+      {
+        "@language": "it",
+        "@value": "Vocabolario Controllato Grado di Istruzione/Titoli di Studio"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "en",
+        "@value": "Current available version - a new version of the classification is under definition by the Italian National Institute of Statistics - ISTAT. In this version the codes have been updated deleting previous ZZ_ prefix"
+      },
+      {
+        "@language": "it",
+        "@value": "E' l'attuale versione disponibile presso ISTAT - una nuova versione della classificazione è attualmente in fase di definizione da parte di ISTAT. In questa versione i codici sono stati modificati eliminando il prefisso ZZ_"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/NED"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/PSE"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LSE"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USV"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFP"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USG"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFTS"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ITS"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/CDU"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/L"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/FLA"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LS"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LD"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/SLA"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ACO"
+      },
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/RDD"
+      }
+    ],
+    "http://www.w3.org/ns/adms#representationTechnique": [
+      {
+        "@id": "http://purl.org/adms/representationtechnique/SKOS"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_Turtle"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_XML"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_JSON_LD"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_CSV"
+      },
+      {
+        "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_XLSX"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "it",
+        "@value": "Grado Istruzione"
+      },
+      {
+        "@language": "it",
+        "@value": "Istruzione"
+      },
+      {
+        "@language": "it",
+        "@value": "Titolo di studio"
+      },
+      {
+        "@language": "en",
+        "@value": "Education Level"
+      },
+      {
+        "@language": "en",
+        "@value": "Education"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+      }
+    ],
+    "https://w3id.org/italia/onto/NDC/keyConcept": [
+      {
+        "@value": "education-level"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFTS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "IFTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Il Certificato è conseguito alla fine del Percorsi di istruzione e formazione tecnica superiore (IFTS). I Percorsi di istruzione e formazione tecnica superiore sono corsi regionali di livello post-secondario generalmente della durata di 1 anno. Si accede dopo il conseguimento di un diploma di scuola secondaria di II grado (di 5 anni) o del diploma professionale di tecnico, conseguito a conclusione di percorsi quadriennali di formazione professionale (gli IFP IV anno). Rilasciano il Certificato di specializzazione tecnica superiore."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "IFTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Certificato di specializzazione tecnica superiore IFTS (dal 2000)"
+      },
+      {
+        "@language": "en",
+        "@value": "Certification of higher technical specialisation"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Certificato di specializzazione tecnica superiore IFTS (dal 2000)"
+      },
+      {
+        "@language": "en",
+        "@value": "Certification of higher technical specialisation"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "IFTS"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#downloadURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Standard/SKOS",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Standard",
+      "http://purl.org/dc/terms/Standard"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "SKOS"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Simple Knowledge Organization System - SKOS"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Dataset",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#hasEmail",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/title",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "LS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Titolo di studio rilasciato dopo un corso di studi universitari della durata di 2 anni (primo livello), cui si può accedere solo dopo avere conseguito una laurea di primo livello."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Laurea specialistica/magistrale biennale"
+      },
+      {
+        "@language": "en",
+        "@value": "Master’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Laurea specialistica/magistrale biennale"
+      },
+      {
+        "@language": "en",
+        "@value": "Master’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "LS"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#fn",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/description",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "ISTAT"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Istituto Nazionale di Statistica - ISTAT"
+      },
+      {
+        "@language": "en",
+        "@value": "Italian National Institute of Statistics - ISTAT"
+      }
+    ]
+  },
+  {
+    "@id": "http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "agid"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Agenzia per l'Italia Digitale"
+      },
+      {
+        "@language": "en",
+        "@value": "Italian Digital Agency"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/CDU",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CDU"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
         "@language": "it",
         "@value": "Conseguito al termine di un corso di diploma universitario o di un corso di laurea triennale (vecchio ordinamento) o di un corso presso una Scuola diretta a fini speciali o una Scuola parauniversitaria. Si consegue dopo un corso di studi universitari della durata di 2 o 3 anni. Il Diploma di scuola superiore per interprete e traduttore ed il Diploma di Scuola di archivista, paleografia e diplomatica vanno codificati con questo codice. È compreso anche il diploma di 2 o 3 anni ISEF (vecchio ordinamento)."
-      },
-      "skos:inScheme": {
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
         "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CDU"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma universitario di due/tre anni, Scuola diretta a fini speciali, altro diploma terziario non universitario"
       },
-      "skos:notation": "CDU",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "University diploma"
-        },
-        {
-          "@language": "it",
-          "@value": "Diploma universitario di due/tre anni, Scuola diretta a fini speciali, altro diploma terziario non universitario"
-        }
-      ]
-    },
-    {
-      "@id": "dct:identifier",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "cpvapit:EducationLevel",
-      "@type": "rdfs:Class"
-    },
-    {
-      "@id": "skos:broaderTransitive",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:publisher",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "dct:format",
-      "@type": "rdfs:Property"
-    },
-    {
-      "@id": "skos:notation",
-      "@type": "rdfs:Property"
-    }
-  ]
-}
+      {
+        "@language": "en",
+        "@value": "University diploma"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma universitario di due/tre anni, Scuola diretta a fini speciali, altro diploma terziario non universitario"
+      },
+      {
+        "@language": "en",
+        "@value": "University diploma"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "CDU"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#keyword",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/ContactPoint/voc_AgID",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Organization",
+      "http://www.w3.org/2006/vcard/ns#Organization",
+      "http://www.w3.org/2006/vcard/ns#Kind"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "banche dati e open data"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:info@dati.gov.it"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#accessURL",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Amministrazione/td_PCM",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "PCM"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "it",
+        "@value": "Team per la Trasformazione Digitale"
+      },
+      {
+        "@language": "en",
+        "@value": "Digital Transformation Team"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/L",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "L"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Titolo di studio rilasciato dopo un corso di laurea triennale (o di primo livello) conseguita nell’ambito del nuovo ordinamento delle università (D.M. 509 del 3 novembre 1999 “Regolamento recante norme concernenti l’autonomia didattica degli Atenei”). Il Diploma di mediatore linguistico è equiparato al titolo di Laurea triennale."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "L"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Laurea di primo livello "
+      },
+      {
+        "@language": "en",
+        "@value": "Bachelor’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Laurea di primo livello"
+      },
+      {
+        "@language": "en",
+        "@value": "Bachelor’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "L"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/subject",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/format",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#theme",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LD",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "LD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Titolo di studio rilasciato dopo un corso di studi universitari della durata di almeno 4 anni. E’ inclusa sia la tradizionale laurea conseguita con il vecchio ordinamento universitario, sia la laurea specialistica a ciclo unico conseguita con il nuovo ordinamento. Per accedere a tali corsi è necessario essere in possesso del diploma di scuola secondaria superiore (corso di 4 o 5 anni). Il Diploma in Restauro è equiparato al titolo di Laurea magistrale a ciclo unico."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Laurea specialistica/magistrale a ciclo unico o diploma di laurea di 4-6 anni"
+      },
+      {
+        "@language": "en",
+        "@value": "Master’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Laurea specialistica/magistrale a ciclo unico o diploma di laurea di 4-6 anni"
+      },
+      {
+        "@language": "en",
+        "@value": "Master’s degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "LD"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Agent",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/license",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_XML",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/XML of the Linked Open Dataset of the education level controlled vocabulary"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/XML del vocabolario controllato sul grado istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/XML distribution of the education level controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/education-level/education-level.rdf"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ACO",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "ACO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Diploma conseguito con l’ordinamento precedente alla Riforma delle Accademie di belle arti, dell’Accademia nazionale di danza, dell’Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti di musica pareggiati (legge 508 del 1999 e successivo Decreto 212 del 2002)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ACO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma di Accademia di Belle Arti, Danza, Arte Drammatica, ISIA, ecc. Conservatorio (vecchio ordinamento)"
+      },
+      {
+        "@language": "en",
+        "@value": "Academy Conservatory old programme"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma di Accademia di Belle Arti, Danza, Arte Drammatica, ISIA, ecc. Conservatorio (vecchio ordinamento)"
+      },
+      {
+        "@language": "en",
+        "@value": "Academy Conservatory old programme"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "ACO"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/name",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CLV/hasRankOrder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/conformsTo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_CSV",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in CSV of the Linked Open Dataset of the education level controlled vocabulary "
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione CSV grado istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "CSV distribution of education level controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/education-level/education-level.csv"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/FLA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "FLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Diploma conseguito con il nuovo ordinamento sui Corsi di Alta Formazione Artistica e Musicale (legge 508 del 1999 e successivo Decreto 212 del 2002). Questo Diploma è conseguito al termine di un Corso di Alta Formazione artistica, musicale e coreutica di I livello di durata triennale, a cui si accede di norma con il diploma di scuola secondaria superiore o altro titolo di studio conseguito all’estero, riconosciuto idoneo."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di I livello"
+      },
+      {
+        "@language": "en",
+        "@value": "Fine Arts, Drama, Dance and Music First level academic diploma (Bachelor's degree)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di I livello"
+      },
+      {
+        "@language": "en",
+        "@value": "Fine Arts, Drama, Dance and Music First level academic diploma (Bachelor's degree)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "FLA"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_XLSX",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in XLSX of the Linked Open Dataset of the education level controlled vocabulary"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione XLSX grado istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "XLSX distribution of education level controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-people/education-level/education-level.xlsx"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/language",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/ITS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "ITS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Il titolo di studio è rilasciato dagli Istituti Tecnici Superiori (ITS). I corsi durano generalmente due anni (raramente estendibili a tre) e si accede dopo il conseguimento di un diploma di scuola secondaria di II grado (di 5 anni)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ITS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma di tecnico superiore ITS (corsi biennali) (dal 2013)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of Higher Technical"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma di tecnico superiore ITS (corsi biennali) (dal 2013)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of Higher Technical"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "ITS"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/rightsHolder",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CPV/educationLevelID",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/PSE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "PSE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Conseguito al completamento del primo livello dell’istruzione di base. Comprende anche coloro che sono in possesso di un certificato rilasciato dopo un corso di scuola popolare di livello equivalente alla licenza elementare."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "PSE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Licenza elementare/ Attestato di valutazione finale"
+      },
+      {
+        "@language": "en",
+        "@value": "Final assessment (Primary school)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Licenza elementare/ Attestato di valutazione finale"
+      },
+      {
+        "@language": "en",
+        "@value": "Final assessment (Primary school)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "PSE"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CPV/EducationLevel",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/NED",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "NED"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Non è stato conseguito alcun titolo di studio"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "NED"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Nessun titolo di studio"
+      },
+      {
+        "@language": "en",
+        "@value": "No educational degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Nessun titolo di studio"
+      },
+      {
+        "@language": "en",
+        "@value": "No educational degree"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "NED"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/LSE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "LSE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "La licenza media è conseguita al completamento del secondo livello dell’istruzione di base (il Diploma di Istruzione secondaria di I grado è il nuovo nome che ha assunto il titolo Licenza media a partire dall’anno 2007). Prima dell’istituzione della scuola media unificata veniva conseguito il titolo di avviamento professionale (questo può essere stato conseguito fino al 1965, dopo tale data il percorso dell’Avviamento professionale è stato soppresso). Per l’ammissione ai corsi è sempre stato necessario il possesso della licenza elementare. È importante sottolineare che l’avviamento professionale - in quanto corrisponde (come livello di istruzione) alla Licenza media - non va assolutamente confuso con le qualifiche professionali dell’istruzione/formazione secondaria superiore che vengono conseguite dopo la Licenza media."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LSE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Licenza media o avviamento professionale (conseguito non oltre l'anno 1965) /Diploma di Istruzione secondaria di I grado"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of lower secondary education"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Licenza media o avviamento professionale (conseguito non oltre l'anno 1965) /Diploma di Istruzione secondaria di I grado"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of lower secondary education"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "LSE"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Organization",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/keyConcept",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USV",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "USV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Conseguito al termine di un ciclo di studi secondari superiori, effettuato negli Istituti professionali o nell’Istituto d’arte, di durata di soli 2 o 3 anni, e che non permette l’iscrizione ad un corso di studi universitario. Per l’ammissione ai corsi è richiesta la licenza di scuola media inferiore o di avviamento professionale."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "USV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma di qualifica professionale di scuola secondaria di II grado di 2-3 anni (che non permette l’iscrizione all’Università)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of upper secondary education (2-3 years)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma di qualifica professionale di scuola secondaria di II grado di 2-3 anni (che non permette l’iscrizione all’Università)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of upper secondary education (2-3 years)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "USV"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2006/vcard/ns#Kind",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_RDF_Turtle",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of the Linked Open Dataset of the education level controlled vocabulary"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of the education level controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/education-level/education-level.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Distribution",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/data/resource/Distribution/EducationLevel_JSON_LD",
+    "@type": [
+      "http://dati.gov.it/onto/dcatapit#Distribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sul grado di istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in JSON_LD of the Linked Open Dataset of the grado di istruzione controlled vocabulary"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione JSON_LD del vocabolario controllato sul grado istruzione/titoli di studio delle persone"
+      },
+      {
+        "@language": "en",
+        "@value": "JSON_LD distribution of the education level controlled vocabulary"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-people/education-level/education-level.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/USG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "USG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Il Diploma di maturità / Diploma di istruzione secondaria superiore è conseguito al termine di un ciclo di studi secondari superiori della durata di 4 o 5 anni (detto anche diploma di maturità) che permette l’iscrizione ad un corso di studi universitari. Per l’ammissione ai corsi è richiesta la licenza di scuola media inferiore (o di avviamento professionale) è compreso anche il diploma conseguito dopo la frequenza dell’anno integrativo (per esempio dopo il 5° anno dell’istituto magistrale) o del secondo ciclo di studi secondari (per esempio dopo il 4° e 5° anno dell’Istituto professionale)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "USG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma di maturità / diploma di istruzione secondaria di II grado di 4-5 anni (che permette l’iscrizione all’università)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of upper secondary education (4-5 years)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma di maturità / diploma di istruzione secondaria di II grado di 4-5 anni (che permette l’iscrizione all’università)"
+      },
+      {
+        "@language": "en",
+        "@value": "Diploma of upper secondary education (4-5 years)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "USG"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/SLA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "SLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Diploma conseguito con il nuovo ordinamento sui Corsi di Alta Formazione Artistica e Musicale (legge 508 del 1999 e successivo Decreto 212 del 2002). Questo Diploma è conseguito al termine di un Corso di Alta Formazione artistica, musicale e coreutica di II livello di durata biennale, a cui si accede di norma con il Diploma accademico di I livello o con un diploma del vecchio ordinamento o con altro titolo di studio conseguito all’estero, riconosciuto idoneo. Al completamento si consegue il Diploma accademico di II livello."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di II livello"
+      },
+      {
+        "@language": "en",
+        "@value": "Fine Arts, Drama, Dance and Music Second level academic diploma (Master's degree)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Diploma accademico di Alta Formazione Artistica, Musicale e Coreutica di II livello"
+      },
+      {
+        "@language": "en",
+        "@value": "Fine Arts, Drama, Dance and Music Second level academic diploma (Master's degree)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "SLA"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/type",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level/IFP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/italia/onto/CPV/EducationLevel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "IFP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "it",
+        "@value": "Conseguito al termine dei Percorsi triennali/quadriennali di istruzione e formazione (IFP). Gli IFP, messi a regime con la riforma degli studi secondari superiori di II grado nell’anno scolastico 2010/2011, sono percorsi di istruzione e formazione professionale gestiti dai sistemi regionali. Rilasciano qualifiche triennali o diplomi quadriennali."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "IFP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "it",
+        "@value": "Attestato IFP di qualifica professionale triennale (operatore)/Diploma professionale IFP di tecnico (quarto anno) (dal 2005)"
+      },
+      {
+        "@language": "en",
+        "@value": "Vocational training qualification (three-year courses)/ Professional diploma (fourth year)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CLV/hasRankOrder": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelDesc": [
+      {
+        "@language": "it",
+        "@value": "Attestato IFP di qualifica professionale triennale (operatore)/Diploma professionale IFP di tecnico (quarto anno) (dal 2005)"
+      },
+      {
+        "@language": "en",
+        "@value": "Vocational training qualification (three-year courses)/ Professional diploma (fourth year)"
+      }
+    ],
+    "https://w3id.org/italia/onto/CPV/educationLevelID": [
+      {
+        "@value": "IFP"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/CPV/educationLevelDesc",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Property"
+    ]
+  }
+]

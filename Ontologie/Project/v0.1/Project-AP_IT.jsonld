@@ -130,10 +130,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.rdf"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.rdf"
       },
       "dcterms:description": [
         {
@@ -336,10 +336,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.jsonld"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.jsonld"
       },
       "dcterms:description": [
         {
@@ -462,10 +462,10 @@
         "admsapit:SemanticAssetDistribution"
       ],
       "dcat:accessURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest"
       },
       "dcat:downloadURL": {
-        "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/Project/latest/Project-AP_IT.ttl"
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/Project/latest/Project-AP_IT.ttl"
       },
       "dcterms:description": [
         {
@@ -808,11 +808,11 @@
       "owl:versionInfo": [
         {
           "@language": "en",
-          "@value": "Version 0.1 - 14  May 2019 - creation of the ontology and preliminary modelling of requirements R1-R10 as identified in https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/59"
+          "@value": "Version 0.1 - 14  May 2019 - creation of the ontology and preliminary modelling of requirements R1-R10 as identified in https://github.com/italia/dati-semantic-assets/issues/59"
         },
         {
           "@language": "it",
-          "@value": "Versione 0.1 - 14 Maggio 2019 - creazione dell'ontologia e modellazione preliminare dei requisiti R1-R10 come identificati in https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/59"
+          "@value": "Versione 0.1 - 14 Maggio 2019 - creazione dell'ontologia e modellazione preliminare dei requisiti R1-R10 come identificati in https://github.com/italia/dati-semantic-assets/issues/59"
         }
       ],
       "rdfs:comment": [

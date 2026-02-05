@@ -11,6 +11,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 
 dcatapit:Dataset
@@ -157,6 +158,9 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
+
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
       rdfs:comment "Taxonomy for public places of cultural interest"@en , "Tassonomia dei luoghi pubblici di interesse culturale"@it ;
@@ -167,6 +171,7 @@ vcard:hasEmail
       dct:type <http://purl.org/adms/assettype/Taxonomy> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places" ;
+      ndc:keyConcept "cultural-interest-places" ;
       dct:rightsHolder <http://spcdata.digitpa.gov.it/Amministrazione/m_bac> ;
       dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/agid>  , <hhttp://spcdata.digitpa.gov.it/Amministrazione/m_bac> ;
       dct:publisher <http://spcdata.digitpa.gov.it/Amministrazione/agid>  ;
@@ -211,8 +216,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi luoghi pubblici di interesse culturale"@it , "This is the distribution in RDF/turtle of the Linked Open Dataset of the controlled vocabulary related to types of public places of cultural interest"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.ttl> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.ttl> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
 
 <https://w3id.org/italia/data/distribution/cultural-interest-places-RDF-XML>
       a	dcatapit:Distribution  ;
@@ -220,8 +225,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi luoghi pubblici di interesse culturale"@it , "This is the distribution in RDF/XML of the Linked Open Dataset of the controlled vocabulary related to types of public places of cultural interest"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.rdf> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.rdf> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
 
 <https://w3id.org/italia/data/distribution/cultural-interest-places-JSON-LD>
       a	dcatapit:Distribution  ;
@@ -229,8 +234,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi luoghi pubblici di interesse culturale"@it , "This is the distribution in JSON_LD of the Linked Open Dataset of the controlled vocabulary related to types of public places of cultural interest"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.jsonld> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
+      dcat:downloadURL		<https://raw.githubusercontent.com/italia/dati-semantic-assets/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.jsonld> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
 
 <https://w3id.org/italia/data/distribution/cultural-interest-places-CSV>
       a	dcatapit:Distribution  ;
@@ -238,8 +243,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi luoghi pubblici di interesse culturale"@it , "This is the distribution in CSV of the Linked Open Dataset of the controlled vocabulary related to types of public places of cultural interest"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/blob/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.csv> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
+      dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/blob/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.csv> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
 
 <https://w3id.org/italia/data/distribution/cultural-interest-places-XLSX>
       a	dcatapit:Distribution  ;
@@ -247,8 +252,8 @@ vcard:hasEmail
       dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato sulla classificazione dei tipi luoghi pubblici di interesse culturale"@it , "This is the distribution in XLSX of the Linked Open Dataset of the controlled vocabulary related to types of public places of cultural interest"@en ;
       dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-      dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/raw/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/classifications-for-culture/cultural-interest-places.xlsx> ;
-      dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
+      dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/raw/master/VocabolariControllati/classifications-for-culture/cultural-interest-places/cultural-interest-places.xlsx> ;
+      dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-culture/cultural-interest-places> .
 
 
 ##### Definition of the controlled vocabulary fist level of the taxonomy #####

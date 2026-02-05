@@ -1,25 +1,24 @@
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT ?codice_1_livello ?codice_2_livello ?label_ITA_1_livello ?label_ITA_2_livello 
-  
-FROM <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus> 
+SELECT ?codice_1_livello ?codice_2_livello ?label_ITA_1_livello ?label_ITA_2_livello
+
+FROM <https://w3id.org/italia/controlled-vocabulary/classifications-for-trasparency/transparency-titulus>
 
 WHERE {
-  
+
 	BIND("it" AS ?lang)
-  
+
 	?level02_uri a skos:Concept ;
 		skos:notation ?codice_2_livello ;
 		skos:prefLabel ?label_ITA_2_livello .
 	FILTER(LANG(?label_ITA_2_livello)=?lang)
 
-	# parent details   
+	# parent details
 	?level02_uri skos:broader ?level01_uri .
 	?level01_uri a skos:Concept ;
 		skos:notation ?codice_1_livello ;
-		skos:prefLabel ?label_ITA_1_livello . 
+		skos:prefLabel ?label_ITA_1_livello .
 	FILTER(LANG(?label_ITA_1_livello)=?lang)
 
 }
-ORDER BY ?codice_1_livello ?codice_2_livello 
-
+ORDER BY ?codice_1_livello ?codice_2_livello

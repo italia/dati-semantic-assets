@@ -1,0 +1,80 @@
+#
+# Validate Ontologies.
+#
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix adms:    <http://www.w3.org/ns/adms#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix cpvapit: <https://w3id.org/italia/onto/CPV/> .
+@prefix xkos:    <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
+@prefix ex: <https://localhost.example/OntologyShacl> .
+
+ex:
+ a owl:Ontology ;
+  sh:declare [
+    sh:prefix "skos" ;
+    sh:namespace "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+  ] ;
+
+  sh:declare [
+      sh:prefix "dcatapit" ;
+      sh:namespace "http://dati.gov.it/onto/dcatapit#"^^xsd:anyURI ;
+  ] ;
+.
+
+ex:VocabularyShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this rdf:type owl:Ontology .
+      }
+      """ ;
+  ];
+
+  # Required elements.
+  sh:property [ sh:path owl:versionIRI                   ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path owl:versionInfo                   ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path admsapit:acronym                   ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path admsapit:hasSemanticAssetDistribution                   ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path admsapit:prefix                   ; sh:minCount 1 ; ] ;
+  # FIXME re-enable. sh:property [ sh:path admsapit:status                   ; sh:minCount 1 ; ] ;
+  
+  sh:property [ sh:path dct:title ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:description ; sh:minCount 1 ; ] ;
+
+  sh:property [ sh:path dct:issued; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:modified; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:creator                   ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:rightsHolder ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:publisher ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:accrualPeriodicity ; sh:minCount 1 ; ] ;
+
+  sh:property [ sh:path dcat:theme; sh:minCount 1 ; ] ;
+
+  # Optional elements, but required for publication in NDC.
+  sh:property [ sh:path dcat:keyword; sh:minCount 1 ; ] ;
+  
+  # To be added in the future.
+  # sh:property [ sh:path dct:identifier ; sh:minCount 1 ; ] ;
+
+  # Optional elements, not required.
+  # sh:property [ sh:path admsapit:hasKeyClass                   ; sh:minCount 1 ; ] ;
+  # sh:property [ sh:path dcat:distribution ; sh:minCount 1 ; ] ;
+  .

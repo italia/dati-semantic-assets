@@ -14,7 +14,7 @@
       "@id": "https://w3id.org/italia/onto/IoT/MeasurementQuality",
       "@type": "owl:Class",
       "rdfs:subClassOf": {
-        "@id": "ssn:SystemProperty"
+        "@id": "http://www.w3.org/ns/ssn/systems/SystemProperty"
       }
     },
     {
@@ -53,7 +53,7 @@
       }
     },
     {
-      "@id": "ssn:Sensor",
+      "@id": "sosa:Sensor",
       "@type": "owl:Class",
       "rdfs:subClassOf": {
         "@id": "dul:Object"
@@ -91,7 +91,7 @@
       "@id": "https://w3id.org/italia/onto/IoT/Sensor",
       "@type": "owl:Class",
       "rdfs:subClassOf": {
-        "@id": "ssn:Sensor"
+        "@id": "sosa:Sensor"
       }
     },
     {
@@ -262,7 +262,7 @@
       }
     },
     {
-      "@id": "ssn:SystemProperty",
+      "@id": "http://www.w3.org/ns/ssn/systems/SystemProperty",
       "@type": "owl:Class",
       "rdfs:subClassOf": {
         "@id": "dul:Quality"

@@ -1,5 +1,7 @@
-@prefix : <http://dati.gov.it/onto/dcatapit> .
-@prefix dct: <http://purl.org/dc/elements/1.1/> .
+@prefix : <http://dati.gov.it/onto/dcatapit#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix l0: <https://w3id.org/italia/onto/l0/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -11,25 +13,64 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
 @base <http://dati.gov.it/onto/dcatapit> .
 
 <http://dati.gov.it/onto/dcatapit> rdf:type owl:Ontology ;
                                     owl:versionIRI <http://dati.gov.it/onto/dcatapit/2.0> ;
-                                    dct:description "This is version 2.0 (2016-03-18) of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT)."@en ;
-                                    dct:rights "Attribuzione - http://creativecommons.org/licenses/by/3.0/it/legalcode"@it ;
-                                    dct:title "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA"@it ;
-                                    rdfs:label "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA"@it , "DCAT-AP IT - The Italian application profile for metadata of dataset"@en ;
-                                    dct:description <http://www.dati.gov.it/sites/default/files/DCAT-AP_IT_UML.png> ;
-                                    dct:creator "AgID - Agenzia per l'Italia Digitale" ;
-                                    rdfs:comment "Questa è la versione 2.0 dell'ontologia  - Ultima modifica del 18 marzo 2016. L'ontologia è definita sulla base del profilo DCAT-AP 1.1 rilasciato dalla Commissione Europea, nel contesto del programma ISA, lo scorso Novembre 2015."@it ;
-                                    dct:title "DCAT-AP IT - The Italian application profile for metadata of datasets"@en ;
-                                    dct:license <http://creativecommons.org/licenses/by/3.0/it/> ;
-                                    dct:modified "2016-03-18" ;
-                                    rdfs:comment "This is 2.0 version  of the ontology - last update on 18th March 2016. The ontology is built upon DCAT-AP version 1.1 released by the European Commission, in the context of the ISA programme, on November 2015."@en ;
-                                    dct:description "Versione 2.0 del 18-03-2016 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT)."@it ;
+                                    dc:description <http://www.dati.gov.it/sites/default/files/DCAT-AP_IT_UML.png> ;
+                                    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+                                    dct:creator <https://w3id.org/italia/data/public-organization/agid> ;
+                                    dct:description "This is version 2.0 of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT)."@en ,
+                                                    "Versione 2.0 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT)."@it ;
+                                    dct:identifier "http://dati.gov.it/onto/dcatapit" ;
+                                    dct:issued "2016-03-18"^^xsd:date ;
+                                    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ,
+                                                 <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                    dct:modified "2022-06-23"^^xsd:date ;
+                                    dct:publisher <https://w3id.org/italia/data/public-organization/agid> ;
+                                    dct:rightsHolder <https://w3id.org/italia/data/public-organization/agid> ;
+
+                                    dct:title "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA"@it , "DCAT-AP IT - The Italian application profile for metadata of datasets"@en ;
+
+                                    rdfs:comment "This is version 2.0 of the ontology of the Italian application profile for the metadata that describe catalogues and data of  Italian Public Administrations (DCAT-AP_IT)."@en ,
+                                                  "Versione 2.0 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT)."@it ;
+                                    rdfs:isDefinedBy <http://dati.gov.it/onto/dcatapit> ;
+                                    rdfs:label "DCAT-AP IT - Ontologia del profilo nazionale  dei metadati dei dati della PA"@it , "DCAT-AP IT - The Italian application profile for metadata of datasets"@en ;
+
+                                    owl:versionInfo "Version 2.0 - updated on 23th June 2022 - Introduced ADMS-AP_IT metadata for schema.gov.it harvisting purposes and fixing some typo"@en ,
+                                                    "Versione 2.0 - aggiornata il 23 Giugno 2022 - corretti dei typo nelle descrizioni. Aggiunti i metadati conformi a ADMS-AP_IT per abilitare l'harvesting in schema.gov.it"@it ;
+                                    dcat:contactPoint <https://w3id.org/italia/data/contact-point/onto-agid> ;
+                                    dcat:keyword "dataset"@it ,
+                                                 "catalogo dati"@it ,
+                                                 "dati aperti"@it ,
+                                                 "distribuzione dataset"@it ,
+                                                 "distribuzione"@it ;
+                                    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+                                    admsapit:acronym "DCAT-AP_IT" ;
                                     dct:contributor "Working Group on National metadata profile DCAT-AP IT - Regione Piemonte, Provincia Autonoma di Trento, CISIS, Protezione Civile and ISTAT"@en ,
                                                     "Gruppo di lavoro su Profilo Nazionale Metadati - Regione Piemonte, Provincia autonoma di Trento, CISIS, Protezione Civile e Istat"@it ;
-                                    dct:rights "Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode"@en .
+                                    admsapit:hasKeyClass :Dataset ,
+                                                         :Distribution ,
+                                                         :Catalog ;
+                                    admsapit:hasOntologyLanguage admsapit:OWL ;
+                                    admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/DCATAPIT-JSON-LD> ,
+                                                                          <https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE> ,
+                                                                          <https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML> ;
+                                    admsapit:hasTask admsapit:AnnotationTask ,
+                                                     admsapit:QueryFormulationTask ;
+                                    admsapit:last <http://dati.gov.it/onto/dcatapit/2.0> ;
+                                    admsapit:officialURI "http://dati.gov.it/onto/dcatapit"^^xsd:anyURI ;
+                                    admsapit:prefix "dcatapit" ;
+                                    admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/OntoPiA> ,
+                                                                <https://w3id.org/italia/data/project/datigovit> ;
+                                    admsapit:status "catalogued" ,
+                                                    "published" ;
+                                    admsapit:target "Imprese" ,
+                                                    "Comunità Open Data" ,
+                                                    "Pubbliche Amministrazioni" ;
+                                    admsapit:type admsapit:CoreOntology .
+
 
 #################################################################
 #    Annotation properties
@@ -804,7 +845,7 @@ datiDataset:LinkedOpenIPA
    dcat:keyword  \"Unità Organizzativa\" ;
    dcat:keyword   \"Area Organizzativa Omogenea\" ;
    owl:versionOf  \"1.5\" ;
-   ct:rightsHolder 	<http://dati.gov.it/resource/Amministrazione/agid> ;
+   dct:rightsHolder 	<http://dati.gov.it/resource/Amministrazione/agid> ;
    dct:publisher 		<http://dati.gov.it/resource/Amministrazione/agid> ;
    dct:creator 		<http://dati.gov.it/resource/Amministrazione/agid> ;
    dcat:distribution 		<http://dati.gov.it/resource/Distribuzione/LODIPA-Turtle> ;
@@ -837,7 +878,7 @@ datiDataset:LinkedOpenIPA
    dcat:keyword  \"Unità Organizzativa\" ;
    dcat:keyword   \"Area Organizzativa Omogenea\" ;
    owl:versionOf  \"1.5\" ;
-   ct:rightsHolder 	<http://dati.gov.it/resource/Amministrazione/agid> ;
+   dct:rightsHolder 	<http://dati.gov.it/resource/Amministrazione/agid> ;
    dct:publisher 		<http://dati.gov.it/resource/Amministrazione/agid> ;
    dct:creator 		<http://dati.gov.it/resource/Amministrazione/agid> ;
    dcat:distribution 		<http://dati.gov.it/resource/Distribuzione/LODIPA-Turtle> ;
@@ -1367,8 +1408,59 @@ datiCatalogo:SPCDataCatalog
 
 ###  http://dati.gov.it/onto/dcatapit
 <http://dati.gov.it/onto/dcatapit> rdf:type owl:NamedIndividual ,
-                                            adms:SemanticAsset .
+                                            admsapit:SemanticAsset .
 
+
+<https://w3id.org/italia/data/distribution/DCATAPIT-JSON-LD> rdf:type owl:NamedIndividual ,
+                                                                     admsapit:SemanticAssetDistribution ;
+                                                            dct:description "Questa è la distribuzione JSON-LD dell'ontologia DCAT-AP_IT"@it ,
+                                                                            "This is the distribution in JSON-LD of the DCAT-AP_IT ontology"@en ;
+                                                            dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                            dct:title "Distribuzione JSON-LD ontologia DCAT-AP_IT"@it ,
+                                                                      "JSON-LD distribution of DCAT-AP_IT Ontology"@en ;
+                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.jsonld> .
+
+
+###  https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/DCATAPIT-RDF-TURTLE> rdf:type owl:NamedIndividual ,
+                                                                        admsapit:SemanticAssetDistribution ;
+                                                               dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia DCAT-AP_IT"@it ,
+                                                                               "This is the distribution in RDF/turtle of the DCAT-AP_IT ontology"@en ;
+                                                               dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+                                                               dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                               dct:title "Distribuzione RDF/Turtle ontologia DCAT-AP_IT"@it ,
+                                                                         "RDF/Turtle distribution of DCAT-AP_IT Ontology"@en ;
+                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.ttl> .
+
+
+###  https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML
+<https://w3id.org/italia/data/distribution/DCATAPIT-RDF-XML> rdf:type owl:NamedIndividual ,
+                                                                     admsapit:SemanticAssetDistribution ;
+                                                            dct:description "Questa è la distribuzione RDF/XML dell'ontologia DCAT-AP_IT"@it ,
+                                                                            "This is the distribution in RDF/XML of the DCAT-AP_IT ontology"@en ;
+                                                            dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+                                                            dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                            dct:title "Distribuzione RDF/XML ontologia DCAT-AP_IT"@it ,
+                                                                      "RDF/XML distribution of DCAT-AP_IT Ontology"@en ;
+                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/DCAT/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/DCAT/latest/DCAT-AP_IT.rdf> .
+
+###  https://w3id.org/italia/data/project/datigovit
+<https://w3id.org/italia/data/project/datigovit> rdf:type owl:NamedIndividual ,
+                                                        admsapit:Project ;
+                                                        l0:name "Dati.gov.it - Il catalogo nazionale dei dati aperti della pubblica amministrazione"@it .
+
+###  https://w3id.org/italia/data/public-organization/agid
+<https://w3id.org/italia/data/public-organization/agid> rdf:type owl:NamedIndividual ,                                                              
+                                                              foaf:Agent ;
+                                                     dct:identifier "agid" ;
+													 rdfs:label "Agenzia per l'Italia Digitale"@it ,
+													            "Italian Digital Agency"@en ;  
+                                                     foaf:name "Agenzia per l'Italia Digitale"@it ,
+                                                               "Italian Digital Agency"@en .
 
 #################################################################
 #    Annotations

@@ -5,8 +5,8 @@
 **Creator**:
 - Agid e Team per la Trasformazione Digitale
 
-**Thread di discussione**: In parte nell'[Issue #66](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/66)
-[Issue #78](https://github.com/italia/daf-ontologie-vocabolari-controllati/issues/78)
+**Thread di discussione**: In parte nell'[Issue #66](https://github.com/italia/dati-semantic-assets/issues/66)
+[Issue #78](https://github.com/italia/dati-semantic-assets/issues/78)
 
 ### Scopo del Vocabolario
 Il vocabolario nasce nel contesto del lavoro sul design dei siti web dei comuni. L'esigenza è quella di offrire una prima lista di macro tipologie di documenti che pubbliche amministrazioni, in particolare comuni in questo contesto, diffondono sui propri siti web istituzionali.
@@ -15,7 +15,7 @@ Il vocabolario è collegato pertanto, anche semanticamente attraverso la proprie
 
 
 ### Struttura del Vocabolario
-Il vocabolario è strutturato seguendo il modello [skos](http://www.w3.org/2004/02/skos/core#) e le regole generale di OntoPiA.  
+Il vocabolario è strutturato seguendo il modello [skos](http://www.w3.org/2004/02/skos/core#) e le regole generale di OntoPiA.
 
 La sua struttura attuale (nella versione 0.2 nata a seguito della discussione aperta in merito e identificabile nell'issue #78) è la seguente:
 

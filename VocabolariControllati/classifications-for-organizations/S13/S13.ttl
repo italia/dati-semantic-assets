@@ -15,6 +15,7 @@
 @prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix covapit: <http://dati.gov.it/onto/covapit#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 
 xkos:ClassificationLevel a rdfs:Class .
 
@@ -146,6 +147,8 @@ vcard:hasEmail a rdfs:Property .
 
 covapit:PublicOrganizationCategory a rdfs:Class .
 
+ndc:keyConcept a rdfs:Property .
+
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/S13>
     a skos:ConceptScheme , adms:Asset , dcatapit:Dataset , prov:Entity , gsim:StatisticalClassification ;
     dct:creator <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT> , <http://spcdata.digitpa.gov.it/Amministrazione/agid> , <https://w3id.org/italia/data/organization/public-organization/td_PCM> ;
@@ -158,6 +161,7 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>  ;
     dct:conformsTo  <https://w3id.org/italia/data/standard/SKOS> , <https://w3id.org/italia/data/standard/GSIM> ;
     dct:identifier "ISTAT:D.7" ;
+    ndc:keyConcept "S13" ;
     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
     dct:issued "2018-02-22"^^xsd:date ;
     dct:modified "2018-07-10"^^xsd:date ;
@@ -220,8 +224,8 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dct:description	"Questa è la distribuzione RDF/Turtle del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013)."@it ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.ttl> ;
-    dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
+    dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.ttl> ;
+    dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
 
 <https://w3id.org/italia/data/distribution/S13_RDF_XML>
     a						dcatapit:Distribution  ;
@@ -229,8 +233,8 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dct:description	"Questa è la distribuzione RDF/XML del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013)."@it ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.rdf> ;
-    dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
+    dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.rdf> ;
+    dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
 
 <https://w3id.org/italia/data/distribution/S13_JSON_LD>
     a						dcatapit:Distribution  ;
@@ -238,8 +242,8 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dct:description	"Questa è la distribuzione JSON_LD del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013)."@it ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.jsonld> ;
-    dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
+    dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.jsonld> ;
+    dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
 
 <https://w3id.org/italia/data/distribution/S13_CSV>
     a						dcatapit:Distribution  ;
@@ -247,8 +251,8 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dct:description	"Questa è la distribuzione CSV del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013)."@it ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/CSV> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.csv> ;
-    dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
+    dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.csv> ;
+    dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
 
 <https://w3id.org/italia/data/distribution/S13_XLSX>
     a						dcatapit:Distribution  ;
@@ -256,8 +260,8 @@ covapit:PublicOrganizationCategory a rdfs:Class .
     dct:description	"Questa è la distribuzione XLSX del dataset Linked Open Data della classificazione ISTAT S13 - l'elenco delle unità istituzionali che fanno parte del settore delle Amministrazioni Pubbliche (Settore S13 nel SEC - Sistema europeo dei conti, definito dal Regolamento (Ue) del Parlamento europeo e del Consiglio, n. 549/2013)."@it ;
     dct:format 	<http://publications.europa.eu/resource/authority/file-type/XLSX> ;
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dcat:downloadURL		<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.xlsx> ;
-    dcat:accessURL 			<https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
+    dcat:downloadURL		<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13/S13.xlsx> ;
+    dcat:accessURL 			<https://github.com/italia/dati-semantic-assets/tree/master/VocabolariControllati/classifications-for-organizations/S13> .
 
 
 ##Controlled Vocabulary
