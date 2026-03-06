@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/italia/onto/CulturalHeritage/"
-     xml:base="https://w3id.org/italia/onto/CulturalHeritage"
+     xml:base="https://w3id.org/italia/onto/CulturalHeritage/"
      xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
      xmlns:schema="http://schema.org/"
      xmlns:l0="https://w3id.org/italia/onto/l0/"
