@@ -32,7 +32,7 @@
 
 <https://w3id.org/italia/onto/CPEV/hasFormat> a owl:ObjectProperty ;
     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPEV> ;
-    owl:subPropertyOf <http://data.europa.eu/m8g/PublicEventformat> .
+    owl:subPropertyOf <http://data.europa.eu/m8g/format> .
 
 <https://w3id.org/italia/onto/CPEV/subEventOf> a owl:ObjectProperty ;
     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPEV> ;
@@ -42,7 +42,7 @@
     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPEV> ;
     owl:subPropertyOf <http://schema.org/audience> .
 
-<http://data.europa.eu/m8g/PublicEventformat> a owl:ObjectProperty .
+<http://data.europa.eu/m8g/format> a owl:ObjectProperty .
 
 <http://schema.org/Audience> a owl:Class .
 
