@@ -111,7 +111,7 @@
     },
     {
       "@id": "https://w3id.org/italia/data/metric/1-1-1",
-      "@type": "htpos://w3id.org/italia/onto/Indicator/Metric",
+      "@type": "https://w3id.org/italia/onto/Indicator/Metric",
       "https://w3id.org/italia/onto/Indicator/hasParameter": {
         "@id": "https://w3id.org/italia/data/indicator-parameter/1-1-1-1"
       },
