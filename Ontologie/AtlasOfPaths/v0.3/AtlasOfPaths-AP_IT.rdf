@@ -24,7 +24,7 @@
      xmlns:schema="http://schema.org/"
      xmlns:admsapit="https://w3id.org/italia/onto/ADMS/"
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
-    <owl:Ontology rdf:about="https://w3id.org/italia/onto/AtlaPfPaths">
+    <owl:Ontology rdf:about="https://w3id.org/italia/onto/AtlasOfPaths">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/AtlasOfPaths/0.3"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/Route"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
