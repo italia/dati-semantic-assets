@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:clvapit="https://w3id.org/italia/onto/CLV/"
+   xmlns:covapit="https://w3id.org/italia/onto/COV/"
+   xmlns:l0="https://w3id.org/italia/onto/l0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:tiapit="https://w3id.org/italia/onto/TI/"
+>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Address"/>
+    <clvapit:hasCity rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)"/>
+    <clvapit:hasNumber rdf:resource="https://w3id.org/italia/data/civic-numbering/1"/>
+    <clvapit:hasStreetToponym rdf:resource="https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi"/>
+    <clvapit:hasCensusSection rdf:resource="https://w3id.org/italia/data/spatial-object/feature/census-section/1"/>
+    <clvapit:hasSOValidity rdf:resource="https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16"/>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/italia/data/organization/public-organization/age">
+    <covapit:hasPublicOrgActivityType rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/011"/>
+    <l0:description xml:lang="it">L'Agenzia delle Entrate, operativa dal 1° gennaio 2001, nasce dalla riorganizzazione dell'Amministrazione finanziaria a seguito del Decreto legislativo n° 300 del 1999.</l0:description>
+    <clvapit:hasSpatialCoverage rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/COV/PublicOrganization"/>
+    <covapit:hasCategory rdf:resource="http://w3id.org/italia/controlledvocabulary/S13/108"/>
+    <covapit:IPACode>age</covapit:IPACode>
+    <covapit:legalName xml:lang="it">Agenzia delle Entrate</covapit:legalName>
+    <covapit:acronym>AE</covapit:acronym>
+    <covapit:taxCode>06363391001</covapit:taxCode>
+    <covapit:hasLegalStatus rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/spatial-object/street-toponym/cascina-bosco-boneschi">
+    <clvapit:toponymQualifier xml:lang="it">CASCINA</clvapit:toponymQualifier>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/StreetToponym"/>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/codice-istat/098013"/>
+    <clvapit:officialStreetName xml:lang="it">BOSCO BONESCHI</clvapit:officialStreetName>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382"/>
+    <clvapit:hasSOValidity rdf:resource="https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)"/>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/cod-com/C228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152">
+    <clvapit:identifierType>Progressivo nazionale accesso</clvapit:identifierType>
+    <clvapit:issuedBy rdf:resource="http://w3id.org/italia/data/organization/public-organization/age"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <l0:identifier>4670152</l0:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/italia/data/organization/public-organization/ISTAT">
+    <covapit:legalName xml:lang="it">Istituto Nazionale di Statistica</covapit:legalName>
+    <l0:description xml:lang="it">Istituto Nazionale di Statistica - ISTAT</l0:description>
+    <covapit:hasCategory rdf:resource="http://w3id.org/italia/controlledvocabulary/S13/110"/>
+    <covapit:acronym>ISTAT</covapit:acronym>
+    <covapit:IPACode>ISTAT</covapit:IPACode>
+    <covapit:hasLegalStatus rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/COV/PublicOrganization"/>
+    <covapit:hasPublicOrgActivityType rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/0133"/>
+    <clvapit:hasSpatialCoverage rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"/>
+    <covapit:taxCode>80111810588</covapit:taxCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi">
+    <clvapit:toponymQualifier xml:lang="it">STRADA VICINALE</clvapit:toponymQualifier>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/cod-com/C228"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/StreetToponym"/>
+    <clvapit:officialStreetName xml:lang="it">CASCINA BOSCO BONESCHI</clvapit:officialStreetName>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/codice-istat/098013"/>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382"/>
+    <clvapit:hasSOValidity rdf:resource="https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16">
+    <tiapit:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-16T11:27:48</tiapit:startTime>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/TI/TimeInterval"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)">
+    <clvapit:hasCity rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)"/>
+    <clvapit:hasStreetToponym rdf:resource="https://w3id.org/italia/data/street-toponym/cascina-bosco-boneschi"/>
+    <clvapit:hasNumber rdf:resource="https://w3id.org/italia/data/civic-numbering/24"/>
+    <clvapit:hasSOValidity rdf:resource="https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)"/>
+    <clvapit:isAddressFor rdf:resource="https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)"/>
+    <clvapit:hasCensusSection rdf:resource="https://w3id.org/italia/data/spatial-object/feature/census-section/1"/>
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/civic-numbering/24">
+    <clvapit:streetNumber>24</clvapit:streetNumber>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/CivicNumbering"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/codice-istat/098013">
+    <l0:identifier>098013</l0:identifier>
+    <clvapit:identifierType>Codice ISTAT</clvapit:identifierType>
+    <clvapit:issuedBy rdf:resource="http://w3id.org/italia/data/organization/public-organization/ISTAT"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/cod-com/C228">
+    <clvapit:identifierType>CODCOM</clvapit:identifierType>
+    <l0:identifier>C228</l0:identifier>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)">
+    <tiapit:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-25</tiapit:startTime>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/TI/TimeInterval"/>
+    <tiapit:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-16T09:22:47</tiapit:endTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1">
+    <l0:identifier>1</l0:identifier>
+    <clvapit:identifierType>Progressivo Sezione Censimento</clvapit:identifierType>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <clvapit:issuedBy rdf:resource="http://w3id.org/italia/data/organization/public-organization/ISTAT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/TI/TimeInterval"/>
+    <tiapit:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-03</tiapit:startTime>
+    <tiapit:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-16T11:27:48</tiapit:endTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382">
+    <clvapit:identifierType>Progressivo nazionale area</clvapit:identifierType>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/Identifier"/>
+    <clvapit:issuedBy rdf:resource="http://w3id.org/italia/data/organization/public-organization/age"/>
+    <l0:identifier>105382</l0:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/spatial-object/feature/census-section/1">
+    <clvapit:hasIdentifier rdf:resource="https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/CensusSection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/civic-numbering/1">
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/CivicNumbering"/>
+    <clvapit:streetNumber>1</clvapit:streetNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)">
+    <clvapit:nextAddress rdf:resource="https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)"/>
+    <rdf:type rdf:resource="https://w3id.org/italia/onto/CLV/AddressInTime"/>
+    <clvapit:withAddress rdf:resource="https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)"/>
+    <tiapit:atTime rdf:resource="https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)"/>
+  </rdf:Description>
+</rdf:RDF>

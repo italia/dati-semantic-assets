@@ -1,0 +1,273 @@
+{
+  "@context": {
+    "clvapit": "https://w3id.org/italia/onto/CLV/",
+    "covapit": "https://w3id.org/italia/onto/COV/",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "l0": "https://w3id.org/italia/onto/l0/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "tiapit": "https://w3id.org/italia/onto/TI/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)",
+      "@type": "clvapit:Address",
+      "clvapit:hasCensusSection": {
+        "@id": "https://w3id.org/italia/data/spatial-object/feature/census-section/1"
+      },
+      "clvapit:hasCity": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152"
+      },
+      "clvapit:hasNumber": {
+        "@id": "https://w3id.org/italia/data/civic-numbering/24"
+      },
+      "clvapit:hasSOValidity": {
+        "@id": "https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)"
+      },
+      "clvapit:hasStreetToponym": {
+        "@id": "https://w3id.org/italia/data/street-toponym/cascina-bosco-boneschi"
+      },
+      "clvapit:isAddressFor": {
+        "@id": "https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Progressivo Sezione Censimento",
+      "clvapit:issuedBy": {
+        "@id": "http://w3id.org/italia/data/organization/public-organization/ISTAT"
+      },
+      "l0:identifier": "1"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/spatial-object/street-toponym/cascina-bosco-boneschi",
+      "@type": "clvapit:StreetToponym",
+      "clvapit:hasIdentifier": [
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/cod-com/C228"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/codice-istat/098013"
+        }
+      ],
+      "clvapit:hasSOValidity": {
+        "@id": "https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)"
+      },
+      "clvapit:officialStreetName": {
+        "@language": "it",
+        "@value": "BOSCO BONESCHI"
+      },
+      "clvapit:toponymQualifier": {
+        "@language": "it",
+        "@value": "CASCINA"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/civic-numbering/1",
+      "@type": "clvapit:CivicNumbering",
+      "clvapit:streetNumber": "1"
+    },
+    {
+      "@id": "http://w3id.org/italia/data/organization/public-organization/age",
+      "@type": "covapit:PublicOrganization",
+      "clvapit:hasSpatialCoverage": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"
+      },
+      "covapit:IPACode": "age",
+      "covapit:acronym": "AE",
+      "covapit:hasCategory": {
+        "@id": "http://w3id.org/italia/controlledvocabulary/S13/108"
+      },
+      "covapit:hasLegalStatus": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22"
+      },
+      "covapit:hasPublicOrgActivityType": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/011"
+      },
+      "covapit:legalName": {
+        "@language": "it",
+        "@value": "Agenzia delle Entrate"
+      },
+      "covapit:taxCode": "06363391001",
+      "l0:description": {
+        "@language": "it",
+        "@value": "L'Agenzia delle Entrate, operativa dal 1° gennaio 2001, nasce dalla riorganizzazione dell'Amministrazione finanziaria a seguito del Decreto legislativo n° 300 del 1999."
+      }
+    },
+    {
+      "@id": "http://w3id.org/italia/data/organization/public-organization/ISTAT",
+      "@type": "covapit:PublicOrganization",
+      "clvapit:hasSpatialCoverage": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy"
+      },
+      "covapit:IPACode": "ISTAT",
+      "covapit:acronym": "ISTAT",
+      "covapit:hasCategory": {
+        "@id": "http://w3id.org/italia/controlledvocabulary/S13/110"
+      },
+      "covapit:hasLegalStatus": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22"
+      },
+      "covapit:hasPublicOrgActivityType": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/0133"
+      },
+      "covapit:legalName": {
+        "@language": "it",
+        "@value": "Istituto Nazionale di Statistica"
+      },
+      "covapit:taxCode": "80111810588",
+      "l0:description": {
+        "@language": "it",
+        "@value": "Istituto Nazionale di Statistica - ISTAT"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Progressivo nazionale area",
+      "clvapit:issuedBy": {
+        "@id": "http://w3id.org/italia/data/organization/public-organization/age"
+      },
+      "l0:identifier": "105382"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Progressivo nazionale accesso",
+      "clvapit:issuedBy": {
+        "@id": "http://w3id.org/italia/data/organization/public-organization/age"
+      },
+      "l0:identifier": "4670152"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)",
+      "@type": "tiapit:TimeInterval",
+      "tiapit:endTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-01-16T11:27:48"
+      },
+      "tiapit:startTime": {
+        "@type": "xsd:date",
+        "@value": "2014-04-03"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)",
+      "@type": "clvapit:Address",
+      "clvapit:hasCensusSection": {
+        "@id": "https://w3id.org/italia/data/spatial-object/feature/census-section/1"
+      },
+      "clvapit:hasCity": {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)"
+      },
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152"
+      },
+      "clvapit:hasNumber": {
+        "@id": "https://w3id.org/italia/data/civic-numbering/1"
+      },
+      "clvapit:hasSOValidity": {
+        "@id": "https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16"
+      },
+      "clvapit:hasStreetToponym": {
+        "@id": "https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/identifiers/codice-istat/098013",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "Codice ISTAT",
+      "clvapit:issuedBy": {
+        "@id": "http://w3id.org/italia/data/organization/public-organization/ISTAT"
+      },
+      "l0:identifier": "098013"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/civic-numbering/24",
+      "@type": "clvapit:CivicNumbering",
+      "clvapit:streetNumber": "24"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/spatial-object/feature/census-section/1",
+      "@type": "clvapit:CensusSection",
+      "clvapit:hasIdentifier": {
+        "@id": "https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/identifiers/cod-com/C228",
+      "@type": "clvapit:Identifier",
+      "clvapit:identifierType": "CODCOM",
+      "l0:identifier": "C228"
+    },
+    {
+      "@id": "https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16",
+      "@type": "tiapit:TimeInterval",
+      "tiapit:startTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-01-16T11:27:48"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi",
+      "@type": "clvapit:StreetToponym",
+      "clvapit:hasIdentifier": [
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/cod-com/C228"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382"
+        },
+        {
+          "@id": "https://w3id.org/italia/data/identifiers/codice-istat/098013"
+        }
+      ],
+      "clvapit:hasSOValidity": {
+        "@id": "https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16"
+      },
+      "clvapit:officialStreetName": {
+        "@language": "it",
+        "@value": "CASCINA BOSCO BONESCHI"
+      },
+      "clvapit:toponymQualifier": {
+        "@language": "it",
+        "@value": "STRADA VICINALE"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)",
+      "@type": "clvapit:AddressInTime",
+      "clvapit:nextAddress": {
+        "@id": "https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)"
+      },
+      "clvapit:withAddress": {
+        "@id": "https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)"
+      },
+      "tiapit:atTime": {
+        "@id": "https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)"
+      }
+    },
+    {
+      "@id": "https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)",
+      "@type": "tiapit:TimeInterval",
+      "tiapit:endTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-01-16T09:22:47"
+      },
+      "tiapit:startTime": {
+        "@type": "xsd:date",
+        "@value": "2014-06-25"
+      }
+    }
+  ]
+}

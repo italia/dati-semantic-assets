@@ -1,0 +1,129 @@
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
+@prefix covapit: <https://w3id.org/italia/onto/COV/> .
+@prefix tiapit: <https://w3id.org/italia/onto/TI/> .
+@prefix l0:      <https://w3id.org/italia/onto/l0/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)>
+    a clvapit:AddressInTime ;
+    clvapit:nextAddress <https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)> ;
+    clvapit:withAddress <https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)> ;
+    tiapit:atTime <https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)> .
+
+<https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2014-04-03)>
+    a clvapit:Address ;
+    clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152>  ;
+    clvapit:hasStreetToponym <https://w3id.org/italia/data/street-toponym/cascina-bosco-boneschi> ;
+    clvapit:hasSOValidity <https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)> ;
+    clvapit:hasNumber <https://w3id.org/italia/data/civic-numbering/24> ;
+    clvapit:hasCity <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)> ;
+    clvapit:isAddressFor <https://w3id.org/italia/data/event/address-in-time/4670152-(2014-04-03:2017-01-16)>  ;
+    clvapit:hasCensusSection <https://w3id.org/italia/data/spatial-object/feature/census-section/1> .
+
+<https://w3id.org/italia/data/spatial-object/street-toponym/cascina-bosco-boneschi>
+    a clvapit:StreetToponym ;
+    clvapit:officialStreetName "BOSCO BONESCHI"@it ;
+    clvapit:toponymQualifier  "CASCINA"@it ;
+    clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382> , <https://w3id.org/italia/data/identifiers/cod-com/C228> , <https://w3id.org/italia/data/identifiers/codice-istat/098013> ;
+    clvapit:hasSOValidity <https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)> .
+
+
+<https://w3id.org/italia/data/spatial-object/feature/address/4670152-(2017-01-16)>
+    a clvapit:Address ;
+    clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152>  ;
+    clvapit:hasStreetToponym <https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi> ;
+    clvapit:hasSOValidity <https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16> ;
+    clvapit:hasCity <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/18110-(2005-02-19)> ;
+    clvapit:hasNumber <https://w3id.org/italia/data/civic-numbering/1> ;
+    clvapit:hasCensusSection <https://w3id.org/italia/data/spatial-object/feature/census-section/1> .
+
+<https://w3id.org/italia/data/street-toponym/strada-vicinale-cascina-bosco-boneschi>
+    a clvapit:StreetToponym ;
+    clvapit:officialStreetName "CASCINA BOSCO BONESCHI"@it ;
+    clvapit:toponymQualifier "STRADA VICINALE"@it ;
+    clvapit:hasSOValidity <https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16> ;
+    clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382> , <https://w3id.org/italia/data/identifiers/cod-com/C228> , <https://w3id.org/italia/data/identifiers/codice-istat/098013> .
+
+<https://w3id.org/italia/data/spatial-object/feature/census-section/1>
+    a clvapit:CensusSection ;
+    clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1> .
+
+<https://w3id.org/italia/data/civic-numbering/24>
+    a clvapit:CivicNumbering ;
+    clvapit:streetNumber "24" .
+
+<https://w3id.org/italia/data/civic-numbering/1>
+    a clvapit:CivicNumbering ;
+    clvapit:streetNumber "1" .
+
+<https://w3id.org/italia/data/so-validity/time-intervals/(2014-06-25)-(2017-01-16)>
+    a tiapit:TimeInterval ;
+    tiapit:startTime "2014-06-25"^^xsd:date ;
+    tiapit:endTime "2017-01-16T09:22:47"^^xsd:dateTime .
+
+<https://w3id.org/italia/data/so-validity/time-intervals/(2014-04-03)-(2017-01-16)>
+    a tiapit:TimeInterval ;
+    tiapit:startTime "2014-04-03"^^xsd:date ;
+    tiapit:endTime "2017-01-16T11:27:48"^^xsd:dateTime .
+
+<https://w3id.org/italia/data/so-validity/time-intervals/2017-01-16>
+    a tiapit:TimeInterval ;
+    tiapit:startTime "2017-01-16T11:27:48"^^xsd:dateTime .
+
+<https://w3id.org/italia/data/identifiers/progressivo-nazionale-accesso/4670152>
+    a clvapit:Identifier ;
+    clvapit:identifierType "Progressivo nazionale accesso" ;
+    l0:identifier "4670152" ;
+    clvapit:issuedBy <http://w3id.org/italia/data/organization/public-organization/age> .
+
+<https://w3id.org/italia/data/identifiers/progressivo-sezione-censimento/1>
+    a clvapit:Identifier ;
+    clvapit:identifierType "Progressivo Sezione Censimento" ;
+    l0:identifier "1" ;
+    clvapit:issuedBy <http://w3id.org/italia/data/organization/public-organization/ISTAT> .
+
+<https://w3id.org/italia/data/identifiers/progressivo-nazionale-area/105382>
+    a clvapit:Identifier ;
+    clvapit:identifierType "Progressivo nazionale area" ;
+    l0:identifier "105382" ;
+    clvapit:issuedBy <http://w3id.org/italia/data/organization/public-organization/age> .
+
+<https://w3id.org/italia/data/identifiers/cod-com/C228>
+    a clvapit:Identifier ;
+    clvapit:identifierType "CODCOM" ;
+    l0:identifier "C228" .
+
+<https://w3id.org/italia/data/identifiers/codice-istat/098013>
+    a clvapit:Identifier ;
+    clvapit:identifierType "Codice ISTAT" ;
+    clvapit:issuedBy <http://w3id.org/italia/data/organization/public-organization/ISTAT> ;
+    l0:identifier "098013" .
+
+<http://w3id.org/italia/data/organization/public-organization/ISTAT>
+    a covapit:PublicOrganization ;
+    covapit:IPACode "ISTAT" ;
+    covapit:acronym "ISTAT" ;
+    covapit:legalName "Istituto Nazionale di Statistica"@it ;
+    l0:description "Istituto Nazionale di Statistica - ISTAT"@it ;
+    clvapit:hasSpatialCoverage <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy> ;
+    covapit:hasLegalStatus  <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22> ;
+    covapit:hasPublicOrgActivityType <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/0133> ;
+    covapit:taxCode "80111810588" ;
+    covapit:hasCategory <http://w3id.org/italia/controlledvocabulary/S13/110> .
+
+<http://w3id.org/italia/data/organization/public-organization/age>
+    a covapit:PublicOrganization ;
+    covapit:IPACode "age" ;
+    covapit:acronym "AE" ;
+    covapit:legalName "Agenzia delle Entrate"@it ;
+    l0:description "L'Agenzia delle Entrate, operativa dal 1° gennaio 2001, nasce dalla riorganizzazione dell'Amministrazione finanziaria a seguito del Decreto legislativo n° 300 del 1999."@it ;
+    clvapit:hasSpatialCoverage <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy> ;
+    covapit:taxCode "06363391001" ;
+    covapit:hasCategory <http://w3id.org/italia/controlledvocabulary/S13/108> ;
+    covapit:hasPublicOrgActivityType  <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/cofog-2009/011> ;
+    covapit:hasLegalStatus <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/legal-status/22> .
