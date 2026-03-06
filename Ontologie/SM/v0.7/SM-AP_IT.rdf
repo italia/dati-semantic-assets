@@ -190,7 +190,7 @@
 
     <!-- https://w3id.org/italia/onto/SM#hasReview -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/SM#hasReview">
+    <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/SM/hasReview">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="https://w3id.org/italia/onto/SM/Review"/>
         <rdfs:comment xml:lang="en">Property that links a thing of the modelled domain to a review</rdfs:comment>

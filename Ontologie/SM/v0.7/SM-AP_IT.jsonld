@@ -614,7 +614,7 @@
       "@type": "owl:Class"
     },
     {
-      "@id": "https://w3id.org/italia/onto/SM#hasReview",
+      "@id": "https://w3id.org/italia/onto/SM/hasReview",
       "@type": "owl:ObjectProperty",
       "owl:versionInfo": [
         {
