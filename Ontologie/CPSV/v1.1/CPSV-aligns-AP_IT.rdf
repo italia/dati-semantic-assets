@@ -13,7 +13,7 @@
         <dc:title xml:lang="en">These are the alignments to external ontologies widely used and available at the state of the art</dc:title>
         <dc:creator xml:lang="en">Italian Digital Transformation Team</dc:creator>
         <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-31</dc:issued>
-        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-31</dc:modified>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-23</dc:modified>
         <dc:title>Questi sono gli allineamenti dell&apos;ontologia sui servizi pubblici Core Public Service Vocabulary - Italian Application Profile  (CLV-AP_IT) verso ontologie esterne del Web semantico standard e ampiamente utilizzate.</dc:title>
         <dc:creator xml:lang="en">Agency for Digital Italy - AgID</dc:creator>
     </owl:Ontology>
