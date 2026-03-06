@@ -1,0 +1,882 @@
+[
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/last",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/Project",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "mailto:segreteria.trasformazionedigitale@governo.it",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/keyConcept",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Questa proprietà consente di specifcare un concetto chiave rappresentato dal dataset. Nell'ambito del profilo applicativo per il catalogo nazionale dati, il concetto chiave è associato ai vocabolari controllati, che sono dataset, per indicare il concetto chiave che rappresentano come vocabolari di riferimento. Esempio: il dataset https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type ha come concetto chiave \"authentication type\" o \"tipo di autenticazione\""
+      },
+      {
+        "@language": "en",
+        "@value": "This property allows a key concept of a dataset to be specified. Within the application profile for the national data catalogue, the key concept is associated with controlled vocabularies, which are datasets, to indicate the key concept they represent as reference vocabularies. Example: the dataset https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type has as key concept 'authentication type'."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://dati.gov.it/onto/dcatapit#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "concetto chiave"
+      },
+      {
+        "@language": "en",
+        "@value": "key concept"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      },
+      {
+        "@language": "en",
+        "@value": "unstable"
+      }
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/prefix",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/DataService",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A collection of operations that provides access to one or more datasets or data processing functions."
+      },
+      {
+        "@language": "it",
+        "@value": "Un servizio che fornisce l'accesso a uno o più insiemi di dati o funzioni di elaborazione dei dati."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data Service"
+      },
+      {
+        "@language": "it",
+        "@value": "Servizio di Accesso ai Dati"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n65d822a3896d43d6ba4e086593046acdb3"
+      },
+      {
+        "@id": "_:n65d822a3896d43d6ba4e086593046acdb4"
+      },
+      {
+        "@id": "_:n65d822a3896d43d6ba4e086593046acdb5"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      },
+      {
+        "@language": "en",
+        "@value": "unstable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n65d822a3896d43d6ba4e086593046acdb3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Resource"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/endpointDescription"
+      }
+    ]
+  },
+  {
+    "@id": "_:n65d822a3896d43d6ba4e086593046acdb4",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://dati.gov.it/onto/dcatapit#Dataset"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/servesDataset"
+      }
+    ]
+  },
+  {
+    "@id": "_:n65d822a3896d43d6ba4e086593046acdb5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onClass": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Resource"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/endpointURL"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#qualifiedCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/hasFormalityLevel",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/distribution/ndc-profile-RDF-TURTLE",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è la distribuzione RDF/Turtle dell'ontologia sul profilo applicativo italiano dell'NDC"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the distribution in RDF/turtle of Italian application profile of the NDC project"
+      }
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "it",
+        "@value": "Distribuzione RDF/Turtle ontologia NDC-AP_IT"
+      },
+      {
+        "@language": "en",
+        "@value": "RDF/Turtle distribution of NDC-AP_IT Ontology"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/acronym",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/ENG",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "http://dati.gov.it/onto/dcatapit#Dataset",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n65d822a3896d43d6ba4e086593046acdb1"
+      },
+      {
+        "@id": "_:n65d822a3896d43d6ba4e086593046acdb2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n65d822a3896d43d6ba4e086593046acdb1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/DataService"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/hasDataService"
+      }
+    ]
+  },
+  {
+    "@id": "_:n65d822a3896d43d6ba4e086593046acdb2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#maxCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/keyConcept"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/NDC/latest/NDC-AP_IT.ttl",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/target",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://dati.gov.it/onto/dcatapit#Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "cnr - Z6HZEH - STLab"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"
+      },
+      {
+        "@language": "it",
+        "@value": "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/endpointURL",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "L'URL primario dell'endpoint di erogazione dei dati (un IRI risolvibile via Web)"
+      },
+      {
+        "@language": "en",
+        "@value": "The root location or primary endpoint of the service (a Web-resolvable IRI)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/DataService"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "URL dell'endpoint"
+      },
+      {
+        "@language": "en",
+        "@value": "endpoint URL"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Resource"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      },
+      {
+        "@language": "en",
+        "@value": "unstable"
+      }
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/data-theme/TECH",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#wasInfluencedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/servesDataset",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A collection of data that the data service can distribute."
+      },
+      {
+        "@language": "it",
+        "@value": "L'insieme dei dati che il servizio di accesso ai dati distribuisce."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/DataService"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "serves dataset"
+      },
+      {
+        "@language": "it",
+        "@value": "supporta dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://dati.gov.it/onto/dcatapit#Dataset"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "en",
+        "@value": "imstable"
+      },
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      }
+    ]
+  },
+  {
+    "@id": "https://dw3id.org/italia/onto/l0/name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/officialURI",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/endpointDescription",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A description of the services available via the endpoints, including their operations, parameters etc."
+      },
+      {
+        "@language": "it",
+        "@value": "La descrizione dell'endpoint fornisce dettagli specifici sull'endpoint stesso. La descrizione potrebbe essere espressa in una forma leggibile da macchine (machine-readable). Per esempio, una descrizione OpenAPI (Swagger), un servizio di descrizione SPARQL, ecc."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/DataService"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "descrizione dell'endpoint"
+      },
+      {
+        "@language": "en",
+        "@value": "endpoint description"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#Resource"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      },
+      {
+        "@language": "en",
+        "@value": "unstable"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/contact-point/ndc",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://www.w3.org/2006/vcard/ns#Kind",
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "Contatti dipartimento per la trasformazione digitale"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@id": "mailto:segreteria.trasformazionedigitale@governo.it"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/SemanticAsset",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/language/ITA",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "https://w3id.org/italia/onto/ADMS/SemanticAsset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "it",
+        "@value": "Questa è l'ontologia del profilo applicativo italiano per il catalogo nazionale dati (NDC)"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the ontology of the Italian Application Profile for the national data catalogue - NDC"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-11-19"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2021-11-19"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2"
+      }
+    ],
+    "http://purl.org/dc/terms/rightsHolder": [
+      {
+        "@id": "https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Italian Application Profile for the national data catalogue (NDC)."
+      },
+      {
+        "@language": "it",
+        "@value": "Profilo applicativo italiano per il catalogo nazionale dati (NDC)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Questa è l'ontologia del profilo applicativo italiano per il catalogo nazionale dati (NDC)"
+      },
+      {
+        "@language": "en",
+        "@value": "This is the ontology of the Italian Application Profile for the national data catalogue (NDC)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Italian Application Profile for the national data catalogue (NDC)."
+      },
+      {
+        "@language": "it",
+        "@value": "Profilo applicativo italiano per il catalogo nazionale dati (NDC)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://dati.gov.it/onto/dcatapit/2.0"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionIRI": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/0.1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "en",
+        "@value": "0.1 - 19 November 2021 - Creation of the profile"
+      },
+      {
+        "@language": "it",
+        "@value": "0.1- 19 Novembre 2021 - Creazione del profilo"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@id": "https://w3id.org/italia/data/contact-point/ndc"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#keyword": [
+      {
+        "@language": "it",
+        "@value": "catalogo vocabolari"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+      },
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInfluencedBy": [
+      {
+        "@id": "ttp://dati.gov.it/onto/dcatapit#"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/acronym": [
+      {
+        "@value": "NDC-AP_IT"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/hasFormalityLevel": [
+      {
+        "@id": "https://w3id.org/italia/onto/ADMS/Formal"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage": [
+      {
+        "@id": "https://w3id.org/italia/onto/ADMS/OWL"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution": [
+      {
+        "@id": "https://w3id.org/italia/data/distribution/ndc-profile-RDF-TURTLE"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/hasTask": [
+      {
+        "@id": "https://w3id.org/italia/onto/ADMS/AnnotationTask"
+      },
+      {
+        "@id": "https://w3id.org/italia/onto/ADMS/QueryFormulationTask"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/last": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/officialURI": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/prefix": [
+      {
+        "@value": "ndc"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/semanticAssetInUse": [
+      {
+        "@id": "https://w3id.org/italia/data/project/OntoPiA"
+      }
+    ],
+    "https://w3id.org/italia/onto/ADMS/target": [
+      {
+        "@language": "it",
+        "@value": "Developers"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/hasTask",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/project/OntoPiA",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "https://w3id.org/italia/onto/ADMS/Project"
+    ],
+    "https://dw3id.org/italia/onto/l0/name": [
+      {
+        "@language": "it",
+        "@value": "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/ADMS/semanticAssetInUse",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/data/organization/support-unit/pcm-AA1D3A2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://dati.gov.it/onto/dcatapit#Agent",
+      "http://xmlns.com/foaf/0.1/Agent"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "pcm-AA1D3A2"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Department of Digital Transformation"
+      },
+      {
+        "@language": "it",
+        "@value": "Dipartimento per la Trasformazione Digitale"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/italia/onto/NDC/hasDataService",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Inverse property of 'serves dataset' used to specify the data services used for the datasets"
+      },
+      {
+        "@language": "it",
+        "@value": "Proprietà inversa di 'supporta dataset' utilizzata per specificare i servizi di accesso ai dati per i dataset."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://dati.gov.it/onto/dcatapit#Dataset"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha servizio di accesso ai dati"
+      },
+      {
+        "@language": "en",
+        "@value": "has data service"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/DataService"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/italia/onto/NDC/servesDataset"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@language": "it",
+        "@value": "provvisorio"
+      },
+      {
+        "@language": "en",
+        "@value": "unstable"
+      }
+    ]
+  },
+  {
+    "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  }
+]
