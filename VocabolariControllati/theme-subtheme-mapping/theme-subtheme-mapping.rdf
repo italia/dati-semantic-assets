@@ -821,7 +821,7 @@
   <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
   <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
-    <skos:prefLabel xml:lang="it">Transporti</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Trasporti</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Transport</skos:prefLabel>
     <skos:narrowMatch>
       <skos:ConceptScheme rdf:about="http://eurovoc.europa.eu/100237">
