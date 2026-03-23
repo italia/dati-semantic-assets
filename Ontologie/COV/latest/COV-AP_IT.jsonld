@@ -3089,7 +3089,7 @@
         },
         {
           "@language": "en",
-          "@value": "has public organization activty type"
+          "@value": "has public organization activity type"
         }
       ],
       "rdfs:range": {
@@ -4865,7 +4865,7 @@
         },
         {
           "@language": "en",
-          "@value": "has private organization activty type"
+          "@value": "has private organization activity type"
         },
         {
           "@language": "it",

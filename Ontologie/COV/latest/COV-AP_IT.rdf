@@ -435,7 +435,7 @@ Attualmente la proprietà sfrutta la classe Identifier  (Identificativo), con le
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/COV"/>
         <rdfs:label xml:lang="it">ha tipo attività organizzazione privata</rdfs:label>
         <rdfs:label xml:lang="en">has company activity type</rdfs:label>
-        <rdfs:label xml:lang="en">has private organization activty type</rdfs:label>
+        <rdfs:label xml:lang="en">has private organization activity type</rdfs:label>
         <rdfs:label xml:lang="it">tipo di attività di azienda</rdfs:label>
         <owl:versionInfo xml:lang="it">provvisoria</owl:versionInfo>
         <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
@@ -474,7 +474,7 @@ Attualmente la proprietà sfrutta la classe Identifier  (Identificativo), con le
         <rdfs:comment xml:lang="it">Proprietà che lega l&apos;organizzazione pubblica al suo scopo o tipo di attività svolta</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/COV"/>
         <rdfs:label xml:lang="it">ha tipo attività organizzazione pubblica</rdfs:label>
-        <rdfs:label xml:lang="en">has public organization activty type</rdfs:label>
+        <rdfs:label xml:lang="en">has public organization activity type</rdfs:label>
         <owl:versionInfo xml:lang="it">provvisoria</owl:versionInfo>
         <owl:versionInfo xml:lang="en">unstable</owl:versionInfo>
     </owl:ObjectProperty>

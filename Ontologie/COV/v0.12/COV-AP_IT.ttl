@@ -341,7 +341,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                            rdfs:isDefinedBy <https://w3id.org/italia/onto/COV> ;
                            rdfs:label "ha tipo attività organizzazione privata"@it ,
                                       "has company activity type"@en ,
-                                      "has private organization activty type"@en ,
+                                      "has private organization activity type"@en ,
                                       "tipo di attività di azienda"@it ;
                            owl:versionInfo "provvisoria"@it ,
                                            "unstable"@en .
@@ -374,7 +374,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                                        "Proprietà che lega l'organizzazione pubblica al suo scopo o tipo di attività svolta"@it ;
                           rdfs:isDefinedBy <https://w3id.org/italia/onto/COV> ;
                           rdfs:label "ha tipo attività organizzazione pubblica"@it ,
-                                     "has public organization activty type"@en ;
+                                     "has public organization activity type"@en ;
                           owl:versionInfo "provvisoria"@it ,
                                           "unstable"@en .
 
