@@ -274,7 +274,7 @@ align:onto2
     skos:narrowMatch <http://eurovoc.europa.eu/100284> .
 
 <http://publications.europa.eu/resource/authority/data-theme/TRAN> a skos:Concept ;
-    skos:prefLabel "Transporti"@it ;
+    skos:prefLabel "Trasporti"@it ;
     skos:prefLabel "Transport"@en ;
     skos:narrowMatch <http://eurovoc.europa.eu/100237> ;
     skos:narrowMatch <http://eurovoc.europa.eu/100238> ;
