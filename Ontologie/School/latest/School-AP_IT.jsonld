@@ -1,0 +1,3942 @@
+[
+    {
+        "@id": "https://w3id.org/italia/onto/School",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Ontology",
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/SemanticAsset"
+        ],
+        "http://www.w3.org/2002/07/owl#versionIRI": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/0.1"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#imports": [
+            {
+                "@id": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/CLV"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/COV"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/RO"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "@id": "https://github.com/education-ontology/dati-semantic-assets/blob/master/Ontologie/School/v0.1/School.png"
+            }
+        ],
+        "http://purl.org/dc/terms/accrualPeriodicity": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            },
+            {
+                "@id": "https://w3id.org/italia/data/public-organization/INDIRE"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@language": "it",
+                "@value": "L'ontologia School-AP_IT modella il sistema scolastico italiano, fornendo un vocabolario formale per descrivere le istituzioni scolastiche, i punti di erogazione del servizio didattico e le rispettive relazioni. L'ontologia distingue tra Istituzioni Scolastiche — enti giuridici e amministrativi autonomi ai sensi del D.P.R. 275/1999 — e Punti di Erogazione del Servizio, ovvero i luoghi fisici (plessi, sedi distaccate, sezioni) in cui si svolge concretamente l'attività didattica. Sono modellati i principali cicli di istruzione previsti dall'ordinamento italiano: il primo ciclo (scuola dell'infanzia, primaria e secondaria di primo grado), il secondo ciclo (licei, istituti tecnici e professionali) e l'istruzione degli adulti (CPIA e sezioni serali e carcerarie). L'ontologia è parte della rete OntoPiA ed è allineata con le ontologie COV (organizzazioni), CLV (luoghi e indirizzi) e RO (ruoli)."
+            },
+            {
+                "@language": "en",
+                "@value": "The School-AP_IT ontology models the Italian school system, providing a formal vocabulary for describing educational institutions, educational service delivery points, and the relationships between them. The ontology distinguishes between Educational Institutions — autonomous legal and administrative entities pursuant to D.P.R. 275/1999 — and Service Delivery Points, i.e. the physical locations (branches, detached premises, sections) where teaching activities actually take place. The main educational cycles defined by Italian law are modelled: the first cycle (preschool, primary, and lower secondary school), the second cycle (lyceums, technical institutes, and vocational institutes), and adult education (CPIA, evening sections, and prison sections). The ontology is part of the OntoPiA network and is aligned with the COV (organisations), CLV (locations and addresses), and RO (roles) ontologies."
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://purl.org/dc/terms/issued": [
+            {
+                "@value": "2025-05-19",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/language": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/language/ENG"
+            },
+            {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            }
+        ],
+        "http://purl.org/dc/terms/license": [
+            {
+                "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2025-05-19",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"
+            }
+        ],
+        "http://purl.org/dc/terms/rightsHolder": [
+            {
+                "@id": "https://w3id.org/italia/data/public-organization/MIM"
+            }
+        ],
+        "http://purl.org/dc/terms/subject": [
+            {
+                "@id": "http://eurovoc.europa.eu/4357"
+            },
+            {
+                "@id": "http://eurovoc.europa.eu/668"
+            },
+            {
+                "@id": "http://eurovoc.europa.eu/873"
+            }
+        ],
+        "http://purl.org/dc/terms/temporal": [
+            {
+                "@id": "_:genid1"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@language": "en",
+                "@value": "School-AP_IT"
+            },
+            {
+                "@language": "it",
+                "@value": "School-AP_IT"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "L'ontologia School-AP_IT modella il sistema scolastico italiano, fornendo un vocabolario formale per descrivere le istituzioni scolastiche, i punti di erogazione del servizio didattico e le rispettive relazioni. L'ontologia distingue tra Istituzioni Scolastiche — enti giuridici e amministrativi autonomi ai sensi del D.P.R. 275/1999 — e Punti di Erogazione del Servizio, ovvero i luoghi fisici (plessi, sedi distaccate, sezioni) in cui si svolge concretamente l'attività didattica. Sono modellati i principali cicli di istruzione previsti dall'ordinamento italiano: il primo ciclo (scuola dell'infanzia, primaria e secondaria di primo grado), il secondo ciclo (licei, istituti tecnici e professionali) e l'istruzione degli adulti (CPIA e sezioni serali e carcerarie). L'ontologia è parte della rete OntoPiA ed è allineata con le ontologie COV (organizzazioni), CLV (luoghi e indirizzi) e RO (ruoli)."
+            },
+            {
+                "@language": "en",
+                "@value": "The School-AP_IT ontology models the Italian school system, providing a formal vocabulary for describing educational institutions, educational service delivery points, and the relationships between them. The ontology distinguishes between Educational Institutions — autonomous legal and administrative entities pursuant to D.P.R. 275/1999 — and Service Delivery Points, i.e. the physical locations (branches, detached premises, sections) where teaching activities actually take place. The main educational cycles defined by Italian law are modelled: the first cycle (preschool, primary, and lower secondary school), the second cycle (lyceums, technical institutes, and vocational institutes), and adult education (CPIA, evening sections, and prison sections). The ontology is part of the OntoPiA network and is aligned with the COV (organisations), CLV (locations and addresses), and RO (roles) ontologies."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "School-AP_IT"
+            },
+            {
+                "@language": "it",
+                "@value": "School-AP_IT"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "en",
+                "@value": "Version 0.1 - updated on 16th of June 2026 - First release"
+            },
+            {
+                "@language": "en",
+                "@value": "Versione 0.1 - aggiornata il 16/06/2026 - Primo rilascio"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@id": "https://w3id.org/italia/data/contact-point/INDIRE"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#keyword": [
+            {
+                "@value": "scuola"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#theme": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            }
+        ],
+        "http://www.w3.org/ns/prov#wasDerivedFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/0.1"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/acronym": [
+            {
+                "@value": "School-AP_IT"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasContributor": [
+            {
+                "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasFormalityLevel": [
+            {
+                "@id": "https://w3id.org/italia/onto/ADMS/Formal"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasKeyClass": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage": [
+            {
+                "@id": "https://w3id.org/italia/onto/ADMS/OWL"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution": [
+            {
+                "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-JSON-LD"
+            },
+            {
+                "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-RDF-TURTLE"
+            },
+            {
+                "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-RDF-XML"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/hasTask": [
+            {
+                "@id": "https://w3id.org/italia/onto/ADMS/AnnotationTask"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/ADMS/QueryFormulationTask"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/last": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/0.1"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/officialURI": [
+            {
+                "@value": "https://w3id.org/italia/onto/School",
+                "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/prefix": [
+            {
+                "@value": "school"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/prev": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/0.1"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/semanticAssetInUse": [
+            {
+                "@id": "https://w3id.org/italia/data/project/NDC"
+            },
+            {
+                "@id": "https://w3id.org/italia/data/project/OntoPiA"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/status": [
+            {
+                "@value": "catalogued"
+            },
+            {
+                "@value": "published"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/target": [
+            {
+                "@value": "Imprese"
+            },
+            {
+                "@value": "Pubbliche Amministrazioni"
+            }
+        ],
+        "https://w3id.org/italia/onto/ADMS/type": [
+            {
+                "@id": "https://w3id.org/italia/onto/ADMS/DomainOntology"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "cnr - Z6HZEH - STLab"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "en",
+                "@value": "Institute of Cognitive Sciences and Technologies of the Italian Research Council (CNR) - Semantic Technology Laboratory (STLab)"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/public-organization/INDIRE",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "INDIRE"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "it",
+                "@value": "Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa - INDIRE"
+            },
+            {
+                "@language": "en",
+                "@value": "Italian National Institute for Documentation, Innovation and Educational Research - INDIRE"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/public-organization/PCM-1RSIZZ",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "PCM-1RSIZZ"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "en",
+                "@value": "Digital Transformation Department of the Presidency of the Council of Ministers"
+            },
+            {
+                "@language": "it",
+                "@value": "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/public-organization/MIM",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "MIM"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "it",
+                "@value": "Ministero dell'Istruzione e del Merito"
+            },
+            {
+                "@language": "en",
+                "@value": "Ministry of Education and Merit"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid1",
+        "http://www.w3.org/ns/dcat#startDate": [
+            {
+                "@value": "2026-06-16",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "@type": [
+            "http://purl.org/dc/terms/PeriodOfTime"
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/contact-point/INDIRE",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Organization",
+            "http://www.w3.org/2006/vcard/ns#Kind",
+            "http://www.w3.org/2006/vcard/ns#Organization"
+        ],
+        "http://www.w3.org/2006/vcard/ns#fn": [
+            {
+                "@value": "Ufficio Relazioni con il Pubblico - INDIRE"
+            }
+        ],
+        "http://www.w3.org/2006/vcard/ns#hasEmail": [
+            {
+                "@id": "mailto:urp@indire.it"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/COV/Organization"
+            },
+            {
+                "@id": "_:genid39"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A legal and administrative entity endowed with functional autonomy (pursuant to D.P.R. No. 275 of March 8, 1999), responsible for defining, organizing, and implementing the educational offer. It acts as the management and directional center for one or more \"educational service delivery points\" (understood as the physical locations, branches, or detached premises where teaching actually takes place, from preschool to secondary education). It represents the fundamental node of the school network, interacting with local authorities and the territory to align the national objectives of the education system with local needs and potential."
+            },
+            {
+                "@language": "it",
+                "@value": "Entità giuridica e amministrativa dotata di autonomia funzionale (ai sensi del D.P.R. 8 marzo 1999, n. 275), preposta alla definizione, organizzazione e realizzazione dell'offerta formativa. Funge da centro direzionale e gestionale per uno o più \"punti di erogazione del servizio scolastico\" (intesi come i luoghi fisici, i plessi o le sedi staccate in cui l'istruzione viene effettivamente impartita, dalla scuola dell'infanzia alla secondaria). Rappresenta il nodo fondamentale della rete scolastica, interagendo con gli enti locali e il territorio per raccordare gli obiettivi nazionali del sistema d'istruzione con le esigenze e le potenzialità locali."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Educational Institution"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituzione Scolastica"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione Scolastica"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-JSON-LD",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@language": "it",
+                "@value": "Questa è la distribuzione JSON-LD dell'ontologia della scuola"
+            },
+            {
+                "@language": "en",
+                "@value": "This is the distribution in JSON-LD of the school ontology"
+            }
+        ],
+        "http://purl.org/dc/terms/format": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+            }
+        ],
+        "http://purl.org/dc/terms/license": [
+            {
+                "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@language": "it",
+                "@value": "Distribuzione JSON-LD ontologia School-AP_IT"
+            },
+            {
+                "@language": "en",
+                "@value": "JSON-LD distribution of the School-AP_IT Ontology"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#accessURL": [
+            {
+                "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/School/latest"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#downloadURL": [
+            {
+                "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/School/latest/School-AP_IT.jsonld"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-RDF-TURTLE",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@language": "it",
+                "@value": "Questa è la distribuzione RDF/Turtle dell'ontologia della scuola"
+            },
+            {
+                "@language": "en",
+                "@value": "This is the distribution in RDF/turtle of the persons ontology"
+            }
+        ],
+        "http://purl.org/dc/terms/format": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+            }
+        ],
+        "http://purl.org/dc/terms/license": [
+            {
+                "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@language": "it",
+                "@value": "Distribuzione RDF/Turtle ontologia School-AP_IT"
+            },
+            {
+                "@language": "en",
+                "@value": "RDF/Turtle distribution of School-AP_IT Ontology"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#accessURL": [
+            {
+                "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/School/latest"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#downloadURL": [
+            {
+                "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/School/latest/School-AP_IT.ttl"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/distribution/School-AP_IT-RDF-XML",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@language": "it",
+                "@value": "Questa è la distribuzione RDF/XML dell'ontologia della scuola"
+            },
+            {
+                "@language": "en",
+                "@value": "This is the distribution in RDF/XML of the persons ontology"
+            }
+        ],
+        "http://purl.org/dc/terms/format": [
+            {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+            }
+        ],
+        "http://purl.org/dc/terms/license": [
+            {
+                "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@language": "it",
+                "@value": "Distribuzione RDF/XML ontologia School-AP_IT"
+            },
+            {
+                "@language": "en",
+                "@value": "RDF/XML distribution of School-AP_IT Ontology"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#accessURL": [
+            {
+                "@id": "https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/School/latest"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#downloadURL": [
+            {
+                "@id": "https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/School/latest/School-AP_IT.rdf"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/project/NDC",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/Project"
+        ],
+        "https://w3id.org/italia/onto/l0/name": [
+            {
+                "@language": "it",
+                "@value": "National Data Catalog - schema.gov.it"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/project/OntoPiA",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "https://w3id.org/italia/onto/ADMS/Project"
+        ],
+        "https://w3id.org/italia/onto/l0/name": [
+            {
+                "@language": "it",
+                "@value": "OntoPiA - la rete di ontologie della pubblica amministrazione italiana"
+            }
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/elements/1.1/description",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/terms/subject",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/terms/temporal",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "http://www.w3.org/ns/dcat#startDate",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/ADMS/prev",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Relation linking a Main Institute to the physical location (branch, detached premises, or annex) where the educational service is actually delivered."
+            },
+            {
+                "@language": "it",
+                "@value": "Relazione che collega un Istituto di Riferimento al punto fisico (plesso, sede distaccata o succursale) in cui viene effettivamente erogato il servizio scolastico."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "ha Punto Di Erogazione Del Servizio"
+            },
+            {
+                "@language": "it",
+                "@value": "ha Punto Di Erogazione Del Servizio"
+            },
+            {
+                "@language": "it",
+                "@value": "ha punto di erogazione del servizio"
+            },
+            {
+                "@language": "en",
+                "@value": "has service delivery point"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            },
+            {
+                "@id": "_:genid30"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "L'istituto Principale è quella istituzione scolastica che fornisce supporto amministrativo e didattico alle scuole che vi sono collegate. L'entità giuridica e amministrativa centrale a cui fanno capo uno o più plessi, succursali o punti di erogazione del servizio scolastico sul territorio. Dotato di personalità giuridica e autonomia scolastica (ai sensi del D.P.R. 8 marzo 1999, n. 275), l'Istituto Principale ospita la sede della dirigenza (Dirigente Scolastico) e gli uffici amministrativi centrali (segreteria e DSGA). Ha la responsabilità formale di coordinare, gestire e fornire supporto amministrativo, organizzativo e didattico a tutte le scuole e le sedi periferiche che vi afferiscono."
+            },
+            {
+                "@language": "en",
+                "@value": "The central legal and administrative entity that oversees one or more branches, detached premises, or educational service delivery points across the territory. Endowed with legal personality and school autonomy (pursuant to D.P.R. No. 275 of March 8, 1999), the Main Institute houses the principal's office and the central administrative services. It has the formal responsibility to coordinate, manage, and provide administrative, organizational, and didactic support to all its affiliated peripheral schools and branches."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Di Riferimento"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Di Riferimento"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto di Riferimento"
+            },
+            {
+                "@language": "en",
+                "@value": "Main Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Luogo fisico o struttura edilizia in cui viene effettivamente erogato il servizio scolastico e si svolgono le attività didattiche quotidiane. A differenza dell'Istituzione Scolastica (che rappresenta l'entità giuridica e amministrativa autonoma), il punto di erogazione costituisce l'unità operativa territoriale, identificata univocamente nei sistemi informativi ministeriali tramite un proprio codice meccanografico. Rientrano in questa categoria le singole scuole dell'infanzia, i plessi di scuola primaria e le sedi staccate, succursali o sezioni coordinate delle scuole secondarie di primo e secondo grado."
+            },
+            {
+                "@language": "en",
+                "@value": "The physical location or building where the educational service is actually provided and daily teaching activities take place. Unlike the Educational Institution (Istituzione Scolastica, which represents the autonomous legal and administrative entity), the delivery point constitutes the territorial operational unit, uniquely identified in the ministerial information systems by its own school code (codice meccanografico). This category includes individual preschools, primary school complexes (plessi), and detached premises, branches, or coordinated sections of lower and upper secondary schools."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Educational Service Delivery Point"
+            },
+            {
+                "@language": "it",
+                "@value": "Plesso"
+            },
+            {
+                "@language": "en",
+                "@value": "Punto Di Erogazione Del Servizio"
+            },
+            {
+                "@language": "it",
+                "@value": "Punto Di Erogazione Del Servizio"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDiSezioneSeraleOCarceraria",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "_:genid2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "_:genid6"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDiSezioneSeraleOCarceraria"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Relation linking a Vocational Institute, a Technical Institute, or a Lyceum to an evening or prison section where the educational service is delivered. This is a sub-property of hasServiceDeliveryPoint, specialised for delivery points dedicated to adult education in evening hours or penitentiary contexts."
+            },
+            {
+                "@language": "it",
+                "@value": "Relazione che collega un Istituto Professionale, un Istituto Tecnico o un Liceo a una sezione serale o carceraria in cui viene erogato il servizio scolastico. Si tratta di una sottoproprietà di haPuntoDiErogazioneDelServizio, specializzata per i punti di erogazione rivolti all'istruzione degli adulti in orario serale o in contesti penitenziari."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "ha Punto Di Erogazione Di Sezione Serale O Carceraria"
+            },
+            {
+                "@language": "it",
+                "@value": "ha Punto Di Erogazione Di Sezione Serale O Carceraria"
+            },
+            {
+                "@language": "it",
+                "@value": "ha punto di erogazione di sezione serale o carceraria"
+            },
+            {
+                "@language": "en",
+                "@value": "has evening or prison section delivery point"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid2",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/Liceo"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/Liceo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            },
+            {
+                "@id": "_:genid40"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Il Liceo costituisce una parte dell'Istruzione Secondaria di Secondo Grado. A differenza degli istituti tecnici (rivolti a una preparazione tecnologico-economica) e professionali (rivolti ai servizi e all'industria), la finalità primaria del Liceo è fornire allo studente strumenti culturali e metodologici per una comprensione approfondita della realtà, con una vocazione naturale – seppur non esclusiva – al proseguimento degli studi universitari. Attualmente, l'assetto dei licei è regolato dal D.P.R. 15 marzo 2010, n. 89 (Regolamento di riordino dei licei), emanato attuando la cosiddetta \"Riforma Gelmini\"."
+            },
+            {
+                "@language": "en",
+                "@value": "The 'Liceo' forms part of upper secondary education. Unlike technical institutes, which focus on technological and economic training, and professional institutes, which focus on services and industry, the Liceo's primary purpose is to provide students with the cultural and methodological tools necessary for an in-depth understanding of reality. The Liceo is well-suited to continuing university studies, although this is not its only purpose. The structure of the Liceo is currently regulated by DPR N. 89 of 15 March 2010 ('Regolamento di riordino dei licei'), implementing the so-called 'Gelmini Reform'."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Liceo"
+            },
+            {
+                "@language": "it",
+                "@value": "Liceo"
+            },
+            {
+                "@language": "en",
+                "@value": "Lyceum"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            },
+            {
+                "@id": "_:genid35"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A type of upper secondary educational institution, lasting five years, designed to provide students with a solid scientific and technological foundation applied to production, economic, and management processes. Reformed by D.P.R. No. 88 of March 15, 2010, the Technical Institute is divided into two macro-sectors (Economic and Technological), which are further subdivided into specific tracks, specializations, and options. It is aimed at both rapid integration into the labor market and further studies (ITS, university, AFAM)."
+            },
+            {
+                "@language": "it",
+                "@value": "Tipologia di istituzione scolastica secondaria di secondo grado, di durata quinquennale, progettata per fornire agli studenti solide basi scientifiche e tecnologiche applicate ai processi produttivi, economici e gestionali. Riformato dal D.P.R. 15 marzo 2010, n. 88, l'Istituto Tecnico si articola in due macro-settori (Economico e Tecnologico), a loro volta suddivisi in specifici indirizzi, articolazioni e opzioni. È finalizzato sia a un rapido inserimento nel mondo del lavoro sia al proseguimento degli studi (ITS, università, AFAM)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico"
+            },
+            {
+                "@language": "en",
+                "@value": "Technical Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            },
+            {
+                "@id": "_:genid31"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution, lasting five years, aimed at providing students with technical and professional skills directly applicable in the labor market, integrated with a solid general education foundation. Following the reform of Legislative Decree No. 61 of April 13, 2017, vocational education was redefined as a \"territorial school of innovation,\" operating in close connection with the world of work and professions. The curriculum is divided into 11 study tracks (including agriculture, food and wine, health and social services, industry and crafts for \"Made in Italy\") and is characterized by an educational model based on personalization (Individual Training Plan), widespread use of laboratories, and learning in operational contexts."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado, di durata quinquennale, finalizzata a far acquisire agli studenti competenze tecnico-professionali direttamente spendibili nel mondo del lavoro, integrate con una solida base di istruzione generale. A seguito della riforma del decreto legislativo 13 aprile 2017, n. 61, l'istruzione professionale è stata ridefinita come \"scuola territoriale dell'innovazione\", operante in stretto raccordo con il mondo del lavoro e delle professioni. Il percorso si articola in 11 indirizzi di studio (tra cui agricoltura, enogastronomia, servizi socio-sanitari, industria e artigianato per il Made in Italy) e si caratterizza per un modello didattico basato sulla personalizzazione (Piano Formativo Individuale), sull'uso diffuso dei laboratori e sull'apprendimento in contesti operativi."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid6",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneCarceraria"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneSerale"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/SezioneSerale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A secondary education pathway provided during evening hours, originally intended for working students to allow them to obtain a high school diploma. Following the reorganization of adult education (D.P.R. No. 263 of October 29, 2012), the former \"evening schools\" were reorganized as \"second-level education pathways\". These pathways remain embedded within upper secondary educational institutions but operate in close organic and functional coordination with the territorial networks of the Provincial Centers for Adult Education (CPIA)."
+            },
+            {
+                "@language": "it",
+                "@value": "Percorso di istruzione secondaria erogato in orario serale, originariamente destinato a studenti lavoratori per consentire il conseguimento del diploma di maturità. A seguito del riordino dell'istruzione degli adulti (D.P.R. 29 ottobre 2012, n. 263), le ex \"scuole serali\" sono state riorganizzate come \"percorsi di istruzione di secondo livello\". Tali percorsi rimangono incardinati presso le istituzioni scolastiche secondarie di secondo grado ma operano in stretto raccordo organico e funzionale con le reti territoriali dei Centri Provinciali per l'Istruzione degli Adulti (CPIA)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Evening School Section"
+            },
+            {
+                "@language": "en",
+                "@value": "Sezione Serale"
+            },
+            {
+                "@language": "it",
+                "@value": "Sezione Serale"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/SezioneCarceraria",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Le sezioni carcerarie sono sedi scolastiche operanti all'interno degli istituti di prevenzione e pena, destinate all'erogazione di percorsi di istruzione per adulti o minori, al fine di garantire il diritto all'istruzione e favorire il reinserimento sociale sancito dall'art. 27 della Costituzione. A seguito della riorganizzazione del 2012, l'istruzione degli adulti in queste strutture fa capo alle reti territoriali dei Centri Provinciali per l'Istruzione degli Adulti (CPIA) per il primo livello, e alle istituzioni scolastiche secondarie per il secondo livello (D.P.R. 29 ottobre 2012, n. 263 / D.P.R. 30 giugno 2000, n. 230)."
+            },
+            {
+                "@language": "en",
+                "@value": "Prison sections (\"Sezioni Carcerarie\") are school branches operating within prevention and penal institutions, designed to provide educational pathways for adults or minors, ensuring the right to education and promoting social reintegration (Art. 27 of the Italian Constitution). Following the 2012 reorganization, adult education in these facilities falls under the territorial networks of the Provincial Centers for Adult Education (CPIA) for the first level, and secondary schools for the second level (D.P.R. No. 263 of October 29, 2012 / D.P.R. No. 230 of June 30, 2000)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Prison School Section"
+            },
+            {
+                "@language": "en",
+                "@value": "Sezione Carceraria"
+            },
+            {
+                "@language": "it",
+                "@value": "Sezione Carceraria"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/haSede",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/SedeIstituzioneScolastica"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "https://w3id.org/italia/onto/School/haSede"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Relation linking an Educational Institution to its official headquarters, i.e. the physical location housing the school principal's office and the central administrative services."
+            },
+            {
+                "@language": "it",
+                "@value": "Relazione che collega un'Istituzione Scolastica alla sua sede ufficiale, ovvero il luogo fisico in cui sono stabiliti la dirigenza e i servizi amministrativi centrali."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "ha Sede"
+            },
+            {
+                "@language": "it",
+                "@value": "ha Sede"
+            },
+            {
+                "@language": "it",
+                "@value": "ha sede"
+            },
+            {
+                "@language": "en",
+                "@value": "has headquarters"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/SedeIstituzioneScolastica",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"
+            },
+            {
+                "@id": "_:genid50"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Il luogo fisico e l'indirizzo ufficiale in cui è stabilita l'amministrazione centrale di un'Istituzione Scolastica autonoma. Corrisponde tipicamente all'edificio o al plesso che ospita gli uffici direttivi (ufficio del Dirigente Scolastico) e i servizi amministrativi generali (uffici di segreteria e del DSGA - Direttore dei Servizi Generali e Amministrativi). In senso giuridico, rappresenta il domicilio legale dell'ente scolastico."
+            },
+            {
+                "@language": "en",
+                "@value": "The physical location and official address where the central administration of an autonomous Educational Institution is established. It typically corresponds to the building or branch housing the executive offices (School Principal's office) and the general administrative services (secretariat and DSGA - Director of General and Administrative Services). In a legal sense, it represents the legal domicile of the educational entity."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Educational Institution Headquarters"
+            },
+            {
+                "@language": "en",
+                "@value": "Sede Istituzione Scolastica"
+            },
+            {
+                "@language": "it",
+                "@value": "Sede Istituzione Scolastica"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/COV/PrivateOrganization",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/CentroProvincialiIstruzioneDegliAdulti",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
+            },
+            {
+                "@id": "_:genid9"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Adult education is promoted by the CPIA (Centri provinciali per l'istruzione degli adulti) established by Presidential Decree 263 of 29 October 2012. These are autonomous educational institutions with their own staff and specific teaching and organisational structure. The CPIA are divided into \"reti territoriali di servizio\" structured on three levels: Level A: Administrative unit; Level B: Teaching unit; Level C: Training unit. From a structural point of view, they are linked to the former Centri Territoriali Permanenti per l'istruzione degli adulti, with which they provide first-level courses, literacy courses and Italian language courses, including in prisons."
+            },
+            {
+                "@language": "it",
+                "@value": "L'istruzione degli adulti è promossa dai CPIA (Centri provinciali per l'istruzione degli adulti) istituiti con il decreto del Presidente della Repubblica 263 del 29 ottobre 2012. Costituiscono una tipologia di istituzione scolastica autonoma dotata di un proprio organico e di uno specifico assetto didattico e organizzativo. I CPIA sono articolati in \"reti territoriali di servizio\" strutturate su tre livelli: Livello A: Unità amministrativa; Livello B: Unità didattica; Livello C: Unità Formativa. Da un punto di vista strutturale sono collegati ai vecchi Centri Territoriali Permanenti per l'istruzione degli adulti con cui erogano i percorsi di primo livello, percorsi di alfabetizzazione e apprendimento della lingua italiana, anche in carcere."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Centro Provinciali Istruzione Degli Adulti"
+            },
+            {
+                "@language": "it",
+                "@value": "Centro Provinciali Istruzione Degli Adulti"
+            },
+            {
+                "@language": "en",
+                "@value": "Provincial Center for Adult Education"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An autonomous educational institution responsible for the administration and provision of the first cycle of education. According to the Italian education system (Legislative Decree No. 59 of February 19, 2004), this cycle lasts for a total of eight years and includes Primary School (Scuola Primaria, five years) and Lower Secondary School (Scuola Secondaria di Primo Grado, three years). Following the school network rationalization reforms (specifically Law No. 111 of July 15, 2011), these institutions currently operate almost exclusively in the form of Comprehensive Institutes (Istituti Comprensivi): legal entities that vertically aggregate preschools, primary schools, and lower secondary schools under a single school administration."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica autonoma preposta all'amministrazione e all'erogazione dei percorsi di studio del primo ciclo di istruzione. In base all'ordinamento italiano (D.Lgs. 19 febbraio 2004, n. 59), questo ciclo ha una durata complessiva di otto anni e comprende la Scuola Primaria (cinque anni) e la Scuola Secondaria di Primo Grado (tre anni). A seguito delle riforme sul dimensionamento della rete scolastica (in particolare la Legge 15 luglio 2011, n. 111), queste istituzioni operano oggi quasi esclusivamente sotto forma di Istituti Comprensivi (IC): entità giuridiche che aggregano in verticale scuole dell'infanzia, primarie e secondarie di primo grado sotto un'unica dirigenza scolastica."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "First Cycle Educational Institution"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituzione Scolastica Di Primo Ciclo"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione Scolastica Di Primo Ciclo"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Educational institution dedicated to the education and training of the adult population, aimed at obtaining educational qualifications (first or second cycle), literacy (including for foreign citizens), and recovering educational deficits. Following the 2012 reorganization (D.P.R. No. 263 of October 29, 2012), the system is structured around the Provincial Centers for Adult Education (CPIA), which operate as autonomous territorial networks and functionally coordinate with secondary schools to provide second-level pathways."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione preposta all'educazione e all'istruzione della popolazione adulta, finalizzata al conseguimento di titoli di studio (primo o secondo ciclo), all'alfabetizzazione (anche per cittadini stranieri) e al recupero dei deficit formativi. Dal riordino del 2012 (D.P.R. 29 ottobre 2012, n. 263), il sistema è incardinato nei Centri Provinciali per l'Istruzione degli Adulti (CPIA), che operano come reti territoriali dotate di propria autonomia e si raccordano funzionalmente con le scuole secondarie per l'erogazione dei percorsi di secondo livello."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Educational Institution for Adults"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituzione Scolastica Per Adulti"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione Scolastica Per Adulti"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid9",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid10"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid10",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/CentroTerritorialePermanente"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/ScuolaCarcerariaPrimariaESecondariaDiPrimoGrado"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaCarcerariaPrimariaESecondariaDiPrimoGrado",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A school section operating within penitentiary institutions to guarantee the fulfillment of compulsory education and primary literacy for inmates. Historically managed in collaboration with the Permanent Territorial Centers (CTP), following the regulatory reorganization (D.P.R. No. 263 of October 29, 2012), these schools are formally part of the first-level adult education pathways, coordinated and managed locally by the Provincial Centers for Adult Education (CPIA)."
+            },
+            {
+                "@language": "it",
+                "@value": "Sezione scolastica attivata all'interno degli istituti penitenziari per garantire l'assolvimento dell'obbligo di istruzione e l'alfabetizzazione primaria dei detenuti. Storicamente gestite in collaborazione con i Centri Territoriali Permanenti (CTP), con il riordino normativo (D.P.R. 29 ottobre 2012, n. 263) queste scuole rientrano formalmente nei percorsi di istruzione degli adulti di primo livello, coordinati e gestiti sul territorio dai Centri Provinciali per l'Istruzione degli Adulti (CPIA)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Prison Primary and Lower Secondary School"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Carceraria Primaria E Secondaria Di Primo Grado"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Carceraria Primaria E Secondaria Di Primo Grado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/CentroTerritorialePermanente",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A historical educational institution dedicated to the education and training of the adult population, originally established by Ministerial Ordinance No. 455 of 1997. The Permanent Territorial Centers (Centri Territoriali Permanenti - CTP) offered educational opportunities to obtain a first-cycle qualification, for literacy, and for learning the Italian language, specifically targeting workers, the unemployed, and foreign citizens residing in Italy. Following the comprehensive reorganization of the adult education system (D.P.R. No. 263 of October 29, 2012), the CTPs were formally abolished, and their premises, functions, and responsibilities organically merged into the new networks of the Provincial Centers for Adult Education (CPIA)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica storica preposta all'istruzione e alla formazione della popolazione in età adulta, istituita originariamente con l'Ordinanza Ministeriale n. 455 del 1997. I Centri Territoriali Permanenti (CTP) offrivano opportunità educative per il conseguimento del titolo di studio di primo ciclo, per l'alfabetizzazione e per l'apprendimento della lingua italiana, rivolgendosi in particolare a lavoratori, disoccupati e cittadini stranieri residenti in Italia. A seguito del riordino complessivo del sistema dell'istruzione degli adulti (D.P.R. 29 ottobre 2012, n. 263), i CTP sono stati formalmente soppressi e le loro sedi, funzioni e competenze sono confluite organicamente nelle nuove reti dei Centri Provinciali per l'Istruzione degli Adulti (CPIA)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Centro Territoriale Permanente"
+            },
+            {
+                "@language": "it",
+                "@value": "Centro Territoriale Permanente"
+            },
+            {
+                "@language": "en",
+                "@value": "Permanent Territorial Center"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/CircoloDidattico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "_:genid13"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An autonomous educational institution of the first educational cycle that groups together, under a single school administration and principal, primary school branches and preschool sections located within a specific geographical area (usually a municipality or a neighborhood). Following the introduction of school autonomy (D.P.R. No. 275 of March 8, 1999) and subsequent school network rationalization plans, this specific organizational configuration has been progressively phased out and replaced by the Comprehensive Institute (Istituto Comprensivo) model, which ensures educational continuity by also vertically integrating the lower secondary school."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica autonoma del primo ciclo di istruzione che raggruppa, sotto un'unica dirigenza e amministrazione, i plessi della scuola primaria (ex scuola elementare) e le sezioni della scuola dell'infanzia ricadenti all'interno di una determinata circoscrizione territoriale (solitamente un comune o un quartiere). A partire dall'introduzione dell'autonomia scolastica (D.P.R. 8 marzo 1999, n. 275) e con i successivi interventi di dimensionamento della rete scolastica, questa specifica configurazione organizzativa è stata progressivamente soppressa e sostituita dal modello dell'Istituto Comprensivo, che garantisce la continuità didattica integrando in verticale anche la scuola secondaria di primo grado."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Circolo Didattico"
+            },
+            {
+                "@language": "it",
+                "@value": "Circolo Didattico"
+            },
+            {
+                "@language": "en",
+                "@value": "Teaching Circle"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid13",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "_:genid17"
+                    },
+                    {
+                        "@id": "_:genid15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:genid15",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaPrimaria"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaPrimaria",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An educational institution belonging to the first cycle of education, together with the lower secondary school. Pursuant to Law No. 53 of March 28, 2003 (Art. 2, paragraph F), the five-year educational path is divided into an initial year, aimed at achieving basic foundational skills, and two subsequent two-year teaching periods. It represents the first step of compulsory education for children."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica appartenente al primo ciclo di istruzione, assieme alla scuola secondaria di primo grado. Ai sensi della Legge 28 marzo 2003, n. 53 (art. 2, comma F), il percorso didattico della durata complessiva di cinque anni è articolato in un primo anno, teso al raggiungimento delle strumentalità di base, e in due successivi periodi didattici biennali. Rappresenta il primo gradino dell'istruzione obbligatoria per i bambini."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Primary School"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Primaria"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Primaria"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid17",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaInfanzia"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaInfanzia",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "La scuola dell'infanzia, di durata triennale, concorre all'educazione e allo sviluppo affettivo, psicomotorio, cognitivo, morale, religioso e sociale delle bambine e dei bambini promuovendone le potenzialità di relazione, autonomia, creatività, apprendimento, e ad assicurare un'effettiva eguaglianza delle opportunità educative; nel rispetto della primaria responsabilità educativa dei genitori, essa contribuisce alla formazione integrale delle bambine e dei bambini e, nella sua autonomia e unitarietà didattica e pedagogica, realizza la continuità educativa con il complesso dei servizi all'infanzia e con la scuola primaria. (Legge 28 marzo 2003, n. 53 – art. 2, comma E)"
+            },
+            {
+                "@language": "en",
+                "@value": "The 'Scuola dell'Infanzia' contributes to the emotional, psychomotor, cognitive, moral, religious and social development of children, promoting their potential for relationships, autonomy, creativity and learning. It ensures effective equality of educational opportunities while respecting the primary educational responsibility of parents. In its autonomy and didactic and pedagogical unity, it achieves educational continuity with childcare services and primary school. (Law No. 53 of 28 March 2003, Article 2, Paragraph E)"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Preschool"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Infanzia"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Infanzia"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola dell'Infanzia"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/Convitto",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A state educational institution with legal personality, aimed at the education and the intellectual and physical development of young people hosted as boarders (residential) or day-boarders. Pursuant to Art. 203 (and referenced for directorial functions by Art. 233) of the Consolidated Law on Education (Legislative Decree No. 297 of April 16, 1994), National Boarding Schools (Convitti Nazionali) may have annexed state schools of all levels (primary, lower secondary, and upper secondary). In this setup, the Rector (acting as the head of the educational institution) also performs the administrative and educational management functions for all annexed schools and institutes, ensuring the unity of the educational and training path."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione educativa statale dotata di personalità giuridica, finalizzata a curare l'educazione e lo sviluppo intellettuale e fisico dei giovani che vi sono accolti in regime di convitto (residenziale) o semiconvitto. Ai sensi dell'Art. 203 (e richiamato per le funzioni direttive dall'Art. 233) del Testo Unico sull'Istruzione (D.Lgs. 16 aprile 1994, n. 297), ai Convitti Nazionali possono essere annesse scuole statali di ogni ordine e grado (primarie, secondarie di primo e di secondo grado). In questa configurazione, la figura del Rettore (che funge da dirigente dell'istituzione educativa) esercita anche le funzioni di direzione amministrativa e didattica su tutte le scuole e gli istituti annessi, garantendo l'unitarietà del percorso educativo e formativo."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Convitto"
+            },
+            {
+                "@language": "it",
+                "@value": "Convitto"
+            },
+            {
+                "@language": "en",
+                "@value": "National Boarding School"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/Educandato",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Istituzione educativa statale, storicamente denominata \"Educandato femminile dello Stato\", avente il fine originario di curare l'educazione e lo sviluppo intellettuale e fisico delle giovani accolte (oggi aperta a studenti di entrambi i sessi in regime di semiconvitto o convitto). Ai sensi dell'Art. 204 del Testo Unico sull'Istruzione (D.Lgs. 16 aprile 1994, n. 297), a queste strutture possono essere annesse scuole statali di vario grado (primarie, secondarie di primo grado e istituti di istruzione secondaria superiore), configurandole di fatto come ampi e complessi poli formativi. In tale assetto, la figura direttiva (la direttrice, oggi inquadrata come Dirigente Scolastico) svolge le funzioni di direzione amministrativa e didattica per tutte le scuole e gli istituti annessi."
+            },
+            {
+                "@language": "en",
+                "@value": "State educational institution, historically referred to as a \"State female boarding school\" (Educandato femminile dello Stato), originally aimed at the education and the intellectual and physical development of the young women hosted there (today open to students of both sexes as boarding or day-boarding schools). Pursuant to Art. 204 of the Consolidated Law on Education (Legislative Decree No. 297 of April 16, 1994), these facilities can have various annexed state schools (primary, lower secondary, and upper secondary schools), effectively making them comprehensive educational campuses. In this setup, the directing figure (historically the directress, now the School Principal) assumes the administrative and educational management of all annexed schools and institutes."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Educandato"
+            },
+            {
+                "@language": "it",
+                "@value": "Educandato"
+            },
+            {
+                "@language": "en",
+                "@value": "State Boarding School"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoComprensivo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "_:genid18"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An autonomous educational institution of the first educational cycle that vertically aggregates, under a single school administration and principal, preschools, primary schools, and lower secondary schools. Initially introduced by Law No. 97 of January 31, 1994, to ensure the survival of school facilities in mountain or low-population density areas, with the advent of school autonomy (D.P.R. No. 275 of March 8, 1999) and subsequent network sizing regulations, Comprehensive Institutes (Istituti Comprensivi) became the standard and prevalent organizational model throughout the national territory. Their purpose is twofold: to optimize administrative management by reaching optimal size parameters and, above all, to ensure a unified educational project and educational continuity for students from 3 to 14 years of age."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica autonoma del primo ciclo di istruzione che aggrega in senso verticale, sotto un'unica dirigenza e amministrazione, le scuole dell'infanzia, le scuole primarie e le scuole secondarie di primo grado. Inizialmente introdotti dalla Legge 31 gennaio 1994, n. 97 per garantire la sopravvivenza dei presidi scolastici nelle zone montane o a bassa densità demografica, con l'avvento dell'autonomia scolastica (D.P.R. 8 marzo 1999, n. 275) e le successive normative sul dimensionamento, gli Istituti Comprensivi sono diventati il modello organizzativo ordinario e prevalente in tutto il territorio nazionale. La loro finalità è duplice: ottimizzare la gestione amministrativa raggiungendo i parametri dimensionali ottimali e, soprattutto, garantire un progetto educativo unitario e la continuità didattica per gli alunni dai 3 ai 14 anni."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Comprehensive Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Comprensivo"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Comprensivo"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid18",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "_:genid24"
+                    },
+                    {
+                        "@id": "_:genid22"
+                    },
+                    {
+                        "@id": "_:genid20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@id": "_:genid20",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaSecondariaDiPrimoGrado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaSecondariaDiPrimoGrado",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "La scuola secondaria di primo grado fa parte del primo ciclo di istruzione assieme alla scuola primaria. La scuola secondaria di primo grado, della durata di tre anni, si articola in un periodo didattico biennale e in un terzo anno, che completa prioritariamente il percorso disciplinare ed assicura l'orientamento ed il raccordo con il secondo ciclo. (Legge 28 marzo 2003, n. 53 – art. 2, comma F)"
+            },
+            {
+                "@language": "en",
+                "@value": "The \"Scuola Secondaria di Primo Grado\" is part of the first cycle of education, together with the \"Scuola Primaria\". \"Scuola Secondaria di Primo Grado\" lasts three years and is divided into a two-year teaching period and a third year, which primarily completes the disciplinary path and ensures orientation and connection with the second cycle. (Law No. 53 of 28 March 2003 – Art. 2, paragraph F)"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Lower Secondary School"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Secondaria Di Primo Grado"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Secondaria Di Primo Grado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid22",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaPrimaria"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid24",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaInfanzia"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoDArte",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "L'Istituto d'Arte era un'istituzione scolastica secondaria (spesso strutturata in un triennio più un biennio di perfezionamento) finalizzata alla preparazione artistica e all'addestramento pratico per la produzione artigianale e industriale artistica. Con il riordino del secondo ciclo d'istruzione (D.P.R. 15 marzo 2010, n. 89), gli Istituti d'Arte sono stati formalmente soppressi e i loro percorsi di studio sono confluiti nei nuovi Licei Artistici, che ne hanno assorbito e riorganizzato gli indirizzi specializzanti."
+            },
+            {
+                "@language": "en",
+                "@value": "The Art Institute (\"Istituto d'Arte\") was a secondary educational institution (often structured as a three-year course plus a two-year specialization) aimed at artistic preparation and practical training for artisanal and industrial artistic production. With the reorganization of upper secondary education (D.P.R. No. 89 of March 15, 2010), Art Institutes were formally abolished and their study pathways merged into the new Art Lyceums (\"Licei Artistici\"), which absorbed and reorganized their specialized tracks."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Art Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto D Arte"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto D Arte"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto d'Arte"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An institution providing the educational path following the first cycle of education (commonly known as upper secondary school or high school). The current system, regulated by the Gelmini Reform (D.P.R. 87, 88, and 89 of March 15, 2010, and subsequent amendments such as Legislative Decree 61/2017), divides this cycle into three five-year macro-types: Lyceums, Technical Institutes, and Vocational Institutes. It aims to prepare students for university studies, Higher Education in Art, Music and Dance (AFAM), or direct entry into the labor market."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione che eroga il percorso di studi successivo al primo ciclo di istruzione (comunemente nota come scuola secondaria di secondo grado o scuola superiore). L'ordinamento attuale, disciplinato dalla Riforma Gelmini (D.P.R. 87, 88 e 89 del 15 marzo 2010 e successive modifiche come il D.Lgs 61/2017), articola questo ciclo in tre macro-tipologie di durata quinquennale: Licei, Istituti Tecnici e Istituti Professionali. Ha la finalità di preparare gli studenti agli studi universitari, all'Alta Formazione Artistica, Musicale e Coreutica (AFAM) o all'ingresso diretto nel mondo del lavoro."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituzione Scolastica Di Secondo Ciclo"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione Scolastica Di Secondo Ciclo"
+            },
+            {
+                "@language": "en",
+                "@value": "Second Cycle Educational Institution"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoDiIstruzioneSecondariaSuperiore",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "_:genid25"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An autonomous educational institution resulting from a \"horizontal\" aggregation process. Pursuant to the regulations on the optimal sizing of the school network (specifically D.P.R. No. 233 of June 18, 1998, and D.P.R. 157/1998), the Higher Secondary Education Institute (commonly abbreviated as I.I.S. or I.I.S.S.) groups under a single school administration multiple schools or study tracks belonging to the second educational cycle that previously enjoyed separate legal autonomy. This configuration aims to rationalize and optimize management and administrative resources while ensuring a diverse upper secondary educational offer within the territory."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica autonoma nata da un processo di aggregazione \"orizzontale\". Ai sensi della normativa sul dimensionamento ottimale della rete scolastica (in particolare il D.P.R. 18 giugno 1998, n. 233 e il D.P.R. 157/1998), l'Istituto d'Istruzione Secondaria Superiore (comunemente abbreviato in I.I.S. o I.I.S.S.) accorpa sotto un'unica dirigenza scolastica più scuole o indirizzi appartenenti al secondo ciclo di istruzione che in precedenza godevano di autonomia giuridica separata. Questa configurazione mira a razionalizzare e ottimizzare le risorse gestionali e amministrative, garantendo al contempo la pluralità dell'offerta formativa superiore sul territorio."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Higher Secondary Education Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Di Istruzione Secondaria Superiore"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Di Istruzione Secondaria Superiore"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto di Istruzione Secondaria Superiore"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid25",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid26"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid26",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/Liceo"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "_:genid30",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoMagistrale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "L'istituto magistrale era un'istituzione scolastica di istruzione secondaria storicamente preposta alla formazione e abilitazione dei maestri di scuola primaria e dell'infanzia, istituita dalla Riforma Gentile (R.D. 6 maggio 1923, n. 1054). Poiché i suoi diplomi non sono più ritenuti sufficienti per l'abilitazione all'insegnamento (per cui oggi è richiesta la laurea), la scuola magistrale e l'istituto magistrale sono stati soppressi. Con il riordino del secondo ciclo (D.P.R. 15 marzo 2010, n. 89), le sue sperimentazioni sono ufficialmente confluite nei Licei delle Scienze Umane."
+            },
+            {
+                "@language": "en",
+                "@value": "The \"Istituto Magistrale\" was a secondary educational institution historically responsible for training and qualifying primary and preschool teachers, established by the Gentile Reform (Royal Decree No. 1054 of May 6, 1923). Since its diplomas are no longer sufficient for a teaching qualification (which now requires a university degree), the institute was abolished. With the reorganization of upper secondary education (D.P.R. No. 89 of March 15, 2010), its experimental courses officially merged into the Human Sciences Lyceums (\"Licei delle Scienze Umane\")."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Magistrale"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Magistrale"
+            },
+            {
+                "@language": "en",
+                "@value": "Teacher Training Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoOmnicomprensivo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An autonomous educational institution representing the highest degree of \"vertical\" aggregation in the Italian education system. Pursuant to the regulations on the sizing of the school network (specifically D.P.R. No. 233 of June 18, 1998, Art. 2, paragraph 3), the Omnicomprehensive Institute (Istituto Omnicomprensivo) groups under a single school administration and secretariat all levels of education: preschool, primary school, lower secondary school, and upper secondary school. It constitutes an organizational extension of the Comprehensive Institute (Istituto Comprensivo) model, specifically intended to optimize resources and ensure the continuity of the educational offer in complex territorial contexts, such as mountain areas and zones characterized by low population density."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica autonoma che rappresenta il massimo grado di aggregazione \"verticale\" nel sistema educativo italiano. Ai sensi della normativa sul dimensionamento della rete scolastica (in particolare il D.P.R. 18 giugno 1998, n. 233, art. 2, comma 3), l'Istituto Omnicomprensivo raggruppa sotto un'unica dirigenza scolastica e un'unica segreteria amministrativa tutti i gradi di istruzione: scuola dell'infanzia, scuola primaria, scuola secondaria di primo grado e scuola secondaria di secondo grado. Costituisce un'estensione organizzativa del modello dell'Istituto Comprensivo, prevista specificamente per ottimizzare le risorse e garantire la continuità dell'offerta formativa in contesti territoriali complessi, come le aree montane e le zone caratterizzate da ridotta densità demografica."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Omnicomprensivo"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Omnicomprensivo"
+            },
+            {
+                "@language": "en",
+                "@value": "Omnicomprehensive Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid31",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid32"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid32",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneCarceraria"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneSerale"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerIServiziAlberghieriERistorazione",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Vocational Institutes system, historically and commonly known by the acronym IPSSAR. It is dedicated to the technical and practical training of qualified professionals for the catering, tourism, and hotel industry. With the recent reform and revision of vocational education pathways (Legislative Decree No. 61 of April 13, 2017), the historical denomination officially merged into the new five-year track named \"Enogastronomy and hotel hospitality\" (Enogastronomia e ospitalità alberghiera)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'ordinamento degli Istituti Professionali, storicamente e comunemente nota con l'acronimo IPSSAR. È preposta alla formazione tecnico-pratica di figure professionali qualificate per il settore della ristorazione, dell'accoglienza turistica e dell'industria alberghiera. Con la recente riforma e revisione dei percorsi dell'istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), la denominazione storica è ufficialmente confluita nel nuovo indirizzo di studi quinquennale denominato \"Enogastronomia e ospitalità alberghiera\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per I Servizi Alberghieri E Ristorazione"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per I Servizi Alberghieri E Ristorazione"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Hotel Services and Catering"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerIServiziCommercialiETuristici",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "It is a secondary educational institution belonging to the vocational schools system (\"Istituti Professionali\"), historically focused on equipping students with practical and professional skills in administration, accounting, commerce, and tourism promotion. Over time, vocational education pathways have undergone various reforms: first with the reorganization by D.P.R. No. 87 of March 15, 2010, and more recently with Legislative Decree No. 61 of April 13, 2017, which restructured the study tracks (including the current \"Commercial Services\")."
+            },
+            {
+                "@language": "it",
+                "@value": "È un'istituzione scolastica secondaria di secondo grado appartenente all'ordinamento degli Istituti Professionali, storicamente orientata a far acquisire agli studenti competenze pratiche e professionali nel comparto dell'amministrazione, della contabilità, del commercio e della promozione turistica. Nel tempo i percorsi dell'istruzione professionale hanno subito varie riforme: prima con il riordino del D.P.R. 15 marzo 2010, n. 87 e, più recentemente, con il D.Lgs. 13 aprile 2017, n. 61 che ha riorganizzato gli indirizzi (tra cui spicca l'attuale \"Servizi commerciali\")."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per I Servizi Commerciali E Turistici"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per I Servizi Commerciali E Turistici"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Commercial and Tourism Services"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerIServiziSociali",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A historical track of vocational education aimed at training operators capable of intervening in social and health assistance, education, and promotion processes. With the recent reform of vocational education pathways (Legislative Decree No. 61 of April 13, 2017), this track was reorganized and updated, officially merging into the current pathway named \"Health and Social Care Services\" (Servizi per la sanità e l'assistenza sociale), designed to respond flexibly and in an integrated manner to the needs of the modern socio-health sector."
+            },
+            {
+                "@language": "it",
+                "@value": "Storico indirizzo dell'istruzione professionale volto a formare operatori in grado di intervenire nei processi di assistenza, educazione e promozione socio-sanitaria. Con la riforma dei percorsi di istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), questo indirizzo è stato riorganizzato e aggiornato, confluendo ufficialmente nell'attuale percorso denominato \"Servizi per la sanità e l'assistenza sociale\", progettato per rispondere in modo flessibile e integrato ai bisogni del moderno settore socio-sanitario."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per I Servizi Sociali"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per I Servizi Sociali"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Social Services"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerLAgricolturaELAmbiente",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Vocational Institutes system, historically oriented towards training operational figures in the agri-food supply chain and the protection of rural areas. With the reform of vocational education (Legislative Decree No. 61 of April 13, 2017), this historical denomination officially merged into the new track \"Agriculture, rural development, enhancement of local products, and management of forestry and mountain resources\"."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'ordinamento degli Istituti Professionali, storicamente orientata alla formazione di figure operative nella filiera agroalimentare e nella salvaguardia del territorio rurale. Con la riforma dell'istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), questa denominazione storica è ufficialmente confluita nel nuovo indirizzo \"Agricoltura, sviluppo rurale, valorizzazione dei prodotti del territorio e gestione delle risorse forestali e montane\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per L Agricoltura EL Ambiente"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L Agricoltura EL Ambiente"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L'Agricoltura E L'Ambiente"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Agriculture and the Environment"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerLIndustriaELArtigianato",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An educational institution commonly known by the acronym IPSIA, originally created to provide a solid technical-practical foundation aimed at direct employment in the manufacturing, maintenance, and craft sectors. With the reorganization of the vocational education system (Legislative Decree No. 61 of April 13, 2017), this historical sector was restructured into broad tracks adaptable at the local level, such as \"Maintenance and Technical Assistance\" or \"Industry and Crafts for Made in Italy\"."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica comunemente nota con l'acronimo IPSIA, nata originariamente per fornire una solida base tecnico-pratica mirata al diretto inserimento lavorativo nei settori della manifattura, della manutenzione e dell'artigianato. Con il riordino del sistema dell'istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), questo storico comparto è stato rimodulato in indirizzi ampi e declinabili a livello territoriale, come \"Manutenzione e assistenza tecnica\" o \"Industria e artigianato per il Made in Italy\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per L Industria EL Artigianato"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L Industria EL Artigianato"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L'Industria E L'Artigianato"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Industry and Crafts"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerLIndustriaELeAttivitaMarinare",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Vocational Institutes system, historically known by the acronym IPSIAM. It was traditionally dedicated to technical and operational training for the fishing, aquaculture, minor shipbuilding, and maritime equipment maintenance sectors. With the recent revision of vocational education pathways (Legislative Decree No. 61 of April 13, 2017), this historical typology was reorganized, and its pathways officially merged into the new five-year track named \"Commercial fishing and fish production\" (Pesca commerciale e produzioni ittiche)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'ordinamento degli Istituti Professionali, storicamente nota con l'acronimo IPSIAM. Era tradizionalmente preposta alla formazione tecnico-operativa per i settori della pesca, dell'acquacoltura, della cantieristica minore e della manutenzione di apparati marittimi. Con la recente revisione dei percorsi di istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), questa storica tipologia è stata riorganizzata e i suoi percorsi sono ufficialmente confluiti nel nuovo indirizzo quinquennale denominato \"Pesca commerciale e produzioni ittiche\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per L Industria E Le Attivita Marinare"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L Industria E Le Attivita Marinare"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per L'Industria E Le Attività Marinare"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Industry and Maritime Activities"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionalePerLaCinematografiaELaTelevisione",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Vocational Institutes system, historically created to train specialized technical figures for the audiovisual, multimedia, and entertainment industry (whose historical benchmark is the \"Roberto Rossellini\" Institute in Rome). Following the revision of vocational education pathways (Legislative Decree No. 61 of April 13, 2017), this typology no longer constitutes an independent track; its technical and laboratory pathways have officially merged into the new five-year track named \"Cultural and entertainment services\" (Servizi culturali e dello spettacolo)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'ordinamento degli Istituti Professionali, storicamente nata per formare figure tecniche specializzate per l'industria audiovisiva, multimediale e dell'intrattenimento (il cui modello storico di riferimento è l'Istituto \"Roberto Rossellini\" di Roma). A seguito della revisione dei percorsi dell'istruzione professionale (D.Lgs. 13 aprile 2017, n. 61), questa tipologia non costituisce più un indirizzo a sé stante, ma i suoi percorsi tecnico-laboratoriali sono ufficialmente confluiti nel nuovo indirizzo quinquennale denominato \"Servizi culturali e dello spettacolo\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Professionale Per La Cinematografia E La Televisione"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Professionale Per La Cinematografia E La Televisione"
+            },
+            {
+                "@language": "en",
+                "@value": "Vocational Institute for Film and Television"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid35",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid36"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid36",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneCarceraria"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneSerale"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoAeronautico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Technical Education system (Technological Sector). Historically autonomous and aimed at training specialized professionals for the aviation sector (such as pilots, air traffic controllers, meteorologists, and maintenance technicians). Following the reorganization of technical education (D.P.R. No. 88 of March 15, 2010), the historical denomination officially merged into the broader \"Transport and Logistics\" track. The specific pathways are currently identified in dedicated specializations, particularly \"Air vehicle operation\" and \"Air vehicle construction\"."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'Istruzione Tecnica (Settore Tecnologico). Storicamente autonoma e finalizzata alla formazione di figure professionali specializzate per il comparto dell'aviazione (come piloti, controllori del traffico aereo, meteorologi e tecnici manutentori). A seguito del riordino dell'istruzione tecnica (D.P.R. 15 marzo 2010, n. 88), la dicitura storica è ufficialmente confluita nel più ampio indirizzo \"Trasporti e Logistica\". I percorsi specifici dell'ex Aeronautico si individuano oggi nelle articolazioni dedicate, in particolare la \"Conduzione del mezzo aereo\" e la \"Costruzione del mezzo aereo\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Aeronautical Technical Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Aeronautico"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Aeronautico"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoAgrario",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Technical Education system (Technological Sector). According to D.P.R. No. 88 of March 15, 2010, the official track is named \"Agriculture, Agri-food, and Agro-industry\". It differs from vocational pathways by focusing on design, laboratory analysis, and business management within the primary sector. The curriculum includes specializations in: Production and Transformation, Environment and Territory Management, and Viticulture and Enology."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'Istruzione Tecnica (Settore Tecnologico). Secondo il D.P.R. 15 marzo 2010, n. 88, l'indirizzo ufficiale è denominato \"Agraria, Agroalimentare e Agroindustria\". Si distingue dai percorsi professionali per un approccio focalizzato sulla progettazione, l'analisi di laboratorio e la gestione aziendale nel settore primario. Il percorso si articola nelle opzioni: Produzioni e Trasformazioni, Gestione dell'Ambiente e del Territorio, Viticoltura ed Enologia."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Agricultural Technical Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Agrario"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Agrario"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoCommerciale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A historical upper secondary technical school (traditionally known as \"Ragioneria\"), established to train intermediate technicians and managers in business administration, accounting, finance, and law. With the Gelmini Reform (D.P.R. No. 88 of March 15, 2010), the Commercial Technical Institute organically merged into the Economic Sector of Technical Institutes, taking the official name of \"Administration, Finance and Marketing\" (AFM), which includes subsequent specializations such as \"Corporate Information Systems\" (SIA) and \"International Relations for Marketing\" (RIM)."
+            },
+            {
+                "@language": "it",
+                "@value": "Storico istituto di istruzione secondaria di secondo grado (conosciuto tradizionalmente con il termine \"Ragioneria\"), fondato per formare tecnici e quadri intermedi nei settori dell'amministrazione aziendale, della contabilità, della finanza e del diritto. Con la Riforma Gelmini (D.P.R. 15 marzo 2010, n. 88), l'Istituto Tecnico Commerciale è confluito organicamente nel Settore Economico degli Istituti Tecnici, assumendo la denominazione ufficiale di \"Amministrazione, Finanza e Marketing\" (AFM), che prevede articolazioni successive come \"Sistemi Informativi Aziendali\" (SIA) e \"Relazioni Internazionali per il Marketing\" (RIM)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Commercial Technical Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Commerciale"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Commerciale"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoIndustriale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Technical Education system. Historically known by the acronyms ITI or ITIS, it was established to train intermediate professionals (\"Industrial Technicians\") by combining a solid scientific and technological theoretical foundation with specific practical and laboratory skills. Following the reorganization of upper secondary education (D.P.R. No. 88 of March 15, 2010), the legal category \"Industrial\" officially merged into the \"Technological Sector\" of Technical Institutes, which is divided into specific five-year tracks (e.g., Mechanics, Computer Science, Electronics, Chemistry)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'ordine dell'Istruzione Tecnica. Storicamente nota con gli acronimi ITI o ITIS, è nata per formare figure professionali intermedie (\"Periti Industriali\") unendo una solida base teorica scientifico-tecnologica a specifiche competenze pratiche e laboratoriali. A seguito del riordino del secondo ciclo d'istruzione (D.P.R. 15 marzo 2010, n. 88), la categoria giuridica \"Industriale\" è ufficialmente confluita nel \"Settore Tecnologico\" degli Istituti Tecnici, articolato in specifici indirizzi quinquennali (es. Meccanica, Informatica, Elettronica, Chimica)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Industrial Technical Institute"
+            },
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Industriale"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Industriale"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoNautico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the Technical Education system (Technological Sector). With the reorganization under D.P.R. No. 88 of March 15, 2010, the historical denomination merged into the \"Transport and Logistics\" track. This institution has a unique regulatory exception: in addition to the Ministry of Education, the curriculum must comply with the international STCW standards of the IMO (International Maritime Organization) and requires an ISO 9001 quality certification validated by the Ministry of Transport to issue a professional qualification valid for registration as a seafarer."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente all'Istruzione Tecnica (Settore Tecnologico). Con il riordino del D.P.R. 15 marzo 2010, n. 88, la denominazione storica è confluita nell'indirizzo \"Trasporti e Logistica\". Questa istituzione presenta un'eccezione ordinamentale unica: oltre al Ministero dell'Istruzione, il percorso deve sottostare agli standard internazionali STCW dell'IMO (International Maritime Organization) e necessita di una certificazione di qualità ISO 9001 validata dal Ministero dei Trasporti per poter rilasciare il titolo professionale valido per l'iscrizione alla \"Gente di Mare\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Nautico"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Nautico"
+            },
+            {
+                "@language": "en",
+                "@value": "Nautical Technical Institute"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoPerAttivitaSociali",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary institute (often abbreviated as ITAS) historically focused on disciplines related to biology, hygiene, nutrition, and psycho-social dynamics (with specializations such as \"community manager\"). Following the Gelmini Reform (D.P.R. No. 88 and No. 89 of March 15, 2010), its educational offering was redistributed, largely merging into the \"Health Biotechnology\" or \"Environmental Biotechnology\" tracks of the technological sector, or into the economic-social option of the Human Sciences Lyceum."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto secondario di secondo grado (spesso abbreviato in ITAS) storicamente focalizzato su discipline legate alla biologia, all'igiene, alla nutrizione e alle dinamiche psico-sociali (con declinazioni come l'indirizzo per \"dirigenti di comunità\"). A seguito della Riforma Gelmini (D.P.R. 15 marzo 2010, n. 88 per i tecnici e n. 89 per i licei), la sua offerta formativa è stata redistribuita, confluendo in gran parte nelle articolazioni \"Biotecnologie sanitarie\" o \"Biotecnologie ambientali\" del settore tecnologico, oppure nell'opzione economico-sociale del Liceo delle Scienze Umane."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Per Attivita Sociali"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Per Attivita Sociali"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Per Attività Sociali"
+            },
+            {
+                "@language": "en",
+                "@value": "Technical Institute for Social Activities"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoPerGeometri",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A historical type of technical upper secondary school aimed at training professional surveyors (\"geometri\") specializing in civil building design, topography, and real estate appraisal. With the reform of the second educational cycle (D.P.R. No. 88 of March 15, 2010), the Technical Institute for Surveyors ceased to exist as an autonomous denomination and officially merged into the Technological Sector of Technical Institutes, specifically into the new study track named \"Construction, Environment and Territory\" (CAT)."
+            },
+            {
+                "@language": "it",
+                "@value": "Storica tipologia di istituzione scolastica secondaria di secondo grado tecnica, finalizzata a formare la figura professionale del geometra, con competenze in progettazione edile civile, topografia ed estimo. Con la riforma del secondo ciclo (D.P.R. 15 marzo 2010, n. 88), l'Istituto Tecnico per Geometri ha cessato di esistere come denominazione autonoma ed è ufficialmente confluito nel Settore Tecnologico degli Istituti Tecnici, specificamente nel nuovo indirizzo denominato \"Costruzioni, Ambiente e Territorio\" (CAT)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Per Geometri"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Per Geometri"
+            },
+            {
+                "@language": "en",
+                "@value": "Technical Institute for Surveyors"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnicoPerIlTurismo",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "A technical upper secondary educational institution historically oriented towards training professionals for the tourism sector (travel agencies, hospitality, territorial marketing), characterized by a strong focus on foreign languages, business administration, and tourism geography. Following the reorganization of technical institutes (D.P.R. No. 88 of March 15, 2010), this pathway is currently incorporated into the Economic Sector, constituting the specific study track officially named \"Tourism\"."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado di natura tecnica, storicamente orientata alla formazione di figure professionali per il comparto turistico (agenzie di viaggio, accoglienza, marketing territoriale), caratterizzata da un forte focus sullo studio delle lingue straniere, dell'economia aziendale e della geografia turistica. A seguito del riordino degli istituti tecnici (D.P.R. 15 marzo 2010, n. 88), questo percorso è oggi incardinato nel Settore Economico, costituendo l'indirizzo specifico ufficialmente denominato \"Turismo\"."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Istituto Tecnico Per Il Turismo"
+            },
+            {
+                "@language": "it",
+                "@value": "Istituto Tecnico Per Il Turismo"
+            },
+            {
+                "@language": "en",
+                "@value": "Technical Institute for Tourism"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid39",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/SedeIstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haSede"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid40",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid41"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid41",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneCarceraria"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/SezioneSerale"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/LiceoArtistico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/Liceo"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the lyceum system (regulated by Art. 3 of D.P.R. No. 89 of March 15, 2010). Created from the reform and consolidation of the former Art Institutes (\"Istituti d'Arte\") and the previous art lyceum systems, it provides a study path focused on aesthetic phenomena and artistic practice. The curriculum is structured into a common first two-year period and a three-year specialization cycle where students choose from six specific tracks: Fine Arts, Architecture and Environment, Design, Audiovisual and Multimedia, Graphics, and Scenography."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente al sistema liceale (disciplinata dall'Art. 3 del D.P.R. 15 marzo 2010, n. 89). Nata dalla riforma e dall'accorpamento dei preesistenti Istituti d'Arte e dei precedenti ordinamenti del liceo artistico, offre un percorso finalizzato allo studio dei fenomeni estetici e alla pratica artistica. Il piano di studi è strutturato in un primo biennio comune, orientato alle discipline fondanti, e in un triennio di specializzazione in cui lo studente sceglie tra sei specifici indirizzi: Arti figurative, Architettura e ambiente, Design, Audiovisivo e multimediale, Grafica e Scenografia."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Art Lyceum"
+            },
+            {
+                "@language": "en",
+                "@value": "Liceo Artistico"
+            },
+            {
+                "@language": "it",
+                "@value": "Liceo Artistico"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/LiceoClassico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/Liceo"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Il Liceo Classico (Art. 5 del D.P.R. 15 marzo 2010, n. 89) comprende uno studio approfondito della civiltà classica e della cultura umanistica. Le materie distintive sono: Latino e Greco (presenti per tutto il quinquennio) e Filosofia. Mantiene la distinzione storica tra Ginnasio (primo biennio) e Liceo (triennio)."
+            },
+            {
+                "@language": "en",
+                "@value": "The \"Liceo Classico\" (Art. 5 of D.P.R. No. 89 of March 15, 2010) includes an in-depth study of classical civilisation and humanistic culture. The distinctive subjects are: Latin and Greek (taught throughout the five-year programme) and Philosophy. For historical reasons, the course is divided into a Ginnasio (first two years) and a Liceo (final three years)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Classical Lyceum"
+            },
+            {
+                "@language": "en",
+                "@value": "Liceo Classico"
+            },
+            {
+                "@language": "it",
+                "@value": "Liceo Classico"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/LiceoScientifico",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/Liceo"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An upper secondary educational institution belonging to the lyceum system, regulated by Art. 8 of D.P.R. No. 89 of March 15, 2010. The curriculum is designed to provide a balanced education between scientific-mathematical culture and the humanistic tradition. The system includes a traditional track (which encompasses the study of Latin) and two specific variants: the \"Applied Sciences\" (Scienze Applicate) option, which replaces Latin with an enhanced focus on computer science, mathematics, physics, and natural sciences; and the \"Sports\" (Sportivo) track (introduced by D.P.R. No. 52 of March 5, 2013)."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica secondaria di secondo grado appartenente al sistema liceale, disciplinata dall'Art. 8 del D.P.R. 15 marzo 2010, n. 89. Il percorso di studi è progettato per fornire una formazione equilibrata tra la cultura scientifico-matematica e la tradizione umanistica. L'ordinamento prevede un indirizzo tradizionale (che include lo studio del latino) e due varianti specifiche: l'opzione \"Scienze Applicate\", che sostituisce il latino con un potenziamento di informatica, matematica, fisica e scienze naturali; e la sezione a indirizzo \"Sportivo\" (introdotta con il D.P.R. 5 marzo 2013, n. 52)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Liceo Scientifico"
+            },
+            {
+                "@language": "it",
+                "@value": "Liceo Scientifico"
+            },
+            {
+                "@language": "en",
+                "@value": "Scientific Lyceum"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaMagistrale",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "La scuola magistrale era un'istituzione scolastica di grado preparatorio, di durata tipicamente triennale, istituita storicamente con la Riforma Gentile (R.D. 6 maggio 1923, n. 1054) per formare e abilitare le insegnanti della scuola materna (o dell'infanzia). Con l'introduzione dell'obbligo della laurea in Scienze della Formazione Primaria per l'insegnamento, la scuola magistrale ha perso la sua funzione abilitante ed è stata definitivamente soppressa, confluendo nei percorsi liceali delle Scienze Umane (D.P.R. 15 marzo 2010, n. 89)."
+            },
+            {
+                "@language": "en",
+                "@value": "The \"Scuola Magistrale\" was a preparatory-level educational institution, typically lasting three years, historically established by the Gentile Reform (Royal Decree No. 1054 of May 6, 1923) to train and qualify preschool/kindergarten teachers. With the introduction of the mandatory university degree in Primary Education Sciences for teaching, the school lost its qualifying function and was permanently abolished, merging into the Human Sciences Lyceum pathways (D.P.R. No. 89 of March 15, 2010)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Scuola Magistrale"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Magistrale"
+            },
+            {
+                "@language": "en",
+                "@value": "Teacher Training School"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaParitaria",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/COV/PrivateOrganization"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "\"Scuole paritarie\" (equalized private schools) are non-state educational institutions managed by entities other than the State. Starting from preschool, they comply with the general education systems, align with the educational demands of families, and are characterized by quality and effectiveness requirements (Law No. 62 of March 10, 2000 - Art. 1, paragraph 2). They provide a public service and issue degrees with the same legal value as state schools."
+            },
+            {
+                "@language": "it",
+                "@value": "Le scuole paritarie sono istituzioni scolastiche non statali, gestite da enti diversi dallo Stato, che a partire dalla scuola dell'infanzia corrispondono agli ordinamenti generali dell'istruzione, sono coerenti con la domanda formativa delle famiglie e sono caratterizzate da requisiti di qualità ed efficacia (Legge 10 marzo 2000, n. 62 - art. 1, comma 2). Svolgono un servizio pubblico, accolgono chiunque ne accetti il progetto educativo e sono abilitate a rilasciare titoli di studio aventi valore legale pari a quelli delle scuole statali."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Equalized Private School"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Paritaria"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Paritaria"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/ScuolaPerUtenzaConBisogniSpeciali",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "An educational institution or section specifically dedicated to the education of students with sensory impairments (visual, hearing) or severe physical and cognitive disabilities. Although the Italian education system is legally oriented towards the inclusion of students with disabilities in mainstream classes (since Law 517/1977 and reaffirmed by Law 104/1992), some historical specialized institutions (e.g., institutes for the blind or deaf) or sections operating in rehabilitative contexts remain to address highly complex educational and therapeutic needs."
+            },
+            {
+                "@language": "it",
+                "@value": "Istituzione scolastica o sezione dedicata specificamente all'educazione e istruzione di alunni con disabilità sensoriali (visive, uditive) o con gravi disabilità fisiche e cognitive. Nonostante il sistema scolastico italiano sia normativamente orientato, fin dalla Legge 517/1977 e ribadito dalla Legge 104/1992, all'inclusione degli alunni con disabilità nelle classi comuni, permangono sul territorio alcune istituzioni specializzate storiche (es. Istituti per ciechi o sordomuti) o sezioni operanti in contesti riabilitativi per rispondere a bisogni educativi e terapeutici altamente complessi."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "School for Students with Special Needs"
+            },
+            {
+                "@language": "en",
+                "@value": "Scuola Per Utenza Con Bisogni Speciali"
+            },
+            {
+                "@language": "it",
+                "@value": "Scuola Per Utenza Con Bisogni Speciali"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/SedeCentraleDellaScuolaDelPrimoGrado",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            },
+            {
+                "@id": "_:genid44"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "L'edificio o il plesso scolastico che ospita gli uffici amministrativi (segreteria) e la direzione (Dirigente Scolastico) di un'istituzione scolastica del primo ciclo di istruzione (solitamente un Istituto Comprensivo o, in passato, un Circolo Didattico). Amministrativamente, rappresenta il nodo centrale a cui afferiscono giuridicamente e organizzativamente i vari punti di erogazione del servizio (plessi o sedi distaccate) distribuiti sul territorio, in conformità con i principi dell'autonomia scolastica (D.P.R. 8 marzo 1999, n. 275)."
+            },
+            {
+                "@language": "en",
+                "@value": "The building or school complex that houses the administrative offices (secretariat) and the principal's office of a first-cycle educational institution (usually a Comprehensive Institute or a \"Circolo Didattico\"). Administratively, it represents the central hub to which the various service delivery points (branches or detached premises) distributed across the territory are legally and organizationally connected, in accordance with the principles of school autonomy (D.P.R. No. 275 of March 8, 1999)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Central Headquarters of the First Cycle School"
+            },
+            {
+                "@language": "en",
+                "@value": "Sede Centrale Della Scuola Del Primo Grado"
+            },
+            {
+                "@language": "it",
+                "@value": "Sede Centrale Della Scuola Del Primo Grado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid44",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/ScuolaSecondariaDiPrimoGrado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/onto/School/SedeCentraleDellaScuolaDelSecondoGrado",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstitutoDiRiferimento"
+            },
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            },
+            {
+                "@id": "_:genid45"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "it",
+                "@value": "Plesso o edificio principale che ospita la dirigenza scolastica (Dirigente Scolastico) e i servizi amministrativi generali (DSGA e uffici di segreteria) di un'istituzione scolastica secondaria di secondo grado (Liceo, Istituto Tecnico o Istituto Professionale). Rappresenta il centro giuridico, fiscale e organizzativo autonomo a cui fanno capo eventuali succursali, sedi distaccate o sezioni associate, nel pieno rispetto delle prerogative dell'autonomia delle istituzioni scolastiche (D.P.R. 8 marzo 1999, n. 275)."
+            },
+            {
+                "@language": "en",
+                "@value": "The main building or complex housing the school administration (Principal) and general administrative services (secretariat) of an upper secondary educational institution (Lyceum, Technical, or Vocational Institute). It represents the autonomous legal, fiscal, and organizational center that oversees any branches, detached premises, or associated sections, in full compliance with the autonomy of educational institutions (D.P.R. No. 275 of March 8, 1999)."
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            {
+                "@id": "https://w3id.org/italia/onto/School"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Central Headquarters of the Upper Secondary School"
+            },
+            {
+                "@language": "en",
+                "@value": "Sede Centrale Della Scuola Del Secondo Grado"
+            },
+            {
+                "@language": "it",
+                "@value": "Sede Centrale Della Scuola Del Secondo Grado"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@language": "it",
+                "@value": "provvisoria"
+            },
+            {
+                "@language": "en",
+                "@value": "unstable"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid45",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "_:genid46"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid46",
+        "http://www.w3.org/2002/07/owl#unionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoProfessionale"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoTecnico"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/Liceo"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
+        "@id": "_:genid50",
+        "http://www.w3.org/2002/07/owl#allValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/CLV/Address"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/CLV/hasAddress"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Organization",
+            "http://www.w3.org/2006/vcard/ns#Kind",
+            "http://www.w3.org/2006/vcard/ns#Organization"
+        ],
+        "http://www.w3.org/2006/vcard/ns#fn": [
+            {
+                "@value": "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog"
+            }
+        ],
+        "http://www.w3.org/2006/vcard/ns#hasEmail": [
+            {
+                "@id": "mailto:ndc-segr-tec@istat.it"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/public-organization/ISTAT",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "ISTAT"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "it",
+                "@value": "Istituto Nazionale di Statistica - ISTAT"
+            },
+            {
+                "@language": "en",
+                "@value": "Italian National Institute of Statistics - ISTAT"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid51",
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoOmnicomprensivo"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "_:genid54"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid54",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    {
+        "@id": "_:genid55",
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            {
+                "@list": [
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstitutoOmnicomprensivo"
+                    },
+                    {
+                        "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
+                    }
+                ]
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "_:genid58"
+            }
+        ]
+    },
+    {
+        "@id": "_:genid58",
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            {
+                "@id": "https://w3id.org/italia/onto/School/haPuntoDiErogazioneDelServizio"
+            }
+        ],
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    }
+]
