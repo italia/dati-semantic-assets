@@ -793,14 +793,13 @@
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/italia/onto/l0/description"/>
         <rdfs:domain rdf:resource="https://w3id.org/italia/onto/CPV/EducationLevel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:comment xml:lang="en">Property used to represent the education level as defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
-        <rdfs:comment xml:lang="it">Proprietà utilizzata per rappresentare il grado di istruzione come definito nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
+        <rdfs:comment xml:lang="en">Property used to represent the education level.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Proprietà utilizzata per rappresentare il grado di istruzione.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CPV"/>
         <rdfs:label xml:lang="it">descrizione grado di istruzione</rdfs:label>
         <rdfs:label xml:lang="en">education level description</rdfs:label>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <l0:controlledVocabulary rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"/>
     </owl:DatatypeProperty>
     
 
@@ -812,14 +811,13 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/italia/onto/CPV/EducationLevel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:comment xml:lang="en">Unique code used to identify the education level in the controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
-        <rdfs:comment xml:lang="it">codice univoco che identifica il grado di istruzione nel vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
+        <rdfs:comment xml:lang="en">Unique code used to identify the education level.</rdfs:comment>
+        <rdfs:comment xml:lang="it">codice univoco che identifica il grado di istruzione.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CPV"/>
         <rdfs:label xml:lang="it">codice grado di istruzione</rdfs:label>
         <rdfs:label xml:lang="en">education level identifier</rdfs:label>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <l0:controlledVocabulary rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"/>
     </owl:DatatypeProperty>
     
 
@@ -1110,14 +1108,13 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="it">Questa classe rappresenta il grado di istruzione della persona. Le istanze di questa classe sono definite nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
-        <rdfs:comment xml:lang="en">This class represents the level of education of a person. The individuals of this class are defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questa classe rappresenta il grado di istruzione della persona.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class represents the level of education of a person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/onto/CPV"/>
         <rdfs:label xml:lang="en">Education Level</rdfs:label>
         <rdfs:label xml:lang="it">Grado di Istruzione</rdfs:label>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <l0:controlledVocabulary rdf:resource="https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"/>
     </owl:Class>
     
 

@@ -496,14 +496,13 @@ CLV:hasAddress rdf:type owl:ObjectProperty .
                     rdfs:subPropertyOf l0:description ;
                     rdfs:domain :EducationLevel ;
                     rdfs:range rdfs:Literal ;
-                    rdfs:comment "Property used to represent the education level as defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ,
-                                 "Proprietà utilizzata per rappresentare il grado di istruzione come definito nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ;
+                    rdfs:comment "Property used to represent the education level."@en ,
+                                 "Proprietà utilizzata per rappresentare il grado di istruzione."@it ;
                     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                     rdfs:label "descrizione grado di istruzione"@it ,
                                "education level description"@en ;
                     owl:versionInfo "stabile"@it ,
-                                    "stable"@en ;
-                    l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
+                                    "stable"@en .
 
 
 ###  https://w3id.org/italia/onto/CPV/educationLevelID
@@ -512,14 +511,13 @@ CLV:hasAddress rdf:type owl:ObjectProperty .
                   rdf:type owl:FunctionalProperty ;
                   rdfs:domain :EducationLevel ;
                   rdfs:range rdfs:Literal ;
-                  rdfs:comment "Unique code used to identify the education level in the controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ,
-                               "codice univoco che identifica il grado di istruzione nel vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ;
+                  rdfs:comment "Unique code used to identify the education level."@en ,
+                               "codice univoco che identifica il grado di istruzione."@it ;
                   rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                   rdfs:label "codice grado di istruzione"@it ,
                              "education level identifier"@en ;
                   owl:versionInfo "stabile"@it ,
-                                  "stable"@en ;
-                  l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
+                                  "stable"@en .
 
 
 ###  https://w3id.org/italia/onto/CPV/familyName
@@ -734,14 +732,14 @@ CLV:Feature rdf:type owl:Class .
                                   owl:onProperty :educationLevelID ;
                                   owl:cardinality "1"^^xsd:nonNegativeInteger
                                 ] ;
-                rdfs:comment "Questa classe rappresenta il grado di istruzione della persona. Le istanze di questa classe sono definite nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ,
-                             "This class represents the level of education of a person. The individuals of this class are defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ;
+                rdfs:comment "Questa classe rappresenta il grado di istruzione della persona."@it ,
+                             "This class represents the level of education of a person."@en ;
                 rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                 rdfs:label "Education Level"@en ,
                            "Grado di Istruzione"@it ;
                 owl:versionInfo "stabile"@it ,
-                                "stable"@en ;
-                l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
+                                "stable"@en .
+
 
 
 ###  https://w3id.org/italia/onto/CPV/Family

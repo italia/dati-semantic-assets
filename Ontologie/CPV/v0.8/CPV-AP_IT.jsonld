@@ -662,10 +662,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "it",
-    "@value" : "Questa classe rappresenta il grado di istruzione della persona. Le istanze di questa classe sono definite nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "Questa classe rappresenta il grado di istruzione della persona."
   }, {
     "@language" : "en",
-    "@value" : "This class represents the level of education of a person. The individuals of this class are defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "This class represents the level of education of a person."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/italia/onto/CPV"
@@ -690,9 +690,6 @@
   }, {
     "@language" : "en",
     "@value" : "stable"
-  } ],
-  "https://w3id.org/italia/onto/l0/controlledVocabulary" : [ {
-    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/onto/CPV/Family",
@@ -1285,10 +1282,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Property used to represent the education level as defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "Property used to represent the education level."
   }, {
     "@language" : "it",
-    "@value" : "Proprietà utilizzata per rappresentare il grado di istruzione come definito nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "Proprietà utilizzata per rappresentare il grado di istruzione."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/italia/onto/CPV/EducationLevel"
@@ -1315,19 +1312,16 @@
   }, {
     "@language" : "en",
     "@value" : "stable"
-  } ],
-  "https://w3id.org/italia/onto/l0/controlledVocabulary" : [ {
-    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/onto/CPV/educationLevelID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Unique code used to identify the education level in the controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "Unique code used to identify the education level."
   }, {
     "@language" : "it",
-    "@value" : "codice univoco che identifica il grado di istruzione nel vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
+    "@value" : "codice univoco che identifica il grado di istruzione."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/italia/onto/CPV/EducationLevel"
@@ -1354,9 +1348,6 @@
   }, {
     "@language" : "en",
     "@value" : "stable"
-  } ],
-  "https://w3id.org/italia/onto/l0/controlledVocabulary" : [ {
-    "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/onto/CPV/familyName",
