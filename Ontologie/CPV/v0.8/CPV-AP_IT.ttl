@@ -12,64 +12,64 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
-@base <https://w3id.org/italia/onto/l0> .
+@base <https://w3id.org/italia/onto/CPV> .
 
-<https://w3id.org/italia/onto/l0> rdf:type owl:Ontology ;
-                                   owl:versionIRI : ;
-                                   owl:imports <https://w3id.org/italia/onto/TI> ,
-                                               <https://w3id.org/italia/onto/CLV> ,
-                                               <https://w3id.org/italia/onto/l0> ;
-                                   admsapit:hasKeyClass :Person ;
-                                   admsapit:hasTask admsapit:AnnotationTask ,
-                                                    admsapit:QueryFormulationTask ;
-                                   admsapit:hasKeyClass :ResidenceInTime ;
-                                   dcat:keyword "famiglia"@it ;
-                                   rdfs:comment "This is the ontology of the Italian application profile on persons. The ontology models general information on natural persons such as first name, surname, date of birth, place of birth, tax code, residence, citizenship and relations between persons both generic of knowledge and generic of kinship relations but not as registered with the civil registry."@en ;
-                                   admsapit:prev : ;
-                                   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
-                                   admsapit:hasKeyClass :EducationLevel ;
-                                   admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> ;
-                                   admsapit:target "Pubbliche Amministrazioni" ;
-                                   admsapit:hasKeyClass :Sex ;
-                                   admsapit:hasOntologyLanguage admsapit:OWL ;
-                                   dct:modified "2023-03-15"^^xsd:date ;
-                                   admsapit:hasContributor <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> ;
-                                   dcat:keyword "persona"@it ;
-                                   rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
-                                   dct:issued "2017-07-19"^^xsd:date ;
-                                   admsapit:status "catalogued" ;
-                                   prov:wasDerivedFrom : ;
-                                   dct:title "CPV-AP_IT - Core Person Vocabulary Italian Application Profile - Person Ontology"@en ;
-                                   owl:versionInfo "Version 0.8 - updated on 15th of March 2023 - Deleted Registered Family and everything related to civil registration information of persons (e.g., parental relationship as store in the national civil registry, family sheet holder). Deleted BornDead class and introduced the Gender concept to be distinguished from the Sex Concept. Simplified the residence modelling leaving in the ontology only two main elaments: a general residentIn property for a Person and the ResidenceInTime reification to model this type of general information on the residence of a person that may change over time. Changed the domain of the property hasLevelOfEducation to be used for every type of person and changed the metadata of the ontology."@en ;
-                                   dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
-                                   admsapit:hasFormalityLevel admsapit:Formal ;
-                                   rdfs:label "CPV-AP_IT: Core Person Vocabulary - profilo applicativo italiano - Ontologia delle persone"@it ;
-                                   dct:rightsHolder <https://w3id.org/italia/data/public-organization/ISTAT> ;
-                                   admsapit:officialURI "https://w3id.org/italia/onto/CPV"^^xsd:anyURI ;
-                                   rdfs:comment "Questa è l'ontologia del profilo applicativo italiano sulle persone. L'ontologia modella informazioni generali sulle persone fisiche come per esempio il nome, cognome, data di nascita, luogo di nascita, codice fiscale, residenza, cittadinanza e relazioni tra persone sia generiche di conoscenza sia di generiche relazioni di parentela ma non come registrate presso l'anagrafe."@it ;
-                                   admsapit:prefix "cpvapit" ;
-                                   rdfs:label "CPV-AP_IT - Core Person Vocabulary Italian Application Profile - Person Ontology"@en ;
-                                   dct:description "Questa è l'ontologia del profilo applicativo italiano sulle persone. L'ontologia modella informazioni generali sulle persone fisiche come per esempio il nome, cognome, data di nascita, luogo di nascita, codice fiscale, residenza, cittadinanza e relazioni tra persone sia generiche di conoscenza sia di generiche relazioni di parentela ma non come registrate presso l'anagrafe."@it ;
-                                   admsapit:last : ;
-                                   admsapit:target "Imprese" ;
-                                   admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-XML> ;
-                                   admsapit:type admsapit:CoreOntology ;
-                                   admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/OntoPiA> ;
-                                   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-                                   admsapit:acronym "CPV-AP_IT" ;
-                                   admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-JSON-LD> ;
-                                   dcat:keyword "persone"@it ;
-                                   dct:creator <https://w3id.org/italia/data/public-organization/agid> ;
-                                   dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
-                                   dct:identifier "https://w3id.org/italia/onto/CPV" ;
-                                   dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ;
-                                   owl:versionInfo "Versione 0.8 - aggiornata il 15 marzo 2023 - Eliminata la famiglia anagrafica e tutto ciò che riguarda le informazioni anagrafiche delle persone (ad esempio, la relazione parentale memorizzata nell'anagrafe nazionale della popolazione residente, l'intestatario del foglio di famiglia). Eliminata la classe BornDead e introdotto il concetto di Gender da distinguere dal concetto di Sex. Semplificata la modellazione della residenza, lasciando nell'ontologia solo due elementi principali: la proprietà generale residentIn per una Persona e la reificazione ResidenceInTime per modellare questo tipo di informazioni generali sulla residenza di una persona che possono cambiare nel tempo. Modificato il dominio della proprietà hasLevelOfEducation per essere utilizzata per ogni tipo di persona e modificati i metadati dell'ontologia."@it ;
-                                   dct:title "CPV-AP_IT: Core Person Vocabulary - profilo applicativo italiano - Ontologia delle persone"@it ;
-                                   dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-                                   admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ;
-                                   admsapit:status "published" ;
-                                   dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
-                                   dct:description "This is the ontology of the Italian application profile on persons. The ontology models general information on natural persons such as first name, surname, date of birth, place of birth, tax code, residence, citizenship and relations between persons both generic of knowledge and generic of kinship relations but not as registered with the civil registry."@en .
+<https://w3id.org/italia/onto/CPV> rdf:type owl:Ontology ;
+                                    owl:versionIRI <https://w3id.org/italia/onto/CPV/0.8> ;
+                                    owl:imports <https://w3id.org/italia/onto/CLV> ,
+                                                <https://w3id.org/italia/onto/TI> ,
+                                                <https://w3id.org/italia/onto/l0> ;
+                                    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+                                    dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ,
+                                                <https://w3id.org/italia/data/public-organization/agid> ;
+                                    dct:description "Questa è l'ontologia del profilo applicativo italiano sulle persone. L'ontologia modella informazioni generali sulle persone fisiche come per esempio il nome, cognome, data di nascita, luogo di nascita, codice fiscale, residenza, cittadinanza e relazioni tra persone sia generiche di conoscenza sia di generiche relazioni di parentela ma non come registrate presso l'anagrafe."@it ,
+                                                    "This is the ontology of the Italian application profile on persons. The ontology models general information on natural persons such as first name, surname, date of birth, place of birth, tax code, residence, citizenship and relations between persons both generic of knowledge and generic of kinship relations but not as registered with the civil registry."@en ;
+                                    dct:identifier "https://w3id.org/italia/onto/CPV" ;
+                                    dct:issued "2017-07-19"^^xsd:date ;
+                                    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ,
+                                                 <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                    dct:modified "2023-03-15"^^xsd:date ;
+                                    dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
+                                    dct:rightsHolder <https://w3id.org/italia/data/public-organization/ISTAT> ;
+                                    dct:title "CPV-AP_IT - Core Person Vocabulary Italian Application Profile - Person Ontology"@en ,
+                                              "CPV-AP_IT: Core Person Vocabulary - profilo applicativo italiano - Ontologia delle persone"@it ;
+                                    rdfs:comment "Questa è l'ontologia del profilo applicativo italiano sulle persone. L'ontologia modella informazioni generali sulle persone fisiche come per esempio il nome, cognome, data di nascita, luogo di nascita, codice fiscale, residenza, cittadinanza e relazioni tra persone sia generiche di conoscenza sia di generiche relazioni di parentela ma non come registrate presso l'anagrafe."@it ,
+                                                 "This is the ontology of the Italian application profile on persons. The ontology models general information on natural persons such as first name, surname, date of birth, place of birth, tax code, residence, citizenship and relations between persons both generic of knowledge and generic of kinship relations but not as registered with the civil registry."@en ;
+                                    rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
+                                    rdfs:label "CPV-AP_IT - Core Person Vocabulary Italian Application Profile - Person Ontology"@en ,
+                                               "CPV-AP_IT: Core Person Vocabulary - profilo applicativo italiano - Ontologia delle persone"@it ;
+                                    owl:versionInfo "Version 0.8 - updated on 15th of March 2023 - Deleted Registered Family and everything related to civil registration information of persons (e.g., parental relationship as store in the national civil registry, family sheet holder). Deleted BornDead class and introduced the Gender concept to be distinguished from the Sex Concept. Simplified the residence modelling leaving in the ontology only two main elaments: a general residentIn property for a Person and the ResidenceInTime reification to model this type of general information on the residence of a person that may change over time. Changed the domain of the property hasLevelOfEducation to be used for every type of person and changed the metadata of the ontology."@en ,
+                                                    "Versione 0.8 - aggiornata il 15 marzo 2023 - Eliminata la famiglia anagrafica e tutto ciò che riguarda le informazioni anagrafiche delle persone (ad esempio, la relazione parentale memorizzata nell'anagrafe nazionale della popolazione residente, l'intestatario del foglio di famiglia). Eliminata la classe BornDead e introdotto il concetto di Gender da distinguere dal concetto di Sex. Semplificata la modellazione della residenza, lasciando nell'ontologia solo due elementi principali: la proprietà generale residentIn per una Persona e la reificazione ResidenceInTime per modellare questo tipo di informazioni generali sulla residenza di una persona che possono cambiare nel tempo. Modificato il dominio della proprietà hasLevelOfEducation per essere utilizzata per ogni tipo di persona e modificati i metadati dell'ontologia."@it ;
+                                    dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
+                                    dcat:keyword "famiglia"@it ,
+                                                 "persona"@it ,
+                                                 "persone"@it ;
+                                    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+                                    prov:wasDerivedFrom <https://w3id.org/italia/onto/CPV/0.7> ;
+                                    admsapit:acronym "CPV-AP_IT" ;
+                                    admsapit:hasContributor <https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab> ;
+                                    admsapit:hasFormalityLevel admsapit:Formal ;
+                                    admsapit:hasKeyClass :EducationLevel ,
+                                                         :Person ,
+                                                         :ResidenceInTime ,
+                                                         :Sex ;
+                                    admsapit:hasOntologyLanguage admsapit:OWL ;
+                                    admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/CPVAPIT-JSON-LD> ,
+                                                                          <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE> ,
+                                                                          <https://w3id.org/italia/data/distribution/CPVAPIT-RDF-XML> ;
+                                    admsapit:hasTask admsapit:AnnotationTask ,
+                                                     admsapit:QueryFormulationTask ;
+                                    admsapit:last <https://w3id.org/italia/onto/CPV/0.8> ;
+                                    admsapit:officialURI "https://w3id.org/italia/onto/CPV"^^xsd:anyURI ;
+                                    admsapit:prefix "cpvapit" ;
+                                    admsapit:prev <https://w3id.org/italia/onto/CPV/0.7> ;
+                                    admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ,
+                                                                <https://w3id.org/italia/data/project/OntoPiA> ;
+                                    admsapit:status "catalogued" ,
+                                                    "published" ;
+                                    admsapit:target "Imprese" ,
+                                                    "Pubbliche Amministrazioni" ;
+                                    admsapit:type admsapit:CoreOntology .
 
 #################################################################
 #    Annotation properties
@@ -113,10 +113,6 @@ dcat:downloadURL rdf:type owl:AnnotationProperty .
 
 ###  http://xmlns.com/foaf/0.1/name
 foaf:name rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/italia/onto/ADMS/status
-admsapit:status rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/italia/onto/l0/controlledVocabulary
@@ -496,13 +492,14 @@ CLV:hasAddress rdf:type owl:ObjectProperty .
                     rdfs:subPropertyOf l0:description ;
                     rdfs:domain :EducationLevel ;
                     rdfs:range rdfs:Literal ;
-                    rdfs:comment "Property used to represent the education level."@en ,
-                                 "Proprietà utilizzata per rappresentare il grado di istruzione."@it ;
+                    rdfs:comment "Property used to represent the education level as defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ,
+                                 "Proprietà utilizzata per rappresentare il grado di istruzione come definito nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ;
                     rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                     rdfs:label "descrizione grado di istruzione"@it ,
                                "education level description"@en ;
                     owl:versionInfo "stabile"@it ,
-                                    "stable"@en .
+                                    "stable"@en ;
+                    l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
 
 
 ###  https://w3id.org/italia/onto/CPV/educationLevelID
@@ -511,13 +508,14 @@ CLV:hasAddress rdf:type owl:ObjectProperty .
                   rdf:type owl:FunctionalProperty ;
                   rdfs:domain :EducationLevel ;
                   rdfs:range rdfs:Literal ;
-                  rdfs:comment "Unique code used to identify the education level."@en ,
-                               "codice univoco che identifica il grado di istruzione."@it ;
+                  rdfs:comment "Unique code used to identify the education level in the controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ,
+                               "codice univoco che identifica il grado di istruzione nel vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ;
                   rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                   rdfs:label "codice grado di istruzione"@it ,
                              "education level identifier"@en ;
                   owl:versionInfo "stabile"@it ,
-                                  "stable"@en .
+                                  "stable"@en ;
+                  l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
 
 
 ###  https://w3id.org/italia/onto/CPV/familyName
@@ -677,10 +675,6 @@ admsapit:SemanticAssetDistribution rdf:type owl:Class .
 CLV:Address rdf:type owl:Class .
 
 
-###  https://w3id.org/italia/onto/CLV/Feature
-CLV:Feature rdf:type owl:Class .
-
-
 ###  https://w3id.org/italia/onto/CPV/Alive
 :Alive rdf:type owl:Class ;
        rdfs:subClassOf :Person ,
@@ -732,14 +726,14 @@ CLV:Feature rdf:type owl:Class .
                                   owl:onProperty :educationLevelID ;
                                   owl:cardinality "1"^^xsd:nonNegativeInteger
                                 ] ;
-                rdfs:comment "Questa classe rappresenta il grado di istruzione della persona."@it ,
-                             "This class represents the level of education of a person."@en ;
+                rdfs:comment "Questa classe rappresenta il grado di istruzione della persona. Le istanze di questa classe sono definite nel relativo vocabolario controllato EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@it ,
+                             "This class represents the level of education of a person. The individuals of this class are defined in the related controlled vocabulary EducationLevel https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level"@en ;
                 rdfs:isDefinedBy <https://w3id.org/italia/onto/CPV> ;
                 rdfs:label "Education Level"@en ,
                            "Grado di Istruzione"@it ;
                 owl:versionInfo "stabile"@it ,
-                                "stable"@en .
-
+                                "stable"@en ;
+                l0:controlledVocabulary <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/education-level> .
 
 
 ###  https://w3id.org/italia/onto/CPV/Family
@@ -843,19 +837,34 @@ CLV:Feature rdf:type owl:Class .
                           owl:allValuesFrom CLV:Feature
                         ] ,
                         [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasBirthPlace ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onClass l0:Location
+                        ] ,
+                        [ rdf:type owl:Restriction ;
                           owl:onProperty :hasSex ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onClass :Sex
                         ] ,
                         [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasBirthPlace ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onClass l0:Location
-                        ] ,
-                        [ rdf:type owl:Restriction ;
                           owl:onProperty :hasLevelOfEducation ;
                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onClass :EducationLevel
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :dateOfBirth ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:dateTime
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :familyName ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :givenName ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
                         ] ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :personID ;
@@ -868,24 +877,9 @@ CLV:Feature rdf:type owl:Class .
                           owl:onDataRange xsd:string
                         ] ,
                         [ rdf:type owl:Restriction ;
-                          owl:onProperty :dateOfBirth ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:dateTime
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :familyName ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
-                        ] ,
-                        [ rdf:type owl:Restriction ;
                           owl:onProperty :fullName ;
                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange rdf:PlainLiteral
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :givenName ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
                         ] ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :taxCode ;
@@ -973,25 +967,16 @@ CLV:Feature rdf:type owl:Class .
                            "stable"@en .
 
 
-###  https://w3id.org/italia/onto/TI/TimeIndexedEvent
-<https://w3id.org/italia/onto/TI/TimeIndexedEvent> rdf:type owl:Class .
-
-
-###  https://w3id.org/italia/onto/l0/Agent
-l0:Agent rdf:type owl:Class .
-
-
-###  https://w3id.org/italia/onto/l0/Characteristic
-l0:Characteristic rdf:type owl:Class .
-
-
-###  https://w3id.org/italia/onto/l0/Location
-l0:Location rdf:type owl:Class .
-
-
 #################################################################
 #    Individuals
 #################################################################
+
+### https://w3id.org/italia/data/public-organization/PCM-1RSIZZ
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> rdf:type <http://dati.gov.it/onto/dcatapit#Agent> ,
+   foaf:Agent ;
+   dct:identifier "PCM-1RSIZZ" ;
+   foaf:name "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it,
+   "Digital Transformation Department of the Presidency of the Council of Ministers"@en .
 
 ###  https://w3id.org/italia/data/contact-point/ISTAT-NDC
 <https://w3id.org/italia/data/contact-point/ISTAT-NDC> rdf:type owl:NamedIndividual ,
@@ -1011,8 +996,8 @@ l0:Location rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione JSON-LD ontologia CPV-AP_IT"@it ,
                                                                       "JSON-LD distribution of CPV-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld> .
+                                                            dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPVAPIT-RDF-TURTLE
@@ -1024,8 +1009,8 @@ l0:Location rdf:type owl:Class .
                                                                dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                                dct:title "Distribuzione RDF/Turtle ontologia CPV-AP_IT"@it ,
                                                                          "RDF/Turtle distribution of CPV-AP_IT Ontology"@en ;
-                                                               dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
-                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.ttl> .
+                                                               dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest> ;
+                                                               dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/CPVAPIT-RDF-XML
@@ -1037,8 +1022,8 @@ l0:Location rdf:type owl:Class .
                                                             dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                             dct:title "Distribuzione RDF/XML ontologia CPV-AP_IT"@it ,
                                                                       "RDF/XML distribution of CPV-AP_IT Ontology"@en ;
-                                                            dcat:accessURL <https://github.com/italia/dati-semantic-assets/tree/master/Ontologie/CPV/latest> ;
-                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/dati-semantic-assets/master/Ontologie/CPV/latest/CPV-AP_IT.rdf> .
+                                                            dcat:accessURL <https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/Ontologie/CPV/latest> ;
+                                                            dcat:downloadURL <https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/CPV/latest/CPV-AP_IT.rdf> .
 
 
 ###  https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab
@@ -1071,18 +1056,9 @@ l0:Location rdf:type owl:Class .
                                                                    "Italian National Institute of Statistics - ISTAT"@en .
 
 
-###  https://w3id.org/italia/data/public-organization/PCM-1RSIZZ
-<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> rdf:type owl:NamedIndividual ,
-                                                                       <http://dati.gov.it/onto/dcatapit#Agent> ,
-                                                                       foaf:Agent ;
-                                                              dct:identifier "PCM-1RSIZZ" ;
-                                                              foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en ,
-                                                                        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
-
-
 ###  https://w3id.org/italia/onto/CPV
 <https://w3id.org/italia/onto/CPV> rdf:type owl:NamedIndividual ,
                                             admsapit:SemanticAsset .
 
 
-###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
