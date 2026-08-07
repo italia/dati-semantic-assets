@@ -24,6 +24,25 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |-
+          mkdir public/
+          cp -rap Ontologie VocabolariControllati public/
+
+          cd public/Ontologie
+
+          for i in */; do
+            last_version_dir=$(basename $(ls -dv  $i/*/ | tail -1))
+
+            rm -fr $i/latest
+
+            ln -s $last_version_dir $i/latest
+          done
+
   test-broken-links:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest

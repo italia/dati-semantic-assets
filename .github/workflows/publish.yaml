@@ -1,0 +1,31 @@
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |-
+          mkdir public/
+          cp -rap Ontologie VocabolariControllati public/
+
+      # Create latest/ symlink to the last version for Ontologies
+      - run: |-
+          cd public/Ontologie
+
+          for i in */; do
+            last_version_dir=$(basename $(ls -dv  $i/*/ | tail -1))
+
+            rm -fr $i/latest
+
+            ln -s $last_version_dir $i/latest
+          done
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
