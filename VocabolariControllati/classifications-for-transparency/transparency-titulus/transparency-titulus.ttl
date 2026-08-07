@@ -27,7 +27,7 @@
 
 
 # OWL
-owl:versionInfo a rdfs:Property .
+owl:versionInfo a rdf:Property .
 
 # DCAT-AP_IT
 dcatapit:Dataset a rdfs:Class .
@@ -37,67 +37,67 @@ dcatapit:Organization a rdfs:Class .
 dcatapit:Agent a rdfs:Class .
 
 # DCAT
-dcat:keyword a rdfs:Property .
-dcat:contactPoint a rdfs:Property .
-dcat:accessURL a rdfs:Property .
-dcat:downloadURL a rdfs:Property .
-dcat:theme a rdfs:Property .
-dcat:distribution a rdfs:Property .
+dcat:keyword a rdf:Property .
+dcat:contactPoint a rdf:Property .
+dcat:accessURL a rdf:Property .
+dcat:downloadURL a rdf:Property .
+dcat:theme a rdf:Property .
+dcat:distribution a rdf:Property .
 
 # ADMS
-adms:representationTechnique a rdfs:Property .
+adms:representationTechnique a rdf:Property .
 
 # vcard
 vcard:Organization a rdfs:Class .
 vcard:Kind a rdfs:Class .
-vcard:fn a rdfs:Property .
-vcard:hasEmail a rdfs:Property .
+vcard:fn a rdf:Property .
+vcard:hasEmail a rdf:Property .
 
 # SKOS
 skos:ConceptScheme a rdfs:Class .
 skos:Concept a rdfs:Class .
-skos:prefLabel a rdfs:Property .
-skos:notation a rdfs:Property .
-skos:inScheme a rdfs:Property .
-skos:narrower a rdfs:Property .
-skos:broader a rdfs:Property .
-skos:broaderTransitive a rdfs:Property .
-skos:narrowerTransitive a rdfs:Property .
-skos:definition a rdfs:Property .
-skos:exactMatch a rdfs:Property .
+skos:prefLabel a rdf:Property .
+skos:notation a rdf:Property .
+skos:inScheme a rdf:Property .
+skos:narrower a rdf:Property .
+skos:broader a rdf:Property .
+skos:broaderTransitive a rdf:Property .
+skos:narrowerTransitive a rdf:Property .
+skos:definition a rdf:Property .
+skos:exactMatch a rdf:Property .
 
 
 # XKOS
-xkos:numberOfLevels a rdfs:Property .
+xkos:numberOfLevels a rdf:Property .
 
 # FOAF
 foaf:Agent a rdfs:Class .
-foaf:name a rdfs:Property .
+foaf:name a rdf:Property .
 
 # dublin core terms
 dct:Standard a rdfs:Class .
-dct:title a rdfs:Property .
-dct:type a rdfs:Property .
-dct:description a rdfs:Property .
-dct:creator a rdfs:Property .
-dct:publisher a rdfs:Property .
-dct:rightsHolder a rdfs:Property .
-dct:conformsTo a rdfs:Property .
-dct:subject a rdfs:Property .
-dct:accrualPeriodicity a rdfs:Property .
-dct:language a rdfs:Property .
-dct:format a rdfs:Property .
-dct:issued a rdfs:Property .
-dct:modified a rdfs:Property .
-dct:license a rdfs:Property .
-dct:identifier a rdfs:Property .
+dct:title a rdf:Property .
+dct:type a rdf:Property .
+dct:description a rdf:Property .
+dct:creator a rdf:Property .
+dct:publisher a rdf:Property .
+dct:rightsHolder a rdf:Property .
+dct:conformsTo a rdf:Property .
+dct:subject a rdf:Property .
+dct:accrualPeriodicity a rdf:Property .
+dct:language a rdf:Property .
+dct:format a rdf:Property .
+dct:issued a rdf:Property .
+dct:modified a rdf:Property .
+dct:license a rdf:Property .
+dct:identifier a rdf:Property .
 
 
 # OntoPiA
 covapit:LegalStatus a rdfs:Class .
-clvapit:hasRankOrder a rdfs:Property .
+clvapit:hasRankOrder a rdf:Property .
 
-ndc:keyConcept a rdfs:Property .
+ndc:keyConcept a rdf:Property .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-transparency/transparency-titulus> a skos:ConceptScheme, adms:Asset, dcatapit:Dataset ;

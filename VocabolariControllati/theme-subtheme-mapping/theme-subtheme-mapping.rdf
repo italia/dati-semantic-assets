@@ -149,7 +149,7 @@
     <ndc:keyConcept>theme-subtheme-mapping</ndc:keyConcept>
     <owl:versionInfo xml:lang="it">versione 0.1</owl:versionInfo>
   </align:Alignment>
-  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdf:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/AGRI">
     <skos:prefLabel xml:lang="it">Agricoltura, pesca, silvicoltura e prodotti alimentari</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Agriculture, fisheries, forestry and food</skos:prefLabel>
@@ -326,8 +326,8 @@
       </skos:ConceptScheme>
     </skos:narrowMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/type"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel xml:lang="it">Economia e finanze</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Economy and finance</skos:prefLabel>
@@ -616,7 +616,7 @@
       </skos:ConceptScheme>
     </skos:narrowMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdf:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
     <skos:prefLabel xml:lang="it">Popolazione e società</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Population and society</skos:prefLabel>
@@ -698,8 +698,8 @@
       </skos:ConceptScheme>
     </skos:narrowMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/description"/>
   <skos:ConceptScheme rdf:about="http://eurovoc.europa.eu/100179">
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1211</dct:identifier>
     <skos:prefLabel xml:lang="it">1211 diritto civile</skos:prefLabel>
@@ -751,7 +751,7 @@
       </skos:ConceptScheme>
     </skos:narrowMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
     <skos:prefLabel xml:lang="it">Istruzione, cultura e sport</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Education, culture and spor</skos:prefLabel>
@@ -818,8 +818,8 @@
     <skos:prefLabel xml:lang="it">2451 prezzi</skos:prefLabel>
     <skos:prefLabel xml:lang="en">2451 prices</skos:prefLabel>
   </skos:ConceptScheme>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
     <skos:prefLabel xml:lang="it">Trasporti</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Transport</skos:prefLabel>
@@ -958,9 +958,9 @@
       </skos:ConceptScheme>
     </skos:narrowMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/language"/>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
     <skos:prefLabel xml:lang="it">Salute</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Health</skos:prefLabel>
@@ -972,32 +972,32 @@
       </skos:ConceptScheme>
     </skos:exactMatch>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/format"/>
   <skos:ConceptScheme rdf:about="http://eurovoc.europa.eu/100216">
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2846</dct:identifier>
     <skos:prefLabel xml:lang="it">2846 urbanistica ed edilizia</skos:prefLabel>
     <skos:prefLabel xml:lang="en">2846 construction and town planning</skos:prefLabel>
   </skos:ConceptScheme>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
-  <rdfs:Property rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
-  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
-  <rdfs:Property rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdf:Property rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto2"/>
+  <rdf:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdf:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdf:Property rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#onto1"/>
   <skos:ConceptScheme rdf:about="http://eurovoc.europa.eu/100262">
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6416</dct:identifier>
     <skos:prefLabel xml:lang="it">6416 ricerca e proprietà intellettuale</skos:prefLabel>

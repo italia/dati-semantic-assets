@@ -53,115 +53,115 @@ dct:Standard
       a       rdfs:Class .
 
 skos:prefLabel
-      a       rdfs:Property .
+      a       rdf:Property .
 
 skos:notation
-      a       rdfs:Property .
+      a       rdf:Property .
 
 skos:inScheme
-      a       rdfs:Property .
+      a       rdf:Property .
 
 skos:narrower
-	  a 	  rdfs:Property .
+	  a 	  rdf:Property .
 
 skos:broader
-	  a		  rdfs:Property .
+	  a		  rdf:Property .
 
 skos:broaderTransitive
-      a 	  rdfs:Property .
+      a 	  rdf:Property .
 
 skos:narrowerTransitive
-      a       rdfs:Property .
+      a       rdf:Property .
 
 skos:definition
-	  a		  rdfs:Property .
+	  a		  rdf:Property .
 
 dct:identifier
-	  a       rdfs:Property .
+	  a       rdf:Property .
 
 dct:title
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:type
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:description
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:creator
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:publisher
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:rightsHolder
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:conformsTo
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:subject
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:accrualPeriodicity
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:language
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:format
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:issued
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:modified
-    a       rdfs:Property .
+    a       rdf:Property .
 
 dct:license
-    a       rdfs:Property .
+    a       rdf:Property .
 
 xkos:numberOfLevels
-    a     rdfs:Property .
+    a     rdf:Property .
 
 clvapit:hasRankOrder
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:theme
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:distribution
-    a     rdfs:Property .
+    a     rdf:Property .
 
 foaf:name
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:keyword
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:contactPoint
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:accessURL
-    a     rdfs:Property .
+    a     rdf:Property .
 
 dcat:downloadURL
-    a     rdfs:Property .
+    a     rdf:Property .
 
 owl:versionInfo
     a     owl:AnnotationProperty .
 
 adms:representationTechnique
-    a     rdfs:Property .
+    a     rdf:Property .
 
 vcard:fn
-    a     rdfs:Property .
+    a     rdf:Property .
 
 vcard:hasEmail
-    a     rdfs:Property .
+    a     rdf:Property .
 
 ndc:keyConcept
-    a     rdfs:Property .
+    a     rdf:Property .
 
 owl:deprecated
     a owl:AnnotationProperty .

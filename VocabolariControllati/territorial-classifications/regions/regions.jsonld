@@ -43,7 +43,7 @@
     },
     {
       "@id": "dcatapit:referenceDoc",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:LicenseDocument",
@@ -55,74 +55,74 @@
     },
     {
       "@id": "dcterms:accrualPeriodicity",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:conformsTo",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:creator",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:description",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:format",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:identifier",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:issued",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:language",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:license",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:modified",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:publisher",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:rightsHolder",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:subject",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:title",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcterms:type",
       "@type": [
-        "rdfs:Property",
-        "rdfs:Property"
+        "rdf:Property",
+        "rdf:Property"
       ]
     },
     {
       "@id": "xkos:numberOfLevels",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "owl:versionInfo",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:Concept",
@@ -134,35 +134,35 @@
     },
     {
       "@id": "skos:broader",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:broaderTransitive",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:definition",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:inScheme",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:narrower",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:narrowerTransitive",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:notation",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "skos:prefLabel",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "vcard:Kind",
@@ -174,39 +174,39 @@
     },
     {
       "@id": "vcard:fn",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "vcard:hasEmail",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "adms:representationTechnique",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:accessURL",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:contactPoint",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:distribution",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:downloadURL",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:keyword",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "dcat:theme",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "foaf:Agent",
@@ -214,7 +214,7 @@
     },
     {
       "@id": "foaf:name",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "https://w3id.org/italia/controlled-vocabulary/identifiers/cr-00",
@@ -1412,11 +1412,11 @@
     },
     {
       "@id": "clvapit:hasRankOrder",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     },
     {
       "@id": "ndc:keyConcept",
-      "@type": "rdfs:Property"
+      "@type": "rdf:Property"
     }
   ]
 }

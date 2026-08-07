@@ -155,7 +155,7 @@ vcard:hasEmail a owl:ObjectProperty .
 
 clvapit:hasRankOrder  a owl:AnnotationProperty .
 
-ndc:keyConcept a rdfs:Property .
+ndc:keyConcept a rdf:Property .
 
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ateco-collection>

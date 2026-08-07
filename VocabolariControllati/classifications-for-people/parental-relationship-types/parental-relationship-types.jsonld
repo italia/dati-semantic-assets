@@ -19,52 +19,52 @@
     "@type" : "rdfs:Class"
   }, {
     "@id" : "dct:accrualPeriodicity",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:conformsTo",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:creator",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:description",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:format",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:identifier",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:issued",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:language",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:license",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:modified",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:publisher",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:rightsHolder",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:subject",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:title",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dct:type",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "xkos:numberOfLevels",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "owl:deprecated",
     "@type" : "owl:AnnotationProperty"
@@ -79,28 +79,28 @@
     "@type" : "rdfs:Class"
   }, {
     "@id" : "skos:broader",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:broaderTransitive",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:definition",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:inScheme",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:narrower",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:narrowerTransitive",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:notation",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "skos:prefLabel",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "vcard:Kind",
     "@type" : "rdfs:Class"
@@ -109,37 +109,37 @@
     "@type" : "rdfs:Class"
   }, {
     "@id" : "vcard:fn",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "vcard:hasEmail",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "adms:representationTechnique",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:accessURL",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:contactPoint",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:distribution",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:downloadURL",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:keyword",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "dcat:theme",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "foaf:Agent",
     "@type" : "rdfs:Class"
   }, {
     "@id" : "foaf:name",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "https://w3id.org/italia/controlled-vocabulary/classifications-for-people/parental-relationship-types",
     "@type" : [ "dcatapit:Dataset", "skos:ConceptScheme", "adms:Asset" ],
@@ -698,13 +698,13 @@
     "title" : "Simple Knowledge Organization System - SKOS"
   }, {
     "@id" : "clvapit:hasRankOrder",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   }, {
     "@id" : "cpco:ParentalRelationshipType",
     "@type" : "rdfs:Class"
   }, {
     "@id" : "ndc:keyConcept",
-    "@type" : "rdfs:Property"
+    "@type" : "rdf:Property"
   } ],
   "@id" : "urn:x-arq:DefaultGraphNode",
   "@context" : {

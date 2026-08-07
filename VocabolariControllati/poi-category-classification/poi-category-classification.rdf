@@ -75,7 +75,7 @@
     <poiapit:POIcategoryName xml:lang="en">Automotive</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientra in questa categoria tutti i punti di interesse connessi al settore automobilistico quali per esempio, saloni automobilistici, benzinai, parcheggi, centri per il lavaggio auto, stazioni per ricariche elettriche auto, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
+  <rdf:Property rdf:about="https://w3id.org/italia/onto/NDC/keyConcept"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_6_travel">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -90,8 +90,8 @@
     <poiapit:POIcategoryName xml:lang="en">Travel/Tourism</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al settore dei viaggi e del turismo quali per esempio agenzie viaggi, strutture ricettive, centri di cambio valuta, info point per turisti, luoghi della cultura, luoghi freschi, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/type"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/type"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_3_food">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -106,7 +106,7 @@
     <poiapit:POIcategoryName xml:lang="en">Food</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi al cibo quali per esempio ristoranti, fast food, bar, caffetterie, pizzerie, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/format"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/format"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_2_recreation">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -121,8 +121,8 @@
     <poiapit:POIcategoryName xml:lang="en">Leisure</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo svago quali centri sportivi, giardini, parchi, centri benessere, ecc,</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
-  <rdfs:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryName"/>
+  <rdf:Property rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+  <rdf:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryName"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_8_publicservice">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -137,7 +137,7 @@
     <poiapit:POIcategoryName xml:lang="en">Other public services</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti quei punti di interesse che sono connessi a generici servizi pubblici quali per esempio trasporti pubblici, bagni pubblici, bancomat, filiali di banche, sportelli postali, cestini della spazzatura, centri di raccolta rifiuti, ospedali, veterinari, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/publisher"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/publisher"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_7_geographical">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -166,8 +166,8 @@
     <poiapit:POIcategoryName xml:lang="en">Entertainment</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi all'intrattenimento come zoo, discoteche, pub, teatri, acquari, stadi, casino, parchi divertimenti, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/description"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/description"/>
   <skos:Concept rdf:about="https://w3id.org/italia/controlled-vocabulary/poi-category-classification/cat_4_shopping">
     <rdf:type rdf:resource="https://w3id.org/italia/onto/POI/PointOfInterestCategory"/>
     <skos:inScheme rdf:resource="https://w3id.org/italia/controlled-vocabulary/poi-category-classification"/>
@@ -182,36 +182,36 @@
     <poiapit:POIcategoryName xml:lang="en">Shopping</poiapit:POIcategoryName>
     <skos:definition xml:lang="it">Rientrano in questa categoria tutti i punti di interesse connessi allo shopping quali per esempio, grande distribuzione, piccola distribuzione, mercati,  farmacie, agenzie immobiliari, ecc.</skos:definition>
   </skos:Concept>
-  <rdfs:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
-  <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/issued"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
-  <rdfs:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
-  <rdfs:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryIdentifier"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/title"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/license"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/language"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
-  <rdfs:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/identifier"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/modified"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/creator"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
-  <rdfs:Property rdf:about="http://purl.org/dc/terms/subject"/>
-  <rdfs:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
-  <rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+  <rdf:Property rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/name"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/issued"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+  <rdf:Property rdf:about="https://w3id.org/italia/onto/CLV/hasRankOrder"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+  <rdf:Property rdf:about="https://w3id.org/italia/onto/POI/POIcategoryIdentifier"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/title"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/license"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/language"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+  <rdf:Property rdf:about="http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/conformsTo"/>
+  <rdf:Property rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/identifier"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/modified"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/creator"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/dcat#theme"/>
+  <rdf:Property rdf:about="http://purl.org/dc/terms/subject"/>
+  <rdf:Property rdf:about="http://www.w3.org/ns/adms#representationTechnique"/>
+  <rdf:Property rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
   <dcatapit:Distribution rdf:about="http://dati.gov.it/data/resource/Distribution/POICat_CSV">
     <dct:title xml:lang="it">Distribuzione CSV vocabolario controllato categorie punti di interesse </dct:title>
     <dct:title xml:lang="en">CSV distribution of the Point of Interest Categories controlled vocabulary</dct:title>
