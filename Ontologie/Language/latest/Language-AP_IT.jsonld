@@ -388,7 +388,7 @@
 	{
 		"@language": "it",
 		"@value": "Ricettività"
-	},
+	}
 	] ,
 	"http://purl.org/dc/terms/title": [{
 		"@value": "Ontologia Lingue - Profilo applicativo italiano",
