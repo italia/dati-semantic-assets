@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Ontologies
 
 # Controls when the action will run.
 on:
@@ -26,7 +26,7 @@ jobs:
   test-onto-syntax:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v2
         with:
           python-version: '3.8'
@@ -38,12 +38,16 @@ jobs:
   test-onto-latest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: '3.8'
-          architecture: 'x64'
-      - name: Run a script
-        run: |-
-          pip install pre-commit
-          pre-commit run -a validate-directory-versioning
+      - uses: actions/checkout@v4
+      - run: |-
+          cd Ontologie
+
+          diff_found=0
+          for i in */; do
+            dir=$(ls -dv  $i/*/ | grep -v 'latest/' | tail -1)
+            if ! diff -bur $i/$(basename $dir) $i/latest; then
+              diff_found=1
+            fi
+          done
+
+          [ $diff_found -eq 1 ] && (echo "one or more 'latest' directory in Ontologie/ differs from the last version directory"; exit 1)

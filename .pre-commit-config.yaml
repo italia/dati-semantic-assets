@@ -59,9 +59,6 @@ repos:
         ^VocabolariControllati/.*\.csv
       exclude: >-
         ^.*(scriptR2RML|vocs-deprecated).*
-  -   id: validate-directory-versioning
-      files: >-
-        ^Ontologie/.*/latest/.*\.ttl
   -   id: validate-turtle
       name: validate-turtle-ontologies
       files: >-
