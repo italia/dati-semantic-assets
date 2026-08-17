@@ -251,6 +251,7 @@ ndc:keyConcept
 <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy/ITA>
   a  	skos:Concept , clvapit:Country , clvapit:Feature , clvapit:AdminUnitomponent ;
   skos:notation "ITA" ;
+  skos:inScheme <https://w3id.org/italia/controlled-vocabulary/territorial-classifications/countries/italy> ;
   clvapit:hasRankOrder "1" ;
   clvapit:hasIdentifier <https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-3-ITA> , <https://w3id.org/italia/data/identifiers/countries-identifiers/ISO-2-IT> ;
   l0:name "Italia"@it , "Italy"@en, "Italie"@fr , "Italien"@de ;
