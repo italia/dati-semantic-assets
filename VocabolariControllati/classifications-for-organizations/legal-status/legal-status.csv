@@ -12,6 +12,7 @@ codice_1_livello,label_ITA_1_livello,codice_2_livello,label_ITA_2_livello,codice
 1.0,Forme disciplinate dal diretto privato,1.3,Società di capitali,1.3.20,Società a responsabilità limitata
 1.0,Forme disciplinate dal diretto privato,1.3,Società di capitali,1.3.30,Società a responsabilità limitata con un unico socio
 1.0,Forme disciplinate dal diretto privato,1.3,Società di capitali,1.3.40,Società in accomandita per azioni
+1.0,Forme disciplinate dal diretto privato,1.3,Società di capitali,1.3.50,Società per azioni con unico socio
 1.0,Forme disciplinate dal diretto privato,1.4,Società Cooperativa,1.4.10,Società cooperativa a mutualità prevalente
 1.0,Forme disciplinate dal diretto privato,1.4,Società Cooperativa,1.4.20,Società cooperativa diversa
 1.0,Forme disciplinate dal diretto privato,1.4,Società Cooperativa,1.4.30,Società cooperativa sociale
@@ -37,7 +38,7 @@ codice_1_livello,label_ITA_1_livello,codice_2_livello,label_ITA_2_livello,codice
 2.0,Forme disciplinate dal diritto pubblico,2.1,Organo costituzionale o a rilevanza costituzionale,2.1.00,Organo costituzionale o a rilevanza costituzionale
 2.0,Forme disciplinate dal diritto pubblico,2.2,Amministrazione dello Stato,2.2.10,Presidenza del consiglio
 2.0,Forme disciplinate dal diritto pubblico,2.2,Amministrazione dello Stato,2.2.20,Ministero
-2.0,Forme disciplinate dal diritto pubblico,2.2,Amministrazione dello Stato,2.2.20,Agenzia dello Stato
+2.0,Forme disciplinate dal diritto pubblico,2.2,Amministrazione dello Stato,2.2.30,Agenzia dello Stato
 2.0,Forme disciplinate dal diritto pubblico,2.2,Amministrazione dello Stato,2.2.40,Archivio notarile
 2.0,Forme disciplinate dal diritto pubblico,2.3,Autorità indipendente,2.3.00,Autorità indipendenti
 2.0,Forme disciplinate dal diritto pubblico,2.4,Regione e autonomia locale,2.4.10,Regione
@@ -60,4 +61,7 @@ codice_1_livello,label_ITA_1_livello,codice_2_livello,label_ITA_2_livello,codice
 2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.54,Ente per il turismo
 2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.55,Ente ambientale regionale
 2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.56,Ente per la ricerca e per l'aggiornamento educativo
+2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.57,Agenzia regionale sanitaria
+2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.58,Agenzia regionale per il lavoro
 2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.90,Altro ente pubblico non economico nazionale
+2.0,Forme disciplinate dal diritto pubblico,2.7,Ente pubblico non economico,2.7.91,Altro ente pubblico non economico locale
