@@ -1,0 +1,200 @@
+#
+# Validate the territorial-classifications controlled vocabularies
+#   (cities, provinces, regions, geographical distribution).
+#
+# Proposed in answer to italia/dati-semantic-assets#225: concept level
+#   SHACL rules for controlled vocabularies, mirroring the structure of
+#   the repository level rules.shacl files.
+#
+# Intended location: VocabolariControllati/territorial-classifications/rules.shacl
+#   so that the validate-turtle pre-commit hook applies it to the .ttl
+#   files in this directory tree.
+#
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix ndc: <https://w3id.org/italia/onto/NDC/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <https://localhost.example/TerritorialShacl> .
+
+ex:
+ a owl:Ontology ;
+  sh:declare [
+    sh:prefix "skos" ;
+    sh:namespace "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+  ] ;
+
+  sh:declare [
+      sh:prefix "clvapit" ;
+      sh:namespace "https://w3id.org/italia/onto/CLV/"^^xsd:anyURI ;
+  ] ;
+
+  sh:declare [
+      sh:prefix "dcatapit" ;
+      sh:namespace "http://dati.gov.it/onto/dcatapit#"^^xsd:anyURI ;
+  ] ;
+.
+
+#
+# Vocabulary (ConceptScheme) metadata, copied verbatim from
+#   VocabolariControllati/rules.shacl: the validator applies the nearest
+#   rules.shacl only, so this file must keep the parent coverage.
+#
+ex:VocabularyShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this a skos:ConceptScheme .
+        ?this a dcatapit:Dataset .
+      }
+      """ ;
+  ];
+
+  # Required elements according to
+  #   https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it
+  sh:property [ sh:path dct:identifier ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:title ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:description ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:modified; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dcat:theme; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:rightsHolder ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dct:accrualPeriodicity ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path dcat:distribution; sh:minCount 1 ; ] ;
+
+  # Optional elements, but required for publication in NDC.
+  sh:property [ sh:path dcat:keyword; sh:minCount 1 ; ] ;
+  sh:property [ sh:path owl:versionInfo; sh:minCount 1 ; ] ;
+  sh:property [ sh:path ndc:keyConcept; sh:minCount 1 ; ] ;
+  .
+
+#
+# Every concept in these vocabularies must carry the minimal
+#   lexical and structural properties.
+#
+ex:ConceptShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this a skos:Concept .
+      }
+      """ ;
+  ];
+
+  sh:property [ sh:path skos:notation ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; ] ;
+  sh:property [ sh:path skos:inScheme ; sh:minCount 1 ; ] ;
+  .
+
+#
+# City concepts use six digit ISTAT codes as notation.
+#
+ex:CityNotationShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this a clvapit:City .
+        ?this a skos:Concept .
+      }
+      """ ;
+  ];
+
+  sh:property [
+    sh:path skos:notation ;
+    sh:pattern "^[0-9]{6}$" ;
+    sh:message "A city concept notation must be a six digit ISTAT code." ;
+  ] ;
+  .
+
+#
+# A currently valid city concept must expose the cadastral code
+#   identifier alongside the ISTAT identifiers (see issue #296).
+#   Currently valid concepts are those whose validity interval ends at
+#   the sentinel date 9999-12-31.
+#
+ex:CurrentCityCadastralShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this a clvapit:City .
+        ?this clvapit:hasSOValidity ?interval .
+        FILTER(CONTAINS(STR(?interval), "(9999-12-31)"))
+      }
+      """ ;
+  ];
+
+  sh:sparql [
+    sh:message "A currently valid city concept must carry a cadastral-code identifier of the form letter plus three digits." ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT $this
+      WHERE {
+        FILTER NOT EXISTS {
+          $this clvapit:hasIdentifier ?id .
+          FILTER(REGEX(STR(?id), "cities-identifiers/cadastral-code/[A-Z][0-9]{3}$"))
+        }
+      }
+      """ ;
+  ] ;
+  .
+
+#
+# No ISTAT code may have two simultaneously open validity intervals:
+#   a code is either current once or closed.
+#
+ex:UniqueOpenIntervalShape
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+        ?this a clvapit:City .
+        ?this clvapit:hasSOValidity ?interval .
+        FILTER(CONTAINS(STR(?interval), "(9999-12-31)"))
+      }
+      """ ;
+  ];
+
+  sh:sparql [
+    sh:message "Two distinct concepts share the same notation and both have an open validity interval." ;
+    sh:prefixes ex: ;
+    sh:select """
+      SELECT $this
+      WHERE {
+        $this skos:notation ?code .
+        ?other skos:notation ?code .
+        ?other clvapit:hasSOValidity ?otherInterval .
+        FILTER(?other != $this)
+        FILTER(CONTAINS(STR(?otherInterval), "(9999-12-31)"))
+      }
+      """ ;
+  ] ;
+  .
